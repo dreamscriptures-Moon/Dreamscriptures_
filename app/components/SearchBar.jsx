@@ -32,9 +32,6 @@ export default function SearchBar() {
                 className="block px-6 py-4 hover:bg-[#FAF7F2] transition"
               >
                 <p className="font-medium">{item.title}</p>
-                <p className="text-sm text-[#6B6B6B]">
-                  {item.description.slice(0, 60)}...
-                </p>
               </Link>
             ))
           ) : (

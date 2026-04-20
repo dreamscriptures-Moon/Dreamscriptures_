@@ -2,6 +2,44 @@ import "./globals.css";
 import { Playfair_Display, Inter } from "next/font/google";
 import Script from "next/script";
 
+export const metadata = {
+  metadataBase: new URL("https://www.dreamscriptures.com"),
+  title: {
+    default: "Dreamscriptures",
+    template: "%s | Dreamscriptures",
+  },
+  description:
+    "Decode dreams, discover symbols, spiritual meanings, nightmares, love dreams, and deeper interpretations at Dreamscriptures.",
+openGraph: {
+  title: "Dreamscriptures",
+  description:
+    "Decode dreams, discover symbols and spiritual meanings.",
+  url: "https://www.dreamscriptures.com",
+  siteName: "Dreamscriptures",
+  images: [
+    {
+      url: "/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Dreamscriptures",
+    },
+  ],
+  type: "website",
+},
+twitter: {
+  card: "summary_large_image",
+  title: "Dreamscriptures",
+  description:
+    "Decode dreams, discover symbols and spiritual meanings.",
+  images: ["/og-image.jpg"],
+},
+icons: {
+  icon: "/favicon.ico",
+  shortcut: "/favicon.ico",
+  apple: "/favicon.ico",
+},
+  }
+
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair",
@@ -38,4 +76,5 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
+
 }

@@ -4,6 +4,9 @@ import SiteHeader from "@/app/components/SiteHeader";
 import { guides } from "@/app/data/guides";
 
 export const dynamic = "force-dynamic";
+export const metadata = {
+  title: "Dream Guides",
+}
 
 export default function GuidesPage() {
   return (

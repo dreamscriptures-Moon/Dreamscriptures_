@@ -9,6 +9,14 @@ export function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+  return {
+    title: slug.replace(/-/g, " "),
+  };
+}
+
 export default async function GuidePage({ params }) {
   const { slug } = await params;
   const guide = getGuideBySlug(slug);
