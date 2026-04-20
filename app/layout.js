@@ -1,6 +1,9 @@
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 import { Playfair_Display, Inter } from "next/font/google";
 import Script from "next/script";
+
 
 export const metadata = {
   metadataBase: new URL("https://www.dreamscriptures.com"),
@@ -59,7 +62,7 @@ export default function RootLayout({ children }) {
 
         {/* Google Analytics */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-996JMSEJE8"
+          src="https://www.googletagmanager.com/gtag/js?id=G-C8E9Y4L832"
           strategy="afterInteractive"
         />
 
@@ -69,7 +72,7 @@ export default function RootLayout({ children }) {
             function gtag(){dataLayer.push(arguments);}
             window.gtag = gtag;
             gtag('js', new Date());
-            gtag('config', 'G-996JMSEJE8');
+            gtag('config', 'G-C8E9Y4L832);
           `}
         </Script>
 

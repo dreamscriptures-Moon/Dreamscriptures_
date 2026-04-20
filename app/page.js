@@ -58,7 +58,7 @@ export default function Home() {
         <HomeSearch />
       </section>
 
-      <section className="max-w-3xl mx-auto px-6 py-20 md:py-32">
+      <section className="max-w-xl mx-auto px-6 py-18 md:py-22">
         <h2 className="text-4xl md:text-5xl mb-4 text-center font-serif">
           Popular dreams
         </h2>
@@ -115,6 +115,37 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+<a
+  href="/about"
+  className="block max-w-5xl mx-auto px-6 pb-24"
+>
+  <section className="bg-[#FAF8F5] border border-[#EAE6E1] rounded-2xl px-8 md:px-12 py-12 hover:border-[#C6A96B] transition duration-300">
+
+    <p className="text-[11px] uppercase tracking-[0.2em] text-[#8A8175] mb-4">
+      About DreamScriptures
+    </p>
+
+    <h2 className="text-3xl md:text-4xl font-serif leading-tight mb-5 text-[#1A1A1A]">
+      A more thoughtful way to understand dreams
+    </h2>
+
+    <p className="text-[#4A4A4A] max-w-2xl leading-relaxed text-base md:text-lg">
+      We explore dreams through symbolism, emotional patterns, spiritual traditions,
+      cultural perspectives, and modern dream research.
+    </p>
+
+    <div className="mt-8 inline-flex items-center gap-2 text-sm text-[#6B6B6B] group">
+      <span className="group-hover:text-[#1A1A1A] transition">
+        Learn more about our approach
+      </span>
+      <span className="group-hover:translate-x-1 transition">
+        →
+      </span>
+    </div>
+
+  </section>
+</a>
 
       <SiteFooter />
     </main>
