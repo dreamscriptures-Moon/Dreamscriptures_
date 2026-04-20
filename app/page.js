@@ -50,15 +50,15 @@ export default function Home() {
           signals to deeper symbolic patterns that shape your experience.
         </p>
 
-        <p className="text-[#BFA06A] text-sm tracking-wide uppercase mb-10">
-          Dreams do not follow one fixed meaning. What matters is what yours is
+       <p className="text-[11px] uppercase tracking-[0.24em] text-[#8A8175] mb-4">
+ Dreams do not follow one fixed meaning. What matters is what yours is
           reflecting.
         </p>
 
         <HomeSearch />
       </section>
 
-      <section className="max-w-xl mx-auto px-6 py-18 md:py-22">
+      <section className="max-w-xl mx-auto px-6 py-2 md:py-22">
         <h2 className="text-4xl md:text-5xl mb-4 text-center font-serif">
           Popular dreams
         </h2>
@@ -146,6 +146,21 @@ export default function Home() {
 
   </section>
 </a>
+<section className="max-w-xl mx-auto px-6 py-1 text-center">
+
+  <div className="border-t border-[#EAE6E1] pt-16">
+
+    <p className="font-serif text-3xl md:text-5xl leading-tight text-[#1A1A1A] max-w-3xl mx-auto">
+      “Dreams speak in symbols when words are no longer enough.”
+    </p>
+
+    <p className="mt-8 text-sm tracking-[0.18em] uppercase text-[#8A8175]">
+      DreamScriptures
+    </p>
+
+  </div>
+
+</section>
 
       <SiteFooter />
     </main>
