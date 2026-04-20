@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Playfair_Display, Inter } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   metadataBase: new URL("https://www.dreamscriptures.com"),
@@ -56,6 +57,7 @@ export default function RootLayout({ children }) {
       <body className={`${playfair.variable} ${inter.variable}`}>
         
         {children}
+        <Analytics />
 
         {/* Google Analytics */}
         <Script
