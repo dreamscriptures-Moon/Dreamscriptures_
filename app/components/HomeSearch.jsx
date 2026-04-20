@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
-import { dreams } from "@/data/dream";
+import { useEffect, useState } from "react";
+import { dreamSearchIndex } from "@/data/dreamSearchIndex";
 
 function truncate(text = "", words = 14) {
   return text.split(" ").slice(0, words).join(" ") + "...";
@@ -13,15 +13,25 @@ export default function HomeSearch() {
 
   const handleSearch = (value) => {
     setSearch(value);
-
-    if (value.length > 2 && typeof window !== "undefined" && window.gtag) {
-      window.gtag("event", "search", {
-        search_term: value,
-      });
-    }
   };
 
-  const filteredDreams = dreams.filter((dream) =>
+  useEffect(() => {
+    if (search.length <= 2) {
+      return;
+    }
+
+    const timeout = window.setTimeout(() => {
+      if (typeof window !== "undefined" && window.gtag) {
+        window.gtag("event", "search", {
+          search_term: search,
+        });
+      }
+    }, 400);
+
+    return () => window.clearTimeout(timeout);
+  }, [search]);
+
+  const filteredDreams = dreamSearchIndex.filter((dream) =>
     dream.title.toLowerCase().includes(search.toLowerCase())
   );
 
@@ -39,7 +49,7 @@ export default function HomeSearch() {
         {search && (
           <div className="absolute top-full left-0 w-full mt-2 bg-white border border-[#EAE6E1] rounded-xl shadow-md overflow-hidden z-50 text-left">
             {filteredDreams.length > 0 ? (
-              filteredDreams.map((dream) => (
+              filteredDreams.slice(0, 6).map((dream) => (
                 <Link
                   key={dream.slug}
                   href={`/dreams/${dream.slug}`}

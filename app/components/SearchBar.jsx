@@ -1,13 +1,29 @@
 "use client";
 
-import { useState } from "react";
-import { dreams } from "@/data/dream";
+import { useEffect, useState } from "react";
+import { dreamSearchIndex } from "@/data/dreamSearchIndex";
 import Link from "next/link";
 
 export default function SearchBar() {
   const [query, setQuery] = useState("");
 
-  const results = dreams.filter((item) =>
+  useEffect(() => {
+    if (query.length <= 2) {
+      return;
+    }
+
+    const timeout = window.setTimeout(() => {
+      if (typeof window !== "undefined" && window.gtag) {
+        window.gtag("event", "search", {
+          search_term: query,
+        });
+      }
+    }, 400);
+
+    return () => window.clearTimeout(timeout);
+  }, [query]);
+
+  const results = dreamSearchIndex.filter((item) =>
     item.title.toLowerCase().includes(query.toLowerCase())
   );
 
@@ -25,7 +41,7 @@ export default function SearchBar() {
         <div className="absolute left-6 right-6 mt-2 bg-white border border-[#EAE6E1] rounded-xl shadow-md overflow-hidden z-50">
 
           {results.length > 0 ? (
-            results.slice(0, 5).map((item) => (
+            results.slice(0, 6).map((item) => (
               <Link
                 key={item.slug}
                 href={`/dreams/${item.slug}`}

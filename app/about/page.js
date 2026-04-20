@@ -4,7 +4,8 @@ import SiteHeader from "@/app/components/SiteHeader";
 export default function AboutPage() {
   return (
    <main className="bg-[#FAF8F5] min-h-screen">
-         <SiteHeader />  <div className="max-w-3xl mx-auto">
+         <SiteHeader /> 
+          <div className="max-w-3xl mx-auto">
 
         <h1 className="text-4xl md:text-5xl font-serif mb-10">
           About DreamScriptures

@@ -46,8 +46,7 @@ export default function Home() {
         </h1>
 
         <p className="text-[#6B6B6B] text-base md:text-lg mb-8 leading-relaxed">
-          Search for your dream and explore what it might mean; from emotional
-          signals to deeper symbolic patterns that shape your experience.
+       Explore over 1000+ dream meanings through emotional, symbolic, spiritual, and waking-life perspectives
         </p>
 
        <p className="text-[11px] uppercase tracking-[0.24em] text-[#8A8175] mb-4">
