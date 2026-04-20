@@ -56,6 +56,7 @@ export default function RootLayout({ children }) {
       <body className={`${playfair.variable} ${inter.variable}`}>
         {children}
         <Analytics />
+        <SpeedInsights />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-C8E9Y4L832"
           strategy="afterInteractive"
