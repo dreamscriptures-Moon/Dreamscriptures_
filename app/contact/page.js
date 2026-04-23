@@ -4,23 +4,23 @@ import SiteHeader from "@/app/components/SiteHeader";
 const sections = [
   [
     "Reach out",
-    "If you have a question, suggestion, collaboration idea, or simply want to share your thoughts, you are welcome here. DreamScriptures is built with care, and every thoughtful message matters.",
+    "If you have a question, suggestion, collaboration idea, or simply want to connect, you are welcome here. DreamScriptures is built with care, and thoughtful messages are always appreciated.",
   ],
   [
-    "About responses",
-    "Messages are read with intention and appreciation. Response times may vary, but sincere inquiries are always valued.",
+    "Response times",
+    "Messages are read with attention and appreciation. While response times may vary, sincere inquiries are always valued.",
   ],
   [
     "Ideas & feedback",
-    "If something could feel clearer, softer, better, or more useful, feel free to say so. DreamScriptures continues to grow through honest feedback and shared insight.",
+    "If something could feel clearer, more useful, or more meaningful, feel free to share it. DreamScriptures grows through honest feedback and shared insight.",
   ],
   [
     "Collaborations",
-    "For partnerships, creative projects, features, or business inquiries, include a few details in your message so the right conversation can begin.",
+    "For partnerships, creative features, business opportunities, or media inquiries, include a few details so the right conversation can begin.",
   ],
   [
     "A final note",
-    "This space was created to feel calm, reflective, and meaningful. Thank you for taking the time to connect.",
+    "This space was created to feel calm, thoughtful, and meaningful. Thank you for taking the time to connect.",
   ],
 ];
 

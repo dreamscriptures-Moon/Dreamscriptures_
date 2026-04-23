@@ -42,16 +42,15 @@ export default function Home() {
 
       <section className="max-w-3xl mx-auto px-6 py-20 md:py-32 text-center">
         <h1 className="text-4xl md:text-5xl leading-tight mb-8 font-serif tracking-tight">
-          Dream meanings, symbols & interpretation
+          Dream meanings, symbols & deeper interpretation
         </h1>
 
         <p className="text-[#6B6B6B] text-base md:text-lg mb-8 leading-relaxed">
-       Explore over 1000+ dream meanings through emotional, symbolic, spiritual, and waking-life perspectives
+       Explore over Hundreds of dream meanings through emotional, symbolic, spiritual, and waking-life perspectives
         </p>
 
        <p className="text-[11px] uppercase tracking-[0.24em] text-[#8A8175] mb-4">
- Dreams do not follow one fixed meaning. What matters is what yours is
-          reflecting.
+ Dreams do not follow one fixed meaning.What matters most is what your dream may be reflecting.
         </p>
 
         <HomeSearch />
@@ -59,7 +58,7 @@ export default function Home() {
 
       <section className="max-w-xl mx-auto px-6 py-2 md:py-22">
         <h2 className="text-4xl md:text-5xl mb-4 text-center font-serif">
-          Popular dreams
+          Popular dreams meanings
         </h2>
         <div className="w-24 h-[1px] bg-[#C6A96B] mx-auto mb-8 opacity-60" />
 
@@ -112,6 +111,15 @@ export default function Home() {
               </span>
             </Link>
           ))}
+        </div>
+
+        <div className="mt-8 text-center">
+          <Link
+            href="/guides"
+            className="text-sm text-[#6B6B6B] hover:text-[#1A1A1A] transition"
+          >
+            Browse all guides →
+          </Link>
         </div>
       </section>
 

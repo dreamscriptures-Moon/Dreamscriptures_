@@ -1,6 +1,7 @@
-export const dynamic = "force-dynamic";
+export const revalidate = 86400;
 
 import Link from "next/link";
+import Script from "next/script";
 import SearchBar from "@/app/components/SearchBar";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
@@ -10,11 +11,15 @@ import { normalizeSlug } from "@/lib/normalizeSlug";
 export async function generateMetadata({ params } = {}) {
   const resolvedParams = await params;
   const metadataSlug = resolvedParams?.slug || "dream";
-  const title = String(metadataSlug).replace(/-/g, " ");
+  const dream = getDreamBySlug(metadataSlug);
+  const title = dream?.title || String(metadataSlug).replace(/-/g, " ");
+  const description =
+    dream?.description?.replace(/\s+/g, " ").trim() ||
+    `Explore what dreaming about ${title} might mean.`;
 
   return {
     title: `${title} dream meaning | DreamScriptures`,
-    description: `Explore what dreaming about ${title} might mean.`,
+    description,
   };
 }
 
@@ -35,6 +40,12 @@ function formatCategory(cat) {
   return cat.charAt(0).toUpperCase() + cat.slice(1);
 }
 
+function getDreamBySlug(slug = "") {
+  const normalizedSlug = normalizeForMatch(slug);
+
+  return dreams.find((item) => getDreamKeys(item).includes(normalizedSlug));
+}
+
 function getDreamKeys(item) {
   return [
     normalizeForMatch(item.slug),
@@ -52,10 +63,42 @@ function getCategoryKeys(categories = []) {
   );
 }
 
+function getParagraphs(text = "") {
+  return String(text)
+    .split(/\n+/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
+}
+
+function TextBlocks({
+  text,
+  className = "",
+  textClassName = "text-[#6B6B6B] text-base md:text-lg leading-relaxed",
+}) {
+  const paragraphs = getParagraphs(text);
+
+  if (paragraphs.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className={`space-y-4 ${className}`.trim()}>
+      {paragraphs.map((paragraph, index) => (
+        <p
+          key={`${index}-${paragraph.slice(0, 24)}`}
+          className={textClassName}
+        >
+          {paragraph}
+        </p>
+      ))}
+    </div>
+  );
+}
+
 export default async function DreamPage({ params }) {
   const resolvedParams = await params;
   const slug = String(resolvedParams?.slug || "").toLowerCase().trim();
-  const dream = dreams.find((item) => getDreamKeys(item).includes(slug));
+  const dream = getDreamBySlug(slug);
 
   if (!dream) {
     return (
@@ -88,7 +131,9 @@ export default async function DreamPage({ params }) {
     rankedRelatedDreams.length > 0
       ? rankedRelatedDreams.slice(0, 4)
       : dreams
-          .filter((item) => normalizeForMatch(item.slug) !== normalizeForMatch(dream.slug))
+          .filter(
+            (item) => normalizeForMatch(item.slug) !== normalizeForMatch(dream.slug)
+          )
           .slice(0, 4);
 
   const insightSections = [
@@ -97,6 +142,58 @@ export default async function DreamPage({ params }) {
     ["A deeper or Spiritual perspective", dream.spiritual],
     ["What this dream may reflect", dream.wakingLife],
   ].filter(([, body]) => body);
+  const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
+  const relatedDreamSections = relatedDreams.map((item) => {
+    const sharedCategories = getCategoryKeys(item.categories).filter((category) =>
+      dreamCategoryKeys.includes(category)
+    );
+
+    return {
+      ...item,
+      sharedCategories,
+    };
+  });
+
+  const faqItems = [
+    {
+      question: `What does dreaming about ${dreamTitle} usually mean?`,
+      answer:
+        dream.description ||
+        `Dreams about ${dreamTitle} are usually shaped by your emotions, symbols, and current life context.`,
+    },
+    {
+      question: `Which categories are connected to ${dreamTitle}?`,
+      answer:
+        dream.categories?.length > 0
+          ? `This dream is often linked to ${dream.categories.join(", ")}. Those categories can help narrow the interpretation, especially when they overlap with what you are feeling in waking life.`
+          : `This dream does not have category labels attached, so the best interpretation comes from the emotions and symbols in the dream itself.`,
+    },
+    {
+      question: `Is ${dreamTitle} more about emotions or real life?`,
+      answer:
+        dream.wakingLife ||
+        dream.emotional ||
+        `It can reflect both. Dreams often blend emotional states with waking-life experiences, so the clearest meaning usually comes from both together.`,
+    },
+    {
+      question: `How should I read repeated dreams about ${dreamTitle}?`,
+      answer:
+        `Recurring ${dreamTitle} dreams may point to a pattern, feeling, or situation that has not been fully resolved yet.`,
+    },
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  };
 
   return (
     <main className="bg-[#FAF8F5] min-h-screen">
@@ -105,11 +202,11 @@ export default async function DreamPage({ params }) {
 
       <article className="max-w-3xl mx-auto px-6 py-20 md:py-32">
         <h1 className="text-4xl md:text-5xl leading-tight font-serif">
-          What does dreaming about {dream.slug.replace(/-/g, " ")} mean?
+          What does dreaming about {dreamTitle} mean?
         </h1>
 
         <p className="text-sm text-[#6B6B6B] mt-2">
-          Dream interpretation and meaning
+          Emotional, symbolic, spiritual, and waking life interpretation
         </p>
 
         <p className="text-[#7A7A7A] text-base md:text-lg mt-5 leading-relaxed font-serif italic">
@@ -134,9 +231,7 @@ export default async function DreamPage({ params }) {
           </nav>
         )}
 
-        <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-16">
-          {dream.description}
-        </p>
+        <TextBlocks text={dream.description} className="mb-16" />
 
         <section className="space-y-16">
           {insightSections.map(([title, body]) => (
@@ -144,9 +239,7 @@ export default async function DreamPage({ params }) {
               <h2 className="font-serif text-4xl md:text-5xl mb-4">
                 {title}
               </h2>
-              <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">
-                {body}
-              </p>
+              <TextBlocks text={body} />
             </section>
           ))}
         </section>
@@ -156,11 +249,30 @@ export default async function DreamPage({ params }) {
             <p className="text-[11px] tracking-[0.2em] text-[#8A8175] uppercase mb-4">
               Summary
             </p>
-            <p className="font-serif text-base md:text-lg leading-relaxed text-[#2A2A2A]">
-              {dream.summary}
-            </p>
+            <TextBlocks
+              text={dream.summary}
+              className="max-w-2xl mx-auto font-serif"
+              textClassName="text-[#2A2A2A] text-base md:text-lg leading-relaxed"
+            />
           </section>
         )}
+
+        <section className="mt-16 border-t border-[#EAE6E1] pt-10">
+          <h2 className="font-serif text-2xl md:text-3xl mb-8">
+            Common questions
+          </h2>
+
+          <div className="space-y-8">
+            {faqItems.map((item) => (
+              <div key={item.question}>
+                <h3 className="font-medium text-base md:text-lg">
+                  {item.question}
+                </h3>
+                <TextBlocks text={item.answer} className="mt-2" />
+              </div>
+            ))}
+          </div>
+        </section>
 
         <p className="text-sm text-[#8A8A8A] mt-12 italic">
           Each dream is personal. Its meaning can shift depending on what you
@@ -173,7 +285,7 @@ export default async function DreamPage({ params }) {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-4">
-            {relatedDreams.map((item) => (
+            {relatedDreamSections.map((item) => (
               <Link
                 key={item.slug}
                 href={`/dreams/${normalizeSlug(item.slug || item.title)}`}
@@ -183,6 +295,11 @@ export default async function DreamPage({ params }) {
                 <span className="block text-sm text-[#6B6B6B] mt-1">
                   {item.description}
                 </span>
+                {item.sharedCategories.length > 0 && (
+                  <span className="block text-xs text-[#8A8A8A] mt-3 capitalize">
+                    Shared categories: {item.sharedCategories.join(", ")}
+                  </span>
+                )}
               </Link>
             ))}
           </div>
@@ -229,6 +346,11 @@ export default async function DreamPage({ params }) {
         </section>
       </article>
 
+      <Script
+        id="dream-faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <SiteFooter />
     </main>
   );

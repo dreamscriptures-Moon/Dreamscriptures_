@@ -2,6 +2,7 @@ import Link from "next/link";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { guides, getGuideBySlug } from "@/app/data/guides";
+import SearchBar from "@/app/components/SearchBar";
 
 export function generateStaticParams() {
   return guides.map((guide) => ({
@@ -11,9 +12,18 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
+  const guide = getGuideBySlug(slug);
+
+  if (!guide) {
+    return {
+      title: "Guides | DreamScriptures",
+      description: "Dream insights and meanings from DreamScriptures.",
+    };
+  }
 
   return {
-    title: slug.replace(/-/g, " "),
+    title: `${guide.title} | DreamScriptures`,
+    description: guide.description || guide.intro,
   };
 }
 
@@ -123,7 +133,7 @@ export default async function GuidePage({ params }) {
 
         {guide.actions?.length > 0 && (
           <section className="mb-16">
-            <h2 className="font-serif text-4xl md:text-5xl mb-4">
+            <h2 className="font-serif text-2xl md:text-3xl mb-4">
               What you can do with this
             </h2>
             <ul className="space-y-3 text-base md:text-lg">
@@ -139,7 +149,7 @@ export default async function GuidePage({ params }) {
 
         {guide.related?.length > 0 && (
           <section className="mt-16 border-t border-[#EAE6E1] pt-10">
-            <h2 className="font-serif text-4xl md:text-5xl mb-4">
+            <h2 className="font-serif text-2xl md:text-3xl mb-4">
               Continue exploring
             </h2>
             <div className="space-y-3 text-sm text-[#6B6B6B]">
@@ -160,6 +170,18 @@ export default async function GuidePage({ params }) {
           </section>
         )}
       </article>
+
+<section className="mt-20 border-t border-[#EAE6E1] pt-10 text-center">
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    Explore your own dream
+  </h2>
+
+  <p className="text-[#6B6B6B] mb-6">
+    Search a symbol, person, or dream theme.
+  </p>
+
+  <SearchBar />
+</section>
 
       <SiteFooter />
     </main>

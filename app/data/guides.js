@@ -103,6 +103,102 @@ export const guides = uniqueGuidesBySlug([
   related: ["how-to-remember-dreams"],
 },
 {
+  slug: "spiritual-dreams-meaning",
+  title: "Spiritual Dreams Meaning: What They May Be Reflecting",
+  description: "Explore what spiritual dreams may reflect through symbolism, emotion, and personal context.",
+
+  intro:
+    "Some dreams feel deeper than ordinary dreams. They may feel vivid, symbolic, emotional, or strangely memorable. While not every intense dream is spiritual, some dreams can feel connected to reflection, intuition, healing, or inner awareness.",
+
+  content: [
+    "Spiritual dreams often stay with you long after waking. They may carry strong emotion, unusual clarity, or symbolic imagery that feels meaningful.",
+    "Sometimes these dreams reflect personal growth, emotional healing, inner conflict, or a need to pay attention to something in waking life.",
+    "Meaning is rarely one-size-fits-all. The same dream can feel spiritual for one person and psychological for another."
+  ],
+
+  sections: [
+    {
+      title: "Signs a dream feels spiritual",
+      body: "Many people describe spiritual dreams as vivid, peaceful, symbolic, emotional, or unusually memorable. They may feel different from everyday dreams."
+    },
+    {
+      title: "Symbols matter more than literal events",
+      body: "Spiritual dreams often communicate through symbols rather than direct statements. Water, light, animals, doors, journeys, or voices may represent deeper themes."
+    },
+    {
+      title: "Personal context still matters",
+      body: "Your beliefs, emotional state, relationships, and life circumstances shape meaning. Context matters as much as symbols."
+    },
+    {
+      title: "How to reflect on the dream",
+      body: "Ask what emotions were strongest, what symbols stood out, and what in your current life feels connected."
+    }
+  ],
+
+  quickInsight:
+    "Not every powerful dream is spiritual, but meaningful dreams often invite reflection.",
+
+  reflection:
+    "What about the dream stayed with you after waking?",
+
+  actions: [
+    "Write the dream down before details fade.",
+    "Notice repeating symbols or emotions.",
+    "Reflect on current life transitions.",
+    "Use the dream as insight, not fear."
+  ],
+
+  related: ["why-we-dream"],
+},
+{
+  slug: "recurring-dreams",
+  title: "Recurring Dreams Meaning: Why the Same Dream Keeps Returning",
+  description: "Why recurring dreams happen, what repeating dreams may reflect, and how to understand the patterns behind them.",
+
+  intro:
+    "Recurring dreams often feel different from ordinary dreams. The details may change, but something familiar keeps returning — a place, a person, a feeling, or a situation that never fully resolves.",
+
+  content: [
+    "Recurring dreams are often connected to unresolved emotions, repeated stress patterns, or situations that still feel active internally.",
+    "They are usually less about predicting events and more about repeating emotional themes asking for attention.",
+    "The repetition itself can be meaningful, especially when the same feeling appears across different dream scenarios."
+  ],
+
+  sections: [
+    {
+      title: "Why dreams repeat",
+      body: "Dreams may repeat when the mind continues processing something unfinished, stressful, or emotionally active."
+    },
+    {
+      title: "The feeling matters most",
+      body: "Even when details change, the emotional tone often stays the same. That feeling can reveal the deeper pattern."
+    },
+    {
+      title: "Common recurring dream themes",
+      body: "Being chased, falling, losing control, being late, returning somewhere, or facing the same person repeatedly are common examples."
+    },
+    {
+      title: "How to respond",
+      body: "Notice what is repeating in waking life as well as the dream. Reflection often changes the pattern."
+    }
+  ],
+
+  quickInsight:
+    "Recurring dreams often continue until something within the pattern is acknowledged.",
+
+  reflection:
+    "What keeps repeating more — the storyline, or the feeling?",
+
+  actions: [
+    "Write down recurring elements.",
+    "Notice emotional triggers in waking life.",
+    "Look for patterns instead of literal meanings.",
+    "Reflect without fear."
+  ],
+
+  related: ["dreams-and-emotions", "why-we-dream"],
+},
+{
   slug: "how-to-remember-dreams",
   title: "How to remember your dreams (simple techniques that work)",
   description: "Learn how to remember dreams better with simple, proven techniques. Improve dream recall and stop forgetting your dreams.",

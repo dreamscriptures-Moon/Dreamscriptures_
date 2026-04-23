@@ -4,23 +4,31 @@ import SiteHeader from "@/app/components/SiteHeader";
 const sections = [
   [
     "Use of this site",
-    "DreamScriptures is created for insight, reflection, and personal exploration. The content is not intended as professional advice, medical guidance, or psychological diagnosis.",
+    "DreamScriptures is provided for informational, reflective, and personal exploration purposes. Content on this website is not professional medical, psychological, legal, or financial advice.",
   ],
   [
     "Interpretation is personal",
-    "Dream meanings are not fixed. They can shift depending on your experiences, emotions, and current life context. What resonates with you may not be universal, and that is part of the process.",
+    "Dream meanings are not fixed or universal. Interpretations may vary depending on personal experiences, emotions, beliefs, and life circumstances. What resonates with one person may not apply to another.",
+  ],
+  [
+    "No guarantees",
+    "While we aim to provide thoughtful and accurate content, DreamScriptures makes no guarantees regarding completeness, reliability, or outcomes based on the use of any interpretation shared on this site.",
   ],
   [
     "Your responsibility",
-    "By using this site, you acknowledge that how you interpret and apply any meaning is your own responsibility. This space offers perspective, not certainty.",
+    "Any decisions or actions you take based on content from this website remain your own responsibility. DreamScriptures provides perspective and reflection, not certainty or instruction.",
+  ],
+  [
+    "Content ownership",
+    "Unless otherwise stated, written content, branding, and original materials on DreamScriptures belong to this website and may not be copied or republished without permission.",
   ],
   [
     "Content changes",
-    "Content may evolve over time as new insights are added or refined. DreamScriptures reserves the right to update or adjust content without notice.",
+    "We may update, revise, remove, or expand content at any time as the website evolves.",
   ],
   [
     "A final note",
-    "This platform is built to feel thoughtful, calm, and open, not prescriptive. Take what feels true, and leave what does not.",
+    "This platform is designed to feel thoughtful, calm, and open-minded. Take what is meaningful to you, and leave what is not.",
   ],
 ];
 
