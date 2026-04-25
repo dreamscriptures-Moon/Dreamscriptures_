@@ -2819,6 +2819,332 @@ If the dream repeats, it may be pointing to something that feels out of place in
   summary: `A sense of something important being out of place or no longer within reach. This dream often reflects disruption, instability, or scattered attention. It highlights what you rely on — and how it feels when that sense of security is slightly shaken.`,
 
   categories: ["Fear", "Anxiety", "Work", "Money", "Spiritual"]
-}
+},
+{
+  slug: "snake-bite",
+  title: "Getting bitten by a snake",
+  description: "A snake biting you suddenly or directly. It can feel shocking, painful, or deeply unsettling — like something hidden has now affected you personally.",
+
+  emotional: `Dreams about a snake bite often carry immediate intensity.
+
+There’s usually a moment of shock. Something that may have been in the background is suddenly close, real, and unavoidable.
+
+It can bring fear, but also betrayal. Especially if the bite feels unexpected.
+
+Sometimes the strongest feeling is not pain, but surprise. Realizing something you sensed quietly has now become clear.
+
+There can also be anxiety afterward. Wondering what damage has been done, what it means, or whether it will spread.
+
+If the dream repeats, it may point to a wound that keeps being triggered. Not always physical — emotional, relational, or internal.`,
+
+  symbolic: `A snake bite in a dream often represents something hidden becoming direct.
+
+Snakes can symbolize fear, instinct, temptation, healing, deception, transformation, or unresolved tension. The bite suggests that whatever the snake represents is no longer distant.
+
+It can point to words that hurt, trust being broken, or something toxic finally affecting you.
+
+Sometimes it reflects awareness. Something you ignored or sensed quietly now demands attention.
+
+It can also represent change through discomfort. Certain shifts arrive sharply rather than gently.
+
+The location of the bite can add meaning.
+A hand may reflect action or trust.
+A foot may reflect direction or progress.
+The neck may reflect vulnerability or expression.`,
+
+  spiritual: `This kind of dream is interpreted in different ways.
+
+Some people see snake bites as spiritual attack, jealousy, hidden enemies, or negative energy trying to enter through fear.
+
+Others see it as awakening through discomfort — a forced awareness that brings truth to the surface.
+
+In many traditions, snakes also symbolize healing and rebirth. So the bite can represent painful transformation rather than pure danger.
+
+The feeling of the dream matters most. Did it feel dark and draining, or intense but revealing?`,
+
+  wakingLife: `This dream often shows up when something in your life has started to affect you personally.
+
+It could be a difficult relationship, hurtful words, stress, betrayal, or a situation you knew was unhealthy but could no longer ignore.
+
+You may also be feeling emotionally sensitive, reactive, or aware that something crossed a line.
+
+In some cases, it reflects internal conflict. A fear, habit, or pattern that keeps hurting you even when you want to move past it.
+
+If the dream repeats, it may be pointing to something unresolved that needs attention rather than avoidance.`,
+
+  summary: `A sense of something unsettling becoming personal and impossible to ignore. This dream often reflects betrayal, emotional wounds, hidden tension, or transformation that arrives through discomfort. It highlights where something has crossed from background awareness into direct impact.`,
+
+  categories: ["Animals", "Fear", "Anxiety", "Spiritual", "Transformation"]
+},
+{
+  slug: "being-chased-by-a-snake",
+  title: "Being chased by a snake",
+  description: "A snake following, pursuing, or chasing you while you try to get away. It often feels tense, urgent, and deeply uncomfortable — like something you don’t want to face is getting closer.",
+
+  emotional: `Dreams about being chased by a snake often carry sustained fear.
+
+Unlike a sudden bite, this dream stretches the feeling out. You know something is behind you, and that awareness alone creates pressure.
+
+There can be panic, but also exhaustion. Running, hiding, trying to escape something that doesn’t seem to stop.
+
+Sometimes the fear is specific. You know exactly what the snake is and why it scares you.
+
+Other times, it’s more mysterious. The threat feels real even if you don’t fully understand it.
+
+There can also be frustration. Feeling like no matter what you do, it keeps following.
+
+If the dream repeats, it may point to something emotionally unresolved that keeps returning in different forms.`,
+
+  symbolic: `Being chased by a snake in a dream often represents avoidance.
+
+The snake may symbolize fear, truth, jealousy, temptation, betrayal, healing, instinct, or a part of yourself you don’t fully want to confront.
+
+Because it is chasing you, the meaning often involves something active in your life that you are trying to outrun.
+
+It can point to stress you keep postponing, emotions you keep suppressing, or a person or situation that feels threatening.
+
+Sometimes, it reflects transformation resisted. Certain changes follow you until they are faced.
+
+It can also represent intuition. Something inside you knows an issue exists, even if your conscious mind keeps moving away from it.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some people see a chasing snake as spiritual warfare, envy, hidden enemies, or negative energy pursuing your peace.
+
+Others interpret it as shadow work — the parts of yourself, fears, wounds, or truths that keep chasing you until they are acknowledged.
+
+Snakes also carry symbolism of renewal and awakening. In that sense, being chased can mean growth you’re not fully ready for yet.
+
+The feeling matters most. Did it feel malicious, overwhelming, or more like something inevitable?`,
+
+  wakingLife: `This dream often shows up when there is something in your life you don’t want to deal with, but can no longer ignore.
+
+It could be anxiety, relationship tension, conflict, pressure, guilt, a difficult conversation, or a decision you keep delaying.
+
+You may also feel mentally chased by stress — always trying to catch up or stay ahead of something.
+
+In some cases, it reflects a person whose behavior feels intrusive, manipulative, or emotionally draining.
+
+If the dream repeats, it may be pointing to a pattern: escaping instead of addressing what keeps returning.`,
+
+  summary: `A sense of something you’ve been avoiding continuing to follow you. This dream often reflects unresolved fear, emotional pressure, hidden conflict, or change that keeps demanding attention. It highlights how certain issues don’t disappear just because you run from them.`,
+
+  categories: ["Animals", "Fear", "Anxiety", "Spiritual", "Transformation"]
+},
+{
+  slug: "killing-a-snake",
+  title: "Killing a snake",
+  description: "Defeating or killing a snake that felt threatening, hidden, or dangerous. It can feel intense, relieving, or strangely calm — like something that had power over you no longer does.",
+
+  emotional: `Dreams about killing a snake often carry strong emotional release.
+
+There is usually tension first, then a shift. Fear turns into action. Helplessness turns into control.
+
+It can feel relieving, especially if the snake frightened you before. Like something that kept creating pressure has finally been dealt with.
+
+Sometimes the feeling is anger rather than fear. Not random anger, but stored frustration finally moving outward.
+
+Other times, it feels calm and decisive. As if you already knew what had to be done.
+
+If the dream repeats, it may point to an ongoing internal battle where part of you is trying to reclaim power from something that has drained you.`,
+
+  symbolic: `Killing a snake in a dream often represents ending the influence of something toxic, deceptive, fearful, or unresolved.
+
+Snakes can symbolize fear, betrayal, hidden tension, temptation, jealousy, instinct, or transformation. Killing it suggests that whatever it represents is losing control over you.
+
+It can point to breaking a pattern, cutting ties, exposing deception, or standing up to something that once intimidated you.
+
+Sometimes, it reflects overcoming internal issues — anxiety, self-sabotage, old wounds, or destructive habits.
+
+It can also represent resistance to change. If the snake symbolizes transformation, killing it may mean rejecting a difficult growth process rather than embracing it.
+
+The feeling after killing it matters. Relief suggests freedom. Guilt or fear may suggest unfinished inner conflict.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some people see killing a snake as victory over enemies, spiritual attack, jealousy, manipulation, or dark influences.
+
+Others see it as conquering fear and reclaiming energy that had been tied up in stress or emotional wounds.
+
+Because snakes can also symbolize healing and rebirth, the dream may sometimes point to destroying an old version of yourself so something new can emerge.
+
+It can be a sign of protection, awakening, or finally refusing what no longer belongs in your life.`,
+
+  wakingLife: `This dream often shows up when you are confronting something directly.
+
+It could be leaving a toxic situation, setting boundaries, ending a draining relationship, overcoming fear, or dealing with stress that has lingered too long.
+
+You may also be regaining confidence after a period of feeling powerless.
+
+In some cases, it reflects internal progress. Breaking habits, seeing manipulation clearly, or refusing to keep shrinking around something difficult.
+
+If the dream repeats, it may mean the issue is not fully over yet, but your mindset toward it has changed.`,
+
+  summary: `A sense of power returning where fear once lived. This dream often reflects overcoming toxic influences, ending a painful pattern, or confronting something that no longer deserves control over your life. It highlights courage, clarity, and the shift from avoidance to action.`,
+
+  categories: ["Animals", "Fear", "Anxiety", "Spiritual", "Transformation"]
+},
+{
+  slug: "seeing-a-dead-snake",
+  title: "Seeing a dead snake",
+  description: "Coming across a snake that is already dead. It can feel relieving, strange, or unsettling — like something once threatening has lost its power, but still carries a presence.",
+
+  emotional: `Dreams about seeing a dead snake often carry mixed emotions.
+
+There can be relief, especially if the snake felt dangerous. Something that once created fear is no longer active.
+
+But there can also be unease. Even without movement, the snake still represents something that mattered enough to leave an impression.
+
+Sometimes the feeling is confusion. You may wonder what happened, who ended it, or whether it is truly gone.
+
+Other times, it feels peaceful. Like the tension has passed, even if the memory of it remains.
+
+If the dream repeats, it may point to something in your life that is over externally, but still emotionally present.`,
+
+  symbolic: `A dead snake in a dream often represents the end of a threat, pattern, deception, fear, or internal struggle.
+
+Snakes can symbolize hidden problems, betrayal, anxiety, temptation, transformation, or instinct. Seeing one dead suggests that what it represented has weakened or ended.
+
+It can point to healing after conflict, freedom from something toxic, or clarity after confusion.
+
+Sometimes, it reflects a chapter closing. A situation that once demanded your energy no longer has the same hold.
+
+It can also represent lost transformation. If the snake symbolizes growth or renewal, a dead snake may suggest resisting change or mourning something that could have become different.
+
+The state of the snake matters. Freshly dead may reflect something recent. Old or decayed may point to something long past that still lingers in memory.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some people see a dead snake as victory over spiritual attack, hidden enemies, jealousy, or negative forces that no longer have access to you.
+
+Others see it as the ending of an old identity, wound, or cycle that had to die for growth to happen.
+
+Because snakes also symbolize healing and rebirth, this dream can sometimes represent the completion of a transformation phase.
+
+It may be less about danger and more about what has already passed.`,
+
+  wakingLife: `This dream often shows up when something difficult has recently ended or is losing its influence.
+
+It could be a toxic relationship, stressful situation, fear, bad habit, draining environment, or emotional burden.
+
+You may be realizing that something which once felt powerful over you no longer has the same effect.
+
+In some cases, it reflects unfinished processing. The issue is over, but you are still emotionally making sense of it.
+
+If the dream repeats, it may be pointing to closure that happened externally but not fully internally yet.`,
+
+  summary: `Something that once felt threatening no longer carrying the same power. This dream often reflects endings, healing, closure, or freedom from a difficult influence. It highlights the difference between what is over and what still lingers emotionally.`,
+
+  categories: ["Animals", "Spiritual", "Transformation", "Fear", "Anxiety"]
+},
+{
+  slug: "seeing-a-snake-in-your-bed",
+  title: "Seeing a snake in your bed",
+  description: "Finding a snake in your bed or where you sleep. It can feel shocking, invasive, or deeply unsettling — like something has entered the space where you’re meant to feel safest.",
+
+  emotional: `Dreams about a snake in your bed often carry immediate discomfort.
+
+It’s not just fear of the snake itself. It’s where it is.
+
+The bed usually represents rest, privacy, softness, vulnerability. So when something threatening appears there, the feeling often becomes more personal.
+
+There can be betrayal in the emotion. Like danger is not outside somewhere — it’s close, hidden, already within your space.
+
+Sometimes the strongest feeling is violation. Something where you lower your guard no longer feels secure.
+
+Other times, it brings anxiety around intimacy. Especially if the dream carries tension rather than pure fear.
+
+If the dream repeats, it may point to an issue that follows you into rest — stress, distrust, unresolved emotions, or something you cannot fully switch off from.`,
+
+  symbolic: `A snake in your bed often represents hidden tension in your most private emotional space.
+
+Snakes can symbolize deception, instinct, temptation, healing, jealousy, transformation, fear, or suppressed truth. The bed adds themes of intimacy, relationships, rest, sexuality, and vulnerability.
+
+It can point to relationship distrust, emotional unease with someone close, or anxiety around closeness.
+
+Sometimes it reflects stress invading peace. Problems you carry into sleep, where the mind places them in the place meant for comfort.
+
+It can also symbolize hidden desires or fears around intimacy — especially if the dream feels charged rather than dangerous.
+
+In some cases, it reflects intuition. Feeling something is off in a close situation even if nothing obvious has happened.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some people see a snake in the bed as spiritual disturbance, jealousy affecting peace, or negative energy entering a place of rest.
+
+Others interpret it as shadow material surfacing in private moments — truths, fears, wounds, or desires that are easier to avoid during the day.
+
+Because snakes also symbolize awakening and healing, it can sometimes represent transformation entering your most personal life rather than staying external.
+
+The feeling matters most. Did it feel threatening, revealing, seductive, or simply alarming?`,
+
+  wakingLife: `This dream often shows up when something close to you feels unsettled.
+
+It could be relationship tension, trust concerns, intimacy issues, private stress, or emotional discomfort you haven’t fully named.
+
+You may also be carrying anxiety into rest. Trouble relaxing, switching off, or feeling fully safe.
+
+In some cases, it reflects someone in your life whose energy feels intrusive, manipulative, or emotionally complicated.
+
+If the dream repeats, it may be pointing to something private that needs attention rather than silence.`,
+
+  summary: `Something unsettling entering the place where you expect peace. This dream often reflects vulnerability, intimacy concerns, hidden tension, or stress affecting your sense of safety. It highlights what feels too close to ignore.`,
+
+  categories: ["Animals", "Love", "Relationships", "Fear", "Anxiety", "Spiritual"]
+},
+{
+  slug: "seeing-many-snakes",
+  title: "Seeing many snakes",
+  description: "Seeing several snakes at once, around you, moving nearby, or filling a space. It can feel overwhelming, tense, or deeply alerting — like too much is happening beneath the surface.",
+
+  emotional: `Dreams about many snakes often carry a feeling of overload.
+
+It is not always one clear fear. It can feel like multiple things needing your attention at once, making it harder to know where to focus.
+
+There can be anxiety in the uncertainty. One snake is easier to track. Many snakes create the feeling that danger could come from anywhere.
+
+Sometimes the dream feels chaotic. Movement everywhere, no clear place to stand, no easy sense of control.
+
+Other times, the fear is quieter but heavier. Like knowing too much is unresolved at the same time.
+
+If the dream repeats, it may point to stress building in layers rather than one single problem.`,
+
+  symbolic: `Many snakes in a dream often represent multiple tensions, hidden issues, or emotions surfacing together.
+
+Snakes can symbolize fear, deception, jealousy, healing, instinct, temptation, transformation, or truths that have been avoided. When there are many, the meaning often shifts from one issue to a pattern.
+
+It can point to feeling surrounded by stress, distrust, gossip, competing pressures, or situations that are difficult to read.
+
+Sometimes it reflects emotional complexity. Several things changing at once, making it hard to feel grounded.
+
+It can also represent heightened intuition. Becoming aware that more is happening beneath the surface than first appeared.
+
+The behavior of the snakes matters. Calm snakes suggest awareness. Aggressive snakes suggest pressure. Hidden snakes suggest uncertainty.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some people see many snakes as spiritual warfare, jealousy from multiple sources, toxic environments, or heavy energy around them.
+
+Others see it as mass awakening of what has been buried — fears, instincts, truths, and patterns all rising together to be seen.
+
+Because snakes also symbolize healing and rebirth, many snakes can sometimes reflect rapid transformation happening in several areas of life at once.
+
+The dream may feel threatening because growth often appears messy before it feels clear.`,
+
+  wakingLife: `This dream often shows up when life feels mentally or emotionally crowded.
+
+You may be dealing with several stressors at once — relationships, work pressure, money concerns, trust issues, or internal anxiety.
+
+It can also reflect an environment that feels tense, competitive, unpredictable, or emotionally draining.
+
+In some cases, it points to overstimulation. Too many thoughts, too many responsibilities, too many unresolved things in the background.
+
+If the dream repeats, it may be asking you to stop treating everything as one giant problem and identify what each “snake” actually is.`,
+
+  summary: `Too many underlying issues demanding attention at once. This dream often reflects overwhelm, layered anxiety, hidden tension, or multiple changes happening together. It highlights the need to separate what feels like one massive threat into individual realities you can actually face.`,
+
+  categories: ["Animals", "Fear", "Anxiety", "Spiritual", "Death", "Transformation"]
+},
+
 
 ];
