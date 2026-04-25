@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const navItems = [
-  ["Dream Dictionary", "/dream-dictionary"],
+  ["Dream Dictionary", "/dreams"],
   ["Categories", "/categories"],
   ["Guides", "/guides"],
   ["About", "/about"],

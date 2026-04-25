@@ -1,10 +1,9 @@
 "use client";
-
+import { useState} from "react"
 import Link from "next/link";
-import { useState } from "react";
 import { dreams } from "@/data/dream";
-import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
+import SiteFooter from "@/app/components/SiteFooter";
 
 function normalizeCategory(cat = "") {
   const c = cat.toLowerCase().trim();
@@ -49,11 +48,11 @@ export default function DreamDictionaryPage() {
   return (
   <main className="bg-[#FAF8F5] min-h-screen">
      <SiteHeader />
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto center px-6 py-12">
 
         {/* TITLE */}
-        <h1 className="text-4xl md:text-5xl font-serif mb-4">
-          Dream dictionary
+        <h1 className="text-4xl md:text-5xl font-serif mb-5">
+          Dreams dictionary
         </h1>
 
         <div className="w-12 h-[1px] bg-[#C6A96B] mb-6"></div>

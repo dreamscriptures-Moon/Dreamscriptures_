@@ -16,10 +16,14 @@ export async function generateMetadata({ params } = {}) {
   const description =
     dream?.description?.replace(/\s+/g, " ").trim() ||
     `Explore what dreaming about ${title} might mean.`;
+  const canonicalSlug = normalizeSlug(dream?.slug || dream?.title || metadataSlug);
 
   return {
     title: `${title} dream meaning | DreamScriptures`,
     description,
+   alternates: {
+  canonical: `https://www.dreamscriptures.com/dreams/${canonicalSlug}`,
+}
   };
 }
 

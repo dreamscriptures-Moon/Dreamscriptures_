@@ -18,12 +18,18 @@ export async function generateMetadata({ params }) {
     return {
       title: "Guides | DreamScriptures",
       description: "Dream insights and meanings from DreamScriptures.",
+      alternates: {
+        canonical: "/guides",
+      },
     };
   }
 
   return {
     title: `${guide.title} | DreamScriptures`,
     description: guide.description || guide.intro,
+    alternates: {
+      canonical: `/guides/${guide.slug}`,
+    },
   };
 }
 

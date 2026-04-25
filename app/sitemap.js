@@ -9,7 +9,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: "https://www.dreamscriptures.com/dreamdictionary",
+      url: "https://www.dreamscriptures.com/dreams",
       lastModified: new Date(),
     },
   ];

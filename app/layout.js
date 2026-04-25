@@ -6,6 +6,10 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   metadataBase: new URL("https://www.dreamscriptures.com"),
+  alternates: {
+    canonical: "/",
+
+  },
   title: {
     default: "Dreamscriptures",
     template: "%s | Dreamscriptures",
