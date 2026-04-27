@@ -36,6 +36,32 @@ export async function generateMetadata({ params }) {
 export default async function GuidePage({ params }) {
   const { slug } = await params;
   const guide = getGuideBySlug(slug);
+  const breadcrumbSchema = guide
+  ? {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.dreamscriptures.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Guides",
+          item: "https://www.dreamscriptures.com/guides",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: guide.title,
+          item: `https://www.dreamscriptures.com/guides/${guide.slug}`,
+        },
+      ],
+    }
+  : null;
 
   if (!guide) {
     return (
@@ -47,37 +73,63 @@ export default async function GuidePage({ params }) {
   }
 
   return (
-    <main className="bg-[#F7F5F2] min-h-screen">
-      <SiteHeader />
+   <main className="bg-[#F7F5F2] min-h-screen">
+  <SiteHeader />
 
-      <article className="max-w-3xl mx-auto px-6 py-20 md:py-32 text-[#3A3A3A] leading-relaxed">
-        <Link
-          href="/guides"
-          className="text-sm text-[#6B6B6B] hover:text-[#1A1A1A] mb-10 inline-block"
-        >
-          {"<-"} Back to guides
-        </Link>
+  {breadcrumbSchema && (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(breadcrumbSchema),
+      }}
+    />
+  )}
+      <article className="max-w-3xl mx-auto pt-10 pb-20 md:pt-16 md:pb-28 text-[#3A3A3A] leading-relaxed">
+       <nav
+  aria-label="Breadcrumb"
+  className="text-sm text-[#8A8175] mb-10 flex flex-wrap gap-2"
+>
+  <Link href="/" className="hover:text-[#C6A96B] transition-colors">
+    Home
+  </Link>
+
+  <span>›</span>
+
+  <Link href="/guides" className="hover:text-[#C6A96B] transition-colors">
+    Guides
+  </Link>
+
+  <span>›</span>
+
+  <span className="text-[#6B6B6B]">{guide.title}</span>
+</nav>
 
         <h1 className="text-4xl md:text-5xl font-serif mb-10 text-[#1A1A1A]">
           {guide.title}
         </h1>
 
-        {guide.sections?.length > 0 && (
-          <nav className="mb-10">
-            <p className="text-sm text-[#A89F91] mb-2">Navigate this guide</p>
-            <div className="flex flex-wrap gap-4 text-sm text-[#6B6B6B]">
-              {guide.sections.map((section, i) => (
-                <a
-                  key={section.title}
-                  href={`#section-${i}`}
-                  className="hover:text-[#C6A96B]"
-                >
-                  {section.title}
-                </a>
-              ))}
-            </div>
-          </nav>
-        )}
+       {guide.sections?.length > 0 && (
+  <nav className="mb-12 text-sm">
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">
+      On this page
+    </p>
+
+    <ul className="space-y-2 pl-4 relative">
+      <div className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]" />
+
+      {guide.sections.map((section, i) => (
+        <li key={section.title}>
+          <a
+            href={`#section-${i}`}
+            className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200"
+          >
+            {section.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
 
         <p className="text-xs tracking-widest text-[#A89F91] uppercase mb-8">
           Guide - 5 min read

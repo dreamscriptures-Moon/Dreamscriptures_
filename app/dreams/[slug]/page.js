@@ -140,13 +140,54 @@ export default async function DreamPage({ params }) {
           )
           .slice(0, 4);
 
-  const insightSections = [
-    ["How this dream might feel emotionally", dream.emotional],
-    ["What this dream could be reflecting", dream.symbolic],
-    ["A deeper or Spiritual perspective", dream.spiritual],
-    ["What this dream may reflect", dream.wakingLife],
-  ].filter(([, body]) => body);
+ const insightSections = [
+  {
+    id: "emotional-meaning",
+    title: "How this dream might feel emotionally",
+    body: dream.emotional,
+  },
+  {
+    id: "symbolic-meaning",
+    title: "What this dream could be reflecting",
+    body: dream.symbolic,
+  },
+  {
+    id: "spiritual-meaning",
+    title: "A deeper or Spiritual perspective",
+    body: dream.spiritual,
+  },
+  {
+    id: "real-life-meaning",
+    title: "What this dream may reflect",
+    body: dream.wakingLife,
+  },
+].filter((section) => section.body);
+
   const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.dreamscriptures.com/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Dream Meanings",
+      item: "https://www.dreamscriptures.com/dreams",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: dreamTitle,
+      item: `https://www.dreamscriptures.com/dreams/${normalizeSlug(dreamTitle)}`,
+    },
+  ],
+};
   const relatedDreamSections = relatedDreams.map((item) => {
     const sharedCategories = getCategoryKeys(item.categories).filter((category) =>
       dreamCategoryKeys.includes(category)
@@ -205,27 +246,110 @@ const faqSchema = {
 };
   return (
     <main className="bg-[#FAF8F5] min-h-screen">
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(breadcrumbSchema),
+  }}
+/>
       <SiteHeader sticky />
-      <SearchBar />
+     <nav aria-label="Breadcrumb" className="mb-6 text-sm text-[#8A8175]">
+  <ol className="flex flex-wrap items-center gap-2">
+    <li>
+      <Link href="/" className="hover:text-[#C6A96B] transition-colors">
+        Home
+      </Link>
+    </li>
 
+    <li>/</li>
+
+    <li>
+      <Link href="/dreams" className="hover:text-[#C6A96B] transition-colors">
+        Dreams
+      </Link>
+    </li>
+
+    <li>/</li>
+
+    <li className="text-[#6B6B6B]" aria-current="page">
+      {dreamTitle}
+    </li>
+  </ol>
+</nav>
+     
+      <SearchBar />
       <article className="max-w-3xl mx-auto px-6 py-20 md:py-32">
+      
         <h1 className="text-4xl md:text-5xl leading-tight font-serif">
-          What does dreaming about {dreamTitle} mean?
-        </h1>
+       Dreaming About {dreamTitle}: Meaning, Symbolism & Insight</h1>
 
         <p className="text-sm text-[#6B6B6B] mt-2">
-          Emotional, symbolic, spiritual, and waking life interpretation
-        </p>
+       Emotional, symbolic, spiritual, and waking life insights
+       </p>
+ <div className="w-14 h-[1px] bg-[#C6A96B] mt-2 mb-8 opacity-60" />
 
-        <p className="text-[#7A7A7A] text-base md:text-lg mt-5 leading-relaxed font-serif italic">
+<nav className="mb-8 text-sm">
+  <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">
+    On this page
+  </p>
+
+ <ul className="space-y-2 pl-4 relative">
+  <div className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]" /> <li>
+      <a href="#emotional-meaning" className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
+        Emotional meaning
+      </a>
+    </li>
+
+    <li>
+      <a href="#symbolic-meaning" className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
+        Symbolic meaning
+      </a>
+    </li>
+
+    <li>
+      <a href="#spiritual-meaning"className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
+        Spiritual meaning
+      </a>
+    </li>
+
+    <li>
+      <a href="#real-life-meaning" className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
+        Waking life meaning
+      </a>
+    </li>
+
+    <li>
+      <a href="#faqs"className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
+        FAQs
+      </a>
+    </li>
+
+    <li>
+      <a href="#related-dreams" className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
+        Related dreams
+      </a>
+    </li>
+  </ul>
+</nav>
+
+ <p className="text-xs tracking-widest text-[#A89F91] uppercase mb-8">
+          Guide - 7 min read
+        </p>
+<p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">
+  Quick description
+</p>
+
+<TextBlocks text={dream.description} className="mb-10" /> 
+
+<p className="text-[#7A7A7A] text-base md:text-lg mt-5 leading-relaxed font-serif italic">
           This dream often carries something deeper beneath the surface,
           something emotional, symbolic, or quietly unfolding in your waking
           life.
         </p>
 
-        <div className="w-14 h-[1px] bg-[#C6A96B] mt-5 mb-8 opacity-60" />
-
-        {dream.categories?.length > 0 && (
+        <div className="w-56 h-[1px] bg-[#C6A96B] mt-8 mb-10 opacity-60" />
+    
+    {dream.categories?.length > 0 && (
           <nav className="mb-8 flex flex-wrap gap-2">
             {dream.categories.map((cat) => (
               <Link
@@ -239,18 +363,21 @@ const faqSchema = {
           </nav>
         )}
 
-        <TextBlocks text={dream.description} className="mb-16" />
+      <section className="space-y-16">
+  {insightSections.map((section) => (
+    <section
+      key={section.id}
+      id={section.id}
+      className="border-t border-[#EAE6E1] pt-6 scroll-mt-28"
+    >
+      <h2 className="font-serif text-4xl md:text-5xl mb-4">
+        {section.title}
+      </h2>
 
-        <section className="space-y-16">
-          {insightSections.map(([title, body]) => (
-            <section key={title} className="border-t border-[#EAE6E1] pt-6">
-              <h2 className="font-serif text-4xl md:text-5xl mb-4">
-                {title}
-              </h2>
-              <TextBlocks text={body} />
-            </section>
-          ))}
-        </section>
+      <TextBlocks text={section.body} />
+    </section>
+  ))}
+</section>
 
         {dream.summary && (
           <section className="mt-20 md:mt-32 py-10 border-y border-[#EAE6E1] text-center">
@@ -265,8 +392,8 @@ const faqSchema = {
           </section>
         )}
 
-        <section className="mt-16 border-t border-[#EAE6E1] pt-10">
-          <h2 className="font-serif text-2xl md:text-3xl mb-8">
+       <section id="faqs" className="mt-16 border-t border-[#EAE6E1] pt-10 scroll-mt-28">
+         <h2 className="font-serif text-2xl md:text-3xl mb-8">
             Common questions
           </h2>
 
@@ -287,8 +414,8 @@ const faqSchema = {
           felt and what you are currently moving through.
         </p>
 
-        <section className="mt-16 border-t border-[#EAE6E1] pt-10">
-          <h2 className="font-serif text-4xl md:text-5xl mb-8">
+       <section id="related-dreams" className="mt-16 border-t border-[#EAE6E1] pt-10 scroll-mt-28">
+        <h2 className="font-serif text-4xl md:text-5xl mb-8">
             Related dreams
           </h2>
 

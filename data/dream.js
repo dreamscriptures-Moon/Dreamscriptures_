@@ -3145,6 +3145,58 @@ If the dream repeats, it may be asking you to stop treating everything as one gi
 
   categories: ["Animals", "Fear", "Anxiety", "Spiritual", "Death", "Transformation"]
 },
+{
+  slug: "a-dead-person-talking-to-you",
+  title: "A dead person talking to you",
+  description: "Someone who has passed away speaking to you in a dream. It can feel vivid, meaningful, comforting, or unsettling — as if the moment matters more than ordinary dreaming.",
 
+  emotional: `Dreams about a dead person talking often carry stronger emotion than expected.
+
+Sometimes there is comfort. Hearing their voice again, feeling their presence, or sensing connection can bring warmth and longing at the same time.
+
+Other times, the feeling is heavier. Grief that has not fully settled, unfinished emotions, or the shock of seeing someone who is no longer here.
+
+There can also be surprise in how real it feels. Not dramatic fear, but the sense that the dream is clearer or deeper than usual.
+
+If the person says little, the emotion may come more from presence than words.
+
+If the dream repeats, it may point to something still active emotionally — love, grief, guilt, questions, or the need for closure.`,
+
+  symbolic: `A dead person speaking in a dream often represents unfinished connection, memory, wisdom, or something from the past trying to reach consciousness.
+
+The person may symbolize themselves, especially if your bond was meaningful.
+
+They can also represent qualities associated with them — guidance, protection, regret, strength, unresolved pain, or family patterns.
+
+Sometimes the message matters directly. Other times, it is less about the words and more about what they awaken in you.
+
+Because the dead often symbolize endings and transformation, the dream can also point to a chapter closing or an old part of life resurfacing to be understood.
+
+The identity of the person matters. A parent, friend, stranger, or ancestor can shift the meaning significantly.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some people believe it is true visitation — a loved one checking in, offering comfort, warning, or reassurance.
+
+Others see it as the psyche using a familiar form to deliver emotional truth, guidance, or healing.
+
+In many traditions, dreams of the dead are treated with respect because they often arrive during periods of transition, grief, or inner change.
+
+Whether literal or symbolic, what matters most is how it felt. Peaceful dreams often comfort. Disturbing dreams may reflect unresolved emotion rather than danger.`,
+
+  wakingLife: `This dream often shows up when you are processing grief, memory, or change.
+
+You may be missing the person consciously or unconsciously, especially around anniversaries, family events, stress, or major life decisions.
+
+It can also appear when you need qualities they represented — advice, stability, love, courage, or protection.
+
+In some cases, it reflects unfinished feelings. Things left unsaid, unresolved conflict, or the wish for one more conversation.
+
+If the dream repeats, it may be pointing to healing that is still unfolding.`,
+
+  summary: `Connection with someone who is gone becoming emotionally present again. This dream often reflects grief, memory, unfinished bonds, guidance, or the return of something meaningful from the past. It highlights what still lives within you, even after loss.`,
+
+  categories: ["Spiritual","Transformation", "Love", "Relationships"]
+},
 
 ];
