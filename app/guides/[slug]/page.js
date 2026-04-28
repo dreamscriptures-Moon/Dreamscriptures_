@@ -71,7 +71,65 @@ export default async function GuidePage({ params }) {
       </main>
     );
   }
+function linkifyText(text = "") {
+  const mappings = [
+    {
+      phrase: "why we dream",
+      href: "/guides/why-we-dream",
+    },
+    {
+      phrase: "dream symbols",
+      href: "/guides/how-to-interpret-dream-symbols",
+    },
+    {
+      phrase: "spiritual dreams",
+      href: "/guides/spiritual-dreams-meaning",
+    },
+    {
+      phrase: "dreams and emotions",
+      href: "/guides/dreams-and-emotions",
+    },
+    {
+  phrase: "what dreams are",
+  href: "/guides/what-are-dreams",
+},
+{
+  phrase: "why dreams feel so real",
+  href: "/guides/why-dreams-feel-so-real",
+},
+{
+  phrase: "remember dreams",
+  href: "/guides/how-to-remember-dreams",
+},
+{
+  phrase: "recurring dreams",
+  href: "/guides/recurring-dreams",
+}
+  ];
 
+  let elements = [text];
+
+  mappings.forEach(({ phrase, href }) => {
+    elements = elements.flatMap((part) => {
+      if (typeof part !== "string") return [part];
+
+      const split = part.split(new RegExp(`(${phrase})`, "gi"));
+
+      return split.map((piece, i) => {
+        if (piece.toLowerCase() === phrase) {
+          return (
+            <Link key={i} href={href} className="text-[#C6A96B] hover:underline">
+              {piece}
+            </Link>
+          );
+        }
+        return piece;
+      });
+    });
+  });
+
+  return elements;
+}
   return (
    <main className="bg-[#F7F5F2] min-h-screen">
   <SiteHeader />
@@ -144,7 +202,9 @@ export default async function GuidePage({ params }) {
         {guide.content?.length > 0 && (
           <section className="space-y-6 text-base md:text-lg mb-16">
             {guide.content.map((paragraph, i) => (
-              <p key={i}>{paragraph}</p>
+             <p key={i}>
+  {linkifyText(paragraph)}
+</p>
             ))}
           </section>
         )}
@@ -163,9 +223,9 @@ export default async function GuidePage({ params }) {
                     v
                   </span>
                 </summary>
-                <p className="mt-4 text-base md:text-lg leading-relaxed">
-                  {section.body}
-                </p>
+                <p className="mt-4">
+  {linkifyText(section.body)}
+</p>
               </details>
             ))}
           </section>

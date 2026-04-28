@@ -1807,7 +1807,8 @@ In some cases, it’s about you — how secure you feel, how you see yourself, a
   {
   slug: "falling",
   title: "Falling",
-  description: "That sudden drop where everything slips out of your control. It can feel fast and unsettling, or strangely calm — like you’re moving through something you can’t fully stop.",
+  description: `Falling in a dream often brings a sudden loss of control, like something beneath you gives way and you cannot stop what is happening. It usually connects to instability, anxiety, pressure, or uncertainty in some area of life.
+The way the fall feels matters. Fearful falling can reflect stress or insecurity, while calm falling may point to letting go, surrender, or moving through change you do not fully understand yet.`,
 
   emotional: `Falling dreams often come up when something in your life feels unstable or out of your control. It can reflect anxiety, pressure, or a sense that you’re not fully grounded in a situation.
 If the fall feels sudden or frightening, it may point to fear of failure, being judged, or losing something important. When the fall feels calm or almost weightless, it can be more about letting go — releasing control or trusting a process you don’t fully understand yet.
@@ -3197,6 +3198,497 @@ If the dream repeats, it may be pointing to healing that is still unfolding.`,
   summary: `Connection with someone who is gone becoming emotionally present again. This dream often reflects grief, memory, unfinished bonds, guidance, or the return of something meaningful from the past. It highlights what still lives within you, even after loss.`,
 
   categories: ["Spiritual","Transformation", "Love", "Relationships"]
+},
+{
+  slug: "hand-falling-off",
+  title: "Hand falling off",
+  description: "A hand falling off in a dream often feels disturbing because hands are tied to action, independence, connection, and control. It usually connects to feeling powerless, unable to handle something, or losing confidence in your ability to manage an important part of life.\n\nThe way it happens matters. If it falls off suddenly, it can reflect shock or a sudden setback. If it weakens first or separates slowly, it may point to stress, burnout, or strength fading over time.",
+
+  emotional: `Dreams about a hand falling off often carry immediate alarm.
+
+There is usually a moment of disbelief. Something you rely on is suddenly gone, damaged, or no longer working the way it should.
+
+That can bring panic, helplessness, frustration, or vulnerability. Hands are how you do things, hold things, protect yourself, and interact with the world, so losing one can feel deeply personal.
+
+Sometimes the strongest feeling is powerlessness. Wanting to fix a situation but feeling unable to act effectively.
+
+Other times, the emotion is exhaustion. The dream may reflect carrying too much for too long until part of you feels unable to keep functioning the same way.
+
+If the dream repeats, it may point to ongoing pressure or a growing sense that your energy is being drained.`,
+
+  symbolic: `A hand falling off in a dream often represents loss of ability, confidence, control, or connection.
+
+Hands symbolize action, capability, work, generosity, creativity, and reaching toward others.
+
+Losing a hand can point to feeling ineffective, unsupported, or blocked from doing what you want to do.
+
+It may reflect work stress, financial concerns, or situations where your efforts do not seem to produce results.
+
+Sometimes it relates to relationships. Hands connect, hold, and comfort, so losing one can symbolize distance, separation, or difficulty maintaining closeness.
+
+It can also represent identity changes. If you define yourself through productivity or helping others, the dream may reflect fear of losing that role.
+
+Which hand matters too. The dominant hand may relate to confidence and outward ability. The other hand may relate more to support, receptivity, or private strength.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some people see a lost hand as energetic depletion, feeling disconnected from purpose, or giving too much without renewal.
+
+Others interpret it as a forced pause. Life removing old ways of acting so you can rebuild from a different foundation.
+
+Because hands are associated with creation and service, the dream can also point to rediscovering value beyond productivity.
+
+The feeling matters most. Fear may reflect insecurity. Calmness may suggest release from a role or burden that no longer fits.`,
+
+  wakingLife: `This dream often shows up when you feel unable to manage something the way you normally would.
+
+You may be dealing with work pressure, financial strain, emotional overload, or a situation where your usual strengths feel less effective.
+
+It can also appear when confidence has been shaken, especially if you pride yourself on being capable, independent, or helpful.
+
+In some cases, it reflects burnout. Giving energy outward while neglecting your own needs.
+
+If the dream repeats, it may be asking you to notice where you feel disempowered and where support is needed.`,
+
+  summary: `Your ability to act, provide, or stay in control feeling threatened. This dream often reflects powerlessness, burnout, blocked progress, or fear of losing independence. It highlights where pressure may be affecting your confidence and sense of capability.`,
+
+  categories: ["Body", "Fear", "Anxiety", "Work", "Money", "Death", "Transformation"]
+},
+{
+  slug: "teeth-falling-out",
+  title: "Teeth falling out",
+  description: `Teeth falling out in a dream often feels deeply unsettling because it touches identity, confidence, and stability all at once. It usually connects to anxiety, personal insecurity, stress, or fear of losing control in a situation that matters to you.
+
+The way it happens matters. If the teeth crumble suddenly, it can reflect pressure building over time. If they fall out one by one, it may point to gradual change, loss, or confidence wearing down slowly.`,
+
+  emotional: `Dreams about teeth falling out often carry immediate shock.
+
+There is usually a moment where you realize something important is changing and you cannot stop it. That can bring panic, embarrassment, helplessness, or a quiet sense of dread.
+
+Teeth are tied to how you present yourself, how you speak, and how secure you feel. Because of that, losing them in a dream can feel personal very quickly.
+
+Sometimes the strongest feeling is shame. Worrying how others will see you, or feeling exposed in a way you cannot hide.
+
+Other times, the emotion is stress. The dream may reflect pressure that has been building until your mind expresses it through something breaking down.
+
+If the dream repeats, it may point to ongoing anxiety that has not fully been addressed.`,
+
+  symbolic: `Teeth falling out in a dream often represents confidence, communication, appearance, or stability feeling shaken.
+
+Teeth help you bite, chew, speak, and smile. Symbolically, they relate to strength, self-expression, and how you hold yourself in the world.
+
+Losing them can point to fear of aging, insecurity about appearance, difficulty speaking up, or feeling less powerful than before.
+
+Sometimes it reflects transition. Old structures in your life no longer fitting, even if letting go feels uncomfortable.
+
+It can also represent words left unsaid. Feeling unable to express yourself clearly, or worrying that your voice carries less weight.
+
+The condition matters. Rotten teeth may reflect neglected issues. Healthy teeth falling out often points more strongly to stress or sudden insecurity.`,
+
+  spiritual: `This dream is interpreted in many ways across cultures.
+
+Some people see teeth falling out as a sign of fear, loss, or emotional burden being carried too long.
+
+Others interpret it as transformation. Something old is being removed so a new version of you can emerge, even if the process feels uncomfortable.
+
+Because teeth are linked to survival and strength, the dream can also reflect a temporary disconnection from inner confidence that is asking to be rebuilt from within.
+
+The feeling matters most. Panic may reflect anxiety. Calmness may suggest acceptance of necessary change.`,
+
+  wakingLife: `This dream often shows up during stressful or vulnerable periods.
+
+You may be dealing with pressure, insecurity, financial stress, relationship tension, appearance concerns, or situations where you feel judged.
+
+It can also appear when confidence has been shaken, especially if you are questioning your worth or how others see you.
+
+In some cases, it reflects communication issues. Wanting to say something important but holding back.
+
+If the dream repeats, it may be asking you to notice where anxiety is eroding your sense of stability more than you realize.`,
+
+  summary: `Confidence, security, or self-expression feeling shaken in a visible way. This dream often reflects stress, insecurity, communication struggles, or major personal change. It highlights where pressure may be affecting how steady and powerful you feel.`,
+
+  categories: ["Body", "Fear", "Anxiety", "Identity", "Death", "Transformation"]
+},
+{
+  slug: "being-in-a-forest",
+  title: "Being in a forest",
+  description: `Being in a forest in a dream often feels mysterious because forests represent the unknown, inner emotions, and paths that are not fully clear yet. It usually connects to searching, confusion, personal growth, or moving through a stage of life where not everything is visible.
+
+The way the forest feels matters. A peaceful forest can reflect healing and reflection. A dark or threatening forest often points to fear, uncertainty, or feeling lost within something deeper.`,
+
+  emotional: `Dreams about being in a forest often carry a strong sense of atmosphere.
+
+You may feel curious, cautious, calm, or uneasy depending on what surrounds you. Forests create the feeling that there is more present than what you can immediately see.
+
+Sometimes the strongest emotion is uncertainty. Not knowing where the path leads, what is nearby, or how to get out.
+
+Other times, the feeling is peace. Being away from noise, expectations, or distractions can make the forest feel like retreat.
+
+There can also be loneliness. Even if the dream is not frightening, being surrounded by vastness can reflect emotional isolation or feeling alone in your current path.
+
+If the dream repeats, it may point to an inner process that is still unfolding and not yet fully understood.`,
+
+  symbolic: `A forest in a dream often represents the unconscious mind, hidden emotions, personal growth, and life paths that are still developing.
+
+Trees symbolize roots, stability, wisdom, and long-term growth. A forest gathers many of these symbols together, making it a place of depth and complexity.
+
+Being inside it can point to navigating uncertainty, searching for answers, or moving through a period where clarity is limited.
+
+Sometimes it reflects healing. Nature settings in dreams often appear when the mind needs restoration.
+
+It can also represent feeling overwhelmed. Too many choices, too many thoughts, or no clear direction.
+
+The details matter. Dense forest may reflect confusion. Sunlight through trees can reflect hope or insight. A clear trail may suggest progress.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some people see forests as sacred inner spaces where wisdom, intuition, and hidden truths can be found.
+
+Others interpret them as initiation spaces. A period of life where you must move through uncertainty before reaching greater clarity.
+
+Because forests are living systems, the dream can also symbolize reconnection with your natural self beyond roles, pressure, and outside noise.
+
+The feeling matters most. Fear may suggest resistance to the unknown. Calmness may suggest trust in your current journey.`,
+
+  wakingLife: `This dream often shows up when life feels unclear or emotionally layered.
+
+You may be facing decisions, transitions, healing, or situations where the next step is not obvious.
+
+It can also appear when you need space from stress, overstimulation, or outside demands.
+
+In some cases, it reflects personal growth happening quietly. You may not see immediate results, but something is developing beneath the surface.
+
+If the dream repeats, it may be asking you to trust the process of finding your way instead of needing instant certainty.`,
+
+  summary: `Moving through a space where not everything is clear yet. This dream often reflects uncertainty, inner growth, emotional depth, or the search for direction. It highlights that some paths reveal themselves gradually rather than all at once.`,
+
+  categories: ["Spiritual", "Fear", "Anxiety", "Death", "Transformation"]
+},
+{
+  slug: "looking-at-a-river",
+  title: "Looking at a river",
+  description: `Looking at a river in a dream often feels reflective because rivers symbolize emotions, life movement, time, and change. It usually connects to where life is flowing right now, what you are processing emotionally, or how you feel about change unfolding around you.
+
+The condition of the river matters. A calm river can reflect peace and emotional balance. A rough, dirty, or fast-moving river often points to stress, uncertainty, or emotions that feel harder to manage.`,
+
+  emotional: `Dreams about looking at a river often carry a quiet emotional tone.
+
+Unlike dreams where you are drowning or being swept away, standing and observing the river creates distance. You are aware of emotion or change, but not fully consumed by it.
+
+Sometimes the strongest feeling is calm. Watching movement without needing to control it can reflect emotional maturity or temporary peace.
+
+Other times, the feeling is sadness or longing. Rivers often evoke time passing, people leaving, or chapters moving on.
+
+There can also be uncertainty. Watching something flow while not knowing whether to cross, enter, or remain where you are.
+
+If the dream repeats, it may point to emotions you are noticing more clearly but have not fully acted on yet.`,
+
+  symbolic: `A river in a dream often represents emotional flow, life direction, time, and transition.
+
+Looking at it suggests awareness rather than direct involvement. You may be observing a situation, understanding your feelings, or considering a change without stepping into it yet.
+
+It can point to transitions already in motion. Something is moving whether you act immediately or not.
+
+Sometimes it reflects acceptance. Recognizing that certain things must unfold naturally.
+
+It can also represent hesitation. Seeing where life could move but not feeling ready to engage.
+
+The details matter. A wide river may reflect larger life changes. A narrow river may point to manageable emotional movement. A bridge nearby can symbolize choices or crossing into a new phase.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some people see rivers as symbols of spiritual cleansing, wisdom, and surrender to life’s natural movement.
+
+Others interpret them as reminders that life is always changing, even when you feel still.
+
+Because water often reflects the inner world, looking at a river can symbolize becoming more conscious of your emotions without being ruled by them.
+
+The feeling matters most. Peace may suggest trust in timing. Restlessness may suggest resistance to change already underway.`,
+
+  wakingLife: `This dream often shows up during periods of reflection or transition.
+
+You may be thinking about where life is heading, processing emotions, or considering changes without fully committing yet.
+
+It can also appear when you need to slow down and observe instead of forcing answers.
+
+In some cases, it reflects healing. Emotions that once felt blocked may now be moving again.
+
+If the dream repeats, it may be asking you to notice whether you are meant to watch for now, or whether it is time to step forward.`,
+
+  summary: `Watching change, emotion, or life movement from a place of awareness. This dream often reflects reflection, transition, emotional processing, or the recognition that some things are already unfolding. It highlights the balance between observing and participating in your own next chapter.`,
+
+  categories: ["Spiritual", "Transformation", "Fear", "Anxiety"]
+},
+{
+  slug: "killing-yourself",
+  title: "Killing yourself",
+  description: `Dreaming about killing yourself often feels intense because it touches endings, identity, pressure, and the desire for escape all at once. It usually does not predict literal harm. More often, it connects to wanting a painful chapter to end, feeling overwhelmed, or needing major change.
+
+The way it happens matters. If it feels desperate, it can reflect emotional exhaustion or trapped feelings. If it feels calm or symbolic, it may point more strongly to transformation and leaving an old version of life behind.`,
+
+  emotional: `Dreams about killing yourself often carry powerful emotion.
+
+There may be sadness, fear, numbness, relief, or shock. Sometimes the strongest feeling is not death itself, but wanting something unbearable to stop.
+
+It can reflect pressure that has built quietly for too long. Responsibilities, emotional pain, inner conflict, or feeling unable to continue as things are.
+
+Sometimes the dream carries helplessness. Other times, it carries control — as if the mind is imagining ending what feels unmanageable.
+
+There can also be grief. Part of you knows something needs to change, but change can still feel like loss.
+
+If the dream repeats, it may point to ongoing emotional strain or a part of life that feels unsustainable.`,
+
+  symbolic: `Killing yourself in a dream often represents ending an identity, pattern, role, or chapter rather than literal death.
+
+Death in dreams commonly symbolizes transformation. When it is yourself, the focus is often on self-concept.
+
+It can point to wanting to leave behind old habits, painful relationships, people-pleasing, shame, or a version of yourself that no longer fits.
+
+Sometimes it reflects self-criticism. Harsh inner thoughts trying to erase parts of yourself rather than heal them.
+
+It can also represent escape. Wanting distance from pressure without yet knowing another path.
+
+The details matter. Being rescued may reflect hope. Regret in the dream may reflect desire to live differently rather than disappear.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some people see it as symbolic rebirth — an old self ending so a truer self can emerge.
+
+Others view it as a warning from the inner world that emotional pain, burnout, or disconnection needs attention now.
+
+Because death symbolism often relates to cycles, this dream can point to necessary endings: beliefs, attachments, identities, or patterns.
+
+The feeling matters most. Terror may reflect overwhelm. Calmness may reflect readiness for deep change.`,
+
+  wakingLife: `This dream often shows up during periods of stress, depression, identity crisis, burnout, or major transition.
+
+You may feel trapped in a job, relationship, routine, mindset, or emotional state that no longer works.
+
+It can also appear when you are carrying pain privately or judging yourself harshly.
+
+In some cases, it reflects genuine mental health strain and the need for support, rest, or honest conversation.
+
+If the dream repeats, it may be asking you not to end yourself, but to end what is hurting you.`,
+
+  summary: `A part of life feeling like it cannot continue in the same form. This dream often reflects overwhelm, emotional pain, the desire for escape, or deep transformation. It highlights where something needs to end — not your life, but a pattern, burden, or identity that is no longer sustainable.`,
+
+  categories: ["Spiritual", "Death", "Transformation", "Fear", "Anxiety", "Identity"]
+},
+{
+  slug: "climbing-a-mountain",
+  title: "Climbing a mountain",
+  description: "Mountains often symbolize challenges, ambition, perspective, and personal growth. Climbing one can reflect effort toward an important goal, pushing through obstacles, or working toward something that feels meaningful but demanding.\n\nThe way the climb feels matters. A steady climb can suggest progress and determination, while a difficult or exhausting climb often points to pressure, setbacks, or how heavy a current challenge feels.",
+
+  emotional: `Dreams about climbing a mountain often carry effort more than fear.
+
+There is usually awareness that something worthwhile is not easy to reach. Each step can reflect patience, persistence, and the emotional weight of working toward something important.
+
+Sometimes the strongest feeling is determination. Even if the climb is hard, part of you knows why you are doing it.
+
+Other times, the emotion is exhaustion. You may feel tired of pushing, carrying responsibility, or trying to prove yourself.
+
+There can also be frustration if the top never seems closer. That often reflects real-life goals that require more time than expected.
+
+If the dream repeats, it may point to a long-term challenge shaping your mindset more than you realize.`,
+
+  symbolic: `Climbing a mountain in a dream often represents striving toward achievement, maturity, healing, or higher understanding.
+
+Mountains symbolize obstacles and elevated perspective. Climbing suggests you are actively engaging with the challenge rather than avoiding it.
+
+It can point to career goals, personal healing, financial progress, education, or emotional growth that requires sustained effort.
+
+Sometimes it reflects self-worth. Wanting to reach a level where you feel proud, secure, or accomplished.
+
+It can also represent spiritual growth. Rising above old habits, distractions, or lower states of thinking.
+
+The details matter. Reaching the top can symbolize success or clarity. Slipping may reflect setbacks. Carrying heavy items can symbolize burdens slowing progress.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some people see mountains as sacred symbols of wisdom, discipline, and closeness to truth. Climbing one can represent an inner calling toward growth.
+
+Others interpret it as a reminder that meaningful change often happens gradually through effort rather than sudden miracles.
+
+Because mountains rise above the ordinary landscape, the dream can also symbolize seeing life from a higher perspective after struggle.
+
+The feeling matters most. Peace during the climb may suggest alignment. Desperation may suggest pressure without balance.`,
+
+  wakingLife: `This dream often shows up when you are working toward something difficult but meaningful.
+
+You may be dealing with career pressure, financial goals, healing, education, family responsibilities, or personal transformation that takes time.
+
+It can also appear when you are pushing yourself hard and need recognition for how far you have already come.
+
+In some cases, it reflects ambition mixed with fatigue. Wanting success while feeling the cost of the journey.
+
+If the dream repeats, it may be asking you to focus less on how far is left and more on the progress already made.`,
+
+  summary: `Working steadily toward something that requires strength, patience, and commitment. This dream often reflects ambition, personal growth, long-term challenges, or the desire to rise above present limitations. It highlights progress made through persistence rather than speed.`,
+
+  categories: ["Spiritual", "Work", "Money", "Fear", "Anxiety"]
+},
+{
+  slug: "climbing-a-tree",
+  title: "Climbing a tree",
+  description: "Trees often symbolize growth, roots, family, stability, and personal development. Climbing one can reflect reaching for something higher, gaining perspective, or trying to improve your position through effort and courage.\n\nThe way the climb feels matters. A smooth climb can suggest confidence and progress, while struggling, slipping, or fear of falling often points to insecurity, pressure, or uncertainty about your next step.",
+
+  emotional: `Dreams about climbing a tree often carry a mix of effort and vulnerability.
+
+Unlike a mountain, a tree can feel more personal and less predictable. It bends, sways, and depends on balance, which can make the climb feel more exposed.
+
+Sometimes the strongest feeling is excitement. Rising higher can reflect confidence, curiosity, or the desire to see life differently.
+
+Other times, the emotion is nervousness. You may feel one wrong move could set you back, which often mirrors real-life situations where progress feels less secure.
+
+There can also be pride. Reaching higher through your own effort can reflect growing self-belief.
+
+If the dream repeats, it may point to a personal goal or growth process that feels rewarding but slightly unstable.`,
+
+  symbolic: `Climbing a tree in a dream often represents growth, perspective, and reaching upward from where you are now.
+
+Trees are rooted in the ground while stretching upward, making them symbols of balance between stability and aspiration.
+
+Climbing one can point to personal development, family matters, spiritual growth, or trying to rise above current limitations.
+
+Sometimes it reflects ambition in a more natural or personal sense than climbing a mountain. Less about conquest, more about growth.
+
+It can also represent reconnecting with instincts, childhood confidence, or simpler forms of wisdom.
+
+The details matter. A strong tree may reflect dependable support. A weak tree may suggest unstable foundations. Reaching the top can symbolize insight or achievement.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some people see trees as symbols of life force, wisdom, ancestry, and connection between earth and higher awareness. Climbing one can represent spiritual expansion while staying rooted.
+
+Others interpret it as a reminder that real growth requires both roots and reach. Stability below, movement above.
+
+Because trees grow gradually, the dream can also symbolize progress that may be slow but deeply lasting.
+
+The feeling matters most. Joy may suggest alignment with growth. Fear may suggest rising faster than you feel ready for.`,
+
+  wakingLife: `This dream often shows up when you are trying to improve your position or see life more clearly.
+
+You may be pursuing goals, building confidence, navigating family dynamics, or seeking a better perspective on something important.
+
+It can also appear during personal growth periods where you feel progress, but not total security yet.
+
+In some cases, it reflects the desire to rise above stress, limitations, or old patterns.
+
+If the dream repeats, it may be asking you to trust your growth while also strengthening your foundation.`,
+
+  summary: `Growing upward through effort while staying connected to what supports you. This dream often reflects personal development, confidence-building, gaining perspective, or reaching for something meaningful. It highlights progress that depends on both courage and stability.`,
+
+  categories: ["Spiritual", "Fear", "Anxiety", "Identity"]
+},
+{
+  slug: "jumping-off-a-bridge",
+  title: "Jumping off a bridge",
+  description: "Bridges often symbolize transitions, decisions, and movement between one stage of life and another. Jumping off one can reflect leaving something suddenly, taking an emotional risk, or feeling pushed to make a drastic move when standing in between no longer feels possible.\n\nThe feeling of the jump matters. Choosing to jump can suggest urgency or a desire for freedom, while being forced or terrified during the fall often points to pressure, fear, or loss of control.",
+
+  emotional: `Dreams about jumping off a bridge often carry intense emotional energy.
+
+There is usually a breaking point in the dream. Remaining where you are no longer feels sustainable, so movement happens quickly.
+
+Sometimes the strongest feeling is relief. Letting go of pressure, expectation, or something that has weighed on you for too long.
+
+Other times, the emotion is fear. Once the jump happens, you may realize how uncertain the outcome is.
+
+There can also be desperation. Feeling trapped between options and acting because standing still feels worse.
+
+If the dream repeats, it may point to ongoing tension where part of you wants escape while another part wants stability.`,
+
+  symbolic: `Jumping off a bridge in a dream often represents drastic transition, surrender, emotional release, or rejecting the path you were on.
+
+A bridge connects two places. It symbolizes crossing from old circumstances into something new. Leaving the bridge abruptly can suggest impatience with the process, fear of the destination, or a need to choose your own route.
+
+It can point to ending relationships, quitting a job, abandoning old identity roles, or stepping away from expectations.
+
+Sometimes it reflects risk-taking. Choosing uncertainty over remaining in a situation that no longer feels right.
+
+It can also represent emotional overwhelm. If the bridge feels unstable, the jump may symbolize wanting out of stress rather than wanting danger.
+
+The landing matters. Water below often connects to emotions. Hard ground can reflect fear of consequences. Flying may symbolize liberation.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some people see it as surrendering control when life is between chapters. The bridge becomes the in-between place, and the jump reflects trust or forced release.
+
+Others interpret it as rejecting a path that no longer aligns, even before the next one is clear.
+
+Because bridges symbolize passage, leaving one suddenly can also reflect awakening through disruption rather than gradual change.
+
+The feeling matters most. Peace during the jump may suggest readiness. Terror may suggest change arriving faster than you feel prepared for.`,
+
+  wakingLife: `This dream often shows up during major decisions, emotional pressure, or transitions.
+
+You may feel stuck between staying where you are and moving into something unknown.
+
+It can also appear when you are craving freedom from responsibilities, conflict, or a life direction that no longer feels true to you.
+
+In some cases, it reflects impulsive thoughts about escape, not necessarily literal actions. More often, it symbolizes wanting a sharp break from stress.
+
+If the dream repeats, it may be asking you to address what feels unsustainable before drastic inner pressure builds.`,
+
+  summary: `Reaching a point where staying in the middle no longer feels possible. This dream often reflects sudden change, emotional release, risk, or the urge to escape a situation that feels too heavy. It highlights tension between uncertainty and freedom.`,
+
+  categories: ["Fear", "Anxiety", "Spiritual", "Death", "Transformation"]
+},
+{
+  slug: "jumping-off-a-bridge",
+  title: "Jumping off a bridge",
+  description: "Bridges usually represent transitions, decisions, and movement from one phase of life to another. Jumping off one can reflect leaving something suddenly, taking a risk, or reaching a point where staying in between no longer feels possible.\n\nHow the jump feels matters. Choosing to jump can suggest urgency or a need for release, while fear during the fall often points to pressure, uncertainty, or feeling pushed into change.",
+
+  shortDescription:
+    "A sudden leap away from something that once connected where you were to where you were going. It can feel freeing, terrifying, or strangely calm — like a moment where staying no longer feels possible.",
+
+  emotional: `Dreams about jumping off a bridge often carry intense emotional energy.
+
+There is usually a moment where something shifts. Staying where you are no longer feels right, and action happens quickly.
+
+Sometimes the strongest feeling is relief. Letting go of pressure, expectations, or something that has been weighing on you.
+
+Other times, the emotion is fear. Once the jump happens, the uncertainty becomes real.
+
+There can also be desperation. Feeling stuck between options and choosing movement because staying still feels worse.
+
+If the dream repeats, it may point to ongoing tension between wanting escape and wanting stability.`,
+
+  symbolic: `Jumping off a bridge often represents a sudden break from a path, emotional release, or stepping away from something that connects your past and future.
+
+A bridge links two places. Leaving it abruptly can suggest impatience with the process, fear of where it leads, or the need to choose your own direction instead of following a structured path.
+
+It can point to ending relationships, leaving a job, stepping away from expectations, or rejecting a version of life that no longer fits.
+
+Sometimes it reflects risk-taking. Choosing uncertainty over something that feels limiting.
+
+It can also represent emotional overwhelm. If the bridge feels unstable, the jump may reflect wanting out rather than wanting danger.
+
+The landing matters. Water often connects to emotion. Hard ground can reflect fear of consequences. Floating or flying can reflect release or freedom.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some see it as surrendering control during a period of transition. The bridge represents the space between old and new, and the jump reflects letting go before everything is clear.
+
+Others interpret it as choosing authenticity over expectation. Leaving a path that does not feel aligned, even without knowing what comes next.
+
+It can also reflect a moment where change stops being gradual and becomes immediate.
+
+The feeling matters most. Calmness may suggest readiness. Fear may suggest change arriving faster than expected.`,
+
+  wakingLife: `This dream often shows up during major decisions or emotional pressure.
+
+You may feel caught between staying where you are and moving into something unknown.
+
+It can also appear when you want freedom from responsibilities, expectations, or a direction that no longer feels right.
+
+In some cases, it reflects thoughts about escape, not literal action. More often, it represents the desire to break away from something that feels heavy.
+
+If the dream repeats, it may be asking you to address what feels unsustainable before the pressure builds further.`,
+
+  summary:
+    "Reaching a point where staying in between no longer feels possible. This dream often reflects sudden change, emotional release, risk, or the urge to step away from something that no longer fits. It highlights tension between uncertainty and freedom.",
+
+  categories: ["Fear", "Anxiety", "Spiritual", "Transformation"]
 },
 
 ];
