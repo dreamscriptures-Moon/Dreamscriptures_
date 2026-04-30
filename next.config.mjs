@@ -2,6 +2,20 @@
 const nextConfig = {
   async redirects() {
     return [
+      // 🌐 Force non-www → www
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "dreamscriptures.com",
+          },
+        ],
+        destination: "https://www.dreamscriptures.com/:path*",
+        permanent: true,
+      },
+
+      // 🔁 Legacy URL redirects
       {
         source: "/dream-dictionary",
         destination: "/dreams",
