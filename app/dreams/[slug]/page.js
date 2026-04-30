@@ -468,17 +468,50 @@ const faqSchema = {
           </section>
         )}
 
-        <section className="mt-20 md:mt-32 pt-10 border-t border-[#EAE6E1]">
-          <h2 className="font-serif text-4xl md:text-5xl mb-4">
-            Related reading
-          </h2>
-          <Link
-            href="/guides/why-we-dream"
-            className="text-[#6B6B6B] hover:text-[#1A1A1A] underline underline-offset-4"
-          >
-            Why do we dream?
-          </Link>
-        </section>
+      <section className="mt-20 md:mt-32 pt-10 border-t border-[#EAE6E1]">
+  <h2 className="font-serif text-4xl md:text-5xl mb-6">
+    Related reading
+  </h2>
+
+  <div className="flex flex-col gap-3 text-[#6B6B6B]">
+    
+    <Link
+      href="/guides/why-we-dream"
+      className="hover:text-[#C6A96B] transition underline underline-offset-4"
+    >
+      Why do we dream?
+    </Link>
+
+    <Link
+      href="/guides/what-are-dreams"
+      className="hover:text-[#C6A96B] transition underline underline-offset-4"
+    >
+      What are dreams?
+    </Link>
+
+    <Link
+      href="/guides/spiritual-dreams-meaning"
+      className="hover:text-[#C6A96B] transition underline underline-offset-4"
+    >
+      Spiritual dreams meaning
+    </Link>
+
+    <Link
+      href="/guides/recurring-dreams"
+      className="hover:text-[#C6A96B] transition underline underline-offset-4"
+    >
+      Why do dreams repeat?
+    </Link>
+
+    <Link
+      href="/guides/lucid-dreaming"
+      className="hover:text-[#C6A96B] transition underline underline-offset-4"
+    >
+      What is lucid dreaming?
+    </Link>
+
+  </div>
+</section>
       </article>
 
       <Script
