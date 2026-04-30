@@ -140,29 +140,31 @@ export default async function DreamPage({ params }) {
           )
           .slice(0, 4);
 
- const insightSections = [
+const insightSections = [
   {
     id: "emotional-meaning",
     title: "How this dream might feel emotionally",
-    body: dream.emotional,
+    body: dream.emotional || dream.description,
   },
   {
     id: "symbolic-meaning",
     title: "What this dream could be reflecting",
-    body: dream.symbolic,
+    body: dream.symbolic || dream.description,
   },
   {
     id: "spiritual-meaning",
-    title: "A deeper or Spiritual perspective",
-    body: dream.spiritual,
+    title: "A deeper or spiritual perspective",
+    body: dream.spiritual || dream.symbolic || dream.description,
   },
   {
     id: "real-life-meaning",
     title: "What this dream may reflect",
-    body: dream.wakingLife,
+    body: dream.wakingLife || dream.emotional || dream.description,
   },
 ].filter((section) => section.body);
-
+const summaryText =
+  dream.summary ||
+  `${dream.title} often reflects emotional, symbolic, or personal changes connected to your current life situation.`;
   const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
   const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -199,34 +201,30 @@ export default async function DreamPage({ params }) {
     };
   });
 
- const faqItems = [
+const faqItems = [
   {
     question: `What does dreaming about ${dreamTitle} usually mean?`,
-    answer:
-      dream.description ||
-      `Dreams about ${dreamTitle} are usually shaped by your emotions, symbols, and current life context.`,
+    answer: `${dream.description} ${dream.symbolic || ""}`,
   },
   {
-    question: `Which categories are connected to ${dreamTitle}?`,
-    answer:
-      dream.categories?.length > 0
-        ? `This dream is often linked to ${dream.categories.join(", ")}. These themes can help narrow the interpretation, especially when they overlap with your waking life feelings.`
-        : `This dream has no category labels attached, so the clearest meaning comes from its emotions and symbols.`,
+    question: `What emotions are connected to dreaming about ${dreamTitle}?`,
+    answer: dream.emotional || dream.description,
+  },
+  {
+    question: `What does ${dreamTitle} symbolize spiritually or psychologically?`,
+    answer: `${dream.spiritual || ""} ${dream.symbolic || ""}`.trim(),
   },
   {
     question: `Does dreaming about ${dreamTitle} relate to real life?`,
-    answer:
-      dream.wakingLife ||
-      dream.emotional ||
-      `It can reflect both emotions and waking-life experiences. Dreams often blend the two.`,
+    answer: dream.wakingLife || dream.emotional || dream.description,
   },
   {
-    question: `What does it mean if I keep dreaming about ${dreamTitle}?`,
-    answer: `Repeated dreams about ${dreamTitle} may point to a pattern, feeling, or situation that has not been fully resolved yet.`,
+    question: `Why do I keep dreaming about ${dreamTitle}?`,
+    answer: `Repeated dreams about ${dreamTitle} often point to unresolved emotions, ongoing stress, or a situation in your life that needs attention or change.`,
   },
   {
     question: `Is dreaming about ${dreamTitle} a bad sign?`,
-    answer: `Not necessarily. Intense dreams often reflect stress, fears, healing, or personal change rather than literal danger.`,
+    answer: `Not necessarily. Dreams like this usually reflect internal experiences such as stress, growth, fear, or transformation rather than predicting negative events.`,
   },
 ];
 
