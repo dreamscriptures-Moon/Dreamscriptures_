@@ -1,7 +1,7 @@
 export const dreams = [
 
  {
-  slug: "snake",
+  slug: "snakes",
   title: "a Snake",
   description: "Snakes in dreams often carry a strong emotional presence they can feel unsettling, intense, or strangely powerful. They are usually connected to hidden fears, transformation, or something in your life that doesn’t feel fully safe or clear.\nDepending on the feeling of the dream, a snake can reflect something you don’t trust, something you’re avoiding, or a deeper change happening beneath the surface that you’re only beginning to notice.",
 

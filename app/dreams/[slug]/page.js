@@ -13,17 +13,20 @@ export async function generateMetadata({ params } = {}) {
   const metadataSlug = resolvedParams?.slug || "dream";
   const dream = getDreamBySlug(metadataSlug);
   const title = dream?.title || String(metadataSlug).replace(/-/g, " ");
-  const description =
-    dream?.description?.replace(/\s+/g, " ").trim() ||
-    `Explore what dreaming about ${title} might mean.`;
+  const description = shorten(
+    `Learn what dreaming about ${title} means, including emotional, spiritual, and real-life interpretations. Discover what your dream may be trying to tell you.`,
+    155
+  );
   const canonicalSlug = normalizeSlug(dream?.slug || dream?.title || metadataSlug);
 
+  const dynamicTitle = getDynamicDreamTitle(title);
+
   return {
-    title: `${title} dream meaning | DreamScriptures`,
+    title: dynamicTitle,
     description,
-   alternates: {
-  canonical: `https://www.dreamscriptures.com/dreams/${canonicalSlug}`,
-}
+    alternates: {
+      canonical: `https://www.dreamscriptures.com/dreams/${canonicalSlug}`,
+    },
   };
 }
 
@@ -64,6 +67,101 @@ function getCategoryKeys(categories = []) {
       .split(",")
       .map((item) => normalizeCategory(item))
       .filter(Boolean)
+  );
+}
+
+function getDynamicDreamTitle(title = "") {
+  const patterns = [
+    `${title} Dream Meaning (What It Really Means)`,
+    `${title} Dream Meaning (Hidden Meaning Explained)`,
+    `${title} Dream Meaning (Spiritual & Emotional Meaning)`,
+    `${title} Dream Meaning (What Does It Mean?)`,
+    `${title} Dream Meaning (Is This a Sign?)`,
+  ];
+
+  const index =
+    Array.from(title).reduce((acc, char) => acc + char.charCodeAt(0), 0) %
+    patterns.length;
+
+  return patterns[index];
+}
+
+function shorten(text, maxLength = 220) {
+  const clean = String(text || "").replace(/\s+/g, " ").trim();
+
+  if (!clean) return "";
+
+  if (clean.length <= maxLength) return clean;
+
+  return `${clean.slice(0, maxLength - 3).trim()}...`;
+}
+
+function pickFirstText(...values) {
+  return (
+    values.find((value) => String(value || "").replace(/\s+/g, " ").trim()) || ""
+  );
+}
+
+function uniqueParts(parts = []) {
+  const seen = new Set();
+
+  return parts.filter((part) => {
+    const clean = String(part || "").replace(/\s+/g, " ").trim();
+
+    if (!clean) return false;
+
+    const key = clean.toLowerCase();
+
+    if (seen.has(key)) return false;
+
+    seen.add(key);
+    return true;
+  });
+}
+
+function buildAnswer(parts, fallback) {
+  const text = uniqueParts(parts).join(" ");
+
+  return shorten(text || fallback);
+}
+
+function hashString(value = "") {
+  return Array.from(String(value || "")).reduce(
+    (total, char) => total + char.charCodeAt(0),
+    0
+  );
+}
+
+function getSeededItems(items = [], seed = "", count = 5) {
+  const list = [...items];
+  const seedValue = hashString(seed);
+
+  list.sort((a, b) => {
+    const aScore = (a.id * 31 + seedValue) % 997;
+    const bScore = (b.id * 31 + seedValue) % 997;
+
+    return aScore - bScore;
+  });
+
+  return list.slice(0, count);
+}
+
+function generateSummary(dream, dreamTitle) {
+  if (dream.summary) {
+    return dream.summary;
+  }
+
+  return shorten(
+    `${dreamTitle} often points to ${pickFirstText(
+      dream.symbolic,
+      dream.description,
+      "a meaningful inner theme"
+    )}. In waking life, it may connect to ${pickFirstText(
+      dream.wakingLife,
+      dream.emotional,
+      "current emotions or changes you are processing"
+    )}`,
+    220
   );
 }
 
@@ -140,32 +238,51 @@ export default async function DreamPage({ params }) {
           )
           .slice(0, 4);
 
-const insightSections = [
-  {
-    id: "emotional-meaning",
-    title: "How this dream might feel emotionally",
-    body: dream.emotional || dream.description,
-  },
-  {
-    id: "symbolic-meaning",
-    title: "What this dream could be reflecting",
-    body: dream.symbolic || dream.description,
-  },
-  {
-    id: "spiritual-meaning",
-    title: "A deeper or spiritual perspective",
-    body: dream.spiritual || dream.symbolic || dream.description,
-  },
-  {
-    id: "real-life-meaning",
-    title: "What this dream may reflect",
-    body: dream.wakingLife || dream.emotional || dream.description,
-  },
-].filter((section) => section.body);
-const summaryText =
-  dream.summary ||
-  `${dream.title} often reflects emotional, symbolic, or personal changes connected to your current life situation.`;
   const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
+  const insightSections = [
+    {
+      id: "emotional-meaning",
+      title: "What does this dream mean emotionally?",
+      body: pickFirstText(
+        dream.emotional,
+        dream.description,
+        dream.wakingLife,
+        dream.symbolic
+      ),
+    },
+    {
+      id: "symbolic-meaning",
+      title: "What does this dream symbolize?",
+      body: pickFirstText(
+        dream.symbolic,
+        dream.description,
+        dream.spiritual,
+        dream.emotional
+      ),
+    },
+    {
+      id: "spiritual-meaning",
+      title: "what is the spiritual meaning of this dream?",
+      body: pickFirstText(
+        dream.spiritual,
+        dream.symbolic,
+        dream.description,
+        dream.emotional
+      ),
+    },
+    {
+      id: "real-life-meaning",
+      title: "What does this dream mean in real life?",
+      body: pickFirstText(
+        dream.wakingLife,
+        dream.emotional,
+        dream.description,
+        dream.symbolic
+      ),
+    },
+  ].filter((section) => section.body);
+  const summaryText = generateSummary(dream, dreamTitle);
+  const dynamicTitle = getDynamicDreamTitle(dreamTitle);
   const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -201,32 +318,115 @@ const summaryText =
     };
   });
 
-const faqItems = [
-  {
-    question: `What does dreaming about ${dreamTitle} usually mean?`,
-    answer: `${dream.description} ${dream.symbolic || ""}`,
-  },
-  {
-    question: `What emotions are connected to dreaming about ${dreamTitle}?`,
-    answer: dream.emotional || dream.description,
-  },
-  {
-    question: `What does ${dreamTitle} symbolize spiritually or psychologically?`,
-    answer: `${dream.spiritual || ""} ${dream.symbolic || ""}`.trim(),
-  },
-  {
-    question: `Does dreaming about ${dreamTitle} relate to real life?`,
-    answer: dream.wakingLife || dream.emotional || dream.description,
-  },
-  {
-    question: `Why do I keep dreaming about ${dreamTitle}?`,
-    answer: `Repeated dreams about ${dreamTitle} often point to unresolved emotions, ongoing stress, or a situation in your life that needs attention or change.`,
-  },
-  {
-    question: `Is dreaming about ${dreamTitle} a bad sign?`,
-    answer: `Not necessarily. Dreams like this usually reflect internal experiences such as stress, growth, fear, or transformation rather than predicting negative events.`,
-  },
-];
+  const faqTemplates = [
+    {
+      id: 1,
+      question: (title) => `What does dreaming about ${title} usually mean?`,
+      answer: () =>
+        buildAnswer(
+          [dream.symbolic, dream.description],
+          `${dreamTitle} usually reflects a mix of personal symbolism, emotional undercurrents, and experiences your mind is still processing.`
+        ),
+    },
+    {
+      id: 2,
+      question: (title) => `What emotions are connected to dreaming about ${title}?`,
+      answer: () =>
+        buildAnswer(
+          [
+            dream.emotional,
+            dream.description,
+            dream.wakingLife,
+          ],
+          `Dreams about ${dreamTitle} often connect to feelings you have not fully processed yet, especially around stress, desire, uncertainty, or change.`
+        ),
+    },
+    {
+      id: 3,
+      question: (title) => `What might ${title} symbolize in a dream?`,
+      answer: () =>
+        buildAnswer(
+          [
+            dream.symbolic,
+            dream.description,
+            dream.spiritual,
+          ],
+          `${dreamTitle} often acts as a symbol for something unfolding beneath the surface, pointing to patterns, fears, hopes, or transitions in your life.`
+        ),
+    },
+    {
+      id: 4,
+      question: (title) => `Does dreaming about ${title} relate to waking life?`,
+      answer: () =>
+        buildAnswer(
+          [
+            dream.wakingLife,
+            dream.description,
+            dream.emotional,
+          ],
+          `Yes. Dreams about ${dreamTitle} often mirror current situations, relationships, or decisions that are shaping your emotions and attention right now.`
+        ),
+    },
+    {
+      id: 5,
+      question: (title) => `Why do I keep dreaming about ${title}?`,
+      answer: () =>
+        buildAnswer(
+          [
+            dream.emotional,
+            dream.wakingLife,
+            dream.symbolic,
+          ],
+          `Repeated dreams about ${dreamTitle} usually suggest an issue, emotion, or life pattern is still unresolved and returning for deeper attention.`
+        ),
+    },
+    {
+      id: 6,
+      question: (title) => `Is dreaming about ${title} a warning sign?`,
+      answer: () =>
+        buildAnswer(
+          [
+            dream.spiritual,
+            dream.emotional,
+            dream.description,
+          ],
+          `Not always. A dream about ${dreamTitle} is more often a signal to notice your emotional state, inner conflicts, or the direction your life is taking.`
+        ),
+    },
+    {
+      id: 7,
+      question: (title) => `What is the spiritual meaning of dreaming about ${title}?`,
+      answer: () =>
+        buildAnswer(
+          [
+            dream.spiritual,
+            dream.symbolic,
+            dream.description,
+          ],
+          `Spiritually, ${dreamTitle} may point to inner guidance, transformation, or a deeper lesson that your subconscious is trying to bring forward.`
+        ),
+    },
+    {
+      id: 8,
+      question: (title) => `What should I reflect on after dreaming about ${title}?`,
+      answer: () =>
+        buildAnswer(
+          [
+            dream.wakingLife,
+            dream.emotional,
+            dream.symbolic,
+          ],
+          `Reflect on what ${dreamTitle} reminds you of emotionally and practically, because the dream may be highlighting something active in your daily life.`
+        ),
+    },
+  ];
+
+  const faqItems = getSeededItems(faqTemplates, dream.slug || dreamTitle, 5).map(
+    (item) => ({
+      question: item.question(dreamTitle),
+      answer: item.answer(),
+    })
+  );
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -242,6 +442,7 @@ const faqSchema = {
       },
     })),
 };
+
   return (
     <main className="bg-[#FAF8F5] min-h-screen">
       <script
@@ -278,11 +479,12 @@ const faqSchema = {
       <SearchBar />
       <article className="max-w-3xl mx-auto px-6 py-20 md:py-32">
       
-        <h1 className="text-4xl md:text-5xl leading-tight font-serif">
-       Dreaming About {dreamTitle}: Meaning, Symbolism & Insight</h1>
+      <h1 className="text-4xl md:text-5xl leading-tight font-serif">
+  {dynamicTitle}
+</h1>
 
         <p className="text-sm text-[#6B6B6B] mt-2">
-       Emotional, symbolic, spiritual, and waking life insights
+      This dream may be revealing more about your emotions, fears, or life changes than you realize.
        </p>
  <div className="w-14 h-[1px] bg-[#C6A96B] mt-2 mb-8 opacity-60" />
 
@@ -291,8 +493,9 @@ const faqSchema = {
     On this page
   </p>
 
- <ul className="space-y-2 pl-4 relative">
-  <div className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]" /> <li>
+  <ul className="space-y-2 pl-4 relative">
+  <li aria-hidden="true" className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]" />
+    <li>
       <a href="#emotional-meaning" className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
         Emotional meaning
       </a>
@@ -337,7 +540,35 @@ const faqSchema = {
   Quick description
 </p>
 
+<p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-6">
+  If you recently dreamed about {dreamTitle.toLowerCase()}, it may reflect something
+  deeper about your emotions, fears, or life changes that you have not fully
+  noticed yet.
+</p>
+
 <TextBlocks text={dream.description} className="mb-10" /> 
+
+{relatedDreamSections.length > 0 && (
+  <p className="mt-6 text-sm text-[#6B6B6B]">
+    Dreams like this are often connected to{" "}
+    <Link
+      href={`/dreams/${normalizeSlug(relatedDreamSections[0].slug)}`}
+      className="underline hover:text-[#C6A96B]"
+    >
+      {relatedDreamSections[0].title}
+    </Link>{" "}
+    and{" "}
+    {relatedDreamSections[1] && (
+      <Link
+        href={`/dreams/${normalizeSlug(relatedDreamSections[1].slug)}`}
+        className="underline hover:text-[#C6A96B]"
+      >
+        {relatedDreamSections[1].title}
+      </Link>
+    )}
+    , especially when similar emotions or life situations are involved.
+  </p>
+)}
 
 <p className="text-[#7A7A7A] text-base md:text-lg mt-5 leading-relaxed font-serif italic">
           This dream often carries something deeper beneath the surface,
@@ -377,13 +608,13 @@ const faqSchema = {
   ))}
 </section>
 
-        {dream.summary && (
+        {summaryText && (
           <section className="mt-20 md:mt-32 py-10 border-y border-[#EAE6E1] text-center">
             <p className="text-[11px] tracking-[0.2em] text-[#8A8175] uppercase mb-4">
               Summary
             </p>
             <TextBlocks
-              text={dream.summary}
+              text={summaryText}
               className="max-w-2xl mx-auto font-serif"
               textClassName="text-[#2A2A2A] text-base md:text-lg leading-relaxed"
             />
