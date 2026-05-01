@@ -37,13 +37,33 @@ export default function GuidesPage() {
     <main className="bg-[#F7F5F2] min-h-screen">
       <SiteHeader />
 
-      <section className="max-w-3xl mx-auto px-6 py-20 md:py-32">
-        <h1 className="text-4xl md:text-5xl font-serif mb-6">Guides</h1>
+      <section className="max-w-3xl mx-auto px-6 py-2 md:py-32">
+        <nav className="text-sm text-[#6B6B6B] mb-6">
+  <Link href="/">Home</Link> / <span>Guides</span>
+</nav>
+        <h1 className="text-4xl md:text-5xl font-serif mb-6">Dream guides & meanings</h1>
 
         <p className="text-[#6B6B6B] text-base md:text-lg mb-8 leading-relaxed">
           A deeper look into how dreams work, why they happen, and how to
           understand them.
         </p>
+
+        <section className="mb-12">
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    What do dream guides help you understand?
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed mb-4">
+    Dream guides help you understand why dreams happen, what they mean, and how
+    to interpret the symbols and emotions you experience while dreaming.
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed">
+    From recurring dreams and nightmares to spiritual dreams and emotional
+    patterns, these guides explore how your subconscious mind communicates
+    through dreams and how those experiences relate to your waking life.
+  </p>
+</section>
 
         <div className="mb-16">
           <div className="border border-[#EAE6E1] rounded-2xl px-5 py-4 bg-white/90 backdrop-blur-sm focus-within:border-[#C6A96B] transition shadow-[0_10px_30px_rgba(26,26,26,0.04)]">
@@ -135,6 +155,13 @@ export default function GuidesPage() {
           )}
         </div>
       </section>
+
+<p className="mb-4 text-sm text-[#6B6B6B] text-center">
+  You can also explore meanings by{" "}
+  <Link href="/categories" className="underline">
+    dream categories
+  </Link>.
+</p>
 
 <section className="mt-20 border-t border-[#EAE6E1] pt-10 text-center">
   <h2 className="font-serif text-2xl md:text-3xl mb-4">

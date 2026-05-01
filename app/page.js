@@ -46,7 +46,7 @@ export default function Home() {
         </h1>
 
         <p className="text-[#6B6B6B] text-base md:text-lg mb-8 leading-relaxed">
-       Explore over Hundreds of dream meanings through emotional, symbolic, spiritual, and waking-life perspectives
+       Explore Hundreds of dream meanings through emotional, symbolic, spiritual, and waking-life perspectives
         </p>
 
        <p className="text-[11px] uppercase tracking-[0.24em] text-[#8A8175] mb-4">
@@ -56,9 +56,27 @@ export default function Home() {
         <HomeSearch />
       </section>
 
+<section className="max-w-3xl mx-auto px-6 pb-16 text-left">
+  <h2 className="text-2xl md:text-3xl font-serif mb-4">
+    What do dreams really mean?
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed mb-4">
+    Dream meanings often reflect your emotions, experiences, and subconscious thoughts. 
+    Whether you dream about falling, being chased, snakes, or losing teeth, these symbols 
+    can represent fear, change, stress, or transformation in your waking life.
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed">
+    Understanding your dreams involves looking at emotional patterns, symbolic meaning, 
+    spiritual interpretation, and real-life context. Explore our dream dictionary to 
+    discover what your dreams may be trying to tell you.
+  </p>
+</section>
+
       <section className="max-w-xl mx-auto px-6 py-2 md:py-22">
         <h2 className="text-4xl md:text-5xl mb-4 text-center font-serif">
-          Popular dreams meanings
+          Popular dream meanings
         </h2>
         <div className="w-24 h-[1px] bg-[#C6A96B] mx-auto mb-8 opacity-60" />
 
@@ -77,6 +95,15 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <div className="text-center mt-8">
+  <Link
+    href="/categories"
+    className="text-sm text-[#6B6B6B] hover:text-[#1A1A1A] transition"
+  >
+    Browse all dream categories →
+  </Link>
+</div>
 
       <section className="bg-[#FAF9F7] px-6 py-20 md:py-32 text-center">
         <div className="max-w-3xl mx-auto">

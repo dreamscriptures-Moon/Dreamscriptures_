@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${guide.title} | DreamScriptures`,
+   title: `${guide.title} (What It Means & How to Understand It)`,
     description: guide.description || guide.intro,
     alternates: {
       canonical: `/guides/${guide.slug}`,
@@ -142,7 +142,7 @@ function linkifyText(text = "") {
       }}
     />
   )}
-      <article className="max-w-3xl mx-auto pt-10 pb-20 md:pt-16 md:pb-28 text-[#3A3A3A] leading-relaxed">
+      <article className="max-w-3xl mx-auto pt-10 pb-2 md:pt-16 md:pb-28 text-[#3A3A3A] leading-relaxed">
        <nav
   aria-label="Breadcrumb"
   className="text-sm text-[#8A8175] mb-10 flex flex-wrap gap-2"
@@ -163,7 +163,7 @@ function linkifyText(text = "") {
 </nav>
 
         <h1 className="text-4xl md:text-5xl font-serif mb-10 text-[#1A1A1A]">
-          {guide.title}
+          {guide.title} (Meaning & Interpretation)
         </h1>
 
        {guide.sections?.length > 0 && (
@@ -193,7 +193,12 @@ function linkifyText(text = "") {
           Guide - 5 min read
         </p>
 
+<p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-6">
+  This guide explains {guide.title.toLowerCase()} and what it means in dreams,
+  including emotional, symbolic, and real-life interpretations.
+</p>
         {guide.intro && (
+          
           <p className="text-base md:text-lg leading-relaxed mb-12">
             {guide.intro}
           </p>
@@ -288,6 +293,14 @@ function linkifyText(text = "") {
           </section>
         )}
       </article>
+<p className="mb-4 text-sm text-[#6B6B6B]">
+  You can also explore specific dream meanings in our{" "}
+  <Link href="/categories" className="underline">
+    dream categories
+  </Link>.
+</p>
+
+
 
 <section className="mt-20 border-t border-[#EAE6E1] pt-10 text-center">
   <h2 className="font-serif text-2xl md:text-3xl mb-4">
