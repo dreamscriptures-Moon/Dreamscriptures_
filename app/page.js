@@ -37,43 +37,51 @@ const featuredGuides = [
 
 export default function Home() {
   return (
-    <main className="bg-[#F7F5F2] text-[#1A1A1A] min-h-screen">
-      <SiteHeader />
+<main className="bg-[#F7F5F2] text-[#1A1A1A] min-h-screen">
+  <SiteHeader />
 
-      <section className="max-w-3xl mx-auto px-6 py-20 md:py-32 text-center">
-        <h1 className="text-4xl md:text-5xl leading-tight mb-8 font-serif tracking-tight">
-          Dream meanings, symbols & deeper interpretation
-        </h1>
+  <section className="max-w-3xl mx-auto px-6 pt-16 md:pt-24 pb-14 text-center">
 
-        <p className="text-[#6B6B6B] text-base md:text-lg mb-8 leading-relaxed">
-       Explore Hundreds of dream meanings through emotional, symbolic, spiritual, and waking-life perspectives
-        </p>
+    <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.15] font-serif tracking-tight mb-6">
+      Dream meanings, symbols & deeper interpretation
+    </h1>
 
-       <p className="text-[11px] uppercase tracking-[0.24em] text-[#8A8175] mb-4">
- Dreams do not follow one fixed meaning.What matters most is what your dream may be reflecting.
-        </p>
+    <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
+      Explore hundreds of dream meanings through emotional, symbolic, spiritual, and waking-life perspectives.
+    </p>
 
-        <HomeSearch />
-      </section>
+    <p className="text-[11px] uppercase tracking-[0.28em] text-[#8A8175]">
+      Dreams do not follow one fixed meaning. What matters most is what your dream may be reflecting.
+    </p>
 
-<section className="max-w-3xl mx-auto px-6 pb-16 text-left">
-  <h2 className="text-2xl md:text-3xl font-serif mb-4">
-    What do dreams really mean?
-  </h2>
+    {/* subtle divider */}
+    <div className="w-12 h-[1px] bg-[#EAE6E1] mx-auto mt-8 mb-10" />
 
-  <p className="text-[#6B6B6B] leading-relaxed mb-4">
-    Dream meanings often reflect your emotions, experiences, and subconscious thoughts. 
-    Whether you dream about falling, being chased, snakes, or losing teeth, these symbols 
-    can represent fear, change, stress, or transformation in your waking life.
-  </p>
+    {/* 🔍 Search */}
+    <div className="max-w-md mx-auto">
+      <HomeSearch />
+    </div>
 
-  <p className="text-[#6B6B6B] leading-relaxed">
-    Understanding your dreams involves looking at emotional patterns, symbolic meaning, 
-    spiritual interpretation, and real-life context. Explore our dream dictionary to 
-    discover what your dreams may be trying to tell you.
-  </p>
-</section>
+  </section>
 
+  <section className="max-w-3xl mx-auto px-6 pb-12 text-left">
+    <h2 className="text-2xl md:text-3xl font-serif mb-4">
+      What do dreams really mean?
+    </h2>
+
+    <p className="text-[#6B6B6B] leading-relaxed mb-4">
+      Dream meanings often reflect your emotions, experiences, and subconscious thoughts. 
+      Whether you dream about falling, being chased, snakes, or losing teeth, these symbols 
+      can represent fear, change, stress, or transformation in your waking life.
+    </p>
+
+    <p className="text-[#6B6B6B] leading-relaxed">
+      Understanding your dreams involves looking at emotional patterns, symbolic meaning, 
+      spiritual interpretation, and real-life context. Explore our dream dictionary to 
+      discover what your dreams may be trying to tell you.
+    </p>
+  </section>
+  
       <section className="max-w-xl mx-auto px-6 py-2 md:py-22">
         <h2 className="text-4xl md:text-5xl mb-4 text-center font-serif">
           Popular dream meanings
