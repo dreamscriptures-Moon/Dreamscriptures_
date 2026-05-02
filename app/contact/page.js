@@ -1,5 +1,12 @@
+import Link from "next/link";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
+
+export const metadata = {
+  title: "Contact DreamScriptures",
+  description:
+    "Get in touch with DreamScriptures for questions, feedback, or collaboration opportunities related to dream meanings and interpretations.",
+};
 
 const sections = [
   [
@@ -29,14 +36,35 @@ export default function ContactPage() {
     <main className="bg-[#FAF8F5] min-h-screen">
       <SiteHeader />
 
-      <article className="max-w-3xl mx-auto px-6 py-20 md:py-32">
-        <h1 className="text-4xl md:text-5xl font-serif mb-6">Contact</h1>
+      <article className="max-w-3xl mx-auto px-6 py-2 md:py-32">
+
+        {/* Breadcrumb */}
+        <nav className="text-sm text-[#6B6B6B] mb-6">
+          <Link href="/" className="hover:underline">
+            Home
+          </Link>{" "}
+          / <span>Contact</span>
+        </nav>
+
+        {/* Title */}
+        <h1 className="text-4xl md:text-5xl font-serif mb-6">
+          Contact
+        </h1>
+
         <div className="w-12 h-[1px] bg-[#C6A96B] mb-10" />
 
-        <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-12">
+        {/* Intro */}
+        <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-6">
           Some connections arrive quietly, but still matter deeply.
         </p>
 
+        {/* SEO anchor */}
+        <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
+          If you have questions about dream meanings, interpretations, or the
+          content on DreamScriptures, you can reach out anytime.
+        </p>
+
+        {/* Sections */}
         <section className="space-y-8 text-[#2A2A2A] text-base md:text-lg leading-relaxed">
           {sections.map(([title, body]) => (
             <section key={title}>
@@ -48,6 +76,7 @@ export default function ContactPage() {
           ))}
         </section>
 
+        {/* Email */}
         <div className="mt-14 pt-10 border-t border-[#E8E0D2]">
           <h2 className="font-serif text-2xl md:text-3xl mb-4">
             Email
@@ -56,6 +85,17 @@ export default function ContactPage() {
             dreamscriptures@gmail.com
           </p>
         </div>
+
+        {/* Internal link */}
+        <div className="mt-6">
+          <p className="text-sm text-[#6B6B6B]">
+            You can also learn more about this project on the{" "}
+            <Link href="/about" className="underline">
+              About page
+            </Link>.
+          </p>
+        </div>
+
       </article>
 
       <SiteFooter />

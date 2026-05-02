@@ -1,5 +1,12 @@
+import Link from "next/link";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
+
+export const metadata = {
+  title: "Privacy Policy | DreamScriptures",
+  description:
+    "Learn how DreamScriptures handles data, cookies, and privacy while you explore dream meanings and interpretations.",
+};
 
 const sections = [
   [
@@ -37,17 +44,38 @@ export default function PrivacyPage() {
     <main className="bg-[#FAF8F5] min-h-screen">
       <SiteHeader />
 
-      <article className="max-w-3xl mx-auto px-6 py-20 md:py-32">
-        <h1 className="text-4xl md:text-5xl font-serif mb-6">Privacy</h1>
+      <article className="max-w-3xl mx-auto px-6 py-2 md:py-32">
+
+        {/* Breadcrumb */}
+        <nav className="text-sm text-[#6B6B6B] mb-6">
+          <Link href="/" className="hover:underline">
+            Home
+          </Link>{" "}
+          / <span>Privacy Policy</span>
+        </nav>
+
+        {/* Title */}
+        <h1 className="text-4xl md:text-5xl font-serif mb-6">
+          Privacy Policy
+        </h1>
 
         <div className="w-12 h-[1px] bg-[#C6A96B] mb-10" />
 
-        <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-12">
+        {/* Intro */}
+        <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-6">
           DreamScriptures is meant to feel personal, reflective, and quietly
           trustworthy. Your time here should never feel exposed, pressured, or
           unnecessarily tracked.
         </p>
 
+        {/* SEO anchor */}
+        <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
+          This privacy policy explains how DreamScriptures handles information
+          while you explore dream meanings, interpretations, and guides across
+          the site.
+        </p>
+
+        {/* Sections */}
         <section className="space-y-10 text-[#2A2A2A] text-base md:text-lg leading-relaxed">
           {sections.map(([title, body]) => (
             <section key={title}>
@@ -59,10 +87,13 @@ export default function PrivacyPage() {
           ))}
         </section>
 
+        {/* Contact */}
         <section className="mt-14 pt-10 border-t border-[#EAE6E1]">
           <p className="text-[#6B6B6B] text-sm md:text-base leading-relaxed">
-            For privacy-related questions, you can reach out through the Contact
-            page.
+            For privacy-related questions, you can reach out through the{" "}
+            <Link href="/contact" className="underline">
+              Contact page
+            </Link>.
           </p>
         </section>
       </article>

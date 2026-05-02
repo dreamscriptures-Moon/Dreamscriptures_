@@ -42,11 +42,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/contact",
-        destination: "/about",
-        permanent: true,
-      },
-      {
         source: "/dream-archive",
         destination: "/dreams",
         permanent: true,

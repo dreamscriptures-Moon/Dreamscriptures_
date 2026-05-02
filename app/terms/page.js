@@ -1,5 +1,12 @@
+import Link from "next/link";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
+
+export const metadata = {
+  title: "Terms of Use | DreamScriptures",
+  description:
+    "Read the terms of use for DreamScriptures, including how content is provided, limitations of interpretation, and your responsibilities when using the site.",
+};
 
 const sections = [
   [
@@ -37,24 +44,55 @@ export default function TermsPage() {
     <main className="bg-[#FAF8F5] min-h-screen">
       <SiteHeader />
 
-      <article className="max-w-3xl mx-auto px-6 py-20 md:py-32">
-        <h1 className="text-4xl md:text-5xl font-serif mb-6">Terms</h1>
+      <article className="max-w-3xl mx-auto px-6 py-2 md:py-32">
+
+        {/* Breadcrumb */}
+        <nav className="text-sm text-[#6B6B6B] mb-6">
+          <Link href="/" className="hover:underline">
+            Home
+          </Link>{" "}
+          / <span>Terms of Use</span>
+        </nav>
+
+        {/* Title */}
+        <h1 className="text-4xl md:text-5xl font-serif mb-6">
+          Terms of Use
+        </h1>
+
         <div className="w-12 h-[1px] bg-[#C6A96B] mb-10" />
 
-        <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-12">
+        {/* Intro */}
+        <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-6">
           This space is here to guide reflection, not to define it for you.
           What you take from it is always your own.
         </p>
 
-        <section className="space-y-8 text-[#2A2A2A] text-base md:text-lg leading-relaxed">
+        {/* SEO anchor */}
+        <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
+          These terms explain how DreamScriptures content should be used while
+          exploring dream meanings, interpretations, and guides across the site.
+        </p>
+
+        {/* Sections */}
+        <section className="space-y-10 text-[#2A2A2A] text-base md:text-lg leading-relaxed">
           {sections.map(([title, body]) => (
             <section key={title}>
-              <h2 className="font-serif text-4xl md:text-5xl mb-3">
+              <h2 className="font-serif text-2xl md:text-3xl mb-3">
                 {title}
               </h2>
               <p>{body}</p>
             </section>
           ))}
+        </section>
+
+        {/* Contact */}
+        <section className="mt-14 pt-10 border-t border-[#EAE6E1]">
+          <p className="text-[#6B6B6B] text-sm md:text-base leading-relaxed">
+            If you have questions about these terms, you can reach out through the{" "}
+            <Link href="/contact" className="underline">
+              Contact page
+            </Link>.
+          </p>
         </section>
       </article>
 
