@@ -57,7 +57,6 @@ const inter = Inter({
 
 
 export default function RootLayout({ children }) {
-  logDreamsOnce();
 
   return (
     <html lang="en" data-scroll-behavior="smooth">
@@ -88,7 +87,15 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-        {/* Existing Google Analytics */}
+{/* 🔥 AdSense */}
+<Script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7402615514555783"
+  crossOrigin="anonymous"
+  strategy="afterInteractive"
+/>
+
+        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-C8E9Y4L832"
           strategy="afterInteractive"
