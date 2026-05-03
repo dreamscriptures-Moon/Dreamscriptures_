@@ -1,9 +1,7 @@
-"use client";
-import { useState} from "react"
-import Link from "next/link";
 import { dreams } from "@/data/dream";
-import SiteHeader from "@/app/components/SiteHeader";
+import DreamDictionaryControls from "@/app/components/DreamDictionaryControls";
 import SiteFooter from "@/app/components/SiteFooter";
+import SiteHeader from "@/app/components/SiteHeader";
 
 function normalizeCategory(cat = "") {
   const c = cat.toLowerCase().trim();
@@ -18,146 +16,43 @@ function formatCategory(cat) {
   return cat.charAt(0).toUpperCase() + cat.slice(1);
 }
 
+const categories = [
+  ...new Set(dreams.flatMap((d) => (d.categories || []).map(normalizeCategory))),
+].map((cat) => ({
+  slug: cat,
+  label: formatCategory(cat),
+}));
+
+const searchableDreams = dreams.map((dream) => ({
+  slug: dream.slug,
+  title: dream.title,
+  normalizedTitle: dream.title.toLowerCase(),
+  description: `${(dream.description || "").slice(0, 90)}...`,
+  categoryKeys: (dream.categories || []).map(normalizeCategory),
+}));
+
 export default function DreamDictionaryPage() {
-  const [search, setSearch] = useState("");
-  const [visibleCount, setVisibleCount] = useState(15);
-  const [activeCategory, setActiveCategory] = useState(null);
-
-  // get unique categories
-  const categories = [
-    ...new Set(
-      dreams.flatMap((d) => (d.categories || []).map(normalizeCategory))
-    ),
-  ];
-
-  // filter logic
-  const filteredDreams = dreams.filter((dream) => {
-    const matchesSearch = dream.title
-      .toLowerCase()
-      .includes(search.toLowerCase());
-
-    const matchesCategory = activeCategory
-      ? dream.categories?.some(
-          (cat) => normalizeCategory(cat) === activeCategory
-        )
-      : true;
-
-    return matchesSearch && matchesCategory;
-  });
-
   return (
-  <main className="bg-[#FAF8F5] min-h-screen">
-     <SiteHeader />
+    <main className="bg-[#FAF8F5] min-h-screen">
+      <SiteHeader />
       <div className="max-w-6xl mx-auto center px-6 py-12">
-
-        {/* TITLE */}
         <h1 className="text-4xl md:text-5xl font-serif mb-5">
           Dreams dictionary
         </h1>
 
-        <div className="w-12 h-[1px] bg-[#C6A96B] mb-6"></div>
+        <div className="w-12 h-[1px] bg-[#C6A96B] mb-6" />
 
-        {/* INTRO */}
         <p className="text-[#6B6B6B] leading-relaxed mb-10 max-w-xl">
           Explore common dreams and what they might mean through symbols,
           emotions, and patterns that often appear beneath the surface.
         </p>
 
-        {/* SEARCH */}
-        <div className="mb-10">
-          <div className="border border-[#EAE6E1] rounded-xl px-5 py-4 bg-white focus-within:border-[#C6A96B] transition">
-            <input
-              type="text"
-              placeholder="Search a dream..."
-              value={search}
-              onChange={(e) => {
-                setSearch(e.target.value);
-                setVisibleCount(15);
-              }}
-              className="w-full bg-transparent outline-none text-lg placeholder:text-[#A89F91]"
-            />
-          </div>
-        </div>
-
-        {/* CATEGORY SCROLL */}
-        <div className="mb-12">
-
-  <p className="text-xs uppercase tracking-widest text-[#A89F91] mb-6 text-center">
-    Browse by theme
-  </p>
-
-  <div className="flex flex-wrap justify-center gap-3">
-
-    <button
-      onClick={() => {
-        setActiveCategory(null);
-        setVisibleCount(15);
-      }}
-      className={`px-4 py-2 rounded-full text-sm border ${
-        !activeCategory
-          ? "border-[#C6A96B] text-[#1A1A1A]"
-          : "border-[#EAE6E1] text-[#6B6B6B]"
-      }`}
-    >
-      All
-    </button>
-
-    {categories.map((cat) => (
-      <button
-        key={cat}
-        onClick={() => {
-          setActiveCategory(cat);
-          setVisibleCount(15);
-        }}
-        className={`px-4 py-2 rounded-full text-sm border capitalize ${
-          activeCategory === cat
-            ? "border-[#C6A96B] text-[#1A1A1A]"
-            : "border-[#EAE6E1] text-[#6B6B6B]"
-        }`}
-      >
-        {formatCategory(cat)}
-      </button>
-    ))}
-
-  </div>
-
-</div>
-
-        {/* DREAM LIST */}
-        <div className="space-y-4">
-
-          {filteredDreams.slice(0, visibleCount).map((dream) => (
-            <Link
-              key={dream.slug}
-              href={`/dreams/${dream.slug}`}
-              className="block border border-[#EAE6E1] p-5 rounded-xl bg-white hover:border-[#C6A96B] hover:shadow-sm transition"
-            >
-              <p className="font-medium text-lg">
-                {dream.title}
-              </p>
-
-              <p className="text-sm text-[#6B6B6B] mt-1">
-                {dream.description.slice(0, 90)}...
-              </p>
-            </Link>
-          ))}
-
-        </div>
-
-        {/* LOAD MORE */}
-        {visibleCount < filteredDreams.length && (
-          <div className="text-center mt-12">
-            <button
-              onClick={() => setVisibleCount((prev) => prev + 15)}
-              className="px-6 py-3 border border-[#EAE6E1] rounded-xl hover:border-[#C6A96B] transition text-sm"
-            >
-              Load more
-            </button>
-          </div>
-        )}
-
+        <DreamDictionaryControls
+          dreams={searchableDreams}
+          categories={categories}
+        />
       </div>
-<SiteFooter />
+      <SiteFooter />
     </main>
   );
 }

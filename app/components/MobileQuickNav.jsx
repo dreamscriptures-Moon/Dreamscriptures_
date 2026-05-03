@@ -1,32 +1,38 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+const QUICK_NAV_LINKS = [
+  { href: "/categories", label: "Categories" },
+  { href: "/guides", label: "Guides" },
+  { href: "/dreams", label: "Dreams" },
+];
 
 export default function MobileQuickNav() {
+  const pathname = usePathname();
+
   return (
     <section className="md:hidden px-6 pb-6">
-      <div className="flex gap-3 overflow-x-auto no-scrollbar">
+      <div className="flex gap-6 overflow-x-auto no-scrollbar text-sm">
 
-        <Link
-          href="/categories"
-          className="whitespace-nowrap px-4 py-2 border border-[#EAE6E1] rounded-full text-sm bg-white"
-        >
-          Categories
-        </Link>
+        {QUICK_NAV_LINKS.map((link) => {
+          const isActive = pathname.startsWith(link.href);
 
-        <Link
-          href="/guides"
-          className="whitespace-nowrap px-4 py-2 border border-[#EAE6E1] rounded-full text-sm bg-white"
-        >
-          Guides
-        </Link>
-
-        <Link
-          href="/dreams/teeth-falling-out"
-          className="whitespace-nowrap px-4 py-2 border border-[#EAE6E1] rounded-full text-sm bg-white"
-        >
-          Popular
-        </Link>
+          return (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`whitespace-nowrap transition ${
+                isActive
+                  ? "text-[#1A1A1A] border-b border-[#C6A96B] pb-1"
+                  : "text-[#6B6B6B] hover:text-[#1A1A1A]"
+              }`}
+            >
+              {link.label}
+            </Link>
+          );
+        })}
 
       </div>
     </section>

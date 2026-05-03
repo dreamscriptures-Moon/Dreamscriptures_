@@ -1,16 +1,16 @@
 import Link from "next/link";
 import HomeSearch from "@/app/components/HomeSearch";
-import MobileQuickNav from "@/app/components/MobileQuickNav";
+import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 
 const popularDreams = [
-  "Falling",
-  "Snakes",
-  "Being Chased",
-  "Teeth Falling Out",
-  "Flying",
-  "Water",
+  { title: "Falling", slug: "falling" },
+  { title: "Snakes", slug: "snakes" },
+  { title: "Being Chased", slug: "being-chased" },
+  { title: "Teeth Falling Out", slug: "teeth-falling-out" },
+  { title: "Flying", slug: "flying" },
+  { title: "Water", slug: "water" },
 ];
 
 const featuredGuides = [
@@ -48,8 +48,15 @@ export default function Home() {
     </h1>
 
     <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
-      Explore hundreds of dream meanings through emotional, symbolic, spiritual, and waking-life perspectives.
-    </p>
+   Explore hundreds of dream meanings, including 
+<Link href="/dreams/teeth-falling-out" className="underline mx-1">
+  teeth falling out dreams
+</Link>
+and
+<Link href="/dreams/being-chased" className="underline mx-1">
+  being chased dreams
+</Link>
+through emotional, symbolic, spiritual, and waking-life perspectives. </p>
 
     <p className="text-[11px] uppercase tracking-[0.28em] text-[#8A8175]">
       Dreams do not follow one fixed meaning. What matters most is what your dream may be reflecting.
@@ -65,7 +72,7 @@ export default function Home() {
 
   </section>
 
-  <MobileQuickNav />
+  <LazyMobileQuickNav />
 
   <section className="max-w-3xl mx-auto px-6 pb-12 text-left">
     <h2 className="text-2xl md:text-3xl font-serif mb-4">
@@ -84,7 +91,25 @@ export default function Home() {
       discover what your dreams may be trying to tell you.
     </p>
   </section>
-  
+
+<section className="max-w-3xl mx-auto px-6 pb-8 text-left">
+  <p className="text-sm text-[#6B6B6B]">
+    Some of the most searched dream meanings include{" "}
+    <Link href="/dreams/teeth-falling-out" className="underline">
+      teeth falling out
+    </Link>
+    ,{" "}
+    <Link href="/dreams/being-chased" className="underline">
+      being chased
+    </Link>
+    , and{" "}
+    <Link href="/dreams/falling" className="underline">
+      falling dreams
+    </Link>
+    .
+  </p>
+</section>
+
       <section className="max-w-xl mx-auto px-6 py-2 md:py-22">
         <h2 className="text-4xl md:text-5xl mb-4 text-center font-serif">
           Popular dream meanings
@@ -94,14 +119,14 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {popularDreams.map((dream) => (
             <Link
-              key={dream}
-              href={`/dreams/${dream.toLowerCase().replace(/\s+/g, "-")}`}
+              key={dream.slug}
+              href={`/dreams/${dream.slug}`}
               className="block border border-[#EAE6E1] p-6 rounded-xl hover:border-[#C6A96B] hover:bg-white/40 transition"
             >
-              <p className="text-base md:text-lg font-medium">{dream}</p>
-              <p className="text-sm text-[#6B6B6B] mt-2">
-                Explore what this dream might mean
-              </p>
+              <p className="text-base md:text-lg font-medium">{dream.title}</p>
+             <p className="text-sm text-[#6B6B6B] mt-2">
+              Explore the meaning of this dream and what it may reveal
+             </p>
             </Link>
           ))}
         </div>

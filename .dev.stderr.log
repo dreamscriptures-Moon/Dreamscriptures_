@@ -1,0 +1,117 @@
+⨯ ./data/dream.js:6649:1
+Unexpected character '›'
+  [90m6647 |[0m ];
+  [90m6648 |[0m
+[31m[1m>[0m [90m6649 |[0m › [33mAlso[0m log any missing or broken titles:
+  [90m     |[0m [31m[1m^[0m
+  [90m6650 |[0m
+  [90m6651 |[0m
+  [90m6652 |[0m • [33mEdited[0m lib\debugDreams.js (+[35m4[0m -[35m0[0m)
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./data/dream.js
+    ./app/dreams/[slug]/page.js
+
+  #2 [Server Component]:
+    ./data/dream.js
+    ./lib/debugDreams.js
+    ./app/layout.js
+
+
+⨯ ./data/dream.js:6649:1
+Unexpected character '›'
+  [90m6647 |[0m ];
+  [90m6648 |[0m
+[31m[1m>[0m [90m6649 |[0m › [33mAlso[0m log any missing or broken titles:
+  [90m     |[0m [31m[1m^[0m
+  [90m6650 |[0m
+  [90m6651 |[0m
+  [90m6652 |[0m • [33mEdited[0m lib\debugDreams.js (+[35m4[0m -[35m0[0m)
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./data/dream.js
+    ./app/dreams/[slug]/page.js
+
+  #2 [Server Component]:
+    ./data/dream.js
+    ./lib/debugDreams.js
+    ./app/layout.js
+
+
+⨯ ./data/dream.js:6649:1
+Unexpected character '›'
+  [90m6647 |[0m ];
+  [90m6648 |[0m
+[31m[1m>[0m [90m6649 |[0m › [33mAlso[0m log any missing or broken titles:
+  [90m     |[0m [31m[1m^[0m
+  [90m6650 |[0m
+  [90m6651 |[0m
+  [90m6652 |[0m • [33mEdited[0m lib\debugDreams.js (+[35m4[0m -[35m0[0m)
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./data/dream.js
+    ./app/dreams/[slug]/page.js
+
+  #2 [Server Component]:
+    ./data/dream.js
+    ./lib/debugDreams.js
+    ./app/layout.js
+
+
+⨯ ./data/dream.js:6649:1
+Unexpected character '›'
+  [90m6647 |[0m ];
+  [90m6648 |[0m
+[31m[1m>[0m [90m6649 |[0m › [33mAlso[0m log any missing or broken titles:
+  [90m     |[0m [31m[1m^[0m
+  [90m6650 |[0m
+  [90m6651 |[0m
+  [90m6652 |[0m • [33mEdited[0m lib\debugDreams.js (+[35m4[0m -[35m0[0m)
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./data/dream.js
+    ./app/dreams/[slug]/page.js
+
+  #2 [Server Component]:
+    ./data/dream.js
+    ./lib/debugDreams.js
+    ./app/layout.js
+
+
+[browser] Uncaught Error: ./data/dream.js:6649:1
+Unexpected character '›'
+  6647 | ];
+  6648 |
+> 6649 | › Also log any missing or broken titles:
+       | ^
+  6650 |
+  6651 |
+  6652 | • Edited lib\debugDreams.js (+4 -0)
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./data/dream.js
+    ./app/dreams/[slug]/page.js
+
+  #2 [Server Component]:
+    ./data/dream.js
+    ./lib/debugDreams.js
+    ./app/layout.js
+
+
+    at <unknown> (Error: ./data/dream.js:6649:1)
+    at <unknown> (Error: (./data/dream.js:6649:1)

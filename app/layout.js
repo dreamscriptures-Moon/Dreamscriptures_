@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/next";
+import { logDreamsOnce } from "@/lib/debugDreams";
 import "./globals.css";
 import { Playfair_Display, Inter } from "next/font/google";
 import Script from "next/script";
@@ -56,6 +57,8 @@ const inter = Inter({
 
 
 export default function RootLayout({ children }) {
+  logDreamsOnce();
+
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <body className={`${playfair.variable} ${inter.variable}`}>

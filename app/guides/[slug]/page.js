@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MobileQuickNav from "@/app/components/MobileQuickNav";
+import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { guides, getGuideBySlug } from "@/app/data/guides";
@@ -205,7 +205,7 @@ function linkifyText(text = "") {
           </p>
         )}
 
-        <MobileQuickNav />
+        <LazyMobileQuickNav />
 
         {guide.content?.length > 0 && (
           <section className="space-y-6 text-base md:text-lg mb-16">

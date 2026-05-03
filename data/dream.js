@@ -2178,63 +2178,7 @@ At its core, this dream may be asking you to notice whether you’re actually un
 
   categories: ["Fear", "Anxiety", "Work", "Money", "Spiritual"]
 },
-{
-  slug: "losing-something-important",
-  title: "Losing something important",
-  description: "Realizing something valuable is missing — something you needed, cared about, or relied on. It often comes with a sinking feeling, like you can’t get it back the way it was.",
 
-  emotional: `Dreams about losing something important often carry a quiet kind of panic.
-
-Not always loud or chaotic, but heavy. Like the moment you realize it’s gone settles slowly, and you can’t undo it.
-
-It can bring up anxiety, but also something deeper — a sense of loss, regret, or helplessness.
-
-Sometimes you’re searching for it in the dream, trying to retrace your steps. That can reflect a need to fix something, or to understand how things got to this point.
-
-Other times, there’s no search. Just the awareness that it’s gone, and you’re left with that feeling.
-
-If the dream repeats, it may point to a deeper fear. Not just of losing things, but of losing stability, connection, or something that matters to your sense of self.`,
-
-  symbolic: `Losing something in a dream isn’t always about the object itself. It often reflects value.
-
-What you feel is important, what you rely on, or what you don’t want to lose.
-
-It can point to insecurity. Not always obvious, but a subtle fear that something could be taken away or slip out of your control.
-
-It can also represent change. Something shifting in your life, where what once felt certain no longer feels the same.
-
-Sometimes, it reflects identity. Losing something that represents who you are, or who you’ve been.
-
-And in some cases, it’s about attachment. What you hold onto, and what it would mean if it wasn’t there anymore.`,
-
-  spiritual: `Losing something important in a dream can reflect detachment.
-
-Not always willingly, and not always comfortably.
-
-There are moments where things change, shift, or move out of your control. Where holding on doesn’t keep things the same.
-
-This dream can point to that space.
-
-It can also reflect awareness of impermanence. Not everything stays in the same form, even if it once felt stable.
-
-There’s something here about what remains when something is lost. What still exists, even when something important is no longer there in the same way.`,
-
-  wakingLife: `This dream often shows up when something in your life feels uncertain or at risk.
-
-It could be a relationship, a sense of stability, an opportunity, or even your own confidence.
-
-You might not be actively losing anything, but there may be a fear underneath that something could change or disappear.
-
-It can also reflect transitions. Moving from one phase of life to another, where something familiar no longer fits the same way.
-
-In some cases, it connects to actual experiences of loss — recent or past — that still carry emotional weight.
-
-If the dream repeats, it may be pointing to something you’re holding onto tightly, or something you’re afraid to lose.`,
-
-  summary: `A sense of something valuable slipping away or no longer being within your reach. This dream often reflects fear of loss, insecurity, or change. It highlights what you value, and what it would mean to not have it in the same way.`,
-
-  categories: ["Fear", "Anxiety", "Death", "Transformation", "Spiritual"]
-},
 {
   slug: "having-a-miscarriage",
   title: "Having a miscarriage",
@@ -2347,61 +2291,7 @@ If the dream repeats, it may be pointing to something you’re holding onto tigh
 
   categories: ["Death", "Transformation", "Fear", "Anxiety", "Spiritual"]
 },
-{
-  slug: "seeing-a-different-reflection",
-  title: "Seeing a different reflection in the mirror",
-  description: "Looking into a mirror and seeing a version of yourself that doesn’t match who you expect. It can feel subtle, unsettling, or strangely familiar — like something about you has shifted.",
 
-  emotional: `Dreams about seeing a different reflection often come with a quiet kind of discomfort.
-
-It’s not always fear — more like confusion. That moment of “why don’t I look like myself?”
-
-Sometimes the reflection feels completely different. Other times, it’s only slightly off, which can feel even more unsettling.
-
-It can bring up questions about identity. Who you are, how you see yourself, and whether that matches how you feel inside.
-
-There can also be distance. Like you’re looking at yourself, but not fully connected to what you’re seeing.
-
-If the dream repeats, it may point to a deeper feeling of change — something about you no longer feels the same, even if you can’t fully explain it yet.`,
-
-  symbolic: `A mirror in dreams often represents self-perception.
-
-Seeing a different reflection can point to a shift in how you see yourself — or a mismatch between who you think you are and how you actually feel.
-
-It can reflect identity changes. Not always obvious ones, but internal shifts that haven’t fully settled yet.
-
-Sometimes, it represents unfamiliar parts of yourself. Traits, emotions, or behaviors that you’re becoming aware of, even if they don’t feel fully “you” yet.
-
-It can also point to external influence. How others see you, or how you believe you’re being seen, affecting your sense of self.
-
-The reflection isn’t random — it often carries something that feels slightly true, even if it’s uncomfortable.`,
-
-  spiritual: `Seeing a different reflection can reflect a transition in identity.
-
-You’re not exactly who you were before, but not fully grounded in who you’re becoming either.
-
-There’s a kind of in-between space here. Where awareness is shifting, but clarity hasn’t fully formed yet.
-
-It can also point to deeper self-recognition. Seeing parts of yourself that were always there, but not fully acknowledged.
-
-Not everything feels familiar at first, even when it’s real.`,
-
-  wakingLife: `This dream often shows up during periods of change.
-
-You might be evolving in how you think, feel, or see yourself, even if it hasn’t fully settled yet.
-
-It can also reflect self-awareness. Noticing differences in your behavior, your reactions, or your identity.
-
-In some cases, it connects to insecurity. Questioning who you are, or how you come across to others.
-
-It may also reflect feeling misunderstood. Like the version of you that exists outwardly doesn’t fully match how you feel inside.
-
-At its core, this dream may be asking you to notice what feels different — and whether it’s something you’re resisting, or something you’re becoming.`,
-
-  summary: `A shift in how you see yourself, or how connected you feel to your own identity. This dream often reflects change, self-awareness, or a mismatch between your inner sense of self and what you recognize on the surface. It highlights the space between who you were and who you’re becoming.`,
-
-  categories: ["Spiritual", "Identity", "Fear", "Anxiety"]
-},
 {
   slug: "looking-in-the-mirror",
   title: "Looking in the mirror",
@@ -3583,59 +3473,6 @@ If the dream repeats, it may be asking you to trust your growth while also stren
 {
   slug: "jumping-off-a-bridge",
   title: "Jumping off a bridge",
-  description: "Bridges often symbolize transitions, decisions, and movement between one stage of life and another. Jumping off one can reflect leaving something suddenly, taking an emotional risk, or feeling pushed to make a drastic move when standing in between no longer feels possible.\n\nThe feeling of the jump matters. Choosing to jump can suggest urgency or a desire for freedom, while being forced or terrified during the fall often points to pressure, fear, or loss of control.",
-
-  emotional: `Dreams about jumping off a bridge often carry intense emotional energy.
-
-There is usually a breaking point in the dream. Remaining where you are no longer feels sustainable, so movement happens quickly.
-
-Sometimes the strongest feeling is relief. Letting go of pressure, expectation, or something that has weighed on you for too long.
-
-Other times, the emotion is fear. Once the jump happens, you may realize how uncertain the outcome is.
-
-There can also be desperation. Feeling trapped between options and acting because standing still feels worse.
-
-If the dream repeats, it may point to ongoing tension where part of you wants escape while another part wants stability.`,
-
-  symbolic: `Jumping off a bridge in a dream often represents drastic transition, surrender, emotional release, or rejecting the path you were on.
-
-A bridge connects two places. It symbolizes crossing from old circumstances into something new. Leaving the bridge abruptly can suggest impatience with the process, fear of the destination, or a need to choose your own route.
-
-It can point to ending relationships, quitting a job, abandoning old identity roles, or stepping away from expectations.
-
-Sometimes it reflects risk-taking. Choosing uncertainty over remaining in a situation that no longer feels right.
-
-It can also represent emotional overwhelm. If the bridge feels unstable, the jump may symbolize wanting out of stress rather than wanting danger.
-
-The landing matters. Water below often connects to emotions. Hard ground can reflect fear of consequences. Flying may symbolize liberation.`,
-
-  spiritual: `This dream is interpreted in many ways.
-
-Some people see it as surrendering control when life is between chapters. The bridge becomes the in-between place, and the jump reflects trust or forced release.
-
-Others interpret it as rejecting a path that no longer aligns, even before the next one is clear.
-
-Because bridges symbolize passage, leaving one suddenly can also reflect awakening through disruption rather than gradual change.
-
-The feeling matters most. Peace during the jump may suggest readiness. Terror may suggest change arriving faster than you feel prepared for.`,
-
-  wakingLife: `This dream often shows up during major decisions, emotional pressure, or transitions.
-
-You may feel stuck between staying where you are and moving into something unknown.
-
-It can also appear when you are craving freedom from responsibilities, conflict, or a life direction that no longer feels true to you.
-
-In some cases, it reflects impulsive thoughts about escape, not necessarily literal actions. More often, it symbolizes wanting a sharp break from stress.
-
-If the dream repeats, it may be asking you to address what feels unsustainable before drastic inner pressure builds.`,
-
-  summary: `Reaching a point where staying in the middle no longer feels possible. This dream often reflects sudden change, emotional release, risk, or the urge to escape a situation that feels too heavy. It highlights tension between uncertainty and freedom.`,
-
-  categories: ["Fear", "Anxiety", "Spiritual", "Death", "Transformation"]
-},
-{
-  slug: "jumping-off-a-bridge",
-  title: "Jumping off a bridge",
   description: "Bridges usually represent transitions, decisions, and movement from one phase of life to another. Jumping off one can reflect leaving something suddenly, taking a risk, or reaching a point where staying in between no longer feels possible.\n\nHow the jump feels matters. Choosing to jump can suggest urgency or a need for release, while fear during the fall often points to pressure, uncertainty, or feeling pushed into change.",
 
   shortDescription:
@@ -3690,5 +3527,2840 @@ If the dream repeats, it may be asking you to address what feels unsustainable b
 
   categories: ["Fear", "Anxiety", "Spiritual", "Transformation"]
 },
+{
+  slug: "seeing-water-in-a-dream",
+  title: "water",
+  description: "Water often reflects emotions, inner states, and how you are processing what’s happening in your life. Seeing it in a dream can point to how you feel beneath the surface, whether those feelings are calm, overwhelming, or not fully understood yet.\n\nThe condition of the water matters. Clear, calm water can suggest emotional balance or clarity, while rough, dark, or dirty water often points to stress, confusion, or emotions that feel harder to manage.",
+
+  shortDescription:
+    "Coming face to face with your emotional state. It can feel calm, overwhelming, or unclear — like something beneath the surface is becoming visible.",
+
+  emotional: `Dreams about water often carry whatever emotion is already present within you, but in a more visible form.
+
+Sometimes the feeling is calm. Being near still water can reflect peace, acceptance, or a moment where things feel settled.
+
+Other times, the emotion is heavy. Deep or endless water can bring a sense of being overwhelmed or unsure of what lies beneath.
+
+There can also be unease. Even without danger, water can feel unpredictable, which often mirrors emotions that are not fully in your control.
+
+If the dream repeats, it may point to emotional patterns that keep resurfacing rather than being fully processed.`,
+
+  symbolic: `Water in a dream often represents emotions, intuition, and the subconscious.
+
+It reflects what is felt rather than what is spoken. Calm water suggests emotional clarity or control, while turbulent water suggests inner conflict or stress.
+
+It can also represent change. Water is constantly moving, which makes it a symbol of life shifting, even when you are not actively directing it.
+
+Sometimes it reflects depth. Things that are not immediately visible but still present beneath the surface.
+
+The form matters. Oceans can reflect vast emotional space. Rivers can reflect movement or transition. Still water can reflect reflection or pause.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some see water as a symbol of cleansing, renewal, and emotional release. It can represent letting go of what no longer needs to be carried.
+
+Others interpret it as connection to intuition. Being more aware of what you feel without needing to explain it.
+
+Because water adapts to its environment, the dream can also reflect emotional flexibility or the need to flow rather than resist.
+
+The feeling matters most. Calmness may suggest alignment. Disturbance may suggest something within needs attention.`,
+
+  wakingLife: `This dream often shows up when emotions are active, even if they are not fully expressed.
+
+You may be processing stress, relationships, personal changes, or internal thoughts that are not fully clear yet.
+
+It can also appear during periods of reflection, where you are becoming more aware of how you feel rather than pushing it aside.
+
+In some cases, it reflects emotional buildup. Feelings that have been held back may begin to surface.
+
+If the dream repeats, it may be asking you to pay closer attention to what you are feeling rather than ignoring it.`,
+
+  summary:
+    "Emotions rising into awareness and becoming harder to ignore. This dream often reflects inner states, emotional processing, or changes unfolding beneath the surface. It highlights what you feel, even if you haven’t fully expressed it yet.",
+
+  categories: ["Spiritual", "Hidden Emotions"]
+},
+{
+  slug: "reaching-the-end-after-an-endless-fall",
+  title: "Reaching the end after an endless fall",
+  description: "Falling endlessly often reflects loss of control, uncertainty, or being stuck in a situation that doesn’t seem to resolve. Reaching the end of that fall can point to closure, impact, or finally facing something that has been ongoing for a long time.\n\nThe way it ends matters. A safe landing can suggest relief or resolution, while a hard or unclear ending may reflect anxiety about consequences or what comes after the fall.",
+
+  shortDescription:
+    "After falling for what feels like forever, you finally reach the end. It can feel relieving, jarring, or quiet — like something unresolved has finally caught up with you.",
+
+  emotional: `Dreams like this usually begin with prolonged tension.
+
+The fall continues for so long that it stops feeling sudden and starts feeling endless. That creates a different kind of emotion — less shock, more lingering uncertainty.
+
+There can be fear, but also exhaustion. Falling without reaching the ground can feel like being stuck in a state that never fully resolves.
+
+When the end finally comes, the emotional shift is important.
+
+Sometimes it feels like relief. The waiting is over, even if the outcome is unknown.
+
+Other times, it brings impact. A sudden return to reality, where everything you were suspended from finally catches up.
+
+There can also be calm. As if part of you accepted the fall before it ended.
+
+If the dream repeats, it may point to something in your life that has felt ongoing, unresolved, or difficult to bring to a conclusion.`,
+
+  symbolic: `An endless fall often represents prolonged uncertainty, instability, or a situation without clear direction.
+
+Reaching the end suggests that something is finally shifting from suspension into outcome.
+
+It can point to decisions being made, consequences arriving, or a phase of waiting coming to a close.
+
+Sometimes it reflects emotional processing. You have been moving through something internally, and now you are beginning to face it more directly.
+
+It can also represent transition. Moving out of a period where things felt unclear and into something more defined, even if it is not comfortable.
+
+The nature of the landing matters. A soft landing may reflect acceptance. A hard landing may reflect fear of consequences or reality setting in.`,
+
+  spiritual: `This dream can reflect movement through an in-between state.
+
+The endless fall represents a space where you are no longer grounded in what was, but not yet stable in what is coming.
+
+Reaching the end can symbolize grounding again. Returning to something solid after a period of uncertainty.
+
+It can also point to trust being tested. Moving through something without clarity and eventually arriving somewhere, even if you did not control the process.
+
+There is something here about transition completing itself.`,
+
+  wakingLife: `This dream often shows up when something in your life has felt unresolved for a long time.
+
+You may be dealing with ongoing stress, uncertainty, waiting, or a situation where you have not seen clear results.
+
+It can also reflect emotional buildup. Moving through something without fully understanding it until it finally reaches a point of clarity.
+
+In some cases, it connects to decisions you have been delaying. The dream may reflect awareness that something will eventually need to land.
+
+If the dream repeats, it may be pointing to the need for closure or acceptance of where something is heading.`,
+
+  summary:
+    "A long period of uncertainty finally reaching an outcome. This dream often reflects closure, transition, or the end of something that has felt ongoing. It highlights the shift from suspension into reality, where something can no longer remain unresolved.",
+
+  categories: ["Fear", "Anxiety", "Transformation"]
+},
+
+{
+  slug: "peeing-the-bed",
+  title: "Peeing the bed",
+  description: "Dreams about peeing the bed often connect to loss of control, emotional release, or vulnerability. They can reflect situations where something is becoming harder to hold in, whether it’s stress, feelings, or pressure that has been building over time.\n\nThe context matters. Feeling embarrassed can point to insecurity or fear of exposure, while relief during the dream may reflect letting go of something you’ve been holding onto for too long.",
+
+  shortDescription:
+    "Losing control of something you’ve been holding in. It can feel embarrassing, relieving, or deeply uncomfortable — like something private has surfaced without your permission.",
+
+  emotional: `Dreams about peeing the bed often carry a strong sense of vulnerability.
+
+There is usually a moment where control slips. That can bring embarrassment, discomfort, or a feeling of being exposed.
+
+Sometimes the strongest feeling is shame. Worrying about how others might see you or feeling like something private has become visible.
+
+Other times, the emotion is relief. Letting go, even unintentionally, can reflect release from pressure or tension.
+
+There can also be confusion. Not fully understanding why it happened, but knowing it feels personal.
+
+If the dream repeats, it may point to ongoing pressure that is becoming harder to contain.`,
+
+  symbolic: `Peeing the bed in a dream often represents release, loss of control, or difficulty managing something internal.
+
+It can point to emotions that have been held in for too long, finally finding a way out.
+
+Sometimes it reflects vulnerability. Letting something show that you would normally keep hidden.
+
+It can also relate to boundaries. Feeling like something has crossed a line or that your personal space or control has been affected.
+
+In some cases, it connects to stress. When pressure builds up, the mind may express it through physical release in dreams.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some see it as emotional cleansing. Letting go of what no longer needs to be held.
+
+Others interpret it as awareness of imbalance. Holding too much inside without proper release.
+
+Because water is often linked to emotion, this dream can reflect emotional overflow rather than weakness.
+
+The feeling matters most. Relief may suggest release. Discomfort may suggest unresolved tension.`,
+
+  wakingLife: `This dream often shows up when you are dealing with stress, pressure, or emotions that you have not fully expressed.
+
+You may be holding things in, trying to maintain control, or managing situations that feel overwhelming beneath the surface.
+
+It can also reflect fear of embarrassment or losing control in front of others.
+
+In some cases, it connects to physical awareness, especially if your body is reacting during sleep.
+
+If the dream repeats, it may be asking you to find healthier ways to release pressure instead of holding everything in.`,
+
+  summary:
+    "Something internal becoming harder to contain. This dream often reflects emotional release, vulnerability, stress, or fear of losing control. It highlights the need to express or process what has been held inside.",
+
+  categories: ["Body", "Fear", "Anxiety", "Hidden Emotions"]
+},{
+  slug: "different-reflection-mirror",
+  title: "Seeing a different reflection in the mirror",
+  description: "Mirrors reflect self-perception, identity, and awareness. Seeing a different version of yourself can point to change, inner conflict, or a disconnect between how you see yourself and how you feel internally.\n\nThe details matter. A slightly different reflection can suggest subtle shifts in identity, while a completely unfamiliar one may reflect deeper confusion, transformation, or parts of yourself you don’t fully recognize yet.",
+
+  shortDescription:
+    "Looking into a mirror and seeing a version of yourself that doesn’t match what you expect. It can feel subtle, unsettling, or strangely familiar — like something about you has shifted.",
+
+  emotional: `Dreams like this often carry a quiet but unsettling feeling.
+
+It’s not always fear. Sometimes it’s confusion. That moment of realizing something about you doesn’t match what you expected.
+
+There can be distance. Looking at yourself but not fully connecting to what you see.
+
+Sometimes the strongest feeling is curiosity. Trying to understand what feels different.
+
+Other times, the emotion is discomfort. Especially if the reflection feels unfamiliar in a way you can’t explain.
+
+If the dream repeats, it may point to a growing awareness that something about you is changing, even if you haven’t fully processed it yet.`,
+
+  symbolic: `A mirror in a dream represents self-awareness and identity.
+
+Seeing a different reflection often points to a shift in how you see yourself or how you are becoming aware of yourself.
+
+It can reflect internal change. Not always visible externally, but present within you.
+
+Sometimes it represents unfamiliar aspects of yourself. Traits, emotions, or behaviors that are emerging but not yet fully accepted.
+
+It can also point to perception. The difference between who you think you are and how you actually feel or behave.
+
+The reflection is rarely random. It often carries something that connects to your current state, even if it feels strange.`,
+
+  spiritual: `This dream can reflect a transition in identity.
+
+You may be moving away from one version of yourself and not yet fully settled into another.
+
+There is often an in-between feeling here. Awareness shifting without full clarity.
+
+It can also point to deeper self-recognition. Seeing parts of yourself that were always there but not fully acknowledged.
+
+Not everything feels familiar immediately, even when it is real.`,
+
+  wakingLife: `This dream often shows up during periods of personal change.
+
+You may be evolving in how you think, feel, or present yourself.
+
+It can also reflect self-reflection. Becoming more aware of your behavior, identity, or how you are seen by others.
+
+In some cases, it connects to insecurity. Questioning whether you are showing up the way you want to.
+
+It may also reflect feeling misunderstood. Like the version of you others see does not fully match how you feel inside.
+
+If the dream repeats, it may be asking you to pay attention to what feels different rather than ignoring it.`,
+
+  summary:
+    "A shift in identity or self-perception becoming noticeable. This dream often reflects change, inner awareness, or a disconnect between how you see yourself and how you feel. It highlights the space between who you were and who you are becoming.",
+
+  categories: ["Identity", "Spiritual", "Fear", "Anxiety"]
+},
+{
+  slug: "being-in-another-world",
+  title: "Being in another world",
+  description: "Being in another world often reflects stepping outside your normal reality, where rules, environments, or identities feel different. It can connect to escape, imagination, emotional distance, or exploring parts of yourself that don’t usually surface in everyday life.\n\nThe feeling of the world matters. A beautiful or peaceful world can suggest curiosity and expansion, while a strange or unsettling one may point to confusion, disconnection, or trying to understand unfamiliar experiences.",
+
+  shortDescription:
+    "Finding yourself in a completely different world, where everything feels unfamiliar or altered. It can feel fascinating, confusing, or slightly unreal — like stepping outside your normal sense of reality.",
+
+  emotional: `Dreams like this often carry a strong sense of difference.
+
+There is usually awareness that you are not where you normally are. That alone can bring curiosity, wonder, or unease.
+
+Sometimes the strongest feeling is fascination. Everything feels new, unfamiliar, and open.
+
+Other times, the emotion is disorientation. Not fully understanding where you are or how things work can create subtle anxiety.
+
+There can also be distance. Feeling separated from your usual life, responsibilities, or identity.
+
+If the dream repeats, it may point to a deeper need to explore something beyond your current routine or mindset.`,
+
+  symbolic: `Being in another world often represents entering a different mental or emotional state.
+
+It can point to imagination, creativity, or seeing life from a completely new perspective.
+
+Sometimes it reflects escape. Moving away from reality, whether intentionally or unconsciously.
+
+It can also represent change. Entering a phase where things feel unfamiliar or not fully grounded yet.
+
+In some cases, the world itself reflects your inner state. The environment, people, and rules may mirror emotions or thoughts that are harder to recognize in waking life.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some see it as expanded awareness, altered perception, or experiences that go beyond ordinary reality.
+
+Others interpret it as the mind exploring deeper layers of consciousness through symbolic environments.
+
+Because the setting is different from normal life, the dream can reflect openness to new perspectives or a shift in how you understand yourself and your surroundings.
+
+The feeling matters most. Peace may suggest alignment with exploration. Unease may suggest unfamiliar territory still being processed.`,
+
+  wakingLife: `This dream often shows up when you feel disconnected from your usual environment or routine.
+
+You may be going through change, exploring new ideas, or feeling like you don’t fully belong in your current situation.
+
+It can also appear during periods of creativity, where your mind is moving beyond familiar patterns.
+
+In some cases, it reflects a desire to step away from stress, responsibility, or pressure for a while.
+
+If the dream repeats, it may be asking you to understand what this “other world” represents in your life right now.`,
+
+  summary:
+    "Stepping outside your normal reality into something unfamiliar. This dream often reflects exploration, change, imagination, or emotional distance. It highlights how you relate to new perspectives and experiences that feel beyond your usual world.",
+
+  categories: ["Spiritual", "Identity", "Fear", "Anxiety"]
+},
+{
+  slug: "climbing-stairs",
+  title: "Climbing stairs",
+  description: "Stairs often represent progress, levels, and movement between stages in life. Climbing them can reflect effort, growth, or working toward something step by step rather than all at once.\n\nThe pace and condition of the stairs matter. Smooth climbing can suggest steady progress, while difficulty, broken steps, or exhaustion often point to pressure, obstacles, or feeling slowed down.",
+
+  shortDescription:
+    "Climbing upward step by step, moving toward something higher. It can feel steady, tiring, or focused — like progress is happening, but not all at once.",
+
+  emotional: `Dreams about climbing stairs often carry effort and awareness of movement.
+
+There is usually a sense that you are going somewhere, even if it takes time. Each step can feel like progress, but also like work.
+
+Sometimes the strongest feeling is determination. You know where you are heading, even if it requires patience.
+
+Other times, the emotion is fatigue. Repeating steps, long staircases, or slow movement can reflect feeling drained by ongoing effort.
+
+There can also be frustration if progress feels too slow or unclear.
+
+If the dream repeats, it may point to a long-term process that requires consistency rather than quick results.`,
+
+  symbolic: `Climbing stairs often represents gradual progress, development, or moving between different levels of awareness or life stages.
+
+Unlike sudden change, stairs suggest structured movement. You advance step by step.
+
+It can point to career growth, learning, healing, personal development, or building something over time.
+
+Sometimes it reflects ambition. Wanting to reach a higher position, understanding, or level of success.
+
+It can also represent internal growth. Becoming more aware of yourself or moving toward clarity.
+
+The details matter. Wide, stable stairs may reflect confidence and support. Narrow or broken stairs may reflect difficulty or uncertainty.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some see stairs as a symbol of elevation, moving toward higher awareness or deeper understanding.
+
+Others interpret it as discipline. Growth that happens through steady effort rather than sudden change.
+
+Because stairs connect different levels, the dream can also reflect movement between phases of life or states of mind.
+
+The feeling matters most. Ease may suggest alignment. Struggle may suggest pressure or resistance within the process.`,
+
+  wakingLife: `This dream often shows up when you are working toward something that takes time.
+
+You may be focused on career, education, personal growth, healing, or building stability.
+
+It can also appear when you feel progress is happening but slower than expected.
+
+In some cases, it reflects routine. Doing the same things repeatedly in order to move forward.
+
+If the dream repeats, it may be asking you to stay consistent while also recognizing how far you have already come.`,
+
+  summary:
+    "Progress happening step by step through effort and consistency. This dream often reflects growth, ambition, development, or moving through stages of life gradually. It highlights persistence over speed.",
+
+  categories: ["Work", "Money", "Spiritual", "Death", "Transformation"]
+},
+{
+  slug: "going-down-stairs",
+  title: "Going down the stairs",
+  description: "Stairs often represent movement between levels in life or within yourself. Going down them can reflect stepping into something deeper, returning to something from the past, or moving away from a higher level of control or awareness.\n\nThe feeling of the descent matters. Moving down calmly can suggest reflection or grounding, while fear, darkness, or instability often points to uncertainty, emotional depth, or discomfort with what you’re facing.",
+
+  shortDescription:
+    "Moving downward step by step, into something deeper or less clear. It can feel calm, uncertain, or slightly heavy — like you’re entering a space you don’t fully understand yet.",
+
+  emotional: `Dreams about going down the stairs often carry a quieter, heavier tone.
+
+There is usually awareness that you are moving downward, which can feel slower, more inward, or more uncertain than going up.
+
+Sometimes the strongest feeling is calm. Descending can feel like returning to something familiar or moving into a more grounded state.
+
+Other times, the emotion is unease. Not knowing what is below or what you are moving toward can create tension.
+
+There can also be hesitation. Each step may feel like moving deeper into something you are not fully ready to face.
+
+If the dream repeats, it may point to something you are gradually becoming more aware of, even if it feels uncomfortable.`,
+
+  symbolic: `Going down the stairs often represents moving inward, downward, or back into something that hasn’t fully been processed.
+
+It can point to exploring deeper emotions, subconscious thoughts, or unresolved experiences.
+
+Sometimes it reflects reflection. Taking time to understand rather than push forward.
+
+It can also represent stepping away from pressure, responsibility, or outward ambition, moving into a quieter internal space.
+
+In some cases, it connects to the past. Revisiting memories, patterns, or situations that still hold emotional weight.
+
+The details matter. Dark stairs may reflect uncertainty. Familiar stairs may reflect returning to known experiences. Endless stairs may reflect ongoing emotional depth.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some see descending stairs as a journey inward, moving closer to deeper awareness or hidden parts of yourself.
+
+Others interpret it as grounding. Coming down from a heightened state into something more stable and real.
+
+Because stairs connect levels, the dream can also reflect movement between different states of awareness or phases of life.
+
+The feeling matters most. Peace may suggest acceptance. Fear may suggest resistance to what lies beneath.`,
+
+  wakingLife: `This dream often shows up when you are reflecting, processing, or stepping back from something.
+
+You may be dealing with emotions, memories, or situations that require deeper understanding rather than immediate action.
+
+It can also appear when you feel like you are moving away from visible progress, even if that movement is necessary.
+
+In some cases, it reflects slowing down. Letting go of pressure or expectations and turning inward.
+
+If the dream repeats, it may be asking you to notice what you are moving toward, not just what you are leaving behind.`,
+
+  summary:
+    "Moving into a deeper or more internal space. This dream often reflects reflection, emotional processing, revisiting the past, or stepping away from outward progress. It highlights the shift from action into awareness.",
+
+  categories: ["Spiritual", "Fear", "Anxiety", "Death", "Transformation"]
+},
+{
+  slug: "plane-crash",
+  title: "Plane crash",
+  description: "Plane crashes in dreams often relate to plans, direction, and expectations suddenly going wrong. Because planes symbolize progress and goals, a crash can reflect fear of failure, loss of control, or something not going as planned in an important area of your life.\n\nThe context matters. Being inside the crash can feel personal and overwhelming, while watching it from a distance may reflect concern about something unfolding without your direct control.",
+
+  shortDescription:
+    "A sudden crash during flight, where something that was moving forward quickly breaks down. It can feel intense, shocking, or out of control — like a direction you trusted is no longer stable.",
+
+  emotional: `Dreams about plane crashes often carry intense tension and impact.
+
+There is usually a buildup. Movement, direction, and then something shifts quickly.
+
+Sometimes the strongest feeling is fear. Not just of danger, but of things falling apart unexpectedly.
+
+Other times, the emotion is shock. A sudden realization that something you trusted or expected is no longer stable.
+
+There can also be helplessness. Especially if you cannot stop what is happening.
+
+If the dream repeats, it may point to ongoing anxiety about something important not working out the way you hoped.`,
+
+  symbolic: `A plane crash often represents disruption in plans, goals, or direction.
+
+Planes symbolize movement toward something higher or further. A crash suggests that path being interrupted, delayed, or failing.
+
+It can point to fear of failure, pressure to succeed, or situations where expectations feel too high to maintain.
+
+Sometimes it reflects lack of control. Being on a path but not fully in charge of how things unfold.
+
+It can also represent sudden change. Something shifting quickly without warning.
+
+Watching a crash may reflect awareness of risk. Being in the crash often reflects personal involvement in the situation.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some see it as a loss of alignment. Moving in a direction that does not fully match your deeper self.
+
+Others interpret it as a forced correction. Something stopping you before you continue on a path that may not be right for you.
+
+Because planes represent elevation, the crash can also symbolize coming back down to reality after unrealistic expectations.
+
+The feeling matters most. Fear may suggest resistance. Calm observation may suggest awareness.`,
+
+  wakingLife: `This dream often shows up when you feel pressure around goals, expectations, or direction.
+
+You may be worried about failure, setbacks, or something not working out the way you planned.
+
+It can also appear when you feel out of control in a situation that matters to you.
+
+In some cases, it reflects stress from high expectations, whether from yourself or others.
+
+If the dream repeats, it may be asking you to reassess your direction or release unrealistic pressure.`,
+
+  summary:
+    "A plan or direction breaking down unexpectedly. This dream often reflects fear of failure, loss of control, or sudden disruption in something important. It highlights the tension between expectation and reality.",
+
+  categories: ["Fear", "Anxiety", "Work", "Money", "Death", "Transformation"]
+},
+{
+  slug: "stranded-on-island-alone",
+  title: "Stranded on an island alone",
+  description: "Islands often symbolize isolation, independence, or being cut off from others. Being stranded alone can reflect feeling disconnected, unsupported, or separated from familiar people or routines.\n\nThe feeling matters. Calm isolation can suggest a need for space or independence, while fear or distress often points to loneliness, abandonment, or emotional distance.",
+
+  shortDescription:
+    "Being alone on an island with no clear way back. It can feel quiet, isolating, or strangely peaceful — like you’ve been removed from everything familiar.",
+
+  emotional: `Dreams like this often carry a strong sense of separation.
+
+There is usually awareness that you are alone, with no immediate way back. That can bring loneliness, vulnerability, or quiet reflection.
+
+Sometimes the strongest feeling is peace. Being away from everything can feel freeing, especially if life has been overwhelming.
+
+Other times, the emotion is fear. Not knowing how long you will be there or how to leave can create anxiety.
+
+There can also be a sense of abandonment. Feeling like you have been left behind or forgotten.
+
+If the dream repeats, it may point to ongoing feelings of disconnection or the need for space that has not been fully acknowledged.`,
+
+  symbolic: `Being stranded on an island often represents isolation, independence, or emotional separation.
+
+It can point to feeling cut off from support, relationships, or familiar structures.
+
+Sometimes it reflects self-reliance. Being forced to depend on yourself without outside help.
+
+It can also represent emotional distance. Even if people are physically around you, you may feel internally alone.
+
+In some cases, it reflects a pause. Being removed from normal life in order to reflect or reset.
+
+The condition of the island matters. A peaceful island may suggest rest or retreat. A harsh or empty island may reflect struggle or lack of support.`,
+
+  spiritual: `This dream is interpreted in many ways.
+
+Some see it as a period of solitude for growth. Time away from noise and distraction to reconnect with yourself.
+
+Others interpret it as awareness of disconnection. Realizing what you need from others or what feels missing.
+
+Because islands are surrounded by water, the dream can also reflect being surrounded by emotion but separated from connection.
+
+The feeling matters most. Calmness may suggest chosen solitude. Fear may suggest unwanted isolation.`,
+
+  wakingLife: `This dream often shows up when you feel alone, unsupported, or disconnected.
+
+You may be going through something without help, feeling misunderstood, or separated from people emotionally.
+
+It can also appear when you need space but have not taken it, leading your mind to create that separation in a dream.
+
+In some cases, it reflects independence. Learning to rely on yourself, even if it feels uncomfortable.
+
+If the dream repeats, it may be asking you to notice whether you need connection, space, or both.`,
+
+  summary:
+    "Being placed in a space of isolation or separation. This dream often reflects loneliness, independence, emotional distance, or the need for space. It highlights how you experience being alone, whether it feels peaceful or difficult.",
+
+  categories: ["Fear", "Anxiety", "Spiritual", "Death", "Transformation"]
+},
+{
+  slug: "stranded-on-island-with-stranger",
+  title: "Stranded on an island with a stranger",
+  description: "Islands often reflect isolation, separation, or stepping away from normal life. Being stranded with a stranger adds another layer, pointing to unfamiliar connection, forced closeness, or navigating something unknown with someone you don’t fully understand.\n\nThe feeling matters. Comfort with the stranger can suggest openness or unexpected connection, while discomfort may reflect trust issues, uncertainty, or being placed in situations that feel out of your control.",
+
+  shortDescription:
+    "Being isolated with someone unfamiliar, where you have to share space without fully understanding them. It can feel tense, curious, or unexpectedly comforting — like connection and uncertainty happening at the same time.",
+
+  emotional: `Dreams like this often carry mixed emotions.
+
+You are not completely alone, but you are not fully comfortable either.
+
+Sometimes the strongest feeling is curiosity. Who this person is, why they are there, and what they represent.
+
+Other times, the emotion is tension. Being close to someone unfamiliar can create unease, especially if you feel dependent on them.
+
+There can also be cautious connection. Slowly interacting, observing, and trying to understand each other.
+
+In some cases, it brings comfort. Even if the person is unknown, not being alone can feel relieving.
+
+If the dream repeats, it may point to how you handle unfamiliar people, situations, or parts of yourself.`,
+
+  symbolic: `Being stranded on an island with a stranger often represents isolation combined with unfamiliar connection.
+
+The island reflects separation from normal life, while the stranger can symbolize something unknown entering your space.
+
+This could be a new person, a new situation, or even a part of yourself you are becoming aware of.
+
+It can point to forced cooperation. Navigating something where you cannot fully rely on what you know.
+
+Sometimes the stranger represents qualities you don’t fully recognize in yourself, such as confidence, fear, vulnerability, or independence.
+
+The interaction matters. Trust may reflect openness. Conflict may reflect internal tension or real-life discomfort with unfamiliar dynamics.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some see the stranger as a symbolic guide or reflection. Someone representing a part of your inner world rather than an external person.
+
+Others interpret it as learning through connection. Growth that comes from interacting with what is unfamiliar.
+
+Because the setting is isolated, the dream can also reflect focused awareness. Removing distractions so you can see something more clearly.
+
+The feeling matters most. Peace may suggest acceptance. Unease may suggest resistance to what is unfamiliar.`,
+
+  wakingLife: `This dream often shows up when you are dealing with unfamiliar situations or people.
+
+You may be entering new environments, relationships, or experiences where you do not feel fully grounded yet.
+
+It can also reflect emotional distance. Feeling separated from what you know, while trying to connect with something new.
+
+In some cases, it points to self-discovery. Meeting parts of yourself that feel unfamiliar but important.
+
+If the dream repeats, it may be asking you to pay attention to how you respond to uncertainty and new connections.`,
+
+  summary:
+    "Facing isolation while navigating connection with something unfamiliar. This dream often reflects new relationships, unknown situations, or discovering parts of yourself you don’t fully understand yet. It highlights the balance between distance and connection.",
+
+  categories: ["Love, Relationships", "Fear", "Anxiety", "Spiritual", "Death", "Transformation"]
+},
+{
+  slug: "stranded-on-island-with-someone-you-know",
+  title: "Stranded on an island with someone you know",
+  description: "Islands often reflect isolation, distance, or stepping away from normal life. Being stranded with someone you know can point to a relationship becoming more focused, exposed, or emotionally significant without outside distractions.\n\nThe feeling matters. Comfort can suggest closeness or trust, while tension may reflect unresolved issues, dependency, or something in the relationship becoming harder to ignore.",
+
+  shortDescription:
+    "Being isolated with someone familiar, where the connection becomes the main focus. It can feel close, tense, or revealing — like the relationship is more exposed than usual.",
+
+  emotional: `Dreams like this often carry a strong sense of shared experience.
+
+You are not alone, but you are also not in your usual environment. That can bring closeness, pressure, or both.
+
+Sometimes the strongest feeling is connection. Being together without distractions can make the bond feel clearer or more important.
+
+Other times, the emotion is tension. Without outside structure, differences or discomfort may feel more noticeable.
+
+There can also be reliance. Depending on each other for support, stability, or emotional grounding.
+
+In some cases, it brings calm. A sense of simplicity where only the relationship matters.
+
+If the dream repeats, it may point to something in that connection becoming more central in your life.`,
+
+  symbolic: `Being stranded on an island with someone you know often represents a relationship placed in a more intense or isolated context.
+
+The island removes outside influence. What remains is the dynamic between you and that person.
+
+It can point to closeness, dependency, or emotional focus. Sometimes it reflects a need to understand the relationship more clearly.
+
+It may also highlight imbalance. Who leads, who depends, who feels more secure.
+
+In some cases, it represents a shared situation in waking life. Something you and that person are going through together.
+
+The nature of the relationship matters. A partner, friend, or family member can change the meaning significantly.`,
+
+  spiritual: `This dream can reflect connection as a form of growth.
+
+Sometimes relationships become clearer when everything else is removed. The dream can point to what remains when distractions are gone.
+
+It can also represent mirroring. Seeing parts of yourself through your interaction with someone else.
+
+Because the setting is isolated, it may highlight what this connection truly means to you at a deeper level.
+
+The feeling matters most. Peace may suggest alignment. Discomfort may suggest something that needs attention.`,
+
+  wakingLife: `This dream often shows up when a relationship is becoming more important or more noticeable in your life.
+
+You may be focusing on this person more, depending on them, or navigating something together.
+
+It can also reflect emotional isolation within a relationship. Feeling close but also cut off from others.
+
+In some cases, it points to unresolved dynamics. Without distraction, certain patterns or feelings become clearer.
+
+If the dream repeats, it may be asking you to look at the relationship directly rather than avoiding what it shows you.`,
+
+  summary:
+    "A relationship becoming more focused and exposed without outside influence. This dream often reflects closeness, dependency, shared situations, or unresolved dynamics. It highlights what remains between you when everything else is removed.",
+
+  categories: ["Love", "Relationships", "Fear", "Anxiety", "Spiritual", "Death", "Transformation"]
+},
+{
+  slug: "stranded-on-the-road",
+  title: "Stranded on the road",
+  description: "Roads often represent direction, progress, and where your life is heading. Being stranded on one can reflect feeling stuck mid-journey, unsure of what to do next, or unable to continue the path you were on.\n\nThe situation matters. A broken vehicle or blocked road can suggest obstacles or lack of support, while simply standing still may reflect hesitation or uncertainty about the next step.",
+
+  shortDescription:
+    "Being stuck in the middle of your path without a clear way forward. It can feel frustrating, uncertain, or isolating — like progress has suddenly stopped.",
+
+  emotional: `Dreams like this often carry frustration more than fear.
+
+There is usually awareness that you were moving forward, and then something stopped that movement.
+
+Sometimes the strongest feeling is being stuck. Not lost completely, but unable to continue.
+
+Other times, the emotion is uncertainty. Not knowing what to do next or how to move forward.
+
+There can also be isolation. Even if others are around, the feeling can be that you are dealing with the situation alone.
+
+In some cases, it brings impatience. Wanting progress but feeling delayed.
+
+If the dream repeats, it may point to a situation in your life where progress feels blocked or paused.`,
+
+  symbolic: `Being stranded on a road often represents interruption in direction or progress.
+
+Roads symbolize your path, choices, and movement through life. Being unable to continue can reflect obstacles, indecision, or lack of resources.
+
+It can point to career delays, relationship uncertainty, personal goals being paused, or not knowing which direction to take.
+
+Sometimes it reflects transition. You are between stages, no longer where you were but not yet where you are going.
+
+It can also represent reliance on something external. A vehicle breaking down may symbolize dependence on tools, support, or systems that are not working.`,
+
+  spiritual: `This dream can reflect being paused for awareness.
+
+Not every stop is failure. Sometimes movement is interrupted so you can reassess direction.
+
+It can also point to alignment. Being unable to continue may reflect a path that is not fully right for you.
+
+Because roads symbolize life direction, the dream can highlight the importance of choosing consciously rather than moving automatically.
+
+The feeling matters most. Calm may suggest acceptance of pause. Frustration may suggest resistance to it.`,
+
+  wakingLife: `This dream often shows up when you feel stuck or delayed in some area of your life.
+
+You may be facing obstacles in work, relationships, finances, or personal growth.
+
+It can also appear when you are unsure about your next step or feel like progress has slowed down unexpectedly.
+
+In some cases, it reflects burnout. Wanting to move forward but lacking energy or clarity.
+
+If the dream repeats, it may be asking you to look at what is blocking your path and whether it needs to be fixed, changed, or left behind.`,
+
+  summary:
+    "Progress being interrupted or paused unexpectedly. This dream often reflects feeling stuck, delayed, or uncertain about direction. It highlights the moment between movement and decision, where the next step is not yet clear.",
+
+  categories: ["Work", "Money", "Spiritual", "Fear", "Anxiety"]
+},
+{
+  slug: "lost-in-the-forest",
+  title: "Lost in the forest",
+  description: "Forests often represent the unknown, inner thoughts, and emotional depth. Being lost in one can reflect confusion, lack of direction, or feeling overwhelmed by something you don’t fully understand yet.\n\nThe feeling matters. Fear or panic can suggest anxiety and pressure, while calm wandering may point to exploration, self-discovery, or moving through something without clear answers.",
+
+  shortDescription:
+    "Feeling lost in a space without clear direction. It can feel confusing, overwhelming, or quietly uncertain — like you’re surrounded by something you don’t fully understand.",
+
+  emotional: `Dreams about being lost in a forest often carry uncertainty.
+
+There is usually no clear path, and that creates a feeling of not knowing where to go or what to trust.
+
+Sometimes the strongest feeling is anxiety. Wanting direction but not finding it.
+
+Other times, the emotion is quiet confusion. Not necessarily fear, but a sense of being surrounded by too much that isn’t clear.
+
+There can also be isolation. Even if nothing is chasing you, being alone in that space can feel heavy.
+
+If the dream repeats, it may point to something in your life that feels unclear or unresolved.`,
+
+  symbolic: `Being lost in a forest often represents lack of clarity, emotional overwhelm, or navigating something without a clear path.
+
+Forests are complex and layered, which makes them strong symbols of the subconscious and internal processing.
+
+Getting lost can point to uncertainty in decisions, relationships, identity, or direction in life.
+
+Sometimes it reflects overthinking. Too many thoughts, possibilities, or concerns making it hard to move forward.
+
+It can also represent being in the middle of change, where the path ahead hasn’t revealed itself yet.`,
+
+  spiritual: `This dream can reflect an inward journey.
+
+Being lost does not always mean something is wrong. It can mean you are in a phase where answers are not immediate.
+
+Some interpret it as a period of growth that requires patience and trust.
+
+Others see it as awareness of disconnection. Losing direction before finding a clearer one.
+
+The feeling matters most. Calmness may suggest acceptance of the process. Fear may suggest resistance to uncertainty.`,
+
+  wakingLife: `This dream often shows up when you feel unsure about your direction.
+
+You may be dealing with decisions, emotional confusion, or situations that do not have clear answers.
+
+It can also appear when you feel overwhelmed by too many options or too much information.
+
+In some cases, it reflects feeling stuck in a situation without knowing how to move forward.
+
+If the dream repeats, it may be asking you to focus less on finding immediate answers and more on understanding what is confusing you.`,
+
+  summary:
+    "Feeling unsure, overwhelmed, or without clear direction. This dream often reflects confusion, emotional depth, or being in a phase where answers are not fully visible yet. It highlights the experience of moving through uncertainty rather than having clarity.",
+
+  categories: ["Fear", "Anxiety", "Spiritual"]
+},
+{
+  slug: "mermaid",
+  title: "Mermaid",
+  description: "Mermaids often symbolize the connection between emotion and identity, since they exist between land and water. Seeing one in a dream can reflect attraction to something mysterious, emotional depth, or a part of yourself that feels both familiar and unknown.\n\nThe feeling matters. A calm or beautiful mermaid can suggest curiosity and connection, while a distant or unsettling one may point to confusion, illusion, or something that isn’t fully understood.",
+
+  shortDescription:
+    "Encountering something mysterious that blends emotion and identity. It can feel fascinating, distant, or slightly unreal — like being drawn to what you don’t fully understand.",
+
+  emotional: `Dreams about mermaids often carry a mix of fascination and distance.
+
+There is usually something captivating about them. Not fully human, not fully separate, which creates a sense of mystery.
+
+Sometimes the strongest feeling is attraction. Being drawn toward something you don’t fully understand.
+
+Other times, the emotion is caution. Something feels intriguing but also uncertain.
+
+There can also be longing. A feeling of wanting to reach or connect with something that feels slightly out of reach.
+
+If the dream repeats, it may point to something in your life that continues to pull your attention without full clarity.`,
+
+  symbolic: `A mermaid in a dream often represents emotional depth, mystery, and duality.
+
+Being part human and part water, it reflects the connection between conscious identity and hidden emotions.
+
+It can point to something that looks appealing but is not fully clear or grounded.
+
+Sometimes it represents temptation or illusion. Something that draws you in emotionally without full understanding.
+
+It can also reflect creativity, imagination, or a desire to explore parts of yourself that feel different or hidden.
+
+In some cases, it symbolizes emotional expression. Especially if the mermaid feels calm, present, or connected.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some see mermaids as symbols of intuition and emotional awareness, representing a deeper connection to feelings and inner truth.
+
+Others interpret them as illusions. Something that appears beautiful but requires careful understanding.
+
+Because mermaids exist between two worlds, the dream can also reflect being between two states of being or identity.
+
+The feeling matters most. Calmness may suggest alignment with your emotions. Unease may suggest confusion or something not fully clear.`,
+
+  wakingLife: `This dream often shows up when you are drawn to something emotional, creative, or unfamiliar.
+
+You may be exploring feelings, relationships, or ideas that feel different from your usual experience.
+
+It can also reflect attraction to something that seems appealing but is not fully understood yet.
+
+In some cases, it points to self-discovery. Becoming aware of parts of yourself that feel hidden or not fully expressed.
+
+If the dream repeats, it may be asking you to look more closely at what is drawing your attention and why.`,
+
+  summary:
+    "Being drawn toward something mysterious, emotional, or not fully understood. This dream often reflects attraction, curiosity, illusion, or deeper emotional awareness. It highlights the connection between what you feel and what you fully recognize.",
+
+  categories: ["Spiritual", "Hidden Emotions", "Identity"]
+},
+{
+  slug: "snake-bite-on-leg",
+  title: "Snake bite on the leg",
+  description: "A snake bite often represents something hidden becoming direct and unavoidable. When the bite happens on the leg, it connects specifically to movement, direction, and progress in your life. This dream can reflect something affecting your ability to move forward or making you question the path you are on.\n\nThe feeling matters. A painful or frightening bite can suggest fear, betrayal, or disruption, while a calmer experience may point to awareness, warning, or a shift that needs attention.",
+
+  shortDescription:
+    "Something hidden affecting your direction or progress. It can feel sudden, unsettling, or revealing — like an issue has moved from the background into your path.",
+
+  emotional: `Dreams about a snake biting your leg often carry sudden awareness.
+
+There is usually a moment where everything shifts. Something that felt distant becomes immediate.
+
+Sometimes the strongest feeling is shock. Not expecting the situation to affect you directly.
+
+Other times, the emotion is fear. Especially if the bite makes it harder to move or escape.
+
+There can also be frustration. Wanting to keep going but feeling interrupted.
+
+In some cases, there is clarity. Realizing something you sensed before is now undeniable.
+
+If the dream repeats, it may point to an issue that keeps affecting your progress or direction.`,
+
+  symbolic: `A snake bite on the leg often represents something interfering with movement, direction, or life progress.
+
+Legs symbolize stability, forward motion, and the ability to move through life.
+
+The snake represents hidden tension, fear, betrayal, instinct, or transformation.
+
+The bite suggests that what the snake represents is no longer distant. It is now directly affecting you.
+
+It can point to obstacles in career, relationships, or personal growth that are slowing you down or forcing you to reconsider your path.
+
+Sometimes it reflects being hurt while moving forward, especially if you trusted the situation before.
+
+It can also represent forced awareness. Something you can no longer ignore because it is impacting your direction.`,
+
+  spiritual: `This dream can reflect awakening through disruption.
+
+The leg connects to your path, so the bite may symbolize a forced pause or redirection.
+
+Some interpret it as a warning. Something in your path requires attention before you continue.
+
+Others see it as transformation that arrives sharply rather than gradually.
+
+Because snakes also symbolize healing, the dream can sometimes reflect painful awareness that leads to growth.
+
+The feeling matters most. Fear may suggest resistance. Clarity may suggest recognition of truth.`,
+
+  wakingLife: `This dream often shows up when something is affecting your ability to move forward.
+
+You may be dealing with obstacles, setbacks, or situations that interfere with your plans.
+
+It can also reflect trust being broken while you were progressing in something.
+
+In some cases, it connects to stress around direction. Feeling unsure whether you are moving the right way.
+
+If the dream repeats, it may be asking you to look closely at what is disrupting your path and address it directly.`,
+
+  summary:
+    "Something hidden becoming a direct obstacle in your path. This dream often reflects disruption, forced awareness, or issues affecting your progress and direction. It highlights where something can no longer be ignored because it is impacting how you move forward.",
+
+  categories: ["Animals", "Fear", "Anxiety", "Spiritual", "Transformation"]
+},
+{
+  slug: "snake-bite-on-hand",
+  title: "Snake bite on the hand",
+  description: "Hands represent action, control, trust, and how you interact with others. A snake bite on the hand can point to something affecting your ability to act, trust, or handle a situation, especially in a way that feels sudden or unexpected.\n\nThe context matters. A painful bite can suggest emotional impact or betrayal, while a calm reaction may point to awareness, realization, or something becoming clear.",
+
+  shortDescription:
+    "Something interfering with your ability to act or trust. It can feel sudden, unsettling, or revealing — like an issue has directly affected how you handle things.",
+
+  emotional: `Dreams about a snake biting your hand often carry immediate shock.
+
+There is usually a moment where something crosses from distant awareness into direct experience.
+
+Sometimes the strongest feeling is betrayal. Especially if the situation felt safe before the bite.
+
+Other times, the emotion is fear. Not just of the snake, but of what the bite means or what it might lead to.
+
+There can also be awareness. Realizing something you sensed before is now undeniable.
+
+If the dream repeats, it may point to something that keeps affecting your sense of control or trust.`,
+
+  symbolic: `A snake bite on the hand often represents something interfering with your ability to act, trust, or engage.
+
+Hands symbolize doing, creating, holding, and connecting. A bite there can point to disruption in those areas.
+
+It can reflect betrayal, conflict, or unexpected issues in relationships, work, or responsibilities.
+
+Sometimes it represents words or actions that hurt you directly.
+
+It can also reflect internal conflict. Habits, fears, or patterns affecting what you do or how you respond.
+
+The snake itself can symbolize fear, deception, transformation, instinct, or hidden tension. The bite suggests that whatever it represents is no longer distant.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some see it as spiritual attack, jealousy, or negative energy affecting your actions or path.
+
+Others interpret it as awakening through discomfort. Something becoming clear through a direct experience rather than gradual awareness.
+
+Because snakes also symbolize healing and transformation, the bite can represent a painful but necessary realization.
+
+The feeling matters most. Fear may suggest threat. Calmness may suggest awareness and change.`,
+
+  wakingLife: `This dream often shows up when something has started to affect you directly.
+
+It could be conflict, betrayal, stress, or a situation where your ability to act or trust feels challenged.
+
+You may also be dealing with something that crossed a boundary or impacted you more than expected.
+
+In some cases, it reflects internal struggle. Wanting to act differently but feeling held back by something.
+
+If the dream repeats, it may be asking you to look at what is interfering with your sense of control or confidence.`,
+
+  summary:
+    "Something affecting your ability to act, trust, or stay in control. This dream often reflects betrayal, conflict, or a direct emotional impact that can no longer be ignored. It highlights where something has moved from awareness into real experience.",
+
+  categories: ["Animals", "Fear", "Anxiety", "Spiritual"]
+},
+{
+  slug: "cat-scratching-you",
+  title: "Cat scratching you",
+  description: "Cats often symbolize independence, intuition, boundaries, and subtle emotional behavior. A cat scratch can point to irritation, small emotional wounds, or tension that isn’t obvious but still affects you.\n\nThe context matters. A playful scratch may reflect minor conflict or teasing, while an aggressive scratch often points to sharper tension, defensiveness, or crossed boundaries.",
+
+  shortDescription:
+    "A small but sharp emotional impact. It can feel irritating, unexpected, or lingering — like something minor is affecting you more than it seems.",
+
+  emotional: `Dreams about a cat scratching you often carry irritation more than fear.
+
+It usually doesn’t feel overwhelming, but it stays with you. That lingering discomfort matters.
+
+Sometimes the strongest feeling is annoyance. Something small but persistent that keeps bothering you.
+
+Other times, the emotion is surprise. The cat may have seemed calm before, making the scratch feel unexpected.
+
+There can also be sensitivity. Even a small scratch can feel more personal than it appears.
+
+If the dream repeats, it may point to ongoing minor tension that hasn’t been fully addressed.`,
+
+  symbolic: `A cat scratch often represents subtle conflict, emotional boundaries, or small but noticeable emotional impact.
+
+Cats symbolize independence, instinct, and sometimes unpredictability. A scratch can point to something that doesn’t seem major but still affects your emotional state.
+
+It can reflect passive-aggressive behavior, hidden tension, or discomfort in relationships.
+
+Sometimes it represents boundaries being crossed in small ways. Not enough to cause major conflict, but enough to create irritation.
+
+It can also reflect your own reactions. Being defensive, sensitive, or reacting to something that touches a nerve.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some see cats as symbols of intuition. A scratch can reflect ignoring something you feel internally until it becomes harder to overlook.
+
+Others interpret it as awareness of subtle energy or emotional imbalance.
+
+Because the impact is small but noticeable, the dream can represent messages that are easy to dismiss but important to recognize.
+
+The feeling matters most. Irritation may suggest something needs attention. Calmness may suggest awareness without overwhelm.`,
+
+  wakingLife: `This dream often shows up when something small is bothering you.
+
+It could be a minor conflict, repeated irritation, or subtle emotional discomfort in relationships or daily life.
+
+You may be dealing with situations that don’t seem serious enough to confront, but still affect your mood or mindset.
+
+In some cases, it reflects sensitivity. Reacting more strongly to something that touches on a deeper issue.
+
+If the dream repeats, it may be asking you to address what seems small before it builds into something larger.`,
+
+  summary:
+    "A small but noticeable emotional impact that shouldn’t be ignored. This dream often reflects irritation, subtle conflict, or boundaries being crossed in minor ways. It highlights how small issues can still affect you over time.",
+
+  categories: ["Animals", "Relationships", "Hidden Emotions", "Anxiety"]
+},
+{
+  slug: "dog-bite",
+  title: "Dog bite",
+  description: "Dogs usually represent loyalty, trust, protection, and relationships. A dog bite can point to conflict within a relationship, broken trust, or something familiar turning unexpectedly hurtful.\n\nThe context matters. Being bitten by a known dog can suggest issues with someone close, while a stray or unknown dog may reflect general fear, insecurity, or unpredictable situations.",
+
+  shortDescription:
+    "Something familiar turning unexpectedly hurtful. It can feel surprising, personal, or unsettling — like trust or loyalty has been disrupted.",
+
+  emotional: `Dreams about a dog bite often carry surprise more than pure fear.
+
+There is usually an expectation of safety. Dogs are often seen as friendly, so the bite can feel unexpected or personal.
+
+Sometimes the strongest feeling is betrayal. Something or someone you trusted behaving differently than expected.
+
+Other times, the emotion is fear. Especially if the dog feels aggressive or uncontrollable.
+
+There can also be confusion. Trying to understand why the situation changed so quickly.
+
+If the dream repeats, it may point to ongoing tension or trust issues that haven’t been fully addressed.`,
+
+  symbolic: `A dog bite often represents conflict, betrayal, or disruption in trust.
+
+Dogs symbolize loyalty, companionship, and protection. When that turns into a bite, it suggests something within that dynamic has shifted.
+
+It can point to arguments, misunderstandings, or emotional hurt coming from someone close.
+
+Sometimes it reflects internal conflict. Struggling with loyalty, trust, or how you respond to others.
+
+It can also represent boundaries. A situation where something has crossed a line or become too intense.
+
+The behavior of the dog matters. A calm dog turning aggressive may reflect sudden change. A constantly aggressive dog may reflect ongoing tension.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some see it as a warning about trust. Becoming more aware of who or what you rely on.
+
+Others interpret it as emotional awareness. Recognizing where loyalty is not balanced or where boundaries need to be stronger.
+
+Because dogs are also protective, the dream can reflect confusion between safety and threat.
+
+The feeling matters most. Fear may suggest insecurity. Awareness may suggest clarity about a situation.`,
+
+  wakingLife: `This dream often shows up when there is tension in relationships.
+
+You may be dealing with conflict, feeling hurt by someone close, or questioning trust.
+
+It can also appear when boundaries are unclear or being crossed.
+
+In some cases, it reflects internal struggle. Wanting to trust but feeling uncertain.
+
+If the dream repeats, it may be asking you to look at where trust, loyalty, or boundaries need attention.`,
+
+  summary:
+    "Trust or loyalty being disrupted in a noticeable way. This dream often reflects relationship tension, conflict, or emotional hurt. It highlights situations where something familiar no longer feels safe or predictable.",
+
+  categories: ["Animals", "Relationships", "Fear", "Anxiety"]
+},
+{
+  slug: "shark-attack",
+  title: "Shark attack",
+  description: "Sharks often symbolize hidden danger, powerful emotions, or threats beneath the surface. A shark attack can reflect something intense or overwhelming rising suddenly into your awareness, especially in situations where you feel vulnerable or exposed.\n\nThe context matters. Being attacked directly can suggest personal confrontation with fear or pressure, while escaping or surviving may reflect resilience or awareness of the threat.",
+
+  shortDescription:
+    "Facing a sudden and intense threat. It can feel overwhelming, urgent, or deeply unsettling — like something hidden has become impossible to ignore.",
+
+  emotional: `Dreams about a shark attack often carry intense fear and urgency.
+
+There is usually a sudden shift. What was calm or unnoticed becomes dangerous very quickly.
+
+Sometimes the strongest feeling is panic. Trying to escape something that feels stronger or faster than you.
+
+Other times, the emotion is vulnerability. Especially if you feel exposed or unable to defend yourself.
+
+There can also be awareness. Realizing something you didn’t notice before is now a clear threat.
+
+If the dream repeats, it may point to ongoing anxiety or pressure that feels overwhelming or hard to escape.`,
+
+  symbolic: `A shark attack often represents hidden threats, overwhelming emotions, or intense pressure surfacing suddenly.
+
+Sharks symbolize danger beneath the surface, instinct, and powerful forces that are not always visible at first.
+
+The attack suggests that something has moved from hidden to direct, affecting you in a noticeable way.
+
+It can point to emotional overwhelm, fear of being hurt, or situations where you feel outmatched or vulnerable.
+
+Sometimes it reflects fear of people or environments that feel aggressive, competitive, or unsafe.
+
+It can also represent internal fears becoming more intense and harder to ignore.`,
+
+  spiritual: `This dream is interpreted in different ways.
+
+Some see sharks as symbols of deep instinct or survival energy. An attack can reflect being pushed to confront something you’ve avoided.
+
+Others interpret it as awareness of hidden danger. Something beneath the surface rising into consciousness.
+
+Because water represents emotion, the dream can also reflect powerful feelings becoming overwhelming.
+
+The feeling matters most. Fear may suggest threat. Awareness may suggest recognition of something important.`,
+
+  wakingLife: `This dream often shows up when you feel overwhelmed or threatened by something in your life.
+
+It could be stress, emotional pressure, conflict, or situations where you feel exposed or vulnerable.
+
+You may also be dealing with environments that feel intense, competitive, or unpredictable.
+
+In some cases, it reflects internal anxiety that feels difficult to control.
+
+If the dream repeats, it may be asking you to identify what feels like a hidden threat and address it directly.`,
+
+  summary:
+    "A hidden threat becoming sudden and overwhelming. This dream often reflects fear, emotional intensity, or pressure that can no longer stay beneath the surface. It highlights vulnerability and the need to face what feels dangerous or out of control.",
+
+  categories: ["Animals", "Fear", "Anxiety", "Spiritual"]
+},
+{
+  slug: "seeing-jesus",
+  title: "Seeing Jesus",
+  description: "Seeing Jesus in a dream often connects to faith, guidance, forgiveness, and inner reflection. It can reflect a search for direction, comfort during difficulty, or a desire to reconnect with something spiritually meaningful.\n\nThe feeling matters. A peaceful encounter can suggest reassurance or alignment, while a distant or intense presence may point to reflection, conviction, or something within you asking for attention.",
+
+  shortDescription:
+    "A moment of spiritual presence or inner guidance. It can feel peaceful, powerful, or deeply personal — like something meaningful is reaching you.",
+
+  emotional: `Dreams about seeing Jesus often carry a strong emotional presence.
+
+Sometimes the strongest feeling is peace. A sense of calm, safety, or being understood without needing explanation.
+
+Other times, the emotion is reverence. Feeling small in the presence of something greater.
+
+There can also be reflection. Thinking about your actions, choices, or direction in life.
+
+In some cases, the feeling is comfort. Especially during stress, loss, or uncertainty.
+
+If the dream repeats, it may point to something you are being drawn to reflect on more deeply.`,
+
+  symbolic: `In a biblical context, seeing Jesus in a dream is often associated with guidance, truth, and spiritual awareness.
+
+It can represent calling, correction, or reassurance. Not necessarily in a literal sense, but as a reflection of your relationship with faith and understanding.
+
+Sometimes it points to forgiveness. Either receiving it, seeking it, or needing to extend it.
+
+It can also reflect direction. A reminder to align with values, purpose, or beliefs that feel meaningful.
+
+In some interpretations, it represents presence. The idea of not being alone in what you are going through.`,
+
+  spiritual: `This dream is often experienced as deeply personal.
+
+Some believe it can be a form of spiritual encounter, especially if the dream feels vivid, clear, or emotionally strong.
+
+Others interpret it as the mind expressing faith, hope, or inner guidance through a familiar spiritual figure.
+
+Because Jesus represents compassion, truth, and sacrifice, the dream can reflect a deeper connection to those qualities.
+
+The feeling matters most. Peace may suggest reassurance. Intensity may suggest reflection or awareness.`,
+
+  wakingLife: `This dream often shows up during times of questioning, difficulty, or reflection.
+
+You may be seeking guidance, clarity, or comfort.
+
+It can also appear when you are thinking about faith, purpose, or your values.
+
+In some cases, it reflects a need for forgiveness, either toward yourself or others.
+
+If the dream repeats, it may be asking you to pay attention to what you are being drawn toward internally.`,
+
+  summary:
+    "A connection to guidance, faith, or inner reflection becoming more present. This dream often reflects reassurance, direction, forgiveness, or spiritual awareness. It highlights a deeper need for meaning, clarity, or alignment in your life.",
+
+  categories: ["Spiritual", "Hidden Emotions", "Identity"]
+},
+{
+  slug: "being-in-a-room-with-many-people",
+  title: "Being in a room with many people",
+  description: "Being in a room filled with many people often reflects social awareness, pressure, belonging, or how you see yourself around others. It can point to feeling observed, included, overwhelmed, or unsure of your place within a group.\n\nThe feeling matters. Comfort in the room can suggest connection or acceptance, while discomfort may point to anxiety, comparison, or feeling out of place.",
+
+  shortDescription:
+    "Being surrounded by others in a shared space. It can feel social, overwhelming, or exposing — like your place among people is being noticed.",
+
+  emotional: `Dreams like this often carry awareness of others.
+
+There is usually a sense of being seen, even if no one is directly focused on you.
+
+Sometimes the strongest feeling is pressure. Being around many people can create a sense of needing to act or behave a certain way.
+
+Other times, the emotion is comfort. Feeling part of something or included in a shared space.
+
+There can also be anxiety. Especially if you feel out of place, judged, or unsure how to interact.
+
+In some cases, it brings curiosity. Observing others and trying to understand where you fit.
+
+If the dream repeats, it may point to ongoing thoughts about social situations or how you are perceived.`,
+
+  symbolic: `Being in a room with many people often represents social dynamics, identity within groups, and awareness of how you relate to others.
+
+The room symbolizes a shared environment, while the people reflect different roles, expectations, or aspects of interaction.
+
+It can point to belonging, comparison, or feeling evaluated.
+
+Sometimes it reflects external pressure. Expectations from work, family, or social environments.
+
+It can also represent internal thoughts. Different “voices” or perspectives within you appearing as other people.
+
+The behavior of the crowd matters. A calm group may suggest stability. A chaotic or overwhelming group may reflect stress or overstimulation.`,
+
+  spiritual: `This dream can reflect awareness of connection and individuality.
+
+Being surrounded by many people may highlight your place within a larger whole.
+
+It can also point to identity. Understanding yourself not just alone, but in relation to others.
+
+In some interpretations, the crowd represents different energies or influences around you.
+
+The feeling matters most. Calmness may suggest comfort with connection. Anxiety may suggest disconnection or imbalance.`,
+
+  wakingLife: `This dream often shows up when you are thinking about social situations, relationships, or how you are perceived.
+
+You may be navigating group environments, work settings, or situations where you feel observed or evaluated.
+
+It can also reflect comparison. Thinking about how you measure up to others.
+
+In some cases, it points to overstimulation. Too many interactions or expectations at once.
+
+If the dream repeats, it may be asking you to notice how you feel around others and whether you feel comfortable being yourself.`,
+
+  summary:
+    "Awareness of yourself within a group or social environment. This dream often reflects belonging, pressure, comparison, or how you relate to others. It highlights your sense of place and identity among people.",
+
+  categories: ["Relationships", "Identity", "Anxiety"]
+},
+{
+  slug: "room-closing-in-on-you",
+  title: "Room closing in on you",
+  description: "Rooms in dreams often represent your mental or emotional space. When a room starts closing in on you, it can reflect pressure, overwhelm, or feeling trapped in a situation that is becoming harder to manage.\n\nThe intensity matters. A slow closing can suggest building stress, while a sudden or crushing feeling may point to immediate pressure or panic.",
+
+  shortDescription:
+    "Being in a space that starts to shrink or press in on you. It can feel suffocating, tense, or overwhelming — like there is no room to breathe or move.",
+
+  emotional: `Dreams like this often carry strong pressure.
+
+There is usually a growing awareness that the space around you is shrinking, and that creates tension quickly.
+
+Sometimes the strongest feeling is panic. The sense that you may not have enough space or time to escape.
+
+Other times, the emotion is helplessness. Trying to move or stop it, but nothing changes.
+
+There can also be anxiety. Not always loud, but heavy and constant as the space tightens.
+
+If the dream repeats, it may point to pressure that is building rather than being released.`,
+
+  symbolic: `A room closing in often represents feeling trapped, restricted, or overwhelmed.
+
+Rooms symbolize your inner state, personal space, or current situation. When the walls move inward, it suggests that space is being taken away.
+
+It can point to stress, responsibilities, expectations, or emotional pressure that feels too much to handle.
+
+Sometimes it reflects lack of freedom. Feeling stuck in a situation without clear options.
+
+It can also represent internal pressure. Thoughts, fears, or emotions building up without release.
+
+The speed of the closing matters. Slow pressure suggests buildup. Sudden closing suggests immediate overwhelm.`,
+
+  spiritual: `This dream can reflect inner compression.
+
+There are moments where life feels tight, restricted, or overwhelming, and the dream brings that feeling into awareness.
+
+Some interpret it as a need to release pressure. Letting go of what is building inside before it becomes too much.
+
+Others see it as awareness of limitation. Recognizing where something in your life no longer allows you to expand or breathe.
+
+The feeling matters most. Panic may suggest overwhelm. Awareness may suggest recognition of what needs to change.`,
+
+  wakingLife: `This dream often shows up when you feel overwhelmed or trapped.
+
+You may be dealing with stress, responsibilities, emotional pressure, or situations where you feel like you have no space.
+
+It can also appear when expectations are too high, whether from yourself or others.
+
+In some cases, it reflects anxiety. Feeling like things are closing in without clear control.
+
+If the dream repeats, it may be asking you to create space in your life or address what feels too heavy to carry.`,
+
+  summary:
+    "Feeling trapped, overwhelmed, or under pressure with no room to move. This dream often reflects stress, restriction, or emotional buildup that is becoming harder to manage. It highlights the need for space, release, or change.",
+
+  categories: ["Fear", "Anxiety", "Spiritual"]
+},
+{
+  slug: "speaking-to-jesus",
+  title: "Speaking to Jesus",
+  description: "Speaking to Jesus in a dream often reflects a desire for guidance, reassurance, or understanding rooted in faith. It can point to seeking answers, comfort, or direction during a time when clarity feels important.\n\nThe tone of the conversation matters. Gentle or peaceful interaction can suggest reassurance, while serious or corrective moments may point to reflection, conviction, or a need to realign with your values.",
+
+  shortDescription:
+    "Having a direct conversation with Jesus. It can feel peaceful, intense, or meaningful — like you are seeking or receiving guidance and understanding.",
+
+  emotional: `Dreams about speaking to Jesus often carry a strong sense of presence.
+
+Sometimes the strongest feeling is peace. A quiet understanding that you are being heard.
+
+Other times, the emotion is seriousness. Feeling like the moment carries weight or importance.
+
+There can also be relief. Being able to express something without judgment.
+
+In some cases, the feeling is reflection. Becoming aware of something you need to face or understand more clearly.
+
+If the dream repeats, it may point to something you are seeking deeper clarity on.`,
+
+  symbolic: `In a biblical context, speaking to Jesus in a dream is often associated with guidance, correction, and relationship with God.
+
+It can represent prayer taking a more direct form, where communication feels personal and immediate.
+
+Sometimes it points to direction. Gaining clarity about choices, behavior, or purpose.
+
+It can also reflect conviction. Becoming aware of something that needs to change or be addressed.
+
+In other cases, it represents reassurance. The sense of not being alone and being supported.
+
+The words spoken in the dream often connect directly to what you are dealing with.`,
+
+  spiritual: `This dream is often experienced as meaningful and personal.
+
+Some believe it can be a form of spiritual communication, especially if the dream feels vivid or impactful.
+
+Others interpret it as your mind expressing faith, values, or inner guidance through a familiar spiritual figure.
+
+Because Jesus represents truth, compassion, and guidance, the dream can reflect connection to those qualities within your life.
+
+The feeling matters most. Peace may suggest reassurance. Intensity may suggest reflection or correction.`,
+
+  wakingLife: `This dream often shows up during times of questioning, stress, or decision-making.
+
+You may be seeking guidance, comfort, or clarity in a situation that feels important.
+
+It can also appear when you are reflecting on your faith, actions, or direction in life.
+
+In some cases, it reflects a need for forgiveness or understanding.
+
+If the dream repeats, it may be asking you to pay attention to what you are seeking answers for.`,
+
+  summary:
+    "Seeking guidance, clarity, or reassurance through a direct sense of connection. This dream often reflects faith, reflection, correction, or comfort. It highlights a deeper need for direction, understanding, or alignment with your beliefs.",
+
+  categories: ["Spiritual", "Identity", "Hidden Emotions"]
+},
+{
+  slug: "speaking-to-god",
+  title: "Speaking to God",
+  description: "Speaking to God in a dream often reflects a search for guidance, clarity, or reassurance at a deeper level. It can point to moments where you are questioning, seeking direction, or trying to understand something that feels bigger than you.\n\nThe tone of the interaction matters. A calm, clear conversation can suggest reassurance or alignment, while silence or intensity may reflect uncertainty, reflection, or a need to look inward more honestly.",
+
+  shortDescription:
+    "Having a direct conversation with God. It can feel peaceful, intense, or deeply meaningful — like you are seeking or receiving guidance and truth.",
+
+  emotional: `Dreams about speaking to God often carry a strong sense of importance.
+
+Sometimes the strongest feeling is peace. A quiet sense of being heard or understood.
+
+Other times, the emotion is awe. The moment may feel powerful, serious, or deeply meaningful.
+
+There can also be vulnerability. Speaking openly without hiding anything.
+
+In some cases, the feeling is reflection. Becoming aware of something that needs attention or change.
+
+If the dream repeats, it may point to something you are seeking answers for at a deeper level.`,
+
+  symbolic: `In a biblical context, speaking to God in a dream is often associated with prayer, guidance, and revelation.
+
+It can reflect a personal encounter with truth, direction, or correction. Not necessarily literal, but meaningful in how it connects to your faith and understanding.
+
+Sometimes it represents seeking wisdom. Asking questions about purpose, decisions, or life direction.
+
+It can also point to conviction. Becoming aware of something that needs to change or align with your beliefs.
+
+In other cases, it reflects reassurance. The idea of being seen, known, and guided.
+
+The message matters. What is said or felt often connects directly to your current situation.`,
+
+  spiritual: `This dream is often experienced as deeply personal and significant.
+
+Some believe it can be a form of spiritual communication, especially if the dream feels vivid or clear.
+
+Others interpret it as the mind expressing inner guidance, faith, or values in a symbolic way.
+
+Because God represents ultimate authority, truth, and understanding, the dream can reflect your relationship with those ideas.
+
+The feeling matters most. Peace may suggest reassurance. Intensity may suggest reflection or awakening.`,
+
+  wakingLife: `This dream often shows up during times of searching or decision-making.
+
+You may be looking for direction, clarity, or meaning in something important.
+
+It can also appear when you are reflecting on your beliefs, values, or purpose.
+
+In some cases, it reflects a need for guidance or reassurance during uncertainty.
+
+If the dream repeats, it may be asking you to pay attention to what you are seeking and how you are responding to it.`,
+
+  summary:
+    "A desire for guidance, clarity, or deeper understanding becoming more present. This dream often reflects reflection, faith, questioning, or reassurance. It highlights the need to connect with meaning, direction, or truth in your life.",
+
+  categories: ["Spiritual", "Identity", "Hidden Emotions"]
+},
+{
+  slug: "intimacy-with-strange-creature",
+  title: "Having intimacy with a strange creature",
+  description: "Dreams about intimacy with a strange or non-human creature often reflect connection with unfamiliar parts of yourself, hidden desires, or emotions that feel unusual or hard to understand. The creature represents something unknown, and the intimacy suggests closeness rather than distance.\n\nThe feeling matters. Comfort or curiosity can suggest openness to new experiences or self-discovery, while discomfort may point to confusion, fear, or difficulty accepting something within yourself.",
+
+  shortDescription:
+    "Being closely connected or intimate with something unfamiliar or non-human. It can feel intense, strange, or symbolic — like encountering a part of yourself you don’t fully recognize.",
+
+  emotional: `Dreams like this often carry mixed emotions.
+
+There can be curiosity. Something feels unfamiliar, but not entirely negative.
+
+Sometimes the strongest feeling is confusion. Not fully understanding what is happening or why.
+
+Other times, the emotion is acceptance. Going along with the experience without resistance.
+
+There can also be discomfort. Especially if the situation feels unnatural or unexpected.
+
+If the dream repeats, it may point to something within you that feels unfamiliar but is becoming harder to ignore.`,
+
+  symbolic: `Intimacy with a strange creature often represents connection with unknown, hidden, or unacknowledged parts of yourself.
+
+The creature symbolizes something outside your usual identity. This could be emotions, desires, instincts, or traits you don’t fully recognize or accept yet.
+
+Intimacy suggests closeness. Instead of avoiding it, you are engaging with it directly.
+
+It can point to exploring new aspects of yourself, especially ones that feel unusual or outside your comfort zone.
+
+Sometimes it reflects fear of the unknown. Other times, it reflects curiosity and openness to change.
+
+The nature of the creature matters. Friendly may suggest acceptance. Threatening may suggest inner conflict.`,
+
+  spiritual: `This dream can reflect encountering unfamiliar aspects of your inner world.
+
+Some interpret it as shadow work. Connecting with parts of yourself that are usually hidden or rejected.
+
+Others see it as transformation. Engaging with something that changes how you understand yourself.
+
+Because the creature is not fully human, it can symbolize something beyond your normal awareness.
+
+The feeling matters most. Calmness may suggest acceptance. Discomfort may suggest resistance or confusion.`,
+
+  wakingLife: `This dream often shows up when you are dealing with something new or unfamiliar within yourself.
+
+You may be exploring emotions, desires, or ideas that feel different from your usual identity.
+
+It can also appear during personal growth, where you are becoming aware of parts of yourself that you haven’t fully understood before.
+
+In some cases, it reflects situations that feel unusual or outside your comfort zone.
+
+If the dream repeats, it may be asking you to understand rather than avoid what feels unfamiliar.`,
+
+  summary:
+    "Connecting with something unfamiliar within yourself. This dream often reflects hidden emotions, unexplored identity, or personal transformation. It highlights the experience of engaging with what feels unknown rather than avoiding it.",
+
+  categories: ["Identity", "Hidden Emotions", "Spiritual", "Intimacy"]
+},
+{
+  slug: "being-in-a-small-crowded-room",
+  title: "Being in a small crowded room",
+  description: "Dreaming about being in a small crowded room often reflects feeling mentally or emotionally boxed in. It can point to situations where your space, freedom, or individuality feels limited, whether by responsibilities, expectations, or the constant presence of others.\n\nThe feeling matters. If the crowd feels suffocating or overwhelming, it may connect to rising stress or pressure. If it feels manageable, it could reflect a busy or demanding period where you are adjusting to limited space, shared environments, or reduced control.",
+
+  shortDescription:
+    "Being stuck in a tight, crowded space where there’s little room to move or breathe. It can feel overwhelming, tense, or quietly suffocating.",
+
+  emotional: `There can be a strong sense of discomfort. Like you can’t move freely or fully relax.
+
+Sometimes it feels overwhelming. Too much happening at once, with no space to step back.
+
+There may be frustration. Wanting room to breathe or express yourself but feeling restricted.
+
+In some cases, it feels like quiet tension. Surrounded by others but still feeling alone or unseen.
+
+There can also be restlessness. A constant urge to escape or create distance.
+
+If the feeling builds, it may turn into pressure. Like everything is closing in at once.`,
+
+  symbolic: `The small room often represents limitation. A space where movement, choice, or expression feels restricted.
+
+It can reflect areas of life where you feel stuck or unable to expand.
+
+The crowd represents pressure. This may come from other people, expectations, responsibilities, or even your own thoughts.
+
+It is not always about literal people. Sometimes it reflects mental or emotional overload.
+
+Together, the image suggests compression. Too much happening within too little space.
+
+It points to a lack of breathing room, either externally or internally.`,
+
+  spiritual: `This dream can point to a need for space and reconnection.
+
+When things feel crowded internally, it becomes harder to hear your own thoughts or direction.
+
+Some may see it as a reminder to step back and create stillness.
+
+Others may interpret it as imbalance. Taking in too much without enough time to process.
+
+It is less about something being wrong and more about needing to reset.
+
+The focus is on creating room for clarity and grounding.`,
+
+  wakingLife: `This often connects to feeling overwhelmed in daily life.
+
+You may be dealing with pressure from work, relationships, or responsibilities.
+
+It can reflect situations where your boundaries feel stretched or unclear.
+
+Sometimes it shows up when you have too much on your plate and not enough time or space for yourself.
+
+It may also relate to environments where you cannot fully express who you are.
+
+The dream highlights a need to create space, whether physically, emotionally, or mentally.`,
+
+  summary:
+    "Feeling confined, overwhelmed, or under pressure. This dream reflects a lack of space in some area of your life and points to the need for boundaries, clarity, and room to breathe.",
+
+  categories: ["Anxiety", "Hidden Emotions", "Identity"]
+},
+{
+  slug: "being-stuck-in-an-elevator",
+  title: "Being stuck in an elevator",
+  description: "Dreaming about being stuck in an elevator often reflects feeling trapped in a situation where progress has suddenly stopped. Elevators usually symbolize movement, so being stuck can point to delays, interruptions, or a sense that things are not moving the way you expected.\n\nThe feeling matters. If the experience feels tense or panicked, it may connect to anxiety about being unable to escape pressure or expectations. If it feels calm but still stuck, it can reflect a period of waiting, uncertainty, or being forced to slow down.",
+
+  shortDescription:
+    "Being trapped inside an elevator that won’t move, caught between levels with no clear way out. It can feel tense, frustrating, or quietly uncertain.",
+
+  emotional: `There can be a strong sense of confinement. Like you are stuck in a space with no control over what happens next.
+
+Sometimes there is impatience. Wanting things to move forward but feeling held in place.
+
+There may also be anxiety. Not knowing when or how the situation will change.
+
+In some cases, the feeling is quieter. A steady discomfort rather than panic.
+
+There can be frustration. Feeling dependent on something outside of you to move again.
+
+At times, there is vulnerability. Especially if you feel alone or unable to reach help.`,
+
+  symbolic: `The elevator often represents movement and progress. It reflects transitions in areas like personal growth, work, or emotional states.
+
+Being stuck suggests interruption. Something in your life feels paused or delayed.
+
+It can point to a lack of control. The elevator moves on its own, so being stuck highlights dependence on external factors.
+
+The enclosed space represents limitation. Few options, restricted movement, and no easy way out.
+
+It may also reflect being between stages. Not where you were before, but not yet where you want to be.
+
+Overall, it symbolizes a temporary standstill in progress.`,
+
+  spiritual: `This dream can reflect a period of pause rather than failure.
+
+Sometimes it points to a need to slow down and reflect before moving forward.
+
+It may suggest that something needs to be understood or processed first.
+
+Some interpret it as being held in place for realignment rather than delay.
+
+It can also highlight a disconnect between expectation and current reality.
+
+The focus is on stillness as part of movement, not the absence of it.`,
+
+  wakingLife: `This dream often appears when you feel stuck in some area of life.
+
+It may relate to work, finances, relationships, or personal growth.
+
+You might be waiting for change, but things are not moving as quickly as expected.
+
+It can also reflect reliance on something outside your control, like decisions, opportunities, or timing.
+
+Sometimes it shows up when you feel caught between two stages of life.
+
+The dream reflects that tension between wanting progress and being held in place.`,
+
+  summary:
+    "Feeling stuck, delayed, or unable to move forward. This dream reflects a pause in progress and the tension of waiting, while also pointing to a moment where slowing down and reassessing may be necessary.",
+
+  categories: ["Anxiety", "Fear", "Work"]
+},
+{
+  slug: "being-lost-in-a-building",
+  title: "Being lost in a building",
+  description: "Dreaming about being lost in a building often reflects confusion about direction or uncertainty about where you fit within a structured area of your life. Buildings tend to represent organized systems like work, identity, or personal growth, so getting lost inside one can point to difficulty navigating something that should feel clear or familiar.\n\nThe feeling matters. If the experience feels anxious or rushed, it may connect to pressure to figure things out quickly. If it feels slower or more curious, it can reflect a process of exploration, even if you are unsure where it is leading.",
+
+  shortDescription:
+    "Wandering through rooms or hallways without finding your way out. It can feel confusing, disorienting, or like you’re searching for something just out of reach.",
+
+  emotional: `There can be a strong sense of confusion. Not knowing where to go or what the right direction is.
+
+Sometimes there is frustration. Trying to find a way out but feeling like nothing works.
+
+There may also be tension. A quiet pressure to figure things out quickly.
+
+In some moments, there is isolation. Even if others are present, you may feel alone in the experience.
+
+It can also feel mentally overwhelming. Too many paths, but no clear answer.
+
+At times, the feeling is more curious than fearful. Moving through the space while still unsure.`,
+
+  symbolic: `The building often represents structure. Areas of life that have rules, expectations, or defined paths.
+
+Rooms, hallways, and floors can symbolize different choices, stages, or aspects of your life.
+
+Being lost suggests disconnection. Not fully understanding where you are or how to move forward.
+
+It may point to feeling out of place or unsure about your role within something structured.
+
+Endless corridors can reflect overthinking or going in circles mentally.
+
+Closed or hidden doors may represent uncertainty, missed chances, or unclear options.`,
+
+  spiritual: `This dream can reflect a period of searching rather than being truly lost.
+
+It may point to a process of figuring things out, even if it feels unclear at the moment.
+
+Some may see it as a shift away from relying only on external structure.
+
+It can suggest a need to reconnect with your own sense of direction.
+
+There is often an element of discovery, even within the confusion.
+
+The experience highlights growth that is still unfolding.`,
+
+  wakingLife: `This dream often appears during times of uncertainty or transition.
+
+You may be navigating decisions related to work, identity, or personal direction.
+
+It can reflect having many options but struggling to choose a clear path.
+
+Sometimes it shows up when expectations or pressure make things feel more complicated.
+
+You might feel like you are moving, but not making real progress.
+
+The dream connects to moments where clarity feels just out of reach.`,
+
+  summary:
+    "Feeling uncertain, disoriented, or unsure of your direction. This dream reflects a search for clarity within structured areas of life and highlights the need for patience and a stronger sense of personal direction.",
+
+  categories: ["Anxiety", "Identity", "Hidden Emotions"]
+},
+{
+  slug: "being-trapped-in-a-maze",
+  title: "Being trapped in a maze",
+  description: "Dreaming about being trapped in a maze often reflects feeling mentally stuck in a complex situation with no clear way out. Mazes symbolize confusion, trial and error, and paths that don’t lead where you expect, so this dream can point to frustration while trying to figure something out.\n\nThe feeling matters. If the experience feels stressful or urgent, it may connect to pressure and overthinking. If it feels slower or more focused, it can reflect a process of problem-solving where you are working through something but have not reached clarity yet.",
+
+  shortDescription:
+    "Moving through a maze with no clear exit, turning corners that lead nowhere. It can feel frustrating, repetitive, or like you’re stuck in a loop.",
+
+  emotional: `There can be a strong sense of frustration. Trying to move forward but ending up in the same place.
+
+Sometimes there is tension. A feeling that you need to find a way out quickly.
+
+There may be determination at first. Wanting to solve it and keep going.
+
+Over time, this can turn into exhaustion. Repeating paths without progress.
+
+There can also be a quiet sense of being stuck. Not panicked, but unable to move forward.
+
+At times, it feels like being caught in your own thoughts, going in circles.`,
+
+  symbolic: `The maze represents complexity. Situations that do not have a clear or direct solution.
+
+It reflects confusion and multiple paths, where each choice leads to more uncertainty.
+
+Being trapped suggests feeling stuck within that complexity.
+
+It can point to overthinking, second-guessing, or trying to solve something without enough clarity.
+
+Dead ends may represent attempts that did not work out.
+
+Repeated paths can reflect patterns in thinking or behavior that bring you back to the same place.`,
+
+  spiritual: `This dream can reflect a period of inner searching.
+
+Even though it feels frustrating, it may be part of working through something important.
+
+Some may see it as a reminder that constant effort is not always the answer.
+
+It can suggest stepping back instead of pushing harder.
+
+Clarity may come from pausing and observing rather than moving endlessly.
+
+The experience highlights process rather than immediate resolution.`,
+
+  wakingLife: `This dream often appears when you are dealing with a complicated situation.
+
+You may be facing a decision that does not have a clear answer.
+
+It can reflect mental overload, where too much thinking leads to confusion.
+
+Sometimes it shows up when you feel stuck in patterns that are hard to break.
+
+You might feel like every step forward creates more questions.
+
+The dream connects to moments where progress feels unclear or slow.`,
+
+  summary:
+    "Feeling stuck, confused, or caught in a cycle of overthinking. This dream reflects the effort of trying to solve something complex and suggests that clarity may come from stepping back rather than pushing harder.",
+
+  categories: ["Anxiety", "Fear", "Hidden Emotions"]
+},
+{
+  slug: "missing-an-opportunity",
+  title: "Missing an opportunity",
+  description: "Dreaming about missing an opportunity often reflects a fear of falling behind or not acting at the right time. It can point to moments where you feel pressure to make a move, but something holds you back, like hesitation, doubt, or uncertainty about what to do next.\n\nThe feeling matters. If the dream feels urgent or stressful, it may connect to anxiety about timing and possible regret. If it feels calmer, it can reflect an awareness that something has passed, along with a quiet acceptance that not every opportunity is meant to be taken.",
+
+  shortDescription:
+    "Watching something important slip away just as you almost reach it. It can feel frustrating, disappointing, or like you were just a moment too late.",
+
+  emotional: `There can be a strong sense of regret. Feeling like you were close to something but missed it.
+
+Sometimes there is frustration. Wanting another chance or wishing you had acted sooner.
+
+There may also be pressure. A feeling that timing matters more than you expected.
+
+In some cases, there is self-reflection. Questioning what you could have done differently.
+
+There can be quiet disappointment. Not overwhelming, but still present in the background.
+
+At times, the feeling lingers. Like the moment has passed but hasn’t fully left you.`,
+
+  symbolic: `The missed opportunity often represents potential. Something connected to growth, progress, or achievement.
+
+It does not always reflect a real event. It can symbolize chances you feel unsure about acting on.
+
+Timing plays an important role. Being late or just missing something suggests a gap between readiness and action.
+
+It may point to hesitation, second-guessing, or waiting too long to decide.
+
+The situation itself reflects moments where action feels important but unclear.
+
+It highlights the tension between wanting to move forward and not feeling fully ready.`,
+
+  spiritual: `This dream can reflect awareness rather than failure.
+
+It may highlight where you tend to hold back or doubt yourself.
+
+Some may see it as a reminder that timing is not always something you can control.
+
+It can also suggest that not every opportunity is meant to be taken.
+
+There may be a shift from focusing on what was missed to understanding what truly matters.
+
+The experience points toward alignment with your own pace and decisions.`,
+
+  wakingLife: `This dream often appears when you are thinking about timing or decisions.
+
+You may feel like opportunities are passing or that you are not moving fast enough.
+
+It can relate to work, relationships, or personal goals where action feels important.
+
+Sometimes it reflects being hard on yourself for past choices.
+
+You might be replaying situations and wondering what could have been different.
+
+The dream connects to that pressure between acting and hesitating.`,
+
+  summary:
+    "Feeling the pressure of timing, hesitation, and possible regret. This dream reflects the tension between wanting to act and feeling unsure, while also pointing toward learning to trust your decisions moving forward.",
+
+  categories: ["Anxiety", "Work", "Identity"]
+},
+{
+  slug: "watching-a-train-or-plane-leave",
+  title: "Watching a train or plane leave",
+  description: "Dreaming about watching a train or plane leave often reflects the feeling of missing out on something important or being out of sync with timing in your life. Trains and planes usually represent movement, transition, and opportunities, so seeing one leave without you can point to moments where you feel left behind or not fully ready.\n\nThe feeling matters. If the experience feels urgent or upsetting, it may connect to fear of regret or pressure to keep up. If it feels calm or accepting, it can reflect an awareness that something has passed, along with a quiet readiness for a different path.",
+
+  shortDescription:
+    "Watching a train or plane leave without you, just out of reach. It can feel disappointing, tense, or like you missed something important by a moment.",
+
+  emotional: `There can be a strong sense of disappointment. Feeling like you were close, but not close enough.
+
+Sometimes there is frustration. Wanting another chance to catch what just left.
+
+There may also be a feeling of being left behind. Watching movement while you stay still.
+
+In some moments, there is self-doubt. Wondering if you should have acted sooner.
+
+There can be comparison. Noticing others moving forward while you feel paused.
+
+At times, the feeling is quieter. Acceptance mixed with a lingering sense of loss.`,
+
+  symbolic: `The train or plane often represents direction and momentum. A clear path or opportunity moving forward.
+
+It reflects progress that continues with or without you.
+
+Watching it leave suggests missed timing or hesitation.
+
+It can point to chances you felt unsure about or situations that moved faster than expected.
+
+Being close but still missing it may reflect second-guessing or doubt.
+
+Being far away can suggest feeling unprepared or disconnected from the opportunity.`,
+
+  spiritual: `This dream can reflect timing rather than loss.
+
+Not catching something does not always mean failure.
+
+It may suggest that a certain path was not fully aligned with where you are.
+
+Some may see it as a reminder to trust your own pace.
+
+It can also highlight the pressure that comes from comparing yourself to others.
+
+The focus shifts back to your own direction rather than external movement.`,
+
+  wakingLife: `This dream often appears when you feel like you have missed a chance.
+
+It can relate to work, relationships, or personal goals where timing feels important.
+
+You may feel like others are moving forward while you are still figuring things out.
+
+It can also reflect pressure to keep up with expectations around you.
+
+Sometimes it shows up when you are questioning your progress.
+
+The dream connects to your awareness of opportunities and your place within them.`,
+
+  summary:
+    "Feeling out of sync, left behind, or unsure about timing. This dream reflects the experience of missing or watching opportunities pass, while also pointing toward the importance of trusting your own pace and direction.",
+
+  categories: ["Anxiety", "Fear", "Work"]
+},
+{
+  slug: "going-to-hell",
+  title: "Going to hell",
+  description: "Dreaming about going to hell often reflects intense inner conflict, guilt, or fear of consequences rather than anything literal. It can point to feeling like you have done something wrong, gone against your values, or are being judged, either by others or by yourself.\n\nThe feeling matters. If the dream feels filled with fear or panic, it may connect to deep anxiety or harsh self-criticism. If it feels calmer or more accepting, it can reflect awareness of a mistake or a part of yourself you are trying to understand rather than avoid.",
+
+  shortDescription:
+    "Being pulled or led into a dark, intense place that feels unavoidable. It can feel heavy, frightening, or filled with a sense of judgment.",
+
+  emotional: `There can be strong fear. A feeling of being overwhelmed or unable to escape what is happening.
+
+Sometimes there is shame. A deep discomfort tied to how you see yourself.
+
+There may also be regret. Thinking about something you wish had gone differently.
+
+In some moments, there is helplessness. Feeling like you have no control over the situation.
+
+There can be a sense of judgment. Even without others present, it may feel internal.
+
+At times, the emotion feels heavy rather than chaotic. A quiet intensity that stays with you.`,
+
+  symbolic: `Hell often represents emotional intensity rather than a literal place.
+
+It can reflect a state of distress, pressure, or inner conflict.
+
+Going there suggests movement toward that emotional state.
+
+It may point to unresolved guilt, fear of consequences, or harsh self-judgment.
+
+Elements like fire or darkness can symbolize emotional pain or overwhelming thoughts.
+
+The environment reflects how intense and inescapable those feelings seem.`,
+
+  spiritual: `This dream can reflect awareness rather than punishment.
+
+It may highlight areas where you feel disconnected from your values.
+
+Some may see it as a moment of facing uncomfortable truths.
+
+It can also point to being too hard on yourself.
+
+Rather than fear, the focus may be on understanding and balance.
+
+The experience suggests looking inward with honesty, but not harshness.`,
+
+  wakingLife: `This dream often appears during periods of guilt, stress, or emotional pressure.
+
+You may be replaying decisions or questioning your actions.
+
+It can connect to fear of consequences or how others might see you.
+
+Sometimes it shows up when you are dealing with intense internal conflict.
+
+You might feel overwhelmed or weighed down by something unresolved.
+
+The dream reflects how strongly that situation is affecting you.`,
+
+  summary:
+    "Feeling overwhelmed by guilt, fear, or self-judgment. This dream reflects inner emotional intensity rather than a literal outcome and points toward the need for understanding, balance, and easing pressure on yourself.",
+
+  categories: ["Fear", "Anxiety", "Spiritual"]
+},
+{
+  slug: "going-to-heaven",
+  title: "Going to heaven",
+  description: "Dreaming about going to heaven often reflects a desire for peace, relief, or emotional resolution. It can point to wanting things to feel right again, whether within yourself, your situation, or your sense of direction.\n\nThe feeling matters. If the experience feels calm and fulfilling, it may reflect inner alignment or a sense of clarity you are moving toward. If it feels distant or out of reach, it can highlight a longing for something better or a gap between where you are and where you want to be.",
+
+  shortDescription:
+    "Moving toward a peaceful, bright place that feels safe and complete. It can feel calming, uplifting, or like everything is finally settling into place.",
+
+  emotional: `There can be a strong sense of calm. A feeling of everything slowing down and becoming lighter.
+
+Sometimes there is relief. Letting go of pressure or tension that has been building.
+
+There may also be a feeling of acceptance. Like you are safe or understood.
+
+In some moments, there is quiet happiness. Not intense, but steady and present.
+
+There can be a sense of distance. Feeling slightly removed from everything else.
+
+At times, the emotion feels peaceful but also reflective. Like reaching a moment of stillness.`,
+
+  symbolic: `Heaven often represents peace and resolution. A state where things feel complete or balanced.
+
+It can symbolize emotional clarity or a sense of fulfillment.
+
+Going there suggests movement toward that state.
+
+It may reflect healing, personal growth, or the desire to feel whole.
+
+The environment matters. Light, openness, or beauty can reflect clarity and release.
+
+If it feels distant, it may point to something you are still working toward.`,
+
+  spiritual: `This dream can reflect a sense of connection or alignment.
+
+It may point to feeling more in tune with your beliefs or inner direction.
+
+Some may see it as reassurance or a sense of being guided.
+
+It can also represent a shift toward a more peaceful mindset.
+
+Rather than an endpoint, it often reflects a direction.
+
+The focus is on moving toward clarity, balance, and understanding.`,
+
+  wakingLife: `This dream often appears during periods of growth or healing.
+
+You may be moving away from stress or starting to feel more settled.
+
+It can reflect a desire for peace or a more meaningful direction.
+
+Sometimes it shows up when you are reconnecting with what matters to you.
+
+You might be seeking clarity or a sense of stability.
+
+The dream connects to moments where things begin to feel more balanced.`,
+
+  summary:
+    "Moving toward peace, clarity, and emotional balance. This dream reflects a desire for resolution and a more fulfilling state, often linked to healing, growth, and reconnecting with what feels right for you.",
+
+  categories: ["Spiritual", "Identity", "Transformation"]
+},
+{
+  slug: "being-in-the-past",
+  title: "Being in the past",
+  description: "Dreaming about being in the past often reflects unresolved thoughts, emotions, or experiences that are still active in your mind. It can point to moments you are revisiting internally, whether to understand them better, process them, or come to terms with them.\n\nThe feeling matters. If the experience feels nostalgic or comforting, it may reflect a longing for a simpler time or parts of yourself you miss. If it feels tense or uncomfortable, it can highlight emotions or situations that have not fully settled.",
+
+  shortDescription:
+    "Finding yourself back in an earlier time, surrounded by familiar places or people. It can feel comforting, strange, or emotionally vivid.",
+
+  emotional: `There can be a strong sense of familiarity. Everything feels known, even if it is unexpected.
+
+Sometimes there is warmth. A comforting connection to a time that felt safe or meaningful.
+
+There may also be nostalgia. Missing certain moments, people, or versions of yourself.
+
+In other cases, there is discomfort. Old emotions resurfacing more clearly than before.
+
+There can be regret or unease. Feeling the weight of things that were never fully resolved.
+
+At times, the feeling is reflective. Not overwhelming, but quietly emotional.`,
+
+  symbolic: `The past often represents memory, identity, and personal history.
+
+It reflects experiences that shaped how you think and respond now.
+
+Being in it suggests revisiting something for a reason.
+
+It may point to unfinished emotional loops or lessons still relevant today.
+
+Familiar places can represent comfort or a sense of self.
+
+People from the past may reflect relationships or different versions of who you were.`,
+
+  spiritual: `This dream can reflect a process of integration.
+
+It is less about going backward and more about understanding.
+
+Some may see it as bringing awareness from the past into the present.
+
+It can also point to the need to release what no longer serves you.
+
+Revisiting these moments may help you move forward with more clarity.
+
+The focus is on understanding, not staying stuck.`,
+
+  wakingLife: `This dream often appears when something in your present connects to your past.
+
+You may be facing similar emotions, patterns, or decisions.
+
+It can also show up during periods of reflection or personal growth.
+
+You might be thinking about how things have changed or what still affects you.
+
+Sometimes it reflects comparing who you were with who you are now.
+
+The dream highlights that connection between past and present.`,
+
+  summary:
+    "Revisiting memories, emotions, and experiences that still influence you. This dream reflects a process of understanding and integrating the past so you can move forward with more clarity and awareness.",
+
+  categories: ["Hidden Emotions", "Identity", "Transformation"]
+},
+{
+  slug: "deja-vu",
+  title: "Deja vu",
+  description: "Dreaming about déjà vu often reflects a strong sense of familiarity with something that feels new or unexplained. It can point to moments where you feel like you have experienced something before, even if the situation itself is different.\n\nThe feeling matters. If it feels unsettling, it may connect to confusion or a lack of clarity about what is happening in your life. If it feels calm or reassuring, it can reflect recognition, like something is aligning in a way that feels expected or familiar.",
+
+  shortDescription:
+    "Experiencing a moment that feels strangely familiar, like you’ve lived it before. It can feel unsettling or quietly reassuring at the same time.",
+
+  emotional: `There can be a sense of confusion. Not understanding why something feels so familiar.
+
+Sometimes there is slight disorientation. Feeling caught between recognition and uncertainty.
+
+There may also be tension. Trying to make sense of something that does not fully connect.
+
+In other moments, there is calmness. A quiet sense that things are falling into place.
+
+There can be curiosity. Wondering what the familiarity means.
+
+At times, the feeling is subtle. Not intense, but noticeable enough to stay with you.`,
+
+  symbolic: `Déjà vu often represents familiarity and pattern recognition.
+
+It reflects connections between present experiences and past ones.
+
+The dream may point to repeating thoughts, behaviors, or situations.
+
+It can highlight cycles that are happening in your life.
+
+The familiarity suggests something is being recognized, even if not fully understood.
+
+It brings attention to patterns that might otherwise go unnoticed.`,
+
+  spiritual: `This dream can reflect awareness and alignment.
+
+Some may see it as a sense of being connected to your path.
+
+It can also be a reminder to stay present and aware.
+
+The feeling of familiarity may invite deeper attention to your choices.
+
+It does not have to be interpreted in one way.
+
+Often, it highlights consciousness rather than something fixed or defined.`,
+
+  wakingLife: `This dream often appears when you are experiencing repeated patterns.
+
+You may notice similarities between past and present situations.
+
+It can connect to relationships, habits, or ways of thinking.
+
+Sometimes it shows up during change, when new experiences feel familiar.
+
+Your mind may be trying to understand those connections.
+
+The dream reflects awareness of something repeating or aligning.`,
+
+  summary:
+    "Noticing familiarity, patterns, and repeated experiences. This dream reflects awareness of cycles in your life and highlights moments where something feels known, encouraging you to pay attention to what keeps repeating.",
+
+  categories: ["Hidden Emotions", "Spiritual", "Identity"]
+},
+{
+  slug: "repeating-the-same-dream",
+  title: "Repeating the same dream",
+  description: "Dreaming about repeating the same dream often reflects something in your life that has not been fully processed or resolved. When a dream keeps returning, it usually points to a pattern, emotion, or situation that is still active in your mind.\n\nThe feeling matters. If it feels stressful or intense, it may connect to ongoing pressure or avoidance. If it feels familiar but not overwhelming, it can reflect something you are gradually becoming more aware of, even if you have not fully addressed it yet.",
+
+  shortDescription:
+    "Experiencing the same dream again and again, with a sense of familiarity you can’t ignore. It can feel frustrating, repetitive, or like something is trying to get your attention.",
+
+  emotional: `There can be a strong sense of familiarity. Recognizing what is happening as it unfolds.
+
+Sometimes there is frustration. Wanting the dream to change but it stays the same.
+
+There may be a feeling of being stuck. Like you are repeating the same experience without progress.
+
+In some cases, the intensity builds. The emotions feel stronger each time.
+
+Other times, the feeling softens. Becoming more used to what is happening.
+
+There can also be quiet awareness. Noticing the pattern even if you do not fully understand it.`,
+
+  symbolic: `Repeating dreams often represent cycles. Patterns in thoughts, behavior, or experiences that continue.
+
+The repetition itself is important. It highlights something that has not reached a resolution.
+
+It may point to situations or emotions that keep returning in different forms.
+
+Small changes within the dream can reflect gradual progress.
+
+The theme staying the same suggests something still needs attention.
+
+It brings focus to what is unfinished or unresolved.`,
+
+  spiritual: `This dream can reflect persistence in awareness.
+
+It is less about something external and more about your own mind returning to what matters.
+
+Some may see it as a process of understanding unfolding over time.
+
+As awareness grows, the repetition may begin to fade.
+
+It can also suggest alignment. Recognizing something before fully integrating it.
+
+The focus is on noticing rather than forcing meaning.`,
+
+  wakingLife: `This dream often appears during ongoing situations or repeated challenges.
+
+You may be dealing with patterns that show up in different ways.
+
+It can reflect habits, relationships, or decisions that feel familiar.
+
+Sometimes it connects to avoidance. Something not fully faced or addressed.
+
+You might be aware of the issue but not ready to act on it yet.
+
+The dream reflects that cycle continuing until something shifts.`,
+
+  summary:
+    "Repeating patterns, emotions, or situations that have not fully resolved. This dream highlights cycles that continue until they are understood or addressed, pointing toward awareness and gradual change.",
+
+  categories: ["Hidden Emotions", "Anxiety", "Transformation"]
+},
+{
+  slug: "feeling-intense-peace",
+  title: "Feeling intense peace",
+  description: "Dreaming about feeling intense peace often reflects a deep need for calm, balance, or emotional relief. It can point to a state where your mind lets go of tension, even briefly, allowing you to experience stillness and ease.\n\nThe feeling matters. If the peace feels natural and steady, it may reflect inner alignment or healing already taking place. If it feels unusual or surprising, it can highlight how different this calmness is from your current waking state.",
+
+  shortDescription:
+    "A deep, quiet sense of calm where everything feels settled and at ease. It can feel grounding, light, and noticeably different from everyday stress.",
+
+  emotional: `There can be a strong sense of calm. Everything feels quiet and steady.
+
+Sometimes there is relief. Letting go of tension or pressure that has been present.
+
+There may also be a feeling of safety. Like nothing needs to be fixed or changed.
+
+In some moments, there is lightness. A release from heaviness or stress.
+
+It can feel unfamiliar. Especially if you are used to constant thinking or worry.
+
+At times, the emotion feels complete. Like everything is simply okay.`,
+
+  symbolic: `Intense peace often represents balance and resolution.
+
+It reflects a state where internal tension has settled.
+
+The absence of stress is meaningful. It shows space where clarity can exist.
+
+It may point to healing or a shift in perspective.
+
+Open or still environments can reinforce this sense of calm.
+
+The experience highlights emotional space rather than conflict.`,
+
+  spiritual: `This dream can reflect a sense of alignment.
+
+It may point to feeling connected with yourself or your beliefs.
+
+Some may see it as a moment of clarity or inner stillness.
+
+It is not about reaching an endpoint, but experiencing balance.
+
+The feeling can act as a reminder that this state is possible.
+
+It brings attention to calm rather than struggle.`,
+
+  wakingLife: `This dream often appears when you need rest or emotional reset.
+
+It may follow periods of stress or mental overload.
+
+Sometimes it reflects that things are beginning to settle.
+
+You might not fully notice the shift, but it is happening.
+
+It can also show a desire for calm and stability.
+
+The dream connects to your need for balance in daily life.`,
+
+  summary:
+    "Experiencing calm, balance, and emotional relief. This dream reflects either a need for stillness or a sign that you are moving toward a more grounded and centered state.",
+
+  categories: ["Spiritual", "Hidden Emotions", "Transformation"]
+},
+{
+  slug: "light-surrounding-you",
+  title: "Light surrounding you",
+  description: "Dreaming about light surrounding you often reflects clarity, awareness, or a sense of emotional or mental relief. It can point to moments where things begin to make sense, or where you feel safe, grounded, or guided in a steady way.\n\nThe feeling matters. If the light feels warm and calming, it may connect to inner peace or reassurance. If it feels intense or overwhelming, it can reflect something powerful coming into awareness that you are still adjusting to.",
+
+  shortDescription:
+    "Being surrounded by light that feels calming, bright, or all-encompassing. It can feel peaceful, powerful, or like something is becoming clear.",
+
+  emotional: `There can be a strong sense of calm. Everything feels safe and steady.
+
+Sometimes there is clarity. Like things are finally making sense.
+
+There may also be a feeling of protection. Being held in a space without threat.
+
+In some cases, there is awe. The experience feels powerful or significant.
+
+There can be slight overwhelm. Especially if the light feels intense or consuming.
+
+At times, the emotion feels grounding. A quiet sense of being okay.`,
+
+  symbolic: `Light often represents clarity and understanding.
+
+It reflects awareness, truth, or seeing something more clearly.
+
+Being surrounded by it suggests full immersion in that awareness.
+
+It can point to realization or a shift in perspective.
+
+Soft light may represent calm understanding.
+
+Bright or intense light can symbolize sudden insight or emotional clarity.`,
+
+  spiritual: `This dream can reflect a sense of connection or alignment.
+
+It may point to feeling more in tune with your direction or beliefs.
+
+Some may see it as reassurance or guidance.
+
+It does not have to be interpreted in one way.
+
+Often, it reflects awareness and a sense of support.
+
+The focus is on clarity rather than confusion.`,
+
+  wakingLife: `This dream often appears during moments of clarity or change.
+
+You may be starting to understand something that once felt unclear.
+
+It can reflect feeling more grounded in your decisions.
+
+Sometimes it shows up when you are moving out of stress.
+
+You might be beginning to feel lighter or more certain.
+
+The dream highlights that shift toward understanding.`,
+
+  summary:
+    "Experiencing clarity, awareness, and emotional relief. This dream reflects a shift toward understanding and alignment, where things begin to feel clearer and more grounded.",
+
+  categories: ["Spiritual", "Hidden Emotions", "Transformation"]
+},
+
+{
+  slug: "being-protected",
+  title: "Being protected",
+  description: "Dreaming about being protected often reflects a need for safety, reassurance, or emotional stability. It can point to a part of you that is seeking comfort, or recognizing that you may be more supported than you feel.\n\nThe feeling matters. If the protection feels strong and calming, it may reflect trust and a growing sense of inner security. If it feels uncertain or temporary, it can highlight underlying fears and a desire for something to hold you steady.",
+
+  shortDescription:
+    "Feeling shielded from harm, as if something or someone is keeping you safe. It can feel calming, reassuring, or quietly protective.",
+
+  emotional: `There can be a strong sense of relief. Feeling like you are no longer exposed to something stressful.
+
+Sometimes there is calmness. A steady sense of safety that allows you to relax.
+
+There may also be comfort. Knowing you are supported or not alone.
+
+In some moments, there is quiet reassurance. Things feel under control without effort.
+
+There can still be slight alertness. A part of you remains aware of possible risk.
+
+At times, the feeling is grounding. Like you can finally settle and breathe.`,
+
+  symbolic: `Protection often represents safety and boundaries.
+
+It reflects something creating distance between you and harm.
+
+This can be emotional, mental, or situational.
+
+If the protection comes from a person, it may symbolize trust or reliance.
+
+If it feels unseen or internal, it can reflect your own resilience.
+
+Barriers or shields can point to your ability to set limits or the need to strengthen them.`,
+
+  spiritual: `This dream can reflect reassurance and a sense of support.
+
+It may point to feeling guided or held in a steady way.
+
+Some may see it as a reminder that you are not facing everything alone.
+
+It can also highlight trust in the process you are going through.
+
+Rather than needing control, the focus is on feeling secure.
+
+The experience centers on grounding and inner stability.`,
+
+  wakingLife: `This dream often appears during times of stress or uncertainty.
+
+You may be dealing with situations where you feel exposed.
+
+It reflects a desire for safety and emotional balance.
+
+Sometimes it shows up when you are building stronger boundaries.
+
+You might be recognizing your ability to protect yourself.
+
+The dream mirrors a shift from vulnerability toward stability.`,
+
+  summary:
+    "Feeling safe, supported, and reassured. This dream reflects both a need for protection and an awareness of your ability to create it, pointing toward a more grounded and secure state.",
+
+  categories: ["Fear", "Spiritual", "Hidden Emotions"]
+},
+{
+  slug: "seeing-your-younger-self",
+  title: "Seeing your younger self",
+  description: "Seeing your younger self often reflects a connection to your past, identity, or parts of you that are still active beneath the surface. It can point to memories, traits, or emotions that shaped who you are now.\n\nThe feeling matters. If the experience feels warm or nostalgic, it may reflect appreciation or longing for a simpler time. If it feels uncomfortable or tense, it can highlight unresolved emotions or parts of yourself that still need attention.",
+
+  shortDescription:
+    "Encountering a younger version of yourself, like meeting who you used to be. It can feel nostalgic, emotional, or quietly reflective.",
+
+  emotional: `There can be a sense of familiarity. Recognizing yourself in a different time.
+
+Sometimes there is nostalgia. A longing for how things used to feel.
+
+There may also be warmth. A gentle connection to your past.
+
+In some cases, there is discomfort. Old emotions resurfacing unexpectedly.
+
+There can be reflection. Thinking about how much has changed.
+
+At times, the feeling is quiet but meaningful. Like something is being remembered.`,
+
+  symbolic: `Your younger self often represents your past identity.
+
+It reflects traits, emotions, or experiences that shaped you.
+
+Seeing them suggests reconnecting with those parts.
+
+It can point to innocence, past wounds, or earlier versions of your thinking.
+
+The interaction matters. Observing may reflect awareness, while engaging suggests deeper processing.
+
+It highlights the link between who you were and who you are now.`,
+
+  spiritual: `This dream can reflect integration.
+
+It may point to bringing past experiences into your present awareness.
+
+Some may see it as reconnecting with a more authentic version of yourself.
+
+It can also highlight healing or understanding past emotions.
+
+The focus is not on going back, but on understanding.
+
+It reflects awareness of your personal growth.`,
+
+  wakingLife: `This often appears during reflection or personal growth.
+
+You may be thinking about your past or how you have changed.
+
+It can connect to situations that remind you of earlier experiences.
+
+Sometimes it shows up when old emotions resurface.
+
+You might be comparing who you were with who you are now.
+
+The dream reflects that connection across time.`,
+
+  summary:
+    "Reconnecting with your past self and the experiences that shaped you. This dream reflects reflection, growth, and the relationship between who you were and who you are becoming.",
+
+  categories: ["Identity", "Hidden Emotions", "Transformation"]
+},
+{
+  slug: "talking-to-yourself",
+  title: "Talking to yourself",
+  description: "Talking to yourself often reflects internal dialogue, self-reflection, or the process of working through thoughts and decisions. It can point to moments where you are trying to understand yourself more clearly.\n\nThe feeling matters. If the conversation feels calm and clear, it may reflect growing self-awareness. If it feels tense or confusing, it can highlight inner conflict or uncertainty about something in your life.",
+
+  shortDescription:
+    "Having a conversation with yourself, as if you are both speaking and listening. It can feel clarifying, strange, or deeply personal.",
+
+  emotional: `There can be a sense of focus. Being fully engaged in your own thoughts.
+
+Sometimes there is clarity. Feeling like things are starting to make sense.
+
+There may also be confusion. Not fully understanding your own responses.
+
+In some moments, there is tension. A back-and-forth between different sides of you.
+
+There can be curiosity. Wanting to understand yourself better.
+
+At times, the feeling is introspective. Quiet and inward.`,
+
+  symbolic: `Talking to yourself represents internal dialogue.
+
+It reflects different parts of your thinking interacting.
+
+It can point to decision-making or self-reflection.
+
+You may be working through conflicting thoughts or perspectives.
+
+The conversation highlights awareness of your inner voice.
+
+It shows the process of understanding yourself more deeply.`,
+
+  spiritual: `This dream can reflect inner awareness.
+
+It may point to becoming more connected to your thoughts and feelings.
+
+Some may see it as listening to your inner guidance.
+
+It can also represent balance between different parts of yourself.
+
+The focus is on awareness rather than external answers.
+
+It reflects turning inward for clarity.`,
+
+  wakingLife: `This often appears when you are thinking through something important.
+
+You may be making decisions or trying to understand your feelings.
+
+It can reflect overthinking or deep reflection.
+
+Sometimes it shows up when you are questioning yourself.
+
+You might be weighing options or looking for clarity.
+
+The dream mirrors your internal thought process.`,
+
+  summary:
+    "Engaging with your own thoughts and inner dialogue. This dream reflects self-reflection, decision-making, and the process of understanding yourself more clearly.",
+
+  categories: ["Identity", "Hidden Emotions", "Anxiety"]
+},
+{
+  slug: "meeting-someone-from-your-past",
+  title: "Meeting someone from your past",
+  description: "Meeting someone from your past often reflects unresolved feelings, memories, or traits connected to that person. It does not always point to them directly, but to what they represent and how that still connects to your present.\n\nThe feeling matters. If the interaction feels warm or natural, it may reflect acceptance or a sense of closure. If it feels tense, awkward, or emotional, it can highlight something unfinished or a pattern that is still active.",
+
+  shortDescription:
+    "Running into someone from your past and reconnecting, even briefly. It can feel nostalgic, emotional, or slightly unresolved.",
+
+  emotional: `There can be a sense of familiarity. Recognizing the connection instantly.
+
+Sometimes there is warmth. Feeling comfort or ease around them.
+
+There may also be curiosity. Wondering why they appeared again.
+
+In some cases, there is discomfort. Old emotions resurfacing unexpectedly.
+
+There can be confusion. Not fully understanding how you feel about them now.
+
+At times, the emotion is mixed. Both connection and distance at once.`,
+
+  symbolic: `The person often represents a part of your past.
+
+They can reflect specific emotions, experiences, or phases of your life.
+
+Meeting them suggests reconnecting with that part of yourself.
+
+It may point to patterns repeating or lessons returning.
+
+Their behavior can reflect how you currently see that connection.
+
+The dream highlights what they represent more than who they are.`,
+
+  spiritual: `This dream can reflect reflection and integration.
+
+It may point to understanding your journey more clearly.
+
+Some may see it as a form of inner closure.
+
+It is less about going back and more about making sense of what was.
+
+The experience can highlight growth and awareness.
+
+It focuses on understanding rather than attachment.`,
+
+  wakingLife: `This dream often appears when something reminds you of that person.
+
+It could be a situation, emotion, or environment that feels similar.
+
+You may be reflecting on past experiences or relationships.
+
+Sometimes it shows up during personal growth or change.
+
+You might be noticing patterns or how you have evolved.
+
+The dream connects your past experiences to your present awareness.`,
+
+  summary:
+    "Reconnecting with past experiences, emotions, or parts of yourself. This dream reflects reflection and understanding, showing how past connections continue to influence your present.",
+
+  categories: ["Hidden Emotions", "Love, Relationships", "Identity"]
+},
+{
+  slug: "feeling-nostalgic",
+  title: "Feeling nostalgic",
+  description: "Feeling nostalgic in a dream often reflects a connection to past emotions, memories, or versions of yourself that still hold meaning. It can point to a desire to revisit a time that felt simpler, safer, or more familiar, especially if your present feels uncertain or demanding.\n\nThe feeling matters. If it feels warm and comforting, it may reflect appreciation and acceptance of your past. If it carries sadness or longing, it can highlight something you miss or wish you could reconnect with.",
+
+  shortDescription:
+    "A soft, emotional pull toward the past, where memories feel vivid and meaningful. It can feel comforting, bittersweet, or quietly reflective.",
+
+  emotional: `There can be a sense of warmth. Remembering moments that feel meaningful or safe.
+
+Sometimes there is comfort. A gentle feeling of being connected to something familiar.
+
+There may also be quiet happiness. Enjoying the memory without needing to change it.
+
+At the same time, there can be sadness. A subtle awareness that those moments are gone.
+
+There can be longing. Wanting to revisit or reconnect with that time.
+
+Often, the feeling is mixed. Both comfort and loss existing together.`,
+
+  symbolic: `Nostalgia often represents memory and emotional attachment.
+
+It reflects what still holds meaning from your past.
+
+The dream may highlight parts of your identity shaped by earlier experiences.
+
+It can also show comparison between past and present.
+
+Specific details may point to what you are revisiting internally.
+
+It brings attention to what you value and remember most.`,
+
+  spiritual: `This dream can reflect integration.
+
+It may point to acknowledging your past without needing to return to it.
+
+Some may see it as appreciation for experiences that shaped you.
+
+It can also highlight growth through reflection.
+
+The focus is on understanding rather than holding on.
+
+It reflects awareness of your journey over time.`,
+
+  wakingLife: `This dream often appears during times of change or reflection.
+
+You may be thinking about the past more than usual.
+
+It can connect to situations that remind you of earlier experiences.
+
+Sometimes it shows up when you are comparing past and present.
+
+You might be processing distance from people or phases of life.
+
+The dream reflects that emotional connection.`,
+
+  summary:
+    "Revisiting meaningful memories and emotions from your past. This dream reflects a blend of comfort and reflection, showing how past experiences continue to shape how you feel in the present.",
+
+  categories: ["Hidden Emotions", "Identity"]
+},
+{
+  slug: "watching-yourself-like-a-movie",
+  title: "Watching yourself like a movie",
+  description: "Watching yourself like a movie often reflects distance from your own thoughts, actions, or identity. It can point to moments where you feel like an observer in your own life, rather than fully present or in control of what is happening.\n\nThe feeling matters. If it feels calm or neutral, it may reflect self-awareness or reflection. If it feels strange or disconnected, it can highlight detachment, confusion, or difficulty fully engaging with your current situation.",
+
+  shortDescription:
+    "Seeing yourself from the outside, like you’re watching your life play out. It can feel detached, reflective, or slightly unreal.",
+
+  emotional: `There can be a sense of detachment. Like you are not fully inside the experience.
+
+Sometimes there is curiosity. Watching yourself with interest or observation.
+
+There may also be confusion. Not fully understanding why you feel separate.
+
+In some moments, there is calmness. Simply observing without strong emotion.
+
+There can be discomfort. Feeling disconnected from yourself or your actions.
+
+At times, the feeling is reflective. Like you are trying to understand yourself.`,
+
+  symbolic: `Watching yourself often represents self-awareness.
+
+It reflects stepping back from your own actions or identity.
+
+This can point to reflection, evaluation, or questioning yourself.
+
+It may also symbolize disconnection or emotional distance.
+
+The “movie” aspect suggests something unfolding without your control.
+
+It highlights observing rather than participating.`,
+
+  spiritual: `This dream can reflect awareness and perspective.
+
+It may point to seeing yourself more clearly from a distance.
+
+Some may interpret it as stepping outside your usual identity.
+
+It can also suggest reflection on your actions or direction.
+
+The focus is on observation rather than judgment.
+
+It reflects a shift in how you see yourself.`,
+
+  wakingLife: `This dream often appears when you feel disconnected or reflective.
+
+You may be questioning your actions or choices.
+
+It can show up during times of change or uncertainty.
+
+Sometimes it reflects going through routines without feeling fully present.
+
+You might be observing your life instead of actively engaging in it.
+
+The dream mirrors that sense of distance.`,
+
+  summary:
+    "Observing yourself from a distance and feeling disconnected or reflective. This dream highlights self-awareness, questioning, or a sense of detachment from your current experience.",
+
+  categories: ["Identity", "Hidden Emotions", "Anxiety"]
+},
+{
+  slug: "hair-falling-out",
+  title: "Hair falling out",
+  description: "Hair falling out often reflects concerns about control, confidence, or how you see yourself. It can point to feelings of vulnerability or change, especially in areas tied to identity, appearance, or personal strength.\n\nThe feeling matters. If it feels distressing or shocking, it may connect to fear of losing control or stability. If it feels calmer, it can reflect awareness of change or letting go of something tied to your sense of self.",
+
+  shortDescription:
+    "Noticing your hair falling out unexpectedly. It can feel alarming, vulnerable, or tied to a sense of losing control.",
+
+  emotional: `There can be a strong sense of shock. Not expecting what is happening.
+
+Sometimes there is anxiety. Worrying about what the loss means.
+
+There may also be vulnerability. Feeling exposed or less secure.
+
+In some moments, there is frustration. Wanting to stop it but being unable to.
+
+There can be sadness. A quiet sense of loss.
+
+At times, the feeling is uneasy. Like something important is changing.`,
+
+  symbolic: `Hair often represents identity, confidence, and self-image.
+
+Losing it can symbolize feeling less in control or unsure of yourself.
+
+It may point to changes in how you see yourself or how you feel seen by others.
+
+The loss suggests something slipping away or shifting.
+
+It can also reflect stress or pressure affecting your sense of stability.
+
+The dream highlights vulnerability and change.`,
+
+  spiritual: `This dream can reflect transformation.
+
+It may point to letting go of old identity or attachment.
+
+Some may see it as a shift in how you define yourself.
+
+It can also highlight the temporary nature of external identity.
+
+The focus is on change rather than loss alone.
+
+It reflects movement from one state to another.`,
+
+  wakingLife: `This dream often appears during periods of stress or change.
+
+You may be dealing with pressure that affects your confidence.
+
+It can relate to concerns about appearance or how others see you.
+
+Sometimes it reflects feeling like you are losing control in a situation.
+
+You might be adjusting to changes in your life or identity.
+
+The dream mirrors that sense of vulnerability.`,
+
+  summary:
+    "Feeling vulnerable, uncertain, or affected by change. This dream reflects concerns about control, identity, and confidence, often linked to how you see yourself during shifting situations.",
+
+  categories: ["Anxiety", "Identity", "Body"]
+},
+{
+  slug: "being-unable-to-open-your-eyes",
+  title: "Being unable to open your eyes",
+  description: "Being unable to open your eyes often reflects avoidance, overwhelm, or difficulty facing something clearly. It can point to moments where you feel blocked from seeing or understanding a situation, even though you know it is there.\n\nThe feeling matters. If it feels frustrating or tense, it may connect to pressure to face something you are not ready for. If it feels heavy or slow, it can reflect mental or emotional exhaustion that makes clarity harder to reach.",
+
+  shortDescription:
+    "Trying to open your eyes but being unable to see clearly or at all. It can feel frustrating, heavy, or like something is holding you back.",
+
+  emotional: `There can be frustration. Wanting to see but being unable to.
+
+Sometimes there is confusion. Not understanding why things are unclear.
+
+There may also be anxiety. Feeling stuck without awareness of what is happening.
+
+In some moments, there is heaviness. Like your body or mind is weighed down.
+
+There can be vulnerability. Not being able to rely on your senses.
+
+At times, the feeling is disorienting. Like you are not fully in control.`,
+
+  symbolic: `Eyes often represent awareness and clarity.
+
+Not being able to open them suggests difficulty seeing or understanding something.
+
+It can point to avoidance or not wanting to face a situation.
+
+It may also reflect feeling blocked from insight or direction.
+
+The struggle to open them highlights effort without clarity.
+
+It represents being present but unable to fully perceive.`,
+
+  spiritual: `This dream can reflect limited awareness.
+
+It may point to something you are not ready to fully see.
+
+Some may interpret it as a need for patience.
+
+Clarity may come gradually rather than all at once.
+
+It can also suggest turning inward instead of forcing understanding.
+
+The focus is on timing and readiness.`,
+
+  wakingLife: `This dream often appears during confusion or uncertainty.
+
+You may be avoiding something or feeling unready to face it.
+
+It can reflect mental exhaustion or information overload.
+
+Sometimes it shows up when clarity feels out of reach.
+
+You might feel stuck without clear direction.
+
+The dream mirrors that lack of visibility.`,
+
+  summary:
+    "Struggling to see clearly or face something directly. This dream reflects confusion, avoidance, or overwhelm, highlighting a need for clarity, rest, or readiness to understand what is in front of you.",
+
+  categories: ["Anxiety", "Fear", "Hidden Emotions"]
+},
+{
+  slug: "phone-not-working",
+  title: "Phone not working",
+  description: "A phone not working often reflects difficulty communicating, feeling disconnected, or not being able to reach someone or something important. It can point to frustration when trying to express yourself or connect with others.\n\nThe feeling matters. If it feels stressful or urgent, it may connect to fear of missing out or not being heard. If it feels more neutral, it can reflect distance, disconnection, or a pause in communication.",
+
+  shortDescription:
+    "Trying to use your phone but it won’t work, no matter what you do. It can feel frustrating, urgent, or like you’re cut off from something important.",
+
+  emotional: `There can be frustration. Trying repeatedly without success.
+
+Sometimes there is urgency. Feeling like you need to reach someone quickly.
+
+There may also be anxiety. Worrying about missing something important.
+
+In some moments, there is helplessness. Not being able to fix the problem.
+
+There can be disconnection. Feeling cut off from others.
+
+At times, the feeling is tense. Like time is running out.`,
+
+  symbolic: `A phone often represents communication and connection.
+
+It reflects your ability to reach others or express yourself.
+
+When it does not work, it suggests breakdown or difficulty in that connection.
+
+It may point to miscommunication or feeling unheard.
+
+It can also reflect emotional distance.
+
+The malfunction highlights a barrier between you and others.`,
+
+  spiritual: `This dream can reflect disconnection or pause.
+
+It may point to stepping back from constant communication.
+
+Some may see it as a reminder to reconnect with yourself first.
+
+It can also highlight reliance on external connection.
+
+The focus shifts inward rather than outward.
+
+It reflects awareness of connection and absence.`,
+
+  wakingLife: `This dream often appears during communication issues.
+
+You may be struggling to express yourself or reach someone.
+
+It can reflect misunderstandings or emotional distance.
+
+Sometimes it shows up when you feel ignored or unheard.
+
+You might be feeling disconnected from people or situations.
+
+The dream mirrors that frustration.`,
+
+  summary:
+    "Feeling disconnected, unheard, or unable to communicate effectively. This dream reflects frustration around connection and highlights barriers between you and others.",
+
+  categories: ["Anxiety", "Hidden Emotions", "Love, Relationships"]
+},
+{
+  slug: "reliving-a-specific-memory",
+  title: "Reliving a specific memory",
+  description: "Reliving a specific memory often reflects something from your past that is still emotionally active or relevant to your present. It can point to moments your mind is revisiting to process, understand, or re-evaluate from a different perspective.\n\nThe feeling matters. If the memory feels clear and calm, it may reflect acceptance or reflection. If it feels intense or uncomfortable, it can highlight emotions that have not fully settled and are still influencing you.",
+
+  shortDescription:
+    "Stepping back into a real moment from your past as if it is happening again. It can feel vivid, emotional, and deeply personal.",
+
+  emotional: `There can be a strong sense of immersion. Like you are fully inside the moment again.
+
+Sometimes there is familiarity. Recognizing every detail as it unfolds.
+
+There may also be intensity. Emotions returning just as strongly as before.
+
+In some moments, there is reflection. Experiencing it while also observing it.
+
+There can be discomfort. Especially if the memory carries unresolved feelings.
+
+At times, the feeling is layered. Both past and present awareness existing together.`,
+
+  symbolic: `A specific memory often represents a meaningful moment.
+
+It reflects experiences that shaped how you think or feel.
+
+Reliving it suggests your mind is revisiting it with purpose.
+
+It may point to patterns or lessons connected to that moment.
+
+Details in the memory highlight what still matters.
+
+The dream brings attention to something still active beneath the surface.`,
+
+  spiritual: `This dream can reflect integration and awareness.
+
+It may point to understanding your past from a more grounded place.
+
+Some may see it as a process of release.
+
+Revisiting the memory can help reduce its emotional weight.
+
+It is less about returning and more about understanding.
+
+The focus is on clarity and growth.`,
+
+  wakingLife: `This dream often appears when something in your present connects to that memory.
+
+You may be experiencing similar emotions or situations.
+
+It can reflect reflection during periods of growth or change.
+
+Sometimes it shows up when you are reassessing past experiences.
+
+You might be noticing patterns or connections more clearly.
+
+The dream mirrors how the past is influencing your present.`,
+
+  summary:
+    "Revisiting a meaningful moment from your past that still carries emotional weight. This dream reflects a process of understanding and integrating past experiences so they no longer quietly shape your present.",
+
+  categories: ["Hidden Emotions", "Identity", "Transformation"]
+},
+
+
 
 ];

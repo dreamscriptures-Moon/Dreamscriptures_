@@ -35,7 +35,7 @@ export default function sitemap() {
     url: `${baseUrl}/dreams/${dream.slug}`,
     lastModified: dream.updatedAt
       ? new Date(dream.updatedAt)
-      : new Date("2026-04-01"),
+      : new Date("2026-05-03"),
     priority: 0.7,
   }));
 

@@ -2,12 +2,19 @@ export const revalidate = 86400;
 
 import Link from "next/link";
 import Script from "next/script";
-import MobileQuickNav from "@/app/components/MobileQuickNav";
+import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { dreams } from "@/data/dream";
+import { dreams as dreamIndex } from "@/data/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
+
+export function generateStaticParams() {
+  return dreams.map((dream) => ({
+    slug: normalizeSlug(dream.slug || dream.title),
+  }));
+}
 
 export async function generateMetadata({ params } = {}) {
   const resolvedParams = await params;
@@ -15,8 +22,7 @@ export async function generateMetadata({ params } = {}) {
   const dream = getDreamBySlug(metadataSlug);
   const title = dream?.title || String(metadataSlug).replace(/-/g, " ");
   const description = shorten(
-    `Learn what dreaming about ${title} means, including emotional, spiritual, and real-life interpretations. Discover what your dream may be trying to tell you.`,
-    155
+    `Learn what dreaming about ${title} means, including emotional, spiritual, and real-life interpretations. Discover what your dream may be trying to tell you.`
   );
   const canonicalSlug = normalizeSlug(dream?.slug || dream?.title || metadataSlug);
 
@@ -57,6 +63,7 @@ function getDreamBySlug(slug = "") {
 function getDreamKeys(item) {
   return [
     normalizeForMatch(item.slug),
+    normalizeSlug(item.slug),
     normalizeForMatch(item.title),
     normalizeSlug(item.title),
   ];
@@ -69,6 +76,31 @@ function getCategoryKeys(categories = []) {
       .map((item) => normalizeCategory(item))
       .filter(Boolean)
   );
+}
+
+function dreamMatchesReference(dream, reference = "") {
+  const normalizedReference = normalizeForMatch(reference);
+  const slugReference = normalizeSlug(reference);
+
+  return getDreamKeys(dream).some(
+    (key) =>
+      key === normalizedReference ||
+      key === slugReference ||
+      (slugReference.length > 4 && key.includes(slugReference))
+  );
+}
+
+function uniqueDreams(items = []) {
+  const seen = new Set();
+
+  return items.filter((item) => {
+    const key = normalizeSlug(item.slug || item.title);
+
+    if (!key || seen.has(key)) return false;
+
+    seen.add(key);
+    return true;
+  });
 }
 
 function getDynamicDreamTitle(title = "") {
@@ -203,31 +235,20 @@ function TextBlocks({
     return null;
   }
 
-  const linksByParagraph = contextualLinks.slice(0, 2).reduce((acc, item, index) => {
-    if (!item?.slug || !item?.title) return acc;
-
-    const paragraphIndex = Math.min(index, paragraphs.length - 1);
-    acc[paragraphIndex] = item;
-
-    return acc;
-  }, {});
-  const contextualLinkPhrases = [
+  const linkPhrases = [
     "This dream can also relate to",
     "Similar themes appear in",
     "You may also notice connections with",
     "This experience often overlaps with",
-  ];
-  const contextualLinkEndings = [
-    ", especially when similar emotions are present.",
-    ", particularly when the same patterns appear.",
-    ", especially in related life situations.",
+    "This can also relate to",
+    "This experience is often linked to",
   ];
   const phraseSeed = hashString(contextualLinkSeed || paragraphs.join(" "));
 
   return (
     <div className={`space-y-4 ${className}`.trim()}>
       {paragraphs.map((paragraph, index) => {
-        const linkedDream = linksByParagraph[index];
+        const linkedDream = contextualLinks[index];
 
         return (
           <p
@@ -238,22 +259,14 @@ function TextBlocks({
             {linkedDream && (
               <>
                 {" "}
-                {
-                  contextualLinkPhrases[
-                    (phraseSeed + index) % contextualLinkPhrases.length
-                  ]
-                }{" "}
+                {linkPhrases[(phraseSeed + index) % linkPhrases.length]}{" "}
                 <Link
                   href={`/dreams/${normalizeSlug(linkedDream.slug || linkedDream.title)}`}
                   className="underline underline-offset-4 hover:text-[#C6A96B] transition-colors"
                 >
-                  {linkedDream.title}
+                  {linkedDream.title.toLowerCase()}
                 </Link>
-                {
-                  contextualLinkEndings[
-                    (phraseSeed + index) % contextualLinkEndings.length
-                  ]
-                }
+                .
               </>
             )}
           </p>
@@ -277,14 +290,31 @@ export default async function DreamPage({ params }) {
     );
   }
 
+  const canonicalDreamSlug = normalizeSlug(dream.slug || dream.title);
+  const currentDream = {
+    ...dream,
+    related:
+      dreamIndex.find((item) => getDreamKeys(item).includes(normalizeForMatch(slug)))
+        ?.related ||
+      dream?.related ||
+      [],
+  };
+
+  const relatedDreams = dreams.filter((d) =>
+    currentDream?.related?.some((relatedSlug) =>
+      dreamMatchesReference(d, relatedSlug)
+    )
+  );
+
   const exploreThemes = [
     ...new Set(
       dreams.flatMap((item) => (item.categories || []).map(normalizeCategory))
     ),
   ].slice(0, 5);
 
+  const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
   const dreamCategoryKeys = getCategoryKeys(dream.categories);
-  const rankedRelatedDreams = dreams
+  const fallbackRelatedDreams = dreams
     .filter((item) => normalizeForMatch(item.slug) !== normalizeForMatch(dream.slug))
     .map((item) => ({
       ...item,
@@ -294,17 +324,6 @@ export default async function DreamPage({ params }) {
     }))
     .filter((item) => item.score > 0)
     .sort((a, b) => b.score - a.score);
-
-  const relatedDreams =
-    rankedRelatedDreams.length > 0
-      ? rankedRelatedDreams.slice(0, 4)
-      : dreams
-          .filter(
-            (item) => normalizeForMatch(item.slug) !== normalizeForMatch(dream.slug)
-          )
-          .slice(0, 4);
-
-  const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
   const insightSections = [
     {
       id: "emotional-meaning",
@@ -369,20 +388,21 @@ export default async function DreamPage({ params }) {
       "@type": "ListItem",
       position: 3,
       name: dreamTitle,
-      item: `https://www.dreamscriptures.com/dreams/${normalizeSlug(dreamTitle)}`,
+      item: `https://www.dreamscriptures.com/dreams/${canonicalDreamSlug}`,
     },
   ],
 };
-  const relatedDreamSections = relatedDreams.map((item) => {
-    const sharedCategories = getCategoryKeys(item.categories).filter((category) =>
-      dreamCategoryKeys.includes(category)
-    );
-
-    return {
+  const relatedDreamSections = uniqueDreams([
+    ...relatedDreams,
+    ...fallbackRelatedDreams,
+  ])
+    .slice(0, 4)
+    .map((item) => ({
       ...item,
-      sharedCategories,
-    };
-  });
+      sharedCategories: getCategoryKeys(item.categories).filter((category) =>
+        dreamCategoryKeys.includes(category)
+      ),
+    }));
   const contextualDreamLinks = relatedDreamSections.slice(0, 2);
 
   const faqTemplates = [
@@ -552,8 +572,9 @@ const faqSchema = {
     </li>
   </ol>
 </nav>
-     
+     <LazyMobileQuickNav />
       <SearchBar />
+       
       <article className="max-w-3xl lg:max-w-2xl mx-auto px-6 py-20 md:py-32">
       
       <h1 className="text-4xl md:text-5xl leading-tight font-serif">
@@ -636,8 +657,6 @@ const faqSchema = {
           life.
         </p>
 
-        <MobileQuickNav />
-
         <div className="w-56 h-[1px] bg-[#C6A96B] mt-8 mb-10 opacity-60" />
     
     {dream.categories?.length > 0 && (
@@ -715,17 +734,21 @@ const faqSchema = {
               <Link
                 key={item.slug}
                 href={`/dreams/${normalizeSlug(item.slug || item.title)}`}
-                className="block border border-[#EAE6E1] p-5 rounded-xl hover:border-[#C6A96B] hover:shadow-sm transition"
+                className="block p-5 rounded-2xl border border-[#E8E2D9] bg-white hover:border-[#C6A96B] hover:shadow-md transition"
               >
-                <span className="block font-medium">{item.title}</span>
-                <span className="block text-sm text-[#6B6B6B] mt-1">
-                  {item.description}
-                </span>
-                {item.sharedCategories.length > 0 && (
-                  <span className="block text-xs text-[#8A8A8A] mt-3 capitalize">
-                    Shared categories: {item.sharedCategories.join(", ")}
+                {item.sharedCategories?.[0] && (
+                  <span className="text-xs uppercase tracking-wide text-[#C6A96B]">
+                    {item.sharedCategories[0]}
                   </span>
                 )}
+
+                <h3 className="text-lg font-semibold mt-2 mb-2 hover:text-[#C6A96B] transition">
+                  {item.title}
+                </h3>
+
+                <p className="text-sm text-[#6B6B6B]">
+                  What does dreaming about {item.title.toLowerCase()} mean?
+                </p>
               </Link>
             ))}
           </div>
@@ -814,3 +837,4 @@ const faqSchema = {
     </main>
   );
 }
+

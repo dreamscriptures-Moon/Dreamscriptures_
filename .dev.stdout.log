@@ -5,7 +5,278 @@
 ▲ Next.js 16.2.3 (Turbopack)
 - Local:         http://localhost:3000
 - Network:       http://192.168.100.7:3000
-✓ Ready in 1638ms
+✓ Ready in 1841ms
 
- GET /about 200 in 1645ms (next.js: 602ms, application-code: 1043ms)
- GET /contact 200 in 243ms (next.js: 68ms, application-code: 175ms)
+
+===== DREAM DATA DEBUG =====
+Total dreams: 126
+Missing titles: []
+1. a Snake
+2. Being Chased
+3. Being Pregnant
+4. Ex-Partner
+5. Failing a Test
+6. House burning
+7. Death
+8. Flying
+9. Angels
+10. Darkness
+11. hearing / seeing bells
+12. Walking in the Sky
+13. Seeing a Dead Person
+14. Fire
+15. seeing a Baby Boy
+16. seeing a Baby Girl
+17. Having Sex
+18. Running
+19. Running but can’t move fast
+20. Swimming at a beach or in a pool
+21. Drowning
+22. Underwater but calm
+23. Falling / swimming in dirty water
+24. Getting married to a stranger
+25. Marrying someone you know
+26. Marrying your ex
+27. Being naked in public
+28. Forced marriage
+29. Saying no
+30. Being trapped
+31. Saying yes when you don’t want to
+32. Wedding day drama
+33. Escaping something
+34. Confrontation / Argument
+35. Unable to speak
+36. Seeing a demon / spirit in front of you
+37. Feeling someone watching you while you sleep
+38. Seeing your body while you are asleep
+39. Breathing underwater
+40. Ex texting you
+41. Arguing with your ex
+42. Your partner cheating on you
+43. Falling
+44. Traveling to your dream destination
+45. Being late
+46. Missing a flight
+47. Failing an exam
+48. Going back to school
+49. Being unprepared
+50. Losing something important
+51. Having a miscarriage
+52. Losing a baby
+53. Seeing a different reflection in the mirror
+54. Looking in the mirror
+55. Hearing a clock ticking
+56. Arriving just in time
+57. Someone confessing their love to you
+58. Being rejected
+59. Confessing your love to someone
+60. Losing something important
+61. Getting bitten by a snake
+62. Being chased by a snake
+63. Killing a snake
+64. Seeing a dead snake
+65. Seeing a snake in your bed
+66. Seeing many snakes
+67. A dead person talking to you
+68. Hand falling off
+69. Teeth falling out
+70. Being in a forest
+71. Looking at a river
+72. Killing yourself
+73. Climbing a mountain
+74. Climbing a tree
+75. Jumping off a bridge
+76. Jumping off a bridge
+77. water
+78. Reaching the end after an endless fall
+79. Looking at yourself in the mirror
+80. Peeing the bed
+81. Seeing a different reflection in the mirror
+82. Being in another world
+83. Climbing stairs
+84. Going down the stairs
+85. Plane crash
+86. Stranded on an island alone
+87. Stranded on an island with a stranger
+88. Stranded on an island with someone you know
+89. Stranded on the road
+90. Lost in the forest
+91. Mermaid
+92. Snake bite on the leg
+93. Snake bite on the hand
+94. Cat scratching you
+95. Dog bite
+96. Shark attack
+97. Seeing Jesus
+98. Being in a room with many people
+99. Room closing in on you
+100. Speaking to Jesus
+101. Speaking to God
+102. Having intimacy with a strange creature
+103. Being in a small crowded room
+104. Being stuck in an elevator
+105. Being lost in a building
+106. Being trapped in a maze
+107. Missing an opportunity
+108. Watching a train or plane leave
+109. Going to hell
+110. Going to heaven
+111. Being in the past
+112. Deja vu
+113. Repeating the same dream
+114. Feeling intense peace
+115. Light surrounding you
+116. Being protected
+117. Being protected
+118. Seeing your younger self
+119. Talking to yourself
+120. Meeting someone from your past
+121. Feeling nostalgic
+122. Watching yourself like a movie
+123. Hair falling out
+124. Being unable to open your eyes
+125. Phone not working
+126. Reliving a specific memory
+===== END =====
+
+ GET / 200 in 619ms (next.js: 143ms, application-code: 476ms)
+ GET /dreams/being-chased 200 in 6.0s (next.js: 2.9s, application-code: 3.2s)
+ GET /dreams/being-chased 500 in 879ms (next.js: 373ms, application-code: 506ms)
+ GET /dreams/being-chased 500 in 137ms (next.js: 76ms, application-code: 61ms)
+ GET /dreams/being-chased 500 in 72ms (next.js: 33ms, application-code: 39ms)
+ GET /dreams/being-chased 500 in 144ms (next.js: 62ms, application-code: 81ms)
+✓ Compiled in 666ms
+
+===== DREAM DATA DEBUG =====
+Total dreams: 126
+Missing titles: []
+1. a Snake
+2. Being Chased
+3. Being Pregnant
+4. Ex-Partner
+5. Failing a Test
+6. House burning
+7. Death
+8. Flying
+9. Angels
+10. Darkness
+11. hearing / seeing bells
+12. Walking in the Sky
+13. Seeing a Dead Person
+14. Fire
+15. seeing a Baby Boy
+16. seeing a Baby Girl
+17. Having Sex
+18. Running
+19. Running but can’t move fast
+20. Swimming at a beach or in a pool
+21. Drowning
+22. Underwater but calm
+23. Falling / swimming in dirty water
+24. Getting married to a stranger
+25. Marrying someone you know
+26. Marrying your ex
+27. Being naked in public
+28. Forced marriage
+29. Saying no
+30. Being trapped
+31. Saying yes when you don’t want to
+32. Wedding day drama
+33. Escaping something
+34. Confrontation / Argument
+35. Unable to speak
+36. Seeing a demon / spirit in front of you
+37. Feeling someone watching you while you sleep
+38. Seeing your body while you are asleep
+39. Breathing underwater
+40. Ex texting you
+41. Arguing with your ex
+42. Your partner cheating on you
+43. Falling
+44. Traveling to your dream destination
+45. Being late
+46. Missing a flight
+47. Failing an exam
+48. Going back to school
+49. Being unprepared
+50. Losing something important
+51. Having a miscarriage
+52. Losing a baby
+53. Seeing a different reflection in the mirror
+54. Looking in the mirror
+55. Hearing a clock ticking
+56. Arriving just in time
+57. Someone confessing their love to you
+58. Being rejected
+59. Confessing your love to someone
+60. Losing something important
+61. Getting bitten by a snake
+62. Being chased by a snake
+63. Killing a snake
+64. Seeing a dead snake
+65. Seeing a snake in your bed
+66. Seeing many snakes
+67. A dead person talking to you
+68. Hand falling off
+69. Teeth falling out
+70. Being in a forest
+71. Looking at a river
+72. Killing yourself
+73. Climbing a mountain
+74. Climbing a tree
+75. Jumping off a bridge
+76. Jumping off a bridge
+77. water
+78. Reaching the end after an endless fall
+79. Looking at yourself in the mirror
+80. Peeing the bed
+81. Seeing a different reflection in the mirror
+82. Being in another world
+83. Climbing stairs
+84. Going down the stairs
+85. Plane crash
+86. Stranded on an island alone
+87. Stranded on an island with a stranger
+88. Stranded on an island with someone you know
+89. Stranded on the road
+90. Lost in the forest
+91. Mermaid
+92. Snake bite on the leg
+93. Snake bite on the hand
+94. Cat scratching you
+95. Dog bite
+96. Shark attack
+97. Seeing Jesus
+98. Being in a room with many people
+99. Room closing in on you
+100. Speaking to Jesus
+101. Speaking to God
+102. Having intimacy with a strange creature
+103. Being in a small crowded room
+104. Being stuck in an elevator
+105. Being lost in a building
+106. Being trapped in a maze
+107. Missing an opportunity
+108. Watching a train or plane leave
+109. Going to hell
+110. Going to heaven
+111. Being in the past
+112. Deja vu
+113. Repeating the same dream
+114. Feeling intense peace
+115. Light surrounding you
+116. Being protected
+117. Being protected
+118. Seeing your younger self
+119. Talking to yourself
+120. Meeting someone from your past
+121. Feeling nostalgic
+122. Watching yourself like a movie
+123. Hair falling out
+124. Being unable to open your eyes
+125. Phone not working
+126. Reliving a specific memory
+===== END =====
+
+ GET /dreams/being-chased 200 in 3.1s (next.js: 976ms, application-code: 2.2s)
+[?25h
