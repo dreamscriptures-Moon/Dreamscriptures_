@@ -1,5 +1,6 @@
 import Link from "next/link";
 import CategoryDreamList from "@/app/components/CategoryDreamList";
+import MobileQuickNav from "@/app/components/MobileQuickNav";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { dreams } from "@/data/dream";
@@ -161,6 +162,8 @@ export default async function CategoryPage({ params }) {
         <p className="text-[#6B6B6B] leading-relaxed mb-10">
           {description}
         </p>
+
+        <MobileQuickNav />
 
         {/* 🔥 Themes */}
         <section className="mt-10">

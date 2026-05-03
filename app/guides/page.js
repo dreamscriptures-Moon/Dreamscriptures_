@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import MobileQuickNav from "@/app/components/MobileQuickNav";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { guides } from "@/app/data/guides";
@@ -64,6 +65,8 @@ export default function GuidesPage() {
     through dreams and how those experiences relate to your waking life.
   </p>
 </section>
+
+        <MobileQuickNav />
 
         <div className="mb-16">
           <div className="border border-[#EAE6E1] rounded-2xl px-5 py-4 bg-white/90 backdrop-blur-sm focus-within:border-[#C6A96B] transition shadow-[0_10px_30px_rgba(26,26,26,0.04)]">

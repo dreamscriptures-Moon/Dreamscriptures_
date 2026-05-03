@@ -2,6 +2,7 @@ export const revalidate = 86400;
 
 import Link from "next/link";
 import Script from "next/script";
+import MobileQuickNav from "@/app/components/MobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
@@ -553,7 +554,7 @@ const faqSchema = {
 </nav>
      
       <SearchBar />
-      <article className="max-w-3xl mx-auto px-6 py-20 md:py-32">
+      <article className="max-w-3xl lg:max-w-2xl mx-auto px-6 py-20 md:py-32">
       
       <h1 className="text-4xl md:text-5xl leading-tight font-serif">
   {dynamicTitle}
@@ -634,6 +635,8 @@ const faqSchema = {
           something emotional, symbolic, or quietly unfolding in your waking
           life.
         </p>
+
+        <MobileQuickNav />
 
         <div className="w-56 h-[1px] bg-[#C6A96B] mt-8 mb-10 opacity-60" />
     

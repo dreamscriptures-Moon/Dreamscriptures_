@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MobileQuickNav from "@/app/components/MobileQuickNav";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { guides, getGuideBySlug } from "@/app/data/guides";
@@ -143,7 +144,7 @@ function linkifyText(text = "") {
     />
   )}
       <article className="max-w-3xl mx-auto pt-10 pb-2 md:pt-16 md:pb-28 text-[#3A3A3A] leading-relaxed">
-       <nav
+       <nav 
   aria-label="Breadcrumb"
   className="text-sm text-[#8A8175] mb-10 flex flex-wrap gap-2"
 >
@@ -203,6 +204,8 @@ function linkifyText(text = "") {
             {guide.intro}
           </p>
         )}
+
+        <MobileQuickNav />
 
         {guide.content?.length > 0 && (
           <section className="space-y-6 text-base md:text-lg mb-16">

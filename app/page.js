@@ -1,5 +1,6 @@
 import Link from "next/link";
 import HomeSearch from "@/app/components/HomeSearch";
+import MobileQuickNav from "@/app/components/MobileQuickNav";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 
@@ -63,6 +64,8 @@ export default function Home() {
     </div>
 
   </section>
+
+  <MobileQuickNav />
 
   <section className="max-w-3xl mx-auto px-6 pb-12 text-left">
     <h2 className="text-2xl md:text-3xl font-serif mb-4">
