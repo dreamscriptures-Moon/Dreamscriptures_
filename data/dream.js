@@ -1,8 +1,8 @@
 export const dreams = [
 
  {
-  slug: "snakes",
-  title: "a Snake",
+  slug: "seeing-a-snake",
+  title: "seeing a Snake",
   description: "Snakes in dreams often carry a strong emotional presence they can feel unsettling, intense, or strangely powerful. They are usually connected to hidden fears, transformation, or something in your life that doesn’t feel fully safe or clear.\nDepending on the feeling of the dream, a snake can reflect something you don’t trust, something you’re avoiding, or a deeper change happening beneath the surface that you’re only beginning to notice.",
 
   emotional: `Snakes in dreams often connect to emotions that don’t feel fully safe, clear, or easy to face. There may be something in your life that feels off — not always obvious, but enough to make you uneasy or guarded.They can reflect fear, tension, or quiet anxiety, especially in situations where trust feels uncertain. This could be around a person, an environment, or even your own instincts if you’re doubting what you feel.Sometimes, the snake isn’t just about fear, but awareness. A sense that something is happening beneath the surface — emotions you haven’t fully processed yet, or something you’ve been trying to ignore but can’t completely shake.If the snake feels threatening, it may point to feeling exposed, vulnerable, or on edge. If it feels calm or controlled, it can reflect emotions you’re starting to understand, even if they once felt overwhelming.At its core, this dream often holds a mix of caution and awareness — asking you to pay attention to what doesn’t feel right, even if you can’t fully explain it yet.`,
@@ -4326,7 +4326,7 @@ If the dream repeats, it may be asking you to look more closely at what is drawi
   categories: ["Spiritual", "Hidden Emotions", "Identity"]
 },
 {
-  slug: "snake-bite-on-leg",
+  slug: "snake-bite-on-the-leg",
   title: "Snake bite on the leg",
   description: "A snake bite often represents something hidden becoming direct and unavoidable. When the bite happens on the leg, it connects specifically to movement, direction, and progress in your life. This dream can reflect something affecting your ability to move forward or making you question the path you are on.\n\nThe feeling matters. A painful or frightening bite can suggest fear, betrayal, or disruption, while a calmer experience may point to awareness, warning, or a shift that needs attention.",
 
@@ -4389,7 +4389,7 @@ If the dream repeats, it may be asking you to look closely at what is disrupting
   categories: ["Animals", "Fear", "Anxiety", "Spiritual", "Transformation"]
 },
 {
-  slug: "snake-bite-on-hand",
+  slug: "snake-bite-on-the-hand",
   title: "Snake bite on the hand",
   description: "Hands represent action, control, trust, and how you interact with others. A snake bite on the hand can point to something affecting your ability to act, trust, or handle a situation, especially in a way that feels sudden or unexpected.\n\nThe context matters. A painful bite can suggest emotional impact or betrayal, while a calm reaction may point to awareness, realization, or something becoming clear.",
 

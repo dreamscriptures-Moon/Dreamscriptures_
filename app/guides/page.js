@@ -15,12 +15,14 @@ const guideSearchItems = guides.map((guide) => ({
 export default function GuidesPage() {
   return (
     <main className="bg-[#F7F5F2] min-h-screen">
-      <SiteHeader />
+      <SiteHeader sticky />
 
       <section className="max-w-3xl mx-auto px-6 py-2 md:py-32">
+        
         <nav className="text-sm text-[#6B6B6B] mb-6">
           <Link href="/">Home</Link> / <span>Guides</span>
         </nav>
+        
         <h1 className="text-4xl md:text-5xl font-serif mb-6">
           Dream guides & meanings
         </h1>
@@ -48,8 +50,8 @@ export default function GuidesPage() {
             waking life.
           </p>
         </section>
-
-        <LazyMobileQuickNav />
+<LazyMobileQuickNav />
+        
 
         <GuidesSearchList guides={guideSearchItems} />
       </section>

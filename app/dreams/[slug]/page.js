@@ -7,9 +7,8 @@ import SearchBar from "@/app/components/SearchBar";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { dreams } from "@/data/dream";
-import { dreams as dreamIndex } from "@/data/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
-
+import { getRelatedDreams } from "../../../lib/getRelatedDreams";
 export function generateStaticParams() {
   return dreams.map((dream) => ({
     slug: normalizeSlug(dream.slug || dream.title),
@@ -290,21 +289,10 @@ export default async function DreamPage({ params }) {
     );
   }
 
-  const canonicalDreamSlug = normalizeSlug(dream.slug || dream.title);
-  const currentDream = {
-    ...dream,
-    related:
-      dreamIndex.find((item) => getDreamKeys(item).includes(normalizeForMatch(slug)))
-        ?.related ||
-      dream?.related ||
-      [],
-  };
+const canonicalDreamSlug = normalizeSlug(dream.slug || dream.title);
 
-  const relatedDreams = dreams.filter((d) =>
-    currentDream?.related?.some((relatedSlug) =>
-      dreamMatchesReference(d, relatedSlug)
-    )
-  );
+const currentDream = dream;
+const relatedDreams = getRelatedDreams(currentDream, dreams);
 
   const exploreThemes = [
     ...new Set(
@@ -314,16 +302,6 @@ export default async function DreamPage({ params }) {
 
   const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
   const dreamCategoryKeys = getCategoryKeys(dream.categories);
-  const fallbackRelatedDreams = dreams
-    .filter((item) => normalizeForMatch(item.slug) !== normalizeForMatch(dream.slug))
-    .map((item) => ({
-      ...item,
-      score: getCategoryKeys(item.categories).filter((category) =>
-        dreamCategoryKeys.includes(category)
-      ).length,
-    }))
-    .filter((item) => item.score > 0)
-    .sort((a, b) => b.score - a.score);
   const insightSections = [
     {
       id: "emotional-meaning",
@@ -392,17 +370,15 @@ export default async function DreamPage({ params }) {
     },
   ],
 };
-  const relatedDreamSections = uniqueDreams([
-    ...relatedDreams,
-    ...fallbackRelatedDreams,
-  ])
-    .slice(0, 4)
-    .map((item) => ({
-      ...item,
-      sharedCategories: getCategoryKeys(item.categories).filter((category) =>
-        dreamCategoryKeys.includes(category)
-      ),
-    }));
+ const relatedDreamSections = relatedDreams
+  .slice(0, 4)
+  .map((item) => ({
+    ...item,
+    sharedCategories: getCategoryKeys(item.categories).filter((category) =>
+      dreamCategoryKeys.includes(category)
+    ),
+  }));
+
   const contextualDreamLinks = relatedDreamSections.slice(0, 2);
 
   const faqTemplates = [
@@ -572,9 +548,9 @@ const faqSchema = {
     </li>
   </ol>
 </nav>
-     <LazyMobileQuickNav />
+    
       <SearchBar />
-       
+       <LazyMobileQuickNav />
       <article className="max-w-3xl lg:max-w-2xl mx-auto px-6 py-20 md:py-32">
       
       <h1 className="text-4xl md:text-5xl leading-tight font-serif">

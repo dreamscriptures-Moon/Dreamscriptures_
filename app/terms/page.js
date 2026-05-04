@@ -1,7 +1,7 @@
 import Link from "next/link";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-
+import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 export const metadata = {
   title: "Terms of Use | DreamScriptures",
   description:
@@ -53,7 +53,7 @@ export default function TermsPage() {
           </Link>{" "}
           / <span>Terms of Use</span>
         </nav>
-
+<LazyMobileQuickNav />
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-serif mb-6">
           Terms of Use

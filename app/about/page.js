@@ -1,6 +1,7 @@
 import Link from "next/link";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
+import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 
 export const metadata = {
   title: "About DreamScriptures | Dream Meaning & Interpretation",
@@ -22,7 +23,7 @@ export default function AboutPage() {
           </Link>{" "}
           / <span>About</span>
         </nav>
-
+<LazyMobileQuickNav />
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-serif mb-6">
           About DreamScriptures

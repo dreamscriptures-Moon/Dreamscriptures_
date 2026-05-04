@@ -67,7 +67,7 @@ export default async function GuidePage({ params }) {
   if (!guide) {
     return (
       <main className="bg-[#F7F5F2] min-h-screen">
-        <SiteHeader />
+        <SiteHeader sticky />
         <p className="max-w-3xl mx-auto px-6 py-20">Guide not found</p>
       </main>
     );
@@ -133,7 +133,7 @@ function linkifyText(text = "") {
 }
   return (
    <main className="bg-[#F7F5F2] min-h-screen">
-  <SiteHeader />
+  <SiteHeader sticky />
 
   {breadcrumbSchema && (
     <script
@@ -163,7 +163,7 @@ function linkifyText(text = "") {
   <span className="text-[#6B6B6B]">{guide.title}</span>
 </nav>
 
-        <h1 className="text-4xl md:text-5xl font-serif mb-10 text-[#1A1A1A]">
+        <h1 className="text-3xl md:text-5xl font-serif mb-10 text-[#1A1A1A]">
           {guide.title} (Meaning & Interpretation)
         </h1>
 
@@ -189,7 +189,7 @@ function linkifyText(text = "") {
     </ul>
   </nav>
 )}
-
+<LazyMobileQuickNav />
         <p className="text-xs tracking-widest text-[#A89F91] uppercase mb-8">
           Guide - 5 min read
         </p>
@@ -205,7 +205,7 @@ function linkifyText(text = "") {
           </p>
         )}
 
-        <LazyMobileQuickNav />
+        
 
         {guide.content?.length > 0 && (
           <section className="space-y-6 text-base md:text-lg mb-16">

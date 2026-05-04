@@ -2,7 +2,7 @@ import { dreams } from "@/data/dream";
 import DreamDictionaryControls from "@/app/components/DreamDictionaryControls";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-
+import LazyMobileQuickNav from "../components/LazyMobileQuickNav";
 function normalizeCategory(cat = "") {
   const c = cat.toLowerCase().trim();
 
@@ -46,6 +46,7 @@ export default function DreamDictionaryPage() {
           Explore common dreams and what they might mean through symbols,
           emotions, and patterns that often appear beneath the surface.
         </p>
+<LazyMobileQuickNav />
 
         <DreamDictionaryControls
           dreams={searchableDreams}

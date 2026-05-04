@@ -40,7 +40,7 @@ const featuredGuides = [
 export default function Home() {
   return (
 <main className="bg-[#F7F5F2] text-[#1A1A1A] min-h-screen">
-  <SiteHeader />
+  <SiteHeader sticky />
 
   {/* HERO */}
   <section className="max-w-3xl mx-auto px-6 pt-16 md:pt-24 pb-14 text-center">

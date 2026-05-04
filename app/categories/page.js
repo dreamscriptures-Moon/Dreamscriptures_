@@ -5,7 +5,7 @@ import { dreams } from "@/data/dream";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import SearchBar from "@/app/components/SearchBar";
 import CategorySearchList from "@/app/components/CategorySearchList";
-
+import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 function normalizeCategory(cat = "") {
   const c = cat.toLowerCase().trim();
 
@@ -46,6 +46,8 @@ export default function CategoriesPage() {
     </li>
   </ol>
 </nav>
+<LazyMobileQuickNav />
+
         {/* 🔥 Title */}
         <h1 className="text-4xl md:text-5xl font-serif mb-4">
           Dream categories
