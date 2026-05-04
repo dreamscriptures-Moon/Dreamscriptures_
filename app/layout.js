@@ -48,11 +48,13 @@ export const metadata = {
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair",
+  display: "swap",
 });
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
 });
 
 
@@ -87,13 +89,6 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-{/* 🔥 AdSense */}
-<Script
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7402615514555783"
-  crossOrigin="anonymous"
-  strategy="afterInteractive"
-/>
 
         {/* Google Analytics */}
         <Script

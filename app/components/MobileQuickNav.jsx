@@ -4,17 +4,18 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const QUICK_NAV_LINKS = [
+  { href: "/dreams", label: "Dream Dictionary" },
   { href: "/categories", label: "Categories" },
   { href: "/guides", label: "Guides" },
-  { href: "/dreams", label: "Dreams" },
+  { href: "/about", label: "About" },
 ];
 
 export default function MobileQuickNav() {
   const pathname = usePathname();
 
   return (
-    <section className="md:hidden px-6 pb-6">
-      <div className="flex gap-6 overflow-x-auto no-scrollbar text-sm">
+    <nav className="md:hidden bg-[#F7F5F2]">
+      <div className="flex gap-6 overflow-x-auto no-scrollbar px-6 py-3 text-sm">
 
         {QUICK_NAV_LINKS.map((link) => {
           const isActive = pathname.startsWith(link.href);
@@ -23,10 +24,10 @@ export default function MobileQuickNav() {
             <Link
               key={link.href}
               href={link.href}
-              className={`whitespace-nowrap transition ${
+              className={`whitespace-nowrap transition-colors duration-200 ${
                 isActive
-                  ? "text-[#1A1A1A] border-b border-[#C6A96B] pb-1"
-                  : "text-[#6B6B6B] hover:text-[#1A1A1A]"
+                  ? "text-[#C6A96B] font-medium"
+                  : "text-[#6B6B6B] hover:text-[#C6A96B]"
               }`}
             >
               {link.label}
@@ -35,6 +36,6 @@ export default function MobileQuickNav() {
         })}
 
       </div>
-    </section>
+    </nav>
   );
 }
