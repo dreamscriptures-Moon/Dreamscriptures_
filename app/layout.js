@@ -1,15 +1,13 @@
 import { Analytics } from "@vercel/analytics/next";
-import { logDreamsOnce } from "@/lib/debugDreams";
 import "./globals.css";
 import { Playfair_Display, Inter } from "next/font/google";
 import Script from "next/script";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   metadataBase: new URL("https://www.dreamscriptures.com"),
   alternates: {
     canonical: "/",
-
   },
   title: {
     default: "Dreamscriptures",
@@ -45,6 +43,7 @@ export const metadata = {
   },
 };
 
+// ✅ Optimized fonts
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair",
@@ -57,12 +56,23 @@ const inter = Inter({
   display: "swap",
 });
 
-
 export default function RootLayout({ children }) {
-
   return (
-    <html lang="en" data-scroll-behavior="smooth">
+    <html lang="en">
+      <head>
+        {/* 🚀 Preconnect for faster external scripts */}
+        <link
+          rel="preconnect"
+          href="https://www.googletagmanager.com"
+        />
+        <link
+          rel="preconnect"
+          href="https://pagead2.googlesyndication.com"
+        />
+      </head>
+
       <body className={`${playfair.variable} ${inter.variable}`}>
+
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
@@ -75,11 +85,12 @@ export default function RootLayout({ children }) {
 
         {children}
 
+        {/* Analytics */}
         <Analytics />
         <SpeedInsights />
 
-        {/* Google Tag Manager */}
-        <Script id="gtm-script" strategy="afterInteractive">
+        {/* 🚀 Google Tag Manager (DEFERRED) */}
+        <Script id="gtm-script" strategy="lazyOnload">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -89,13 +100,12 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-
-        {/* Google Analytics */}
+        {/* 🚀 Google Analytics (can stay or also lazy) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-C8E9Y4L832"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){window.dataLayer.push(arguments);}
@@ -103,6 +113,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-C8E9Y4L832');
           `}
         </Script>
+
       </body>
     </html>
   );

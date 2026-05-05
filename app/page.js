@@ -43,7 +43,7 @@ export default function Home() {
   <SiteHeader sticky />
 
   {/* HERO */}
-  <section className="max-w-3xl mx-auto px-6 pt-16 md:pt-24 pb-14 text-center">
+  <section className="max-w-3xl mx-auto px-6 pt-12 md:pt-20 pb-10 text-center">
 
     <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.15] font-serif tracking-tight mb-6">
       Dream meanings, symbols & deeper interpretation
@@ -68,7 +68,7 @@ export default function Home() {
    <div className="w-26 h-[1px] bg-[#EAE6E1] mx-auto mt-6 mb-3" />
   </section>
 
- <LazyMobileQuickNav />
+ 
 
   {/* EXPLANATION */}
   <section className="max-w-3xl mx-auto px-6 pb-12 text-left">
@@ -88,8 +88,8 @@ export default function Home() {
       discover what your dreams may be trying to tell you.
     </p>
   </section>
-
-  {/* 🔥 SEARCH (moved here) */}
+<LazyMobileQuickNav />
+  {/* 🔥 SEARCH */}
   <section className="max-w-3xl mx-auto px-6 pb-16 text-center">
     <div className="max-w-md mx-auto">
      <HomeSearchWrapper />

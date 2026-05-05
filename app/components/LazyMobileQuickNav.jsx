@@ -2,9 +2,13 @@
 
 import dynamic from "next/dynamic";
 
-const MobileQuickNav = dynamic(() => import("@/app/components/MobileQuickNav"), {
-  ssr: false,
-});
+const MobileQuickNav = dynamic(
+  () => import("@/app/components/MobileQuickNav"),
+  {
+    ssr: false,
+    loading: () => null,
+  }
+);
 
 export default function LazyMobileQuickNav() {
   return <MobileQuickNav />;
