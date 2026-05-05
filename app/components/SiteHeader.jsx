@@ -22,7 +22,7 @@ export default function SiteHeader({ sticky = false }) {
           >
             DreamScriptures
           </span>
-          <span className="text-[10px] text-[#A89F91] tracking-wider mt-[2px]">
+          <span className="text-[10px] text-[#6F665C] tracking-wider mt-[2px]">
             Dream interpretation
           </span>
         </Link>

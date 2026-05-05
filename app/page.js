@@ -61,7 +61,7 @@ export default function Home() {
       through emotional, symbolic, spiritual, and waking-life perspectives.
     </p>
 
-    <p className="text-[11px] uppercase tracking-[0.28em] text-[#8A8175]">
+    <p className="text-[11px] uppercase tracking-[0.28em] text-[#5F574E]">
       Dreams do not follow one fixed meaning. What matters most is what your dream may be reflecting.
     </p>
 
@@ -197,7 +197,7 @@ export default function Home() {
 >
   <section className="bg-[#FAF8F5] border border-[#EAE6E1] rounded-2xl px-8 md:px-12 py-12 hover:border-[#C6A96B] transition duration-300">
 
-    <p className="text-[11px] uppercase tracking-[0.2em] text-[#8A8175] mb-4">
+    <p className="text-[11px] uppercase tracking-[0.2em] text-[#5F574E] mb-4">
       About DreamScriptures
     </p>
 
@@ -229,7 +229,7 @@ export default function Home() {
       “Dreams speak in symbols when words are no longer enough.”
     </p>
 
-    <p className="mt-8 text-sm tracking-[0.18em] uppercase text-[#8A8175]">
+    <p className="mt-8 text-sm tracking-[0.18em] uppercase text-[#5F574E]">
       DreamScriptures
     </p>
 
