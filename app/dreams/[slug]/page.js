@@ -282,8 +282,8 @@ export default async function DreamPage({ params }) {
 
   if (!dream) {
     return (
-      <main className="bg-[#FAF8F5] min-h-screen">
-        <SiteHeader sticky />
+     <main className="bg-[#FAF8F5] min-h-screen pt-16 md:pt-20">
+       <SiteHeader />
         <p className="max-w-3xl mx-auto px-6 py-20">Dream not found</p>
       </main>
     );
@@ -524,7 +524,7 @@ const faqSchema = {
     __html: JSON.stringify(breadcrumbSchema),
   }}
 />
-      <SiteHeader sticky />
+      <SiteHeader />
      <nav aria-label="Breadcrumb" className="mb-6 text-sm text-[#8A8175]">
   <ol className="flex flex-wrap items-center gap-2">
     <li>

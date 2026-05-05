@@ -15,7 +15,7 @@ const guideSearchItems = guides.map((guide) => ({
 export default function GuidesPage() {
   return (
     <main className="bg-[#F7F5F2] min-h-screen">
-      <SiteHeader sticky />
+      <SiteHeader  />
 
       <section className="max-w-3xl mx-auto px-6 py-2 md:py-32">
         

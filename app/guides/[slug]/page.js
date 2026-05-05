@@ -67,7 +67,7 @@ export default async function GuidePage({ params }) {
   if (!guide) {
     return (
       <main className="bg-[#F7F5F2] min-h-screen">
-        <SiteHeader sticky />
+        <SiteHeader />
         <p className="max-w-3xl mx-auto px-6 py-20">Guide not found</p>
       </main>
     );
@@ -133,7 +133,7 @@ function linkifyText(text = "") {
 }
   return (
    <main className="bg-[#F7F5F2] min-h-screen">
-  <SiteHeader sticky />
+  <SiteHeader />
 
   {breadcrumbSchema && (
     <script

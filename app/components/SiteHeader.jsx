@@ -9,11 +9,11 @@ const navItems = [
 
 export default function SiteHeader({ sticky = false }) {
   return (
-    <header
-      className={`w-full border-b border-[#EAE6E1] ${
-        sticky ? "sticky top-0 bg-[#FAF8F5]/80 backdrop-blur-sm" : "bg-[#FAF8F5]"
-      }`}
-    >
+   <header
+  className={`w-full h-16 md:h-20 border-b border-[#EAE6E1] ${
+    sticky ? "sticky top-0 bg-[#FAF8F5]/80 backdrop-blur-sm z-50" : "bg-[#FAF8F5]"
+  }`}
+>
       <nav className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
         <Link href="/" className="flex flex-col leading-none">
           <span
