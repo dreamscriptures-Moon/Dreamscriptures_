@@ -6360,7 +6360,370 @@ The dream mirrors how the past is influencing your present.`,
 
   categories: ["Hidden Emotions", "Identity", "Transformation"]
 },
+{
+  slug: "flood",
+  title: "Flood",
+  description: "Seeing a flood often reflects overwhelming emotions or situations that feel difficult to control. It can point to moments where everything feels like too much at once, whether it is stress, pressure, or feelings building up beneath the surface.\n\nThe feeling matters. If the flood feels chaotic or destructive, it may connect to emotional overload or losing control. If it feels calmer or you are observing it from a distance, it can reflect awareness of strong emotions without being fully consumed by them.",
 
+  shortDescription:
+    "Water rising and spreading beyond control, taking over everything in its path. It can feel intense, overwhelming, or impossible to stop.",
 
+  emotional: `There can be a strong sense of panic. Feeling like things are happening too fast.
 
+Sometimes there is helplessness. Not being able to stop what is coming.
+
+There may also be urgency. Wanting to escape or find safety quickly.
+
+In some moments, there is overwhelm. Too much happening all at once.
+
+There can be alertness. Being aware of danger without fully panicking.
+
+At times, the feeling is intense. Like everything is building up at once.`,
+
+  symbolic: `A flood often represents emotional overflow.
+
+Water reflects feelings, and flooding suggests they are no longer contained.
+
+Large floods can point to deep or long-suppressed emotions.
+
+Smaller floods may reflect temporary stress or pressure.
+
+Being swept away can symbolize loss of control.
+
+Watching from a distance may reflect awareness without full involvement.`,
+
+  spiritual: `This dream can reflect release and clearing.
+
+It may point to emotions rising to the surface to be processed.
+
+Some may see it as a form of emotional reset.
+
+It can also highlight imbalance between holding in and expressing feelings.
+
+The experience suggests the need for gradual processing.
+
+It focuses on release rather than buildup.`,
+
+  wakingLife: `This dream often appears during periods of stress or change.
+
+You may be dealing with multiple pressures at once.
+
+It can reflect emotional buildup that is starting to surface.
+
+Sometimes it shows up when things feel out of control.
+
+You might be struggling to manage everything at once.
+
+The dream mirrors that sense of overwhelm.`,
+
+  summary:
+    "Feeling overwhelmed by emotions or pressure that has built up over time. This dream reflects emotional overflow and highlights the need to process feelings rather than letting them accumulate.",
+
+  categories: ["Anxiety", "Fear", "Hidden Emotions"]
+},
+{
+  slug: "giving-birth",
+  title: "Giving birth",
+  description: "Giving birth often reflects creation, new beginnings, or something developing within you that is ready to take form. It can point to ideas, goals, or personal changes that have been building and are now reaching a turning point.\n\nThe feeling matters. If it feels positive or relieving, it may reflect readiness and growth. If it feels painful, stressful, or overwhelming, it can highlight pressure, fear of responsibility, or uncertainty about what you are bringing into your life.",
+
+  shortDescription:
+    "Going through the intense process of bringing something new into the world. It can feel overwhelming, powerful, and deeply meaningful.",
+
+  emotional: `There can be intensity. A mix of effort, pressure, and focus.
+
+Sometimes there is pain. Reflecting how demanding the process feels.
+
+There may also be vulnerability. Feeling exposed or not fully in control.
+
+In some moments, there is anticipation. Waiting for something important to happen.
+
+There can be relief. A release after the process is complete.
+
+At times, there is fulfillment. A sense that something meaningful has been created.`,
+
+  symbolic: `Giving birth often represents creation and transformation.
+
+It reflects bringing something internal into reality.
+
+This can be an idea, decision, or personal change.
+
+The process of labor can symbolize effort and preparation.
+
+The outcome represents what is emerging in your life.
+
+It highlights something that now needs attention, care, or responsibility.`,
+
+  spiritual: `This dream can reflect transformation and emergence.
+
+It may point to something within you becoming visible or real.
+
+Some may see it as growth reaching a new stage.
+
+It can also highlight timing, where change cannot be rushed.
+
+The focus is on development and readiness.
+
+It reflects movement into a new phase.`,
+
+  wakingLife: `This dream often appears during periods of growth or change.
+
+You may be starting something important or moving into a new phase.
+
+It can reflect working toward a goal that is close to becoming real.
+
+Sometimes it shows up when you are taking on new responsibilities.
+
+You might be feeling pressure but also progress.
+
+The dream mirrors that process of creation.`,
+
+  summary:
+    "Creating something new and moving through a period of transformation. This dream reflects growth, effort, and the emergence of something meaningful that requires your attention and care.",
+
+  categories: ["Transformation", "Identity", "Hidden Emotions"]
+},
+{
+  slug: "holding-a-baby",
+  title: "Holding a baby",
+  description: "Holding a baby often reflects something new, vulnerable, or developing in your life that needs care and attention. It can point to a fresh idea, emotional growth, or a responsibility that feels important but delicate.\n\nThe feeling matters. If it feels warm and natural, it may reflect readiness and connection to what you are nurturing. If it feels stressful or unfamiliar, it can highlight pressure or uncertainty about handling something new.",
+
+  shortDescription:
+    "Holding a small, delicate baby in your arms, aware that it depends on you. It can feel tender, meaningful, or slightly overwhelming.",
+
+  emotional: `There can be a strong sense of tenderness. Feeling gentle and protective.
+
+Sometimes there is warmth. A natural connection to what you are holding.
+
+There may also be responsibility. Knowing something depends on you.
+
+In some moments, there is anxiety. Worrying about doing things correctly.
+
+There can be uncertainty. Not fully knowing what to do next.
+
+At times, the feeling is meaningful. Like what you are holding truly matters.`,
+
+  symbolic: `A baby often represents something new and undeveloped.
+
+It can reflect ideas, growth, or parts of yourself that are forming.
+
+Holding the baby suggests direct involvement.
+
+It shows that you are responsible for nurturing this development.
+
+A calm baby may reflect ease or alignment.
+
+A distressed baby can point to concerns about how something is being handled.`,
+
+  spiritual: `This dream can reflect growth and emergence.
+
+It may point to something meaningful beginning within you.
+
+Some may see it as a reminder of patience.
+
+New developments take time to grow and settle.
+
+It can also highlight care and attention toward what matters.
+
+The focus is on nurturing rather than rushing.`,
+
+  wakingLife: `This dream often appears when you are starting something new.
+
+You may be taking on responsibility in work, relationships, or personal growth.
+
+It can reflect caring for something that needs your attention.
+
+Sometimes it connects to how you care for yourself.
+
+You might be developing a new part of your identity.
+
+The dream mirrors that sense of responsibility and growth.`,
+
+  summary:
+    "Holding something new, important, and developing. This dream reflects responsibility, care, and growth, highlighting the need to nurture what is beginning to take shape in your life.",
+
+  categories: ["Transformation", "Identity", "Hidden Emotions"]
+},
+{
+  slug: "hair-falling-out",
+  title: "Hair falling out",
+  description: "Hair falling out often reflects a sense of losing control, confidence, or stability in some area of your life. It can point to moments where you feel exposed, uncertain, or affected by changes that are hard to manage.\n\nThe feeling matters. If it feels distressing or sudden, it may connect to anxiety or fear about loss. If it feels more neutral or gradual, it can reflect awareness of change and adjustment over time.",
+
+  shortDescription:
+    "Watching your hair fall out unexpectedly, noticing the change as it happens. It can feel alarming, vulnerable, or hard to control.",
+
+  emotional: `There can be a strong sense of panic. Feeling like something is going wrong quickly.
+
+Sometimes there is embarrassment. Worrying about how you appear to others.
+
+There may also be helplessness. Not being able to stop what is happening.
+
+In some moments, there is vulnerability. Feeling exposed or less secure.
+
+There can be anxiety. Concern about what the loss represents.
+
+At times, the feeling is uneasy. Like something important is changing.`,
+
+  symbolic: `Hair often represents identity, confidence, and self-expression.
+
+It reflects how you see yourself and how you present yourself.
+
+Hair falling out suggests loss or change connected to that identity.
+
+It may point to self-doubt, insecurity, or shifts in confidence.
+
+Sudden loss can reflect intense stress or fear.
+
+Gradual loss may symbolize ongoing changes or adjustment.`,
+
+  spiritual: `This dream can reflect letting go of external identity.
+
+It may point to focusing less on appearance and more on inner qualities.
+
+Some may see it as part of transformation.
+
+Change may feel uncomfortable but lead to deeper understanding.
+
+It can also highlight detachment from how things look on the surface.
+
+The focus is on growth beyond appearance.`,
+
+  wakingLife: `This dream often appears during stress or change.
+
+You may be dealing with situations affecting your confidence.
+
+It can reflect concern about how others see you.
+
+Sometimes it connects to feeling out of control in an area of life.
+
+You might be adjusting to a shift in identity or stability.
+
+The dream mirrors those internal concerns.`,
+
+  summary:
+    "Feeling vulnerable, uncertain, or affected by change. This dream reflects shifts in confidence and identity, often linked to stress or loss of control, while also pointing toward personal transformation.",
+
+  categories: ["Anxiety", "Identity", "Hidden Emotions"]
+},
+{
+  slug: "aging-suddenly",
+  title: "Aging suddenly",
+  description: "Aging suddenly often reflects awareness of change, time passing, or pressure to grow up quickly. It can point to moments where you feel like you have moved into a new phase of life faster than expected or are being pushed to take on more responsibility.\n\nThe feeling matters. If it feels unsettling or rushed, it may connect to anxiety about time or missed opportunities. If it feels calm or natural, it can reflect acceptance of growth and transition.",
+
+  shortDescription:
+    "Noticing yourself age quickly in a short moment, as if time has suddenly sped up. It can feel surprising, reflective, or slightly overwhelming.",
+
+  emotional: `There can be a sense of surprise. Not expecting such a sudden change.
+
+Sometimes there is unease. Feeling like things are moving too quickly.
+
+There may also be pressure. A sense of needing to keep up with time.
+
+In some moments, there is reflection. Thinking about where you are in life.
+
+There can be discomfort. Especially if the change feels forced.
+
+At times, the feeling is calm. Accepting the shift as part of growth.`,
+
+  symbolic: `Aging often represents growth and change.
+
+It reflects movement through different stages of life.
+
+Sudden aging suggests acceleration or skipping steps.
+
+It may point to feeling pushed forward too quickly.
+
+It can also symbolize developing maturity or perspective.
+
+The dream highlights change that feels fast or unexpected.`,
+
+  spiritual: `This dream can reflect evolution and awareness.
+
+It may point to seeing things from a more mature perspective.
+
+Some may see it as a shift in understanding.
+
+It can also highlight acceptance of change.
+
+Growth may feel sudden, even if it has been building.
+
+The focus is on adapting rather than resisting.`,
+
+  wakingLife: `This dream often appears during transitions or increased responsibility.
+
+You may be stepping into a new role or phase.
+
+It can reflect pressure to grow or keep up with expectations.
+
+Sometimes it shows up when you are thinking about time passing.
+
+You might feel like things are changing faster than expected.
+
+The dream mirrors that awareness of change.`,
+
+  summary:
+    "Experiencing rapid change and awareness of time passing. This dream reflects the pressure and growth that come with moving into new stages of life, highlighting both adjustment and maturity.",
+
+  categories: ["Anxiety", "Identity", "Transformation"]
+},
+{
+  slug: "watching-yourself-like-a-movie",
+  title: "Watching yourself like a movie",
+  description: "Watching yourself like a movie often reflects self-awareness and emotional distance from your own experiences. It can point to moments where you are observing your life rather than fully feeling or participating in it.\n\nThe feeling matters. If it feels neutral or calm, it may reflect reflection and understanding. If it feels strange or disconnected, it can highlight detachment, avoidance, or difficulty processing emotions directly.",
+
+  shortDescription:
+    "Seeing your life play out from the outside, like you’re watching a scene instead of living it. It can feel reflective, distant, or slightly unreal.",
+
+  emotional: `There can be a sense of separation. Like you are not fully inside what is happening.
+
+Sometimes there is curiosity. Watching your actions with interest.
+
+There may also be calmness. Observing without strong emotional reaction.
+
+In some moments, there is disconnection. Feeling distant from your own experiences.
+
+There can be reflection. Thinking about your choices or behavior.
+
+At times, the feeling is neutral. Present but not deeply involved.`,
+
+  symbolic: `Watching yourself often represents self-observation.
+
+It reflects stepping outside your immediate experience.
+
+The “movie” suggests your life as a story or sequence.
+
+It can point to how you view your role or direction.
+
+Being only an observer may reflect passivity or distance.
+
+Having influence can suggest awareness leading to change.`,
+
+  spiritual: `This dream can reflect awareness and perspective.
+
+It may point to seeing your life more clearly.
+
+Some may see it as a form of conscious observation.
+
+It can also represent balanced detachment.
+
+Not avoiding life, but not being overwhelmed by it.
+
+The focus is on insight and understanding.`,
+
+  wakingLife: `This dream often appears during reflection or evaluation.
+
+You may be thinking about your actions or direction.
+
+It can reflect analyzing patterns or decisions.
+
+Sometimes it shows up when you feel disconnected from routines.
+
+You might be going through things without full engagement.
+
+The dream mirrors that sense of distance.`,
+
+  summary:
+    "Observing your life from a distance and gaining perspective. This dream reflects self-awareness and reflection, while also highlighting areas where you may feel emotionally disconnected or less engaged.",
+
+  categories: ["Identity", "Hidden Emotions", "Spiritual"]
+},
 ];

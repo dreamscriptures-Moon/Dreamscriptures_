@@ -3,7 +3,8 @@
 :root {
   --background: #f7f5f2;
   --foreground: #1a1a1a;
-  --muted: #6b6b6b;
+  --muted: #5f574e;
+  --subtle: #756c61;
   --border: #eae6e1;
   --accent: #c6a96b;
 }

@@ -33,8 +33,13 @@ export async function generateMetadata({ params } = {}) {
     alternates: {
       canonical: `https://www.dreamscriptures.com/dreams/${canonicalSlug}`,
     },
+
+     openGraph: {
+      url: `https://www.dreamscriptures.com/dreams/${canonicalSlug}`,
+    },
   };
 }
+
 
 function normalizeForMatch(value = "") {
   return String(value || "").toLowerCase().trim();
@@ -525,7 +530,8 @@ const faqSchema = {
   }}
 />
       <SiteHeader />
-     <nav aria-label="Breadcrumb" className="mb-6 text-sm text-[#8A8175]">
+     <div className="max-w-3xl mx-auto px-6 pt-6">
+     <nav aria-label="Breadcrumb" className="mb-6 text-sm text-[#5F574E]">
   <ol className="flex flex-wrap items-center gap-2">
     <li>
       <Link href="/" className="hover:text-[#C6A96B] transition-colors">
@@ -548,18 +554,21 @@ const faqSchema = {
     </li>
   </ol>
 </nav>
-    
-      <SearchBar />
-       <LazyMobileQuickNav />
-      <article className="max-w-3xl lg:max-w-2xl mx-auto px-6 py-20 md:py-32">
-      
-      <h1 className="text-4xl md:text-5xl leading-tight font-serif">
+</div>    
+
+     <div className="max-w-3xl mx-auto px-6 mt-4 mb-6 space-y-3">
+  <SearchBar />
+  <LazyMobileQuickNav />
+</div>
+      <article className="max-w-3xl lg:max-w-3xl mx-auto pt-1 pb-10 md:pt-14 md:pb-24">
+     <h1 className="text-4xl md:text-5xl leading-[1.15] font-serif mb-4">
   {dynamicTitle}
 </h1>
 
-        <p className="text-sm text-[#6B6B6B] mt-2">
-      This dream may be revealing more about your emotions, fears, or life changes than you realize.
-       </p>
+<h2 className="text-xl md:text-2xl font-serif text-[#1A1A1A] mb-4">
+  What does it mean to dream about {dream.title.toLowerCase()}?
+</h2>
+
  <div className="w-14 h-[1px] bg-[#C6A96B] mt-2 mb-8 opacity-60" />
 
 <nav className="mb-8 text-sm">
@@ -610,14 +619,10 @@ const faqSchema = {
  <p className="text-xs tracking-widest text-[#A89F91] uppercase mb-8">
           Guide - 7 min read
         </p>
+
+        
 <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">
   Quick description
-</p>
-
-<p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-6">
-  If you recently dreamed about {dreamTitle.toLowerCase()}, it may reflect something
-  deeper about your emotions, fears, or life changes that you have not fully
-  noticed yet.
 </p>
 
 <TextBlocks
@@ -627,6 +632,11 @@ const faqSchema = {
   contextualLinkSeed={dream.slug || dreamTitle}
 /> 
 
+<p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-6">
+  Dreaming about {dream.title.toLowerCase()} often reflects emotional
+  experiences, subconscious thoughts, or situations in your waking life that
+  may feel unresolved, overlooked, or significant.
+</p>
 <p className="text-[#7A7A7A] text-base md:text-lg mt-5 leading-relaxed font-serif italic">
           This dream often carries something deeper beneath the surface,
           something emotional, symbolic, or quietly unfolding in your waking

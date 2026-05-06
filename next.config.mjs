@@ -14,6 +14,7 @@ const nextConfig = {
         ],
         destination: "https://www.dreamscriptures.com/:path*",
         permanent: true,
+      
       },
 
       // 🔁 Legacy URL redirects
@@ -21,6 +22,7 @@ const nextConfig = {
         source: "/dream-dictionary",
         destination: "/dreams",
         permanent: true,
+          trailingSlash: false,
       },
       {
         source: "/dream/:slug",
@@ -62,6 +64,26 @@ const nextConfig = {
         destination: "/guides",
         permanent: true,
       },
+      {
+  source: "/blog/dream-rituals",
+  destination: "/guides",
+  permanent: true,
+},
+{
+  source: "/blog/category/types-of-dreams",
+  destination: "/guides",
+  permanent: true,
+},
+{
+  source: "/prophetic-dreams",
+  destination: "/guides/prophetic-dreams-meaning",
+  permanent: true,
+},
+{
+  source: "/recurring-dreams",
+  destination: "/guides/recurring-dreams",
+  permanent: true,
+},
     ];
   },
 };
