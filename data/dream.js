@@ -6726,4 +6726,65 @@ The dream mirrors that sense of distance.`,
 
   categories: ["Identity", "Hidden Emotions", "Spiritual"]
 },
+{
+  slug: "mirrors",
+  title: "Mirrors",
+  description: "Mirrors often reflect self-awareness, identity, and the way you see yourself emotionally or mentally. They can point to self-reflection, truth, insecurity, or the desire to understand yourself more clearly.\n\nThe feeling matters. If the mirror feels normal or clear, it may reflect honesty and self-recognition. If it feels distorted, unsettling, or unfamiliar, it can highlight confusion, insecurity, or difficulty understanding who you are right now.",
+
+  shortDescription:
+    "Looking into a mirror and seeing yourself reflected back in unexpected or meaningful ways. It can feel revealing, uncomfortable, or deeply reflective.",
+
+  emotional: `There can be curiosity. Wanting to understand what you are seeing.
+
+Sometimes there is vulnerability. Feeling exposed while looking at yourself.
+
+There may also be discomfort. Not recognizing or fully connecting with the reflection.
+
+In some moments, there is shock. Seeing something unexpected or unfamiliar.
+
+There can be awareness. A clearer understanding of yourself emerging.
+
+At times, the feeling is reflective. Quietly thinking about who you are.`,
+
+  symbolic: `Mirrors often represent reflection and perception.
+
+They symbolize how you see yourself emotionally and mentally.
+
+A clear reflection may point to self-awareness and honesty.
+
+Distorted reflections can reflect insecurity or confusion.
+
+Broken mirrors may symbolize disruption or fractured self-image.
+
+Unexpected reflections can point to hidden emotions or unnoticed parts of yourself.`,
+
+  spiritual: `This dream can reflect inner truth and awareness.
+
+It may appear during periods of self-examination or growth.
+
+Some may see mirrors as confronting parts of yourself usually avoided.
+
+It can also represent gaining deeper clarity.
+
+Rather than judgment, the focus is on understanding.
+
+The experience highlights awareness and reflection.`,
+
+  wakingLife: `This dream often appears during times of change or insecurity.
+
+You may be questioning your identity or direction.
+
+It can reflect concern about appearance or self-image.
+
+Sometimes it connects to how you think others perceive you.
+
+You might be reflecting more deeply on yourself than usual.
+
+The dream mirrors that process of self-awareness.`,
+
+  summary:
+    "Reflecting on identity, self-awareness, and emotional truth. This dream highlights how you see yourself internally and externally, bringing attention to clarity, insecurity, growth, and hidden aspects of your emotional state.",
+
+  categories: ["Identity", "Hidden Emotions", "Transformation"]
+}
 ];

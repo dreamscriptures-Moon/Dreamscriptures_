@@ -63,7 +63,16 @@ const nextConfig = {
         source: "/sleep-tracker-kit",
         destination: "/guides",
         permanent: true,
-      },
+      },{
+  source: "/dreams/missing-a-flight-or-bus",
+  destination: "/dreams/missing-a-flight",
+  permanent: true,
+},
+{
+  source: "/dreams/being-pulled-into-a-mirror",
+  destination: "/dreams/mirrors",
+  permanent: true,
+},
       {
   source: "/blog/dream-rituals",
   destination: "/guides",
