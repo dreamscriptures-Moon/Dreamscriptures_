@@ -384,7 +384,7 @@ const relatedDreams = getRelatedDreams(currentDream, dreams);
     ),
   }));
 
-  const contextualDreamLinks = relatedDreamSections.slice(0, 2);
+  const contextualDreamLinks = relatedDreamSections.slice(0, 3);
 
   const faqTemplates = [
     {
@@ -670,7 +670,11 @@ const faqSchema = {
         {section.title}
       </h2>
 
-      <TextBlocks text={section.body} />
+      <TextBlocks
+  text={section.body}
+  contextualLinks={contextualDreamLinks}
+  contextualLinkSeed={`${dream.slug}-${section.id}`}
+/>
     </section>
   ))}
 </section>
