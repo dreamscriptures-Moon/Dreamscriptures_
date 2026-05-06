@@ -22,7 +22,7 @@ const nextConfig = {
         source: "/dream-dictionary",
         destination: "/dreams",
         permanent: true,
-          trailingSlash: false,
+        
       },
       {
         source: "/dream/:slug",
