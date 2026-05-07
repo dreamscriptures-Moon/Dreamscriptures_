@@ -630,7 +630,7 @@ const faqSchema = {
   className="mb-10"
   contextualLinks={contextualDreamLinks}
   contextualLinkSeed={dream.slug || dreamTitle}
-/> 
+/>
 
 <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-6">
   Dreaming about {dream.title.toLowerCase()} often reflects emotional
@@ -670,11 +670,8 @@ const faqSchema = {
         {section.title}
       </h2>
 
-      <TextBlocks
-  text={section.body}
-  contextualLinks={contextualDreamLinks}
-  contextualLinkSeed={`${dream.slug}-${section.id}`}
-/>
+ <TextBlocks text={section.body} />
+ 
     </section>
   ))}
 </section>

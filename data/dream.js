@@ -6786,5 +6786,66 @@ The dream mirrors that process of self-awareness.`,
     "Reflecting on identity, self-awareness, and emotional truth. This dream highlights how you see yourself internally and externally, bringing attention to clarity, insecurity, growth, and hidden aspects of your emotional state.",
 
   categories: ["Identity", "Hidden Emotions", "Transformation"]
-}
+},
+{
+  slug: "pregnant-with-twins",
+  title: "Pregnant with twins",
+  description: "Being pregnant with twins often reflects growth, duality, or carrying two major developments in your life at the same time. It can point to emotional, personal, or creative changes that are expanding more quickly or intensely than expected.\n\nThe feeling matters. If it feels exciting or fulfilling, it may reflect abundance and potential. If it feels overwhelming or stressful, it can highlight pressure, divided focus, or fear of handling multiple responsibilities at once.",
+
+  shortDescription:
+    "Carrying twins and becoming aware that two important things are developing at the same time. It can feel exciting, overwhelming, or deeply significant.",
+
+  emotional: `There can be excitement. Feeling aware that something important is growing.
+
+Sometimes there is surprise. Realizing the situation is bigger than expected.
+
+There may also be pressure. Feeling emotionally or mentally stretched.
+
+In some moments, there is anticipation. Waiting for what is about to emerge.
+
+There can be overwhelm. Managing multiple emotions or responsibilities at once.
+
+At times, the feeling is meaningful. Like major change is taking shape beneath the surface.`,
+
+  symbolic: `Pregnancy often represents growth and creation.
+
+Twins add the theme of duality and expansion.
+
+They can symbolize two paths, emotions, responsibilities, or opportunities developing together.
+
+The dream may reflect balance between different parts of your life.
+
+It can also point to competing priorities or rapid personal growth.
+
+The overall experience reflects how you are carrying these developments internally.`,
+
+  spiritual: `This dream can reflect expansion and transformation.
+
+It may point to growth happening on multiple levels at once.
+
+Some may see it as balancing opposite forces within yourself.
+
+It can also symbolize learning to hold change and stability together.
+
+The focus is on growth, readiness, and emotional balance.
+
+It reflects transformation that is becoming more visible.`,
+
+  wakingLife: `This dream often appears during busy or transitional periods.
+
+You may be balancing multiple goals, emotions, or responsibilities.
+
+It can reflect anticipation around important changes.
+
+Sometimes it shows up when several areas of life are evolving together.
+
+You might feel both excited and pressured by what is developing.
+
+The dream mirrors that sense of expansion and preparation.`,
+
+  summary:
+    "Experiencing growth, duality, and emotional expansion. This dream reflects carrying multiple important developments at once, highlighting both the pressure and potential that come with major personal transformation.",
+
+  categories: ["Transformation", "Identity", "Hidden Emotions"]
+},
 ];
