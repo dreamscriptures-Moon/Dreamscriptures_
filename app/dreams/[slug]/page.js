@@ -9,12 +9,61 @@ import SiteHeader from "@/app/components/SiteHeader";
 import { dreams } from "@/data/dream";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import { getRelatedDreams } from "../../../lib/getRelatedDreams";
+
 export function generateStaticParams() {
   return dreams.map((dream) => ({
     slug: normalizeSlug(dream.slug || dream.title),
   }));
 }
+const categoryLinks = {
+  anxiety: "/categories/anxiety",
+  fear: "/categories/fear",
+  transformation: "/categories/transformation",
+  identity: "/categories/identity",
+  relationships: "/categories/relationships",
+  "hidden emotions": "/categories/hidden-emotions",
+  "inner conflict": "/categories/inner-conflict",
+  death: "/categories/death",
+  body: "/categories/body",
+};
+function linkCategories(text = "") {
+  let updatedText = text;
 
+  Object.entries(categoryLinks).forEach(([term, href]) => {
+    const regex = new RegExp(`\\b${term}\\b`, "i");
+
+    updatedText = updatedText.replace(
+      regex,
+      `<a href="${href}" class="underline underline-offset-4 hover:text-[#C6A96B] transition-colors">${term}</a>`
+    );
+  });
+
+  return updatedText;
+}
+function TextBlocks({
+  text,
+  className = "",
+  textClassName = "text-[#6B6B6B] text-base md:text-lg leading-relaxed",
+}) {
+  const paragraphs = getParagraphs(text);
+
+  if (paragraphs.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className={`space-y-4 ${className}`.trim()}>
+      {paragraphs.map((paragraph, index) => (
+        <p
+          key={`${index}-${paragraph.slice(0, 24)}`}
+          className={textClassName}
+        >
+          {paragraph}
+        </p>
+      ))}
+    </div>
+  );
+}
 export async function generateMetadata({ params } = {}) {
   const resolvedParams = await params;
   const metadataSlug = resolvedParams?.slug || "dream";
@@ -110,18 +159,33 @@ function uniqueDreams(items = []) {
 function getDynamicDreamTitle(title = "") {
   const patterns = [
     `${title} Dream Meaning (What It Really Means)`,
+
     `${title} Dream Meaning (Hidden Meaning Explained)`,
+
     `${title} Dream Meaning (Spiritual & Emotional Meaning)`,
-    `${title} Dream Meaning (What Does It Mean?)`,
-    `${title} Dream Meaning (Is This a Sign?)`,
+
+    `${title} Dream Meaning (Why This Dream Feels So Intense)`,
+
+    `${title} Dream Meaning (What Your Subconscious May Be Telling You)`,
+
+    `${title} Dream Meaning (Fear, Stress, or Transformation?)`,
+
+    `${title} Dream Meaning (Why This Dream Stays With You)`,
+
+    `${title} Dream Meaning (What This Dream May Be Revealing)`,
+
+    `${title} Dream Meaning (What Does This Dream Say About You?)`,
+
+    `${title} Dream Meaning (A Sign of Anxiety or Change?)`,
   ];
 
-  const index =
-    Array.from(title).reduce((acc, char) => acc + char.charCodeAt(0), 0) %
-    patterns.length;
+  const index = title.length % patterns.length;
 
   return patterns[index];
 }
+
+
+
 
 function shorten(text, maxLength = 220) {
   const clean = String(text || "").replace(/\s+/g, " ").trim();
@@ -226,12 +290,10 @@ function getParagraphs(text = "") {
     .filter(Boolean);
 }
 
-function TextBlocks({
+function DescriptionBlocks({
   text,
+  relatedDream,
   className = "",
-  textClassName = "text-[#6B6B6B] text-base md:text-lg leading-relaxed",
-  contextualLinks = [],
-  contextualLinkSeed = "",
 }) {
   const paragraphs = getParagraphs(text);
 
@@ -239,43 +301,37 @@ function TextBlocks({
     return null;
   }
 
-  const linkPhrases = [
-    "This dream can also relate to",
-    "Similar themes appear in",
-    "You may also notice connections with",
-    "This experience often overlaps with",
-    "This can also relate to",
-    "This experience is often linked to",
-  ];
-  const phraseSeed = hashString(contextualLinkSeed || paragraphs.join(" "));
-
   return (
     <div className={`space-y-4 ${className}`.trim()}>
-      {paragraphs.map((paragraph, index) => {
-        const linkedDream = contextualLinks[index];
+      {paragraphs.map((paragraph, index) => (
+        <p
+          key={`${index}-${paragraph.slice(0, 24)}`}
+          className="text-[#6B6B6B] text-base md:text-lg leading-relaxed"
+        >
+         <span
+  dangerouslySetInnerHTML={{
+    __html: linkCategories(paragraph),
+  }}
+/>
 
-        return (
-          <p
-            key={`${index}-${paragraph.slice(0, 24)}`}
-            className={textClassName}
-          >
-            {paragraph}
-            {linkedDream && (
-              <>
-                {" "}
-                {linkPhrases[(phraseSeed + index) % linkPhrases.length]}{" "}
-                <Link
-                  href={`/dreams/${normalizeSlug(linkedDream.slug || linkedDream.title)}`}
-                  className="underline underline-offset-4 hover:text-[#C6A96B] transition-colors"
-                >
-                  {linkedDream.title.toLowerCase()}
-                </Link>
-                .
-              </>
-            )}
-          </p>
-        );
-      })}
+          {index === 0 && relatedDream && (
+            <>
+              {" "}
+              Similar themes can appear in{" "}
+              <Link
+                href={`/dreams/${normalizeSlug(
+                  relatedDream.slug || relatedDream.title
+                )}`}
+                className="underline underline-offset-4 hover:text-[#C6A96B] transition-colors"
+              >
+                {relatedDream.title.toLowerCase()}
+              </Link>
+              .
+            </>
+          )}
+        </p>
+        
+      ))}
     </div>
   );
 }
@@ -384,8 +440,7 @@ const relatedDreams = getRelatedDreams(currentDream, dreams);
     ),
   }));
 
-  const contextualDreamLinks = relatedDreamSections.slice(0, 3);
-
+ 
   const faqTemplates = [
     {
       id: 1,
@@ -625,18 +680,12 @@ const faqSchema = {
   Quick description
 </p>
 
-<TextBlocks
+<DescriptionBlocks
   text={dream.description}
   className="mb-10"
-  contextualLinks={contextualDreamLinks}
-  contextualLinkSeed={dream.slug || dreamTitle}
+  relatedDream={relatedDreamSections[0]}
 />
 
-<p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-6">
-  Dreaming about {dream.title.toLowerCase()} often reflects emotional
-  experiences, subconscious thoughts, or situations in your waking life that
-  may feel unresolved, overlooked, or significant.
-</p>
 <p className="text-[#7A7A7A] text-base md:text-lg mt-5 leading-relaxed font-serif italic">
           This dream often carries something deeper beneath the surface,
           something emotional, symbolic, or quietly unfolding in your waking
