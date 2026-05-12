@@ -5,6 +5,7 @@ import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { dreams } from "@/data/dream";
 import { normalizeSlug } from "@/lib/normalizeSlug";
+import { categoriesData } from "@/data/categories";
 
 function normalizeCategory(cat = "") {
   const c = cat.toLowerCase().trim();
@@ -34,14 +35,43 @@ export default async function CategoryPage({ params }) {
 
   // 🔥 Category descriptions
   const categoryDescriptions = {
-    transformation:
-      "Transformation dreams often reflect change, growth, and inner shifts. They appear when something in your life is evolving, ending, or becoming something new.",
-    anxiety:
-      "Anxiety dreams often reflect stress, pressure, or unresolved emotions. These dreams can highlight what is worrying you beneath the surface.",
-    fear:
-      "Fear-based dreams often reflect uncertainty, vulnerability, or situations where you feel out of control or threatened emotionally.",
-    spiritual:
-      "Spiritual dreams often connect to deeper awareness, intuition, and inner guidance. They may reflect growth beyond the physical or emotional level.",
+  transformation: `
+Transformation dreams often appear during periods of personal growth, emotional change, endings, or major shifts in identity and direction. These dreams usually reflect something in your life evolving beneath the surface, even if the full meaning of that change is not completely clear yet.
+
+Transformation can appear in many forms within dreams — death and rebirth imagery, changing bodies, unfamiliar places, spiritual symbols, or situations where something old no longer feels stable or aligned. Even unsettling transformation dreams often carry themes of movement, transition, and emotional evolution rather than literal loss.
+
+The emotional tone matters. Some transformation dreams feel peaceful or meaningful, while others feel confusing, emotional, or overwhelming. Fear within the dream can reflect resistance to change, uncertainty about the future, or difficulty letting go of something familiar.
+
+In many cases, transformation dreams appear when your inner world is adjusting to a new emotional reality, identity, relationship, or phase of life that is still unfolding.
+`,
+
+anxiety: `
+Anxiety dreams often appear during periods of emotional pressure, stress, uncertainty, or situations where your mind feels overwhelmed beneath the surface. These dreams can reflect worries, fears, emotional tension, or unresolved experiences that continue lingering even when you are trying to move forward.
+
+Anxiety can appear in dreams through many different situations — being late, losing control, falling, being chased, forgetting something important, struggling to escape, or feeling emotionally trapped. Even when the symbols change, the emotional pattern underneath is often connected to pressure, insecurity, vulnerability, or fear of failure.
+
+The intensity of the dream matters. Some anxiety dreams feel chaotic and overwhelming, while others carry quieter feelings of dread, unease, emotional exhaustion, or instability slowly building over time.
+
+In many cases, anxiety dreams are less about literal danger and more about emotional stress your mind has not fully processed, released, or understood yet.
+`,
+fear: `
+Fear dreams often appear during periods of emotional pressure, uncertainty, vulnerability, or situations where something in life feels difficult to control or fully understand.
+
+These dreams can take many forms — being chased, trapped, attacked, watched, overwhelmed, or unable to escape danger. Even when the symbols change, the emotional pattern underneath is often connected to anxiety, emotional tension, survival instincts, or fear of losing stability.
+
+The emotional tone matters. Intense panic may reflect overwhelm or emotional urgency, while quieter fear can point to stress, uncertainty, mistrust, or emotional pressure building beneath the surface over time.
+
+In many cases, fear dreams are less about literal danger and more about emotional experiences your mind is still trying to process, avoid, or understand.
+`,
+spiritual: `
+Spiritual dreams often connect to deeper awareness, intuition, inner guidance, or emotional experiences that feel meaningful beyond ordinary daily life. These dreams can appear during periods of reflection, emotional change, awakening, grief, uncertainty, or moments where you feel drawn toward something deeper within yourself.
+
+Spiritual symbolism can appear in many forms — light, unknown voices, ancestors, death and rebirth imagery, floating, sacred places, mirrors, animals, overwhelming calmness, or experiences that feel emotionally powerful and difficult to explain logically. Even unsettling spiritual dreams often carry themes of transformation, inner searching, or emotional truths rising to the surface.
+
+The emotional tone matters. Some spiritual dreams feel peaceful, comforting, or deeply connected, while others may feel intense, mysterious, overwhelming, or emotionally exposing. In many cases, the dream reflects not just external symbols, but your relationship with meaning, identity, intuition, or emotional growth itself.
+
+Spiritual dreams are often less about predicting the future and more about helping you process emotional transitions, inner awareness, personal transformation, or aspects of yourself that are becoming harder to ignore.
+`,
   };
 
   const description =
@@ -75,6 +105,9 @@ export default async function CategoryPage({ params }) {
         a: `${formatCategory(normalizedCategory)} dreams often reflect emotional patterns, life experiences, or internal changes connected to your waking life.`,
       },
     ];
+    const categoryData = categoriesData[normalizedCategory];
+   
+
   return (
     <main className="bg-[#F7F5F2] min-h-screen">
       {/* 🔥 Schema */}
@@ -165,34 +198,146 @@ export default async function CategoryPage({ params }) {
 
         <LazyMobileQuickNav />
 
-        {/* 🔥 Themes */}
-        <section className="mt-10">
-          <h2 className="font-serif text-2xl mb-4">
-            Common themes in {normalizedCategory} dreams
-          </h2>
+       {/* 🔥 Emotional themes */}
+<section className="mt-1">
+  <h2 className="font-serif text-2xl md:text-3xl mb-6">
+    Emotional patterns connected to{" "}
+    {formatCategory(normalizedCategory)} dreams
+  </h2>
 
-          <ul className="list-disc pl-5 text-[#6B6B6B] space-y-2">
-            <li>Emotional patterns connected to {normalizedCategory}</li>
-            <li>Recurring symbols and situations</li>
-            <li>Connections to real-life experiences</li>
-          </ul>
+  <div className="flex flex-wrap gap-3 mb-8">
+    {[
+      "Fear",
+      "Anxiety",
+      "Vulnerability",
+      "Overwhelm",
+      "Uncertainty",
+      "Hidden emotions",
+    ].map((theme) => (
+      <span
+        key={theme}
+        className="px-4 py-2 rounded-full border border-[#EAE6E1] text-sm text-[#6B6B6B] bg-[#FCFBF9]"
+      >
+        {theme}
+      </span>
+    ))}
+  </div>
 
-          {/* 🔥 Authority paragraph */}
-          <p className="mt-6 text-[#6B6B6B] leading-relaxed">
-            {formatCategory(normalizedCategory)} dreams often appear during
-            moments of emotional change, personal reflection, or internal
-            conflict. These dreams can highlight patterns, fears, or
-            transitions that are unfolding beneath the surface.
-          </p>
-        </section>
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-6">
+    {formatCategory(normalizedCategory)} dreams often appear during periods of
+    emotional tension, vulnerability, uncertainty, or situations where something
+    in life feels emotionally unresolved or difficult to fully understand.
+  </p>
 
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg">
+    Even when the symbols change, the emotional patterns underneath these dreams
+    are often connected to pressure, emotional conflict, fear of change, inner
+    instability, or experiences your mind is still trying to process beneath the
+    surface.
+  </p>
+</section>
 
-        {/* 🔥 Dream list */}
+<section className="mt-16">
+  <h2 className="font-serif text-2xl md:text-3xl mb-6">
+    Common {normalizedCategory} dreams
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-8">
+    Dreams connected to {normalizedCategory} can appear in many different forms.
+    Some feel intense and emotionally overwhelming, while others carry quieter
+    feelings of uncertainty, emotional pressure, vulnerability, or inner conflict.
+  </p>
+</section>
+{categoryData?.framework?.map((section) => (
+  <section key={section.title} className="mt-14">
+    <h2 className="font-serif text-2xl md:text-3xl mb-4">
+      {section.title}
+    </h2>
+
+    <p className="text-[#6B6B6B] leading-relaxed mb-6">
+      {section.description}
+    </p>
+<div className="grid gap-4">
+  {section.dreams.map((slug) => {
+    const dream = dreams.find((d) => d.slug === slug);
+
+    if (!dream) return null;
+
+    return (
+      <Link
+        key={slug}
+        href={`/dreams/${slug}`}
+        className="border border-[#EAE6E1] rounded-2xl p-5 bg-[#FCFBF9] hover:border-[#C6A96B] transition-colors"
+      >
+        <h3 className="font-serif text-xl mb-2">
+          {dream.title}
+        </h3>
+
+        <p className="text-[#6B6B6B] leading-relaxed text-sm">
+          {dream.microSummary || dream.summary}
+        </p>
+      </Link>
+    );
+  })}
+</div>
+   
+  </section>
+))}
+
+<section className="mt-20 border-t border-[#EAE6E1] pt-10">
+  <h2 className="font-serif text-2xl md:text-3xl mb-6">
+    The feeling matters more than the symbol
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-6">
+    Two people can dream about the same thing and experience completely different meanings emotionally.
+    In many cases, the emotional tone of the dream reveals more than the symbol itself.
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-6">
+    Panic may reflect emotional overwhelm or urgency, while quieter unease can point to uncertainty,
+    vulnerability, emotional pressure, or experiences that are slowly building beneath the surface over time.
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg">
+    Repeating dreams can suggest unresolved emotional patterns that your mind continues returning to,
+    while one-time dreams may reflect temporary stress, emotional processing, or a specific experience
+    that left a strong emotional impression.
+  </p>
+</section>
+
+<section className="mt-20 border-t border-[#EAE6E1] pt-10">
+  <h2 className="font-serif text-2xl md:text-3xl mb-6">
+    How to understand your own{" "}
+    {normalizedCategory} dream
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-6">
+    The most important part of a dream is often not the symbol itself, but the
+    emotional experience surrounding it. The same dream can carry different
+    meanings depending on the emotional tone, your personal experiences, and
+    what is currently happening in your life emotionally.
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-6">
+    Try paying attention to what stood out most strongly in the dream. Was it
+    panic, pressure, helplessness, confusion, vulnerability, urgency, or the
+    feeling that something was emotionally unresolved?
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg">
+    In many cases, dreams connected to {normalizedCategory} reflect emotional
+    experiences, stress patterns, fears, transitions, or situations your mind
+    is still trying to emotionally process beneath the surface of daily life.
+  </p>
+</section>
+
+        {/*  Dream list */}
         <CategoryDreamList
           dreams={filteredDreams}
           category={normalizedCategory}
         />
-        {/* 🔥 FAQ */}
+        {/*  FAQ */}
         <section className="mt-16 border-t pt-10">
           <h2 className="font-serif text-2xl mb-6">
             Common questions about {normalizedCategory} dreams
@@ -210,17 +355,20 @@ export default async function CategoryPage({ params }) {
 
         {/* 🔥 Explore more */}
         <section className="mt-16 border-t pt-10">
-          <h2 className="font-serif text-2xl mb-4">
-            Explore more dream meanings
-          </h2>
-
+          <h2 className="font-serif text-2xl md:text-3xl mb-4">
+  Related emotional dream themes
+</h2>
+<p className="text-[#6B6B6B] leading-relaxed mb-6">
+  {formatCategory(normalizedCategory)} dreams are often closely connected to
+  emotional pressure, hidden emotions, transformation, uncertainty, and periods
+  of inner change or emotional tension.
+</p>
           <div className="flex flex-wrap gap-3">
             {["fear", "anxiety", "transformation", "spiritual"].map((cat) => (
               <Link
                 key={cat}
                 href={`/categories/${cat}`}
-                className="text-sm px-4 py-2 border rounded-full hover:border-[#C6A96B]"
-              >
+              className="text-sm px-4 py-2 border border-[#EAE6E1] rounded-full bg-[#FCFBF9] hover:border-[#C6A96B] transition-colors" >
                 {formatCategory(cat)}
               </Link>
             ))}

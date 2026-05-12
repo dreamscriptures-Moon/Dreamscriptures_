@@ -68,3 +68,22 @@ h1, h2, h3, p {
   background: var(--accent);
   color: white;
 }
+
+.microSummary {
+  max-width: 42rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(198, 169, 107, 0.62);
+  color: #4f4942;
+  font-family: var(--font-playfair), serif;
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+@media (min-width: 768px) {
+  .microSummary {
+    font-size: 1.25rem;
+    line-height: 1.8;
+  }
+}

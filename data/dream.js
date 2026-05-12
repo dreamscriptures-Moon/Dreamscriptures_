@@ -1,72 +1,54 @@
 export const dreams = [
 
- {
-  slug: "seeing-a-snake",
-  title: "Seeing a Snake",
+{
+  slug: "snake",
+  title: "Snake",
 
-  emotional: `Snakes in dreams often connect to emotions that do not feel fully safe, clear, or easy to confront.
+  microSummary:
+    "Snake dreams often reflect hidden fear, emotional tension, transformation, mistrust, or situations that feel unsettling beneath the surface.",
 
-There may be something in your waking life creating quiet emotional tension — a person, situation, relationship, or feeling that leaves you uneasy even if you cannot fully explain why.
+  shortDescription:
+    "A strong emotional presence that can feel unsettling, mysterious, intense, or strangely powerful. The atmosphere of the dream often matters as much as the snake itself.",
 
-These dreams commonly appear during periods of anxiety, mistrust, emotional vulnerability, inner conflict, or situations where your instincts feel stronger than the explanations around you.
+  description:
+    "Seeing a snake in a dream can feel tense, mysterious, fascinating, or deeply uncomfortable depending on the behavior of the snake and the atmosphere surrounding it. Sometimes the snake appears suddenly, creating immediate fear or shock. Other times, it moves quietly in the background, creating the feeling that something hidden or emotionally unresolved is present beneath the surface.",
 
-Sometimes the dream reflects fear of betrayal, manipulation, emotional harm, or hidden intentions. Other times, it reflects emotional awareness slowly growing beneath the surface before you are fully ready to acknowledge it consciously.
+  emotional:
+    "Snake dreams often carry emotional tension. There can be fear, caution, curiosity, discomfort, or the sense that something emotionally important is being noticed. Sometimes the strongest feeling is not panic, but awareness — realizing that something no longer feels emotionally safe, trustworthy, or fully clear.",
 
-If the snake feels threatening, it may point to feeling emotionally exposed, unsafe, pressured, or constantly on edge. If it feels calm or controlled, it can reflect emotional maturity, awareness, healing, or learning to trust your instincts more deeply.
+  symbolic:
+    "Snakes in dreams often symbolize fear, hidden tension, mistrust, transformation, instinct, emotional danger, healing, temptation, or emotional truths that are difficult to ignore. The snake usually represents something emotionally significant that feels active beneath the surface, whether it is external conflict or an internal emotional struggle.",
 
-At its core, this dream often carries both caution and awareness. A feeling that something important is asking for your attention emotionally, even if the full meaning has not become completely clear yet.`,
+  spiritual:
+    "Spiritually, snake dreams are often connected to transformation, awakening, intuition, healing, or emotional truths rising into awareness. In some traditions, snakes symbolize danger or deception. In others, they represent rebirth, wisdom, life force energy, and personal growth through uncomfortable change.",
 
-  symbolic: `Snakes in dreams often symbolize hidden emotions, transformation, intuition, fear, healing, temptation, or truths that exist beneath the surface of conscious awareness.
+  wakingLife:
+    "This dream often appears during emotionally tense or transformative periods where trust, fear, emotional pressure, relationships, anxiety, or hidden issues feel especially present. It can reflect situations that seem emotionally complicated, difficult to fully trust, or impossible to completely ignore anymore.",
 
-Just as a snake sheds its skin, these dreams frequently appear during periods where you are emotionally, mentally, or spiritually outgrowing an older version of yourself.
+  summary:
+    "Snake dreams often reflect emotional tension, hidden fear, mistrust, transformation, instinct, or situations that feel emotionally complex beneath the surface. These dreams commonly appear during periods of emotional change, uncertainty, vulnerability, or growing awareness around something that no longer feels fully safe, clear, or emotionally resolved.",
 
-The snake may represent something hidden but active in your life — tension, fear, emotional pressure, instinct, attraction, mistrust, or emotional truths you have not fully confronted yet.
-
-In some cases, snakes symbolize power. Not loud or obvious power, but something quiet, watchful, emotionally intense, or deeply instinctive.
-
-If the snake feels threatening, the dream may reflect betrayal, emotional danger, dishonesty, manipulation, or situations where trust feels uncertain. If the snake feels calm or neutral, it can symbolize healing, intuition, transformation, wisdom, or emotional awakening.
-
-At its core, the snake often represents both caution and change — a symbol asking you to pay attention carefully while also recognizing that something inside your life or identity is beginning to transform.`,
-
-  spiritual: `Spiritually, snakes in dreams are often connected to transformation, awakening, renewal, intuition, and the process of shedding emotional or spiritual patterns that no longer align with who you are becoming.
-
-These dreams commonly appear during periods of inner change where your perspective, emotional awareness, or connection to yourself is quietly evolving beneath the surface.
-
-Sometimes the snake represents heightened intuition. A growing ability to sense tension, dishonesty, emotional energy, or deeper truths before they become obvious externally.
-
-The dream can also reflect spiritual growth through discomfort. Old emotional identities, fears, attachments, or beliefs may be slowly breaking down so something more authentic can emerge in their place.
-
-For some people, snakes symbolize healing and renewal. For others, they represent fear of change or resistance to emotional transformation that already feels unavoidable internally.
-
-If the dream feels calm, it may suggest growing acceptance, awareness, or emotional clarity. If it feels intense or frightening, it can reflect resistance, emotional fear, or difficulty trusting the transformation currently unfolding in your life.`,
-
-  wakingLife: `This dream often appears when something in your waking life no longer feels fully trustworthy, emotionally safe, or emotionally clear.
-
-You may be picking up on subtle tension, mixed signals, hidden intentions, emotional dishonesty, manipulation, or situations where your instincts are warning you that something feels off beneath the surface.
-
-Sometimes the dream reflects difficult relationships, emotional uncertainty, anxiety, distrust, or environments where you feel emotionally guarded or cautious.
-
-It can also appear during periods of personal transformation where old habits, relationships, emotional patterns, or identities no longer feel aligned with who you are becoming.
-
-In many cases, the dream reflects intuition trying to get your attention. A reminder to trust what you genuinely feel instead of dismissing your instincts in order to stay comfortable.
-
-If the dream repeats frequently, it may point to emotional tension or inner awareness that has not been fully acknowledged yet.`,
-
-  summary: `A dream about snakes often reflects fear, emotional tension, mistrust, intuition, hidden emotions, or personal transformation. It commonly appears during periods where something feels emotionally uncertain, intense, or difficult to fully trust, while also symbolizing awareness, healing, change, and deeper emotional awakening.`,
+  relatedDreams: [
+    "snake-bite",
+    "being-chased-by-a-snake",
+    "seeing-many-snakes",
+  ],
 
   categories: [
+    "Animals",
     "Fear",
+    "Anxiety",
     "Transformation",
     "Spiritual",
-    "Anxiety",
-    "Relationships",
-  ],
+    "Hidden Emotions"
+  ]
 },
 {
   slug: "being-chased",
   title: "Being Chased",
   description: "Being chased in a dream often carries a strong sense of urgency — like something is coming after you and you can’t fully escape it. It usually connects to avoidance, pressure, or something in your life you’re not ready to face.\n\nThe feeling of the chase matters. It can reflect fear, stress, or even something persistent that keeps following you, no matter how much you try to distance yourself from it.",
-
+  microSummary:
+  "Being chased in a dream often reflects avoidance, unresolved fear, emotional pressure, anxiety, or situations you feel unable to fully escape or confront.",
   emotional: `This dream often reflects anxiety, pressure, or emotional overwhelm. There may be something you’re avoiding — a situation, a conversation, a responsibility, or even a feeling you don’t want to fully face.
 
 The act of running can mirror how you’re coping in real life. You might be trying to stay ahead of something instead of slowing down and dealing with it directly.
@@ -101,6 +83,8 @@ At its core, this dream may be pointing to something that needs your attention �
 
   summary: `This dream often reflects avoidance, pressure, or something you’re not ready to fully face yet. It carries a sense of urgency — like something in your life is asking for your attention, even if you’ve been trying to distance yourself from it. At its core, it points to something that keeps returning until it is acknowledged or dealt with.`,
 
+  relatedDreams: ["falling", "drowning", "escaping-something"],
+
   categories: ["Fear", "Anxiety", "Hidden Emotions", "Transitions", "Inner Conflict", "Relationships"]
 },
 {
@@ -115,7 +99,8 @@ The emotional tone matters. A peaceful pregnancy may reflect alignment, emotiona
 
   shortDescription:
     "Carrying something meaningful that has not fully entered your life yet. Pregnancy dreams often connect to growth, emotional development, responsibility, and quiet transformation happening beneath the surface.",
-
+microSummary:
+  "Being pregnant in a dream often reflects growth, potential, emotional development, or something meaningful slowly taking shape within your life or identity.",
   emotional: `This dream often carries a mix of anticipation, curiosity, emotional attachment, and pressure.
 
 There is usually a quiet awareness that something important is developing internally, even if you cannot fully explain what it is yet. That feeling can create both excitement and emotional weight at the same time.
@@ -161,6 +146,8 @@ It can also appear when you are slowly becoming aware that your life is changing
 If the dream repeats often, it may reflect ongoing emotional focus on your future, your potential, your responsibilities, or uncertainty about what the next stage of your life will bring.`,
 
   summary: `A sense that something meaningful is slowly developing within your life. This dream often reflects growth, emotional transformation, new beginnings, responsibility, and the quiet awareness that change is already happening beneath the surface.`,
+
+  relatedDreams: ["pregnant-with-twins", "giving-birth", "holding-a-baby"],
 
   categories: [
     "Transformation",
@@ -300,7 +287,8 @@ The emotional feeling inside the dream matters. Fearful death dreams can reflect
 Sometimes the dream reflects change that feels irreversible. A realization that something in your life cannot continue exactly the way it used to, even if part of you still wishes it could.
 
 Dreaming about death often reflects transformation, endings, emotional transition, identity shifts, personal growth, release, or situations in waking life where something old is fading so something new can eventually emerge.`,
-
+microSummary:
+  "Death dreams often reflect endings, emotional transformation, major life changes, or the feeling that an important part of your life or identity is shifting.",
   emotional: `Death dreams often carry powerful emotions because they touch change, loss, uncertainty, and the fear of the unknown all at once.
 
 The feeling inside the dream can vary deeply — sadness, fear, grief, calmness, confusion, relief, or even acceptance depending on what the dream emotionally represents for you.
@@ -1181,6 +1169,12 @@ The dream mirrors that sense of being emotionally underwater and struggling to f
   summary:
     "Drowning in a dream often reflects emotional overwhelm, anxiety, pressure, or feeling consumed by situations that have become too heavy to manage comfortably. It commonly appears during stressful or emotionally intense periods, highlighting exhaustion, vulnerability, suppressed feelings, and the need for emotional space, support, and release.",
 
+  relatedDreams: [
+    "being-in-the-ocean",
+    "being-underwater-but-calm",
+    "breathing-underwater",
+  ],
+
   categories: [
     "Fear",
     "Anxiety",
@@ -1746,45 +1740,78 @@ In some cases, it reflects growth. Learning that you don’t have to agree to ev
 {
   slug: "being-trapped",
   title: "Being trapped",
-  description: "Being in a space you can’t leave. It can feel closed in, restricted, or like your options are limited no matter what you try.",
 
-  emotional: `There’s usually a sense of pressure here.
+  description: `Being trapped in a dream can feel suffocating, frustrating, emotionally heavy, or deeply unsettling. Sometimes you are locked inside a room, building, house, elevator, cage, or unfamiliar place. Other times, the trap feels less physical and more emotional — like no matter what you do, you cannot fully move forward or escape what is happening.
 
-Not always loud fear — sometimes it’s quieter. Like frustration, restlessness, or that feeling of “I don’t want to be here, but I don’t see a way out.”
+These dreams commonly appear during periods involving emotional pressure, stress, anxiety, restriction, difficult responsibilities, unhealthy relationships, overthinking, fear, burnout, major life transitions, or situations where you feel emotionally stuck, limited, or unable to freely make the choices you truly want.
 
-It can feel like you’re stuck between choices. Move and something shifts. Stay and something builds.
+The type of trap can add meaning.
+Being trapped in a small space may reflect emotional pressure, overwhelm, anxiety, or feeling mentally crowded.
+Being trapped in a house or building can symbolize situations, environments, relationships, or emotional patterns that no longer feel comfortable or freeing.
+Being unable to escape danger may point toward unresolved stress, fear, emotional conflict, or situations that continue affecting you internally even when you want distance from them.
 
-Sometimes there’s urgency. Other times, it’s just heaviness. Like something isn’t moving, even though you want it to.`,
+The feeling matters. If the dream feels panicked or desperate, it may reflect emotional overwhelm, fear, pressure, or the feeling that life is becoming emotionally difficult to manage. If the dream feels quieter or emotionally heavy instead, it can point toward emotional exhaustion, limitation, stagnation, or slowly realizing that something in your life no longer feels emotionally right or sustainable.`,
 
-  symbolic: `This often symbolizes limitation.
+  shortDescription:
+    "Feeling stuck somewhere you cannot easily leave while pressure, frustration, fear, or emotional heaviness builds around you. These dreams often reflect emotional restriction, anxiety, difficult situations, pressure, or feeling trapped within circumstances, responsibilities, or emotions you do not fully know how to escape.",
 
-Not always physical — more like feeling restricted in a situation, a role, or even your own thoughts.
+  emotional: `There is usually emotional pressure inside this dream.
 
-It can point to being in something that doesn’t feel right, but also doesn’t feel easy to leave.
+Sometimes the strongest feeling is frustration. Wanting movement, freedom, or change while feeling unable to fully reach it.
 
-Sometimes the trap isn’t obvious. It can be expectations, habits, or patterns that keep you in the same place.
+There can also be anxiety or panic. Especially when the dream creates the feeling that time is running out or escape is becoming impossible.
 
-It’s less about being held, and more about not seeing a clear way forward.`,
+In some cases, the emotion feels emotionally heavy rather than dramatic. Like carrying situations, responsibilities, or emotional tension that no longer feels easy to manage.
 
-  spiritual: `This can reflect resistance and awareness at the same time.
+At times, the dream reflects helplessness. Feeling emotionally stuck between choices, responsibilities, expectations, or situations where every option feels difficult in some way.
 
-A part of you knows something isn’t aligned, but another part hasn’t moved yet.
+Sometimes the dream creates emotional exhaustion. Repeating the same emotional struggles internally while feeling unsure how to finally move beyond them.`,
 
-It can also point to a pause. Not everything is meant to shift immediately, even when it feels uncomfortable.
+  symbolic: `Being trapped in a dream often symbolizes emotional restriction, pressure, fear, limitation, overwhelm, inner conflict, anxiety, or situations where you no longer feel emotionally free.
 
-There’s something here about noticing where you feel restricted — not just externally, but internally too.`,
+The trap itself usually represents something in your life that feels emotionally difficult to leave, solve, express, or fully escape.
 
-  wakingLife: `You might feel stuck in something right now.
+Sometimes the dream reflects unhealthy emotional patterns, overthinking, toxic environments, difficult relationships, responsibilities, expectations, fear of change, or emotional situations that continue repeating internally.
 
-It could be a situation, a responsibility, or even a mindset that you haven’t fully stepped out of.
+It can also symbolize feeling emotionally disconnected from freedom, peace, direction, or personal control.
 
-You may feel like your options are limited, or like making a change would come with consequences you’re not ready to deal with yet.
+In some cases, the dream reflects internal conflict more than external situations. Feeling trapped inside your own fears, emotional habits, insecurities, self-doubt, or mental pressure.
 
-It can also reflect overthinking. Feeling like every direction leads to something complicated.`,
+The emotional atmosphere matters most. Panic may reflect emotional overwhelm and fear, while heaviness may point toward emotional burnout, stagnation, or realizing that something in your life no longer feels emotionally aligned.`,
 
-  summary: `A sense of being stuck without a clear way out. This dream often reflects limitation, pressure, or feeling restricted in a situation or within yourself. It’s less about being physically trapped, and more about not seeing where or how to move next.`,
+  spiritual: `This dream can reflect emotional restriction, inner conflict, spiritual exhaustion, or awareness that something in your life no longer feels fully aligned with who you are becoming.
 
-  categories: ["Inner Conflict", "Fear", "Anxiety", "Transitions", "Identity", "Hidden Emotions"]
+Sometimes it appears during periods where growth feels blocked, delayed, emotionally difficult, or harder to move through than expected.
+
+For some people, being trapped symbolizes attachment. Staying emotionally connected to situations, fears, identities, habits, or environments that no longer support personal growth.
+
+It can also reflect resistance to change. Part of you wanting freedom while another part fears what freedom would require emotionally.
+
+The emotional tone matters most. Panic may reflect emotional overwhelm or instability, while awareness may point toward recognizing where change, release, boundaries, or emotional honesty are becoming necessary.`,
+
+  wakingLife: `This dream often appears during periods where you feel emotionally stuck, pressured, overwhelmed, or unable to fully move forward in some area of life.
+
+You may be dealing with difficult responsibilities, stressful environments, relationship tension, emotional pressure, burnout, anxiety, fear of change, financial stress, expectations, or situations where your choices feel emotionally limited.
+
+Sometimes the dream reflects internal pressure rather than external restriction. Feeling mentally trapped by fear, self-doubt, guilt, overthinking, or emotional habits that continue repeating.
+
+It can also appear during transitions where part of your life no longer feels right, but the next step still feels unclear or emotionally complicated.
+
+In some cases, the dream reflects the need for emotional release, boundaries, rest, honesty, or change instead of continuing to emotionally endure situations that feel restrictive or emotionally draining.
+
+The dream mirrors your emotional relationship with pressure, freedom, fear, control, emotional limitation, anxiety, and personal direction.`,
+
+  summary:
+    "Being trapped in a dream often reflects emotional restriction, anxiety, pressure, overwhelm, or situations that make you feel emotionally stuck or unable to move freely forward. These dreams commonly appear during stressful or emotionally limiting periods and highlight themes of fear, burnout, inner conflict, emotional exhaustion, difficult choices, and the growing awareness that something in your life may no longer feel sustainable or emotionally aligned.",
+
+  categories: [
+    "Fear",
+    "Anxiety",
+    "Inner Conflict",
+    "Hidden Emotions",
+    "Identity",
+    "Transformation"
+  ]
 },
 {
   slug: "saying-yes-when-you-dont-want-to",
@@ -2504,6 +2531,12 @@ If the dream repeats often, it may point to ongoing emotional stress, anxiety, i
 At its core, this dream may be asking you to notice where in your waking life you no longer feel steady, secure, emotionally supported, or fully in control.`,
 
   summary: `A dream about falling often reflects anxiety, emotional instability, vulnerability, fear of failure, or situations in waking life that feel uncertain or outside your control. It commonly appears during stressful periods, emotional transitions, or moments where stability, confidence, or security feels shaken, while also symbolizing surrender, release, and personal transformation.`,
+
+  relatedDreams: [
+    "being-chased",
+    "drowning",
+    "reaching-the-end-after-an-endless-fall",
+  ],
 
   categories: [
     "Fear",
@@ -4235,7 +4268,8 @@ At its core, this dream often connects to vulnerability — especially in situat
 
   shortDescription:
     "Watching your teeth fall out can feel disturbing, personal, and impossible to stop. These dreams often reflect insecurity, emotional pressure, loss of confidence, or fear that something important in your life feels unstable.",
-
+  microSummary:
+  "Teeth falling out dreams often reflect insecurity, emotional stress, vulnerability, fear of loss, or situations affecting your confidence, stability, or self-expression.",
   emotional: `Dreams about teeth falling out often carry immediate shock.
 
 There is usually a moment where you realize something important is changing, and you cannot fully stop it. That feeling can bring panic, helplessness, embarrassment, or quiet emotional dread.
@@ -4281,6 +4315,8 @@ Sometimes the dream reflects communication issues directly. Wanting to say somet
 If the dream repeats often, it may be highlighting anxiety or emotional stress that has quietly been affecting your confidence more deeply than you realize.`,
 
   summary: `Teeth falling out in a dream often reflects insecurity, emotional pressure, anxiety, or situations where confidence and stability feel shaken. It commonly appears during stressful periods, major transitions, or moments where you feel vulnerable, exposed, emotionally overwhelmed, or unsure of yourself and your direction in life.`,
+
+  relatedDreams: ["hair-falling-out", "being-unable-to-speak", "aging-suddenly"],
 
   categories: [
     "Body",
@@ -7379,67 +7415,6 @@ The dream reflects that emotional connection.`,
   categories: ["Hidden Emotions", "Identity"]
 },
 {
-  slug: "watching-yourself-like-a-movie",
-  title: "Watching yourself like a movie",
-  description: "Watching yourself like a movie often reflects distance from your own thoughts, actions, or identity. It can point to moments where you feel like an observer in your own life, rather than fully present or in control of what is happening.\n\nThe feeling matters. If it feels calm or neutral, it may reflect self-awareness or reflection. If it feels strange or disconnected, it can highlight detachment, confusion, or difficulty fully engaging with your current situation.",
-
-  shortDescription:
-    "Seeing yourself from the outside, like you’re watching your life play out. It can feel detached, reflective, or slightly unreal.",
-
-  emotional: `There can be a sense of detachment. Like you are not fully inside the experience.
-
-Sometimes there is curiosity. Watching yourself with interest or observation.
-
-There may also be confusion. Not fully understanding why you feel separate.
-
-In some moments, there is calmness. Simply observing without strong emotion.
-
-There can be discomfort. Feeling disconnected from yourself or your actions.
-
-At times, the feeling is reflective. Like you are trying to understand yourself.`,
-
-  symbolic: `Watching yourself often represents self-awareness.
-
-It reflects stepping back from your own actions or identity.
-
-This can point to reflection, evaluation, or questioning yourself.
-
-It may also symbolize disconnection or emotional distance.
-
-The “movie” aspect suggests something unfolding without your control.
-
-It highlights observing rather than participating.`,
-
-  spiritual: `This dream can reflect awareness and perspective.
-
-It may point to seeing yourself more clearly from a distance.
-
-Some may interpret it as stepping outside your usual identity.
-
-It can also suggest reflection on your actions or direction.
-
-The focus is on observation rather than judgment.
-
-It reflects a shift in how you see yourself.`,
-
-  wakingLife: `This dream often appears when you feel disconnected or reflective.
-
-You may be questioning your actions or choices.
-
-It can show up during times of change or uncertainty.
-
-Sometimes it reflects going through routines without feeling fully present.
-
-You might be observing your life instead of actively engaging in it.
-
-The dream mirrors that sense of distance.`,
-
-  summary:
-    "Observing yourself from a distance and feeling disconnected or reflective. This dream highlights self-awareness, questioning, or a sense of detachment from your current experience.",
-
-  categories: ["Identity", "Hidden Emotions", "Anxiety"]
-},
-{
   slug: "hair-falling-out",
   title: "Hair falling out",
 
@@ -8132,7 +8107,8 @@ The feeling matters. If the dream feels fulfilling or meaningful, it may reflect
 
   shortDescription:
     "Carrying twins and becoming aware that two important things are developing at the same time. It can feel exciting, overwhelming, emotionally intense, or deeply meaningful.",
-
+microSummary:
+  "Dreams about being pregnant with twins often reflect emotional growth, duality, expansion, or carrying multiple important changes, responsibilities, or possibilities at the same time.",
   emotional: `There can be excitement. Feeling aware that something important is growing beneath the surface of your life.
 
 Sometimes there is surprise. Realizing the situation feels bigger, faster, or more emotionally significant than expected.

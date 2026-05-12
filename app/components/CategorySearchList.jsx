@@ -42,6 +42,25 @@ export default function CategorySearchList({ categories = [] }) {
       }));
   }, [categories, normalizedQuery]);
 
+  const categoryDescriptions = {
+  fear:
+    "Dreams connected to uncertainty, emotional threat, vulnerability, survival instincts, and emotional tension.",
+
+  anxiety:
+    "Dreams reflecting stress, pressure, emotional overwhelm, insecurity, or unresolved emotional experiences.",
+
+  transformation:
+    "Dreams about change, identity shifts, emotional growth, endings, and new beginnings unfolding beneath the surface.",
+
+  spiritual:
+    "Dreams connected to intuition, inner awareness, emotional depth, symbolism, and personal reflection.",
+
+  relationship:
+    "Dreams reflecting emotional connection, attachment, conflict, vulnerability, intimacy, or emotional distance.",
+
+  hidden: 
+    "Dreams involving suppressed emotions, subconscious tension, secrecy, or emotional experiences beneath awareness.",
+};
   return (
     <>
       <div className="mb-8">

@@ -42,16 +42,25 @@ export default function DreamDictionaryPage() {
 
         <div className="w-12 h-[1px] bg-[#C6A96B] mb-6" />
 
-        <p className="text-[#6B6B6B] leading-relaxed mb-10 max-w-xl">
-          Explore common dreams and what they might mean through symbols,
-          emotions, and patterns that often appear beneath the surface.
-        </p>
+        <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-10 max-w-2xl">
+  Dreams rarely appear randomly. Many reflect emotional patterns,
+  fears, unresolved tension, inner change, emotional pressure, or
+  experiences unfolding beneath the surface of waking life.
+
+  <br />
+  <br />
+
+  Explore dream meanings through emotional themes, symbolic patterns,
+  psychological experiences, and recurring situations that often
+  connect dreams together in deeper ways than the symbols alone.
+</p>
 <LazyMobileQuickNav />
 
         <DreamDictionaryControls
           dreams={searchableDreams}
           categories={categories}
         />
+        
       </div>
       <SiteFooter />
     </main>

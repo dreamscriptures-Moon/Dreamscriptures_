@@ -19,6 +19,21 @@ function formatCategory(cat) {
   return cat.charAt(0).toUpperCase() + cat.slice(1);
 }
 
+const categoryDescriptions = {
+  fear:
+    "Dreams connected to uncertainty, emotional threat, vulnerability, survival instincts, and emotional tension.",
+  anxiety:
+    "Dreams reflecting stress, pressure, emotional overwhelm, insecurity, or unresolved emotional experiences.",
+  transformation:
+    "Dreams about change, identity shifts, emotional growth, endings, and new beginnings unfolding beneath the surface.",
+  spiritual:
+    "Dreams connected to intuition, inner awareness, emotional depth, symbolism, and personal reflection.",
+  relationship:
+    "Dreams reflecting emotional connection, attachment, conflict, vulnerability, intimacy, or emotional distance.",
+  hidden:
+    "Dreams involving suppressed emotions, subconscious tension, secrecy, or emotional experiences beneath awareness.",
+};
+
 export default function CategoriesPage() {
   const categories = [
     ...new Set(
@@ -62,17 +77,43 @@ export default function CategoriesPage() {
         </p>
 
         {/* 🔥 Themes section (authority boost) */}
-        <section className="mb-12">
-          <h2 className="font-serif text-2xl mb-4">
-            What dream categories reveal
-          </h2>
+      <section className="mt-14">
+  <h2 className="font-serif text-2xl md:text-3xl mb-6">
+    How dream categories connect emotionally
+  </h2>
 
-          <ul className="list-disc pl-5 text-[#6B6B6B] space-y-2">
-            <li>Common emotional patterns behind your dreams</li>
-            <li>Recurring symbols and situations</li>
-            <li>Connections to real-life experiences</li>
-          </ul>
-        </section>
+  <div className="flex flex-wrap gap-3 mb-8">
+    {[
+      "Fear",
+      "Anxiety",
+      "Transformation",
+      "Relationships",
+      "Hidden emotions",
+      "Spirituality",
+    ].map((theme) => (
+      <span
+        key={theme}
+        className="px-4 py-2 rounded-full border border-[#EAE6E1] text-sm text-[#6B6B6B] bg-[#FCFBF9]"
+      >
+        {theme}
+      </span>
+    ))}
+  </div>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-6">
+    Dream categories are not completely separate emotional experiences.
+    Many dreams overlap through shared emotional patterns like fear,
+    vulnerability, pressure, uncertainty, transformation, emotional conflict,
+    or periods of inner change.
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg">
+    Exploring dreams through emotional themes instead of isolated symbols can
+    often reveal deeper patterns beneath the surface of recurring dreams,
+    emotional stress, relationships, identity shifts, or experiences your mind
+    is still trying to emotionally process.
+  </p>
+</section>
 
         {/* 🔥 Category grid */}
        <CategorySearchList categories={categories} />
@@ -86,12 +127,23 @@ export default function CategoriesPage() {
           <div className="flex flex-wrap gap-3">
             {categories.slice(0, 6).map((cat) => (
               <Link
-                key={cat}
-                href={`/categories/${normalizeSlug(cat)}`}
-                className="text-sm px-4 py-2 border rounded-full hover:border-[#C6A96B]"
-              >
-                {formatCategory(cat)}
-              </Link>
+  key={cat}
+  href={`/categories/${normalizeSlug(cat)}`}
+  className="group block border border-[#EAE6E1] rounded-[28px] p-6 md:p-8 bg-[#FCFBF9] hover:border-[#C6A96B] transition-all duration-300"
+>
+  <h2 className="font-serif text-2xl md:text-3xl mb-4 group-hover:text-[#8C6A3B] transition-colors">
+    {formatCategory(cat)} dreams
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg max-w-2xl">
+    {categoryDescriptions[cat] ||
+      `Dreams connected to ${cat} experiences, emotional patterns, and symbolic meaning.`}
+  </p>
+
+  <div className="mt-6 text-xs tracking-wide uppercase text-[#8A8A8A]">
+    Explore category
+  </div>
+</Link>
             ))}
           </div>
         </section>
@@ -113,7 +165,7 @@ export default function CategoriesPage() {
     Related reading
   </h2>
 
-  <div className="flex flex-col gap-3 text-[#6B6B6B]">
+  <div className="flex flex-col gap-8 text-[#6B6B6B]">
     
     <Link
       href="/guides/why-we-dream"
