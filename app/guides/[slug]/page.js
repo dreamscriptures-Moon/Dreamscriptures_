@@ -1,26 +1,44 @@
 import Link from "next/link";
+import ClusterGuidePage from "@/app/components/ClusterGuidePage";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { guides, getGuideBySlug } from "@/app/data/guides";
 import SearchBar from "@/app/components/SearchBar";
+import { getClusterGuideBySlug, getClusterGuides } from "@/lib/clusterGuides";
 
 export function generateStaticParams() {
-  return guides.map((guide) => ({
-    slug: guide.slug,
-  }));
+  return [
+    ...guides.map((guide) => ({
+      slug: guide.slug,
+    })),
+    ...getClusterGuides().map((guide) => ({
+      slug: guide.slug,
+    })),
+  ];
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const guide = getGuideBySlug(slug);
+  const clusterGuide = getClusterGuideBySlug(slug);
 
-  if (!guide) {
+  if (!guide && !clusterGuide) {
     return {
       title: "Guides | DreamScriptures",
       description: "Dream insights and meanings from DreamScriptures.",
       alternates: {
         canonical: "/guides",
+      },
+    };
+  }
+
+  if (!guide && clusterGuide) {
+    return {
+      title: `${clusterGuide.title} (Meaning & Emotional Patterns)`,
+      description: clusterGuide.description,
+      alternates: {
+        canonical: `/guides/${clusterGuide.slug}`,
       },
     };
   }
@@ -37,6 +55,12 @@ export async function generateMetadata({ params }) {
 export default async function GuidePage({ params }) {
   const { slug } = await params;
   const guide = getGuideBySlug(slug);
+  const clusterGuide = getClusterGuideBySlug(slug);
+
+  if (!guide && clusterGuide) {
+    return <ClusterGuidePage clusterGuide={clusterGuide} />;
+  }
+
   const breadcrumbSchema = guide
   ? {
       "@context": "https://schema.org",

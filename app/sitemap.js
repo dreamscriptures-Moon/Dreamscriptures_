@@ -1,4 +1,5 @@
 import { dreams } from "@/data/dream";
+import { getClusterGuides } from "@/lib/clusterGuides";
 
 export default function sitemap() {
   const baseUrl = "https://www.dreamscriptures.com";
@@ -53,8 +54,16 @@ const categoryPages = categories.map((category) => ({
 
   priority: 0.8,
 }));
+
+const clusterGuidePages = getClusterGuides().map((guide) => ({
+  url: `${baseUrl}/guides/${guide.slug}`,
+  lastModified: new Date("2026-05-13"),
+  priority: 0.7,
+}));
+
  return [
   ...staticPages,
+  ...clusterGuidePages,
   ...categoryPages,
   ...dreamPages,
 ];

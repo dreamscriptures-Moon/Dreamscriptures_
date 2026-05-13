@@ -802,6 +802,845 @@ In some cases, it’s about yourself. Becoming more aware of your own emotions, 
   categories: ["Love", "Relationships", "Intimacy", "Hidden Emotions", "Identity", "Inner Conflict", "Spiritual"]
 },
 {
+  slug: "unable-to-scream",
+  title: "Unable to scream",
+
+  microSummary:
+    "Dreams about being unable to scream often reflect helplessness, fear, emotional suppression, anxiety, vulnerability, or situations where you feel unheard, powerless, or unable to fully express yourself.",
+
+  shortDescription:
+    "Trying to scream, call for help, or force your voice out — but nothing comes. The dream often feels terrifying, frustrating, emotionally intense, or deeply powerless.",
+
+  description:
+    `Being unable to scream in a dream can feel terrifying, emotionally overwhelming, frustrating, or deeply helpless because your voice stops working exactly when you need it most. Sometimes you are trying to scream during danger, fear, attack, or panic. Other times, the situation itself is unclear, yet the inability to make sound creates intense emotional pressure throughout the dream.
+
+These dreams commonly appear during periods involving anxiety, emotional suppression, fear, vulnerability, stress, helplessness, relationship tension, emotional overwhelm, insecurity, pressure, conflict, trauma, or situations where you feel emotionally unheard, powerless, restricted, or unable to fully express yourself.
+
+The type of silence matters.
+Trying to scream during danger may reflect emotional panic, fear, vulnerability, survival instincts, or situations where you feel emotionally trapped or unable to protect yourself.
+Trying to call for help but remaining silent can symbolize emotional isolation, feeling unsupported, emotional suppression, or difficulty expressing what you truly need.
+Feeling physically unable to use your voice may reflect emotional restriction, fear of speaking up, internal pressure, insecurity, or situations where your thoughts and emotions feel blocked internally.
+
+The feeling matters most. If the dream feels panicked or desperate, it may reflect emotional overwhelm, fear, anxiety, helplessness, or situations where you feel emotionally powerless or unable to escape pressure. If the dream feels quieter or emotionally heavy instead, it can point toward emotional suppression, exhaustion, silence, insecurity, or the growing awareness that your emotions have not been fully expressed or acknowledged.`,
+
+  emotional:
+    `There is usually strong emotional helplessness throughout this dream.
+
+Sometimes the strongest feeling is panic. Wanting to protect yourself, warn someone, or express fear while feeling completely unable to force your voice out.
+
+There can also be frustration and emotional pressure. Feeling trapped inside yourself while emotions continue building internally without release.
+
+In some cases, the dream reflects vulnerability. Feeling emotionally exposed, unsafe, unsupported, or unable to defend yourself properly in stressful situations.
+
+At times, the emotion becomes emotional exhaustion. Carrying fear, stress, sadness, anger, or anxiety internally without fully expressing it outwardly.
+
+Sometimes the dream reflects feeling emotionally unheard. Like your emotions, needs, boundaries, or voice are not fully acknowledged, respected, or understood by others or even by yourself.`,
+
+  symbolic:
+    `Being unable to scream in a dream often symbolizes helplessness, emotional suppression, anxiety, fear, vulnerability, restriction, emotional blockage, or situations where you feel unable to fully express yourself or regain control.
+
+The missing voice usually represents emotional expression being blocked, ignored, silenced, suppressed, or emotionally trapped beneath pressure.
+
+Sometimes the dream reflects fear of speaking up. Avoiding confrontation, honesty, vulnerability, boundaries, emotional truth, or difficult conversations that feel emotionally risky.
+
+It can also symbolize emotional paralysis. Feeling mentally overwhelmed, emotionally frozen, unsupported, or unable to respond effectively under pressure.
+
+In some cases, the dream reflects internal conflict more than external danger. Wanting to express emotions, needs, anger, pain, or truth while another part of you holds everything back internally.
+
+The emotional atmosphere matters most. Panic may reflect emotional overwhelm or fear, while quiet silence may point toward emotional suppression, insecurity, exhaustion, or feeling disconnected from your own emotional voice.`,
+
+  spiritual:
+    `This dream can reflect emotional blockage, inner suppression, fear, vulnerability, or the growing awareness that your emotions, truth, boundaries, or inner voice have not been fully expressed or acknowledged.
+
+Sometimes it appears during periods where anxiety, pressure, fear, emotional overwhelm, self-silencing, or emotional exhaustion are becoming stronger beneath the surface.
+
+For some people, losing their voice in a dream symbolizes disconnection from personal power, emotional truth, confidence, or the ability to fully communicate what they feel internally.
+
+It can also reflect emotional survival patterns. Staying quiet emotionally to avoid conflict, rejection, judgment, abandonment, or vulnerability.
+
+The emotional tone matters most. Panic may reflect emotional overwhelm and helplessness, while quiet awareness may point toward emotional suppression, exhaustion, reflection, or the need to reconnect with your voice, boundaries, and emotional honesty.`,
+
+  wakingLife:
+    `This dream often appears during emotionally stressful periods where you feel unheard, emotionally restricted, pressured, anxious, vulnerable, or unable to fully express yourself.
+
+You may be dealing with conflict, relationship tension, fear of confrontation, emotional suppression, stress, insecurity, pressure, burnout, anxiety, difficult communication, or situations where your thoughts and emotions feel emotionally trapped inside.
+
+Sometimes the dream reflects emotional self-silencing. Wanting to say something important while fearing judgment, rejection, criticism, conflict, or emotional consequences.
+
+It can also appear during periods where stress and emotional overwhelm make you feel mentally frozen, powerless, or unable to react the way you truly want to.
+
+In some cases, the dream mirrors emotional isolation. Feeling unsupported, emotionally unseen, or disconnected from people who normally help you feel safe enough to speak openly.
+
+The dream reflects your emotional relationship with vulnerability, fear, emotional expression, anxiety, boundaries, communication, helplessness, and personal power.`,
+
+  summary:
+    "Being unable to scream in a dream often reflects helplessness, emotional suppression, anxiety, vulnerability, or situations where you feel unheard, powerless, or emotionally trapped. These dreams commonly appear during stressful or emotionally overwhelming periods and highlight themes of fear, emotional blockage, pressure, silence, insecurity, emotional expression, and the struggle to fully use your voice or protect yourself emotionally.",
+
+  categories: [
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Inner Conflict",
+    "Spiritual",
+    "Transformation"
+  ]
+},
+{
+  slug: "running-slowly",
+  title: "Running slowly",
+
+  microSummary:
+    "Dreams about running slowly often reflect frustration, helplessness, emotional pressure, anxiety, or situations where you feel unable to move forward, escape stress, or regain control fast enough.",
+
+  shortDescription:
+    "Trying to run while your body feels heavy, weak, or painfully slow. The dream often feels frustrating, stressful, urgent, or emotionally exhausting no matter how hard you try to move faster.",
+
+  description:
+    `Running slowly in a dream can feel frustrating, stressful, emotionally exhausting, or deeply helpless because your body refuses to move the way you need it to. Sometimes you are trying to escape danger, reach someone, or get somewhere important. Other times, the dream simply creates the overwhelming feeling of effort without progress.
+
+These dreams commonly appear during periods involving anxiety, emotional pressure, stress, burnout, fear, overwhelm, insecurity, frustration, exhaustion, self-doubt, emotional blockage, or situations where you feel emotionally stuck, delayed, restricted, or unable to move forward properly.
+
+The type of slowness matters.
+Running slowly while being chased may reflect pressure, fear, emotional overwhelm, or the feeling that stress is catching up to you faster than you can manage it.
+Struggling to move your legs can symbolize emotional exhaustion, burnout, helplessness, or feeling mentally and emotionally weighed down.
+Trying desperately to run faster without success may reflect frustration with delays, lack of progress, emotional resistance, or situations that feel difficult to escape or overcome.
+
+The feeling matters most. If the dream feels panicked or desperate, it may reflect emotional overwhelm, anxiety, helplessness, fear, or situations where you feel emotionally trapped or unable to keep up with pressure. If the dream feels heavier or emotionally draining instead, it can point toward exhaustion, burnout, discouragement, emotional stagnation, or the growing awareness that something in your life is slowing you down emotionally or mentally.`,
+
+  emotional:
+    `There is usually emotional frustration throughout this dream.
+
+Sometimes the strongest feeling is helplessness. Wanting to move faster, escape, or regain control while your body refuses to cooperate.
+
+There can also be panic and urgency. Feeling pressure building while time, danger, expectations, or emotional stress continue getting closer.
+
+In some cases, the dream reflects emotional exhaustion. Feeling mentally drained, emotionally heavy, or too overwhelmed to move through life with the energy or confidence you normally have.
+
+At times, the emotion becomes discouragement. Trying repeatedly while still feeling delayed, restricted, unsupported, or emotionally stuck.
+
+Sometimes the dream reflects anxiety surrounding performance, progress, survival, or the fear that you are falling behind emotionally or in life overall.`,
+
+  symbolic:
+    `Running slowly in a dream often symbolizes emotional restriction, frustration, helplessness, anxiety, exhaustion, pressure, emotional stagnation, burnout, or situations where progress feels painfully difficult or delayed.
+
+The inability to run properly usually reflects the gap between what you emotionally need and what you currently feel capable of doing.
+
+Sometimes the dream reflects stress or emotional overwhelm slowing you down mentally, emotionally, or physically.
+
+It can also symbolize fear of failure, pressure to keep up, emotional paralysis, insecurity, or situations where you feel unable to fully escape responsibilities, conflict, expectations, or emotional tension.
+
+In some cases, the dream reflects internal resistance. Part of you wanting movement, change, freedom, or action while another part feels emotionally blocked, exhausted, uncertain, or afraid.
+
+The emotional atmosphere matters most. Panic may reflect emotional overwhelm or fear, while heaviness may point toward burnout, emotional fatigue, discouragement, or emotional pressure that has been building too long.`,
+
+  spiritual:
+    `This dream can reflect emotional exhaustion, inner resistance, blocked progress, anxiety, fear, or the growing awareness that something internally no longer feels emotionally balanced or sustainable.
+
+Sometimes it appears during periods where stress, burnout, emotional pressure, insecurity, fear, or emotional stagnation are becoming stronger beneath the surface.
+
+For some people, running slowly symbolizes spiritual or emotional exhaustion. Wanting movement, growth, freedom, or change while feeling emotionally weighed down by fear, pressure, responsibilities, or unresolved emotional tension.
+
+It can also reflect the tension between urgency and limitation. Feeling internally pressured to move faster while emotionally needing rest, healing, or recalibration first.
+
+The emotional tone matters most. Panic may reflect emotional overwhelm and instability, while heaviness may point toward exhaustion, burnout, emotional depletion, or the need to stop forcing movement before you are emotionally ready.`,
+
+  wakingLife:
+    `This dream often appears during emotionally stressful periods where you feel overwhelmed, pressured, delayed, emotionally stuck, exhausted, anxious, or unable to move forward the way you want to.
+
+You may be dealing with burnout, responsibilities, fear of failure, emotional overwhelm, work pressure, insecurity, self-doubt, difficult situations, emotional fatigue, or circumstances that make progress feel frustratingly slow.
+
+Sometimes the dream reflects emotional pressure to keep up with expectations, goals, timelines, or the lives of other people.
+
+It can also appear when anxiety or stress makes you feel mentally frozen, emotionally restricted, or unable to respond effectively under pressure.
+
+In some cases, the dream mirrors discouragement. Feeling like no matter how much effort you give, something continues slowing you down emotionally, mentally, or practically.
+
+The dream reflects your emotional relationship with pressure, progress, exhaustion, fear, anxiety, emotional readiness, burnout, and the struggle between wanting movement and feeling emotionally held back.`,
+
+  summary:
+    "Running slowly in a dream often reflects frustration, helplessness, emotional pressure, anxiety, burnout, or situations where you feel unable to move forward, escape stress, or regain control fast enough. These dreams commonly appear during overwhelming or emotionally exhausting periods and highlight themes of pressure, emotional restriction, fear, exhaustion, delayed progress, insecurity, and the struggle between urgency and emotional limitation.",
+
+  categories: [
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Inner Conflict",
+    "Transformation",
+    "Spiritual"
+  ]
+},
+{
+  slug: "being-kidnapped",
+  title: "Being kidnapped",
+
+  microSummary:
+    "Dreams about being kidnapped often reflect fear, loss of control, emotional vulnerability, pressure, manipulation, or situations where you feel trapped, powerless, or unable to freely make your own choices.",
+
+  shortDescription:
+    "Being taken somewhere against your will while fear, confusion, or helplessness quickly builds. The dream often feels emotionally intense, restrictive, invasive, or deeply out of your control.",
+
+  description:
+    `Being kidnapped in a dream can feel terrifying, emotionally overwhelming, restrictive, or deeply unsettling because your freedom, control, and sense of safety suddenly disappear. Sometimes the kidnapper is someone familiar. Other times, they are strangers, masked figures, groups, or unknown people who still create intense emotional fear and pressure.
+
+These dreams commonly appear during periods involving anxiety, emotional pressure, manipulation, fear, vulnerability, control issues, toxic relationships, emotional overwhelm, insecurity, stress, major life changes, conflict, or situations where you feel emotionally trapped, powerless, restricted, or unable to fully choose your own direction.
+
+The type of kidnapping matters.
+Being kidnapped by someone you know may reflect emotional control, manipulation, dependency, relationship tension, or situations where someone’s influence feels emotionally overpowering.
+Trying to escape captivity can symbolize resistance, emotional survival, the desire for freedom, or fighting against situations that feel emotionally restrictive or unhealthy.
+Watching someone else get kidnapped may reflect fear of losing connection, emotional helplessness, protectiveness, or anxiety surrounding people you care about.
+
+The feeling matters most. If the dream feels panicked or violent, it may reflect emotional overwhelm, anxiety, fear, pressure, or situations where you feel emotionally unsafe or controlled. If the dream feels quieter or emotionally heavy instead, it can point toward emotional exhaustion, restriction, helplessness, loss of independence, or the growing awareness that something in your life no longer feels emotionally freeing or fully within your control.`,
+
+  emotional:
+    `There is usually strong emotional fear throughout this dream.
+
+Sometimes the strongest feeling is helplessness. Realizing your freedom, safety, or control has been taken away while feeling unable to stop it.
+
+There can also be panic and emotional urgency. Wanting escape, protection, or safety while feeling emotionally trapped inside the situation.
+
+In some cases, the dream reflects vulnerability. Feeling emotionally exposed, manipulated, pressured, overpowered, or unable to fully protect yourself emotionally.
+
+At times, the emotion becomes emotional exhaustion. Feeling mentally drained from situations, expectations, relationships, or responsibilities that continue limiting your emotional freedom.
+
+Sometimes the dream reflects loss of control. Feeling like your choices, direction, emotions, or independence are being influenced too heavily by external pressure or emotional circumstances.`,
+
+  symbolic:
+    `Being kidnapped in a dream often symbolizes loss of control, emotional restriction, vulnerability, manipulation, fear, pressure, emotional overwhelm, dependency, or situations where your freedom feels emotionally limited.
+
+The kidnapping itself usually represents something in your life that feels emotionally overpowering, restrictive, consuming, or difficult to fully escape from.
+
+Sometimes the dream reflects external control — toxic relationships, pressure, manipulation, expectations, emotional dependency, unhealthy environments, or situations where your voice and freedom feel emotionally reduced.
+
+It can also symbolize internal struggles. Fear, anxiety, insecurity, emotional wounds, self-doubt, or emotional patterns that make you feel trapped within yourself emotionally.
+
+In some cases, the dream reflects emotional disconnection from personal power, independence, confidence, or the ability to fully direct your own life and decisions.
+
+The emotional atmosphere matters most. Panic may reflect emotional overwhelm or instability, while quiet captivity may point toward emotional exhaustion, resignation, restriction, or slowly realizing that something in your life no longer feels emotionally healthy or freeing.`,
+
+  spiritual:
+    `This dream can reflect emotional restriction, inner conflict, fear, vulnerability, energetic overwhelm, or the growing awareness that something in your life is taking too much control over your emotional peace or personal freedom.
+
+Sometimes it appears during periods where stress, anxiety, manipulation, emotional exhaustion, unhealthy attachment, fear, or emotional pressure are becoming stronger beneath the surface.
+
+For some people, kidnapping symbolizes emotional captivity. Feeling trapped inside unhealthy dynamics, emotional patterns, fear-based thinking, pressure, or situations that disconnect you from your own emotional truth and independence.
+
+It can also reflect the need to reclaim boundaries, personal power, emotional clarity, or the freedom to make choices that truly align with who you are becoming.
+
+The emotional tone matters most. Terror may reflect emotional overwhelm and vulnerability, while escape or resistance may point toward resilience, emotional awakening, personal strength, or the growing desire to reclaim emotional control and freedom.`,
+
+  wakingLife:
+    `This dream often appears during emotionally stressful periods where you feel trapped, pressured, controlled, emotionally restricted, vulnerable, anxious, or unable to freely move through life the way you truly want.
+
+You may be dealing with toxic relationships, emotional manipulation, pressure, responsibilities, fear, anxiety, emotional overwhelm, controlling environments, unhealthy attachment, burnout, or situations where your independence feels emotionally limited.
+
+Sometimes the dream reflects emotional survival mode. Trying to protect your peace, freedom, identity, or emotional stability while feeling overpowered by stress or outside influence.
+
+It can also appear when your choices no longer feel fully your own. Feeling emotionally pushed, obligated, controlled, or disconnected from what you truly want internally.
+
+In some cases, the dream mirrors the need for stronger emotional boundaries, freedom, honesty, independence, or distance from situations that feel emotionally draining or controlling.
+
+The dream reflects your emotional relationship with freedom, control, vulnerability, fear, manipulation, emotional safety, pressure, and personal power.`,
+
+  summary:
+    "Being kidnapped in a dream often reflects fear, emotional vulnerability, pressure, manipulation, or situations where you feel trapped, powerless, emotionally restricted, or unable to fully control your own direction. These dreams commonly appear during stressful or emotionally overwhelming periods and highlight themes of control, emotional survival, independence, pressure, fear, boundaries, emotional captivity, and the need to reclaim personal freedom and emotional power.",
+
+  categories: [
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Inner Conflict",
+    "Relationships",
+    "Transformation"
+  ]
+},{
+  slug: "snake-in-the-house",
+  title: "Snake in the house",
+
+  microSummary:
+    "Dreams about a snake in the house often reflect hidden tension, emotional discomfort, mistrust, fear, or situations affecting your personal life, emotional safety, or inner peace.",
+
+  shortDescription:
+    "Seeing a snake inside your home or personal space where it does not belong. The dream often feels tense, unsettling, emotionally invasive, or quietly threatening beneath the surface.",
+
+  description:
+    `Seeing a snake in the house in a dream can feel disturbing, emotionally tense, invasive, or deeply uncomfortable because the danger appears inside a place connected to safety, privacy, and emotional security. Sometimes the snake moves quietly through rooms unnoticed at first. Other times, it suddenly appears and creates immediate fear, panic, or emotional alertness.
+
+These dreams commonly appear during periods involving emotional tension, mistrust, anxiety, hidden conflict, fear, relationship problems, stress, emotional instability, jealousy, manipulation, family issues, or situations where something no longer feels emotionally safe, peaceful, or fully trustworthy within your personal life.
+
+The location of the snake matters.
+A snake in your bedroom may reflect emotional vulnerability, intimacy issues, relationship tension, hidden fear, or discomfort surrounding trust and emotional closeness.
+A snake in the living room may symbolize tension affecting family dynamics, social relationships, emotional atmosphere, or peace within your environment.
+A snake hidden somewhere inside the house can reflect hidden problems, emotional avoidance, mistrust, anxiety, or situations quietly affecting your emotional stability beneath the surface.
+
+The feeling matters most. If the dream feels frightening or threatening, it may reflect emotional fear, tension, mistrust, anxiety, or situations that feel emotionally invasive or unsafe. If the snake feels calm or non-aggressive, it can point toward emotional awareness, intuition, transformation, or the realization that something important beneath the surface needs attention rather than avoidance.`,
+
+  emotional:
+    `There is usually emotional tension throughout this dream.
+
+Sometimes the strongest feeling is discomfort. Knowing something feels emotionally wrong or unsettling inside a space that normally feels safe.
+
+There can also be fear and hyper-awareness. Feeling emotionally alert, cautious, or unable to fully relax because something hidden or threatening feels too close.
+
+In some cases, the dream reflects mistrust. Feeling uncertain about someone, a relationship, an environment, or emotional dynamics happening around you.
+
+At times, the emotion becomes emotional invasion. Feeling like stress, conflict, negativity, manipulation, or emotional tension has entered your personal peace or private emotional space.
+
+Sometimes the dream reflects anxiety surrounding hidden issues. The awareness that something emotionally unresolved may already be affecting you more deeply than you initially realized.`,
+
+  symbolic:
+    `A snake in the house in a dream often symbolizes hidden tension, emotional discomfort, mistrust, fear, emotional intrusion, unresolved conflict, or situations affecting your inner emotional world and sense of safety.
+
+The house usually represents your personal life, emotional state, identity, relationships, mind, or emotional foundation.
+
+The snake represents something emotionally active beneath the surface — fear, jealousy, deception, emotional tension, transformation, instinct, emotional truth, or unresolved issues that are becoming harder to ignore.
+
+Sometimes the dream reflects external tension entering your emotional space through relationships, conflict, stress, manipulation, dishonesty, or emotionally draining environments.
+
+It can also symbolize internal anxiety. Hidden fears, emotional instability, unresolved emotions, insecurity, or emotional patterns quietly affecting your sense of peace and stability internally.
+
+The emotional atmosphere matters most. Fear may reflect emotional insecurity or mistrust, while calm observation may point toward intuition, awareness, emotional growth, or the beginning of transformation and emotional honesty.`,
+
+  spiritual:
+    `This dream can reflect emotional tension, energetic imbalance, hidden fear, emotional awareness, or the growing realization that something within your emotional environment no longer feels fully safe, peaceful, or aligned.
+
+Sometimes it appears during periods where emotional stress, conflict, fear, mistrust, anxiety, jealousy, or unresolved emotional issues are becoming stronger beneath the surface.
+
+For some people, a snake inside the home symbolizes spiritual intrusion, emotional negativity, hidden conflict, manipulation, or emotional energy disrupting inner peace and emotional balance.
+
+Others see it as awakening and awareness. Something emotionally important that has remained hidden is now becoming visible enough to finally acknowledge and confront.
+
+The emotional tone matters most. Fear may reflect emotional instability or insecurity, while calmness may point toward emotional awareness, intuition, transformation, healing, or readiness to face what has been emotionally hidden.`,
+
+  wakingLife:
+    `This dream often appears during emotionally stressful periods where tension, mistrust, anxiety, conflict, emotional discomfort, or instability are affecting your personal life or emotional peace.
+
+You may be dealing with relationship tension, family problems, emotional stress, hidden conflict, dishonesty, jealousy, emotional overwhelm, toxic environments, insecurity, or situations that no longer feel emotionally safe or trustworthy.
+
+Sometimes the dream reflects emotional intuition. Quietly sensing that something beneath the surface is wrong even before it becomes fully obvious externally.
+
+It can also appear when emotional stress begins affecting your ability to fully relax, feel emotionally secure, or maintain inner peace.
+
+In some cases, the dream mirrors hidden emotional patterns, unresolved fears, or emotional tension that continues quietly affecting your mental and emotional stability.
+
+The dream reflects your emotional relationship with safety, trust, emotional boundaries, intuition, fear, emotional tension, personal peace, and hidden emotional awareness.`,
+
+  summary:
+    "A snake in the house in a dream often reflects hidden tension, emotional discomfort, fear, mistrust, or situations affecting your personal life and emotional safety. These dreams commonly appear during emotionally stressful or uncertain periods and highlight themes of intuition, emotional awareness, hidden conflict, instability, vulnerability, emotional invasion, and the growing realization that something beneath the surface can no longer be ignored.",
+
+  categories: [
+    "Animals",
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Relationships",
+    "Transformation"
+  ]
+},
+{
+  slug: "black-snake",
+  title: "Black snake",
+
+  microSummary:
+    "Dreams about a black snake often reflect hidden fear, emotional tension, mistrust, anxiety, transformation, or situations that feel emotionally intense, unknown, or difficult to fully understand.",
+
+  shortDescription:
+    "Seeing a dark or black snake moving nearby, watching you, or appearing unexpectedly. The dream often feels mysterious, tense, emotionally heavy, or quietly threatening beneath the surface.",
+
+  description:
+    `Seeing a black snake in a dream can feel frightening, mysterious, emotionally intense, or deeply unsettling because the darkness of the snake often adds a stronger sense of uncertainty, hidden emotion, or emotional danger. Sometimes the snake appears suddenly and creates immediate fear. Other times, it watches quietly from a distance, creating emotional tension without directly attacking.
+
+These dreams commonly appear during periods involving anxiety, hidden fear, emotional pressure, mistrust, uncertainty, unresolved emotions, transformation, emotional instability, jealousy, relationship tension, stress, or situations where something feels emotionally unclear, emotionally unsafe, or difficult to fully trust.
+
+The behavior of the black snake matters.
+A black snake chasing you may reflect fear, emotional avoidance, unresolved tension, or pressure that feels emotionally difficult to escape.
+A calm black snake may symbolize emotional awareness, hidden intuition, transformation, or emotional truths slowly becoming visible beneath the surface.
+A black snake attacking or biting you can reflect betrayal, emotional wounds, fear, conflict, toxic situations, or hidden tension becoming emotionally impossible to ignore.
+
+The feeling matters most. If the dream feels threatening or terrifying, it may reflect emotional fear, anxiety, mistrust, insecurity, or emotionally overwhelming situations. If the dream feels calm but intense, it can point toward emotional transformation, awareness, intuition, hidden truths, or emotional growth developing through uncomfortable experiences or realizations.`,
+
+  emotional:
+    `There is usually emotional tension throughout this dream.
+
+Sometimes the strongest feeling is fear. The sense that something emotionally hidden, unknown, or difficult to trust is too close.
+
+There can also be anxiety and hyper-awareness. Feeling emotionally alert, cautious, or unable to fully relax because something feels emotionally unsettled beneath the surface.
+
+In some cases, the dream reflects emotional heaviness. Carrying fear, mistrust, stress, pressure, or emotional uncertainty internally without fully understanding where it is coming from.
+
+At times, the emotion becomes fascination or curiosity. Feeling emotionally drawn toward something intense, mysterious, or emotionally transformative even while it still feels uncomfortable.
+
+Sometimes the dream reflects emotional intuition. Quietly sensing emotional danger, dishonesty, tension, or emotional truth before it becomes fully obvious externally.`,
+
+  symbolic:
+    `A black snake in a dream often symbolizes hidden fear, emotional tension, anxiety, mistrust, emotional transformation, instinct, emotional danger, unresolved emotions, or truths that remain emotionally unclear beneath the surface.
+
+The black color often intensifies themes surrounding the unknown, emotional depth, hidden emotion, fear, mystery, or psychological tension.
+
+Sometimes the dream reflects hidden conflict, emotional betrayal, manipulation, jealousy, emotional instability, or situations that no longer feel emotionally safe or fully trustworthy.
+
+It can also symbolize transformation happening through emotionally difficult experiences. Old emotional patterns, fears, wounds, or emotional truths surfacing in ways that feel uncomfortable but necessary.
+
+In some cases, the black snake represents emotional intuition itself. Awareness of something emotionally important before your conscious mind fully understands it.
+
+The emotional atmosphere matters most. Fear may reflect emotional insecurity or hidden tension, while calm observation may point toward awareness, transformation, emotional depth, or the beginning of emotional clarity.`,
+
+  spiritual:
+    `This dream can reflect hidden emotional energy, transformation, spiritual tension, fear, emotional awakening, intuition, or the growing awareness that something important is shifting beneath the surface emotionally or spiritually.
+
+Sometimes it appears during periods where anxiety, emotional overwhelm, mistrust, unresolved wounds, emotional pressure, or major internal changes are becoming stronger internally.
+
+For some people, black snakes symbolize spiritual attack, hidden enemies, emotional negativity, fear-based thinking, or emotionally toxic environments affecting inner peace.
+
+Others see black snakes as symbols of shadow work and transformation. Emotional truths, fears, suppressed emotions, or hidden parts of yourself rising into awareness so healing or change can begin.
+
+The emotional tone matters most. Terror may reflect emotional overwhelm or instability, while calmness may point toward intuition, emotional awakening, transformation, or deeper self-awareness developing through emotionally intense experiences.`,
+
+  wakingLife:
+    `This dream often appears during emotionally stressful or uncertain periods where fear, anxiety, mistrust, emotional tension, insecurity, hidden conflict, or emotional overwhelm feel especially present.
+
+You may be dealing with relationship tension, dishonesty, emotional confusion, stress, fear of betrayal, emotional instability, unresolved emotions, jealousy, toxic environments, or situations that no longer feel emotionally safe or fully clear.
+
+Sometimes the dream reflects emotional intuition. Quietly sensing emotional tension, dishonesty, instability, or danger before you consciously understand it fully.
+
+It can also appear during periods of emotional transformation where difficult emotions, fears, truths, or internal changes are becoming harder to avoid.
+
+In some cases, the dream mirrors emotional shadow work. Facing emotions, fears, wounds, or truths you normally keep hidden beneath the surface.
+
+The dream reflects your emotional relationship with fear, intuition, mistrust, emotional depth, hidden tension, transformation, emotional awareness, and psychological uncertainty.`,
+
+  summary:
+    "A black snake in a dream often reflects hidden fear, emotional tension, anxiety, mistrust, transformation, or emotionally intense situations that feel unclear or difficult to fully trust. These dreams commonly appear during stressful or transformative periods and highlight themes of intuition, emotional depth, hidden conflict, unresolved emotions, fear, emotional awakening, and the growing awareness that something beneath the surface needs attention.",
+
+  categories: [
+    "Animals",
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Spiritual",
+    "Transformation"
+  ]
+},
+{
+  slug: "giant-snake",
+  title: "Giant snake",
+
+  microSummary:
+    "Dreams about a giant snake often reflect overwhelming fear, emotional pressure, powerful transformation, hidden tension, or situations that feel emotionally massive, intimidating, or impossible to ignore.",
+
+  shortDescription:
+    "Seeing an enormous snake that feels impossible to overlook or escape. The dream often feels intense, overwhelming, emotionally heavy, or filled with fear and emotional tension.",
+
+  description:
+    `Seeing a giant snake in a dream can feel terrifying, emotionally overwhelming, awe-inspiring, or deeply intense because the size of the snake magnifies whatever emotional meaning it carries. Sometimes the snake moves slowly and silently, creating dread long before it reaches you. Other times, it appears suddenly and dominates the entire atmosphere of the dream.
+
+These dreams commonly appear during periods involving emotional overwhelm, anxiety, fear, pressure, major life changes, hidden tension, transformation, emotional instability, conflict, insecurity, stress, or situations that feel emotionally too large, consuming, or difficult to fully control.
+
+The behavior of the giant snake matters.
+A giant snake chasing you may reflect overwhelming pressure, fear, anxiety, emotional avoidance, or situations you feel unable to escape emotionally.
+A giant snake watching you can symbolize emotional tension, hidden awareness, intimidation, emotional truth, or the feeling that something powerful beneath the surface is demanding attention.
+A giant snake attacking or surrounding you may reflect emotional overwhelm, betrayal, conflict, fear, toxic situations, manipulation, or emotional pressure becoming impossible to ignore.
+
+The feeling matters most. If the dream feels terrifying or threatening, it may reflect emotional fear, anxiety, insecurity, pressure, or emotionally overwhelming situations affecting your sense of stability. If the dream feels calmer but intense, it can point toward transformation, emotional awakening, intuition, personal power, or major internal change developing beneath the surface.`,
+
+  emotional:
+    `There is usually strong emotional intensity throughout this dream.
+
+Sometimes the strongest feeling is fear. The sense that something emotionally powerful, overwhelming, or difficult to control is too large to ignore.
+
+There can also be anxiety and emotional pressure. Feeling emotionally consumed by stress, uncertainty, conflict, fear, or situations that seem bigger than your ability to manage comfortably.
+
+In some cases, the dream reflects intimidation. Feeling emotionally small compared to what you are facing internally or externally.
+
+At times, the emotion becomes fascination or awe. Recognizing that something emotionally important, transformative, or powerful is happening even while it feels uncomfortable or emotionally overwhelming.
+
+Sometimes the dream reflects emotional awareness. Quietly realizing that a hidden issue, fear, emotional truth, or major change has grown larger internally than you previously admitted to yourself.`,
+
+  symbolic:
+    `A giant snake in a dream often symbolizes overwhelming fear, emotional pressure, hidden tension, transformation, emotional danger, instinct, anxiety, power, unresolved emotions, or situations that feel emotionally consuming or impossible to ignore.
+
+The size of the snake usually magnifies the emotional significance of whatever it represents.
+
+Sometimes the dream reflects overwhelming external situations — toxic relationships, pressure, fear, manipulation, conflict, emotional instability, or emotionally intense circumstances affecting your sense of safety or control.
+
+It can also symbolize major internal transformation. Deep fears, emotional wounds, suppressed emotions, intuition, personal growth, or emotional truths becoming too powerful to remain hidden beneath the surface.
+
+In some cases, the giant snake represents emotional awareness itself. The realization that something emotionally important has been growing internally for a long time.
+
+The emotional atmosphere matters most. Fear may reflect emotional overwhelm or instability, while calm observation may point toward transformation, emotional power, awareness, intuition, or major personal change beginning to unfold.`,
+
+  spiritual:
+    `This dream can reflect powerful emotional energy, transformation, fear, spiritual awakening, emotional intensity, hidden truth, or the growing awareness that something major is shifting internally or emotionally.
+
+Sometimes it appears during periods where anxiety, emotional overwhelm, fear, unresolved wounds, pressure, instability, or emotional transformation are becoming too strong to ignore beneath the surface.
+
+For some people, giant snakes symbolize spiritual warfare, emotional darkness, manipulation, hidden enemies, fear-based thinking, or emotionally toxic environments affecting inner peace and emotional balance.
+
+Others see giant snakes as symbols of awakening, rebirth, life force energy, emotional transformation, or deep psychological change happening through emotionally intense experiences.
+
+The emotional tone matters most. Terror may reflect emotional overwhelm or fear, while awe or calmness may point toward transformation, awakening, intuition, emotional power, or the beginning of profound internal change.`,
+
+  wakingLife:
+    `This dream often appears during emotionally overwhelming or transformative periods where fear, pressure, anxiety, emotional tension, instability, insecurity, conflict, or hidden emotions feel especially intense.
+
+You may be dealing with stressful situations, emotional overload, toxic relationships, fear of change, emotional uncertainty, unresolved conflict, emotional burnout, manipulation, or situations that feel emotionally bigger than you expected.
+
+Sometimes the dream reflects emotional intuition. Quietly sensing that a problem, fear, truth, or emotional issue has become much larger internally than you previously realized.
+
+It can also appear during periods of deep personal growth where emotional transformation feels uncomfortable, overwhelming, or emotionally unavoidable.
+
+In some cases, the dream mirrors internal fears becoming magnified through stress, anxiety, emotional pressure, or emotional suppression.
+
+The dream reflects your emotional relationship with fear, emotional intensity, power, transformation, intuition, emotional overwhelm, hidden tension, and the awareness that something significant is developing beneath the surface.`,
+
+  summary:
+    "A giant snake in a dream often reflects overwhelming fear, emotional pressure, hidden tension, anxiety, transformation, or situations that feel emotionally massive or impossible to ignore. These dreams commonly appear during stressful or deeply transformative periods and highlight themes of emotional intensity, fear, intuition, power, hidden conflict, emotional awakening, and major internal change developing beneath the surface.",
+
+  categories: [
+    "Animals",
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Spiritual",
+    "Transformation"
+  ]
+},
+{
+  slug: "snake-in-bed",
+  title: "Snake in bed",
+
+  microSummary:
+    "Dreams about a snake in bed often reflect emotional vulnerability, mistrust, hidden tension, intimacy issues, fear, or situations affecting your emotional safety and closest personal connections.",
+
+  shortDescription:
+    "Seeing a snake in your bed or near where you sleep. The dream often feels invasive, unsettling, emotionally intimate, or quietly threatening in a deeply personal way.",
+
+  description:
+    `Seeing a snake in bed in a dream can feel disturbing, emotionally invasive, intimate, or deeply uncomfortable because the bed represents vulnerability, rest, privacy, closeness, and emotional safety. Sometimes the snake appears suddenly beside you. Other times, it is already there hidden beneath blankets, coiled nearby, or silently watching while emotional tension slowly builds.
+
+These dreams commonly appear during periods involving emotional vulnerability, relationship tension, mistrust, intimacy issues, hidden emotions, fear, anxiety, insecurity, betrayal, emotional discomfort, sexual tension, emotional instability, or situations where something no longer feels emotionally safe or fully trustworthy within your closest personal space.
+
+The behavior of the snake matters.
+A snake lying calmly in the bed may symbolize emotional awareness, unresolved intimacy issues, hidden emotions, temptation, emotional tension, or uncomfortable truths beneath the surface of a close relationship.
+A snake attacking or biting you in bed can reflect betrayal, emotional wounds, violated trust, fear, emotional conflict, or situations that feel emotionally invasive and difficult to ignore.
+A hidden snake beneath the bed or blankets may symbolize hidden tension, emotional secrets, suppressed emotions, mistrust, anxiety, or emotional discomfort quietly growing beneath the surface.
+
+The feeling matters most. If the dream feels frightening or threatening, it may reflect emotional insecurity, mistrust, fear, vulnerability, or emotionally unsafe situations affecting your personal life or closest relationships. If the dream feels calm but intense, it can point toward emotional awareness, intimacy, transformation, instinct, emotional truth, or the realization that something hidden within your emotional life needs attention.`,
+
+  emotional:
+    `There is usually emotional vulnerability throughout this dream.
+
+Sometimes the strongest feeling is discomfort. The awareness that something emotionally unsettling has entered a space connected to safety, closeness, and emotional trust.
+
+There can also be fear and emotional tension. Feeling unable to fully relax because something hidden, emotionally threatening, or emotionally uncertain feels too close.
+
+In some cases, the dream reflects mistrust. Quietly questioning someone's intentions, emotional honesty, loyalty, or emotional presence within a close relationship.
+
+At times, the emotion becomes emotional exposure. Feeling emotionally vulnerable, intimate, unprotected, or emotionally affected in ways that feel difficult to fully control.
+
+Sometimes the dream reflects emotional awareness. Quietly sensing hidden tension, emotional distance, secrets, or unresolved emotions beneath the surface of your personal or emotional life.`,
+
+  symbolic:
+    `A snake in bed in a dream often symbolizes emotional vulnerability, hidden tension, mistrust, intimacy issues, fear, emotional discomfort, temptation, betrayal, unresolved emotions, or emotional truths affecting your closest personal space.
+
+The bed usually represents intimacy, emotional closeness, trust, privacy, rest, vulnerability, sexuality, emotional safety, or your deepest personal emotional state.
+
+The snake represents something emotionally active beneath the surface — fear, emotional tension, jealousy, dishonesty, instinct, temptation, emotional truth, transformation, or unresolved emotional issues becoming harder to ignore.
+
+Sometimes the dream reflects tension within relationships, emotional closeness, trust, intimacy, or emotional safety that no longer feels fully secure or emotionally balanced.
+
+It can also symbolize hidden emotions within yourself. Fear of vulnerability, suppressed desire, emotional anxiety, insecurity, mistrust, or emotional wounds affecting how safe or emotionally connected you feel.
+
+The emotional atmosphere matters most. Fear may reflect emotional insecurity or betrayal, while calm observation may point toward awareness, emotional honesty, intimacy, transformation, or emotional truths slowly becoming visible.`,
+
+  spiritual:
+    `This dream can reflect emotional vulnerability, hidden tension, intimacy imbalance, emotional awareness, fear, transformation, or the growing realization that something within your emotional or personal life no longer feels fully peaceful, emotionally safe, or aligned.
+
+Sometimes it appears during periods where emotional insecurity, relationship tension, mistrust, anxiety, emotional overwhelm, hidden desires, or unresolved emotional issues are becoming stronger beneath the surface.
+
+For some people, a snake in bed symbolizes emotional invasion, temptation, hidden conflict, emotional manipulation, jealousy, or emotional energy disrupting inner peace and emotional closeness.
+
+Others see it as awakening and emotional truth. Something emotionally hidden within intimacy, trust, relationships, or personal vulnerability is becoming visible enough to finally confront honestly.
+
+The emotional tone matters most. Fear may reflect emotional instability or mistrust, while calmness may point toward awareness, emotional transformation, intimacy, healing, emotional honesty, or deeper understanding of your emotional needs and boundaries.`,
+
+  wakingLife:
+    `This dream often appears during emotionally vulnerable or uncertain periods where intimacy, trust, emotional safety, relationships, fear, anxiety, or hidden emotional tension feel especially active.
+
+You may be dealing with relationship problems, mistrust, emotional distance, insecurity, betrayal, emotional confusion, hidden attraction, jealousy, emotional overwhelm, or situations where emotional closeness no longer feels completely safe or emotionally stable.
+
+Sometimes the dream reflects emotional intuition. Quietly sensing emotional tension, dishonesty, emotional imbalance, or unresolved issues beneath the surface of a close relationship or emotional connection.
+
+It can also appear during periods of emotional transformation where vulnerability, intimacy, emotional honesty, or hidden emotional truths are becoming harder to avoid internally.
+
+In some cases, the dream mirrors fears surrounding emotional exposure, trust, intimacy, closeness, or allowing yourself to feel emotionally safe with someone fully.
+
+The dream reflects your emotional relationship with vulnerability, trust, intimacy, emotional safety, fear, hidden tension, emotional awareness, and personal emotional boundaries.`,
+
+  summary:
+    "A snake in bed in a dream often reflects emotional vulnerability, mistrust, hidden tension, intimacy issues, fear, or situations affecting your emotional safety and closest personal connections. These dreams commonly appear during emotionally sensitive or uncertain periods and highlight themes of trust, emotional awareness, hidden conflict, intimacy, fear, emotional exposure, transformation, and the growing realization that something beneath the surface needs honest attention.",
+
+  categories: [
+    "Animals",
+    "Fear",
+    "Relationships",
+    "Hidden Emotions",
+    "Anxiety",
+    "Transformation"
+  ]
+},
+{
+  slug: "friendly-snake",
+  title: "Friendly snake",
+
+  microSummary:
+    "Dreams about a friendly snake often reflect healing, emotional awareness, transformation, intuition, trust with hidden emotions, or becoming more comfortable with something that once felt threatening.",
+
+  shortDescription:
+    "Seeing a snake that feels calm, gentle, protective, or unexpectedly safe around you. The dream often feels strange, emotionally meaningful, peaceful, or quietly transformative rather than frightening.",
+
+  description:
+    `Seeing a friendly snake in a dream can feel surprising, calming, emotionally meaningful, or strangely comforting because snakes are often expected to create fear. Instead, the snake may approach gently, stay peacefully near you, allow touch, or create a feeling of emotional trust rather than danger.
+
+These dreams commonly appear during periods involving emotional healing, transformation, self-awareness, intuition, emotional growth, reconciliation with fear, personal change, emotional openness, spiritual reflection, or situations where something once feared is beginning to feel less threatening and more understood.
+
+The behavior of the snake matters.
+A snake calmly sitting beside you may symbolize emotional awareness, intuition, healing, inner peace, or becoming emotionally comfortable with difficult truths or emotions.
+Holding or touching a friendly snake can reflect trust, emotional growth, healing, confidence, or accepting parts of yourself that once felt uncomfortable or emotionally hidden.
+A protective or guiding snake may symbolize wisdom, instinct, emotional support, transformation, or guidance through emotionally uncertain periods.
+
+The feeling matters most. If the dream feels peaceful or emotionally safe, it may reflect healing, emotional balance, intuition, transformation, trust, or emotional growth. If the dream feels calm but slightly uneasy, it can point toward learning to coexist with emotions, fears, truths, or changes that once felt emotionally threatening but are no longer fully dangerous.`,
+
+  emotional:
+    `There is usually emotional calmness or curiosity throughout this dream.
+
+Sometimes the strongest feeling is surprise. Expecting fear or danger, but instead feeling emotionally safe, connected, or peaceful around the snake.
+
+There can also be comfort and emotional trust. Feeling emotionally supported, understood, protected, or more at peace with yourself internally.
+
+In some cases, the dream reflects emotional healing. Becoming less reactive to fears, emotional wounds, insecurities, or situations that once created strong emotional tension.
+
+At times, the emotion becomes curiosity or emotional openness. Feeling willing to approach emotions, truths, or parts of yourself that you previously avoided or misunderstood.
+
+Sometimes the dream reflects emotional balance. Learning to stay emotionally calm around uncertainty, vulnerability, change, or emotional depth without immediately reacting with fear.`,
+
+  symbolic:
+    `A friendly snake in a dream often symbolizes healing, transformation, emotional awareness, intuition, wisdom, instinct, emotional growth, hidden truth, or becoming more comfortable with emotions or situations that once felt threatening.
+
+Unlike aggressive snakes, the friendliness changes the meaning significantly. The snake may still represent powerful emotions, hidden truths, or transformation, but now without the same emotional danger or fear.
+
+Sometimes the dream reflects reconciliation with fear. Understanding emotions, wounds, insecurities, or truths rather than running from them.
+
+It can also symbolize emotional maturity. The ability to remain emotionally calm and aware around situations that once triggered anxiety or emotional instability.
+
+In some cases, the friendly snake represents intuition itself. Emotional guidance, inner wisdom, or awareness quietly helping you navigate emotional growth or transformation.
+
+The emotional atmosphere matters most. Peacefulness may reflect healing and emotional integration, while slight unease may point toward growth that still feels emotionally unfamiliar or developing.`,
+
+  spiritual:
+    `This dream can reflect healing, transformation, emotional awakening, intuition, spiritual growth, inner wisdom, or emotional truths becoming easier to understand and integrate.
+
+Sometimes it appears during periods where emotional healing, self-awareness, vulnerability, intuition, or personal transformation are becoming stronger beneath the surface.
+
+For some people, friendly snakes symbolize spiritual guidance, protection, wisdom, rebirth, life force energy, healing, or awakening through emotional understanding rather than fear.
+
+Others see them as symbols of emotional integration. Parts of yourself, emotions, instincts, or truths that once felt threatening are now becoming accepted, understood, or emotionally balanced.
+
+The emotional tone matters most. Peace and trust may reflect emotional healing or alignment, while gentle uncertainty may point toward transformation that is still emotionally unfolding or becoming clearer over time.`,
+
+  wakingLife:
+    `This dream often appears during periods of emotional healing, self-reflection, personal growth, transformation, emotional balance, or increasing trust in yourself and your intuition.
+
+You may be becoming more emotionally comfortable with vulnerability, emotional truth, difficult conversations, personal change, intimacy, healing, or situations that once created anxiety or fear.
+
+Sometimes the dream reflects emotional maturity. Learning not to react from fear immediately, even when facing emotionally intense situations or truths.
+
+It can also appear when your intuition is becoming stronger. Quietly sensing emotional truths, patterns, or awareness beneath the surface without needing panic or emotional avoidance.
+
+In some cases, the dream mirrors reconciliation with yourself. Accepting emotions, insecurities, fears, desires, or parts of your identity that you previously judged, feared, or emotionally resisted.
+
+The dream reflects your emotional relationship with healing, intuition, trust, transformation, emotional awareness, vulnerability, personal growth, and emotional balance.`,
+
+  summary:
+    "A friendly snake in a dream often reflects healing, intuition, emotional awareness, transformation, or becoming more comfortable with emotions and truths that once felt threatening. These dreams commonly appear during periods of emotional growth and highlight themes of trust, healing, emotional balance, vulnerability, inner wisdom, self-acceptance, transformation, and the ability to approach emotional depth without fear.",
+
+  categories: [
+    "Animals",
+    "Transformation",
+    "Spiritual",
+    "Hidden Emotions",
+    "Identity",
+    "Relationships"
+  ]
+},
+{
+  slug: "snake-wrapping-around-you",
+  title: "Snake wrapping around you",
+
+  microSummary:
+    "Dreams about a snake wrapping around you often reflect emotional pressure, control, intimacy, fear, attachment, transformation, or situations that feel emotionally consuming or impossible to fully escape from.",
+
+  shortDescription:
+    "Feeling a snake coil itself around your body while tension, fear, pressure, or emotional intensity slowly builds. The dream often feels restrictive, intimate, overwhelming, or deeply emotionally charged.",
+
+  description:
+    `A snake wrapping around you in a dream can feel terrifying, emotionally intense, strangely intimate, or deeply overwhelming because the contact feels close, personal, and difficult to escape. Sometimes the snake coils tightly and creates fear or pressure. Other times, it wraps around you calmly, creating emotional tension without direct aggression.
+
+These dreams commonly appear during periods involving emotional pressure, attachment, fear, control, intimacy issues, emotional overwhelm, anxiety, toxic relationships, transformation, emotional dependency, stress, hidden tension, or situations where something feels emotionally consuming, restrictive, or deeply intertwined with your life.
+
+The behavior of the snake matters.
+A snake squeezing tightly around you may reflect emotional pressure, control, anxiety, suffocating situations, manipulation, emotional overwhelm, or feeling trapped inside emotionally intense circumstances.
+A calm snake wrapped around you can symbolize intimacy, emotional attachment, transformation, instinct, emotional awareness, healing, or deep emotional connection.
+Trying to pull the snake off may reflect resistance, emotional struggle, fear of control, emotional suffocation, or the desire to free yourself from situations that feel emotionally overwhelming or restrictive.
+
+The feeling matters most. If the dream feels frightening or suffocating, it may reflect emotional pressure, fear, anxiety, unhealthy attachment, emotional control, or situations that feel emotionally consuming. If the dream feels calm but intense, it can point toward emotional intimacy, transformation, instinct, healing, emotional connection, or deep emotional experiences becoming impossible to ignore.`,
+
+  emotional:
+    `There is usually strong emotional intensity throughout this dream.
+
+Sometimes the strongest feeling is pressure. The sense that something emotionally powerful is holding onto you too tightly.
+
+There can also be fear and emotional restriction. Feeling trapped, emotionally overwhelmed, unable to fully breathe, move freely, or regain emotional control.
+
+In some cases, the dream reflects emotional attachment. Feeling deeply connected, emotionally intertwined, or unable to separate yourself easily from someone or something emotionally significant.
+
+At times, the emotion becomes vulnerability or intimacy. The physical closeness of the snake creating emotional exposure, tension, attraction, or emotional discomfort.
+
+Sometimes the dream reflects emotional awareness. Quietly realizing how strongly something, someone, or an emotional pattern has wrapped itself around your emotional life internally.`,
+
+  symbolic:
+    `A snake wrapping around you in a dream often symbolizes emotional pressure, attachment, control, intimacy, transformation, fear, emotional dependence, hidden tension, emotional overwhelm, instinct, or situations that feel emotionally consuming.
+
+The wrapping itself usually represents emotional entanglement. Something emotionally close enough to influence your thoughts, emotions, behavior, peace, or sense of freedom.
+
+Sometimes the dream reflects unhealthy emotional dynamics — manipulation, possessiveness, emotional dependence, toxic attachment, fear, jealousy, or situations that feel emotionally suffocating.
+
+It can also symbolize transformation through closeness and emotional intensity. Deep emotional experiences, vulnerability, healing, intimacy, instinct, or emotional awakening becoming impossible to avoid.
+
+In some cases, the snake represents emotional energy itself. Fear, desire, pressure, intimacy, or emotional truth becoming physically and emotionally impossible to ignore.
+
+The emotional atmosphere matters most. Fear may reflect emotional overwhelm or control, while calmness may point toward transformation, emotional connection, instinct, healing, or emotional integration.`,
+
+  spiritual:
+    `This dream can reflect emotional entanglement, transformation, energetic pressure, intimacy, fear, awakening, emotional attachment, or the growing realization that something powerful is deeply affecting your emotional or spiritual state.
+
+Sometimes it appears during periods where emotional intensity, relationships, vulnerability, fear, emotional dependency, stress, transformation, or hidden emotional truths are becoming stronger beneath the surface.
+
+For some people, a snake wrapping around the body symbolizes spiritual awakening, life force energy, transformation, healing, emotional intensity, or deep emotional connection developing internally.
+
+Others see it as emotional restriction, energetic overwhelm, manipulation, emotional captivity, unhealthy attachment, or emotional pressure affecting personal peace and freedom.
+
+The emotional tone matters most. Fear and suffocation may reflect emotional overwhelm or unhealthy control, while calmness may point toward transformation, emotional healing, intimacy, awareness, or powerful internal change unfolding beneath the surface.`,
+
+  wakingLife:
+    `This dream often appears during emotionally intense or emotionally consuming periods where attachment, pressure, relationships, fear, anxiety, intimacy, emotional overwhelm, or hidden emotional tension feel especially active.
+
+You may be dealing with controlling dynamics, emotional dependence, relationship tension, intimacy issues, emotional pressure, stress, toxic attachment, emotional confusion, vulnerability, or situations that feel emotionally difficult to separate yourself from.
+
+Sometimes the dream reflects emotional suffocation. Feeling overwhelmed by responsibilities, relationships, emotional expectations, or situations that are taking too much emotional energy from you.
+
+It can also appear during periods of emotional transformation where vulnerability, emotional truth, intimacy, healing, or deep emotional experiences are becoming harder to avoid or suppress internally.
+
+In some cases, the dream mirrors strong emotional attachment. Feeling deeply connected, emotionally consumed, or emotionally affected by someone or something in ways that feel both powerful and difficult to fully control.
+
+The dream reflects your emotional relationship with attachment, control, intimacy, transformation, fear, emotional pressure, vulnerability, and emotional intensity.`,
+
+  summary:
+    "A snake wrapping around you in a dream often reflects emotional pressure, attachment, control, intimacy, fear, transformation, or situations that feel emotionally consuming or difficult to escape from. These dreams commonly appear during emotionally intense periods and highlight themes of vulnerability, emotional entanglement, fear, intimacy, hidden tension, emotional overwhelm, transformation, and the powerful influence certain emotions or relationships can have over your inner world.",
+
+  categories: [
+    "Animals",
+    "Relationships",
+    "Fear",
+    "Hidden Emotions",
+    "Transformation",
+    "Spiritual"
+  ]
+},
+{
+  slug: "cobra",
+  title: "Cobra",
+
+  microSummary:
+    "Dreams about a cobra often reflect fear, hidden danger, power, intimidation, emotional tension, transformation, or situations that feel emotionally intense, unpredictable, or deeply threatening beneath the surface.",
+
+  shortDescription:
+    "Seeing a cobra rise, watch you, or prepare to strike while tension quietly builds. The dream often feels intense, alert, emotionally charged, or filled with the sense that something powerful should not be underestimated.",
+
+  description:
+    `Seeing a cobra in a dream can feel terrifying, intense, emotionally overwhelming, or strangely powerful because cobras carry a stronger sense of danger, awareness, and presence than many other snakes. Sometimes the cobra stands still watching you closely. Other times, it expands its hood, chases, threatens, or prepares to attack, creating immediate emotional tension.
+
+These dreams commonly appear during periods involving fear, anxiety, emotional pressure, intimidation, hidden tension, mistrust, power struggles, emotional overwhelm, transformation, conflict, insecurity, jealousy, emotional instability, or situations where something feels emotionally dangerous, unpredictable, or impossible to ignore.
+
+The behavior of the cobra matters.
+A cobra staring at you may symbolize emotional tension, intimidation, hidden awareness, fear, emotional truth, or sensing danger before it fully reveals itself.
+A cobra attacking or biting you can reflect betrayal, emotional wounds, conflict, manipulation, toxic situations, emotional shock, or hidden tension becoming emotionally unavoidable.
+A calm cobra may symbolize emotional awareness, instinct, transformation, inner power, emotional intelligence, or dangerous situations being recognized before they escalate further.
+
+The feeling matters most. If the dream feels terrifying or threatening, it may reflect emotional fear, anxiety, insecurity, hidden conflict, emotional pressure, or situations that feel emotionally unsafe or emotionally charged. If the dream feels calm but powerful, it can point toward emotional awareness, intuition, transformation, personal power, or deep emotional truths becoming impossible to ignore.`,
+
+  emotional:
+    `There is usually strong emotional alertness throughout this dream.
+
+Sometimes the strongest feeling is fear. The awareness that something emotionally dangerous, unpredictable, or powerful is close enough to affect you directly.
+
+There can also be tension and hyper-awareness. Feeling emotionally cautious, alert, or unable to fully relax because something feels emotionally unstable beneath the surface.
+
+In some cases, the dream reflects intimidation. Feeling emotionally overpowered by a person, situation, emotion, or conflict that feels difficult to challenge safely.
+
+At times, the emotion becomes fascination or respect. Recognizing emotional power, intensity, or awareness even while it still feels dangerous or emotionally overwhelming.
+
+Sometimes the dream reflects emotional intuition. Quietly sensing emotional danger, dishonesty, instability, manipulation, or hidden tension before it fully becomes visible externally.`,
+
+  symbolic:
+    `A cobra in a dream often symbolizes hidden danger, emotional tension, fear, intimidation, power, transformation, instinct, emotional awareness, manipulation, betrayal, or emotionally intense situations demanding attention.
+
+The cobra's raised hood and alert posture often symbolize warning, protection, defense, emotional readiness, or awareness of danger before direct attack happens.
+
+Sometimes the dream reflects external conflict — toxic relationships, manipulation, power struggles, emotional instability, dishonesty, jealousy, intimidation, or emotionally threatening situations.
+
+It can also symbolize internal emotional tension. Anxiety, fear, suppressed emotions, emotional overwhelm, instinct, emotional awakening, or truths becoming harder to ignore beneath the surface.
+
+In some cases, the cobra represents personal power itself. Emotional strength, awareness, intuition, or emotional intensity that feels both dangerous and transformative at the same time.
+
+The emotional atmosphere matters most. Fear may reflect emotional insecurity or instability, while calm observation may point toward awareness, intuition, emotional intelligence, transformation, or emotional power becoming more conscious.`,
+
+  spiritual:
+    `This dream can reflect emotional intensity, spiritual awakening, fear, transformation, intuition, hidden emotional energy, personal power, or the growing awareness that something emotionally important is shifting beneath the surface.
+
+Sometimes it appears during periods where anxiety, emotional pressure, unresolved fear, emotional overwhelm, hidden tension, power struggles, or emotional transformation are becoming stronger internally.
+
+For some people, cobras symbolize spiritual danger, hidden enemies, manipulation, fear-based environments, emotional toxicity, or intense emotional energy affecting inner peace and stability.
+
+Others see cobras as symbols of awakening, protection, wisdom, heightened awareness, life force energy, emotional transformation, or powerful internal change emerging through emotionally intense experiences.
+
+The emotional tone matters most. Terror may reflect emotional overwhelm or instability, while calmness may point toward intuition, emotional awareness, protection, transformation, or growing recognition of your own emotional strength and instinct.`,
+
+  wakingLife:
+    `This dream often appears during emotionally intense or uncertain periods where fear, tension, anxiety, mistrust, emotional pressure, conflict, insecurity, or emotionally charged situations feel especially active.
+
+You may be dealing with power struggles, emotional manipulation, dishonesty, toxic relationships, emotional instability, fear of betrayal, intimidation, stress, hidden conflict, jealousy, or situations that feel emotionally unpredictable or emotionally unsafe.
+
+Sometimes the dream reflects emotional intuition. Quietly sensing danger, instability, dishonesty, emotional tension, or conflict before it becomes fully obvious externally.
+
+It can also appear during periods of emotional transformation where fears, emotional truths, personal power, emotional awareness, or intense emotional experiences are becoming harder to suppress or ignore internally.
+
+In some cases, the dream mirrors emotional survival instincts. Becoming more emotionally alert, aware, defensive, or protective of your emotional boundaries and personal peace.
+
+The dream reflects your emotional relationship with fear, power, intuition, emotional awareness, hidden tension, protection, emotional intensity, transformation, and emotional survival.`,
+
+  summary:
+    "A cobra in a dream often reflects fear, hidden danger, emotional tension, intimidation, transformation, or emotionally intense situations demanding attention. These dreams commonly appear during stressful or transformative periods and highlight themes of awareness, intuition, emotional power, hidden conflict, fear, protection, emotional survival, and the growing realization that something beneath the surface should not be ignored.",
+
+  categories: [
+    "Animals",
+    "Fear",
+    "Anxiety",
+    "Spiritual",
+    "Transformation",
+    "Hidden Emotions"
+  ]
+},
+{
   slug: "running",
   title: "Running",
   description: "Moving quickly, trying to get somewhere or away from something. It often feels urgent, even if you’re not fully sure why.",
@@ -891,6 +1730,91 @@ At the same time, it might be worth noticing why things feel slowed. Not everyth
 
   categories: ["Fear", "Anxiety", "Inner Conflict", "Transitions", "Work", "Money", "Identity"]
 },
+{
+  slug: "white-snake",
+  title: "White snake",
+
+  microSummary:
+    "Dreams about a white snake often reflect intuition, transformation, emotional awareness, healing, hidden truth, spiritual growth, or emotions that feel pure, mysterious, or deeply significant beneath the surface.",
+
+  shortDescription:
+    "Seeing a white snake appear quietly, calmly, or intensely in your dream. The dream often feels emotionally meaningful, mysterious, spiritual, or strangely peaceful despite the snake’s presence.",
+
+  description:
+    `Seeing a white snake in a dream can feel mysterious, emotionally intense, peaceful, or deeply symbolic because the white color changes the emotional atmosphere surrounding the snake. Instead of pure danger or fear, the dream often carries themes of awareness, transformation, emotional truth, healing, intuition, or spiritual significance beneath the surface.
+
+These dreams commonly appear during periods involving emotional growth, healing, self-awareness, transformation, intuition, vulnerability, spiritual reflection, emotional clarity, hidden emotions, relationship shifts, emotional awakening, or situations where deeper truths are slowly becoming visible internally.
+
+The behavior of the white snake matters.
+A calm white snake may symbolize healing, intuition, emotional awareness, wisdom, transformation, or emotional truths becoming easier to understand.
+A white snake watching you can reflect emotional awareness, hidden truth, spiritual attention, or the sense that something important beneath the surface is trying to reveal itself.
+A white snake attacking or biting you may symbolize emotional shock, painful truth, transformation through discomfort, betrayal from someone trusted, or emotional awakening arriving in an intense way.
+
+The feeling matters most. If the dream feels peaceful or emotionally meaningful, it may reflect healing, intuition, transformation, spiritual awareness, or emotional clarity. If the dream feels unsettling or emotionally intense, it can point toward emotional vulnerability, hidden tension, emotional truth, or changes that feel emotionally difficult but necessary for growth.`,
+
+  emotional:
+    `There is usually emotional depth throughout this dream.
+
+Sometimes the strongest feeling is curiosity or calmness. The awareness that the snake feels emotionally important without necessarily feeling dangerous.
+
+There can also be emotional tension and uncertainty. Feeling emotionally drawn toward something mysterious, intense, or emotionally revealing while still feeling slightly cautious.
+
+In some cases, the dream reflects emotional healing. Becoming more emotionally open, aware, vulnerable, or connected to your deeper emotional truth.
+
+At times, the emotion becomes awe or emotional recognition. Quietly sensing that something meaningful, transformative, or spiritually important is unfolding internally.
+
+Sometimes the dream reflects emotional sensitivity. Feeling emotionally aware of hidden emotions, emotional truth, intuition, or emotional energy that previously stayed beneath the surface.`,
+
+  symbolic:
+    `A white snake in a dream often symbolizes healing, intuition, transformation, emotional awareness, hidden truth, spiritual growth, emotional clarity, vulnerability, wisdom, or emotionally significant change.
+
+The snake itself still carries themes of instinct, hidden emotion, fear, truth, and transformation, but the white color softens or elevates the symbolism toward awareness, healing, purity, awakening, or emotional understanding.
+
+Sometimes the dream reflects emotional clarity slowly emerging after confusion, fear, emotional instability, or emotional suppression.
+
+It can also symbolize emotional awakening. Becoming more aware of your intuition, emotional truth, hidden emotions, personal needs, or emotional patterns that were previously difficult to fully see.
+
+In some cases, the white snake represents emotional transformation happening in a gentler or more conscious way rather than through fear alone.
+
+The emotional atmosphere matters most. Peace may reflect healing and awareness, while discomfort may point toward emotional truths or changes that still feel emotionally unfamiliar or emotionally exposing.`,
+
+  spiritual:
+    `This dream can reflect intuition, spiritual awakening, emotional healing, transformation, emotional clarity, hidden truth, or deeper awareness developing beneath the surface emotionally or spiritually.
+
+Sometimes it appears during periods where healing, vulnerability, emotional reflection, intuition, emotional honesty, or personal transformation are becoming stronger internally.
+
+For some people, white snakes symbolize purity, wisdom, spiritual protection, awakening, emotional cleansing, higher awareness, or transformation guided through emotional understanding rather than fear.
+
+Others see them as symbols of emotional truth becoming visible. Hidden emotions, fears, wounds, or realizations surfacing in ways that feel emotionally meaningful and spiritually important.
+
+The emotional tone matters most. Calmness may reflect healing, awareness, and alignment, while emotional intensity may point toward transformation, awakening, vulnerability, or emotional truths becoming impossible to ignore.`,
+
+  wakingLife:
+    `This dream often appears during emotionally reflective or transformative periods where healing, emotional awareness, intuition, vulnerability, emotional clarity, or hidden emotional truths feel especially active.
+
+You may be becoming more emotionally honest with yourself, recognizing emotional patterns more clearly, healing from past emotional wounds, or feeling emotionally drawn toward deeper self-understanding.
+
+Sometimes the dream reflects intuition becoming stronger. Quietly sensing emotional truth, emotional shifts, or deeper awareness before your logical mind fully explains it.
+
+It can also appear during periods of emotional transformation where old emotional patterns, fears, insecurities, or hidden feelings are beginning to surface more consciously.
+
+In some cases, the dream mirrors emotional sensitivity. Feeling more emotionally aware, vulnerable, intuitive, spiritually reflective, or emotionally connected to yourself and others.
+
+The dream reflects your emotional relationship with healing, intuition, emotional truth, vulnerability, transformation, awareness, emotional clarity, and spiritual or emotional growth.`,
+
+summary:
+  "A white snake in a dream often reflects emotional healing, intuition, transformation, or hidden truths slowly becoming visible. These dreams commonly appear during emotionally reflective periods and highlight themes of awareness, vulnerability, spiritual growth, emotional clarity, and deeper self-understanding.",
+
+  categories: [
+    "Animals",
+    "Spiritual",
+    "Transformation",
+    "Hidden Emotions",
+    "Identity",
+    "Relationships"
+  ]
+},
+
 {
   slug: "being-in-the-ocean",
   title: "Being in the ocean",
@@ -1054,6 +1978,90 @@ The dream mirrors your emotional relationship with vulnerability, conflict, emot
   ]
 },
 {
+  slug: "waves",
+  title: "Waves",
+
+  microSummary:
+    "Wave dreams often reflect emotional intensity, change, overwhelm, emotional release, or feelings rising and shifting beneath the surface.",
+
+  shortDescription:
+    "Watching waves rise, crash, pull, or move around you. The dream can feel calming, overwhelming, powerful, or emotionally unpredictable depending on the size and movement of the water.",
+
+  description:
+    `Seeing waves in a dream can feel peaceful, emotionally intense, overwhelming, or deeply symbolic because waves often mirror the movement of emotions themselves. Sometimes the waves are calm and rhythmic. Other times, they become enormous, violent, unpredictable, or impossible to escape as emotional tension quickly builds.
+
+These dreams commonly appear during periods involving emotional change, overwhelm, anxiety, emotional release, instability, stress, emotional reflection, life transitions, vulnerability, hidden emotions, uncertainty, or situations where feelings are becoming too strong to remain beneath the surface.
+
+The condition of the waves matters.
+Gentle waves may symbolize emotional balance, healing, reflection, emotional flow, or calm emotional movement beneath the surface.
+Large or violent waves can reflect emotional overwhelm, stress, instability, anxiety, fear, emotional pressure, or situations that feel emotionally consuming.
+Being pulled by waves may symbolize losing emotional control, emotional vulnerability, instability, or feeling emotionally carried by circumstances stronger than your ability to resist.
+
+The feeling matters most. If the dream feels frightening or chaotic, it may reflect emotional overwhelm, instability, anxiety, or emotions becoming difficult to control. If the dream feels peaceful or reflective, it can point toward emotional awareness, healing, acceptance, emotional movement, or learning to move with emotions rather than resist them.`,
+
+  emotional:
+    `There is usually emotional movement throughout this dream.
+
+Sometimes the strongest feeling is overwhelm. The awareness that emotions, stress, pressure, or life situations feel stronger than your ability to comfortably manage them.
+
+There can also be fear and unpredictability. Feeling emotionally uncertain because things continue shifting faster or more intensely than expected.
+
+In some cases, the dream reflects emotional release. Feelings that have remained beneath the surface finally moving outward instead of staying emotionally contained.
+
+At times, the emotion becomes calmness or emotional reflection. Watching emotions move naturally without needing to fully control them.
+
+Sometimes the dream reflects emotional vulnerability. Feeling emotionally affected by situations, people, or inner experiences that continue pulling at you internally.`,
+
+  symbolic:
+    `Waves in a dream often symbolize emotions, emotional movement, instability, emotional release, overwhelm, change, vulnerability, healing, emotional cycles, or feelings rising from beneath the surface.
+
+The ocean and waves together often represent the unconscious emotional world — emotions too large, deep, or constantly shifting to fully control.
+
+Sometimes the dream reflects emotional overwhelm. Stress, fear, anxiety, responsibilities, conflict, or emotional instability building until emotions begin crashing into conscious awareness.
+
+It can also symbolize emotional flow and healing. The natural movement of feelings through different phases instead of remaining emotionally stuck.
+
+In some cases, waves represent life itself — periods of calm followed by emotional intensity, uncertainty, transition, or emotional change.
+
+The emotional atmosphere matters most. Fear may reflect emotional instability or overwhelm, while calm observation may point toward acceptance, emotional awareness, reflection, or emotional balance developing slowly over time.`,
+
+  spiritual:
+    `This dream can reflect emotional flow, transformation, emotional release, spiritual transition, inner movement, healing, or the growing awareness that emotions are shifting beneath the surface in ways that can no longer remain fully hidden.
+
+Sometimes it appears during periods where emotional overwhelm, stress, vulnerability, emotional growth, reflection, instability, or personal transformation are becoming emotionally significant internally.
+
+For some people, waves symbolize cleansing, renewal, emotional release, spiritual movement, intuition, or emotional energy naturally moving through different phases.
+
+Others see waves as reminders that emotions cannot always be controlled completely. They rise, shift, crash, settle, and return again in cycles.
+
+The emotional tone matters most. Violent waves may reflect emotional overwhelm or instability, while gentle waves may point toward healing, emotional balance, acceptance, reflection, or spiritual and emotional flow.`,
+
+  wakingLife:
+    `This dream often appears during emotionally active or transitional periods where stress, emotional intensity, change, overwhelm, vulnerability, uncertainty, emotional pressure, or hidden feelings feel especially strong.
+
+You may be dealing with emotional highs and lows, relationship tension, anxiety, stress, emotional release, grief, major decisions, personal growth, or situations that feel emotionally unpredictable or difficult to stabilize.
+
+Sometimes the dream reflects emotional buildup. Feelings you have been holding internally finally becoming harder to contain or ignore.
+
+It can also appear during periods of emotional healing where emotions are finally moving instead of staying emotionally suppressed or frozen.
+
+In some cases, the dream mirrors your emotional sensitivity. Feeling deeply affected by situations, people, environments, or internal experiences that continue shifting emotionally around you.
+
+The dream reflects your emotional relationship with change, emotional flow, overwhelm, vulnerability, healing, instability, emotional depth, and emotional movement.`,
+
+  summary:
+    "Waves in a dream often reflect emotional movement, overwhelm, change, vulnerability, or feelings rising beneath the surface. These dreams commonly appear during emotionally active or transitional periods and highlight themes of emotional intensity, healing, instability, emotional release, reflection, uncertainty, and the natural movement of emotions through different phases of life.",
+
+  categories: [
+    "Water",
+    "Hidden Emotions",
+    "Fear",
+    "Anxiety",
+    "Transformation",
+    "Spiritual"
+  ]
+},
+{
   slug: "swimming-at-a-beach-or-in-a-pool",
   title: "Swimming at a beach or in a pool",
   description: "Being in water, moving through it, adjusting to it. It can feel calm, controlled, or slightly uncertain — depending on how steady you feel while you’re in it.",
@@ -1103,7 +2111,7 @@ Either way, you’re in it — not avoiding it.`,
 
   summary: `A sense of moving through your emotions. This dream often reflects how you’re handling what you feel — whether with ease, effort, or uncertainty. It can point to both awareness and adjustment, depending on how steady the experience feels.`,
 
-  categories: ["Hidden Emotions", "Transitions", "Spiritual", "Inner Conflict", "Identity"]
+  categories: ["Hidden Emotions","Water", "Transitions", "Spiritual", "Inner Conflict", "Identity"]
 },
 {
   slug: "drowning",
@@ -1930,6 +2938,173 @@ The dream mirrors your emotional relationship with pressure, commitment, stabili
   ]
 },
 {
+  slug: "hiding-from-someone",
+  title: "Hiding from someone",
+
+  microSummary:
+    "Dreams about hiding from someone often reflect avoidance, fear, emotional pressure, anxiety, vulnerability, or situations you do not fully feel ready to confront directly.",
+
+  shortDescription:
+    "Trying to stay unseen while someone searches for you or gets dangerously close. The dream often feels tense, quiet, urgent, or emotionally exhausting beneath the surface.",
+
+  description:
+    `Hiding from someone in a dream can feel stressful, tense, emotionally draining, or deeply unsettling because the pressure never fully disappears. Sometimes you know exactly who you are hiding from. Other times, the person feels unclear, unfamiliar, or symbolic, yet the fear still feels emotionally real.
+
+These dreams commonly appear during periods involving anxiety, emotional avoidance, fear of confrontation, pressure, insecurity, guilt, emotional overwhelm, relationship tension, stress, or situations where you feel emotionally unsafe, exposed, vulnerable, or unprepared to fully face something directly.
+
+The type of hiding matters.
+Hiding inside a house or room may reflect emotional withdrawal, protection, insecurity, or needing distance from emotionally overwhelming situations.
+Hiding while being chased can symbolize avoidance, pressure, fear, unresolved conflict, or emotional exhaustion from constantly trying to stay ahead of something stressful.
+Being discovered while hiding may reflect fear of exposure, vulnerability, emotional truth surfacing, or anxiety surrounding judgment and confrontation.
+
+The feeling matters most. If the dream feels panicked or desperate, it may reflect emotional overwhelm, fear, pressure, anxiety, or situations that feel emotionally threatening or difficult to escape. If the dream feels quieter or emotionally heavy instead, it can point toward emotional exhaustion, avoidance, insecurity, or the growing awareness that something can no longer be ignored forever.`,
+
+  emotional:
+    `There is usually emotional tension throughout this dream.
+
+Sometimes the strongest feeling is fear. Not always physical danger, but emotional exposure, confrontation, judgment, rejection, or the possibility of something difficult finally catching up to you.
+
+There can also be anxiety and hyper-awareness. Listening carefully, staying quiet, trying not to be noticed while emotionally carrying pressure internally.
+
+In some cases, the dream reflects exhaustion. Feeling emotionally tired from constantly avoiding situations, emotions, responsibilities, or conversations that continue creating stress beneath the surface.
+
+At times, the dream creates helplessness. Wanting safety or escape while feeling unsure whether hiding is actually protecting you anymore.
+
+Sometimes the emotion reflects vulnerability. Feeling emotionally unprepared, exposed, insecure, or afraid of what might happen if someone truly sees what you are hiding emotionally.`,
+
+  symbolic:
+    `Hiding from someone in a dream often symbolizes avoidance, fear, emotional pressure, insecurity, anxiety, vulnerability, guilt, unresolved conflict, or situations you do not feel emotionally ready to confront directly.
+
+The person searching for you often represents something emotionally active in your life that continues demanding attention whether you want to face it or not.
+
+Sometimes the dream reflects emotional suppression. Avoiding difficult truths, uncomfortable emotions, conflict, pressure, painful memories, or situations that feel emotionally overwhelming.
+
+It can also symbolize fear of being emotionally exposed, judged, criticized, rejected, or misunderstood.
+
+In some cases, the dream reflects internal conflict more than external danger. Trying to hide from parts of yourself, your emotions, your fears, or realities you are struggling to fully accept.
+
+The emotional atmosphere matters most. Panic may reflect emotional overwhelm or avoidance under pressure, while quiet hiding may point toward emotional withdrawal, insecurity, exhaustion, or emotional self-protection.`,
+
+  spiritual:
+    `This dream can reflect emotional avoidance, inner conflict, fear, vulnerability, or resistance toward truths, emotions, or changes becoming harder to emotionally escape.
+
+Sometimes it appears during periods where unresolved emotions, anxiety, emotional wounds, pressure, guilt, or difficult realizations are becoming more emotionally active beneath the surface.
+
+For some people, hiding symbolizes emotional self-protection. Trying to preserve emotional safety while feeling overwhelmed, uncertain, or emotionally unprepared for confrontation or change.
+
+It can also reflect the tension between avoidance and awareness. Part of you wanting distance from something emotionally difficult while another part already knows it cannot stay hidden forever.
+
+The emotional tone matters most. Fear and panic may reflect emotional overwhelm and instability, while quiet hiding may point toward emotional exhaustion, insecurity, reflection, or needing temporary emotional space before confronting something directly.`,
+
+  wakingLife:
+    `This dream often appears during emotionally stressful periods where you are avoiding something difficult, emotionally intense, or uncomfortable.
+
+You may be dealing with anxiety, pressure, unresolved conflict, emotional overwhelm, relationship tension, fear of confrontation, guilt, responsibilities, insecurity, or situations where you feel emotionally vulnerable or exposed.
+
+Sometimes the dream reflects emotional burnout. Wanting to withdraw, escape, or emotionally disappear from pressure that feels difficult to manage.
+
+It can also appear when you are suppressing emotions or avoiding important conversations, decisions, responsibilities, or truths that continue creating emotional tension internally.
+
+In some cases, the dream mirrors fear of judgment, rejection, criticism, failure, emotional exposure, or not feeling emotionally safe enough to fully reveal how you truly feel.
+
+The dream reflects your emotional relationship with fear, vulnerability, avoidance, confrontation, emotional safety, pressure, and emotional readiness.`,
+
+  summary:
+    "Hiding from someone in a dream often reflects emotional avoidance, fear, anxiety, pressure, insecurity, or situations you do not feel fully ready to confront directly. These dreams commonly appear during emotionally stressful periods and highlight themes of vulnerability, emotional self-protection, unresolved tension, fear of exposure, inner conflict, and the growing awareness that certain emotions or situations cannot stay hidden forever.",
+
+  categories: [
+    "Fear",
+    "Anxiety",
+    "Inner Conflict",
+    "Hidden Emotions",
+    "Relationships",
+    "Transformation"
+  ]
+},{
+  slug: "escaping-danger",
+  title: "Escaping danger",
+
+  microSummary:
+    "Dreams about escaping danger often reflect emotional pressure, survival instincts, anxiety, fear, or situations in your waking life that feel overwhelming, threatening, or difficult to fully escape from.",
+
+  shortDescription:
+    "Trying to get away from something dangerous before it reaches you. The dream often feels urgent, intense, emotionally stressful, or filled with pressure to survive or escape in time.",
+
+  description:
+    `Escaping danger in a dream can feel terrifying, intense, emotionally exhausting, or deeply stressful because the threat usually feels immediate and real. Sometimes you are running from a person, attack, disaster, animal, accident, or unknown force. Other times, the danger itself is unclear, yet the feeling of urgency remains extremely strong.
+
+These dreams commonly appear during periods involving stress, anxiety, emotional overwhelm, fear, pressure, conflict, uncertainty, survival instincts, burnout, relationship tension, major life changes, or situations where you feel emotionally unsafe, trapped, threatened, or unable to fully relax.
+
+The type of danger matters.
+Escaping from a person may reflect emotional conflict, fear of confrontation, manipulation, pressure, or situations that feel emotionally threatening.
+Escaping disasters or destruction can symbolize overwhelm, emotional instability, anxiety, sudden change, or fear of losing control.
+Barely escaping danger may reflect emotional exhaustion, pressure, survival mode, or the feeling that you are constantly trying to stay ahead of problems before they fully reach you.
+
+The feeling matters most. If the dream feels panicked or desperate, it may reflect emotional overwhelm, anxiety, fear, instability, or situations that feel emotionally unsafe or difficult to control. If the escape feels successful or relieving, it can point toward resilience, emotional survival, inner strength, or the growing awareness that you are capable of protecting yourself and moving beyond difficult situations.`,
+
+  emotional:
+    `There is usually strong emotional pressure throughout this dream.
+
+Sometimes the strongest feeling is fear. The awareness that something dangerous, overwhelming, or emotionally threatening is getting too close.
+
+There can also be panic and urgency. Trying to think quickly, move quickly, or survive emotionally before things become worse.
+
+In some cases, the dream reflects emotional exhaustion. Feeling mentally drained from constantly managing pressure, stress, fear, responsibilities, or emotionally difficult situations.
+
+At times, the emotion becomes helplessness. Wanting safety or escape while feeling unsure whether you can fully outrun what is chasing or threatening you emotionally.
+
+Sometimes the dream creates relief afterward. The emotional release of surviving something that felt emotionally intense, overwhelming, or impossible to fully control.`,
+
+  symbolic:
+    `Escaping danger in a dream often symbolizes emotional survival, anxiety, pressure, fear, avoidance, stress, instability, emotional overwhelm, or situations you feel emotionally threatened by in waking life.
+
+The danger itself usually represents something emotionally active that feels difficult, consuming, unpredictable, or hard to fully control.
+
+Sometimes the dream reflects external pressure — conflict, responsibilities, unhealthy environments, relationship tension, work stress, or emotionally draining situations.
+
+It can also symbolize internal struggles. Anxiety, fear, guilt, emotional wounds, burnout, insecurity, or thoughts that continue creating emotional pressure beneath the surface.
+
+In some cases, the dream reflects resilience. The instinct to protect yourself emotionally even during difficult or overwhelming periods.
+
+The emotional atmosphere matters most. Panic may reflect emotional instability or overwhelm, while successful escape may point toward emotional strength, survival, adaptability, or growing confidence in your ability to move through difficult situations.`,
+
+  spiritual:
+    `This dream can reflect emotional survival, spiritual exhaustion, fear, vulnerability, or the need to protect yourself from situations, environments, emotions, or energies that no longer feel emotionally safe or healthy.
+
+Sometimes it appears during periods where stress, emotional conflict, uncertainty, fear, or major life changes are becoming emotionally overwhelming beneath the surface.
+
+For some people, escaping danger symbolizes breaking away from emotional patterns, toxic situations, fear-based thinking, unhealthy attachment, or emotional environments that feel restrictive or harmful.
+
+It can also reflect awareness. Recognizing internally that something in your life is creating emotional instability or pressure that can no longer be ignored.
+
+The emotional tone matters most. Panic may reflect emotional overwhelm or fear, while relief after escape may point toward resilience, protection, emotional growth, or movement away from situations that no longer feel emotionally sustainable.`,
+
+  wakingLife:
+    `This dream often appears during emotionally stressful or overwhelming periods where you feel pressure, fear, instability, conflict, anxiety, or emotional exhaustion.
+
+You may be dealing with relationship problems, work pressure, emotional burnout, uncertainty, difficult decisions, conflict, fear of failure, financial stress, toxic environments, or situations that feel emotionally draining or unsafe.
+
+Sometimes the dream reflects emotional survival mode. Constantly trying to stay ahead of responsibilities, pressure, fear, or situations that feel emotionally difficult to manage.
+
+It can also appear when you are avoiding confrontation, difficult truths, emotional pain, or major changes that continue creating emotional tension internally.
+
+In some cases, the dream mirrors resilience. The awareness that even though things feel overwhelming, part of you is still fighting to protect yourself emotionally and move forward safely.
+
+The dream reflects your emotional relationship with survival, fear, pressure, anxiety, resilience, emotional safety, and the instinct to escape what feels overwhelming or harmful.`,
+
+  summary:
+    "Escaping danger in a dream often reflects emotional pressure, anxiety, fear, survival instincts, or situations that feel emotionally overwhelming or difficult to fully escape from. These dreams commonly appear during stressful periods and highlight themes of emotional survival, vulnerability, pressure, resilience, instability, avoidance, and the desire to regain safety, control, and emotional stability.",
+
+  categories: [
+    "Fear",
+    "Anxiety",
+    "Inner Conflict",
+    "Hidden Emotions",
+    "Transformation",
+    "Spiritual"
+  ]
+},
+{
   slug: "escaping-something",
   title: "Escaping something",
   description: "Getting out of a situation that felt restricting or intense. It often comes with urgency at first, then a shift — like something loosens once you’re out.",
@@ -2544,6 +3719,426 @@ At its core, this dream may be asking you to notice where in your waking life yo
     "Death",
     "Transformation",
   ],
+},
+{
+  slug: "water-rising",
+  title: "Water rising",
+
+  microSummary:
+    "Rising water dreams often reflect growing emotions, overwhelm, pressure, anxiety, or situations becoming harder to emotionally contain or ignore.",
+
+  shortDescription:
+    "Watching water slowly or suddenly rise around you while tension, urgency, or emotional pressure builds. The dream often feels overwhelming, emotionally intense, unstable, or difficult to control.",
+
+  description:
+    `Seeing water rising in a dream can feel stressful, emotionally overwhelming, tense, or deeply symbolic because rising water often mirrors emotions becoming stronger beneath the surface. Sometimes the water rises slowly, creating growing unease. Other times, it rises rapidly and creates panic as emotional pressure quickly becomes impossible to ignore.
+
+These dreams commonly appear during periods involving emotional overwhelm, anxiety, stress, emotional buildup, hidden emotions, pressure, instability, emotional exhaustion, fear, relationship tension, uncertainty, burnout, emotional vulnerability, or situations where feelings are becoming too strong to continue suppressing.
+
+The way the water rises matters.
+Slowly rising water may symbolize emotional buildup, stress accumulating over time, growing emotional pressure, or feelings becoming harder to manage quietly.
+Rapidly rising water can reflect emotional flooding, panic, emotional instability, overwhelming situations, sudden stress, or emotions escalating faster than expected.
+Trying to escape the water may symbolize emotional survival, avoidance, fear of losing control, or attempts to protect yourself emotionally from becoming overwhelmed.
+
+The feeling matters most. If the dream feels frightening or chaotic, it may reflect emotional overwhelm, instability, fear, anxiety, or situations emotionally consuming your sense of control and safety. If the dream feels quieter or reflective, it can point toward emotional awareness, emotional buildup becoming visible, or the recognition that something emotionally important can no longer remain beneath the surface.`,
+
+  emotional:
+    `There is usually emotional pressure throughout this dream.
+
+Sometimes the strongest feeling is overwhelm. The awareness that emotions, stress, pressure, or life situations are steadily becoming too much to comfortably manage.
+
+There can also be panic and urgency. Feeling emotionally trapped or emotionally threatened as situations continue intensifying around you.
+
+In some cases, the dream reflects emotional buildup. Feelings remaining suppressed for too long until they begin rising into conscious awareness.
+
+At times, the emotion becomes helplessness. Wanting emotional control or stability while feeling emotionally consumed by circumstances, fear, or uncertainty.
+
+Sometimes the dream reflects emotional awareness. Quietly realizing that something emotionally significant has been building beneath the surface for longer than you initially admitted to yourself.`,
+
+  symbolic:
+    `Rising water in a dream often symbolizes growing emotions, emotional overwhelm, stress, pressure, instability, hidden emotions surfacing, anxiety, emotional buildup, vulnerability, or situations becoming emotionally difficult to control.
+
+Water usually represents emotions and the unconscious emotional world. When the water rises, it often reflects emotions becoming stronger, more visible, or impossible to continue avoiding.
+
+Sometimes the dream reflects external overwhelm — stressful situations, emotional conflict, relationship tension, responsibilities, anxiety, fear, or life changes increasing emotional pressure internally.
+
+It can also symbolize suppressed emotions rising into awareness. Sadness, fear, anger, anxiety, grief, emotional exhaustion, or unresolved feelings becoming emotionally unavoidable.
+
+In some cases, rising water represents emotional transition. Emotional shifts happening gradually until they reach a point where change can no longer be ignored.
+
+The emotional atmosphere matters most. Panic may reflect emotional instability or overwhelm, while awareness of the rising water may point toward emotional honesty, recognition, or emotional awakening beginning beneath the surface.`,
+
+  spiritual:
+    `This dream can reflect emotional awakening, emotional buildup, overwhelm, transformation, emotional release, spiritual pressure, vulnerability, or the growing awareness that hidden emotions are becoming impossible to ignore internally.
+
+Sometimes it appears during periods where anxiety, stress, emotional suppression, unresolved emotions, emotional intensity, burnout, or major emotional shifts are becoming emotionally significant beneath the surface.
+
+For some people, rising water symbolizes emotional cleansing. Buried emotions surfacing so healing, awareness, or emotional release can eventually happen.
+
+Others see it as emotional overload. Feeling spiritually and emotionally consumed by pressure, instability, fear, or unresolved emotional tension.
+
+The emotional tone matters most. Fear may reflect emotional overwhelm or instability, while calmer awareness may point toward emotional awakening, honesty, healing, or emotional truths becoming visible enough to finally confront directly.`,
+
+  wakingLife:
+    `This dream often appears during emotionally overwhelming or emotionally pressured periods where stress, anxiety, emotional buildup, instability, conflict, emotional vulnerability, uncertainty, or hidden emotions feel especially active.
+
+You may be dealing with emotional burnout, relationship tension, stress, emotional suppression, fear of losing control, overwhelming responsibilities, emotional instability, or situations where emotions are becoming harder to contain internally.
+
+Sometimes the dream reflects emotional suppression. Feelings you have ignored, minimized, or emotionally pushed aside slowly becoming impossible to continue avoiding.
+
+It can also appear during periods of emotional transition where internal emotions are shifting more deeply than you consciously realized.
+
+In some cases, the dream mirrors fear surrounding emotional overwhelm, vulnerability, instability, or losing emotional control when pressure becomes too intense.
+
+The dream reflects your emotional relationship with overwhelm, emotional pressure, vulnerability, hidden emotions, emotional awareness, instability, emotional release, and emotional survival.`,
+
+  summary:
+    "Rising water in a dream often reflects growing emotions, overwhelm, anxiety, pressure, or feelings becoming too strong to contain or ignore. These dreams commonly appear during emotionally intense periods and highlight themes of emotional buildup, vulnerability, instability, emotional release, hidden tension, emotional awareness, transformation, and the struggle to manage emotions before they become overwhelming.",
+
+  categories: [
+    "Water",
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Transformation",
+    "Spiritual"
+  ]
+},
+{
+  slug: "drought",
+  title: "Drought",
+
+  microSummary:
+    "Drought dreams often reflect emotional emptiness, exhaustion, disconnection, lack, burnout, or feeling emotionally deprived for too long.",
+
+  shortDescription:
+    "Seeing dry land, missing water, or a world that feels empty and drained. The dream often feels emotionally heavy, lifeless, disconnected, or quietly overwhelming beneath the surface.",
+
+  description:
+    `Seeing a drought in a dream can feel emotionally empty, exhausting, unsettling, or deeply symbolic because the absence of water often mirrors emotional depletion beneath the surface. Sometimes the land appears cracked and lifeless. Other times, people search desperately for water while dryness, scarcity, or emotional heaviness continue spreading everywhere around you.
+
+These dreams commonly appear during periods involving emotional exhaustion, burnout, emotional numbness, loneliness, lack of support, emotional deprivation, stress, hopelessness, emotional disconnection, financial pressure, relationship distance, grief, creative block, or situations where emotional nourishment feels missing or unavailable.
+
+The condition of the drought matters.
+Dry cracked land may symbolize emotional burnout, depletion, hopelessness, emotional fatigue, or feeling emotionally drained for too long.
+Searching for water during a drought can reflect emotional need, desperation for relief, emotional survival, healing, support, connection, or the desire to feel emotionally restored again.
+Watching plants, land, or people suffer from drought may symbolize emotional neglect, emotional emptiness, lack of growth, or situations that can no longer emotionally sustain you.
+
+The feeling matters most. If the dream feels hopeless or emotionally heavy, it may reflect burnout, emotional deprivation, loneliness, emotional exhaustion, or situations draining your emotional energy. If the dream carries hope or searching, it can point toward emotional awareness, healing, survival, or the recognition that emotional nourishment and restoration are deeply needed.`,
+
+  emotional:
+    `There is usually emotional emptiness throughout this dream.
+
+Sometimes the strongest feeling is exhaustion. The awareness that your emotional energy feels depleted, dry, or unable to continue functioning comfortably without relief.
+
+There can also be loneliness and emotional distance. Feeling disconnected from support, emotional closeness, emotional warmth, or the ability to feel emotionally fulfilled.
+
+In some cases, the dream reflects emotional deprivation. Wanting care, healing, understanding, peace, or emotional nourishment while feeling emotionally unsupported or emotionally drained.
+
+At times, the emotion becomes hopelessness or emotional numbness. Feeling emotionally disconnected after carrying stress, pressure, grief, or emotional pain for too long.
+
+Sometimes the dream reflects emotional survival. Quietly searching for emotional renewal, healing, meaning, or stability even during emotionally difficult periods.`,
+
+  symbolic:
+    `A drought in a dream often symbolizes emotional depletion, burnout, emotional emptiness, lack, loneliness, emotional disconnection, hopelessness, stress, emotional stagnation, or situations no longer emotionally nourishing or sustainable.
+
+Water usually represents emotions, healing, emotional flow, connection, and emotional life itself. Its absence often reflects emotional imbalance or emotional exhaustion beneath the surface.
+
+Sometimes the dream reflects emotional burnout. Giving too much emotionally without receiving enough emotional rest, support, healing, or nourishment in return.
+
+It can also symbolize emotional stagnation. Feeling emotionally blocked, emotionally disconnected, creatively drained, or unable to emotionally grow or recover properly.
+
+In some cases, drought represents lack in broader life areas — emotional intimacy, support, purpose, stability, hope, inspiration, energy, or emotional fulfillment feeling absent.
+
+The emotional atmosphere matters most. Despair may reflect emotional depletion or hopelessness, while searching for water may point toward resilience, healing, emotional awareness, or the desire for emotional renewal.`,
+
+  spiritual:
+    `This dream can reflect emotional exhaustion, spiritual dryness, burnout, emotional disconnection, inner emptiness, healing needs, or periods where emotional nourishment feels distant or difficult to access.
+
+Sometimes it appears during periods where stress, grief, emotional pressure, loneliness, emotional suppression, exhaustion, instability, or emotional depletion are becoming emotionally significant internally.
+
+For some people, drought symbolizes spiritual emptiness. Feeling disconnected from purpose, emotional fulfillment, peace, intuition, or emotional connection that once felt natural.
+
+Others see it as a period of emotional survival and rebuilding. Emotional dryness forcing deeper awareness of what truly nourishes, heals, and emotionally sustains you.
+
+The emotional tone matters most. Hopelessness may reflect emotional depletion or burnout, while searching for water may point toward healing, resilience, emotional awakening, or the beginning of emotional restoration.`,
+
+  wakingLife:
+    `This dream often appears during emotionally exhausting or emotionally depleted periods where burnout, loneliness, stress, emotional emptiness, lack of support, emotional numbness, pressure, grief, or emotional disconnection feel especially active.
+
+You may be dealing with emotional burnout, emotionally draining environments, relationship distance, financial stress, lack of emotional support, emotional suppression, hopelessness, or situations leaving you emotionally exhausted without enough recovery or emotional nourishment.
+
+Sometimes the dream reflects emotional imbalance. Giving too much emotionally while receiving too little care, support, understanding, or emotional rest in return.
+
+It can also appear during periods where emotional inspiration, motivation, creativity, intimacy, or emotional connection feel emotionally blocked or unavailable.
+
+In some cases, the dream mirrors emotional survival mode. Continuing to function externally while internally feeling emotionally drained, disconnected, or emotionally empty.
+
+The dream reflects your emotional relationship with burnout, emotional nourishment, loneliness, depletion, healing, emotional survival, emotional balance, and emotional restoration.`,
+
+  summary:
+    "A drought in a dream often reflects emotional exhaustion, emptiness, burnout, disconnection, or situations that no longer emotionally nourish or sustain you. These dreams commonly appear during emotionally draining periods and highlight themes of depletion, loneliness, emotional survival, healing, emotional imbalance, emotional stagnation, the search for renewal, and the deep need for emotional restoration and support.",
+
+  categories: [
+    "Water",
+    "Fear",
+    "Anxiety",
+    "Healing",
+    "Hidden Emotions",
+    "Transformation"
+  ]
+},
+{
+  slug: "famine",
+  title: "Famine",
+
+  microSummary:
+    "Famine dreams often reflect emotional emptiness, fear of loss, scarcity, exhaustion, instability, or feeling deprived of support, security, or emotional nourishment.",
+
+  shortDescription:
+    "Seeing extreme lack, hunger, empty resources, or people struggling to survive. The dream often feels emotionally heavy, desperate, unstable, or filled with fear and emotional depletion.",
+
+  description:
+    `Seeing a famine in a dream can feel distressing, emotionally overwhelming, hopeless, or deeply unsettling because famine often symbolizes severe lack and emotional depletion beneath the surface. Sometimes the dream focuses on hunger and survival. Other times, entire environments feel empty, abandoned, struggling, or emotionally lifeless as scarcity continues spreading around you.
+
+These dreams commonly appear during periods involving emotional exhaustion, fear of loss, insecurity, financial stress, emotional deprivation, instability, anxiety, burnout, loneliness, grief, emotional emptiness, lack of support, survival pressure, hopelessness, or situations where something essential feels emotionally or physically unavailable.
+
+The condition of the famine matters.
+Searching desperately for food may symbolize emotional survival, fear of not having enough, emotional need, insecurity, or the desire for support and stability.
+Watching others suffer during famine can reflect emotional helplessness, guilt, empathy, fear surrounding instability, or awareness of emotional suffering around you.
+Being unable to find resources may symbolize emotional depletion, hopelessness, burnout, or situations that no longer emotionally nourish or sustain you.
+
+The feeling matters most. If the dream feels hopeless or desperate, it may reflect emotional exhaustion, fear, instability, insecurity, or emotionally draining situations affecting your sense of safety and wellbeing. If the dream focuses more on surviving or searching, it can point toward resilience, emotional awareness, adaptation, or the recognition that healing, nourishment, and emotional support are deeply needed.`,
+
+  emotional:
+    `There is usually emotional heaviness throughout this dream.
+
+Sometimes the strongest feeling is lack. The awareness that something emotionally important feels unavailable, distant, or impossible to fully reach.
+
+There can also be fear and insecurity. Feeling emotionally unsafe, unsupported, unstable, or uncertain about whether your needs will be emotionally or physically met.
+
+In some cases, the dream reflects emotional exhaustion. Carrying stress, emotional pressure, grief, loneliness, or emotional survival for too long without enough restoration or support.
+
+At times, the emotion becomes hopelessness or emotional depletion. Feeling emotionally drained, disconnected, or emotionally empty after prolonged stress or emotional struggle.
+
+Sometimes the dream reflects emotional survival. Quietly trying to continue despite emotional scarcity, fear, exhaustion, or instability beneath the surface.`,
+
+  symbolic:
+    `A famine in a dream often symbolizes emotional deprivation, scarcity, fear of loss, instability, emotional exhaustion, burnout, insecurity, hopelessness, emotional emptiness, or situations no longer emotionally nourishing or sustainable.
+
+Food usually represents emotional nourishment, stability, energy, support, fulfillment, survival, or emotional care. Its absence often reflects deep emotional imbalance or depletion.
+
+Sometimes the dream reflects emotional burnout. Giving too much emotionally while receiving too little support, comfort, healing, or emotional restoration in return.
+
+It can also symbolize insecurity surrounding resources — emotional, financial, relational, or personal. Fear that something necessary for emotional wellbeing may disappear or remain unavailable.
+
+In some cases, famine represents emotional starvation itself. Feeling disconnected from love, peace, intimacy, motivation, purpose, emotional safety, or emotional fulfillment.
+
+The emotional atmosphere matters most. Despair may reflect emotional depletion or instability, while searching for food may point toward resilience, healing, emotional survival, or awareness of what is emotionally missing.`,
+
+  spiritual:
+    `This dream can reflect emotional depletion, spiritual emptiness, burnout, emotional survival, instability, hopelessness, or periods where emotional nourishment feels painfully absent beneath the surface.
+
+Sometimes it appears during periods where stress, grief, insecurity, loneliness, emotional exhaustion, financial fear, emotional pressure, or emotional disconnection are becoming emotionally significant internally.
+
+For some people, famine symbolizes spiritual dryness. Feeling disconnected from meaning, emotional fulfillment, peace, emotional connection, hope, or inner stability.
+
+Others see it as emotional awareness. Realizing how deeply emotional nourishment, support, healing, rest, intimacy, or emotional balance are needed before true recovery can begin.
+
+The emotional tone matters most. Despair may reflect emotional depletion or hopelessness, while survival efforts may point toward resilience, healing, adaptation, emotional awareness, or the beginning of emotional rebuilding.`,
+
+  wakingLife:
+    `This dream often appears during emotionally exhausting or emotionally insecure periods where stress, fear, burnout, loneliness, instability, financial pressure, emotional emptiness, grief, emotional deprivation, or lack of support feel especially active.
+
+You may be dealing with emotional burnout, financial stress, emotionally draining environments, relationship distance, insecurity, emotional suppression, exhaustion, lack of emotional care, or situations leaving you emotionally depleted without enough restoration or support.
+
+Sometimes the dream reflects survival mode. Continuing to function externally while internally feeling emotionally starved, emotionally unsupported, or emotionally exhausted.
+
+It can also appear during periods where emotional fulfillment, peace, intimacy, hope, stability, or motivation feel emotionally difficult to access.
+
+In some cases, the dream mirrors fear surrounding scarcity itself — not having enough emotionally, financially, mentally, or spiritually to feel secure and emotionally grounded.
+
+The dream reflects your emotional relationship with insecurity, depletion, emotional survival, nourishment, healing, burnout, fear of loss, and emotional restoration.`,
+
+  summary:
+    "A famine in a dream often reflects emotional emptiness, exhaustion, scarcity, fear of loss, or situations that no longer emotionally nourish or support you. These dreams commonly appear during emotionally draining or unstable periods and highlight themes of insecurity, depletion, emotional survival, burnout, hopelessness, healing, emotional imbalance, and the deep need for nourishment, support, and restoration.",
+
+  categories: [
+    "Fear",
+    "Anxiety",
+    "Healing",
+    "Hidden Emotions",
+    "Transformation",
+    "Money"
+  ]
+},
+{
+  slug: "being-in-labour",
+  title: "Being in labour",
+
+  microSummary:
+    "Labour dreams often reflect transformation, emotional pressure, painful growth, anticipation, vulnerability, or something important preparing to enter a new phase.",
+
+  shortDescription:
+    "Experiencing contractions, pain, pressure, or the intense process of giving birth. The dream often feels emotionally overwhelming, vulnerable, exhausting, or deeply transformative.",
+
+  description:
+    `Being in labour in a dream can feel intense, emotional, exhausting, frightening, or deeply meaningful because labour represents pressure, transition, pain, vulnerability, and the process of bringing something new into existence. Sometimes the dream focuses on physical pain and urgency. Other times, it centers more on emotional anticipation, fear, preparation, or the overwhelming feeling that something major is about to change.
+
+These dreams commonly appear during periods involving transformation, emotional pressure, personal growth, anxiety, anticipation, major life changes, emotional vulnerability, stress, identity shifts, fear of the unknown, emotional overwhelm, new beginnings, or situations where something emotionally significant is developing beneath the surface.
+
+The experience of labour matters.
+Difficult or painful labour may symbolize emotional struggle, stress, fear, emotional exhaustion, or the difficulty of moving through major personal change.
+Calm labour can reflect emotional readiness, acceptance, healing, emotional maturity, or trust in the process of change and growth.
+Being unable to give birth may symbolize emotional blockage, fear of change, uncertainty, self-doubt, or something emotionally important feeling delayed or difficult to fully express.
+
+The feeling matters most. If the dream feels frightening or overwhelming, it may reflect anxiety, emotional pressure, vulnerability, or fear surrounding major change or responsibility. If the dream feels emotional but meaningful, it can point toward transformation, growth, emotional release, creation, healing, or the beginning of a new emotional phase.`,
+
+  emotional:
+    `There is usually strong emotional intensity throughout this dream.
+
+Sometimes the strongest feeling is pressure. The awareness that something emotionally important is building and becoming impossible to stop or delay.
+
+There can also be fear and vulnerability. Feeling emotionally exposed, uncertain, overwhelmed, or emotionally unprepared for what is coming next.
+
+In some cases, the dream reflects emotional exhaustion. Carrying emotional stress, growth, responsibility, or inner change for a long time before finally reaching a breaking or release point.
+
+At times, the emotion becomes anticipation or emotional readiness. Sensing that something important is about to emerge emotionally or personally even if the process still feels difficult.
+
+Sometimes the dream reflects emotional transformation. Pain and discomfort existing alongside growth, creation, healing, or emotional renewal.`,
+
+  symbolic:
+    `Being in labour in a dream often symbolizes transformation, emotional pressure, painful growth, vulnerability, emotional release, creation, major life transitions, emotional buildup, or something new preparing to emerge into your life.
+
+Labour usually represents process rather than instant change. The emotional and physical intensity reflects the difficulty of moving from one emotional phase into another.
+
+Sometimes the dream reflects emotional transformation. Old emotional patterns, identities, relationships, or emotional states shifting so something new can begin.
+
+It can also symbolize emotional creation. New goals, ideas, relationships, identity changes, emotional awareness, healing, or personal growth developing beneath the surface.
+
+In some cases, labour represents emotional release itself. Emotions, pressure, stress, grief, or internal change reaching a point where they can no longer remain hidden internally.
+
+The emotional atmosphere matters most. Fear may reflect anxiety surrounding change or responsibility, while emotional acceptance may point toward readiness, healing, transformation, or trust in personal growth.`,
+
+  spiritual:
+    `This dream can reflect transformation, emotional rebirth, vulnerability, spiritual growth, emotional awakening, creation, emotional release, or major internal changes preparing to emerge into conscious awareness.
+
+Sometimes it appears during periods where identity shifts, healing, emotional pressure, fear of change, emotional vulnerability, personal growth, or deep emotional transitions are becoming emotionally significant internally.
+
+For some people, labour symbolizes rebirth itself. The painful but necessary process of becoming emotionally different from who you were before.
+
+Others see it as emotional creation. New emotional understanding, purpose, identity, relationships, or emotional awareness preparing to fully enter your life.
+
+The emotional tone matters most. Panic may reflect fear of change or emotional overwhelm, while emotional endurance or calmness may point toward resilience, transformation, healing, emotional maturity, or acceptance of a new life phase emerging.`,
+
+  wakingLife:
+    `This dream often appears during emotionally transformative or emotionally pressured periods where change, anticipation, vulnerability, growth, anxiety, emotional buildup, or major transitions feel especially active.
+
+You may be preparing for something emotionally significant — a new phase, responsibility, relationship, identity shift, personal goal, healing process, emotional breakthrough, or major life decision.
+
+Sometimes the dream reflects emotional buildup. Carrying emotional pressure, stress, growth, or internal change for a long time before reaching a point where release or transformation becomes unavoidable.
+
+It can also appear during periods of personal growth where emotional discomfort exists alongside healing, self-awareness, or emotional development.
+
+In some cases, the dream mirrors fear surrounding responsibility, uncertainty, vulnerability, or the emotional intensity that often comes before major life changes.
+
+The dream reflects your emotional relationship with transformation, vulnerability, emotional pressure, growth, creation, fear of change, emotional release, and new beginnings.`,
+
+  summary:
+    "Being in labour in a dream often reflects transformation, emotional pressure, painful growth, vulnerability, or something important preparing to emerge into a new phase. These dreams commonly appear during emotionally transformative periods and highlight themes of emotional buildup, fear, growth, creation, emotional release, resilience, healing, and the difficult but meaningful process of becoming something new.",
+
+  categories: [
+    "Pregnancy",
+    "Transformation",
+    "Fear",
+    "Anxiety",
+    "Identity",
+    "Healing"
+  ]
+},
+{
+  slug: "working-on-a-farm",
+  title: "Working on a farm",
+
+  microSummary:
+    "Farm work dreams often reflect patience, effort, growth, responsibility, stability, or slowly building something meaningful over time.",
+
+  shortDescription:
+    "Working in fields, planting crops, feeding animals, or managing land through steady effort. The dream often feels grounding, repetitive, exhausting, peaceful, or deeply connected to survival and growth.",
+
+  description:
+    `Working on a farm in a dream can feel calming, physically demanding, emotionally grounding, or deeply symbolic because farms are closely connected to work, survival, growth, patience, and long-term results. Sometimes the dream focuses on planting and harvesting. Other times, it centers around labor, caring for animals, maintaining land, or struggling to keep things alive and productive.
+
+These dreams commonly appear during periods involving hard work, personal growth, patience, financial concerns, emotional responsibility, stability, survival, slow progress, healing, long-term goals, family responsibilities, emotional grounding, or situations where consistent effort matters more than quick results.
+
+The condition of the farm matters.
+A healthy productive farm may symbolize growth, emotional stability, abundance, patience paying off, or progress developing steadily over time.
+A dry or struggling farm can reflect burnout, exhaustion, financial pressure, emotional depletion, lack of results, or frustration that your effort is not being rewarded yet.
+Working endlessly on the farm may symbolize emotional responsibility, pressure, survival mode, or feeling weighed down by constant obligations and duties.
+
+The feeling matters most. If the dream feels peaceful or fulfilling, it may reflect emotional grounding, stability, patience, healing, or satisfaction from meaningful work and gradual growth. If the dream feels exhausting or stressful, it can point toward burnout, emotional pressure, survival struggles, frustration, or the feeling that too much responsibility is resting on you emotionally or practically.`,
+
+  emotional:
+    `There is usually emotional steadiness throughout this dream.
+
+Sometimes the strongest feeling is responsibility. The awareness that growth, stability, or survival requires constant effort and attention.
+
+There can also be emotional grounding. Feeling connected to routine, purpose, patience, hard work, or simple forms of emotional stability.
+
+In some cases, the dream reflects exhaustion. Carrying responsibilities for too long without enough emotional rest, support, or visible reward.
+
+At times, the emotion becomes fulfillment or quiet pride. Recognizing the emotional value of consistency, effort, patience, or creating something meaningful slowly over time.
+
+Sometimes the dream reflects emotional survival. Focusing on maintaining stability, growth, or security even during emotionally difficult or uncertain periods.`,
+
+  symbolic:
+    `Working on a farm in a dream often symbolizes effort, patience, growth, responsibility, emotional grounding, stability, survival, healing, consistency, long-term investment, or building something meaningful gradually over time.
+
+Farms usually represent processes that require care, time, and steady work before results fully appear.
+
+Sometimes the dream reflects personal growth. Emotional healing, maturity, goals, relationships, or life changes slowly developing through patience and consistent effort.
+
+It can also symbolize emotional labor. Carrying responsibilities, supporting others, maintaining stability, or working continuously to create security and emotional balance.
+
+In some cases, the farm represents your emotional and practical life itself. What you are cultivating emotionally, financially, spiritually, or personally through your daily choices and energy.
+
+The emotional atmosphere matters most. Peacefulness may reflect emotional grounding and steady growth, while exhaustion may point toward burnout, pressure, emotional overload, or frustration with slow progress.`,
+
+  spiritual:
+    `This dream can reflect patience, emotional grounding, spiritual growth, healing, discipline, emotional nourishment, stability, or the understanding that meaningful growth often develops slowly beneath the surface.
+
+Sometimes it appears during periods where healing, personal growth, emotional rebuilding, financial responsibility, survival, emotional maturity, or long-term goals are becoming emotionally significant internally.
+
+For some people, farms symbolize abundance created through patience, effort, consistency, emotional care, and trust in gradual growth.
+
+Others see them as reminders that emotional and personal transformation often happens slowly rather than instantly. Seeds planted emotionally may take time before visible results appear.
+
+The emotional tone matters most. Peace may reflect emotional alignment and steady growth, while exhaustion may point toward imbalance, overwork, emotional depletion, or the need for rest and emotional nourishment.`,
+
+  wakingLife:
+    `This dream often appears during periods where responsibility, hard work, personal growth, financial pressure, emotional rebuilding, patience, or long-term goals feel especially active.
+
+You may be working steadily toward stability, healing, emotional balance, financial improvement, personal development, relationships, or goals that require consistent effort rather than immediate reward.
+
+Sometimes the dream reflects emotional burnout. Feeling like responsibilities, work, caregiving, or practical survival are taking up most of your emotional energy.
+
+It can also appear during periods of healing where slow emotional progress is happening even if results are not immediately visible externally.
+
+In some cases, the dream mirrors your relationship with effort itself. Whether you feel emotionally fulfilled by what you are building or emotionally exhausted by how much energy it requires.
+
+The dream reflects your emotional relationship with patience, growth, responsibility, survival, stability, emotional labor, healing, and long-term progress.`,
+
+  summary:
+    "Working on a farm in a dream often reflects patience, effort, responsibility, growth, or slowly building something meaningful over time. These dreams commonly appear during periods focused on survival, healing, stability, or long-term goals and highlight themes of consistency, emotional grounding, emotional labor, gradual progress, responsibility, resilience, and the understanding that meaningful growth takes time and care.",
+
+  categories: [
+    "Work",
+    "Money",
+    "Transformation",
+    "Healing",
+    "Identity",
+    "Nature"
+  ]
 },
 {
   slug: "traveling-to-your-dream-destination",
@@ -4434,7 +6029,7 @@ If the dream repeats, it may be asking you to notice whether you are meant to wa
 
   summary: `Watching change, emotion, or life movement from a place of awareness. This dream often reflects reflection, transition, emotional processing, or the recognition that some things are already unfolding. It highlights the balance between observing and participating in your own next chapter.`,
 
-  categories: ["Spiritual", "Transformation", "Fear", "Anxiety"]
+  categories: ["Spiritual","Water","Transformation","Water", "Fear", "Anxiety"]
 },
 {
   slug: "killing-yourself",
@@ -4723,7 +6318,7 @@ If the dream repeats, it may be asking you to pay closer attention to what you a
   summary:
     "Emotions rising into awareness and becoming harder to ignore. This dream often reflects inner states, emotional processing, or changes unfolding beneath the surface. It highlights what you feel, even if you haven’t fully expressed it yet.",
 
-  categories: ["Spiritual", "Hidden Emotions"]
+  categories: ["Spiritual", "Water","Hidden Emotions"]
 },
 {
   slug: "reaching-the-end-after-an-endless-fall",
@@ -5384,6 +6979,426 @@ The dream mirrors your emotional relationship with desire, admiration, fantasy, 
     "Hidden Emotions",
     "Transformation",
     "Spiritual"
+  ]
+},
+{
+  slug: "tsunami",
+  title: "Tsunami",
+
+  microSummary:
+    "Tsunami dreams often reflect emotional overwhelm, sudden change, fear, instability, or feelings becoming too powerful to contain or avoid.",
+
+  shortDescription:
+    "Seeing an enormous wave rushing toward you while fear, panic, or urgency quickly builds. The dream often feels overwhelming, catastrophic, emotionally intense, or impossible to fully control.",
+
+  description:
+    `Seeing a tsunami in a dream can feel terrifying, emotionally overwhelming, catastrophic, or deeply intense because the wave usually arrives with unstoppable force. Sometimes you see it coming from a distance while panic builds slowly. Other times, the water crashes suddenly, leaving little time to react before everything changes emotionally and physically around you.
+
+These dreams commonly appear during periods involving emotional overwhelm, anxiety, major life changes, stress, emotional breakdown, instability, hidden emotions, fear, uncertainty, grief, emotional pressure, relationship conflict, burnout, or situations where emotions feel too powerful to fully control or contain.
+
+The way the tsunami appears matters.
+Watching the tsunami approach may symbolize awareness that emotional pressure, change, conflict, or overwhelming situations are building beneath the surface.
+Being caught inside the wave can reflect emotional overwhelm, helplessness, anxiety, emotional flooding, or situations consuming your emotional stability.
+Surviving the tsunami may symbolize resilience, emotional survival, recovery, transformation, or the ability to move through emotionally intense experiences even after feeling overwhelmed.
+
+The feeling matters most. If the dream feels terrifying or chaotic, it may reflect emotional overwhelm, instability, fear, anxiety, or situations that feel emotionally uncontrollable. If the dream shifts toward survival or calm afterward, it can point toward resilience, emotional release, transformation, healing, or emotional rebuilding after intense pressure or change.`,
+
+  emotional:
+    `There is usually overwhelming emotional intensity throughout this dream.
+
+Sometimes the strongest feeling is panic. The awareness that something emotionally powerful is approaching too quickly to fully stop or control.
+
+There can also be helplessness and emotional overload. Feeling emotionally consumed by stress, pressure, fear, conflict, grief, or emotions larger than your current ability to manage comfortably.
+
+In some cases, the dream reflects emotional buildup. Feelings that have remained suppressed for too long finally becoming impossible to contain internally.
+
+At times, the emotion becomes shock or instability. Feeling emotionally unprepared for sudden changes, emotional events, or situations disrupting your emotional foundation.
+
+Sometimes the dream reflects emotional survival. Realizing that even during emotional chaos, part of you is still trying to endure, adapt, or protect yourself emotionally.`,
+
+  symbolic:
+    `A tsunami in a dream often symbolizes emotional overwhelm, emotional flooding, major change, instability, emotional release, fear, emotional pressure, transformation, or situations that feel emotionally uncontrollable and consuming.
+
+The enormous wave usually represents emotions or circumstances growing beyond normal emotional limits.
+
+Sometimes the dream reflects external overwhelm — stressful situations, emotional conflict, grief, pressure, anxiety, major transitions, relationship problems, or life events disrupting emotional stability.
+
+It can also symbolize suppressed emotions finally surfacing all at once. Fear, sadness, anger, stress, emotional exhaustion, or unresolved emotional pain becoming impossible to continue avoiding.
+
+In some cases, the tsunami represents transformation through destruction. Emotional foundations collapsing so rebuilding, awareness, or major change can begin afterward.
+
+The emotional atmosphere matters most. Terror may reflect emotional instability or overwhelm, while survival afterward may point toward resilience, emotional recovery, adaptation, or emotional growth through difficult experiences.`,
+
+  spiritual:
+    `This dream can reflect emotional cleansing, overwhelming transformation, emotional release, spiritual upheaval, fear, emotional awakening, or periods where deep emotional change is becoming impossible to avoid.
+
+Sometimes it appears during periods where stress, anxiety, emotional pressure, grief, instability, emotional suppression, or major internal shifts are becoming emotionally too strong to remain beneath the surface.
+
+For some people, tsunamis symbolize emotional purging. Old emotions, patterns, fears, attachments, or emotional structures breaking apart so something new can eventually emerge.
+
+Others see them as spiritual overwhelm. Feeling emotionally shaken by change, awakening, emotional truth, or life transitions that force deeper emotional awareness and adaptation.
+
+The emotional tone matters most. Panic may reflect emotional instability or fear of losing control, while survival afterward may point toward resilience, transformation, emotional rebuilding, or deeper emotional understanding developing through intense experiences.`,
+
+  wakingLife:
+    `This dream often appears during emotionally overwhelming or highly stressful periods where anxiety, emotional pressure, instability, conflict, major life changes, grief, uncertainty, or emotional exhaustion feel especially intense.
+
+You may be dealing with emotional burnout, relationship breakdowns, stressful transitions, overwhelming responsibilities, hidden emotional buildup, fear of losing control, or situations changing faster than you feel emotionally prepared for.
+
+Sometimes the dream reflects emotional suppression. Feelings you have been holding internally finally becoming too powerful to ignore or contain.
+
+It can also appear during periods of deep transformation where emotional foundations, identity, relationships, or stability are shifting dramatically beneath the surface.
+
+In some cases, the dream mirrors fear surrounding emotional collapse, overwhelm, vulnerability, or the uncertainty that follows major emotional change.
+
+The dream reflects your emotional relationship with overwhelm, instability, fear, emotional release, survival, transformation, emotional pressure, and emotional rebuilding after intense experiences.`,
+
+  summary:
+    "A tsunami in a dream often reflects emotional overwhelm, fear, instability, major change, or feelings becoming too powerful to contain. These dreams commonly appear during highly stressful or transformative periods and highlight themes of emotional flooding, vulnerability, pressure, survival, emotional release, instability, transformation, and the struggle to regain stability after emotionally intense experiences.",
+
+  categories: [
+    "Water",
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Transformation",
+    "Spiritual"
+  ]
+},
+{
+  slug: "calm-water",
+  title: "Calm water",
+
+  microSummary:
+    "Calm water dreams often reflect emotional peace, clarity, healing, balance, or a quieter emotional state beneath the surface.",
+
+  shortDescription:
+    "Seeing still, peaceful, or gently moving water that feels emotionally quiet and undisturbed. The dream often feels calming, reflective, emotionally balanced, or deeply peaceful.",
+
+  description:
+    `Seeing calm water in a dream can feel peaceful, emotionally grounding, reflective, or deeply comforting because the stillness of the water often mirrors emotional balance beneath the surface. Sometimes the water is completely still like glass. Other times, it moves gently without creating fear, chaos, or emotional tension.
+
+These dreams commonly appear during periods involving emotional healing, reflection, inner peace, emotional clarity, acceptance, recovery, stability, spiritual reflection, emotional balance, self-awareness, or situations where emotional intensity has finally begun settling internally.
+
+The condition of the water matters.
+Clear calm water may symbolize emotional clarity, honesty, healing, emotional awareness, or peace with yourself emotionally.
+Gentle moving water can reflect emotional flow, acceptance, emotional balance, or learning to move through emotions naturally without resistance.
+Endless calm water may symbolize reflection, emotional depth, spiritual peace, emotional stillness, or quiet awareness beneath the surface.
+
+The feeling matters most. If the dream feels peaceful or emotionally comforting, it may reflect healing, emotional balance, inner peace, acceptance, or clarity developing internally. If the calmness feels lonely or emotionally distant, it can point toward emotional detachment, isolation, emotional numbness, or reflection happening quietly beneath the surface.`,
+
+  emotional:
+    `There is usually emotional stillness throughout this dream.
+
+Sometimes the strongest feeling is peace. The sense that emotional chaos, tension, or overwhelm has softened enough for calmness to return.
+
+There can also be emotional clarity. Feeling more emotionally aware, settled, grounded, or connected to your deeper emotional state without confusion or pressure.
+
+In some cases, the dream reflects healing. Emotional wounds, stress, anxiety, or emotional instability beginning to settle internally after difficult periods.
+
+At times, the emotion becomes reflection or quiet awareness. Feeling emotionally present without needing constant movement, distraction, or emotional intensity.
+
+Sometimes the dream reflects emotional distance. Calmness that feels peaceful on the surface while still carrying subtle loneliness or emotional separation underneath.`,
+
+  symbolic:
+    `Calm water in a dream often symbolizes emotional peace, healing, clarity, emotional balance, reflection, stability, emotional awareness, acceptance, spiritual calmness, or emotional stillness beneath the surface.
+
+Water usually represents emotions and the unconscious emotional world. When the water is calm, it often reflects emotional stability rather than emotional overwhelm.
+
+Sometimes the dream reflects emotional recovery. Moving away from conflict, stress, anxiety, emotional chaos, or internal instability toward greater emotional balance.
+
+It can also symbolize emotional honesty and clarity. Seeing yourself, your emotions, or your situation more clearly without emotional distortion or overwhelm.
+
+In some cases, calm water represents acceptance. No longer fighting emotions, uncertainty, or life transitions with the same level of resistance or emotional panic.
+
+The emotional atmosphere matters most. Peacefulness may reflect healing and emotional balance, while emptiness may point toward emotional distance, quiet loneliness, or emotional withdrawal.`,
+
+  spiritual:
+    `This dream can reflect healing, emotional clarity, spiritual peace, emotional balance, reflection, acceptance, or the gradual settling of emotional intensity beneath the surface.
+
+Sometimes it appears during periods where healing, emotional recovery, self-awareness, spiritual reflection, emotional maturity, or personal growth are becoming emotionally significant internally.
+
+For some people, calm water symbolizes emotional cleansing, spiritual alignment, emotional stillness, intuition, inner peace, or emotional harmony developing after periods of stress or instability.
+
+Others see it as emotional surrender. Letting emotions exist naturally without needing to fully control, suppress, or escape them.
+
+The emotional tone matters most. Deep peace may reflect healing and alignment, while subtle emptiness may point toward emotional isolation, quiet reflection, or emotional detachment still needing attention.`,
+
+  wakingLife:
+    `This dream often appears during emotionally calmer or emotionally reflective periods where healing, emotional balance, acceptance, clarity, or recovery feel especially present.
+
+You may be moving through emotional healing after stress, conflict, heartbreak, anxiety, emotional overwhelm, or instability that previously affected your emotional peace more intensely.
+
+Sometimes the dream reflects emotional maturity. Becoming less reactive, more grounded, or emotionally clearer about yourself, your relationships, or your direction in life.
+
+It can also appear during periods of reflection where emotional stillness allows deeper awareness, intuition, or understanding to surface naturally.
+
+In some cases, the dream mirrors emotional rest. Your mind and emotions finally experiencing moments of calmness after carrying emotional pressure for too long.
+
+The dream reflects your emotional relationship with healing, peace, emotional balance, reflection, acceptance, emotional clarity, inner stability, and emotional recovery.`,
+
+  summary:
+    "Calm water in a dream often reflects emotional peace, healing, clarity, balance, or emotional stillness beneath the surface. These dreams commonly appear during emotionally reflective or healing periods and highlight themes of acceptance, emotional recovery, inner peace, stability, emotional awareness, reflection, and learning to exist within your emotions without overwhelm or resistance.",
+
+  categories: [
+    "Water",
+    "Spiritual",
+    "Transformation",
+    "Hidden Emotions",
+    "Identity",
+    "Healing"
+  ]
+},
+{
+  slug: "clear-water",
+  title: "Clear water",
+
+  microSummary:
+    "Clear water dreams often reflect emotional clarity, healing, honesty, peace, self-awareness, or seeing emotions and situations more clearly than before.",
+
+  shortDescription:
+    "Seeing transparent or crystal-clear water where everything beneath the surface is visible. The dream often feels peaceful, emotionally revealing, refreshing, or deeply calming.",
+
+  description:
+    `Seeing clear water in a dream can feel peaceful, emotionally refreshing, revealing, or deeply comforting because the transparency of the water often reflects emotional clarity and awareness. Sometimes the water is completely still and glass-like. Other times, it flows gently while still remaining visibly pure and easy to see through.
+
+These dreams commonly appear during periods involving healing, emotional clarity, honesty, emotional balance, reflection, self-awareness, personal growth, emotional openness, spiritual reflection, emotional truth, or situations where confusion and emotional uncertainty are finally beginning to clear internally.
+
+The condition of the water matters.
+Clear still water may symbolize emotional peace, self-awareness, honesty, emotional balance, or inner calmness.
+Clear flowing water can reflect emotional healing, renewal, emotional movement, cleansing, or healthy emotional expression.
+Being inside or surrounded by clear water may symbolize emotional openness, vulnerability, emotional understanding, or feeling more connected to your emotions without fear or confusion.
+
+The feeling matters most. If the dream feels peaceful or emotionally comforting, it may reflect healing, emotional clarity, honesty, trust, or emotional balance. If the dream feels emotionally intense despite the clarity, it can point toward truths, emotions, or realizations becoming visible in ways that are emotionally revealing but necessary for growth.`,
+
+  emotional:
+    `There is usually emotional clarity throughout this dream.
+
+Sometimes the strongest feeling is peace. The sense that emotional confusion, tension, or instability has softened enough for deeper understanding to emerge.
+
+There can also be emotional openness. Feeling emotionally honest, aware, grounded, or more connected to your emotions without needing to avoid them.
+
+In some cases, the dream reflects healing. Emotional wounds, confusion, anxiety, or emotional pressure beginning to clear internally after difficult periods.
+
+At times, the emotion becomes emotional truth or recognition. Quietly realizing something important about yourself, your emotions, or your situation with greater honesty and understanding.
+
+Sometimes the dream reflects emotional vulnerability. Clear emotions can feel peaceful, but also emotionally exposing because nothing remains hidden beneath the surface.`,
+
+  symbolic:
+    `Clear water in a dream often symbolizes emotional clarity, healing, honesty, emotional awareness, peace, emotional truth, reflection, purification, openness, or emotional understanding beneath the surface.
+
+Water usually represents emotions and the unconscious emotional world. When the water is clear, it often reflects the ability to see emotions, situations, or yourself more honestly and directly.
+
+Sometimes the dream reflects emotional healing and cleansing. Releasing confusion, emotional heaviness, stress, fear, or instability that previously clouded emotional understanding.
+
+It can also symbolize emotional honesty. Seeing truths more clearly within relationships, yourself, your emotional needs, or situations you previously misunderstood emotionally.
+
+In some cases, clear water represents emotional transparency. No longer hiding emotions from yourself or needing emotional avoidance to feel safe.
+
+The emotional atmosphere matters most. Peacefulness may reflect healing and emotional balance, while emotional intensity may point toward truths becoming visible in ways that feel emotionally exposing but necessary.`,
+
+  spiritual:
+    `This dream can reflect healing, emotional cleansing, emotional clarity, spiritual peace, emotional truth, intuition, self-awareness, or deeper understanding developing beneath the surface emotionally or spiritually.
+
+Sometimes it appears during periods where healing, reflection, emotional honesty, emotional balance, personal growth, or emotional awakening are becoming emotionally significant internally.
+
+For some people, clear water symbolizes purification, spiritual cleansing, emotional renewal, emotional alignment, emotional openness, or deeper trust in intuition and emotional truth.
+
+Others see it as awareness. Emotional confusion fading enough for clarity, honesty, and understanding to become emotionally visible again.
+
+The emotional tone matters most. Peace may reflect healing and alignment, while emotional exposure may point toward emotional truths becoming too clear to continue ignoring or avoiding.`,
+
+  wakingLife:
+    `This dream often appears during emotionally healing or emotionally reflective periods where clarity, honesty, emotional awareness, healing, balance, or emotional understanding feel especially active.
+
+You may be gaining clearer emotional insight into yourself, your relationships, your emotional needs, or situations that previously felt emotionally confusing or unstable.
+
+Sometimes the dream reflects emotional recovery. Anxiety, emotional tension, confusion, or emotional overwhelm slowly beginning to settle enough for emotional clarity to return.
+
+It can also appear during periods of personal growth where honesty, vulnerability, emotional truth, or self-awareness are becoming stronger internally.
+
+In some cases, the dream mirrors emotional transparency. Feeling more emotionally open, emotionally honest, or emotionally connected to yourself without needing emotional avoidance or denial.
+
+The dream reflects your emotional relationship with clarity, healing, emotional honesty, peace, self-awareness, vulnerability, emotional truth, and emotional understanding.`,
+
+  summary:
+    "Clear water in a dream often reflects emotional clarity, healing, honesty, peace, or greater awareness of your emotions and inner truth. These dreams commonly appear during emotionally healing or reflective periods and highlight themes of emotional openness, self-awareness, balance, vulnerability, emotional cleansing, emotional understanding, and seeing situations more clearly than before.",
+
+  categories: [
+    "Water",
+    "Healing",
+    "Spiritual",
+    "Transformation",
+    "Hidden Emotions",
+    "Identity"
+  ]
+},
+{
+  slug: "dirty-water",
+  title: "Dirty water",
+
+  microSummary:
+    "Dirty water dreams often reflect emotional confusion, stress, negativity, unresolved emotions, instability, or situations that no longer feel emotionally clear or healthy.",
+
+  shortDescription:
+    "Seeing dark, muddy, polluted, or unclear water that feels emotionally uncomfortable or unsettling. The dream often carries heaviness, confusion, emotional tension, or the sense that something beneath the surface is not fully right.",
+
+  description:
+    `Seeing dirty water in a dream can feel uncomfortable, emotionally heavy, unsettling, or deeply symbolic because unclear water often reflects emotional confusion and instability beneath the surface. Sometimes the water is muddy and difficult to see through. Other times, it feels polluted, stagnant, dark, or emotionally unsafe to enter.
+
+These dreams commonly appear during periods involving stress, emotional confusion, anxiety, emotional overwhelm, unresolved emotions, toxic environments, instability, hidden tension, emotional exhaustion, fear, relationship problems, emotional negativity, uncertainty, or situations where clarity and emotional peace feel disrupted internally.
+
+The condition of the water matters.
+Muddy water may symbolize emotional confusion, uncertainty, instability, or difficulty seeing situations clearly.
+Polluted or contaminated water can reflect toxic emotions, unhealthy environments, emotional negativity, manipulation, emotional stress, or situations affecting your emotional wellbeing.
+Standing in dirty water may symbolize emotional entanglement, feeling emotionally stuck, overwhelmed, drained, or surrounded by unresolved emotional tension.
+
+The feeling matters most. If the dream feels stressful or emotionally uncomfortable, it may reflect emotional overwhelm, confusion, instability, fear, or emotionally unhealthy situations affecting your inner peace. If the dream feels reflective or emotionally quiet, it can point toward awareness that emotional healing, cleansing, or clarity is needed before you can feel emotionally balanced again.`,
+
+  emotional:
+    `There is usually emotional heaviness throughout this dream.
+
+Sometimes the strongest feeling is discomfort. The sense that something emotionally unhealthy, unresolved, or emotionally unclear is affecting your inner peace.
+
+There can also be confusion and emotional instability. Feeling emotionally uncertain, overwhelmed, emotionally drained, or unable to fully understand what is happening internally or around you.
+
+In some cases, the dream reflects emotional buildup. Stress, fear, anxiety, resentment, emotional pain, or unresolved emotions collecting beneath the surface for too long.
+
+At times, the emotion becomes emotional exhaustion. Feeling mentally and emotionally weighed down by negativity, pressure, conflict, or emotional environments that no longer feel healthy.
+
+Sometimes the dream reflects emotional awareness. Quietly recognizing that something within your emotional world needs attention, healing, or emotional cleansing.`,
+
+  symbolic:
+    `Dirty water in a dream often symbolizes emotional confusion, negativity, unresolved emotions, instability, emotional overwhelm, toxic environments, stress, emotional tension, fear, or situations clouding emotional clarity.
+
+Water usually represents emotions and the unconscious emotional world. When the water becomes dirty or unclear, it often reflects emotional imbalance or difficulty understanding emotions and situations clearly.
+
+Sometimes the dream reflects emotional toxicity — unhealthy relationships, emotional manipulation, negativity, conflict, emotional pressure, or emotionally draining environments affecting your peace and stability.
+
+It can also symbolize unresolved emotions. Stress, fear, resentment, sadness, guilt, emotional pain, or emotional confusion remaining emotionally unprocessed beneath the surface.
+
+In some cases, dirty water represents emotional stagnation. Feeling emotionally stuck, emotionally blocked, or unable to move forward emotionally with clarity and confidence.
+
+The emotional atmosphere matters most. Fear and discomfort may reflect emotional overwhelm or instability, while awareness of the dirty water may point toward emotional honesty and the beginning of healing or emotional cleansing.`,
+
+  spiritual:
+    `This dream can reflect emotional imbalance, negativity, emotional heaviness, spiritual exhaustion, unresolved emotional energy, emotional confusion, or the growing awareness that emotional healing and clarity are needed beneath the surface.
+
+Sometimes it appears during periods where stress, emotional overwhelm, conflict, anxiety, toxic environments, emotional suppression, or emotional instability are becoming emotionally significant internally.
+
+For some people, dirty water symbolizes emotional contamination. Carrying emotional negativity, fear, unhealthy attachment, emotional wounds, or emotionally draining energy that is affecting inner peace.
+
+Others see it as emotional awareness. Recognizing emotional imbalance clearly enough for healing, release, reflection, or emotional cleansing to begin.
+
+The emotional tone matters most. Distress may reflect emotional overwhelm or emotional toxicity, while calm observation may point toward self-awareness, emotional honesty, or readiness for healing and emotional renewal.`,
+
+  wakingLife:
+    `This dream often appears during emotionally stressful or emotionally draining periods where confusion, anxiety, negativity, emotional overwhelm, instability, conflict, or unresolved emotions feel especially active.
+
+You may be dealing with toxic environments, emotionally unhealthy relationships, stress, burnout, emotional confusion, hidden tension, emotional pressure, fear, insecurity, or situations making it difficult to feel emotionally grounded or emotionally clear.
+
+Sometimes the dream reflects emotional overload. Carrying too many emotions internally without enough space to process or release them healthily.
+
+It can also appear during periods where emotional clarity feels blocked. Knowing something feels emotionally wrong without fully understanding how to resolve it yet.
+
+In some cases, the dream mirrors emotional exhaustion. Feeling emotionally weighed down by situations, people, responsibilities, or internal struggles that continue affecting your emotional peace.
+
+The dream reflects your emotional relationship with stress, emotional clarity, unresolved emotions, negativity, healing, emotional overwhelm, emotional honesty, and emotional wellbeing.`,
+
+  summary:
+    "Dirty water in a dream often reflects emotional confusion, negativity, stress, unresolved emotions, or situations that no longer feel emotionally healthy or clear. These dreams commonly appear during emotionally overwhelming periods and highlight themes of instability, emotional heaviness, toxic environments, emotional buildup, confusion, healing, emotional cleansing, and the need to restore emotional clarity and balance.",
+
+  categories: [
+    "Water",
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Transformation",
+    "Healing"
+  ]
+},
+{
+  slug: "boat-sinking",
+  title: "Boat sinking",
+
+  microSummary:
+    "Boat sinking dreams often reflect emotional overwhelm, instability, fear of losing control, failure, or situations that no longer feel emotionally secure or sustainable.",
+
+  shortDescription:
+    "Watching a boat begin to fill with water, break apart, or disappear beneath the surface. The dream often feels overwhelming, unstable, emotionally heavy, or filled with panic and helplessness.",
+
+  description:
+    `Seeing a boat sinking in a dream can feel terrifying, emotionally overwhelming, stressful, or deeply unsettling because boats often symbolize stability, emotional navigation, safety, and your ability to move through life emotionally. When the boat begins sinking, it can create the feeling that something supporting you emotionally is no longer holding together.
+
+These dreams commonly appear during periods involving emotional overwhelm, instability, anxiety, fear, stress, burnout, emotional exhaustion, uncertainty, relationship problems, financial pressure, emotional collapse, major life transitions, or situations where you feel emotionally unsupported or unable to stay in control.
+
+The condition of the boat matters.
+A slowly sinking boat may symbolize emotional pressure building over time, gradual instability, emotional exhaustion, or realizing something is no longer sustainable.
+A boat sinking suddenly can reflect emotional shock, unexpected change, emotional crisis, fear, or situations that quickly overwhelm your emotional stability.
+Trying to save the boat may symbolize emotional survival, desperation, resistance to change, or efforts to regain control over emotionally difficult situations.
+
+The feeling matters most. If the dream feels frightening or chaotic, it may reflect emotional overwhelm, instability, fear, anxiety, or situations where your emotional foundation feels threatened. If the dream shifts toward survival or escape, it can point toward resilience, adaptation, emotional recovery, or the realization that something must change before emotional balance can return.`,
+
+  emotional:
+    `There is usually strong emotional instability throughout this dream.
+
+Sometimes the strongest feeling is panic. The awareness that emotional safety, stability, or control is disappearing faster than you can stop it.
+
+There can also be helplessness and emotional overwhelm. Feeling emotionally consumed by stress, fear, uncertainty, pressure, or situations that no longer feel manageable.
+
+In some cases, the dream reflects emotional exhaustion. Trying to keep yourself emotionally afloat while feeling mentally and emotionally drained beneath the surface.
+
+At times, the emotion becomes fear of failure or collapse. Worrying that something important in your life is emotionally falling apart or becoming impossible to hold together.
+
+Sometimes the dream reflects emotional survival. Even while overwhelmed, part of you continues trying to adapt, recover, or emotionally protect yourself.`,
+
+  symbolic:
+    `A sinking boat in a dream often symbolizes emotional instability, overwhelm, fear of failure, emotional collapse, stress, uncertainty, emotional pressure, vulnerability, or situations that no longer feel emotionally secure or sustainable.
+
+Boats usually represent emotional navigation, safety, control, stability, life direction, or the structures helping you move through emotional experiences.
+
+When the boat sinks, it often reflects emotional foundations weakening beneath pressure, fear, stress, unresolved emotions, or instability.
+
+Sometimes the dream reflects external struggles — relationship problems, financial stress, emotional burnout, major life changes, conflict, emotional pressure, or situations threatening your emotional balance.
+
+It can also symbolize internal overwhelm. Anxiety, emotional exhaustion, fear, suppressed emotions, insecurity, or emotional instability becoming harder to contain beneath the surface.
+
+The emotional atmosphere matters most. Panic may reflect emotional overwhelm or fear of losing control, while surviving afterward may point toward resilience, adaptation, emotional recovery, or transformation through emotional difficulty.`,
+
+  spiritual:
+    `This dream can reflect emotional overwhelm, emotional collapse, spiritual instability, transformation, emotional survival, fear, uncertainty, or periods where emotional structures are breaking down beneath the surface.
+
+Sometimes it appears during periods where stress, anxiety, emotional exhaustion, major life changes, emotional pressure, burnout, or emotional instability are becoming emotionally too significant to ignore.
+
+For some people, a sinking boat symbolizes emotional surrender. Realizing that certain emotional structures, attachments, beliefs, or situations can no longer continue in the same way.
+
+Others see it as emotional transformation through instability. Old emotional foundations collapsing so deeper awareness, emotional growth, or rebuilding can eventually happen.
+
+The emotional tone matters most. Terror may reflect emotional overwhelm or instability, while survival afterward may point toward resilience, emotional rebuilding, healing, or personal transformation after emotionally difficult experiences.`,
+
+  wakingLife:
+    `This dream often appears during emotionally stressful or emotionally unstable periods where overwhelm, anxiety, fear, uncertainty, pressure, burnout, emotional exhaustion, or instability feel especially active.
+
+You may be dealing with relationship problems, financial stress, emotional conflict, major life changes, emotional pressure, fear of failure, emotional burnout, insecurity, or situations where your emotional stability feels threatened.
+
+Sometimes the dream reflects emotional overload. Feeling like responsibilities, stress, emotions, or life situations are becoming harder to emotionally manage or hold together.
+
+It can also appear during periods where emotional support feels weak or unreliable. Feeling emotionally alone while trying to continue functioning under pressure.
+
+In some cases, the dream mirrors fear surrounding emotional collapse, losing stability, losing control, or no longer being able to emotionally maintain what once felt secure.
+
+The dream reflects your emotional relationship with stability, overwhelm, emotional survival, fear, uncertainty, pressure, resilience, emotional recovery, and emotional change.`,
+
+  summary:
+    "A sinking boat in a dream often reflects emotional overwhelm, instability, fear of losing control, or situations that no longer feel emotionally secure or sustainable. These dreams commonly appear during stressful or emotionally unstable periods and highlight themes of vulnerability, emotional pressure, survival, instability, emotional exhaustion, resilience, transformation, and the struggle to stay emotionally afloat during difficult experiences.",
+
+  categories: [
+    "Water",
+    "Fear",
+    "Anxiety",
+    "Transformation",
+    "Hidden Emotions",
+    "Work"
   ]
 },
 {
@@ -7413,7 +9428,90 @@ The dream reflects that emotional connection.`,
     "Revisiting meaningful memories and emotions from your past. This dream reflects a blend of comfort and reflection, showing how past experiences continue to shape how you feel in the present.",
 
   categories: ["Hidden Emotions", "Identity"]
+},{
+  slug: "money",
+  title: "Money",
+
+  microSummary:
+    "Money dreams often reflect self-worth, security, opportunity, control, stress, or concerns surrounding stability, value, and emotional pressure in your waking life.",
+
+  shortDescription:
+    "Handling, finding, losing, receiving, or thinking about money in a dream. The feeling can range from exciting and relieving to stressful, uneasy, or emotionally loaded depending on what the money represents to you.",
+
+  description:
+    `Money in a dream often carries emotional weight beyond finances themselves. Sometimes the dream focuses on finding money, losing it, counting it, being given it, or desperately needing it. Other times, the money simply exists in the background while still creating a strong emotional atmosphere around security, pressure, opportunity, control, or personal value.
+
+These dreams commonly appear during periods involving financial stress, ambition, insecurity, responsibility, opportunity, emotional pressure, confidence, self-worth, work, relationships, or major life decisions connected to stability and survival.
+
+The type of money dream matters.
+Finding money may reflect opportunity, emotional value, growing confidence, unexpected support, or realizing your own potential.
+Losing money can reflect insecurity, fear of instability, emotional depletion, regret, poor boundaries, or the feeling that something valuable is slipping away.
+Receiving money may point toward support, recognition, emotional validation, abundance, or the desire to feel valued.
+Stealing money may reflect guilt, lack, desperation, comparison, resentment, or feeling disconnected from fairness or emotional balance.
+
+The feeling matters most. If the dream feels stressful or desperate, it may reflect anxiety, instability, fear of loss, pressure, or emotional insecurity surrounding survival and control. If the dream feels exciting, calm, or relieving, it can point toward confidence, hope, emotional abundance, opportunity, or growing belief in your own value and future.`,
+
+  emotional:
+    `Money dreams often carry emotional pressure beneath the surface.
+
+Sometimes the strongest feeling is anxiety. Worrying about security, survival, responsibilities, or whether you have enough emotionally or financially to feel stable.
+
+There can also be excitement or relief. Especially when the dream creates the feeling that opportunities, support, success, or abundance are becoming possible again.
+
+In some cases, the emotion is deeper than finances themselves. Feeling valued, recognized, respected, capable, or emotionally secure.
+
+At times, the dream reflects fear of loss. Not only losing money, but losing control, freedom, stability, confidence, or access to the life you are trying to build.
+
+Sometimes the dream reveals emotional exhaustion. Carrying pressure around work, expectations, responsibility, or constantly trying to maintain stability without enough rest emotionally or mentally.`,
+
+  symbolic:
+    `Money in dreams often symbolizes value, power, security, opportunity, survival, emotional energy, confidence, freedom, self-worth, or personal resources.
+
+The money itself is usually connected to what feels emotionally important, valuable, limited, or unstable in your life.
+
+Sometimes the dream reflects how you value yourself internally. Feeling emotionally rich, emotionally depleted, worthy, insecure, supported, or overlooked.
+
+It can also symbolize exchange. What you give emotionally versus what you receive back from situations, relationships, work, or life overall.
+
+In some cases, money reflects control. The ability to choose, move freely, feel secure, or maintain stability in uncertain situations.
+
+The emotional atmosphere matters most. Stress may reflect emotional scarcity or insecurity, while abundance may point toward confidence, hope, opportunity, or emotional expansion.`,
+
+  spiritual:
+    `This dream can reflect your relationship with worth, abundance, stability, survival, and emotional attachment to security or control.
+
+Sometimes it appears during periods where confidence, fear, responsibility, success, scarcity, or personal value are becoming emotionally active beneath the surface.
+
+For some people, money dreams symbolize energetic exchange. Where attention, effort, emotional investment, or personal energy is being given and whether it feels balanced in return.
+
+It can also reflect beliefs surrounding abundance. Feeling deserving of support, opportunity, stability, freedom, love, recognition, or emotional fulfillment.
+
+The emotional tone matters most. Fear and stress may reflect scarcity thinking or emotional insecurity, while calmness or abundance may point toward trust, confidence, openness, or emotional alignment with growth and opportunity.`,
+
+  wakingLife:
+    `This dream often appears during periods involving financial pressure, responsibility, work stress, ambition, insecurity, opportunity, major decisions, self-worth issues, or emotional concern about stability and the future.
+
+You may be thinking about money directly, but the dream can also reflect emotional value more broadly — how secure, supported, capable, respected, or in control you currently feel.
+
+Sometimes the dream reflects pressure to succeed or maintain stability while carrying emotional exhaustion underneath.
+
+It can also appear when confidence is shifting. Feeling more hopeful about opportunities, or questioning whether you truly have enough emotionally, financially, or personally to move forward safely.
+
+In some cases, the dream mirrors your emotional relationship with success, survival, freedom, control, pressure, responsibility, confidence, and self-worth.`,
+
+  summary:
+    "Money dreams often reflect security, self-worth, opportunity, emotional pressure, survival, or concerns surrounding stability and control. These dreams commonly appear during stressful, ambitious, or emotionally uncertain periods and highlight themes of value, confidence, scarcity, abundance, responsibility, emotional exchange, and the desire to feel safe, capable, and supported.",
+
+  categories: [
+    "Money",
+    "Work",
+    "Anxiety",
+    "Identity",
+    "Hidden Emotions",
+    "Transformation"
+  ]
 },
+
 {
   slug: "hair-falling-out",
   title: "Hair falling out",

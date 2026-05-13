@@ -5,12 +5,22 @@ import SearchBar from "@/app/components/SearchBar";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { guides } from "@/app/data/guides";
+import { getClusterGuides } from "@/lib/clusterGuides";
 
-const guideSearchItems = guides.map((guide) => ({
+const clusterGuideItems = getClusterGuides().map((guide) => ({
   slug: guide.slug,
   title: guide.title,
   description: guide.description || "",
 }));
+
+const guideSearchItems = [
+  ...guides.map((guide) => ({
+    slug: guide.slug,
+    title: guide.title,
+    description: guide.description || "",
+  })),
+  ...clusterGuideItems,
+];
 
 export default function GuidesPage() {
   return (
