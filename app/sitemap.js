@@ -6,27 +6,27 @@ export default function sitemap() {
   const staticPages = [
     {
       url: `${baseUrl}`,
-      lastModified: new Date("2026-04-01"),
+      lastModified: new Date("2026-05-12"),
       priority: 1.0,
     },
     {
       url: `${baseUrl}/dreams`,
-      lastModified: new Date("2026-04-01"),
+      lastModified: new Date("2026-05-12"),
       priority: 0.9,
     },
     {
       url: `${baseUrl}/guides`,
-      lastModified: new Date("2026-04-01"),
+      lastModified: new Date("2026-05-12"),
       priority: 0.8,
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date("2026-04-01"),
+      lastModified: new Date("2026-05-12"),
       priority: 0.5,
     },
     {
       url: `${baseUrl}/categories`,
-      lastModified: new Date("2026-04-01"),
+      lastModified: new Date("2026-05"),
       priority: 0.7,
     },
   ];
@@ -38,6 +38,24 @@ export default function sitemap() {
       : new Date("2026-05-03"),
     priority: 0.7,
   }));
+const categories = [
+  ...new Set(
+    dreams.flatMap((dream) => dream.categories || [])
+  ),
+];
 
-  return [...staticPages, ...dreamPages];
+const categoryPages = categories.map((category) => ({
+  url: `${baseUrl}/categories/${category
+    .toLowerCase()
+    .replace(/\s+/g, "-")}`,
+
+  lastModified: new Date("2026-05-12"),
+
+  priority: 0.8,
+}));
+ return [
+  ...staticPages,
+  ...categoryPages,
+  ...dreamPages,
+];
 }
