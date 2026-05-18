@@ -1,1 +1,1 @@
-export { dreams } from "./dream";
+export { dreamsWithEmotionalConnections as dreams } from "./emotionalConnections";

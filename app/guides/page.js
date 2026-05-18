@@ -34,7 +34,7 @@ export default function GuidesPage() {
         </nav>
         
         <h1 className="text-4xl md:text-5xl font-serif mb-6">
-          Dream guides & meanings
+         Dream Guides: Meaning, Interpretation & How Dreams Work
         </h1>
 
         <p className="text-[#6B6B6B] text-base md:text-lg mb-8 leading-relaxed">
@@ -42,6 +42,14 @@ export default function GuidesPage() {
           understand them.
         </p>
 
+<LazyMobileQuickNav />
+<section className="mb-9 text-center">
+  <p className="text-sm text-[#6B6B6B] mb-3">
+    Search a dream or topic
+  </p>
+
+  <SearchBar />
+</section>        
         <section className="mb-12">
           <h2 className="font-serif text-2xl md:text-3xl mb-4">
             What do dream guides help you understand?
@@ -60,19 +68,46 @@ export default function GuidesPage() {
             waking life.
           </p>
         </section>
-<LazyMobileQuickNav />
-        
+
+<section className="mb-12 text-sm text-[#6B6B6B]">
+  <p>
+    You may also want to explore common dream meanings like{" "}
+    <Link href="/dreams/falling" className="underline">falling</Link>,{" "}
+    <Link href="/dreams/being-chased" className="underline">being chased</Link>, or{" "}
+    <Link href="/dreams/snake" className="underline">snake dreams</Link>.
+  </p>
+</section>
+  
+<section className="mb-12">
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    How dream guides help you understand your dreams
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed mb-4">
+    Dream guides provide context for understanding symbols, emotions, and
+    recurring patterns that appear in your dreams. Instead of fixed meanings,
+    they help you interpret dreams based on your personal experiences and
+    emotional state.
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed">
+    By exploring different types of dreams — from nightmares to spiritual dreams —
+    you can begin to understand how your subconscious processes fear, change,
+    relationships, and personal growth.
+  </p>
+</section>
 
         <GuidesSearchList guides={guideSearchItems} />
       </section>
 
-      <p className="mb-4 text-sm text-[#6B6B6B] text-center">
-        You can also explore meanings by{" "}
-        <Link href="/categories" className="underline">
-          dream categories
-        </Link>
-        .
-      </p>
+     <section className="mt-12 text-sm text-[#6B6B6B] text-center">
+  <p>
+    You can also explore meanings by{" "}
+    <Link href="/categories" className="underline">
+      dream categories
+    </Link>.
+  </p>
+</section>
 
       <section className="mt-20 border-t border-[#EAE6E1] pt-10 text-center">
         <h2 className="font-serif text-2xl md:text-3xl mb-4">

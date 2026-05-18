@@ -188,9 +188,15 @@ function linkifyText(text = "") {
 </nav>
 
         <h1 className="text-3xl md:text-5xl font-serif mb-10 text-[#1A1A1A]">
-          {guide.title} (Meaning & Interpretation)
+          {guide.title} Dream Meaning & Interpretation
         </h1>
+<section className="mb-8 text-center">
+  <p className="text-sm text-[#6B6B6B] mb-3">
+    Looking for a specific dream meaning?
+  </p>
 
+  <SearchBar />
+</section>
        {guide.sections?.length > 0 && (
   <nav className="mb-12 text-sm">
     <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">
@@ -213,15 +219,16 @@ function linkifyText(text = "") {
     </ul>
   </nav>
 )}
-<LazyMobileQuickNav />
+
         <p className="text-xs tracking-widest text-[#A89F91] uppercase mb-8">
           Guide - 5 min read
         </p>
 
 <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-6">
-  This guide explains {guide.title.toLowerCase()} and what it means in dreams,
-  including emotional, symbolic, and real-life interpretations.
+  This guide explores {guide.title.toLowerCase()} in dreams, including emotional
+  meaning, symbolic interpretation, and how it may connect to your waking life experiences.
 </p>
+<LazyMobileQuickNav />
         {guide.intro && (
           
           <p className="text-base md:text-lg leading-relaxed mb-12">
@@ -230,7 +237,6 @@ function linkifyText(text = "") {
         )}
 
         
-
         {guide.content?.length > 0 && (
           <section className="space-y-6 text-base md:text-lg mb-16">
             {guide.content.map((paragraph, i) => (
@@ -296,7 +302,23 @@ function linkifyText(text = "") {
             </ul>
           </section>
         )}
+<section className="mt-16 border-t border-[#EAE6E1] pt-10">
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    Related dream meanings
+  </h2>
 
+  <div className="flex flex-wrap gap-3 text-sm">
+    <Link href="/dreams/falling" className="underline">
+      Falling dream meaning
+    </Link>
+    <Link href="/dreams/being-chased" className="underline">
+      Being chased dream
+    </Link>
+    <Link href="/dreams/snake" className="underline">
+      Snake dream meaning
+    </Link>
+  </div>
+</section>
         {guide.related?.length > 0 && (
           <section className="mt-16 border-t border-[#EAE6E1] pt-10">
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
@@ -320,13 +342,15 @@ function linkifyText(text = "") {
           </section>
         )}
       </article>
-<p className="mb-4 text-sm text-[#6B6B6B]">
-  You can also explore specific dream meanings in our{" "}
-  <Link href="/categories" className="underline">
-    dream categories
-  </Link>.
-</p>
 
+<section className="mt-12 text-sm text-[#6B6B6B] text-center">
+  <p>
+    You can also explore specific dream meanings in our{" "}
+    <Link href="/categories" className="underline">
+      dream categories
+    </Link>.
+  </p>
+</section>
 
 
 <section className="mt-20 border-t border-[#EAE6E1] pt-10 text-center">

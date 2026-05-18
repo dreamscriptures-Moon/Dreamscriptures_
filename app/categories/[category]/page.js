@@ -3,7 +3,7 @@ import CategoryDreamList from "@/app/components/CategoryDreamList";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-import { dreams } from "@/data/dream";
+import { dreams } from "@/data/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import { categoriesData } from "@/data/categories";
 
@@ -32,6 +32,14 @@ export default async function CategoryPage({ params }) {
       (cat) => normalizeCategory(cat) === normalizedCategory
     )
   );
+  const categories = [
+    ...new Set(
+      dreams.flatMap((dream) =>
+        (dream.categories || []).map((cat) => normalizeCategory(cat))
+      )
+    ),
+  ];
+  const categoryData = categoriesData[normalizedCategory];
 
   // 🔥 Category descriptions
   const categoryDescriptions = {
@@ -105,8 +113,13 @@ Spiritual dreams are often less about predicting the future and more about helpi
         a: `${formatCategory(normalizedCategory)} dreams often reflect emotional patterns, life experiences, or internal changes connected to your waking life.`,
       },
     ];
-    const categoryData = categoriesData[normalizedCategory];
-   
+  function getCategoryEmotions() {
+    return categoryData?.emotionalThemes || [
+      "Emotion",
+      "Reflection",
+      "Inner state",
+    ];
+  }
 
   return (
     <main className="bg-[#F7F5F2] min-h-screen">
@@ -188,32 +201,38 @@ Spiritual dreams are often less about predicting the future and more about helpi
 
         {/* 🔥 Title */}
         <h1 className="text-4xl md:text-5xl font-serif mb-4 capitalize">
-          {formatCategory(normalizedCategory)} dreams
+          {formatCategory(normalizedCategory)} Dreams Meaning and Interpretation
         </h1>
 
         {/* 🔥 Description */}
         <p className="text-[#6B6B6B] leading-relaxed mb-10">
           {description}
-        </p>
 
-        <LazyMobileQuickNav />
+  Many {normalizedCategory} dreams also connect to experiences like{" "}
+ {filteredDreams.slice(0, 3).map((dream) => (
+  <Link
+    key={dream.slug}
+    href={`/dreams/${dream.slug}`}
+    className="underline mr-1"
+  >
+    {dream.title.toLowerCase()}
+  </Link>
+))}  </p>
 
+<p className="text-sm text-[#8A8177] mt-4">
+  These dreams often share emotional patterns even when the symbols appear different.
+</p>
+        
+    <LazyMobileQuickNav />
+ 
        {/* 🔥 Emotional themes */}
 <section className="mt-1">
   <h2 className="font-serif text-2xl md:text-3xl mb-6">
-    Emotional patterns connected to{" "}
-    {formatCategory(normalizedCategory)} dreams
+    Emotional patterns behind {normalizedCategory} dreams
   </h2>
 
   <div className="flex flex-wrap gap-3 mb-8">
-    {[
-      "Fear",
-      "Anxiety",
-      "Vulnerability",
-      "Overwhelm",
-      "Uncertainty",
-      "Hidden emotions",
-    ].map((theme) => (
+   {getCategoryEmotions().map((theme) => (
       <span
         key={theme}
         className="px-4 py-2 rounded-full border border-[#EAE6E1] text-sm text-[#6B6B6B] bg-[#FCFBF9]"
@@ -223,31 +242,13 @@ Spiritual dreams are often less about predicting the future and more about helpi
     ))}
   </div>
 
-  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-6">
-    {formatCategory(normalizedCategory)} dreams often appear during periods of
-    emotional tension, vulnerability, uncertainty, or situations where something
-    in life feels emotionally unresolved or difficult to fully understand.
-  </p>
-
-  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg">
-    Even when the symbols change, the emotional patterns underneath these dreams
-    are often connected to pressure, emotional conflict, fear of change, inner
-    instability, or experiences your mind is still trying to process beneath the
-    surface.
-  </p>
+  {categoryData?.emotionalNature && (
+    <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-6">
+      {categoryData.emotionalNature}
+    </p>
+  )}
 </section>
 
-<section className="mt-16">
-  <h2 className="font-serif text-2xl md:text-3xl mb-6">
-    Common {normalizedCategory} dreams
-  </h2>
-
-  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-8">
-    Dreams connected to {normalizedCategory} can appear in many different forms.
-    Some feel intense and emotionally overwhelming, while others carry quieter
-    feelings of uncertainty, emotional pressure, vulnerability, or inner conflict.
-  </p>
-</section>
 {categoryData?.framework?.map((section) => (
   <section key={section.title} className="mt-14">
     <h2 className="font-serif text-2xl md:text-3xl mb-4">
@@ -283,6 +284,38 @@ Spiritual dreams are often less about predicting the future and more about helpi
    
   </section>
 ))}
+{filteredDreams.length > 0 && (
+  <section className="mb-10">
+    <h2 className="font-serif text-xl mb-4">
+    {normalizedCategory} dreams
+    </h2>
+
+    <div className="flex flex-wrap gap-3">
+      {filteredDreams.slice(0, 8).map((dream) => (
+        <Link
+          key={dream.slug}
+          href={`/dreams/${dream.slug}`}
+          className="text-sm px-4 py-2 border border-[#EAE6E1] rounded-full hover:border-[#C6A96B] transition"
+        >
+          {dream.title}
+        </Link>
+      ))}
+    </div>
+  </section>
+)}
+
+<section className="mt-16">
+  <h2 className="font-serif text-2xl md:text-3xl mb-6">
+   Common {normalizedCategory} dreams and their meanings
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-8">
+    Dreams connected to {normalizedCategory} can appear in many different forms.
+    Some feel intense and emotionally overwhelming, while others carry quieter
+    feelings of uncertainty, emotional pressure, vulnerability, or inner conflict.
+  </p>
+</section>
+
 
 <section className="mt-20 border-t border-[#EAE6E1] pt-10">
   <h2 className="font-serif text-2xl md:text-3xl mb-6">
@@ -359,12 +392,14 @@ Spiritual dreams are often less about predicting the future and more about helpi
   Related emotional dream themes
 </h2>
 <p className="text-[#6B6B6B] leading-relaxed mb-6">
-  {formatCategory(normalizedCategory)} dreams are often closely connected to
-  emotional pressure, hidden emotions, transformation, uncertainty, and periods
-  of inner change or emotional tension.
+  Explore nearby categories when a {normalizedCategory} dream also carries
+  another emotional layer, symbol pattern, or inner experience.
 </p>
           <div className="flex flex-wrap gap-3">
-            {["fear", "anxiety", "transformation", "spiritual"].map((cat) => (
+            {categories
+  .filter((c) => c !== normalizedCategory)
+  .slice(0, 4)
+  .map((cat) => (
               <Link
                 key={cat}
                 href={`/categories/${cat}`}

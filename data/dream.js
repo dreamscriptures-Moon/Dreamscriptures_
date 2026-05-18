@@ -29,9 +29,21 @@ export const dreams = [
     "Snake dreams often reflect emotional tension, hidden fear, mistrust, transformation, instinct, or situations that feel emotionally complex beneath the surface. These dreams commonly appear during periods of emotional change, uncertainty, vulnerability, or growing awareness around something that no longer feels fully safe, clear, or emotionally resolved.",
 
   relatedDreams: [
-    "snake-bite",
-    "being-chased-by-a-snake",
-    "seeing-many-snakes",
+    {
+      slug: "snake-bite",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "being-chased-by-a-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "seeing-many-snakes",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    }
   ],
 
   categories: [
@@ -83,7 +95,23 @@ At its core, this dream may be pointing to something that needs your attention �
 
   summary: `This dream often reflects avoidance, pressure, or something you’re not ready to fully face yet. It carries a sense of urgency — like something in your life is asking for your attention, even if you’ve been trying to distance yourself from it. At its core, it points to something that keeps returning until it is acknowledged or dealt with.`,
 
-  relatedDreams: ["falling", "drowning", "escaping-something"],
+  relatedDreams: [
+    {
+      slug: "falling",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "drowning",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "escaping-something",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    }
+  ],
 
   categories: ["Fear", "Anxiety", "Hidden Emotions", "Transitions", "Inner Conflict", "Relationships"]
 },
@@ -147,7 +175,23 @@ If the dream repeats often, it may reflect ongoing emotional focus on your futur
 
   summary: `A sense that something meaningful is slowly developing within your life. This dream often reflects growth, emotional transformation, new beginnings, responsibility, and the quiet awareness that change is already happening beneath the surface.`,
 
-  relatedDreams: ["pregnant-with-twins", "giving-birth", "holding-a-baby"],
+  relatedDreams: [
+    {
+      slug: "pregnant-with-twins",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "giving-birth",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "holding-a-baby",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    }
+  ],
 
   categories: [
     "Transformation",
@@ -191,6 +235,39 @@ It can also show up when you’ve had time to reflect. Maybe you’re seeing thi
 In some cases, it’s not about them at all. It’s about you — what you’ve learned, what you’ve outgrown, and what you no longer want to return to.`,
 
   summary: `A connection from the past revisiting in a subtle way. This dream often reflects memory, emotional residue, or patterns that haven’t fully cleared. It’s less about the person, and more about what that connection still represents within you.`,
+  relatedDreams: [
+    {
+      slug: "ex-texting-you",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "arguing-with-your-ex",
+      reason:
+        "These dreams connect through unfinished feelings, old patterns, or a familiar emotional atmosphere returning."
+    },
+    {
+      slug: "marrying-your-ex",
+      reason:
+        "These dreams connect through unfinished feelings, old patterns, or a familiar emotional atmosphere returning."
+    },
+    {
+      slug: "meeting-someone-from-your-past",
+      reason:
+        "These dreams connect through unfinished feelings, old patterns, or a familiar emotional atmosphere returning."
+    },
+    {
+      slug: "feeling-nostalgic",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "reliving-a-specific-memory",
+      reason:
+        "Both dreams revisit emotional memory and parts of the past that may still carry meaning."
+    }
+  ],
+
 
   categories: ["Love", "Relationship", "Hidden Emotions", "Identity", "Transformation", "Inner Conflict"]
 },
@@ -228,6 +305,39 @@ It can also come up when you’re comparing yourself to others or feeling like t
 At its core, this dream often reflects pressure more than actual failure.`,
 
   summary: `A sense of being tested and not feeling fully ready. This dream often connects to pressure, self-doubt, or expectations — especially ones you place on yourself. It doesn’t necessarily reflect failure, but the fear of not meeting a standard that feels important to you.`,
+  relatedDreams: [
+    {
+      slug: "failing-an-exam",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "going-back-to-school",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "being-unprepared",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "being-late",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    },
+    {
+      slug: "missing-a-flight",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    },
+    {
+      slug: "hearing-a-clock-ticking",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Identity", "Work", "Money", "Hidden Emotions", "Inner Conflict"]
 },
@@ -271,6 +381,39 @@ You may also feel like you’re losing control of something that used to feel se
 In some cases, it reflects release. Not always chosen, but something that’s happening anyway — where holding on isn’t working the same way anymore.`,
 
   summary: `A sense of something familiar breaking down or being taken away. This dream often connects to loss, emotional intensity, or change that feels out of your control. It can reflect both disruption and release — something ending, while something else begins to take its place.`,
+  relatedDreams: [
+    {
+      slug: "fire",
+      reason:
+        "Both dreams can reflect emotions that feel consuming, sudden, or difficult to contain."
+    },
+    {
+      slug: "plane-crash",
+      reason:
+        "These dreams often point to upheaval, release, and transformation arriving with force."
+    },
+    {
+      slug: "tsunami",
+      reason:
+        "These dreams often point to upheaval, release, and transformation arriving with force."
+    },
+    {
+      slug: "flood",
+      reason:
+        "These dreams often point to upheaval, release, and transformation arriving with force."
+    },
+    {
+      slug: "being-trapped",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    },
+    {
+      slug: "darkness",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    }
+  ],
+
 
   categories: ["Transformation", "Transitions", "Fear", "Anxiety", "Hidden Emotions", "Identity", "Spiritual"]
 },
@@ -342,6 +485,39 @@ For some people, the dream reflects fear of uncertainty or difficulty accepting 
 If the dream repeats often, it may point to emotional transition that has not been fully processed or acknowledged yet.`,
 
   summary: `A dream about death often reflects endings, emotional transition, personal transformation, release, or major change happening in your waking life. It commonly appears during periods where identity, relationships, emotional attachments, or life directions are shifting, symbolizing not literal loss, but the closing of one chapter before another begins.`,
+  relatedDreams: [
+    {
+      slug: "seeing-a-dead-person",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    },
+    {
+      slug: "talking-to-a-dead-person",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    },
+    {
+      slug: "seeing-your-body-while-you-are-asleep",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    },
+    {
+      slug: "going-to-heaven",
+      reason:
+        "These dreams often carry grief, transformation, and the search for meaning around what has changed."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "Both dreams can reflect emotional thresholds where one phase of life no longer feels the same."
+    },
+    {
+      slug: "killing-yourself",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    }
+  ],
+
 
   categories: [
     "Transformation",
@@ -416,6 +592,34 @@ The dream mirrors your relationship with freedom, confidence, emotional control,
 
   summary:
     "Flying in a dream often reflects freedom, perspective, confidence, and emotional release from situations that once felt limiting or heavy. It commonly appears during periods of growth, independence, or changing perspective, highlighting both the excitement and uncertainty that can come with rising above old emotional boundaries.",
+  relatedDreams: [
+    {
+      slug: "walking-in-the-sky",
+      reason:
+        "Both dreams can reflect ambition, spiritual growth, or the slow work of becoming more confident."
+    },
+    {
+      slug: "climbing-a-mountain",
+      reason:
+        "These dreams often point to upward movement in life, even when the path requires effort."
+    },
+    {
+      slug: "climbing-a-tree",
+      reason:
+        "These dreams connect through progress, elevation, and the desire to rise beyond what once felt limiting."
+    },
+    {
+      slug: "traveling-to-your-dream-destination",
+      reason:
+        "These dreams often point to upward movement in life, even when the path requires effort."
+    },
+    {
+      slug: "climbing-stairs",
+      reason:
+        "These dreams often point to upward movement in life, even when the path requires effort."
+    }
+  ],
+
 
   categories: [
     "Spiritual",
@@ -461,6 +665,39 @@ It can also reflect moments where things are starting to make more sense — eve
 In some cases, it’s simply a reflection of calm. A moment where your mind isn’t overwhelmed, and you’re able to feel a sense of peace, even briefly.`,
 
   summary: `A sense of guidance, comfort, or quiet support. This dream often reflects reassurance, clarity, or a deeper connection to yourself. It doesn’t always answer everything, but it can bring a feeling that you’re not navigating things alone.`,
+  relatedDreams: [
+    {
+      slug: "seeing-jesus",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "speaking-to-jesus",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "speaking-to-god",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "light-surrounding-you",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "feeling-intense-peace",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    },
+    {
+      slug: "being-protected",
+      reason:
+        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+    }
+  ],
+
 
   categories: ["Spiritual", "Hidden Emotions", "Identity", "Transformation", "Love", "Relationships"]
 },
@@ -504,6 +741,39 @@ It can also reflect a period of introspection. Pulling back, thinking more, feel
 In some cases, it’s simply that things haven’t revealed themselves yet — and you’re in that in-between space.`,
 
   summary: `A sense of being in the unknown. This dream often reflects uncertainty, hidden emotions, or a phase where things aren’t fully clear yet. It doesn’t always mean something is wrong — just that not everything has come into view.`,
+  relatedDreams: [
+    {
+      slug: "seeing-a-demon-or-spirit-in-front-of-you",
+      reason:
+        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
+    },
+    {
+      slug: "feeling-someone-watching-you-while-you-sleep",
+      reason:
+        "These dreams connect through shadowy emotion, spiritual unease, or parts of the self that feel hard to face."
+    },
+    {
+      slug: "being-in-another-world",
+      reason:
+        "These dreams often point to hidden fear, isolation, and the need to understand what feels threatening."
+    },
+    {
+      slug: "lost-in-the-forest",
+      reason:
+        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+    },
+    {
+      slug: "being-in-a-forest",
+      reason:
+        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Hidden Emotions", "Inner Conflict", "Spiritual", "Transitions"]
 },
@@ -545,6 +815,39 @@ There may be something in your life that’s trying to come into focus — not i
 It can also reflect moments where your attention shifts. Where something interrupts your usual thinking and makes you pause.`,
 
   summary: `A sense of something calling for your attention. This dream often reflects awareness, timing, or a subtle shift in focus. It’s less about urgency, and more about noticing — something becoming clear enough that you can’t fully overlook it anymore.`,
+  relatedDreams: [
+    {
+      slug: "being-protected",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "feeling-intense-peace",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    },
+    {
+      slug: "light-surrounding-you",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    },
+    {
+      slug: "speaking-to-god",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "speaking-to-jesus",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    },
+    {
+      slug: "seeing-jesus",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    }
+  ],
+
 
   categories: ["Spiritual", "Hidden Emotions", "Transitions", "Inner Conflict", "Identity"]
 },
@@ -586,6 +889,34 @@ It can also reflect a shift in how you see things. You’re not reacting the sam
 In some cases, it’s simply space. Emotional or mental distance that you didn’t realize you needed until you felt it.`,
 
   summary: `A sense of moving above what once felt grounding or heavy. This dream often reflects distance, perspective, or a quiet kind of freedom. It can point to change — not loud or disruptive, but noticeable in how lightly things begin to feel.`,
+  relatedDreams: [
+    {
+      slug: "climbing-stairs",
+      reason:
+        "These dreams connect through progress, elevation, and the desire to rise beyond what once felt limiting."
+    },
+    {
+      slug: "flying",
+      reason:
+        "These dreams often point to upward movement in life, even when the path requires effort."
+    },
+    {
+      slug: "climbing-a-mountain",
+      reason:
+        "Both dreams can reflect ambition, spiritual growth, or the slow work of becoming more confident."
+    },
+    {
+      slug: "traveling-to-your-dream-destination",
+      reason:
+        "These dreams connect through progress, elevation, and the desire to rise beyond what once felt limiting."
+    },
+    {
+      slug: "climbing-a-tree",
+      reason:
+        "These dreams connect through progress, elevation, and the desire to rise beyond what once felt limiting."
+    }
+  ],
+
 
   categories: ["Spiritual", "Transitions", "Transformation", "Identity", "Inner Conflict"]
 },
@@ -629,6 +960,39 @@ It can also reflect emotional processing that didn’t fully happen before. Not 
 In some cases, it’s simply that you miss them. Or that they mattered in a way that doesn’t just disappear.`,
 
   summary: `A sense of the past becoming present again, even briefly. This dream often reflects memory, emotional connection, or something that still holds meaning within you. It’s less about the person returning, and more about what they represent and how it still lives within you.`,
+  relatedDreams: [
+    {
+      slug: "talking-to-a-dead-person",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    },
+    {
+      slug: "death",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    },
+    {
+      slug: "seeing-your-body-while-you-are-asleep",
+      reason:
+        "Both dreams can reflect emotional thresholds where one phase of life no longer feels the same."
+    },
+    {
+      slug: "meeting-someone-from-your-past",
+      reason:
+        "Both dreams connect through relationship feelings that may be present but not fully expressed."
+    },
+    {
+      slug: "reliving-a-specific-memory",
+      reason:
+        "Both dreams reflect hidden emotions shaping identity, self-awareness, or the way you see yourself."
+    },
+    {
+      slug: "going-to-heaven",
+      reason:
+        "These dreams often carry grief, transformation, and the search for meaning around what has changed."
+    }
+  ],
+
 
   categories: ["Transformation", "Hidden Emotions", "Spiritual", "Love", "Relationships", "Identity"]
 },
@@ -670,6 +1034,39 @@ There may also be something in your life that feels consuming — taking up more
 In some cases, it reflects change that feels sudden or hard to control.`,
 
   summary: `A sense of intensity that’s hard to ignore. This dream often reflects strong emotions, pressure, or change that feels active and consuming. It can point to both overwhelm and release — something building, shifting, or clearing within you.`,
+  relatedDreams: [
+    {
+      slug: "house-burning",
+      reason:
+        "Both dreams can reflect emotions that feel consuming, sudden, or difficult to contain."
+    },
+    {
+      slug: "plane-crash",
+      reason:
+        "These dreams often point to upheaval, release, and transformation arriving with force."
+    },
+    {
+      slug: "tsunami",
+      reason:
+        "These dreams often point to upheaval, release, and transformation arriving with force."
+    },
+    {
+      slug: "flood",
+      reason:
+        "These dreams often point to upheaval, release, and transformation arriving with force."
+    },
+    {
+      slug: "darkness",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    },
+    {
+      slug: "escaping-danger",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    }
+  ],
+
 
   categories: ["Transformation", "Fear", "Anxiety", "Hidden Emotions", "Spiritual", "Inner Conflict"]
 },
@@ -711,6 +1108,39 @@ You may feel protective over it, or unsure how to handle it yet.
 It can also reflect a softer side of you — something more open, more aware, or more emotionally present than usual.`,
 
   summary: `A sense of something new and meaningful beginning. This dream often reflects growth, potential, or a part of you that is still developing. It can feel soft, but important — something that needs time, attention, and care.`,
+  relatedDreams: [
+    {
+      slug: "holding-a-baby",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "seeing-baby-girl",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "giving-birth",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    },
+    {
+      slug: "having-a-miscarriage",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "being-in-labour",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "losing-a-baby",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    }
+  ],
+
 
   categories: ["Spiritual", "Transformation", "Identity", "Love", "Relationships", "Hidden Emotions"]
 },
@@ -752,6 +1182,39 @@ There may also be something you care about more than you expected. Something tha
 In some cases, it reflects becoming more in tune with yourself — your feelings, your needs, or what actually matters to you.`,
 
   summary: `A sense of something new forming that feels emotionally close to you. This dream often reflects softness, intuition, or personal growth that is still developing. It may be quiet, but it carries meaning that feels real.`,
+  relatedDreams: [
+    {
+      slug: "seeing-baby-boy",
+      reason:
+        "Both dreams reflect something vulnerable, new, or emotionally meaningful developing beneath the surface."
+    },
+    {
+      slug: "having-a-miscarriage",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    },
+    {
+      slug: "holding-a-baby",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    },
+    {
+      slug: "losing-a-baby",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    },
+    {
+      slug: "giving-birth",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "being-in-labour",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    }
+  ],
+
 
   categories: ["Spiritual", "Identity", "Hidden Emotions", "Transformation", "Love", "Relationships"]
 },
@@ -798,6 +1261,39 @@ It can also reflect curiosity or reflection. Thinking about what you want, what 
 In some cases, it’s about yourself. Becoming more aware of your own emotions, your needs, or parts of you that you don’t usually express.`,
 
   summary: `A sense of connection, intensity, or something coming together. This dream often reflects closeness, curiosity, or internal alignment, but its meaning depends heavily on how it felt. For some, it represents openness and connection. For others, it raises questions about boundaries or emotional awareness.`,
+  relatedDreams: [
+    {
+      slug: "intimacy-with-strange-creature",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "cheating-on-your-partner",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    },
+    {
+      slug: "partner-cheating-on-you",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    },
+    {
+      slug: "someone-confessing-love",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "confessing-your-love",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "These dreams connect through desire, trust, insecurity, or uncertainty inside relationships."
+    }
+  ],
+
 
   categories: ["Love", "Relationships", "Intimacy", "Hidden Emotions", "Identity", "Inner Conflict", "Spiritual"]
 },
@@ -875,6 +1371,39 @@ The dream reflects your emotional relationship with vulnerability, fear, emotion
 
   summary:
     "Being unable to scream in a dream often reflects helplessness, emotional suppression, anxiety, vulnerability, or situations where you feel unheard, powerless, or emotionally trapped. These dreams commonly appear during stressful or emotionally overwhelming periods and highlight themes of fear, emotional blockage, pressure, silence, insecurity, emotional expression, and the struggle to fully use your voice or protect yourself emotionally.",
+  relatedDreams: [
+    {
+      slug: "being-unable-to-speak",
+      reason:
+        "These dreams often point to suppressed emotion and the need for clearer emotional boundaries."
+    },
+    {
+      slug: "being-trapped",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    },
+    {
+      slug: "being-chased",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "hiding-from-someone",
+      reason:
+        "These dreams often point to suppressed emotion and the need for clearer emotional boundaries."
+    },
+    {
+      slug: "darkness",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    },
+    {
+      slug: "room-closing-in-on-you",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -959,6 +1488,39 @@ The dream reflects your emotional relationship with pressure, progress, exhausti
 
   summary:
     "Running slowly in a dream often reflects frustration, helplessness, emotional pressure, anxiety, burnout, or situations where you feel unable to move forward, escape stress, or regain control fast enough. These dreams commonly appear during overwhelming or emotionally exhausting periods and highlight themes of pressure, emotional restriction, fear, exhaustion, delayed progress, insecurity, and the struggle between urgency and emotional limitation.",
+  relatedDreams: [
+    {
+      slug: "being-chased",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "running-but-cant-move-fast",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "running",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "hiding-from-someone",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "escaping-danger",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "escaping-something",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -1043,6 +1605,39 @@ The dream reflects your emotional relationship with freedom, control, vulnerabil
 
   summary:
     "Being kidnapped in a dream often reflects fear, emotional vulnerability, pressure, manipulation, or situations where you feel trapped, powerless, emotionally restricted, or unable to fully control your own direction. These dreams commonly appear during stressful or emotionally overwhelming periods and highlight themes of control, emotional survival, independence, pressure, fear, boundaries, emotional captivity, and the need to reclaim personal freedom and emotional power.",
+  relatedDreams: [
+    {
+      slug: "being-chased",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "hiding-from-someone",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "escaping-danger",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "escaping-something",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "being-attacked",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    },
+    {
+      slug: "being-shot",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -1126,6 +1721,38 @@ The dream reflects your emotional relationship with safety, trust, emotional bou
 
   summary:
     "A snake in the house in a dream often reflects hidden tension, emotional discomfort, fear, mistrust, or situations affecting your personal life and emotional safety. These dreams commonly appear during emotionally stressful or uncertain periods and highlight themes of intuition, emotional awareness, hidden conflict, instability, vulnerability, emotional invasion, and the growing realization that something beneath the surface can no longer be ignored.",
+  relatedDreams: [
+    {
+      slug: "seeing-many-snakes",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "snake-in-bed",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "being-chased-by-a-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "snake-wrapping-around-you",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "snake-bite",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "friendly-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    }
+  ],
 
   categories: [
     "Animals",
@@ -1210,6 +1837,39 @@ The dream reflects your emotional relationship with fear, intuition, mistrust, e
 
   summary:
     "A black snake in a dream often reflects hidden fear, emotional tension, anxiety, mistrust, transformation, or emotionally intense situations that feel unclear or difficult to fully trust. These dreams commonly appear during stressful or transformative periods and highlight themes of intuition, emotional depth, hidden conflict, unresolved emotions, fear, emotional awakening, and the growing awareness that something beneath the surface needs attention.",
+  relatedDreams: [
+    {
+      slug: "snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "giant-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "snake-in-bed",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "being-chased",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    },
+    {
+      slug: "snake-bite",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "cobra",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -1294,6 +1954,39 @@ The dream reflects your emotional relationship with fear, emotional intensity, p
 
   summary:
     "A giant snake in a dream often reflects overwhelming fear, emotional pressure, hidden tension, anxiety, transformation, or situations that feel emotionally massive or impossible to ignore. These dreams commonly appear during stressful or deeply transformative periods and highlight themes of emotional intensity, fear, intuition, power, hidden conflict, emotional awakening, and major internal change developing beneath the surface.",
+  relatedDreams: [
+    {
+      slug: "black-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "cobra",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "snake-bite",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "being-chased-by-a-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "seeing-many-snakes",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -1378,6 +2071,39 @@ The dream reflects your emotional relationship with vulnerability, trust, intima
 
   summary:
     "A snake in bed in a dream often reflects emotional vulnerability, mistrust, hidden tension, intimacy issues, fear, or situations affecting your emotional safety and closest personal connections. These dreams commonly appear during emotionally sensitive or uncertain periods and highlight themes of trust, emotional awareness, hidden conflict, intimacy, fear, emotional exposure, transformation, and the growing realization that something beneath the surface needs honest attention.",
+  relatedDreams: [
+    {
+      slug: "snake-in-the-house",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "snake-wrapping-around-you",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "seeing-many-snakes",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "friendly-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "being-chased-by-a-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "white-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -1462,6 +2188,39 @@ The dream reflects your emotional relationship with healing, intuition, trust, t
 
   summary:
     "A friendly snake in a dream often reflects healing, intuition, emotional awareness, transformation, or becoming more comfortable with emotions and truths that once felt threatening. These dreams commonly appear during periods of emotional growth and highlight themes of trust, healing, emotional balance, vulnerability, inner wisdom, self-acceptance, transformation, and the ability to approach emotional depth without fear.",
+  relatedDreams: [
+    {
+      slug: "snake-wrapping-around-you",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "white-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "snake-in-bed",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "killing-a-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "snake-in-the-house",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "seeing-a-dead-snake",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -1546,6 +2305,39 @@ The dream reflects your emotional relationship with attachment, control, intimac
 
   summary:
     "A snake wrapping around you in a dream often reflects emotional pressure, attachment, control, intimacy, fear, transformation, or situations that feel emotionally consuming or difficult to escape from. These dreams commonly appear during emotionally intense periods and highlight themes of vulnerability, emotional entanglement, fear, intimacy, hidden tension, emotional overwhelm, transformation, and the powerful influence certain emotions or relationships can have over your inner world.",
+  relatedDreams: [
+    {
+      slug: "snake-in-bed",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "friendly-snake",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "snake-in-the-house",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "white-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "seeing-many-snakes",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "killing-a-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -1630,6 +2422,39 @@ The dream reflects your emotional relationship with fear, power, intuition, emot
 
   summary:
     "A cobra in a dream often reflects fear, hidden danger, emotional tension, intimidation, transformation, or emotionally intense situations demanding attention. These dreams commonly appear during stressful or transformative periods and highlight themes of awareness, intuition, emotional power, hidden conflict, fear, protection, emotional survival, and the growing realization that something beneath the surface should not be ignored.",
+  relatedDreams: [
+    {
+      slug: "giant-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "snake-bite",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "black-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "being-chased-by-a-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "seeing-many-snakes",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -1682,6 +2507,39 @@ You may also be avoiding something. Not directly, but by staying busy or focused
 Or, you could be working toward something. Putting in effort, trying to move forward, even if it feels tiring at times.`,
 
   summary: `A sense of constant movement. This dream often reflects pressure, effort, or avoidance — either trying to reach something or stay ahead of something else. It sits between progress and escape, depending on how it feels.`,
+  relatedDreams: [
+    {
+      slug: "running-but-cant-move-fast",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "hiding-from-someone",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    },
+    {
+      slug: "running-slowly",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "escaping-danger",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "being-chased",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "escaping-something",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Transitions", "Inner Conflict", "Work", "Money", "Identity"]
 },
@@ -1727,6 +2585,39 @@ It can also reflect internal pressure — comparing yourself, expecting more fro
 At the same time, it might be worth noticing why things feel slowed. Not everything needs to be forced forward.`,
 
   summary: `A sense of trying to move forward but feeling held back. This dream often reflects frustration, slowed progress, or internal resistance. It’s not about lack of effort, but about movement that isn’t flowing the way you want it to.`,
+  relatedDreams: [
+    {
+      slug: "running-slowly",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "running",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    },
+    {
+      slug: "being-chased",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "hiding-from-someone",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    },
+    {
+      slug: "escaping-danger",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "escaping-something",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Inner Conflict", "Transitions", "Work", "Money", "Identity"]
 },
@@ -1804,6 +2695,39 @@ The dream reflects your emotional relationship with healing, intuition, emotiona
 
 summary:
   "A white snake in a dream often reflects emotional healing, intuition, transformation, or hidden truths slowly becoming visible. These dreams commonly appear during emotionally reflective periods and highlight themes of awareness, vulnerability, spiritual growth, emotional clarity, and deeper self-understanding.",
+  relatedDreams: [
+    {
+      slug: "friendly-snake",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "killing-a-snake",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "snake-wrapping-around-you",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "seeing-a-dead-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "snake-in-bed",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "sleeping-with-a-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -1887,6 +2811,39 @@ The dream mirrors your emotional relationship with depth, intuition, healing, un
 
   summary:
     "Being in the ocean in a dream often reflects emotional depth, intuition, healing, uncertainty, or your connection to the deeper emotional parts of yourself. These dreams commonly appear during reflective or emotionally intense periods and highlight themes of emotional openness, overwhelm, spiritual awareness, vulnerability, transformation, and learning how to move through emotions rather than avoid them.",
+  relatedDreams: [
+    {
+      slug: "waves",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "water-rising",
+      reason:
+        "These dreams use water to show feelings rising, spilling over, or becoming hard to contain."
+    },
+    {
+      slug: "drowning",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "tsunami",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    },
+    {
+      slug: "boat-sinking",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "being-underwater-but-calm",
+      reason:
+        "Both dreams reflect hidden emotions shaping identity, self-awareness, or the way you see yourself."
+    }
+  ],
+
 
   categories: [
     "Water",
@@ -1967,6 +2924,39 @@ The dream mirrors your emotional relationship with vulnerability, conflict, emot
 
   summary:
     "Being shot in a dream often reflects emotional wounds, betrayal, vulnerability, conflict, anxiety, pressure, or situations that feel personally harmful and emotionally overwhelming. These dreams commonly appear during emotionally intense periods and highlight themes of fear, emotional attack, survival, trauma, resilience, healing, and the lasting impact of experiences that cut deeply into your emotional life.",
+  relatedDreams: [
+    {
+      slug: "being-attacked",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "being-kidnapped",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "being-chased",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "hiding-from-someone",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "escaping-danger",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "dog-bite",
+      reason:
+        "Both dreams can reflect defensive emotions around boundaries, danger, or betrayal."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -2051,6 +3041,39 @@ The dream reflects your emotional relationship with change, emotional flow, over
 
   summary:
     "Waves in a dream often reflect emotional movement, overwhelm, change, vulnerability, or feelings rising beneath the surface. These dreams commonly appear during emotionally active or transitional periods and highlight themes of emotional intensity, healing, instability, emotional release, reflection, uncertainty, and the natural movement of emotions through different phases of life.",
+  relatedDreams: [
+    {
+      slug: "water-rising",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    },
+    {
+      slug: "tsunami",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "drowning",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "flood",
+      reason:
+        "These dreams connect through fear, emotional intensity, and the sense that something is becoming too much."
+    },
+    {
+      slug: "dirty-water",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    },
+    {
+      slug: "boat-sinking",
+      reason:
+        "These dreams connect through fear, emotional intensity, and the sense that something is becoming too much."
+    }
+  ],
+
 
   categories: [
     "Water",
@@ -2110,6 +3133,39 @@ If they feel unpredictable, you may be in something that’s still unfolding.
 Either way, you’re in it — not avoiding it.`,
 
   summary: `A sense of moving through your emotions. This dream often reflects how you’re handling what you feel — whether with ease, effort, or uncertainty. It can point to both awareness and adjustment, depending on how steady the experience feels.`,
+  relatedDreams: [
+    {
+      slug: "seeing-water-in-a-dream",
+      reason:
+        "These dreams often point to intuition, healing, or a calmer relationship with what is felt beneath the surface."
+    },
+    {
+      slug: "mermaid",
+      reason:
+        "Both dreams use water as a symbol for emotional depth, reflection, and inner awareness."
+    },
+    {
+      slug: "looking-at-a-river",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "breathing-underwater",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "being-underwater-but-calm",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "clear-water",
+      reason:
+        "Both dreams use water as a symbol for emotional depth, reflection, and inner awareness."
+    }
+  ],
+
 
   categories: ["Hidden Emotions","Water", "Transitions", "Spiritual", "Inner Conflict", "Identity"]
 },
@@ -2178,9 +3234,21 @@ The dream mirrors that sense of being emotionally underwater and struggling to f
     "Drowning in a dream often reflects emotional overwhelm, anxiety, pressure, or feeling consumed by situations that have become too heavy to manage comfortably. It commonly appears during stressful or emotionally intense periods, highlighting exhaustion, vulnerability, suppressed feelings, and the need for emotional space, support, and release.",
 
   relatedDreams: [
-    "being-in-the-ocean",
-    "being-underwater-but-calm",
-    "breathing-underwater",
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    },
+    {
+      slug: "being-underwater-but-calm",
+      reason:
+        "Both dreams point to inner change shaped by emotions that may still be unfolding quietly."
+    },
+    {
+      slug: "breathing-underwater",
+      reason:
+        "Both dreams connect spiritual symbolism with personal change and deeper inner transition."
+    }
   ],
 
   categories: [
@@ -2254,6 +3322,39 @@ The dream mirrors that quieter emotional state and highlights the difference bet
 
   summary:
     "Being underwater but calm in a dream often reflects emotional depth, acceptance, healing, and the ability to stay connected to your feelings without becoming overwhelmed by them. It highlights inner stillness, reflection, and a calmer relationship with emotions that once may have felt too intense to fully face.",
+  relatedDreams: [
+    {
+      slug: "clear-water",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "breathing-underwater",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "calm-water",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "looking-at-a-river",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "seeing-water-in-a-dream",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "swimming-at-a-beach-or-in-a-pool",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    }
+  ],
+
 
   categories: [
     "Hidden Emotions",
@@ -2303,6 +3404,39 @@ If you felt stuck in the water, it may reflect difficulty stepping away.
 If you were trying to get out, it can show awareness that you don’t want to stay in that space.`,
 
   summary: `A sense of being in something that doesn’t feel right. This dream often reflects emotional discomfort, confusion, or being in a situation that feels off. It’s less about danger, and more about awareness — recognizing that something around you isn’t clear or aligned.`,
+  relatedDreams: [
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    },
+    {
+      slug: "shark-attack",
+      reason:
+        "These dreams use water to show feelings rising, spilling over, or becoming hard to contain."
+    },
+    {
+      slug: "boat-sinking",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "dirty-water",
+      reason:
+        "These dreams use water to show feelings rising, spilling over, or becoming hard to contain."
+    },
+    {
+      slug: "flood",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "tsunami",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Hidden Emotions", "Inner Conflict", "Transitions", "Spiritual"]
 },
@@ -2346,6 +3480,39 @@ You may feel like you’re adjusting to something unfamiliar — not necessarily
 It can also reflect internal change. Becoming someone slightly different, even if you haven’t fully recognized it yet.`,
 
   summary: `A sense of committing to something unfamiliar. This dream often reflects entering a new phase, decision, or version of yourself that isn’t fully known yet. It can feel uncertain, but not necessarily negative — just something you’re still adjusting to.`,
+  relatedDreams: [
+    {
+      slug: "marriage",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "marrying-a-stranger",
+      reason:
+        "These dreams connect through pressure around decisions, relationships, or paths that may change your identity."
+    },
+    {
+      slug: "marrying-someone-you-know",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "marrying-a-celebrity",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "forced-marriage",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "wedding-day-drama",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    }
+  ],
+
 
   categories: ["Love", "Relationships", "Transitions", "Identity", "Inner Conflict", "Spiritual"]
 },
@@ -2410,6 +3577,39 @@ The dream mirrors your emotional relationship with connection, familiarity, iden
 
   summary:
     "Marrying someone you know in a dream often reflects emotional connection, integration, trust, or deeper awareness of what that person represents in your life. These dreams are usually less about literal marriage and more about emotional closeness, inner alignment, personal growth, or qualities becoming more deeply connected within yourself.",
+  relatedDreams: [
+    {
+      slug: "marrying-a-stranger",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "marrying-a-celebrity",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "getting-married-to-a-stranger",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "forced-marriage",
+      reason:
+        "These dreams often sit near questions of consent, commitment, and personal direction."
+    },
+    {
+      slug: "marriage",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "wedding-day-drama",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    }
+  ],
+
 
   categories: [
     "Love",
@@ -2481,6 +3681,39 @@ The dream mirrors your emotional relationship with attachment, memory, growth, i
 
   summary:
     "Marrying your ex in a dream often reflects unresolved feelings, emotional residue, attachment, or relationship patterns that still carry emotional weight internally. These dreams are usually less about wanting the relationship back and more about understanding what that connection represented, how it shaped you, and what emotional lessons or wounds are still being processed beneath the surface.",
+  relatedDreams: [
+    {
+      slug: "arguing-with-your-ex",
+      reason:
+        "These dreams connect through unfinished feelings, old patterns, or a familiar emotional atmosphere returning."
+    },
+    {
+      slug: "meeting-someone-from-your-past",
+      reason:
+        "Both dreams revisit emotional memory and parts of the past that may still carry meaning."
+    },
+    {
+      slug: "ex-texting-you",
+      reason:
+        "Both dreams can reflect reflection on who you were then and what still echoes now."
+    },
+    {
+      slug: "feeling-nostalgic",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "ex-partner",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "reliving-a-specific-memory",
+      reason:
+        "These dreams connect through unfinished feelings, old patterns, or a familiar emotional atmosphere returning."
+    }
+  ],
+
 
   categories: [
     "Love",
@@ -2552,6 +3785,39 @@ The dream mirrors your emotional relationship with vulnerability, self-image, ho
 
   summary:
     "Being naked in public in a dream often reflects vulnerability, emotional exposure, insecurity, or fear of judgment. These dreams commonly appear during periods of self-awareness, emotional openness, pressure, or social anxiety, while also pointing toward authenticity, honesty, and becoming more comfortable with your true self beneath external image or protection.",
+  relatedDreams: [
+    {
+      slug: "looking-in-the-mirror",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "different-reflection-mirror",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    },
+    {
+      slug: "losing-your-language",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "peeing-the-bed",
+      reason:
+        "These dreams connect through exposure and private emotions rising into awareness."
+    },
+    {
+      slug: "being-unable-to-speak",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -2623,6 +3889,39 @@ The dream mirrors your emotional relationship with control, obligation, boundari
 
   summary:
     "Forced marriage in a dream often reflects pressure, obligation, emotional resistance, or feeling trapped inside commitments and expectations that do not fully feel like your choice. These dreams commonly appear during stressful or emotionally overwhelming periods and highlight themes of control, boundaries, identity, personal freedom, and emotional alignment.",
+  relatedDreams: [
+    {
+      slug: "marrying-a-celebrity",
+      reason:
+        "These dreams connect through pressure around decisions, relationships, or paths that may change your identity."
+    },
+    {
+      slug: "wedding-day-drama",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "marrying-someone-you-know",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "saying-yes-when-you-dont-want-to",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "marrying-a-stranger",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "saying-no",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    }
+  ],
+
 
   categories: [
     "Inner Conflict",
@@ -2694,6 +3993,39 @@ The dream mirrors your emotional relationship with commitment, transition, ident
 
   summary:
     "Marriage in a dream often reflects commitment, emotional union, transition, or major personal change. These dreams commonly appear during periods of emotional growth, responsibility, identity shifts, relationships, or important life decisions, highlighting themes of connection, stability, pressure, transformation, and emotional alignment.",
+  relatedDreams: [
+    {
+      slug: "getting-married-to-a-stranger",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "marrying-a-stranger",
+      reason:
+        "These dreams connect through pressure around decisions, relationships, or paths that may change your identity."
+    },
+    {
+      slug: "marrying-someone-you-know",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "marrying-a-celebrity",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "forced-marriage",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "wedding-day-drama",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    }
+  ],
+
 
   categories: [
     "Love",
@@ -2742,6 +4074,39 @@ You may also be questioning something you’ve been going along with. Not necess
 In some cases, it reflects growth. Learning that you don’t have to agree to everything, or be available for everything.`,
 
   summary: `A moment of choosing what does and doesn’t align with you. This dream often reflects boundaries, self-awareness, and the ability to step away from what doesn’t feel right. It may feel uncomfortable, but it carries a quiet sense of clarity.`,
+  relatedDreams: [
+    {
+      slug: "saying-yes-when-you-dont-want-to",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "unable-to-scream",
+      reason:
+        "These dreams often point to suppressed emotion and the need for clearer emotional boundaries."
+    },
+    {
+      slug: "wedding-day-drama",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "being-unable-to-speak",
+      reason:
+        "Both dreams involve voice, boundaries, and the emotional strain of expressing what feels true."
+    },
+    {
+      slug: "arguing-with-your-ex",
+      reason:
+        "These dreams often point to suppressed emotion and the need for clearer emotional boundaries."
+    },
+    {
+      slug: "forced-marriage",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    }
+  ],
+
 
   categories: ["Identity", "Inner Conflict", "Transformation", "Spiritual", "Hidden Emotions"]
 },
@@ -2811,6 +4176,39 @@ The dream mirrors your emotional relationship with pressure, freedom, fear, cont
 
   summary:
     "Being trapped in a dream often reflects emotional restriction, anxiety, pressure, overwhelm, or situations that make you feel emotionally stuck or unable to move freely forward. These dreams commonly appear during stressful or emotionally limiting periods and highlight themes of fear, burnout, inner conflict, emotional exhaustion, difficult choices, and the growing awareness that something in your life may no longer feel sustainable or emotionally aligned.",
+  relatedDreams: [
+    {
+      slug: "drowning",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "being-chased",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    },
+    {
+      slug: "room-closing-in-on-you",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "falling",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "teeth-falling-out",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "being-stuck-in-an-elevator",
+      reason:
+        "Both dreams involve restriction, pressure, or the feeling of not being able to move freely."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -2863,6 +4261,39 @@ You may not want to create tension, so you go along with things instead of pushi
 It can also reflect a pattern. Saying yes out of habit, then realizing later it didn’t align with what you actually wanted.`,
 
   summary: `A sense of agreeing without full alignment. This dream often reflects people-pleasing, hesitation around boundaries, or a disconnect between what you feel and what you express. It’s not about the yes itself, but what sits behind it.`,
+  relatedDreams: [
+    {
+      slug: "wedding-day-drama",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "saying-no",
+      reason:
+        "These dreams often sit near questions of consent, commitment, and personal direction."
+    },
+    {
+      slug: "arguing-with-your-ex",
+      reason:
+        "These dreams often point to suppressed emotion and the need for clearer emotional boundaries."
+    },
+    {
+      slug: "forced-marriage",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "unable-to-scream",
+      reason:
+        "Both dreams involve voice, boundaries, and the emotional strain of expressing what feels true."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "Both dreams can reflect inner tension around speaking up, resisting pressure, or being understood."
+    }
+  ],
+
 
   categories: ["Inner Conflict", "Identity", "Hidden Emotions", "Fear", "Anxiety", "Love", "Relationships"]
 },
@@ -2927,6 +4358,39 @@ The dream mirrors your emotional relationship with pressure, commitment, stabili
 
   summary:
     "Wedding day drama in a dream often reflects emotional pressure, fear of things falling apart, uncertainty surrounding commitment, or situations that feel unstable beneath the surface. These dreams commonly appear during stressful or transitional periods and highlight the tension between expectations, emotional readiness, and what truly feels aligned internally.",
+  relatedDreams: [
+    {
+      slug: "forced-marriage",
+      reason:
+        "These dreams connect through pressure around decisions, relationships, or paths that may change your identity."
+    },
+    {
+      slug: "saying-yes-when-you-dont-want-to",
+      reason:
+        "These dreams connect through pressure around decisions, relationships, or paths that may change your identity."
+    },
+    {
+      slug: "marrying-a-celebrity",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "saying-no",
+      reason:
+        "These dreams connect through pressure around decisions, relationships, or paths that may change your identity."
+    },
+    {
+      slug: "marrying-someone-you-know",
+      reason:
+        "These dreams often sit near questions of consent, commitment, and personal direction."
+    },
+    {
+      slug: "marrying-a-stranger",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    }
+  ],
+
 
   categories: [
     "Love",
@@ -3011,6 +4475,39 @@ The dream reflects your emotional relationship with fear, vulnerability, avoidan
 
   summary:
     "Hiding from someone in a dream often reflects emotional avoidance, fear, anxiety, pressure, insecurity, or situations you do not feel fully ready to confront directly. These dreams commonly appear during emotionally stressful periods and highlight themes of vulnerability, emotional self-protection, unresolved tension, fear of exposure, inner conflict, and the growing awareness that certain emotions or situations cannot stay hidden forever.",
+  relatedDreams: [
+    {
+      slug: "running",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "Both dreams can reflect inner tension around speaking up, resisting pressure, or being understood."
+    },
+    {
+      slug: "escaping-danger",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    },
+    {
+      slug: "running-but-cant-move-fast",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    },
+    {
+      slug: "arguing-with-your-ex",
+      reason:
+        "These dreams connect through conflict, fear of rejection, or difficulty saying what needs to be said."
+    },
+    {
+      slug: "escaping-something",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -3094,6 +4591,39 @@ The dream reflects your emotional relationship with survival, fear, pressure, an
 
   summary:
     "Escaping danger in a dream often reflects emotional pressure, anxiety, fear, survival instincts, or situations that feel emotionally overwhelming or difficult to fully escape from. These dreams commonly appear during stressful periods and highlight themes of emotional survival, vulnerability, pressure, resilience, instability, avoidance, and the desire to regain safety, control, and emotional stability.",
+  relatedDreams: [
+    {
+      slug: "hiding-from-someone",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "escaping-something",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "running",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "being-kidnapped",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    },
+    {
+      slug: "running-but-cant-move-fast",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "being-attacked",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -3142,6 +4672,39 @@ You may feel like you’re finally seeing something clearly, or realizing that y
 It can also reflect a desire to leave something behind — even if you haven’t fully done it yet.`,
 
   summary: `A sense of moving out of something that felt restricting or intense. This dream often reflects release, awareness, and the beginning of change. It’s not just about leaving — it’s about recognizing that you don’t have to stay.`,
+  relatedDreams: [
+    {
+      slug: "escaping-danger",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    },
+    {
+      slug: "being-kidnapped",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "hiding-from-someone",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "being-attacked",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "running",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "being-shot",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    }
+  ],
+
 
   categories: ["Transformation", "Transitions", "Inner Conflict", "Fear", "Anxiety", "Identity"]
 },
@@ -3186,6 +4749,39 @@ You may feel like a situation needs to be addressed, even if you’re unsure how
 It can also reflect a shift — becoming more direct, more honest, or less willing to avoid things.`,
 
   summary: `A moment of facing something directly. This dream often reflects honesty, tension, or the need to address something that’s been building. It may feel uncomfortable, but it carries a sense of clarity and presence.`,
+  relatedDreams: [
+    {
+      slug: "being-unable-to-speak",
+      reason:
+        "Both dreams involve voice, boundaries, and the emotional strain of expressing what feels true."
+    },
+    {
+      slug: "unable-to-scream",
+      reason:
+        "Both dreams can reflect inner tension around speaking up, resisting pressure, or being understood."
+    },
+    {
+      slug: "saying-no",
+      reason:
+        "These dreams connect through conflict, fear of rejection, or difficulty saying what needs to be said."
+    },
+    {
+      slug: "saying-yes-when-you-dont-want-to",
+      reason:
+        "Both dreams involve voice, boundaries, and the emotional strain of expressing what feels true."
+    },
+    {
+      slug: "arguing-with-your-ex",
+      reason:
+        "Both dreams can reflect inner tension around speaking up, resisting pressure, or being understood."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "These dreams often point to suppressed emotion and the need for clearer emotional boundaries."
+    }
+  ],
+
 
   categories: ["Inner Conflict", "Identity", "Fear", "Anxiety", "Relationships", "Transformation"]
 },
@@ -3232,6 +4828,39 @@ You may feel unheard, overlooked, or like your words won’t be received the way
 It can also reflect moments where you freeze instead of responding. Not because you don’t know what to say, but because something stops you in the moment.`,
 
   summary: `A sense of wanting to speak but not being able to at all. This dream often reflects blocked expression, feeling silenced, or not having space to communicate what you feel. It’s not about having nothing to say — it’s about not being able to say it.`,
+  relatedDreams: [
+    {
+      slug: "confrontation-argument",
+      reason:
+        "Both dreams involve voice, boundaries, and the emotional strain of expressing what feels true."
+    },
+    {
+      slug: "unable-to-scream",
+      reason:
+        "Both dreams involve voice, boundaries, and the emotional strain of expressing what feels true."
+    },
+    {
+      slug: "saying-no",
+      reason:
+        "These dreams often point to suppressed emotion and the need for clearer emotional boundaries."
+    },
+    {
+      slug: "saying-yes-when-you-dont-want-to",
+      reason:
+        "Both dreams can reflect inner tension around speaking up, resisting pressure, or being understood."
+    },
+    {
+      slug: "arguing-with-your-ex",
+      reason:
+        "Both dreams involve voice, boundaries, and the emotional strain of expressing what feels true."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "These dreams connect through conflict, fear of rejection, or difficulty saying what needs to be said."
+    }
+  ],
+
 
   categories: ["Inner Conflict", "Identity", "Fear", "Anxiety", "Relationships", "Hidden Emotions"]
 },
@@ -3278,6 +4907,39 @@ You may also feel like something is becoming more obvious — something you can�
 In some cases, it reflects heightened awareness. Noticing things more clearly, even if they make you uncomfortable.`,
 
   summary: `A sense of coming face to face with something unsettling or hard to ignore. This dream often reflects fear, confrontation, or awareness of something that has moved from the background into your focus. Its meaning depends on how it felt — overwhelming, or revealing.`,
+  relatedDreams: [
+    {
+      slug: "darkness",
+      reason:
+        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
+    },
+    {
+      slug: "feeling-someone-watching-you-while-you-sleep",
+      reason:
+        "These dreams often point to hidden fear, isolation, and the need to understand what feels threatening."
+    },
+    {
+      slug: "being-in-another-world",
+      reason:
+        "These dreams connect through shadowy emotion, spiritual unease, or parts of the self that feel hard to face."
+    },
+    {
+      slug: "lost-in-the-forest",
+      reason:
+        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
+    },
+    {
+      slug: "being-in-a-forest",
+      reason:
+        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Spiritual", "Inner Conflict", "Hidden Emotions"]
 },
@@ -3322,6 +4984,39 @@ You may also be processing something quietly — something sitting in the backgr
 In some cases, it reflects anxiety that shows up more strongly when you’re not distracted.`,
 
   summary: `A sense of presence without visibility. This dream often reflects vulnerability, awareness, or unease about something that isn’t fully clear yet. It’s not always about something being there — but about the feeling that something is.`,
+  relatedDreams: [
+    {
+      slug: "seeing-a-demon-or-spirit-in-front-of-you",
+      reason:
+        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
+    },
+    {
+      slug: "being-in-another-world",
+      reason:
+        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
+    },
+    {
+      slug: "darkness",
+      reason:
+        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
+    },
+    {
+      slug: "lost-in-the-forest",
+      reason:
+        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+    },
+    {
+      slug: "being-in-a-forest",
+      reason:
+        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Spiritual", "Hidden Emotions", "Inner Conflict"]
 },
@@ -3369,6 +5064,39 @@ You may feel less reactive than usual. More aware, more observant, but slightly 
 It can also reflect needing space. Not necessarily from others, but from your own thoughts or emotions.`,
 
   summary: `A sense of seeing yourself from the outside. This dream often reflects awareness, distance, or a shift in perspective. It’s not about being disconnected — it’s about observing yourself in a way you normally don’t.`,
+  relatedDreams: [
+    {
+      slug: "talking-to-a-dead-person",
+      reason:
+        "These dreams often carry grief, transformation, and the search for meaning around what has changed."
+    },
+    {
+      slug: "going-to-heaven",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    },
+    {
+      slug: "seeing-a-dead-person",
+      reason:
+        "Both dreams can reflect emotional thresholds where one phase of life no longer feels the same."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    },
+    {
+      slug: "death",
+      reason:
+        "Both dreams can reflect emotional thresholds where one phase of life no longer feels the same."
+    },
+    {
+      slug: "killing-yourself",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    }
+  ],
+
 
   categories: ["Spiritual", "Lucid Dreams", "Death", "Transformation"]
 },
@@ -3414,6 +5142,39 @@ You could also be allowing yourself to feel things more fully, without shutting 
 In some cases, it reflects growth. Being able to stay present in something you would have avoided before.`,
 
   summary: `A sense of being in something deep without being overwhelmed by it. This dream often reflects emotional strength, adaptation, or the ability to handle what you feel without losing control. It’s not about escaping — it’s about being able to stay.`,
+  relatedDreams: [
+    {
+      slug: "being-underwater-but-calm",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "looking-at-a-river",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "clear-water",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "seeing-water-in-a-dream",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "calm-water",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "swimming-at-a-beach-or-in-a-pool",
+      reason:
+        "These dreams often point to intuition, healing, or a calmer relationship with what is felt beneath the surface."
+    }
+  ],
+
 
   categories: ["Spiritual", "Death", "Transformation"]
 },
@@ -3457,6 +5218,39 @@ It can also reflect comparison. Not necessarily between people, but between who 
 In some cases, it’s about closure. Realizing something doesn’t hold the same weight it used to.`,
 
   summary: `A brief return of something from the past. This dream often reflects memory, emotional residue, or comparison between who you were and who you are now. It’s less about the person reaching out, and more about what their presence still represents.`,
+  relatedDreams: [
+    {
+      slug: "ex-partner",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "arguing-with-your-ex",
+      reason:
+        "Both dreams can reflect reflection on who you were then and what still echoes now."
+    },
+    {
+      slug: "marrying-your-ex",
+      reason:
+        "Both dreams can reflect reflection on who you were then and what still echoes now."
+    },
+    {
+      slug: "meeting-someone-from-your-past",
+      reason:
+        "Both dreams can reflect reflection on who you were then and what still echoes now."
+    },
+    {
+      slug: "feeling-nostalgic",
+      reason:
+        "Both dreams revisit emotional memory and parts of the past that may still carry meaning."
+    },
+    {
+      slug: "reliving-a-specific-memory",
+      reason:
+        "These dreams connect through unfinished feelings, old patterns, or a familiar emotional atmosphere returning."
+    }
+  ],
+
 
   categories: ["Love", "Relationships", "Spiritual", "Death", "Transformation"]
 },
@@ -3500,6 +5294,39 @@ You may also be thinking about how things were handled — what you would say di
 In some cases, it’s about your growth. Recognizing how you’ve changed in how you handle conflict or express yourself.`,
 
   summary: `A sense of conflict that hasn’t fully settled. This dream often reflects unresolved expression, emotional release, or revisiting a past dynamic with new awareness. It’s less about the person, and more about what still needs to be processed.`,
+  relatedDreams: [
+    {
+      slug: "ex-texting-you",
+      reason:
+        "These dreams connect through unfinished feelings, old patterns, or a familiar emotional atmosphere returning."
+    },
+    {
+      slug: "saying-yes-when-you-dont-want-to",
+      reason:
+        "Both dreams can reflect inner tension around speaking up, resisting pressure, or being understood."
+    },
+    {
+      slug: "marrying-your-ex",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "These dreams connect through conflict, fear of rejection, or difficulty saying what needs to be said."
+    },
+    {
+      slug: "ex-partner",
+      reason:
+        "Both dreams revisit emotional memory and parts of the past that may still carry meaning."
+    },
+    {
+      slug: "saying-no",
+      reason:
+        "Both dreams involve voice, boundaries, and the emotional strain of expressing what feels true."
+    }
+  ],
+
 
   categories: ["Love", "Relationships", "Death", "Transformation", "Inner Conflict"]
 },
@@ -3564,6 +5391,39 @@ The dream mirrors tension between emotional needs, personal identity, desire, re
 
   summary:
     "Cheating on your partner in a dream often reflects emotional conflict, hidden desires, unmet needs, curiosity, or inner tension rather than literal betrayal. These dreams commonly appear during periods of emotional dissatisfaction, identity change, restlessness, or questioning what feels emotionally missing, restricted, or unresolved within yourself or your relationship.",
+  relatedDreams: [
+    {
+      slug: "intimacy-with-strange-creature",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "partner-cheating-on-you",
+      reason:
+        "These dreams connect through desire, trust, insecurity, or uncertainty inside relationships."
+    },
+    {
+      slug: "having-sex",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "someone-confessing-love",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "confessing-your-love",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "These dreams connect through desire, trust, insecurity, or uncertainty inside relationships."
+    }
+  ],
+
 
   categories: [
     "Love", "Relationships",
@@ -3634,6 +5494,39 @@ The dream mirrors your emotional relationship with trust, connection, vulnerabil
 
   summary:
     "Your partner cheating on you in a dream often reflects insecurity, emotional vulnerability, fear of disconnection, or uncertainty surrounding trust and emotional closeness. These dreams are usually less about literal betrayal and more about emotional security, reassurance, self-worth, and the fear of losing connection with someone important to you.",
+  relatedDreams: [
+    {
+      slug: "cheating-on-your-partner",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "someone-confessing-love",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "intimacy-with-strange-creature",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "confessing-your-love",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    },
+    {
+      slug: "having-sex",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    }
+  ],
+
 
   categories: [
     "Love", "Relationships",
@@ -3708,9 +5601,21 @@ At its core, this dream may be asking you to notice where in your waking life yo
   summary: `A dream about falling often reflects anxiety, emotional instability, vulnerability, fear of failure, or situations in waking life that feel uncertain or outside your control. It commonly appears during stressful periods, emotional transitions, or moments where stability, confidence, or security feels shaken, while also symbolizing surrender, release, and personal transformation.`,
 
   relatedDreams: [
-    "being-chased",
-    "drowning",
-    "reaching-the-end-after-an-endless-fall",
+    {
+      slug: "being-chased",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "drowning",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "reaching-the-end-after-an-endless-fall",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    }
   ],
 
   categories: [
@@ -3794,6 +5699,39 @@ The dream reflects your emotional relationship with overwhelm, emotional pressur
 
   summary:
     "Rising water in a dream often reflects growing emotions, overwhelm, anxiety, pressure, or feelings becoming too strong to contain or ignore. These dreams commonly appear during emotionally intense periods and highlight themes of emotional buildup, vulnerability, instability, emotional release, hidden tension, emotional awareness, transformation, and the struggle to manage emotions before they become overwhelming.",
+  relatedDreams: [
+    {
+      slug: "drowning",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "dirty-water",
+      reason:
+        "These dreams often point to emotional depletion and the need to restore a sense of safety."
+    },
+    {
+      slug: "waves",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "flood",
+      reason:
+        "These dreams connect through survival pressure and anxiety around resources, energy, or emotional nourishment."
+    },
+    {
+      slug: "famine",
+      reason:
+        "Both dreams can appear when stability feels threatened by lack, excess, or imbalance."
+    },
+    {
+      slug: "tsunami",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    }
+  ],
+
 
   categories: [
     "Water",
@@ -3878,6 +5816,34 @@ The dream reflects your emotional relationship with burnout, emotional nourishme
 
   summary:
     "A drought in a dream often reflects emotional exhaustion, emptiness, burnout, disconnection, or situations that no longer emotionally nourish or sustain you. These dreams commonly appear during emotionally draining periods and highlight themes of depletion, loneliness, emotional survival, healing, emotional imbalance, emotional stagnation, the search for renewal, and the deep need for emotional restoration and support.",
+  relatedDreams: [
+    {
+      slug: "famine",
+      reason:
+        "These dreams often point to emotional depletion and the need to restore a sense of safety."
+    },
+    {
+      slug: "dirty-water",
+      reason:
+        "Both dreams reflect scarcity, insecurity, or concern about whether there will be enough."
+    },
+    {
+      slug: "water-rising",
+      reason:
+        "These dreams connect through survival pressure and anxiety around resources, energy, or emotional nourishment."
+    },
+    {
+      slug: "flood",
+      reason:
+        "Both dreams can appear when stability feels threatened by lack, excess, or imbalance."
+    },
+    {
+      slug: "money",
+      reason:
+        "These dreams often point to emotional depletion and the need to restore a sense of safety."
+    }
+  ],
+
 
   categories: [
     "Water",
@@ -3962,6 +5928,34 @@ The dream reflects your emotional relationship with insecurity, depletion, emoti
 
   summary:
     "A famine in a dream often reflects emotional emptiness, exhaustion, scarcity, fear of loss, or situations that no longer emotionally nourish or support you. These dreams commonly appear during emotionally draining or unstable periods and highlight themes of insecurity, depletion, emotional survival, burnout, hopelessness, healing, emotional imbalance, and the deep need for nourishment, support, and restoration.",
+  relatedDreams: [
+    {
+      slug: "drought",
+      reason:
+        "These dreams often point to emotional depletion and the need to restore a sense of safety."
+    },
+    {
+      slug: "dirty-water",
+      reason:
+        "These dreams often point to emotional depletion and the need to restore a sense of safety."
+    },
+    {
+      slug: "water-rising",
+      reason:
+        "Both dreams reflect scarcity, insecurity, or concern about whether there will be enough."
+    },
+    {
+      slug: "flood",
+      reason:
+        "These dreams connect through survival pressure and anxiety around resources, energy, or emotional nourishment."
+    },
+    {
+      slug: "money",
+      reason:
+        "Both dreams can appear when stability feels threatened by lack, excess, or imbalance."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -4046,6 +6040,39 @@ The dream reflects your emotional relationship with transformation, vulnerabilit
 
   summary:
     "Being in labour in a dream often reflects transformation, emotional pressure, painful growth, vulnerability, or something important preparing to emerge into a new phase. These dreams commonly appear during emotionally transformative periods and highlight themes of emotional buildup, fear, growth, creation, emotional release, resilience, healing, and the difficult but meaningful process of becoming something new.",
+  relatedDreams: [
+    {
+      slug: "being-pregnant",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "pregnant-with-twins",
+      reason:
+        "Both dreams reflect something vulnerable, new, or emotionally meaningful developing beneath the surface."
+    },
+    {
+      slug: "giving-birth",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "holding-a-baby",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "having-a-miscarriage",
+      reason:
+        "Both dreams reflect something vulnerable, new, or emotionally meaningful developing beneath the surface."
+    },
+    {
+      slug: "losing-a-baby",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    }
+  ],
+
 
   categories: [
     "Pregnancy",
@@ -4130,6 +6157,39 @@ The dream reflects your emotional relationship with patience, growth, responsibi
 
   summary:
     "Working on a farm in a dream often reflects patience, effort, responsibility, growth, or slowly building something meaningful over time. These dreams commonly appear during periods focused on survival, healing, stability, or long-term goals and highlight themes of consistency, emotional grounding, emotional labor, gradual progress, responsibility, resilience, and the understanding that meaningful growth takes time and care.",
+  relatedDreams: [
+    {
+      slug: "money",
+      reason:
+        "Both dreams can appear when ambition, stability, and uncertainty are emotionally tied together."
+    },
+    {
+      slug: "climbing-a-mountain",
+      reason:
+        "Both dreams can appear when ambition, stability, and uncertainty are emotionally tied together."
+    },
+    {
+      slug: "climbing-stairs",
+      reason:
+        "Both dreams connect to effort, direction, and the pressure of building or protecting something important."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "These dreams reflect practical anxiety around progress, security, opportunity, or personal responsibility."
+    },
+    {
+      slug: "missing-an-opportunity",
+      reason:
+        "Both dreams can appear when ambition, stability, and uncertainty are emotionally tied together."
+    },
+    {
+      slug: "traveling-to-your-dream-destination",
+      reason:
+        "Both dreams connect to effort, direction, and the pressure of building or protecting something important."
+    }
+  ],
+
 
   categories: [
     "Work",
@@ -4185,6 +6245,39 @@ It can also reflect distance between your current reality and what you want — 
 In some cases, it’s a reminder. Of what you actually want, beyond routine or expectations.`,
 
   summary: `A sense of moving toward something that holds meaning beyond itself. This dream often reflects desire, direction, and the distance between where you are and where you want to be. It’s not just about the destination, but what you believe it represents.`,
+  relatedDreams: [
+    {
+      slug: "missing-an-opportunity",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    },
+    {
+      slug: "flying",
+      reason:
+        "These dreams connect through progress, elevation, and the desire to rise beyond what once felt limiting."
+    },
+    {
+      slug: "losing-important-items",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "Both dreams can appear when ambition, stability, and uncertainty are emotionally tied together."
+    },
+    {
+      slug: "walking-in-the-sky",
+      reason:
+        "Both dreams can reflect ambition, spiritual growth, or the slow work of becoming more confident."
+    },
+    {
+      slug: "climbing-stairs",
+      reason:
+        "Both dreams connect to effort, direction, and the pressure of building or protecting something important."
+    }
+  ],
+
 
   categories: ["Spiritual", "Work", "Money", "Transformation"]
 },
@@ -4249,6 +6342,39 @@ The dream mirrors your emotional relationship with progress, pressure, timing, c
 
   summary:
     "Being late in a dream often reflects pressure surrounding timing, expectations, progress, or fear of falling behind. These dreams commonly appear during stressful or transitional periods and highlight anxiety about missing opportunities, disappointing others, or not being where you think you should be in life yet.",
+  relatedDreams: [
+    {
+      slug: "being-unprepared",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    },
+    {
+      slug: "missing-a-flight",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    },
+    {
+      slug: "going-back-to-school",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "hearing-a-clock-ticking",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "failing-an-exam",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "arriving-just-in-time",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -4319,6 +6445,39 @@ The dream mirrors the tension between what you feel internally and what you are 
 
   summary:
     "Losing your language in a dream often reflects difficulty expressing emotions, feeling misunderstood, or experiencing disconnection from yourself or others. It commonly appears during periods of emotional suppression, identity change, social pressure, or communication struggles, highlighting the gap between what you feel internally and what you are able to express outwardly.",
+  relatedDreams: [
+    {
+      slug: "talking-to-yourself",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "aging-suddenly",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "seeing-your-younger-self",
+      reason:
+        "These dreams connect through vulnerability around self-image, recognition, or personal change."
+    },
+    {
+      slug: "being-naked-in-public",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "mirrors",
+      reason:
+        "Both dreams can appear when your sense of self is shifting or asking to be understood more honestly."
+    }
+  ],
+
 
   categories: [
     "Identity",
@@ -4391,6 +6550,39 @@ At its core, this dream often highlights your relationship with timing, self-pre
 
   summary:
     "Missing a flight in a dream often reflects anxiety about timing, missed opportunities, pressure, or fear of falling behind while life keeps moving forward. It commonly appears during periods of uncertainty, comparison, or emotional urgency, highlighting both regret and the deeper question of whether every missed path was truly meant for you.",
+  relatedDreams: [
+    {
+      slug: "being-late",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "hearing-a-clock-ticking",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "being-unprepared",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "arriving-just-in-time",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "going-back-to-school",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "missing-an-opportunity",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -4458,6 +6650,39 @@ If the dream repeats, it may be pointing to a pattern of self-doubt or pressure 
 At its core, this dream may be asking you to notice how much pressure you’re carrying, and whether it’s coming from reality or from how you’re seeing yourself.`,
 
   summary: `A sense of being tested and not meeting expectations. This dream often reflects pressure, self-doubt, and fear of failure — not just in performance, but in how you see yourself. It highlights the weight of expectations and questions whether they’re truly yours.`,
+  relatedDreams: [
+    {
+      slug: "failing-a-test",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "going-back-to-school",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "being-unprepared",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    },
+    {
+      slug: "being-late",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "missing-a-flight",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "hearing-a-clock-ticking",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Work", "Money", "Spiritual"]
 },
@@ -4513,6 +6738,39 @@ In some cases, it connects to growth that feels repetitive. Like you’re facing
 At its core, this dream may be asking you to notice what feels familiar — and whether you’re responding to it the same way, or differently this time.`,
 
   summary: `A return to a space of learning, pressure, or self-evaluation. This dream often reflects revisiting patterns, emotions, or phases of growth that feel familiar. It’s less about going backward, and more about recognizing what is being brought back into focus.`,
+  relatedDreams: [
+    {
+      slug: "failing-an-exam",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "being-unprepared",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    },
+    {
+      slug: "failing-a-test",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "being-late",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "missing-a-flight",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "hearing-a-clock-ticking",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Work", "Money", "Spiritual"]
 },
@@ -4574,6 +6832,39 @@ If the dream repeats, it may be pointing to a pattern — feeling unready even w
 At its core, this dream may be asking you to notice whether you’re actually unprepared, or whether you just feel that way.`,
 
   summary: `A sense of being placed in something important without feeling ready for it. This dream often reflects pressure, self-doubt, and vulnerability around expectations. It highlights the gap between how capable you are and how prepared you feel.`,
+  relatedDreams: [
+    {
+      slug: "going-back-to-school",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "being-late",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "failing-an-exam",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    },
+    {
+      slug: "missing-a-flight",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "failing-a-test",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "hearing-a-clock-ticking",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Work", "Money", "Spiritual"]
 },
@@ -4640,6 +6931,39 @@ If the dream repeats often, it may point to unresolved disappointment, fear of l
 At its core, this dream often reflects the emotional process of confronting loss, interrupted growth, or unrealized potential.`,
 
   summary: `Having a miscarriage in a dream often reflects emotional loss, interrupted growth, disappointment, or fear surrounding something meaningful that did not fully develop. It commonly appears during periods of grief, uncertainty, emotional pressure, or major life transition, highlighting the emotional weight of unrealized potential and the process of learning to let go or heal.`,
+  relatedDreams: [
+    {
+      slug: "losing-a-baby",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "being-pregnant",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    },
+    {
+      slug: "being-in-labour",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "giving-birth",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "holding-a-baby",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    },
+    {
+      slug: "death",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    }
+  ],
+
 
   categories: [
     "Death",
@@ -4710,6 +7034,39 @@ The dream mirrors your emotional relationship with attachment, vulnerability, di
 
   summary:
     "Losing a baby in a dream often reflects emotional vulnerability, fear of loss, disappointment, or the pain of something meaningful not continuing the way you hoped. These dreams commonly appear during emotionally sensitive periods and highlight themes of attachment, fragile beginnings, emotional investment, grief, responsibility, and the fear of losing something deeply important before it fully develops.",
+  relatedDreams: [
+    {
+      slug: "having-a-miscarriage",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "holding-a-baby",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "being-pregnant",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "giving-birth",
+      reason:
+        "Both dreams reflect something vulnerable, new, or emotionally meaningful developing beneath the surface."
+    },
+    {
+      slug: "being-in-labour",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "death",
+      reason:
+        "Both dreams can reflect emotional thresholds where one phase of life no longer feels the same."
+    }
+  ],
+
 
   categories: [
     "Death",
@@ -4782,6 +7139,39 @@ The dream mirrors your emotional relationship with identity, self-image, honesty
 
   summary:
     "Looking in the mirror in a dream often reflects self-awareness, identity, emotional reflection, or the way you currently perceive yourself internally and externally. These dreams commonly appear during periods of personal growth, insecurity, self-examination, or emotional change, highlighting themes of honesty, confidence, self-image, awareness, and deeper understanding of who you are becoming.",
+  relatedDreams: [
+    {
+      slug: "different-reflection-mirror",
+      reason:
+        "Both dreams can appear when your sense of self is shifting or asking to be understood more honestly."
+    },
+    {
+      slug: "mirrors",
+      reason:
+        "Both dreams can appear when your sense of self is shifting or asking to be understood more honestly."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "These dreams connect through vulnerability around self-image, recognition, or personal change."
+    },
+    {
+      slug: "seeing-your-younger-self",
+      reason:
+        "Both dreams can appear when your sense of self is shifting or asking to be understood more honestly."
+    },
+    {
+      slug: "talking-to-yourself",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "losing-your-language",
+      reason:
+        "These dreams connect through vulnerability around self-image, recognition, or personal change."
+    }
+  ],
+
 
   categories: [
     "Identity",
@@ -4849,6 +7239,39 @@ In some cases, it connects to comparison. Feeling like others are moving forward
 If the dream repeats, it may be pointing to something that keeps coming back into your awareness — something you know matters, even if you haven’t acted on it yet.`,
 
   summary: `Time becoming impossible to ignore. This dream often reflects pressure, awareness, or the quiet realization that something is moving forward whether you act or not. It highlights your relationship with timing, urgency, and what you feel you should be doing.`,
+  relatedDreams: [
+    {
+      slug: "missing-a-flight",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "arriving-just-in-time",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "being-late",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "missing-an-opportunity",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "being-unprepared",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "watching-a-train-or-plane-leave",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Work", "Money", "Spiritual"]
 },
@@ -4906,6 +7329,39 @@ In some cases, it highlights a pattern. Things don’t fall apart, but they don�
 At its core, this dream may be asking you to notice whether you trust your timing — or whether you’re always operating under pressure to make things work just before they fall apart.`,
 
   summary: `Things coming together at the last possible moment. This dream often reflects pressure, timing, and the ability to navigate uncertainty without everything falling apart. It highlights both trust and tension — working through things even when they don’t feel fully stable.`,
+  relatedDreams: [
+    {
+      slug: "hearing-a-clock-ticking",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    },
+    {
+      slug: "missing-an-opportunity",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "missing-a-flight",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    },
+    {
+      slug: "watching-a-train-or-plane-leave",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "being-late",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "being-unprepared",
+      reason:
+        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Work", "Money", "Spiritual"]
 },
@@ -4965,6 +7421,39 @@ In some cases, it connects to a specific person. Not necessarily because they fe
 At its core, this dream may be asking you to notice how you experience being seen, wanted, or emotionally recognized.`,
 
   summary: `A sense of being seen and emotionally acknowledged in a direct way. This dream often reflects connection, attention, or the need for recognition. It highlights how you respond to being valued — whether it feels natural, surprising, or slightly uncomfortable.`,
+  relatedDreams: [
+    {
+      slug: "partner-cheating-on-you",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    },
+    {
+      slug: "confessing-your-love",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    },
+    {
+      slug: "cheating-on-your-partner",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    },
+    {
+      slug: "intimacy-with-strange-creature",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    },
+    {
+      slug: "phone-not-working",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    }
+  ],
+
 
   categories: ["Love", "Relationships", "Spiritual"]
 },
@@ -5029,6 +7518,39 @@ The dream mirrors your emotional relationship with vulnerability, acceptance, ap
 
   summary:
     "Being rejected in a dream often reflects insecurity, emotional vulnerability, fear of exclusion, or sensitivity surrounding acceptance and self-worth. These dreams commonly appear during emotionally uncertain periods and highlight themes of belonging, validation, emotional risk, disappointment, resilience, and the fear of not being chosen, valued, or emotionally accepted.",
+  relatedDreams: [
+    {
+      slug: "confessing-your-love",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "arguing-with-your-ex",
+      reason:
+        "These dreams often point to suppressed emotion and the need for clearer emotional boundaries."
+    },
+    {
+      slug: "phone-not-working",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    },
+    {
+      slug: "hiding-from-someone",
+      reason:
+        "Both dreams involve voice, boundaries, and the emotional strain of expressing what feels true."
+    },
+    {
+      slug: "someone-confessing-love",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    },
+    {
+      slug: "saying-yes-when-you-dont-want-to",
+      reason:
+        "Both dreams can reflect inner tension around speaking up, resisting pressure, or being understood."
+    }
+  ],
+
 
   categories: [
     "Love",
@@ -5095,6 +7617,39 @@ In some cases, it connects to a specific person. Not always because you want to 
 At its core, this dream may be asking you to notice what you’re holding in — and what it would mean to express it.`,
 
   summary: `A moment of turning feeling into expression. This dream often reflects vulnerability, honesty, and emotional clarity. It highlights the shift from holding something inside to allowing it to be seen, even without knowing the outcome.`,
+  relatedDreams: [
+    {
+      slug: "someone-confessing-love",
+      reason:
+        "These dreams connect through desire, trust, insecurity, or uncertainty inside relationships."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "These dreams connect through desire, trust, insecurity, or uncertainty inside relationships."
+    },
+    {
+      slug: "partner-cheating-on-you",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    },
+    {
+      slug: "phone-not-working",
+      reason:
+        "These dreams connect through desire, trust, insecurity, or uncertainty inside relationships."
+    },
+    {
+      slug: "cheating-on-your-partner",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    },
+    {
+      slug: "intimacy-with-strange-creature",
+      reason:
+        "These dreams connect through desire, trust, insecurity, or uncertainty inside relationships."
+    }
+  ],
+
 
   categories: ["Love", "Relationships", "Spiritual"]
 },
@@ -5162,6 +7717,39 @@ The dream mirrors your emotional relationship with stability, security, attachme
 
   summary:
     "Losing something important in a dream often reflects insecurity, instability, emotional pressure, distraction, or fear of losing control over something meaningful in your life. These dreams commonly appear during stressful or uncertain periods and highlight themes of attachment, security, emotional grounding, responsibility, and the anxiety of feeling that something valuable may be slipping away.",
+  relatedDreams: [
+    {
+      slug: "traveling-to-your-dream-destination",
+      reason:
+        "These dreams reflect practical anxiety around progress, security, opportunity, or personal responsibility."
+    },
+    {
+      slug: "missing-an-opportunity",
+      reason:
+        "These dreams reflect practical anxiety around progress, security, opportunity, or personal responsibility."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "Both dreams can appear when ambition, stability, and uncertainty are emotionally tied together."
+    },
+    {
+      slug: "climbing-stairs",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    },
+    {
+      slug: "climbing-a-mountain",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    },
+    {
+      slug: "working-on-a-farm",
+      reason:
+        "These dreams reflect practical anxiety around progress, security, opportunity, or personal responsibility."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -5242,6 +7830,39 @@ The dream mirrors your emotional relationship with fear, trust, vulnerability, t
 
   summary:
     "Getting bitten by a snake in a dream often reflects betrayal, hidden tension, emotional wounds, fear, toxic influence, or transformation arriving in a direct and emotionally intense way. These dreams commonly appear during stressful or emotionally sensitive periods and highlight themes of awareness, vulnerability, healing, emotional danger, and painful truths becoming impossible to ignore.",
+  relatedDreams: [
+    {
+      slug: "cobra",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "being-chased-by-a-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "giant-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "seeing-many-snakes",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "black-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "snake-in-the-house",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -5320,6 +7941,39 @@ The dream mirrors your emotional relationship with avoidance, fear, pressure, in
 
   summary:
     "Being chased by a snake in a dream often reflects avoidance, unresolved fear, emotional pressure, hidden conflict, or transformation that continues demanding attention. These dreams commonly appear during emotionally stressful or uncertain periods and highlight themes of anxiety, vulnerability, toxic influence, intuition, emotional truth, and situations that become harder to escape the longer they are avoided.",
+  relatedDreams: [
+    {
+      slug: "snake-bite",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "being-shot",
+      reason:
+        "These dreams reflect survival feelings, pressure, and the need to respond before everything feels manageable."
+    },
+    {
+      slug: "seeing-many-snakes",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "unable-to-scream",
+      reason:
+        "Both dreams can point to stress that keeps following you until it is faced more directly."
+    },
+    {
+      slug: "cobra",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "being-attacked",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -5399,6 +8053,39 @@ The dream mirrors your emotional relationship with fear, power, healing, boundar
 
   summary:
     "Killing a snake in a dream often reflects overcoming fear, reclaiming emotional power, ending toxic influence, or confronting something that no longer deserves control over your life. These dreams commonly appear during periods of personal growth, conflict, healing, or emotional transformation and highlight themes of courage, protection, boundaries, emotional strength, and liberation from what once felt threatening or overwhelming.",
+  relatedDreams: [
+    {
+      slug: "white-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "seeing-a-dead-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "friendly-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "sleeping-with-a-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "snake-wrapping-around-you",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "snake-bite-on-the-leg",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -5478,6 +8165,39 @@ The dream mirrors your emotional relationship with endings, healing, closure, fe
 
   summary:
     "Seeing a dead snake in a dream often reflects healing, closure, emotional recovery, or the ending of something that once felt threatening, toxic, or emotionally powerful. These dreams commonly appear during periods of transformation and highlight themes of release, emotional freedom, completed cycles, unresolved residue, and the difference between what is truly over externally and what still lingers internally.",
+  relatedDreams: [
+    {
+      slug: "killing-a-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "sleeping-with-a-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "white-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "snake-bite-on-the-leg",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "friendly-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "snake-bite-on-the-hand",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -5557,6 +8277,39 @@ The dream mirrors your emotional relationship with overwhelm, intuition, stress,
 
   summary:
     "Seeing many snakes in a dream often reflects overwhelm, layered anxiety, emotional overload, hidden tension, or multiple unresolved issues demanding attention at once. These dreams commonly appear during stressful or emotionally crowded periods and highlight themes of fear, intuition, emotional complexity, toxic environments, transformation, and the difficulty of feeling grounded when too many pressures are building beneath the surface simultaneously.",
+  relatedDreams: [
+    {
+      slug: "being-chased-by-a-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "snake-in-the-house",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "snake-bite",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "snake-in-bed",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "cobra",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "snake-wrapping-around-you",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -5636,6 +8389,39 @@ The dream mirrors your emotional relationship with trust, vulnerability, temptat
 
   summary:
     "Sleeping with a snake in a dream often reflects emotional vulnerability, hidden tension, toxic attachment, temptation, instinct, or situations that feel emotionally close while still carrying uncertainty or danger beneath the surface. These dreams commonly appear during emotionally complicated periods and highlight themes of trust, intimacy, emotional risk, transformation, attraction, manipulation, and becoming aware of what no longer feels fully safe emotionally.",
+  relatedDreams: [
+    {
+      slug: "seeing-a-dead-snake",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "snake-bite-on-the-leg",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "killing-a-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "snake-bite-on-the-hand",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "white-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "friendly-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    }
+  ],
+
 
   categories: [
     "Animals",
@@ -5716,6 +8502,39 @@ The dream mirrors your emotional relationship with release, vulnerability, stres
 
   summary:
     "Being in a toilet in a dream often reflects emotional release, vulnerability, stress buildup, privacy concerns, or the need to let go of emotional pressure that has become too heavy internally. These dreams commonly appear during emotionally stressful periods and highlight themes of cleansing, emotional overwhelm, shame, boundaries, healing, and the importance of releasing what no longer needs to be carried emotionally.",
+  relatedDreams: [
+    {
+      slug: "peeing-the-bed",
+      reason:
+        "These dreams connect through exposure and private emotions rising into awareness."
+    },
+    {
+      slug: "dirty-water",
+      reason:
+        "Both dreams involve vulnerability, embarrassment, or difficulty feeling fully in control of yourself."
+    },
+    {
+      slug: "being-naked-in-public",
+      reason:
+        "Both dreams can reflect discomfort around boundaries, shame, or situations that feel hard to manage."
+    },
+    {
+      slug: "being-unable-to-open-your-eyes",
+      reason:
+        "These dreams connect through exposure and private emotions rising into awareness."
+    },
+    {
+      slug: "being-in-a-small-crowded-room",
+      reason:
+        "These dreams often point to emotional sensitivity and the need for safety around what feels exposed."
+    },
+    {
+      slug: "being-trapped",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    }
+  ],
+
 
   categories: [
     "Anxiety",
@@ -5788,6 +8607,39 @@ The dream mirrors the way emotional bonds can continue shaping your inner world 
 
   summary:
     "Talking to a dead person in a dream often reflects grief, memory, emotional connection, unresolved feelings, or guidance connected to the past. These dreams can feel deeply personal and emotionally vivid, highlighting bonds, emotions, and parts of yourself that still remain emotionally active even after loss.",
+  relatedDreams: [
+    {
+      slug: "seeing-a-dead-person",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    },
+    {
+      slug: "seeing-your-body-while-you-are-asleep",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    },
+    {
+      slug: "death",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    },
+    {
+      slug: "going-to-heaven",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "These dreams often carry grief, transformation, and the search for meaning around what has changed."
+    },
+    {
+      slug: "killing-yourself",
+      reason:
+        "Both dreams can reflect emotional thresholds where one phase of life no longer feels the same."
+    }
+  ],
+
 
   categories: [
     "Spiritual",
@@ -5849,6 +8701,39 @@ In some cases, it reflects burnout. Giving energy outward while neglecting your 
 If the dream repeats, it may be asking you to notice where you feel disempowered and where support is needed.`,
 
   summary: `Your ability to act, provide, or stay in control feeling threatened. This dream often reflects powerlessness, burnout, blocked progress, or fear of losing independence. It highlights where pressure may be affecting your confidence and sense of capability.`,
+  relatedDreams: [
+    {
+      slug: "jumping-off-a-bridge",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "hair-falling-out",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    },
+    {
+      slug: "reaching-the-end-after-an-endless-fall",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "plane-crash",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "teeth-falling-out",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "going-down-stairs",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    }
+  ],
+
 
   categories: ["Body", "Fear", "Anxiety", "Work", "Money", "Death", "Transformation"]},
 {
@@ -5911,7 +8796,23 @@ If the dream repeats often, it may be highlighting anxiety or emotional stress t
 
   summary: `Teeth falling out in a dream often reflects insecurity, emotional pressure, anxiety, or situations where confidence and stability feel shaken. It commonly appears during stressful periods, major transitions, or moments where you feel vulnerable, exposed, emotionally overwhelmed, or unsure of yourself and your direction in life.`,
 
-  relatedDreams: ["hair-falling-out", "being-unable-to-speak", "aging-suddenly"],
+  relatedDreams: [
+    {
+      slug: "hair-falling-out",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "being-unable-to-speak",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    },
+    {
+      slug: "aging-suddenly",
+      reason:
+        "Both dreams reflect identity, self-understanding, and the emotional process of seeing yourself clearly."
+    }
+  ],
 
   categories: [
     "Body",
@@ -5973,6 +8874,39 @@ In some cases, it reflects personal growth happening quietly. You may not see im
 If the dream repeats, it may be asking you to trust the process of finding your way instead of needing instant certainty.`,
 
   summary: `Moving through a space where not everything is clear yet. This dream often reflects uncertainty, inner growth, emotional depth, or the search for direction. It highlights that some paths reveal themselves gradually rather than all at once.`,
+  relatedDreams: [
+    {
+      slug: "lost-in-the-forest",
+      reason:
+        "These dreams connect through shadowy emotion, spiritual unease, or parts of the self that feel hard to face."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+    },
+    {
+      slug: "being-in-another-world",
+      reason:
+        "These dreams often point to hidden fear, isolation, and the need to understand what feels threatening."
+    },
+    {
+      slug: "feeling-someone-watching-you-while-you-sleep",
+      reason:
+        "These dreams often point to hidden fear, isolation, and the need to understand what feels threatening."
+    },
+    {
+      slug: "seeing-a-demon-or-spirit-in-front-of-you",
+      reason:
+        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
+    },
+    {
+      slug: "darkness",
+      reason:
+        "These dreams connect through shadowy emotion, spiritual unease, or parts of the self that feel hard to face."
+    }
+  ],
+
 
   categories: ["Spiritual", "Fear", "Anxiety", "Death", "Transformation"]
 },
@@ -6028,6 +8962,39 @@ In some cases, it reflects healing. Emotions that once felt blocked may now be m
 If the dream repeats, it may be asking you to notice whether you are meant to watch for now, or whether it is time to step forward.`,
 
   summary: `Watching change, emotion, or life movement from a place of awareness. This dream often reflects reflection, transition, emotional processing, or the recognition that some things are already unfolding. It highlights the balance between observing and participating in your own next chapter.`,
+  relatedDreams: [
+    {
+      slug: "breathing-underwater",
+      reason:
+        "Both dreams use water as a symbol for emotional depth, reflection, and inner awareness."
+    },
+    {
+      slug: "seeing-water-in-a-dream",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "being-underwater-but-calm",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "swimming-at-a-beach-or-in-a-pool",
+      reason:
+        "These dreams often point to intuition, healing, or a calmer relationship with what is felt beneath the surface."
+    },
+    {
+      slug: "clear-water",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "mermaid",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    }
+  ],
+
 
   categories: ["Spiritual","Water","Transformation","Water", "Fear", "Anxiety"]
 },
@@ -6094,6 +9061,39 @@ At its core, the dream often reflects the feeling that something must change dra
 
   summary:
     "Dreaming about killing yourself often reflects emotional overwhelm, exhaustion, identity crisis, or the desire to escape painful situations that no longer feel sustainable. Rather than literal death, these dreams commonly symbolize transformation, emotional release, or the need for major change in parts of your life, self-concept, or emotional world that can no longer continue the same way.",
+  relatedDreams: [
+    {
+      slug: "death",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    },
+    {
+      slug: "going-to-heaven",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    },
+    {
+      slug: "seeing-your-body-while-you-are-asleep",
+      reason:
+        "These dreams often carry grief, transformation, and the search for meaning around what has changed."
+    },
+    {
+      slug: "darkness",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    },
+    {
+      slug: "being-trapped",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    }
+  ],
+
 
   categories: [
     "Spiritual",
@@ -6154,6 +9154,39 @@ In some cases, it reflects ambition mixed with fatigue. Wanting success while fe
 If the dream repeats, it may be asking you to focus less on how far is left and more on the progress already made.`,
 
   summary: `Working steadily toward something that requires strength, patience, and commitment. This dream often reflects ambition, personal growth, long-term challenges, or the desire to rise above present limitations. It highlights progress made through persistence rather than speed.`,
+  relatedDreams: [
+    {
+      slug: "working-on-a-farm",
+      reason:
+        "These dreams reflect practical anxiety around progress, security, opportunity, or personal responsibility."
+    },
+    {
+      slug: "climbing-a-tree",
+      reason:
+        "Both dreams can reflect ambition, spiritual growth, or the slow work of becoming more confident."
+    },
+    {
+      slug: "climbing-stairs",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    },
+    {
+      slug: "money",
+      reason:
+        "Both dreams connect to effort, direction, and the pressure of building or protecting something important."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "These dreams reflect practical anxiety around progress, security, opportunity, or personal responsibility."
+    },
+    {
+      slug: "walking-in-the-sky",
+      reason:
+        "These dreams connect through progress, elevation, and the desire to rise beyond what once felt limiting."
+    }
+  ],
+
 
   categories: ["Spiritual", "Work", "Money", "Fear", "Anxiety"]
 },
@@ -6207,6 +9240,34 @@ In some cases, it reflects the desire to rise above stress, limitations, or old 
 If the dream repeats, it may be asking you to trust your growth while also strengthening your foundation.`,
 
   summary: `Growing upward through effort while staying connected to what supports you. This dream often reflects personal development, confidence-building, gaining perspective, or reaching for something meaningful. It highlights progress that depends on both courage and stability.`,
+  relatedDreams: [
+    {
+      slug: "climbing-a-mountain",
+      reason:
+        "These dreams connect through progress, elevation, and the desire to rise beyond what once felt limiting."
+    },
+    {
+      slug: "climbing-stairs",
+      reason:
+        "These dreams often point to upward movement in life, even when the path requires effort."
+    },
+    {
+      slug: "walking-in-the-sky",
+      reason:
+        "These dreams often point to upward movement in life, even when the path requires effort."
+    },
+    {
+      slug: "flying",
+      reason:
+        "Both dreams can reflect ambition, spiritual growth, or the slow work of becoming more confident."
+    },
+    {
+      slug: "traveling-to-your-dream-destination",
+      reason:
+        "These dreams often point to upward movement in life, even when the path requires effort."
+    }
+  ],
+
 
   categories: ["Spiritual", "Fear", "Anxiety", "Identity"]
 },
@@ -6264,6 +9325,39 @@ If the dream repeats, it may be asking you to address what feels unsustainable b
 
   summary:
     "Reaching a point where staying in between no longer feels possible. This dream often reflects sudden change, emotional release, risk, or the urge to step away from something that no longer fits. It highlights tension between uncertainty and freedom.",
+  relatedDreams: [
+    {
+      slug: "reaching-the-end-after-an-endless-fall",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "hand-falling-off",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "teeth-falling-out",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    },
+    {
+      slug: "hair-falling-out",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "being-chased",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "plane-crash",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Spiritual", "Transformation"]
 },
@@ -6317,6 +9411,39 @@ If the dream repeats, it may be asking you to pay closer attention to what you a
 
   summary:
     "Emotions rising into awareness and becoming harder to ignore. This dream often reflects inner states, emotional processing, or changes unfolding beneath the surface. It highlights what you feel, even if you haven’t fully expressed it yet.",
+  relatedDreams: [
+    {
+      slug: "looking-at-a-river",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "swimming-at-a-beach-or-in-a-pool",
+      reason:
+        "Both dreams use water as a symbol for emotional depth, reflection, and inner awareness."
+    },
+    {
+      slug: "breathing-underwater",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "mermaid",
+      reason:
+        "These dreams often point to intuition, healing, or a calmer relationship with what is felt beneath the surface."
+    },
+    {
+      slug: "being-underwater-but-calm",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "clear-water",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    }
+  ],
+
 
   categories: ["Spiritual", "Water","Hidden Emotions"]
 },
@@ -6378,6 +9505,39 @@ If the dream repeats, it may be pointing to the need for closure or acceptance o
 
   summary:
     "A long period of uncertainty finally reaching an outcome. This dream often reflects closure, transition, or the end of something that has felt ongoing. It highlights the shift from suspension into reality, where something can no longer remain unresolved.",
+  relatedDreams: [
+    {
+      slug: "teeth-falling-out",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "jumping-off-a-bridge",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "being-chased",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    },
+    {
+      slug: "hand-falling-off",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    },
+    {
+      slug: "being-trapped",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "hair-falling-out",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Transformation"]
 },
@@ -6434,6 +9594,39 @@ If the dream repeats, it may be asking you to find healthier ways to release pre
 
   summary:
     "Something internal becoming harder to contain. This dream often reflects emotional release, vulnerability, stress, or fear of losing control. It highlights the need to express or process what has been held inside.",
+  relatedDreams: [
+    {
+      slug: "being-in-a-toilet",
+      reason:
+        "These dreams connect through exposure and private emotions rising into awareness."
+    },
+    {
+      slug: "being-naked-in-public",
+      reason:
+        "Both dreams can reflect discomfort around boundaries, shame, or situations that feel hard to manage."
+    },
+    {
+      slug: "being-unable-to-open-your-eyes",
+      reason:
+        "These dreams connect through exposure and private emotions rising into awareness."
+    },
+    {
+      slug: "being-in-a-small-crowded-room",
+      reason:
+        "These dreams often point to emotional sensitivity and the need for safety around what feels exposed."
+    },
+    {
+      slug: "teeth-falling-out",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    },
+    {
+      slug: "hair-falling-out",
+      reason:
+        "Both dreams share emotional patterns around inner pressure, reflection, or unresolved experience."
+    }
+  ],
+
 
   categories: ["Body", "Fear", "Anxiety", "Hidden Emotions"]
 },{
@@ -6492,6 +9685,39 @@ If the dream repeats, it may be asking you to pay attention to what feels differ
 
   summary:
     "A shift in identity or self-perception becoming noticeable. This dream often reflects change, inner awareness, or a disconnect between how you see yourself and how you feel. It highlights the space between who you were and who you are becoming.",
+  relatedDreams: [
+    {
+      slug: "looking-in-the-mirror",
+      reason:
+        "Both dreams can appear when your sense of self is shifting or asking to be understood more honestly."
+    },
+    {
+      slug: "mirrors",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "seeing-your-younger-self",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "talking-to-yourself",
+      reason:
+        "These dreams connect through vulnerability around self-image, recognition, or personal change."
+    },
+    {
+      slug: "losing-your-language",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    }
+  ],
+
 
   categories: ["Identity", "Spiritual", "Fear", "Anxiety"]
 },
@@ -6547,6 +9773,39 @@ If the dream repeats, it may be asking you to understand what this “other worl
 
   summary:
     "Stepping outside your normal reality into something unfamiliar. This dream often reflects exploration, change, imagination, or emotional distance. It highlights how you relate to new perspectives and experiences that feel beyond your usual world.",
+  relatedDreams: [
+    {
+      slug: "feeling-someone-watching-you-while-you-sleep",
+      reason:
+        "These dreams connect through shadowy emotion, spiritual unease, or parts of the self that feel hard to face."
+    },
+    {
+      slug: "lost-in-the-forest",
+      reason:
+        "These dreams often point to hidden fear, isolation, and the need to understand what feels threatening."
+    },
+    {
+      slug: "seeing-a-demon-or-spirit-in-front-of-you",
+      reason:
+        "These dreams connect through shadowy emotion, spiritual unease, or parts of the self that feel hard to face."
+    },
+    {
+      slug: "being-in-a-forest",
+      reason:
+        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+    },
+    {
+      slug: "darkness",
+      reason:
+        "These dreams connect through shadowy emotion, spiritual unease, or parts of the self that feel hard to face."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "These dreams connect through shadowy emotion, spiritual unease, or parts of the self that feel hard to face."
+    }
+  ],
+
 
   categories: ["Spiritual", "Identity", "Fear", "Anxiety"]
 },
@@ -6604,6 +9863,39 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
 
   summary:
     "Progress happening step by step through effort and consistency. This dream often reflects growth, ambition, development, or moving through stages of life gradually. It highlights persistence over speed.",
+  relatedDreams: [
+    {
+      slug: "climbing-a-mountain",
+      reason:
+        "These dreams reflect practical anxiety around progress, security, opportunity, or personal responsibility."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    },
+    {
+      slug: "walking-in-the-sky",
+      reason:
+        "These dreams often point to upward movement in life, even when the path requires effort."
+    },
+    {
+      slug: "working-on-a-farm",
+      reason:
+        "These dreams reflect practical anxiety around progress, security, opportunity, or personal responsibility."
+    },
+    {
+      slug: "climbing-a-tree",
+      reason:
+        "Both dreams can reflect ambition, spiritual growth, or the slow work of becoming more confident."
+    },
+    {
+      slug: "missing-an-opportunity",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    }
+  ],
+
 
   categories: ["Work", "Money", "Spiritual", "Death", "Transformation"]
 },
@@ -6661,6 +9953,39 @@ If the dream repeats, it may be asking you to notice what you are moving toward,
 
   summary:
     "Moving into a deeper or more internal space. This dream often reflects reflection, emotional processing, revisiting the past, or stepping away from outward progress. It highlights the shift from action into awareness.",
+  relatedDreams: [
+    {
+      slug: "plane-crash",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "hair-falling-out",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "hand-falling-off",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "jumping-off-a-bridge",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    },
+    {
+      slug: "reaching-the-end-after-an-endless-fall",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    },
+    {
+      slug: "teeth-falling-out",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    }
+  ],
+
 
   categories: ["Spiritual", "Fear", "Anxiety", "Death", "Transformation"]
 },
@@ -6718,6 +10043,39 @@ If the dream repeats, it may be asking you to reassess your direction or release
 
   summary:
     "A plan or direction breaking down unexpectedly. This dream often reflects fear of failure, loss of control, or sudden disruption in something important. It highlights the tension between expectation and reality.",
+  relatedDreams: [
+    {
+      slug: "falling",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "house-burning",
+      reason:
+        "These dreams often point to upheaval, release, and transformation arriving with force."
+    },
+    {
+      slug: "fire",
+      reason:
+        "Both dreams carry intense emotional disruption and the sense that something is changing quickly."
+    },
+    {
+      slug: "tsunami",
+      reason:
+        "Both dreams carry intense emotional disruption and the sense that something is changing quickly."
+    },
+    {
+      slug: "being-trapped",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "missing-a-flight",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Work", "Money", "Death", "Transformation"]
 },
@@ -6775,6 +10133,39 @@ If the dream repeats, it may be asking you to notice whether you need connection
 
   summary:
     "Being placed in a space of isolation or separation. This dream often reflects loneliness, independence, emotional distance, or the need for space. It highlights how you experience being alone, whether it feels peaceful or difficult.",
+  relatedDreams: [
+    {
+      slug: "stranded-on-island-with-stranger",
+      reason:
+        "Both dreams carry a feeling of isolation, uncertainty, or being far from familiar support."
+    },
+    {
+      slug: "stranded-on-island-with-someone-you-know",
+      reason:
+        "These dreams often point to loneliness, transition, and the need to find your way through unfamiliar space."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "These dreams often point to loneliness, transition, and the need to find your way through unfamiliar space."
+    },
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "Both dreams can reflect feeling separated from what usually helps you feel grounded."
+    },
+    {
+      slug: "lost-in-the-forest",
+      reason:
+        "These dreams connect through disorientation and the emotional search for direction or safety."
+    },
+    {
+      slug: "being-lost-in-a-building",
+      reason:
+        "These dreams often point to loneliness, transition, and the need to find your way through unfamiliar space."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Spiritual", "Death", "Transformation"]
 },
@@ -6834,6 +10225,39 @@ If the dream repeats, it may be asking you to pay attention to how you respond t
 
   summary:
     "Facing isolation while navigating connection with something unfamiliar. This dream often reflects new relationships, unknown situations, or discovering parts of yourself you don’t fully understand yet. It highlights the balance between distance and connection.",
+  relatedDreams: [
+    {
+      slug: "stranded-on-island-alone",
+      reason:
+        "Both dreams carry a feeling of isolation, uncertainty, or being far from familiar support."
+    },
+    {
+      slug: "stranded-on-island-with-someone-you-know",
+      reason:
+        "These dreams often point to loneliness, transition, and the need to find your way through unfamiliar space."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "These dreams often point to loneliness, transition, and the need to find your way through unfamiliar space."
+    },
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "Both dreams can reflect feeling separated from what usually helps you feel grounded."
+    },
+    {
+      slug: "lost-in-the-forest",
+      reason:
+        "These dreams connect through disorientation and the emotional search for direction or safety."
+    },
+    {
+      slug: "being-lost-in-a-building",
+      reason:
+        "These dreams often point to loneliness, transition, and the need to find your way through unfamiliar space."
+    }
+  ],
+
 
   categories: ["Love", "Relationships", "Fear", "Anxiety", "Spiritual", "Death", "Transformation"]
 },
@@ -6898,6 +10322,39 @@ The dream mirrors your emotional relationship with uncertainty, identity, transi
 
   summary:
     "Marrying a stranger in a dream often reflects emotional transition, uncertainty, identity change, or unfamiliar parts of yourself and your future becoming more emotionally important. These dreams commonly appear during periods of growth and change, highlighting themes of commitment, vulnerability, new beginnings, emotional openness, and learning to move toward the unknown.",
+  relatedDreams: [
+    {
+      slug: "getting-married-to-a-stranger",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "marrying-someone-you-know",
+      reason:
+        "These dreams often sit near questions of consent, commitment, and personal direction."
+    },
+    {
+      slug: "marriage",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "marrying-a-celebrity",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "forced-marriage",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    },
+    {
+      slug: "wedding-day-drama",
+      reason:
+        "Both dreams explore commitment, choice, and the emotional weight of saying yes or no."
+    }
+  ],
+
 
   categories: [
     "Love",
@@ -6971,6 +10428,39 @@ The dream mirrors your emotional relationship with desire, admiration, fantasy, 
 
   summary:
     "Marrying a celebrity in a dream often reflects admiration, emotional desire, aspiration, fantasy, or connection with qualities you deeply value and want to experience more fully in yourself or your life. These dreams commonly appear during periods involving confidence, identity growth, emotional longing, ambition, self-worth, or the desire for recognition and deeper fulfillment.",
+  relatedDreams: [
+    {
+      slug: "marrying-someone-you-know",
+      reason:
+        "These dreams often sit near questions of consent, commitment, and personal direction."
+    },
+    {
+      slug: "forced-marriage",
+      reason:
+        "Both dreams can reflect uncertainty about attachment, obligation, or what you are agreeing to emotionally."
+    },
+    {
+      slug: "marrying-a-stranger",
+      reason:
+        "These dreams connect through pressure around decisions, relationships, or paths that may change your identity."
+    },
+    {
+      slug: "wedding-day-drama",
+      reason:
+        "These dreams often sit near questions of consent, commitment, and personal direction."
+    },
+    {
+      slug: "getting-married-to-a-stranger",
+      reason:
+        "These dreams connect through pressure around decisions, relationships, or paths that may change your identity."
+    },
+    {
+      slug: "saying-yes-when-you-dont-want-to",
+      reason:
+        "These dreams connect through pressure around decisions, relationships, or paths that may change your identity."
+    }
+  ],
+
 
   categories: [
     "Love",
@@ -7055,6 +10545,39 @@ The dream reflects your emotional relationship with overwhelm, instability, fear
 
   summary:
     "A tsunami in a dream often reflects emotional overwhelm, fear, instability, major change, or feelings becoming too powerful to contain. These dreams commonly appear during highly stressful or transformative periods and highlight themes of emotional flooding, vulnerability, pressure, survival, emotional release, instability, transformation, and the struggle to regain stability after emotionally intense experiences.",
+  relatedDreams: [
+    {
+      slug: "waves",
+      reason:
+        "These dreams use water to show feelings rising, spilling over, or becoming hard to contain."
+    },
+    {
+      slug: "plane-crash",
+      reason:
+        "Both dreams can reflect emotions that feel consuming, sudden, or difficult to contain."
+    },
+    {
+      slug: "flood",
+      reason:
+        "These dreams use water to show feelings rising, spilling over, or becoming hard to contain."
+    },
+    {
+      slug: "water-rising",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "house-burning",
+      reason:
+        "These dreams connect through crisis imagery, overwhelm, and the fear of losing stability."
+    },
+    {
+      slug: "dirty-water",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    }
+  ],
+
 
   categories: [
     "Water",
@@ -7139,6 +10662,39 @@ The dream reflects your emotional relationship with healing, peace, emotional ba
 
   summary:
     "Calm water in a dream often reflects emotional peace, healing, clarity, balance, or emotional stillness beneath the surface. These dreams commonly appear during emotionally reflective or healing periods and highlight themes of acceptance, emotional recovery, inner peace, stability, emotional awareness, reflection, and learning to exist within your emotions without overwhelm or resistance.",
+  relatedDreams: [
+    {
+      slug: "clear-water",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "being-underwater-but-calm",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "breathing-underwater",
+      reason:
+        "These dreams often point to intuition, healing, or a calmer relationship with what is felt beneath the surface."
+    },
+    {
+      slug: "looking-at-a-river",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "seeing-water-in-a-dream",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "swimming-at-a-beach-or-in-a-pool",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    }
+  ],
+
 
   categories: [
     "Water",
@@ -7223,6 +10779,39 @@ The dream reflects your emotional relationship with clarity, healing, emotional 
 
   summary:
     "Clear water in a dream often reflects emotional clarity, healing, honesty, peace, or greater awareness of your emotions and inner truth. These dreams commonly appear during emotionally healing or reflective periods and highlight themes of emotional openness, self-awareness, balance, vulnerability, emotional cleansing, emotional understanding, and seeing situations more clearly than before.",
+  relatedDreams: [
+    {
+      slug: "calm-water",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "being-underwater-but-calm",
+      reason:
+        "These dreams often point to intuition, healing, or a calmer relationship with what is felt beneath the surface."
+    },
+    {
+      slug: "breathing-underwater",
+      reason:
+        "These dreams connect through the quieter side of emotion, where clarity or acceptance begins to form."
+    },
+    {
+      slug: "looking-at-a-river",
+      reason:
+        "Both dreams use water as a symbol for emotional depth, reflection, and inner awareness."
+    },
+    {
+      slug: "seeing-water-in-a-dream",
+      reason:
+        "Both dreams use water as a symbol for emotional depth, reflection, and inner awareness."
+    },
+    {
+      slug: "swimming-at-a-beach-or-in-a-pool",
+      reason:
+        "Both dreams use water as a symbol for emotional depth, reflection, and inner awareness."
+    }
+  ],
+
 
   categories: [
     "Water",
@@ -7307,6 +10896,39 @@ The dream reflects your emotional relationship with stress, emotional clarity, u
 
   summary:
     "Dirty water in a dream often reflects emotional confusion, negativity, stress, unresolved emotions, or situations that no longer feel emotionally healthy or clear. These dreams commonly appear during emotionally overwhelming periods and highlight themes of instability, emotional heaviness, toxic environments, emotional buildup, confusion, healing, emotional cleansing, and the need to restore emotional clarity and balance.",
+  relatedDreams: [
+    {
+      slug: "falling-or-swimming-in-dirty-water",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "flood",
+      reason:
+        "These dreams connect through fear, emotional intensity, and the sense that something is becoming too much."
+    },
+    {
+      slug: "water-rising",
+      reason:
+        "Both dreams reflect scarcity, insecurity, or concern about whether there will be enough."
+    },
+    {
+      slug: "drowning",
+      reason:
+        "These dreams use water to show feelings rising, spilling over, or becoming hard to contain."
+    },
+    {
+      slug: "being-in-a-toilet",
+      reason:
+        "These dreams often point to emotional sensitivity and the need for safety around what feels exposed."
+    },
+    {
+      slug: "drought",
+      reason:
+        "Both dreams reflect scarcity, insecurity, or concern about whether there will be enough."
+    }
+  ],
+
 
   categories: [
     "Water",
@@ -7391,6 +11013,39 @@ The dream reflects your emotional relationship with stability, overwhelm, emotio
 
   summary:
     "A sinking boat in a dream often reflects emotional overwhelm, instability, fear of losing control, or situations that no longer feel emotionally secure or sustainable. These dreams commonly appear during stressful or emotionally unstable periods and highlight themes of vulnerability, emotional pressure, survival, instability, emotional exhaustion, resilience, transformation, and the struggle to stay emotionally afloat during difficult experiences.",
+  relatedDreams: [
+    {
+      slug: "dirty-water",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    },
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "These dreams connect through fear, emotional intensity, and the sense that something is becoming too much."
+    },
+    {
+      slug: "flood",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "falling-or-swimming-in-dirty-water",
+      reason:
+        "These dreams connect through fear, emotional intensity, and the sense that something is becoming too much."
+    },
+    {
+      slug: "tsunami",
+      reason:
+        "These dreams use water to show feelings rising, spilling over, or becoming hard to contain."
+    },
+    {
+      slug: "shark-attack",
+      reason:
+        "These dreams connect through fear, emotional intensity, and the sense that something is becoming too much."
+    }
+  ],
+
 
   categories: [
     "Water",
@@ -7457,6 +11112,39 @@ If the dream repeats, it may be asking you to look at the relationship directly 
 
   summary:
     "A relationship becoming more focused and exposed without outside influence. This dream often reflects closeness, dependency, shared situations, or unresolved dynamics. It highlights what remains between you when everything else is removed.",
+  relatedDreams: [
+    {
+      slug: "stranded-on-island-with-stranger",
+      reason:
+        "Both dreams can reflect feeling separated from what usually helps you feel grounded."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "Both dreams carry a feeling of isolation, uncertainty, or being far from familiar support."
+    },
+    {
+      slug: "stranded-on-island-alone",
+      reason:
+        "Both dreams carry a feeling of isolation, uncertainty, or being far from familiar support."
+    },
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "Both dreams carry a feeling of isolation, uncertainty, or being far from familiar support."
+    },
+    {
+      slug: "lost-in-the-forest",
+      reason:
+        "These dreams often point to loneliness, transition, and the need to find your way through unfamiliar space."
+    },
+    {
+      slug: "being-lost-in-a-building",
+      reason:
+        "These dreams connect through disorientation and the emotional search for direction or safety."
+    }
+  ],
+
 
   categories: ["Love", "Relationships", "Fear", "Anxiety", "Spiritual", "Death", "Transformation"]
 },
@@ -7514,6 +11202,39 @@ If the dream repeats, it may be asking you to look at what is blocking your path
 
   summary:
     "Progress being interrupted or paused unexpectedly. This dream often reflects feeling stuck, delayed, or uncertain about direction. It highlights the moment between movement and decision, where the next step is not yet clear.",
+  relatedDreams: [
+    {
+      slug: "climbing-stairs",
+      reason:
+        "Both dreams can appear when ambition, stability, and uncertainty are emotionally tied together."
+    },
+    {
+      slug: "stranded-on-island-with-someone-you-know",
+      reason:
+        "Both dreams carry a feeling of isolation, uncertainty, or being far from familiar support."
+    },
+    {
+      slug: "missing-an-opportunity",
+      reason:
+        "Both dreams connect to effort, direction, and the pressure of building or protecting something important."
+    },
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "These dreams often point to loneliness, transition, and the need to find your way through unfamiliar space."
+    },
+    {
+      slug: "climbing-a-mountain",
+      reason:
+        "These dreams reflect practical anxiety around progress, security, opportunity, or personal responsibility."
+    },
+    {
+      slug: "stranded-on-island-with-stranger",
+      reason:
+        "Both dreams can reflect feeling separated from what usually helps you feel grounded."
+    }
+  ],
+
 
   categories: ["Work", "Money", "Spiritual", "Fear", "Anxiety"]
 },
@@ -7569,6 +11290,39 @@ If the dream repeats, it may be asking you to focus less on finding immediate an
 
   summary:
     "Feeling unsure, overwhelmed, or without clear direction. This dream often reflects confusion, emotional depth, or being in a phase where answers are not fully visible yet. It highlights the experience of moving through uncertainty rather than having clarity.",
+  relatedDreams: [
+    {
+      slug: "being-in-another-world",
+      reason:
+        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
+    },
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "These dreams connect through disorientation and the emotional search for direction or safety."
+    },
+    {
+      slug: "being-in-a-forest",
+      reason:
+        "These dreams often point to hidden fear, isolation, and the need to understand what feels threatening."
+    },
+    {
+      slug: "being-lost-in-a-building",
+      reason:
+        "Both dreams can reflect feeling separated from what usually helps you feel grounded."
+    },
+    {
+      slug: "feeling-someone-watching-you-while-you-sleep",
+      reason:
+        "These dreams connect through shadowy emotion, spiritual unease, or parts of the self that feel hard to face."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "These dreams often point to loneliness, transition, and the need to find your way through unfamiliar space."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Spiritual"]
 },
@@ -7626,6 +11380,39 @@ If the dream repeats, it may be asking you to look more closely at what is drawi
 
   summary:
     "Being drawn toward something mysterious, emotional, or not fully understood. This dream often reflects attraction, curiosity, illusion, or deeper emotional awareness. It highlights the connection between what you feel and what you fully recognize.",
+  relatedDreams: [
+    {
+      slug: "being-underwater-but-calm",
+      reason:
+        "Both dreams suggest an emotional space that can feel deep without necessarily feeling threatening."
+    },
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "Both dreams reflect hidden emotions shaping identity, self-awareness, or the way you see yourself."
+    },
+    {
+      slug: "calm-water",
+      reason:
+        "Both dreams use water as a symbol for emotional depth, reflection, and inner awareness."
+    },
+    {
+      slug: "clear-water",
+      reason:
+        "These dreams often point to intuition, healing, or a calmer relationship with what is felt beneath the surface."
+    },
+    {
+      slug: "seeing-water-in-a-dream",
+      reason:
+        "Both dreams use water as a symbol for emotional depth, reflection, and inner awareness."
+    },
+    {
+      slug: "intimacy-with-strange-creature",
+      reason:
+        "Both dreams reflect hidden emotions shaping identity, self-awareness, or the way you see yourself."
+    }
+  ],
+
 
   categories: ["Spiritual", "Hidden Emotions", "Identity"]
 },
@@ -7689,6 +11476,39 @@ If the dream repeats, it may be asking you to look closely at what is disrupting
 
   summary:
     "Something hidden becoming a direct obstacle in your path. This dream often reflects disruption, forced awareness, or issues affecting your progress and direction. It highlights where something can no longer be ignored because it is impacting how you move forward.",
+  relatedDreams: [
+    {
+      slug: "sleeping-with-a-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "snake-bite-on-the-hand",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "seeing-a-dead-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "killing-a-snake",
+      reason:
+        "Both dreams use snake imagery to explore hidden tension, instinct, fear, or change beneath the surface."
+    },
+    {
+      slug: "white-snake",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "friendly-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    }
+  ],
+
 
   categories: ["Animals", "Fear", "Anxiety", "Spiritual", "Transformation"]
 },
@@ -7746,6 +11566,39 @@ If the dream repeats, it may be asking you to look at what is interfering with y
 
   summary:
     "Something affecting your ability to act, trust, or stay in control. This dream often reflects betrayal, conflict, or a direct emotional impact that can no longer be ignored. It highlights where something has moved from awareness into real experience.",
+  relatedDreams: [
+    {
+      slug: "snake-bite-on-the-leg",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "sleeping-with-a-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "seeing-a-dead-snake",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    },
+    {
+      slug: "killing-a-snake",
+      reason:
+        "These dreams often point to instinctive fear, emotional caution, or truths that are difficult to ignore."
+    },
+    {
+      slug: "white-snake",
+      reason:
+        "These dreams connect through the uneasy feeling that something powerful or unresolved is close to awareness."
+    },
+    {
+      slug: "friendly-snake",
+      reason:
+        "Both dreams carry themes of mistrust, protection, and transformation moving through the background."
+    }
+  ],
+
 
   categories: ["Animals", "Fear", "Anxiety", "Spiritual"]
 },
@@ -7801,6 +11654,29 @@ If the dream repeats, it may be asking you to address what seems small before it
 
   summary:
     "A small but noticeable emotional impact that shouldn’t be ignored. This dream often reflects irritation, subtle conflict, or boundaries being crossed in minor ways. It highlights how small issues can still affect you over time.",
+  relatedDreams: [
+    {
+      slug: "dog-bite",
+      reason:
+        "Both dreams can reflect defensive emotions around boundaries, danger, or betrayal."
+    },
+    {
+      slug: "shark-attack",
+      reason:
+        "Both dreams can reflect defensive emotions around boundaries, danger, or betrayal."
+    },
+    {
+      slug: "being-attacked",
+      reason:
+        "Both dreams involve vulnerability and the feeling of being hurt, threatened, or emotionally unsafe."
+    },
+    {
+      slug: "being-shot",
+      reason:
+        "Both dreams can reflect defensive emotions around boundaries, danger, or betrayal."
+    }
+  ],
+
 
   categories: ["Animals", "Relationships", "Hidden Emotions", "Anxiety"]
 },
@@ -7858,6 +11734,29 @@ If the dream repeats, it may be asking you to look at where trust, loyalty, or b
 
   summary:
     "Trust or loyalty being disrupted in a noticeable way. This dream often reflects relationship tension, conflict, or emotional hurt. It highlights situations where something familiar no longer feels safe or predictable.",
+  relatedDreams: [
+    {
+      slug: "cat-scratching-you",
+      reason:
+        "Both dreams can reflect defensive emotions around boundaries, danger, or betrayal."
+    },
+    {
+      slug: "shark-attack",
+      reason:
+        "Both dreams involve vulnerability and the feeling of being hurt, threatened, or emotionally unsafe."
+    },
+    {
+      slug: "being-attacked",
+      reason:
+        "Both dreams can reflect defensive emotions around boundaries, danger, or betrayal."
+    },
+    {
+      slug: "being-shot",
+      reason:
+        "Both dreams involve vulnerability and the feeling of being hurt, threatened, or emotionally unsafe."
+    }
+  ],
+
 
   categories: ["Animals", "Relationships", "Fear", "Anxiety"]
 },
@@ -7915,6 +11814,39 @@ If the dream repeats, it may be asking you to identify what feels like a hidden 
 
   summary:
     "A hidden threat becoming sudden and overwhelming. This dream often reflects fear, emotional intensity, or pressure that can no longer stay beneath the surface. It highlights vulnerability and the need to face what feels dangerous or out of control.",
+  relatedDreams: [
+    {
+      slug: "falling-or-swimming-in-dirty-water",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    },
+    {
+      slug: "dog-bite",
+      reason:
+        "Both dreams involve vulnerability and the feeling of being hurt, threatened, or emotionally unsafe."
+    },
+    {
+      slug: "being-attacked",
+      reason:
+        "These dreams connect through sudden conflict, mistrust, or fear that something may harm you."
+    },
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "These dreams use water to show feelings rising, spilling over, or becoming hard to contain."
+    },
+    {
+      slug: "cat-scratching-you",
+      reason:
+        "These dreams connect through sudden conflict, mistrust, or fear that something may harm you."
+    },
+    {
+      slug: "being-shot",
+      reason:
+        "These dreams connect through sudden conflict, mistrust, or fear that something may harm you."
+    }
+  ],
+
 
   categories: ["Animals", "Fear", "Anxiety", "Spiritual"]
 },
@@ -7970,6 +11902,39 @@ If the dream repeats, it may be asking you to pay attention to what you are bein
 
   summary:
     "A connection to guidance, faith, or inner reflection becoming more present. This dream often reflects reassurance, direction, forgiveness, or spiritual awareness. It highlights a deeper need for meaning, clarity, or alignment in your life.",
+  relatedDreams: [
+    {
+      slug: "angels",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "speaking-to-jesus",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "speaking-to-god",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "light-surrounding-you",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "feeling-intense-peace",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    },
+    {
+      slug: "being-protected",
+      reason:
+        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+    }
+  ],
+
 
   categories: ["Spiritual", "Hidden Emotions", "Identity"]
 },
@@ -8034,6 +11999,39 @@ The dream mirrors your emotional relationship with fear, pressure, conflict, pro
 
   summary:
     "Being attacked in a dream often reflects emotional pressure, anxiety, fear, conflict, or situations that feel threatening or overwhelming in waking life. These dreams commonly appear during stressful periods and highlight vulnerability, emotional survival, internal struggle, or the feeling that your emotional safety and stability are under pressure.",
+  relatedDreams: [
+    {
+      slug: "being-shot",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "being-kidnapped",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "being-chased",
+      reason:
+        "Both dreams carry the sense of being pursued by something unresolved, threatening, or emotionally urgent."
+    },
+    {
+      slug: "escaping-danger",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "hiding-from-someone",
+      reason:
+        "These dreams often connect through fear, avoidance, or emotional pressure that feels hard to escape."
+    },
+    {
+      slug: "dog-bite",
+      reason:
+        "These dreams connect through sudden conflict, mistrust, or fear that something may harm you."
+    }
+  ],
+
 
   categories: [
     "Fear",
@@ -8099,6 +12097,39 @@ If the dream repeats, it may be asking you to notice how you feel around others 
 
   summary:
     "Awareness of yourself within a group or social environment. This dream often reflects belonging, pressure, comparison, or how you relate to others. It highlights your sense of place and identity among people.",
+  relatedDreams: [
+    {
+      slug: "being-in-a-small-crowded-room",
+      reason:
+        "Both dreams involve restriction, pressure, or the feeling of not being able to move freely."
+    },
+    {
+      slug: "being-unable-to-open-your-eyes",
+      reason:
+        "Both dreams involve restriction, pressure, or the feeling of not being able to move freely."
+    },
+    {
+      slug: "being-lost-in-a-building",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-trapped-in-a-maze",
+      reason:
+        "These dreams connect through emotional confinement and situations that feel difficult to exit clearly."
+    },
+    {
+      slug: "being-stuck-in-an-elevator",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "room-closing-in-on-you",
+      reason:
+        "Both dreams can reflect overwhelm when space, choice, or clarity feels limited."
+    }
+  ],
+
 
   categories: ["Relationships", "Identity", "Anxiety"]
 },
@@ -8156,6 +12187,39 @@ If the dream repeats, it may be asking you to create space in your life or addre
 
   summary:
     "Feeling trapped, overwhelmed, or under pressure with no room to move. This dream often reflects stress, restriction, or emotional buildup that is becoming harder to manage. It highlights the need for space, release, or change.",
+  relatedDreams: [
+    {
+      slug: "being-trapped",
+      reason:
+        "These dreams connect through emotional confinement and situations that feel difficult to exit clearly."
+    },
+    {
+      slug: "being-stuck-in-an-elevator",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-trapped-in-a-maze",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-lost-in-a-building",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-in-a-small-crowded-room",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-in-a-room-with-many-people",
+      reason:
+        "Both dreams can reflect overwhelm when space, choice, or clarity feels limited."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Spiritual"]
 },
@@ -8213,6 +12277,39 @@ If the dream repeats, it may be asking you to pay attention to what you are seek
 
   summary:
     "Seeking guidance, clarity, or reassurance through a direct sense of connection. This dream often reflects faith, reflection, correction, or comfort. It highlights a deeper need for direction, understanding, or alignment with your beliefs.",
+  relatedDreams: [
+    {
+      slug: "seeing-jesus",
+      reason:
+        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+    },
+    {
+      slug: "speaking-to-god",
+      reason:
+        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+    },
+    {
+      slug: "angels",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "light-surrounding-you",
+      reason:
+        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+    },
+    {
+      slug: "feeling-intense-peace",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "being-protected",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    }
+  ],
+
 
   categories: ["Spiritual", "Identity", "Hidden Emotions"]
 },
@@ -8270,6 +12367,39 @@ If the dream repeats, it may be asking you to pay attention to what you are seek
 
   summary:
     "A desire for guidance, clarity, or deeper understanding becoming more present. This dream often reflects reflection, faith, questioning, or reassurance. It highlights the need to connect with meaning, direction, or truth in your life.",
+  relatedDreams: [
+    {
+      slug: "speaking-to-jesus",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    },
+    {
+      slug: "light-surrounding-you",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "seeing-jesus",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "feeling-intense-peace",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "angels",
+      reason:
+        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+    },
+    {
+      slug: "being-protected",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    }
+  ],
+
 
   categories: ["Spiritual", "Identity", "Hidden Emotions"]
 },
@@ -8327,6 +12457,39 @@ If the dream repeats, it may be asking you to understand rather than avoid what 
 
   summary:
     "Connecting with something unfamiliar within yourself. This dream often reflects hidden emotions, unexplored identity, or personal transformation. It highlights the experience of engaging with what feels unknown rather than avoiding it.",
+  relatedDreams: [
+    {
+      slug: "having-sex",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "cheating-on-your-partner",
+      reason:
+        "These dreams connect through desire, trust, insecurity, or uncertainty inside relationships."
+    },
+    {
+      slug: "partner-cheating-on-you",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "someone-confessing-love",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    },
+    {
+      slug: "confessing-your-love",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "being-rejected",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    }
+  ],
+
 
   categories: ["Identity", "Hidden Emotions", "Spiritual", "Intimacy"]
 },
@@ -8388,6 +12551,39 @@ The dream highlights a need to create space, whether physically, emotionally, or
 
   summary:
     "Feeling confined, overwhelmed, or under pressure. This dream reflects a lack of space in some area of your life and points to the need for boundaries, clarity, and room to breathe.",
+  relatedDreams: [
+    {
+      slug: "being-lost-in-a-building",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-unable-to-open-your-eyes",
+      reason:
+        "Both dreams can reflect discomfort around boundaries, shame, or situations that feel hard to manage."
+    },
+    {
+      slug: "being-in-a-room-with-many-people",
+      reason:
+        "Both dreams can reflect overwhelm when space, choice, or clarity feels limited."
+    },
+    {
+      slug: "being-trapped-in-a-maze",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-naked-in-public",
+      reason:
+        "These dreams often point to emotional sensitivity and the need for safety around what feels exposed."
+    },
+    {
+      slug: "being-stuck-in-an-elevator",
+      reason:
+        "Both dreams can reflect overwhelm when space, choice, or clarity feels limited."
+    }
+  ],
+
 
   categories: ["Anxiety", "Hidden Emotions", "Identity"]
 },
@@ -8449,6 +12645,39 @@ The dream reflects that tension between wanting progress and being held in place
 
   summary:
     "Feeling stuck, delayed, or unable to move forward. This dream reflects a pause in progress and the tension of waiting, while also pointing to a moment where slowing down and reassessing may be necessary.",
+  relatedDreams: [
+    {
+      slug: "room-closing-in-on-you",
+      reason:
+        "Both dreams can reflect overwhelm when space, choice, or clarity feels limited."
+    },
+    {
+      slug: "being-trapped-in-a-maze",
+      reason:
+        "Both dreams involve restriction, pressure, or the feeling of not being able to move freely."
+    },
+    {
+      slug: "being-trapped",
+      reason:
+        "These dreams connect through emotional confinement and situations that feel difficult to exit clearly."
+    },
+    {
+      slug: "being-lost-in-a-building",
+      reason:
+        "These dreams connect through emotional confinement and situations that feel difficult to exit clearly."
+    },
+    {
+      slug: "being-in-a-small-crowded-room",
+      reason:
+        "These dreams connect through emotional confinement and situations that feel difficult to exit clearly."
+    },
+    {
+      slug: "being-in-a-room-with-many-people",
+      reason:
+        "Both dreams involve restriction, pressure, or the feeling of not being able to move freely."
+    }
+  ],
+
 
   categories: ["Anxiety", "Fear", "Work"]
 },
@@ -8510,6 +12739,39 @@ The dream connects to moments where clarity feels just out of reach.`,
 
   summary:
     "Feeling uncertain, disoriented, or unsure of your direction. This dream reflects a search for clarity within structured areas of life and highlights the need for patience and a stronger sense of personal direction.",
+  relatedDreams: [
+    {
+      slug: "being-trapped-in-a-maze",
+      reason:
+        "These dreams connect through emotional confinement and situations that feel difficult to exit clearly."
+    },
+    {
+      slug: "lost-in-the-forest",
+      reason:
+        "Both dreams carry a feeling of isolation, uncertainty, or being far from familiar support."
+    },
+    {
+      slug: "being-in-a-small-crowded-room",
+      reason:
+        "These dreams connect through emotional confinement and situations that feel difficult to exit clearly."
+    },
+    {
+      slug: "being-stuck-in-an-elevator",
+      reason:
+        "These dreams connect through emotional confinement and situations that feel difficult to exit clearly."
+    },
+    {
+      slug: "being-in-the-ocean",
+      reason:
+        "These dreams connect through disorientation and the emotional search for direction or safety."
+    },
+    {
+      slug: "being-in-a-room-with-many-people",
+      reason:
+        "Both dreams can reflect overwhelm when space, choice, or clarity feels limited."
+    }
+  ],
+
 
   categories: ["Anxiety", "Identity", "Hidden Emotions"]
 },
@@ -8571,6 +12833,39 @@ The dream connects to moments where progress feels unclear or slow.`,
 
   summary:
     "Feeling stuck, confused, or caught in a cycle of overthinking. This dream reflects the effort of trying to solve something complex and suggests that clarity may come from stepping back rather than pushing harder.",
+  relatedDreams: [
+    {
+      slug: "being-stuck-in-an-elevator",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-lost-in-a-building",
+      reason:
+        "Both dreams can reflect overwhelm when space, choice, or clarity feels limited."
+    },
+    {
+      slug: "room-closing-in-on-you",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-in-a-small-crowded-room",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-trapped",
+      reason:
+        "Both dreams can reflect overwhelm when space, choice, or clarity feels limited."
+    },
+    {
+      slug: "being-in-a-room-with-many-people",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    }
+  ],
+
 
   categories: ["Anxiety", "Fear", "Hidden Emotions"]
 },
@@ -8632,6 +12927,39 @@ The dream connects to that pressure between acting and hesitating.`,
 
   summary:
     "Feeling the pressure of timing, hesitation, and possible regret. This dream reflects the tension between wanting to act and feeling unsure, while also pointing toward learning to trust your decisions moving forward.",
+  relatedDreams: [
+    {
+      slug: "arriving-just-in-time",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    },
+    {
+      slug: "watching-a-train-or-plane-leave",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "traveling-to-your-dream-destination",
+      reason:
+        "Both dreams can appear when ambition, stability, and uncertainty are emotionally tied together."
+    },
+    {
+      slug: "hearing-a-clock-ticking",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "climbing-stairs",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    }
+  ],
+
 
   categories: ["Anxiety", "Work", "Identity"]
 },
@@ -8693,6 +13021,39 @@ The dream connects to your awareness of opportunities and your place within them
 
   summary:
     "Feeling out of sync, left behind, or unsure about timing. This dream reflects the experience of missing or watching opportunities pass, while also pointing toward the importance of trusting your own pace and direction.",
+  relatedDreams: [
+    {
+      slug: "missing-an-opportunity",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "arriving-just-in-time",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "hearing-a-clock-ticking",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    },
+    {
+      slug: "missing-a-flight",
+      reason:
+        "These dreams share the anxiety of trying to keep up with something that feels important."
+    },
+    {
+      slug: "being-late",
+      reason:
+        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+    },
+    {
+      slug: "being-unprepared",
+      reason:
+        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+    }
+  ],
+
 
   categories: ["Anxiety", "Fear", "Work"]
 },
@@ -8754,6 +13115,39 @@ The dream reflects how strongly that situation is affecting you.`,
 
   summary:
     "Feeling overwhelmed by guilt, fear, or self-judgment. This dream reflects inner emotional intensity rather than a literal outcome and points toward the need for understanding, balance, and easing pressure on yourself.",
+  relatedDreams: [
+    {
+      slug: "going-to-heaven",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    },
+    {
+      slug: "being-in-a-forest",
+      reason:
+        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+    },
+    {
+      slug: "killing-yourself",
+      reason:
+        "Both dreams can reflect emotional thresholds where one phase of life no longer feels the same."
+    },
+    {
+      slug: "seeing-your-body-while-you-are-asleep",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    },
+    {
+      slug: "lost-in-the-forest",
+      reason:
+        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+    },
+    {
+      slug: "losing-a-baby",
+      reason:
+        "Both dreams can reflect emotional thresholds where one phase of life no longer feels the same."
+    }
+  ],
+
 
   categories: ["Fear", "Anxiety", "Spiritual"]
 },
@@ -8815,6 +13209,39 @@ The dream connects to moments where things begin to feel more balanced.`,
 
   summary:
     "Moving toward peace, clarity, and emotional balance. This dream reflects a desire for resolution and a more fulfilling state, often linked to healing, growth, and reconnecting with what feels right for you.",
+  relatedDreams: [
+    {
+      slug: "seeing-your-body-while-you-are-asleep",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    },
+    {
+      slug: "talking-to-a-dead-person",
+      reason:
+        "These dreams often carry grief, transformation, and the search for meaning around what has changed."
+    },
+    {
+      slug: "killing-yourself",
+      reason:
+        "These dreams connect through mortality, change, and the need to make sense of something final or unresolved."
+    },
+    {
+      slug: "seeing-a-dead-person",
+      reason:
+        "Both dreams can reflect emotional thresholds where one phase of life no longer feels the same."
+    },
+    {
+      slug: "losing-a-baby",
+      reason:
+        "Both dreams explore endings, transition, and emotions connected to loss or release."
+    }
+  ],
+
 
   categories: ["Spiritual", "Identity", "Transformation"]
 },
@@ -8876,6 +13303,39 @@ The dream highlights that connection between past and present.`,
 
   summary:
     "Revisiting memories, emotions, and experiences that still influence you. This dream reflects a process of understanding and integrating the past so you can move forward with more clarity and awareness.",
+  relatedDreams: [
+    {
+      slug: "reliving-a-specific-memory",
+      reason:
+        "These dreams connect through unfinished feelings, old patterns, or a familiar emotional atmosphere returning."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "These dreams often point to unresolved patterns, nostalgia, and the slow integration of experience."
+    },
+    {
+      slug: "feeling-nostalgic",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "repeating-the-same-dream",
+      reason:
+        "These dreams often point to unresolved patterns, nostalgia, and the slow integration of experience."
+    },
+    {
+      slug: "seeing-your-younger-self",
+      reason:
+        "Both dreams can show the mind revisiting something so it can be understood with more distance."
+    },
+    {
+      slug: "meeting-someone-from-your-past",
+      reason:
+        "These dreams connect through unfinished feelings, old patterns, or a familiar emotional atmosphere returning."
+    }
+  ],
+
 
   categories: ["Hidden Emotions", "Identity", "Transformation"]
 },
@@ -8937,6 +13397,39 @@ The dream reflects awareness of something repeating or aligning.`,
 
   summary:
     "Noticing familiarity, patterns, and repeated experiences. This dream reflects awareness of cycles in your life and highlights moments where something feels known, encouraging you to pay attention to what keeps repeating.",
+  relatedDreams: [
+    {
+      slug: "repeating-the-same-dream",
+      reason:
+        "Both dreams circle around memory, repetition, and emotions that may still be asking for attention."
+    },
+    {
+      slug: "reliving-a-specific-memory",
+      reason:
+        "Both dreams can show the mind revisiting something so it can be understood with more distance."
+    },
+    {
+      slug: "being-in-the-past",
+      reason:
+        "Both dreams circle around memory, repetition, and emotions that may still be asking for attention."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "These dreams connect through reflection on the past and the way old feelings return in new forms."
+    },
+    {
+      slug: "seeing-your-younger-self",
+      reason:
+        "Both dreams can show the mind revisiting something so it can be understood with more distance."
+    },
+    {
+      slug: "feeling-nostalgic",
+      reason:
+        "Both dreams can show the mind revisiting something so it can be understood with more distance."
+    }
+  ],
+
 
   categories: ["Hidden Emotions", "Spiritual", "Identity"]
 },
@@ -8998,6 +13491,39 @@ The dream reflects that cycle continuing until something shifts.`,
 
   summary:
     "Repeating patterns, emotions, or situations that have not fully resolved. This dream highlights cycles that continue until they are understood or addressed, pointing toward awareness and gradual change.",
+  relatedDreams: [
+    {
+      slug: "deja-vu",
+      reason:
+        "Both dreams circle around memory, repetition, and emotions that may still be asking for attention."
+    },
+    {
+      slug: "reliving-a-specific-memory",
+      reason:
+        "Both dreams circle around memory, repetition, and emotions that may still be asking for attention."
+    },
+    {
+      slug: "being-in-the-past",
+      reason:
+        "Both dreams can show the mind revisiting something so it can be understood with more distance."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "These dreams often point to unresolved patterns, nostalgia, and the slow integration of experience."
+    },
+    {
+      slug: "talking-to-yourself",
+      reason:
+        "Both dreams share emotional patterns around inner pressure, reflection, or unresolved experience."
+    },
+    {
+      slug: "feeling-nostalgic",
+      reason:
+        "Both dreams circle around memory, repetition, and emotions that may still be asking for attention."
+    }
+  ],
+
 
   categories: ["Hidden Emotions", "Anxiety", "Transformation"]
 },
@@ -9059,6 +13585,39 @@ The dream connects to your need for balance in daily life.`,
 
   summary:
     "Experiencing calm, balance, and emotional relief. This dream reflects either a need for stillness or a sign that you are moving toward a more grounded and centered state.",
+  relatedDreams: [
+    {
+      slug: "light-surrounding-you",
+      reason:
+        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+    },
+    {
+      slug: "being-protected",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "speaking-to-god",
+      reason:
+        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+    },
+    {
+      slug: "hearing-bells",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "speaking-to-jesus",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "seeing-jesus",
+      reason:
+        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+    }
+  ],
+
 
   categories: ["Spiritual", "Hidden Emotions", "Transformation"]
 },
@@ -9120,6 +13679,39 @@ The dream highlights that shift toward understanding.`,
 
   summary:
     "Experiencing clarity, awareness, and emotional relief. This dream reflects a shift toward understanding and alignment, where things begin to feel clearer and more grounded.",
+  relatedDreams: [
+    {
+      slug: "speaking-to-god",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "feeling-intense-peace",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "speaking-to-jesus",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    },
+    {
+      slug: "being-protected",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    },
+    {
+      slug: "seeing-jesus",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "hearing-bells",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    }
+  ],
+
 
   categories: ["Spiritual", "Hidden Emotions", "Transformation"]
 },
@@ -9182,6 +13774,39 @@ The dream mirrors a shift from vulnerability toward stability.`,
 
   summary:
     "Feeling safe, supported, and reassured. This dream reflects both a need for protection and an awareness of your ability to create it, pointing toward a more grounded and secure state.",
+  relatedDreams: [
+    {
+      slug: "feeling-intense-peace",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "hearing-bells",
+      reason:
+        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+    },
+    {
+      slug: "light-surrounding-you",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "speaking-to-god",
+      reason:
+        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+    },
+    {
+      slug: "speaking-to-jesus",
+      reason:
+        "These dreams often point to hope, protection, and the desire to feel held through change."
+    },
+    {
+      slug: "seeing-jesus",
+      reason:
+        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+    }
+  ],
+
 
   categories: ["Fear", "Spiritual", "Hidden Emotions"]
 },
@@ -9243,6 +13868,39 @@ The dream reflects that connection across time.`,
 
   summary:
     "Reconnecting with your past self and the experiences that shaped you. This dream reflects reflection, growth, and the relationship between who you were and who you are becoming.",
+  relatedDreams: [
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "Both dreams can appear when your sense of self is shifting or asking to be understood more honestly."
+    },
+    {
+      slug: "talking-to-yourself",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "feeling-nostalgic",
+      reason:
+        "These dreams often point to unresolved patterns, nostalgia, and the slow integration of experience."
+    },
+    {
+      slug: "mirrors",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "being-in-the-past",
+      reason:
+        "Both dreams can show the mind revisiting something so it can be understood with more distance."
+    },
+    {
+      slug: "losing-your-language",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    }
+  ],
+
 
   categories: ["Identity", "Hidden Emotions", "Transformation"]
 },
@@ -9304,6 +13962,39 @@ The dream mirrors your internal thought process.`,
 
   summary:
     "Engaging with your own thoughts and inner dialogue. This dream reflects self-reflection, decision-making, and the process of understanding yourself more clearly.",
+  relatedDreams: [
+    {
+      slug: "seeing-your-younger-self",
+      reason:
+        "Both dreams can appear when your sense of self is shifting or asking to be understood more honestly."
+    },
+    {
+      slug: "losing-your-language",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "aging-suddenly",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "mirrors",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "being-naked-in-public",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    }
+  ],
+
 
   categories: ["Identity", "Hidden Emotions", "Anxiety"]
 },
@@ -9365,6 +14056,39 @@ The dream connects your past experiences to your present awareness.`,
 
   summary:
     "Reconnecting with past experiences, emotions, or parts of yourself. This dream reflects reflection and understanding, showing how past connections continue to influence your present.",
+  relatedDreams: [
+    {
+      slug: "marrying-your-ex",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "feeling-nostalgic",
+      reason:
+        "Both dreams revisit emotional memory and parts of the past that may still carry meaning."
+    },
+    {
+      slug: "arguing-with-your-ex",
+      reason:
+        "Both dreams can reflect reflection on who you were then and what still echoes now."
+    },
+    {
+      slug: "reliving-a-specific-memory",
+      reason:
+        "Both dreams can reflect reflection on who you were then and what still echoes now."
+    },
+    {
+      slug: "ex-texting-you",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "being-in-the-past",
+      reason:
+        "These dreams connect through unfinished feelings, old patterns, or a familiar emotional atmosphere returning."
+    }
+  ],
+
 
   categories: ["Hidden Emotions", "Love", "Relationships", "Identity"]
 },
@@ -9426,6 +14150,39 @@ The dream reflects that emotional connection.`,
 
   summary:
     "Revisiting meaningful memories and emotions from your past. This dream reflects a blend of comfort and reflection, showing how past experiences continue to shape how you feel in the present.",
+  relatedDreams: [
+    {
+      slug: "meeting-someone-from-your-past",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "seeing-your-younger-self",
+      reason:
+        "Both dreams can show the mind revisiting something so it can be understood with more distance."
+    },
+    {
+      slug: "reliving-a-specific-memory",
+      reason:
+        "Both dreams can reflect reflection on who you were then and what still echoes now."
+    },
+    {
+      slug: "marrying-your-ex",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "These dreams connect through reflection on the past and the way old feelings return in new forms."
+    },
+    {
+      slug: "being-in-the-past",
+      reason:
+        "Both dreams can reflect reflection on who you were then and what still echoes now."
+    }
+  ],
+
 
   categories: ["Hidden Emotions", "Identity"]
 },{
@@ -9501,6 +14258,39 @@ In some cases, the dream mirrors your emotional relationship with success, survi
 
   summary:
     "Money dreams often reflect security, self-worth, opportunity, emotional pressure, survival, or concerns surrounding stability and control. These dreams commonly appear during stressful, ambitious, or emotionally uncertain periods and highlight themes of value, confidence, scarcity, abundance, responsibility, emotional exchange, and the desire to feel safe, capable, and supported.",
+  relatedDreams: [
+    {
+      slug: "losing-important-items",
+      reason:
+        "Both dreams connect to effort, direction, and the pressure of building or protecting something important."
+    },
+    {
+      slug: "missing-an-opportunity",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    },
+    {
+      slug: "working-on-a-farm",
+      reason:
+        "Both dreams connect to effort, direction, and the pressure of building or protecting something important."
+    },
+    {
+      slug: "being-late",
+      reason:
+        "Both dreams reflect practical pressure around responsibility, security, progress, or control."
+    },
+    {
+      slug: "hearing-a-clock-ticking",
+      reason:
+        "Both dreams reflect practical pressure around responsibility, security, progress, or control."
+    },
+    {
+      slug: "stranded-on-the-road",
+      reason:
+        "These dreams often point to movement through work, resources, and the fear of losing momentum."
+    }
+  ],
+
 
   categories: [
     "Money",
@@ -9575,6 +14365,39 @@ The dream mirrors that sense of vulnerability and brings attention to areas wher
 
   summary:
     "Hair falling out in a dream often reflects vulnerability, emotional stress, insecurity, or shifts connected to confidence and identity. It commonly appears during periods of pressure, instability, or personal change, highlighting fears surrounding control, self-image, and emotional security.",
+  relatedDreams: [
+    {
+      slug: "hand-falling-off",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "plane-crash",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "jumping-off-a-bridge",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "going-down-stairs",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "reaching-the-end-after-an-endless-fall",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "teeth-falling-out",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    }
+  ],
+
 
   categories: [
     "Anxiety",
@@ -9641,6 +14464,39 @@ The dream mirrors that lack of visibility.`,
 
   summary:
     "Struggling to see clearly or face something directly. This dream reflects confusion, avoidance, or overwhelm, highlighting a need for clarity, rest, or readiness to understand what is in front of you.",
+  relatedDreams: [
+    {
+      slug: "being-trapped",
+      reason:
+        "These dreams often point to anxiety building inside circumstances that feel too tight or hard to navigate."
+    },
+    {
+      slug: "being-trapped-in-a-maze",
+      reason:
+        "Both dreams involve restriction, pressure, or the feeling of not being able to move freely."
+    },
+    {
+      slug: "being-stuck-in-an-elevator",
+      reason:
+        "Both dreams can reflect overwhelm when space, choice, or clarity feels limited."
+    },
+    {
+      slug: "being-lost-in-a-building",
+      reason:
+        "These dreams connect through emotional confinement and situations that feel difficult to exit clearly."
+    },
+    {
+      slug: "being-unable-to-speak",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    },
+    {
+      slug: "unable-to-scream",
+      reason:
+        "Both dreams involve fear, anxiety, and emotional pressure that may feel difficult to settle."
+    }
+  ],
+
 
   categories: ["Anxiety", "Fear", "Hidden Emotions"]
 },
@@ -9702,6 +14558,39 @@ The dream mirrors that frustration.`,
 
   summary:
     "Feeling disconnected, unheard, or unable to communicate effectively. This dream reflects frustration around connection and highlights barriers between you and others.",
+  relatedDreams: [
+    {
+      slug: "being-rejected",
+      reason:
+        "Both dreams involve intimacy, vulnerability, and the emotional risk of being seen or wanted."
+    },
+    {
+      slug: "confessing-your-love",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    },
+    {
+      slug: "someone-confessing-love",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    },
+    {
+      slug: "partner-cheating-on-you",
+      reason:
+        "These dreams often point to attachment, longing, and the fear of disconnection."
+    },
+    {
+      slug: "cheating-on-your-partner",
+      reason:
+        "Both dreams can reveal hidden feelings around closeness, boundaries, or emotional honesty."
+    },
+    {
+      slug: "intimacy-with-strange-creature",
+      reason:
+        "These dreams connect through desire, trust, insecurity, or uncertainty inside relationships."
+    }
+  ],
+
 
   categories: ["Anxiety", "Hidden Emotions", "Love", "Relationships"]
 },
@@ -9763,6 +14652,39 @@ The dream mirrors how the past is influencing your present.`,
 
   summary:
     "Revisiting a meaningful moment from your past that still carries emotional weight. This dream reflects a process of understanding and integrating past experiences so they no longer quietly shape your present.",
+  relatedDreams: [
+    {
+      slug: "feeling-nostalgic",
+      reason:
+        "Both dreams revisit emotional memory and parts of the past that may still carry meaning."
+    },
+    {
+      slug: "repeating-the-same-dream",
+      reason:
+        "Both dreams circle around memory, repetition, and emotions that may still be asking for attention."
+    },
+    {
+      slug: "being-in-the-past",
+      reason:
+        "These dreams often point to memory, attachment, and the slow process of emotional release."
+    },
+    {
+      slug: "meeting-someone-from-your-past",
+      reason:
+        "Both dreams can reflect reflection on who you were then and what still echoes now."
+    },
+    {
+      slug: "deja-vu",
+      reason:
+        "These dreams connect through reflection on the past and the way old feelings return in new forms."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "Both dreams can show the mind revisiting something so it can be understood with more distance."
+    }
+  ],
+
 
   categories: ["Hidden Emotions", "Identity", "Transformation"]
 },
@@ -9824,6 +14746,39 @@ The dream mirrors that sense of overwhelm.`,
 
   summary:
     "Feeling overwhelmed by emotions or pressure that has built up over time. This dream reflects emotional overflow and highlights the need to process feelings rather than letting them accumulate.",
+  relatedDreams: [
+    {
+      slug: "water-rising",
+      reason:
+        "Both dreams can appear when stability feels threatened by lack, excess, or imbalance."
+    },
+    {
+      slug: "tsunami",
+      reason:
+        "Both dreams reflect emotional overwhelm and situations that feel difficult to control."
+    },
+    {
+      slug: "waves",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "drowning",
+      reason:
+        "These dreams use water to show feelings rising, spilling over, or becoming hard to contain."
+    },
+    {
+      slug: "dirty-water",
+      reason:
+        "Both dreams carry the pressure of being surrounded by emotion before it feels fully understood."
+    },
+    {
+      slug: "boat-sinking",
+      reason:
+        "These dreams use water to show feelings rising, spilling over, or becoming hard to contain."
+    }
+  ],
+
 
   categories: ["Anxiety", "Fear", "Hidden Emotions"]
 },
@@ -9885,6 +14840,39 @@ The dream mirrors that process of creation.`,
 
   summary:
     "Creating something new and moving through a period of transformation. This dream reflects growth, effort, and the emergence of something meaningful that requires your attention and care.",
+  relatedDreams: [
+    {
+      slug: "being-in-labour",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    },
+    {
+      slug: "holding-a-baby",
+      reason:
+        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+    },
+    {
+      slug: "pregnant-with-twins",
+      reason:
+        "Both dreams reflect something vulnerable, new, or emotionally meaningful developing beneath the surface."
+    },
+    {
+      slug: "seeing-baby-boy",
+      reason:
+        "Both dreams reflect something vulnerable, new, or emotionally meaningful developing beneath the surface."
+    },
+    {
+      slug: "being-pregnant",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "seeing-baby-girl",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    }
+  ],
+
 
   categories: ["Transformation", "Identity", "Hidden Emotions"]
 },
@@ -9946,6 +14934,39 @@ The dream mirrors that sense of responsibility and growth.`,
 
   summary:
     "Holding something new, important, and developing. This dream reflects responsibility, care, and growth, highlighting the need to nurture what is beginning to take shape in your life.",
+  relatedDreams: [
+    {
+      slug: "giving-birth",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "seeing-baby-boy",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "being-in-labour",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "seeing-baby-girl",
+      reason:
+        "Both dreams reflect something vulnerable, new, or emotionally meaningful developing beneath the surface."
+    },
+    {
+      slug: "pregnant-with-twins",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    },
+    {
+      slug: "having-a-miscarriage",
+      reason:
+        "Both dreams reflect something vulnerable, new, or emotionally meaningful developing beneath the surface."
+    }
+  ],
+
 
   categories: ["Transformation", "Identity", "Hidden Emotions"]
 },
@@ -10007,6 +15028,39 @@ The dream mirrors those internal concerns.`,
 
   summary:
     "Feeling vulnerable, uncertain, or affected by change. This dream reflects shifts in confidence and identity, often linked to stress or loss of control, while also pointing toward personal transformation.",
+  relatedDreams: [
+    {
+      slug: "hand-falling-off",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "plane-crash",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "jumping-off-a-bridge",
+      reason:
+        "These dreams share a feeling of vulnerability when something important no longer feels steady."
+    },
+    {
+      slug: "going-down-stairs",
+      reason:
+        "Both dreams reflect instability, emotional pressure, or a loss of control beneath the surface."
+    },
+    {
+      slug: "reaching-the-end-after-an-endless-fall",
+      reason:
+        "Both dreams can appear when anxiety, uncertainty, or inner pressure becomes difficult to hold together."
+    },
+    {
+      slug: "teeth-falling-out",
+      reason:
+        "These dreams connect through fear of losing balance, direction, or emotional security."
+    }
+  ],
+
 
   categories: ["Anxiety", "Identity", "Hidden Emotions"]
 },
@@ -10068,6 +15122,39 @@ The dream mirrors that awareness of change.`,
 
   summary:
     "Experiencing rapid change and awareness of time passing. This dream reflects the pressure and growth that come with moving into new stages of life, highlighting both adjustment and maturity.",
+  relatedDreams: [
+    {
+      slug: "losing-your-language",
+      reason:
+        "Both dreams can appear when your sense of self is shifting or asking to be understood more honestly."
+    },
+    {
+      slug: "being-naked-in-public",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "talking-to-yourself",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "seeing-your-younger-self",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "These dreams connect through vulnerability around self-image, recognition, or personal change."
+    },
+    {
+      slug: "mirrors",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    }
+  ],
+
 
   categories: ["Anxiety", "Identity", "Transformation"]
 },
@@ -10129,6 +15216,39 @@ The dream mirrors that sense of distance.`,
 
   summary:
     "Observing your life from a distance and gaining perspective. This dream reflects self-awareness and reflection, while also highlighting areas where you may feel emotionally disconnected or less engaged.",
+  relatedDreams: [
+    {
+      slug: "mirrors",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "being-in-the-past",
+      reason:
+        "These dreams often point to unresolved patterns, nostalgia, and the slow integration of experience."
+    },
+    {
+      slug: "seeing-your-younger-self",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "different-reflection-mirror",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "reliving-a-specific-memory",
+      reason:
+        "These dreams connect through reflection on the past and the way old feelings return in new forms."
+    },
+    {
+      slug: "talking-to-yourself",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    }
+  ],
+
 
   categories: ["Identity", "Hidden Emotions", "Spiritual"]
 },
@@ -10190,6 +15310,39 @@ The dream mirrors that process of self-awareness.`,
 
   summary:
     "Reflecting on identity, self-awareness, and emotional truth. This dream highlights how you see yourself internally and externally, bringing attention to clarity, insecurity, growth, and hidden aspects of your emotional state.",
+  relatedDreams: [
+    {
+      slug: "different-reflection-mirror",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "watching-yourself-like-a-movie",
+      reason:
+        "These dreams connect through vulnerability around self-image, recognition, or personal change."
+    },
+    {
+      slug: "looking-in-the-mirror",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "seeing-your-younger-self",
+      reason:
+        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+    },
+    {
+      slug: "talking-to-yourself",
+      reason:
+        "Both dreams reflect identity, self-awareness, and the way you are seeing yourself emotionally."
+    },
+    {
+      slug: "losing-your-language",
+      reason:
+        "Both dreams can appear when your sense of self is shifting or asking to be understood more honestly."
+    }
+  ],
+
 
   categories: ["Identity", "Hidden Emotions", "Transformation"]
 },
@@ -10257,6 +15410,39 @@ The dream mirrors that sense of expansion, preparation, emotional growth, and th
 
   summary:
     "A dream about being pregnant with twins often reflects emotional expansion, duality, rapid personal growth, and carrying multiple important developments at once. It highlights both the pressure and potential that come with major transformation, especially during periods where different parts of your life are evolving together.",
+  relatedDreams: [
+    {
+      slug: "being-pregnant",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "being-in-labour",
+      reason:
+        "Both dreams reflect something vulnerable, new, or emotionally meaningful developing beneath the surface."
+    },
+    {
+      slug: "giving-birth",
+      reason:
+        "Both dreams reflect something vulnerable, new, or emotionally meaningful developing beneath the surface."
+    },
+    {
+      slug: "holding-a-baby",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "seeing-baby-boy",
+      reason:
+        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+    },
+    {
+      slug: "seeing-baby-girl",
+      reason:
+        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+    }
+  ],
+
 
   categories: [
     "Transformation",

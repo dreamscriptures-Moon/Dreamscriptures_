@@ -5,10 +5,12 @@ import Script from "next/script";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
 import DreamInsightSection from "@/components/DreamInsightSection";
+import DreamEmotionalConnections from "@/components/emotions/DreamEmotionalConnections";
 import RelatedDreams from "@/components/RelatedDreams";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-import { dreams } from "@/data/dream";
+import DreamPageClientNav from "./DreamPageClientNav";
+import { dreams } from "@/data/dreams";
 import {
   formatCategory,
   generateSummary,
@@ -25,6 +27,8 @@ import {
   shorten,
 } from "@/lib/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
+import ClusterPathway from "@/app/components/ClusterPathway";
+import { getClusterGuides } from "@/lib/clusterGuides";
 
 export function generateStaticParams() {
   return dreams.map((dream) => ({
@@ -59,6 +63,7 @@ export async function generateMetadata({ params } = {}) {
   const resolvedParams = await params;
   const metadataSlug = resolvedParams?.slug || "dream";
   const dream = getDreamBySlug(metadataSlug);
+
   const title = dream?.title || String(metadataSlug).replace(/-/g, " ");
   const description = shorten(
     `Learn what dreaming about ${title} means, including emotional, spiritual, and real-life interpretations. Discover what your dream may be trying to tell you.`
@@ -131,15 +136,24 @@ export default async function DreamPage({ params }) {
   const resolvedParams = await params;
   const slug = String(resolvedParams?.slug || "").toLowerCase().trim();
   const dream = getDreamBySlug(slug);
+ 
+ if (!dream) {
+  return (
+    <main className="bg-[#FAF8F5] min-h-screen pt-16 md:pt-20">
+      <SiteHeader />
+      <p className="max-w-3xl mx-auto px-6 py-20">
+        Dream not found
+      </p>
+    </main>
+  );
+}
 
-  if (!dream) {
-    return (
-     <main className="bg-[#FAF8F5] min-h-screen pt-16 md:pt-20">
-       <SiteHeader />
-        <p className="max-w-3xl mx-auto px-6 py-20">Dream not found</p>
-      </main>
-    );
-  }
+const clusterGuide = getClusterGuides().find(
+  (cluster) =>
+    cluster.dreams?.some(
+      (d) => d.slug === dream.slug
+    )
+);
 
 const canonicalDreamSlug = normalizeSlug(dream.slug || dream.title);
 const primaryRelatedDream = getDreamsBySlugs(dream.relatedDreams, dreams)[0];
@@ -155,6 +169,72 @@ const primaryRelatedDream = getDreamsBySlugs(dream.relatedDreams, dreams)[0];
   });
   const faqItems = getDreamFAQItems(dream, dreamTitle);
   const faqSchema = getFAQSchema(faqItems);
+
+function getDreamContext(dream) {
+  const categories = dream.categories || [];
+
+  if (categories.includes("fear") || categories.includes("anxiety")) {
+    return `
+    This dream often appears during periods of stress, avoidance, or emotional tension,
+    especially when something feels difficult to confront directly.
+    `;
+  }
+
+  if (categories.includes("transformation")) {
+    return `
+    This dream tends to appear during periods of change, growth, or transition,
+    when something in your life is shifting beneath the surface.
+    `;
+  }
+
+  if (categories.includes("loss")) {
+    return `
+    This dream may appear when processing loss, emotional change, or letting go,
+    especially when something meaningful is evolving or ending.
+    `;
+  }
+
+  return `
+  This dream often appears during moments of reflection, uncertainty, or emotional movement,
+  when something in your inner world is trying to surface.
+  `;
+}
+{(() => {
+  let related = getDreamsBySlugs(dream.relatedDreams, dreams);
+
+  // fallback using categories
+  if (!related || related.length === 0) {
+    related = dreams
+      .filter((d) =>
+        d.categories?.some((cat) =>
+          dream.categories?.includes(cat)
+        )
+      )
+      .filter((d) => d.slug !== dream.slug)
+      .slice(0, 3);
+  }
+
+  if (!related.length) return null;
+
+  return (
+    <section className="mb-10 text-sm text-[#6B6B6B]">
+      <p>
+        Dreams with similar meanings:
+        {related.map((d, i) => (
+          <span key={d.slug}>
+            <Link
+              href={`/dreams/${normalizeSlug(d.slug || d.title)}`}
+              className="underline mx-1"
+            >
+              {d.title.toLowerCase()}
+            </Link>
+            {i < related.length - 1 ? "," : ""}
+          </span>
+        ))}
+      </p>
+    </section>
+  );
+})()}
 
   return (
     <main className="bg-[#FAF8F5] min-h-screen">
@@ -199,13 +279,26 @@ const primaryRelatedDream = getDreamsBySlugs(dream.relatedDreams, dreams)[0];
      <h1 className="text-4xl md:text-5xl leading-[1.15] font-serif mb-4">
   {dynamicTitle}
 </h1>
+{dream.microSummary && (
+  <section className="mb-10">
 
-<h2 className="text-xl md:text-2xl font-serif text-[#1A1A1A] mb-4">
-  What does it mean to dream about {dream.title.toLowerCase()}?
-</h2>
+    <h2 className="text-xl md:text-2xl font-serif text-[#1A1A1A] mb-4">
+      What does it mean to dream about {dream.title.toLowerCase()}?
+    </h2>
 
-{dream.microSummary && <div className="microSummary">{dream.microSummary}</div>}
- <div className="w-22 h-[1px] bg-[#C6A96B] mt-6 mb-8 opacity-60" />
+    <TextBlocks text={dream.microSummary} />
+
+  </section>
+  
+)}
+<section id="when-this-dream-happens" className="mb-12">
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    When this dream tends to appear
+  </h2>
+
+  <TextBlocks text={getDreamContext(dream)} />
+</section>
+
 
  {dream.categories?.length > 0 && (
           <nav className="mb-8 flex flex-wrap gap-2">
@@ -223,50 +316,7 @@ const primaryRelatedDream = getDreamsBySlugs(dream.relatedDreams, dreams)[0];
 
 
 
-<nav className="mb-8 text-sm">
-  <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">
-    On this page
-  </p>
-
-  <ul className="space-y-2 pl-4 relative">
-  <li aria-hidden="true" className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]" />
-    <li>
-      <a href="#emotional-meaning" className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
-        Emotional meaning
-      </a>
-    </li>
-
-    <li>
-      <a href="#symbolic-meaning" className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
-        Symbolic meaning
-      </a>
-    </li>
-
-    <li>
-      <a href="#spiritual-meaning"className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
-        Spiritual meaning
-      </a>
-    </li>
-
-    <li>
-      <a href="#real-life-meaning" className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
-        Waking life meaning
-      </a>
-    </li>
-
-    <li>
-      <a href="#related-dreams" className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
-        Related dreams
-      </a>
-    </li>
-
-    <li>
-      <a href="#faqs"className="text-[#6B6B6B] hover:text-[#C6A96B] transition-colors duration-200">
-        FAQs
-      </a>
-    </li>
-  </ul>
-</nav>
+<DreamPageClientNav />
 
  <p className="text-xs tracking-widest text-[#A89F91] uppercase mb-8">
           Guide - 7 min read
@@ -302,7 +352,9 @@ const primaryRelatedDream = getDreamsBySlugs(dream.relatedDreams, dreams)[0];
     />
   ))}
 </section>
-
+<section id="emotional-connections" className="scroll-mt-28 mt-16">
+  <DreamEmotionalConnections dream={dream} />
+</section>
         {summaryText && (
           <section className="mt-20 md:mt-32 py-10 border-y border-[#EAE6E1] text-center">
             <p className="text-[11px] tracking-[0.2em] text-[#8A8175] uppercase mb-4">
@@ -315,9 +367,9 @@ const primaryRelatedDream = getDreamsBySlugs(dream.relatedDreams, dreams)[0];
             />
           </section>
         )}
+<ClusterPathway cluster={clusterGuide} />
 
-        <RelatedDreams slugs={dream.relatedDreams} />
-
+       
        <section id="faqs" className="mt-16 border-t border-[#EAE6E1] pt-10 scroll-mt-28">
          <h2 className="font-serif text-2xl md:text-3xl mb-8">
             Common questions
@@ -334,6 +386,7 @@ const primaryRelatedDream = getDreamsBySlugs(dream.relatedDreams, dreams)[0];
             ))}
           </div>
         </section>
+ <RelatedDreams slugs={dream.relatedDreams} />
 
         <p className="text-sm text-[#8A8A8A] mt-12 italic">
           Each dream is personal. Its meaning can shift depending on what you

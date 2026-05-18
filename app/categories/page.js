@@ -1,7 +1,7 @@
 import Link from "next/link";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-import { dreams } from "@/data/dream";
+import { dreams } from "@/data/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import SearchBar from "@/app/components/SearchBar";
 import CategorySearchList from "@/app/components/CategorySearchList";
@@ -40,6 +40,16 @@ export default function CategoriesPage() {
       dreams.flatMap((d) => (d.categories || []).map(normalizeCategory))
     ),
   ];
+  function getCategoryThemes() {
+  return [
+    "Fear",
+    "Anxiety",
+    "Transformation",
+    "Relationships",
+    "Hidden emotions",
+    "Spirituality",
+  ];
+}
 
   return (
     <main className="bg-[#F7F5F2] min-h-screen">
@@ -61,36 +71,91 @@ export default function CategoriesPage() {
     </li>
   </ol>
 </nav>
-<LazyMobileQuickNav />
+
 
         {/* 🔥 Title */}
         <h1 className="text-4xl md:text-5xl font-serif mb-4">
-          Dream categories
+          Dream categories: Explore Dream Meanings by Theme
         </h1>
 
-        {/* 🔥 Intro (VERY IMPORTANT) */}
+        {/* 🔥 Intro */}
         <p className="text-[#6B6B6B] leading-relaxed mb-10">
-          Explore dreams by category to better understand the emotions, symbols,
-          and patterns behind your experiences. Each category reflects a different
-          aspect of your inner world, from fear and anxiety to transformation and
-          spiritual meaning.
+  Explore dream categories to understand what your dreams may mean based on
+  emotional patterns, symbols, and recurring themes.
+
+  <br /><br />
+
+  Each category reflects a different aspect of your inner world, from fear and
+  anxiety to transformation and spiritual meaning.
+</p>
+<section className="mb-12">
+  <h2 className="font-serif text-2xl mb-4">
+    Explore dream categories and meanings
+  </h2>
+
+  <div className="flex flex-wrap gap-3">
+    {categories.map((cat) => (
+      <Link
+        key={cat}
+        href={`/categories/${normalizeSlug(cat)}`}
+        className="text-sm px-4 py-2 border border-[#EAE6E1] rounded-full hover:border-[#C6A96B] transition"
+      >
+        {formatCategory(cat)}
+      </Link>
+    ))}
+  </div>
+</section>
+
+<section className="mt-16 border-t pt-10">
+  <h2 className="font-serif text-2xl mb-4">
+    Explore dream meanings by category
+  </h2>
+
+  <div className="flex flex-wrap gap-3">
+    {categories.slice(0, 6).map((cat) => (
+      <Link
+        key={cat}
+        href={`/categories/${normalizeSlug(cat)}`}
+        className="group block border border-[#EAE6E1] rounded-[28px] p-6 md:p-8 bg-[#FCFBF9] hover:border-[#C6A96B] transition-all duration-300"
+      >
+        <h2 className="font-serif text-2xl md:text-3xl mb-4 group-hover:text-[#8C6A3B] transition-colors">
+          {formatCategory(cat)} dreams
+        </h2>
+
+        <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg max-w-2xl">
+          {categoryDescriptions[cat] ||
+            `Dreams connected to ${cat} experiences, emotional patterns, and symbolic meaning.`}
         </p>
+
+        <div className="mt-6 text-xs tracking-wide uppercase text-[#8A8A8A]">
+          Explore category
+        </div>
+      </Link>
+    ))}
+  </div>
+</section> 
+<p className="text-sm text-[#8A8177] mt-4">
+  You can also explore deeper insights in guides like{" "}
+  <Link href="/guides/what-are-dreams" className="underline">what dreams are</Link>{" "}
+  or{" "}
+  <Link href="/guides/recurring-dreams" className="underline">why dreams repeat</Link>.
+</p>
+<LazyMobileQuickNav />
+<p className="text-sm text-[#8A8177] mt-4">
+  Many dream categories include common experiences like{" "}
+  <Link href="/dreams/falling" className="underline">falling</Link>,{" "}
+  <Link href="/dreams/being-chased" className="underline">being chased</Link>, and{" "}
+  <Link href="/dreams/losing-control" className="underline">losing control</Link>.
+</p>
 
         {/* 🔥 Themes section (authority boost) */}
       <section className="mt-14">
   <h2 className="font-serif text-2xl md:text-3xl mb-6">
-    How dream categories connect emotionally
+    How dream categories connect through emotional patterns
   </h2>
 
   <div className="flex flex-wrap gap-3 mb-8">
-    {[
-      "Fear",
-      "Anxiety",
-      "Transformation",
-      "Relationships",
-      "Hidden emotions",
-      "Spirituality",
-    ].map((theme) => (
+   {getCategoryThemes().map((theme) => (
       <span
         key={theme}
         className="px-4 py-2 rounded-full border border-[#EAE6E1] text-sm text-[#6B6B6B] bg-[#FCFBF9]"
@@ -115,39 +180,11 @@ export default function CategoriesPage() {
   </p>
 </section>
 
+
         {/* 🔥 Category grid */}
        <CategorySearchList categories={categories} />
 
-        {/* 🔥 Internal linking */}
-        <section className="mt-16 border-t pt-10">
-          <h2 className="font-serif text-2xl mb-4">
-            Explore dream meanings
-          </h2>
-
-          <div className="flex flex-wrap gap-3">
-            {categories.slice(0, 6).map((cat) => (
-              <Link
-  key={cat}
-  href={`/categories/${normalizeSlug(cat)}`}
-  className="group block border border-[#EAE6E1] rounded-[28px] p-6 md:p-8 bg-[#FCFBF9] hover:border-[#C6A96B] transition-all duration-300"
->
-  <h2 className="font-serif text-2xl md:text-3xl mb-4 group-hover:text-[#8C6A3B] transition-colors">
-    {formatCategory(cat)} dreams
-  </h2>
-
-  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg max-w-2xl">
-    {categoryDescriptions[cat] ||
-      `Dreams connected to ${cat} experiences, emotional patterns, and symbolic meaning.`}
-  </p>
-
-  <div className="mt-6 text-xs tracking-wide uppercase text-[#8A8A8A]">
-    Explore category
-  </div>
-</Link>
-            ))}
-          </div>
-        </section>
-
+      
 <section className="mt-20 border-t border-[#EAE6E1] pt-10 text-center">
   <h2 className="font-serif text-2xl md:text-3xl mb-4">
     Explore your own dream
@@ -204,7 +241,30 @@ export default function CategoriesPage() {
 
   </div>
 </section>
+<section className="mt-16">
+  <h2 className="font-serif text-2xl mb-4">
+    Popular dream meanings
+  </h2>
 
+  <div className="flex flex-wrap gap-3">
+    {dreams
+  .filter(
+    (dream) =>
+      dream.microSummary &&
+      dream.relatedDreams?.length > 0
+  )
+  .slice(0, 15)
+  .map((dream) => (
+    <Link
+      key={dream.slug}
+      href={`/dreams/${dream.slug}`}
+   className="text-sm px-4 py-2 border border-[#EAE6E1] rounded-full bg-white hover:border-[#C6A96B] transition"
+    >
+        {dream.title}
+      </Link>
+    ))}
+  </div>
+</section>
       </section>
 
       <SiteFooter />

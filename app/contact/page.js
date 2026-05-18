@@ -45,10 +45,10 @@ export default function ContactPage() {
           </Link>{" "}
           / <span>Contact</span>
         </nav>
-<LazyMobileQuickNav />
+
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-serif mb-6">
-          Contact
+          Contact DreamScriptures
         </h1>
 
         <div className="w-12 h-[1px] bg-[#C6A96B] mb-10" />
@@ -57,7 +57,7 @@ export default function ContactPage() {
         <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-6">
           Some connections arrive quietly, but still matter deeply.
         </p>
-
+<LazyMobileQuickNav />
         {/* SEO anchor */}
         <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
           If you have questions about dream meanings, interpretations, or the
@@ -84,6 +84,10 @@ export default function ContactPage() {
           <p className="text-base md:text-lg text-[#2A2A2A]">
             dreamscriptures@gmail.com
           </p>
+          <p className="text-sm text-[#8A8177] mt-4">
+  DreamScriptures is an independent project focused on thoughtful,
+  emotionally grounded dream interpretation.
+</p>
         </div>
 
         {/* Internal link */}
@@ -97,7 +101,19 @@ export default function ContactPage() {
         </div>
 
       </article>
+<section className="mt-16 border-t border-[#EAE6E1] pt-10">
+  <h2 className="font-serif text-2xl mb-4">
+    Explore dream meanings
+  </h2>
 
+  <div className="flex flex-wrap gap-3">
+    <Link href="/dreams/falling" className="underline">Falling dream meaning</Link>
+    <Link href="/dreams/being-chased" className="underline">Being chased dream</Link>
+    <Link href="/dreams/snake" className="underline">Snake dream meaning</Link>
+    <Link href="/categories/fear" className="underline">Fear dreams</Link>
+    <Link href="/categories/anxiety" className="underline">Anxiety dreams</Link>
+  </div>
+</section>
       <SiteFooter />
     </main>
   );

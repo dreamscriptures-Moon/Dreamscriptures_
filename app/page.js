@@ -3,6 +3,8 @@ import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import HomeSearchWrapper from "./components/HomeSearchWrapper";
+import { emotionalHubs } from "@/data/emotionalHubs";
+import { featuredEmotions } from "@/data/featuredEmotions";
 
 
 const popularDreams = [
@@ -46,28 +48,77 @@ export default function Home() {
   <section className="max-w-3xl mx-auto px-6 pt-12 md:pt-20 pb-10 text-center">
 
     <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.15] font-serif tracking-tight mb-6">
-      Dream meanings, symbols & deeper interpretation
-    </h1>
+  Dream Interpretation: What Your Dreams Really Mean (Spiritual & Emotional Meaning)
+</h1>
 
-    <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
-      Explore hundreds of dream meanings, including 
-      <Link href="/dreams/teeth-falling-out" className="underline mx-1">
-        teeth falling out dreams
-      </Link>
-      and
-      <Link href="/dreams/being-chased" className="underline mx-1">
-        being chased dreams
-      </Link>
-      through emotional, symbolic, spiritual, and waking-life perspectives.
-    </p>
+<p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
+  Explore dream meanings through symbols, emotions, and deeper interpretation from spiritual insight to real-life emotional patterns.
+</p>
 
-    <p className="text-[11px] uppercase tracking-[0.28em] text-[#5F574E]">
+   <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-4">
+  Explore common dreams like 
+
+  <Link href="/dreams/falling" className="underline mx-1">falling</Link>, 
+  <Link href="/dreams/being-chased" className="underline mx-1">being chased</Link>, 
+  <Link href="/dreams/teeth-falling-out" className="underline mx-1">losing teeth</Link>, 
+  and 
+  <Link href="/dreams/snake" className="underline mx-1">snakes</Link>.
+</p>
+
+<p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
+  Understand your dreams through emotional patterns like 
+  <Link href="/emotions/fear-of-losing-control" className="underline mx-1">loss of control</Link>, 
+  <Link href="/emotions/emotional-overwhelm" className="underline mx-1">overwhelm</Link>, 
+  and 
+  <Link href="/emotions/uncertainty" className="underline mx-1">uncertainty</Link>.
+</p>
+    <section className="max-w-xl mx-auto px-6 py-6 md:py-22">
+    <p className="text-[11px] uppercase tracking-[0.28em] text-[#5E454E]">
       Dreams do not follow one fixed meaning. What matters most is what your dream may be reflecting.
     </p>
+</section>
 
    <div className="w-26 h-[1px] bg-[#EAE6E1] mx-auto mt-6 mb-3" />
   </section>
+<section className="max-w-xl mx-auto px-6 pb-10 text-center">
 
+  <h2 className="text-xl md:text-2xl font-medium mb-4">
+    What does your dream mean?
+  </h2>
+
+  {/* Search */}
+  <div className="max-w-md mx-auto mb-6">
+    <HomeSearchWrapper />
+  </div>
+
+  {/* Intent shortcuts */}
+  <div className="text-sm text-[#6B6B6B] space-y-2">
+
+    <p className="font-medium">Browse by:</p>
+
+    <div className="flex flex-wrap justify-center gap-2">
+      <Link href="/dreams" className="underline">Dream symbol</Link>
+      <Link href="/emotions" className="underline">Emotion</Link>
+      <Link href="/categories" className="underline">Situation</Link>
+    </div>
+
+    <p className="mt-4">Or explore:</p>
+<p className="text-xs text-[#8A8177] mt-2">
+  Start with a common dream or search your own — there is no single fixed meaning.
+</p>
+
+    <div className="flex flex-wrap justify-center gap-3">
+      <Link href="/dreams/falling" className="underline">Falling dreams meaning</Link>
+      <Link href="/dreams/being-chased" className="underline">Being chased dream meaning</Link>
+      <Link href="/dreams/teeth-falling-out" className="underline">Teeth falling out dream meaning</Link>
+      <Link href="/dreams/snake" className="underline">Snake dream meaning</Link>
+    </div>
+
+  </div>
+<p className="text-sm text-[#6B6B6B] max-w-xl mx-auto mt-4">
+  Dreams often repeat the same emotional patterns beneath different symbols like fear, uncertainty, or loss of control.
+</p>
+</section>
  
 
   {/* EXPLANATION */}
@@ -87,14 +138,13 @@ export default function Home() {
       spiritual interpretation, and real-life context. Explore our dream dictionary to 
       discover what your dreams may be trying to tell you.
     </p>
+    <p className="text-xs text-[#8A8177] mt-4">
+  Interpreted through emotional patterns, symbolic meaning, and real-life context not fixed definitions.
+</p>
+
   </section>
 <LazyMobileQuickNav />
-  {/* 🔥 SEARCH */}
-  <section className="max-w-3xl mx-auto px-6 pb-16 text-center">
-    <div className="max-w-md mx-auto">
-     <HomeSearchWrapper />
-    </div>
-  </section>
+  
 
   {/* SEO INTERNAL LINKS */}
   <section className="max-w-3xl mx-auto px-6 pb-8 text-left">
@@ -134,6 +184,59 @@ export default function Home() {
              </p>
             </Link>
           ))}
+        </div>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-6 py-16 md:py-24">
+        <div className="max-w-3xl mx-auto text-center mb-10">
+          <h2 className="text-4xl md:text-5xl mb-5 font-serif">
+            Explore Dreams Through Emotional Experiences
+          </h2>
+
+          <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">
+  Dreams often repeat the same emotional patterns beneath different symbols.
+  A dream about falling, being chased, losing someone, or feeling trapped
+  may all connect to the same underlying emotional experience.
+</p>
+
+<p className="mt-5 text-[#6B6B6B] text-base md:text-lg leading-relaxed">
+  Explore the emotional states that dreams quietly return to during periods
+  of stress, uncertainty, transformation, grief, emotional pressure,
+  healing, or inner change.
+</p>
+        </div>
+
+        <div className="grid gap-5 md:grid-cols-2">
+          {featuredEmotions.map((item) => {
+            const emotion = emotionalHubs[item.slug];
+
+            if (!emotion) return null;
+
+            return (
+              <Link
+                key={item.slug}
+                href={`/emotions/${item.slug}`}
+                className="block border-l border-[#D8C7A0] bg-white/70 px-5 py-5 transition hover:border-[#C6A96B] hover:bg-white"
+              >
+                <h3 className="font-serif text-xl md:text-2xl text-[#1A1A1A]">
+                  {emotion.title}
+                </h3>
+
+                <p className="mt-3 text-sm md:text-base leading-relaxed text-[#6B6B6B]">
+  {item.intro || emotion.intro}
+</p>
+
+{emotion.subconsciousPatterns?.length > 0 && (
+  <p className="mt-4 text-[13px] leading-relaxed text-[#8A8177]">
+    Common patterns:{" "}
+    {emotion.subconsciousPatterns
+      .slice(0, 2)
+      .join(", ")}
+  </p>
+)}
+              </Link>
+            );
+          })}
         </div>
       </section>
 

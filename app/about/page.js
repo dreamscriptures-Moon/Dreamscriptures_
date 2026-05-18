@@ -23,7 +23,7 @@ export default function AboutPage() {
           </Link>{" "}
           / <span>About</span>
         </nav>
-<LazyMobileQuickNav />
+
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-serif mb-6">
           About DreamScriptures
@@ -36,10 +36,10 @@ export default function AboutPage() {
 
         {/* SEO anchor */}
         <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
-          DreamScriptures is a growing resource for understanding dream meanings,
-          symbolism, and interpretation through emotional, spiritual, and real-life perspectives.
-        </p>
-
+      DreamScriptures is a growing resource for understanding dream meanings,
+interpretation, and symbolism through emotional, spiritual, and real-life perspectives.
+</p>
+<LazyMobileQuickNav />
         <div className="space-y-10 text-[#2A2A2A] leading-loose text-base md:text-lg">
 
           <section>
@@ -82,7 +82,13 @@ export default function AboutPage() {
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
               What we value
             </h2>
-
+           <p className="mt-6 text-sm text-[#8A8177]">
+  This project is independently created and continuously developed to provide
+  thoughtful, meaningful, and evolving interpretations of dreams.
+</p>or explore deeper insights in{" "}
+<Link href="/guides" className="underline">
+  dream guides
+</Link>.
             <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6"></div>
 
             <p>
@@ -94,8 +100,8 @@ export default function AboutPage() {
 
           <section>
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
-              A living library of dream meanings
-            </h2>
+          A growing library of dream meanings and interpretations
+           </h2>
 
             <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6"></div>
 
@@ -105,7 +111,29 @@ export default function AboutPage() {
               for curiosity, insight, and self-understanding.
             </p>
           </section>
+<section className="mt-16 border-t border-[#EAE6E1] pt-10">
+  <h2 className="font-serif text-2xl mb-4">
+    Explore dream meanings
+  </h2>
 
+  <div className="flex flex-wrap gap-3">
+    <Link href="/dreams/falling" className="underline">
+      Falling dream meaning
+    </Link>
+    <Link href="/dreams/being-chased" className="underline">
+      Being chased dream
+    </Link>
+    <Link href="/dreams/snake" className="underline">
+      Snake dream meaning
+    </Link>
+    <Link href="/categories/fear" className="underline">
+      Fear dreams
+    </Link>
+    <Link href="/categories/anxiety" className="underline">
+      Anxiety dreams
+    </Link>
+  </div>
+</section>
           {/* Internal linking (important for SEO) */}
           <section>
             <p>

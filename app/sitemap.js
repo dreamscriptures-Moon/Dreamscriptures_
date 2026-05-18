@@ -1,70 +1,115 @@
-import { dreams } from "@/data/dream";
+import { dreams } from "@/data/dreams";
+import { emotionalHubs } from "@/data/emotionalHubs";
 import { getClusterGuides } from "@/lib/clusterGuides";
+import { normalizeSlug } from "@/lib/normalizeSlug";
 
 export default function sitemap() {
   const baseUrl = "https://www.dreamscriptures.com";
+  const now = new Date();
 
+  /* -----------------------------
+     🔥 Static Pages
+  ----------------------------- */
   const staticPages = [
     {
       url: `${baseUrl}`,
-      lastModified: new Date("2026-05-12"),
+      lastModified: now,
       priority: 1.0,
     },
     {
       url: `${baseUrl}/dreams`,
-      lastModified: new Date("2026-05-12"),
+      lastModified: now,
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/categories`,
+      lastModified: now,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/emotions`,
+      lastModified: now,
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/guides`,
-      lastModified: new Date("2026-05-12"),
+      lastModified: now,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date("2026-05-12"),
+      lastModified: now,
       priority: 0.5,
     },
     {
-      url: `${baseUrl}/categories`,
-      lastModified: new Date("2026-05"),
-      priority: 0.7,
+      url: `${baseUrl}/contact`,
+      lastModified: now,
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/privacy`,
+      lastModified: now,
+      priority: 0.4,
+    },
+    {
+      url: `${baseUrl}/terms`,
+      lastModified: now,
+      priority: 0.4,
     },
   ];
 
+  /* -----------------------------
+     🔥 Dream Pages
+  ----------------------------- */
   const dreamPages = dreams.map((dream) => ({
-    url: `${baseUrl}/dreams/${dream.slug}`,
+    url: `${baseUrl}/dreams/${normalizeSlug(
+      dream.slug || dream.title
+    )}`,
     lastModified: dream.updatedAt
       ? new Date(dream.updatedAt)
-      : new Date("2026-05-03"),
+      : now,
     priority: 0.7,
   }));
-const categories = [
-  ...new Set(
-    dreams.flatMap((dream) => dream.categories || [])
-  ),
-];
 
-const categoryPages = categories.map((category) => ({
-  url: `${baseUrl}/categories/${category
-    .toLowerCase()
-    .replace(/\s+/g, "-")}`,
+  /* -----------------------------
+     🔥 Category Pages
+  ----------------------------- */
+  const categories = [
+    ...new Set(
+      dreams.flatMap((dream) => dream.categories || [])
+    ),
+  ];
 
-  lastModified: new Date("2026-05-12"),
+  const categoryPages = categories.map((category) => ({
+    url: `${baseUrl}/categories/${normalizeSlug(category)}`,
+    lastModified: now,
+    priority: 0.8,
+  }));
 
-  priority: 0.8,
-}));
+  /* -----------------------------
+     🔥 Emotion Pages 
+  ----------------------------- */
+  const emotionPages = Object.keys(emotionalHubs).map((slug) => ({
+    url: `${baseUrl}/emotions/${slug}`,
+    lastModified: now,
+    priority: 0.85,
+  }));
 
-const clusterGuidePages = getClusterGuides().map((guide) => ({
-  url: `${baseUrl}/guides/${guide.slug}`,
-  lastModified: new Date("2026-05-13"),
-  priority: 0.7,
-}));
+  /* -----------------------------
+     🔥 Guide Pages
+  ----------------------------- */
+  const clusterGuidePages = getClusterGuides().map((guide) => ({
+    url: `${baseUrl}/guides/${guide.slug}`,
+    lastModified: now,
+    priority: 0.75,
+  }));
 
- return [
-  ...staticPages,
-  ...clusterGuidePages,
-  ...categoryPages,
-  ...dreamPages,
-];
+  
+  return [
+    ...staticPages,
+    ...emotionPages,
+    ...categoryPages,
+    ...clusterGuidePages,
+    ...dreamPages,
+  ];
 }
