@@ -3,16 +3,81 @@ import { dreams } from "@/data/dreams";
 import { getDreamsBySlugs, shorten } from "@/lib/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 
+const relationshipGroups = [
+  {
+    key: "fear",
+    title: "Dreams Connected Through Fear",
+    matches: ["fear", "threat", "panic", "survival", "danger", "attack"],
+  },
+  {
+    key: "vulnerability",
+    title: "Dreams Connected Through Vulnerability",
+    matches: [
+      "vulnerability",
+      "exposure",
+      "helplessness",
+      "insecurity",
+      "visibility",
+      "judgment",
+      "powerlessness",
+    ],
+  },
+  {
+    key: "transformation",
+    title: "Dreams Connected Through Transformation",
+    matches: [
+      "transformation",
+      "transition",
+      "change",
+      "growth",
+      "healing",
+      "identity",
+      "rebirth",
+    ],
+  },
+  {
+    key: "overwhelm",
+    title: "Dreams Connected Through Emotional Overwhelm",
+    matches: [
+      "overwhelm",
+      "pressure",
+      "burnout",
+      "instability",
+      "loss-of-control",
+      "restriction",
+      "emotional-overflow",
+    ],
+  },
+];
+
+function formatRelationshipType(type = "") {
+  return String(type).replace(/-/g, " ");
+}
+
+function getRelationshipGroup(type = "") {
+  const normalizedType = normalizeSlug(type);
+
+  return (
+    relationshipGroups.find((group) =>
+      group.matches.some((match) => normalizedType.includes(match))
+    ) || {
+      key: "other",
+      title: "Dreams Connected Through Similar Emotional Patterns",
+    }
+  );
+}
+
 export default function RelatedDreams({ slugs = [] }) {
   const relationships = slugs
     .map((item) => ({
       slug: typeof item === "string" ? item : item?.slug,
       reason: typeof item === "string" ? "" : item?.reason,
+      relationshipType: typeof item === "string" ? "" : item?.relationshipType,
     }))
     .filter((item) => item.slug);
 
-  const reasonBySlug = new Map(
-    relationships.map((item) => [normalizeSlug(item.slug), item.reason])
+  const relationshipBySlug = new Map(
+    relationships.map((item) => [normalizeSlug(item.slug), item])
   );
 
   const relatedDreams = getDreamsBySlugs(relationships, dreams);
@@ -20,6 +85,18 @@ export default function RelatedDreams({ slugs = [] }) {
   if (relatedDreams.length === 0) {
     return null;
   }
+
+  const groupedDreams = relatedDreams.reduce((groups, dream) => {
+    const relationship = relationshipBySlug.get(normalizeSlug(dream.slug)) || {};
+    const group = getRelationshipGroup(relationship.relationshipType);
+
+    if (!groups.has(group.key)) {
+      groups.set(group.key, { ...group, dreams: [] });
+    }
+
+    groups.get(group.key).dreams.push({ dream, relationship });
+    return groups;
+  }, new Map());
 
   return (
     <section
@@ -29,34 +106,58 @@ export default function RelatedDreams({ slugs = [] }) {
       <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
         Emotional pathways
       </p>
-      <h2 className="mb-8 font-serif text-3xl md:text-4xl">
-        Dreams with similar emotional patterns
+      <h2 className="mb-4 font-serif text-3xl md:text-4xl">
+        Related Dream Clusters
       </h2>
 
-      <div className="grid gap-4 md:grid-cols-2">
-        {relatedDreams.map((dream) => {
-          const href = `/dreams/${normalizeSlug(dream.slug || dream.title)}`;
-          const reason = reasonBySlug.get(normalizeSlug(dream.slug));
-          const preview = shorten(reason || dream.microSummary || dream.summary, 190);
+      <p className="mb-8 max-w-2xl text-base leading-relaxed text-[#6B6B6B]">
+        These dreams are connected by emotional structure, not by a single fixed
+        meaning. The relationship notes show why each dream belongs near this
+        one.
+      </p>
 
-          return (
-            <Link
-              key={dream.slug}
-              href={href}
-              className="group block border-l border-[#D8C7A0] bg-white/70 px-5 py-4 shadow-sm shadow-[#EAE6E1]/30 transition duration-200 hover:border-[#C6A96B] hover:bg-white hover:shadow-md"
-            >
-              <h3 className="font-serif text-lg leading-snug text-[#1A1A1A] transition-colors group-hover:text-[#8F743C]">
-                {dream.title}
-              </h3>
+      <div className="space-y-10">
+        {Array.from(groupedDreams.values()).map((group) => (
+          <div key={group.key}>
+            <h3 className="mb-4 font-serif text-2xl text-[#1A1A1A]">
+              {group.title}
+            </h3>
 
-              {preview && (
-                <p className="mt-2 text-sm leading-relaxed text-[#6B6B6B]">
-                  {preview}
-                </p>
-              )}
-            </Link>
-          );
-        })}
+            <div className="grid gap-4 md:grid-cols-2">
+              {group.dreams.map(({ dream, relationship }) => {
+                const href = `/dreams/${normalizeSlug(dream.slug || dream.title)}`;
+                const preview = shorten(
+                  relationship.reason || dream.microSummary || dream.summary,
+                  190
+                );
+
+                return (
+                  <Link
+                    key={dream.slug}
+                    href={href}
+                    className="group block border-l border-[#D8C7A0] bg-white/70 px-5 py-4 shadow-sm shadow-[#EAE6E1]/30 transition duration-200 hover:border-[#C6A96B] hover:bg-white hover:shadow-md"
+                  >
+                    {relationship.relationshipType && (
+                      <span className="text-[10px] uppercase tracking-[0.16em] text-[#8A8175]">
+                        {formatRelationshipType(relationship.relationshipType)}
+                      </span>
+                    )}
+
+                    <h4 className="mt-1 font-serif text-lg leading-snug text-[#1A1A1A] transition-colors group-hover:text-[#8F743C]">
+                      {dream.title}
+                    </h4>
+
+                    {preview && (
+                      <p className="mt-2 text-sm leading-relaxed text-[#6B6B6B]">
+                        {preview}
+                      </p>
+                    )}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

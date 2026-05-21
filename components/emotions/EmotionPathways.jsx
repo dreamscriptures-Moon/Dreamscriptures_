@@ -24,7 +24,10 @@ export default function EmotionPathways({
   }
 
   return (
-    <section className="mt-16 border-t border-[#EAE6E1] pt-10">
+    <section
+      id="emotional-pathways"
+      className="mt-16 border-t border-[#EAE6E1] pt-10 scroll-mt-28"
+    >
       <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
         Emotional pathways
       </p>

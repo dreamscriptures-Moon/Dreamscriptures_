@@ -2,17 +2,23 @@
 
 import { useEffect, useState } from "react";
 
-const navItems = [
+const defaultNavItems = [
+  { id: "dream-overview", label: "Overview" },
+  { id: "when-this-dream-happens", label: "When it appears" },
   { id: "emotional-meaning", label: "Emotional meaning" },
   { id: "symbolic-meaning", label: "Symbolic meaning" },
   { id: "spiritual-meaning", label: "Spiritual meaning" },
   { id: "real-life-meaning", label: "Waking life meaning" },
-  { id: "related-dreams", label: "Related dreams" },
+  { id: "multiple-meanings", label: "Multiple meanings" },
+  { id: "subconscious-patterns", label: "Subconscious patterns" },
+  { id: "life-situations", label: "Life situations" },
+  { id: "emotional-themes", label: "Emotional themes" },
   { id: "emotional-connections", label: "Emotional connections" },
+  { id: "related-dreams", label: "Related clusters" },
   { id: "faqs", label: "FAQs" },
 ];
 
-export default function DreamPageClientNav() {
+export default function DreamPageClientNav({ items = defaultNavItems }) {
   const [activeSection, setActiveSection] = useState("");
   const [scrollProgress, setScrollProgress] = useState(0);
 
@@ -35,17 +41,21 @@ export default function DreamPageClientNav() {
   }, []);
 
   useEffect(() => {
-    const sections = document.querySelectorAll("section[id]");
+    const sections = Array.from(document.querySelectorAll("section[id]")).filter(
+      (section) => items.some((item) => item.id === section.id)
+    );
 
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
-        });
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+
+        if (visible[0]) {
+          setActiveSection(visible[0].target.id);
+        }
       },
-      { rootMargin: "-40% 0px -55% 0px" }
+      { rootMargin: "-28% 0px -60% 0px", threshold: [0.1, 0.35, 0.6] }
     );
 
     sections.forEach((section) => observer.observe(section));
@@ -53,7 +63,18 @@ export default function DreamPageClientNav() {
     return () => {
       sections.forEach((section) => observer.unobserve(section));
     };
-  }, []);
+  }, [items]);
+
+  const handleNavClick = (event, id) => {
+    const section = document.getElementById(id);
+
+    if (!section) return;
+
+    event.preventDefault();
+    window.history.pushState(null, "", `#${id}`);
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+    setActiveSection(id);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -77,7 +98,7 @@ export default function DreamPageClientNav() {
         style={{ width: `${scrollProgress}%` }}
       />
 
-      <nav className="mb-8 text-sm">
+      <nav className="mb-8 text-sm" aria-label="Dream page sections">
         <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">
           On this page
         </p>
@@ -87,14 +108,16 @@ export default function DreamPageClientNav() {
             aria-hidden="true"
             className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
           />
-          {navItems.map((item) => (
+          {items.map((item) => (
             <li key={item.id}>
               <a
                 href={`#${item.id}`}
-                className={`hover:text-[#C6A96B] transition-colors duration-200 ${
+                onClick={(event) => handleNavClick(event, item.id)}
+                aria-current={activeSection === item.id ? "true" : undefined}
+                className={`block border-l-2 py-1 pl-3 -ml-[17px] transition-colors duration-200 hover:border-[#C6A96B] hover:text-[#8F743C] ${
                   activeSection === item.id
-                    ? "text-[#C6A96B]"
-                    : "text-[#6B6B6B]"
+                    ? "border-[#C6A96B] text-[#8F743C]"
+                    : "border-transparent text-[#6B6B6B]"
                 }`}
               >
                 {item.label}

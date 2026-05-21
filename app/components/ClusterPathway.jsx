@@ -6,7 +6,10 @@ export default function ClusterPathway({
   if (!cluster) return null;
 
   return (
-    <section className="mt-20 border-t border-[#EAE6E1] pt-10">
+    <section
+      id="dream-cluster"
+      className="mt-20 border-t border-[#EAE6E1] pt-10 scroll-mt-28"
+    >
       <h2 className="font-serif text-2xl md:text-3xl mb-5">
         Explore this emotional pathway
       </h2>
@@ -22,7 +25,7 @@ export default function ClusterPathway({
             <Link
               key={dream.slug}
               href={`/dreams/${dream.slug}`}
-              className="border border-[#EAE6E1] rounded-2xl p-5 bg-[#FCFBF9] hover:border-[#C6A96B] transition-colors"
+              className="border border-[#EAE6E1] rounded-md p-5 bg-[#FCFBF9] hover:border-[#C6A96B] transition-colors"
             >
               <h3 className="font-serif text-xl mb-2">
                 {dream.title}

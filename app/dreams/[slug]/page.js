@@ -11,6 +11,7 @@ import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import DreamPageClientNav from "./DreamPageClientNav";
 import { dreams } from "@/data/dreams";
+import { emotionalHubs } from "@/data/emotionalHubs";
 import {
   formatCategory,
   generateSummary,
@@ -132,6 +133,221 @@ function DescriptionBlocks({
   );
 }
 
+function toTextItems(value) {
+  if (!value) return [];
+
+  if (Array.isArray(value)) {
+    return value
+      .map((item) => {
+        if (typeof item === "string") return item;
+        return item?.text || item?.title || item?.label || item?.meaning || "";
+      })
+      .filter(Boolean);
+  }
+
+  if (typeof value === "string") {
+    return getParagraphs(value);
+  }
+
+  return Object.values(value).filter((item) => typeof item === "string");
+}
+
+function getContradictionItems(value) {
+  if (!value) return [];
+
+  if (Array.isArray(value)) {
+    return value
+      .map((item, index) => {
+        if (typeof item === "string") {
+          return { title: `Interpretation ${index + 1}`, body: item };
+        }
+
+        return {
+          title:
+            item?.title ||
+            item?.context ||
+            item?.emotionalContext ||
+            `Interpretation ${index + 1}`,
+          body:
+            item?.body ||
+            item?.meaning ||
+            item?.description ||
+            item?.text ||
+            item?.interpretation ||
+            "",
+        };
+      })
+      .filter((item) => item.body);
+  }
+
+  if (typeof value === "string") {
+    return getParagraphs(value).map((paragraph, index) => ({
+      title: `Interpretation ${index + 1}`,
+      body: paragraph,
+    }));
+  }
+
+  return Object.entries(value)
+    .map(([key, body]) => ({
+      title: formatCategory(key),
+      body: typeof body === "string" ? body : body?.meaning || body?.text || "",
+    }))
+    .filter((item) => item.body);
+}
+
+function DreamListSection({ id, eyebrow, title, items = [] }) {
+  if (items.length === 0) {
+    return null;
+  }
+
+  return (
+    <section
+      id={id}
+      className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+    >
+      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+        {eyebrow}
+      </p>
+
+      <h2 className="mb-5 font-serif text-3xl md:text-4xl">{title}</h2>
+
+      <div className="grid gap-3 md:grid-cols-2">
+        {items.map((item) => (
+          <div
+            key={item}
+            className="border border-[#EAE6E1] bg-white/70 px-4 py-3 text-sm leading-relaxed text-[#5F574E]"
+          >
+            {item}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function DreamEmotionalThemesSection({ dream }) {
+  const themes = [
+    ...new Set([
+      ...toTextItems(dream.emotionalStates),
+      ...toTextItems(dream.emotionalTriggers),
+      ...(dream.emotionalConnections || []),
+    ]),
+  ].filter(Boolean);
+
+  if (themes.length === 0) {
+    return null;
+  }
+
+  return (
+    <section
+      id="emotional-themes"
+      className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+    >
+      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+        Emotional themes
+      </p>
+
+      <h2 className="mb-5 font-serif text-3xl md:text-4xl">
+        Emotional Themes Connected to This Dream
+      </h2>
+
+      <div className="flex flex-wrap gap-2">
+        {themes.map((theme) => {
+          const slug = normalizeSlug(theme);
+          const hub = emotionalHubs[slug];
+
+          if (hub) {
+            return (
+              <Link
+                key={theme}
+                href={`/emotions/${slug}`}
+                className="border border-[#EAE6E1] bg-white/70 px-4 py-2 text-sm text-[#5F574E] transition hover:border-[#C6A96B]"
+              >
+                {hub.title}
+              </Link>
+            );
+          }
+
+          return (
+            <span
+              key={theme}
+              className="border border-[#EAE6E1] bg-white/70 px-4 py-2 text-sm text-[#5F574E]"
+            >
+              {formatCategory(theme)}
+            </span>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+function MultipleMeaningsSection({ dream, dreamTitle }) {
+  const contradictionItems = getContradictionItems(dream.contradictions);
+  const relationshipTypes = (dream.relatedDreams || [])
+    .map((item) => (typeof item === "string" ? "" : item?.relationshipType))
+    .filter(Boolean)
+    .slice(0, 4);
+  const categories = (dream.categories || []).slice(0, 4);
+  const interpretiveThreads = [...new Set([...relationshipTypes, ...categories])]
+    .map((thread) => formatCategory(thread))
+    .slice(0, 6);
+
+  if (interpretiveThreads.length === 0 && contradictionItems.length === 0) {
+    return null;
+  }
+
+  return (
+    <section
+      id="multiple-meanings"
+      className="mt-16 border-t border-[#EAE6E1] pt-10 scroll-mt-28"
+    >
+      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+        Multiple interpretations
+      </p>
+
+      <h2 className="mb-4 font-serif text-3xl md:text-4xl">
+        Why {dreamTitle.toLowerCase()} dreams can mean more than one thing
+      </h2>
+
+      {contradictionItems.length > 0 ? (
+        <div className="space-y-5">
+          {contradictionItems.map((item) => (
+            <div key={`${item.title}-${item.body.slice(0, 24)}`}>
+              <h3 className="font-serif text-xl text-[#1A1A1A]">
+                {item.title}
+              </h3>
+              <p className="mt-2 text-base leading-relaxed text-[#6B6B6B]">
+                {item.body}
+              </p>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p className="max-w-2xl text-base leading-relaxed text-[#6B6B6B]">
+          This dream may change meaning depending on what you felt inside it and
+          what is happening around you. It can move through several interpretive
+          threads at once, especially when emotion, symbolism, and waking life
+          are overlapping.
+        </p>
+      )}
+
+      {interpretiveThreads.length > 0 && (
+        <div className="mt-6 flex flex-wrap gap-2">
+          {interpretiveThreads.map((thread) => (
+            <span
+              key={thread}
+              className="border border-[#EAE6E1] bg-white/70 px-3 py-1 text-sm text-[#5F574E]"
+            >
+              {thread}
+            </span>
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
 export default async function DreamPage({ params }) {
   const resolvedParams = await params;
   const slug = String(resolvedParams?.slug || "").toLowerCase().trim();
@@ -171,7 +387,9 @@ const primaryRelatedDream = getDreamsBySlugs(dream.relatedDreams, dreams)[0];
   const faqSchema = getFAQSchema(faqItems);
 
 function getDreamContext(dream) {
-  const categories = dream.categories || [];
+  const categories = (dream.categories || []).map((category) =>
+    normalizeSlug(category)
+  );
 
   if (categories.includes("fear") || categories.includes("anxiety")) {
     return `
@@ -199,42 +417,6 @@ function getDreamContext(dream) {
   when something in your inner world is trying to surface.
   `;
 }
-{(() => {
-  let related = getDreamsBySlugs(dream.relatedDreams, dreams);
-
-  // fallback using categories
-  if (!related || related.length === 0) {
-    related = dreams
-      .filter((d) =>
-        d.categories?.some((cat) =>
-          dream.categories?.includes(cat)
-        )
-      )
-      .filter((d) => d.slug !== dream.slug)
-      .slice(0, 3);
-  }
-
-  if (!related.length) return null;
-
-  return (
-    <section className="mb-10 text-sm text-[#6B6B6B]">
-      <p>
-        Dreams with similar meanings:
-        {related.map((d, i) => (
-          <span key={d.slug}>
-            <Link
-              href={`/dreams/${normalizeSlug(d.slug || d.title)}`}
-              className="underline mx-1"
-            >
-              {d.title.toLowerCase()}
-            </Link>
-            {i < related.length - 1 ? "," : ""}
-          </span>
-        ))}
-      </p>
-    </section>
-  );
-})()}
 
   return (
     <main className="bg-[#FAF8F5] min-h-screen">
@@ -280,7 +462,7 @@ function getDreamContext(dream) {
   {dynamicTitle}
 </h1>
 {dream.microSummary && (
-  <section className="mb-10">
+  <section id="dream-overview" className="mb-10 scroll-mt-28">
 
     <h2 className="text-xl md:text-2xl font-serif text-[#1A1A1A] mb-4">
       What does it mean to dream about {dream.title.toLowerCase()}?
@@ -291,7 +473,7 @@ function getDreamContext(dream) {
   </section>
   
 )}
-<section id="when-this-dream-happens" className="mb-12">
+<section id="when-this-dream-happens" className="mb-12 scroll-mt-28">
   <h2 className="font-serif text-2xl md:text-3xl mb-4">
     When this dream tends to appear
   </h2>
@@ -352,11 +534,23 @@ function getDreamContext(dream) {
     />
   ))}
 </section>
-<section id="emotional-connections" className="scroll-mt-28 mt-16">
-  <DreamEmotionalConnections dream={dream} />
-</section>
+<MultipleMeaningsSection dream={dream} dreamTitle={dreamTitle} />
+<DreamListSection
+  id="subconscious-patterns"
+  eyebrow="Subconscious patterns"
+  title="Subconscious Patterns Connected to This Dream"
+  items={toTextItems(dream.subconsciousPatterns)}
+/>
+<DreamListSection
+  id="life-situations"
+  eyebrow="Waking life"
+  title="Life Situations Connected to This Dream"
+  items={toTextItems(dream.lifeSituations)}
+/>
+<DreamEmotionalThemesSection dream={dream} />
+<DreamEmotionalConnections dream={dream} />
         {summaryText && (
-          <section className="mt-20 md:mt-32 py-10 border-y border-[#EAE6E1] text-center">
+          <section className="mt-20 scroll-mt-28 border-y border-[#EAE6E1] py-10 text-center md:mt-32">
             <p className="text-[11px] tracking-[0.2em] text-[#8A8175] uppercase mb-4">
               Summary
             </p>
@@ -393,7 +587,7 @@ function getDreamContext(dream) {
           felt and what you are currently moving through.
         </p>
 
-        <section className="mt-20 md:mt-32 bg-white border-y border-[#EAE6E1] py-10 px-6 text-center">
+        <section className="mt-20 scroll-mt-28 border-y border-[#EAE6E1] bg-white px-6 py-10 text-center md:mt-32">
           <p className="font-serif text-base md:text-lg leading-relaxed text-[#3A3A3A]">
             Dreams do not follow one fixed meaning. The way this dream connects
             to your life, emotions, and experiences matters just as much as the
@@ -402,7 +596,7 @@ function getDreamContext(dream) {
         </section>
 
         {exploreThemes.length > 0 && (
-          <section className="mt-16">
+          <section className="mt-16 scroll-mt-28">
             <h2 className="font-serif text-4xl md:text-5xl mb-4">
               You might also explore
             </h2>
@@ -421,7 +615,7 @@ function getDreamContext(dream) {
           </section>
         )}
 
-      <section className="mt-20 md:mt-32 pt-10 border-t border-[#EAE6E1]">
+      <section className="mt-20 scroll-mt-28 border-t border-[#EAE6E1] pt-10 md:mt-32">
   <h2 className="font-serif text-4xl md:text-5xl mb-6">
     Related reading
   </h2>

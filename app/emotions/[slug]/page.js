@@ -3,9 +3,11 @@ import { notFound } from "next/navigation";
 
 import EmotionalJourney from "@/components/emotions/EmotionalJourney";
 import EmotionPathways from "@/components/emotions/EmotionPathways";
+import DreamPageClientNav from "@/app/dreams/[slug]/DreamPageClientNav";
 import { emotionalHubs } from "@/data/emotionalHubs";
 import { dreams } from "@/data/dreams";
 import { getDreamBySlug, shorten } from "@/lib/dreams";
+import { emotionalDomains } from "@/lib/emotions/domain";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
@@ -70,11 +72,174 @@ function DreamLinkGrid({ slugs = [], fallbackFromEmotion }) {
   );
 }
 
+function TextListSection({ id, eyebrow, title, items = [] }) {
+  if (!items.length) return null;
+
+  return (
+    <section
+      id={id}
+      className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+    >
+      {eyebrow && (
+        <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+          {eyebrow}
+        </p>
+      )}
+
+      <h2 className="mb-5 font-serif text-2xl md:text-3xl">{title}</h2>
+
+      <div className="grid gap-3 md:grid-cols-2">
+        {items.map((item) => (
+          <div
+            key={item}
+            className="border border-[#EAE6E1] bg-white/70 px-4 py-3 text-sm leading-relaxed text-[#5F574E]"
+          >
+            {item}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function ParagraphSection({ id, eyebrow, title, paragraphs = [] }) {
+  if (!paragraphs.length) return null;
+
+  return (
+    <section id={id} className="mt-10 scroll-mt-28 space-y-5 text-[#4E463D]">
+      {eyebrow && (
+        <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+          {eyebrow}
+        </p>
+      )}
+
+      <h2 className="font-serif text-2xl md:text-3xl">{title}</h2>
+
+      {paragraphs.map((paragraph) => (
+        <p key={paragraph} className="leading-relaxed">
+          {paragraph}
+        </p>
+      ))}
+    </section>
+  );
+}
+
+function RelatedEmotionLinks({ slugs = [] }) {
+  const items = slugs
+    .map((relatedSlug) => ({
+      slug: relatedSlug,
+      emotion: emotionalHubs[relatedSlug],
+    }))
+    .filter((item) => item.emotion);
+
+  if (!items.length) return null;
+
+  return (
+    <section
+      id="related-emotional-states"
+      className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+    >
+      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+        Related emotional states
+      </p>
+
+      <h2 className="mb-5 font-serif text-2xl md:text-3xl">
+        Feelings Often Connected to This State
+      </h2>
+
+      <div className="grid gap-4 md:grid-cols-2">
+        {items.map(({ slug, emotion }) => (
+          <Link
+            key={slug}
+            href={`/emotions/${slug}`}
+            className="group block border-l border-[#D8C7A0] bg-white/75 px-5 py-4 transition hover:border-[#C6A96B] hover:bg-white"
+          >
+            <h3 className="font-serif text-xl transition group-hover:text-[#8F743C]">
+              {emotion.title}
+            </h3>
+
+            {emotion.intro && (
+              <p className="mt-2 text-sm leading-relaxed text-[#6B6B6B]">
+                {shorten(emotion.intro, 150)}
+              </p>
+            )}
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function EmotionalDiscovery({ emotion }) {
+  const domain = emotionalDomains[emotion.domain];
+  const domainHubs = (domain?.hubs || [])
+    .filter((hubSlug) => hubSlug !== normalizeSlug(emotion.title))
+    .map((hubSlug) => ({ slug: hubSlug, emotion: emotionalHubs[hubSlug] }))
+    .filter((item) => item.emotion)
+    .slice(0, 5);
+
+  if (!domain && domainHubs.length === 0) return null;
+
+  return (
+    <section
+      id="emotional-discovery"
+      className="mt-20 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+    >
+      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+        Emotional discovery
+      </p>
+
+      <h2 className="mb-4 font-serif text-2xl md:text-3xl">
+        Explore the Wider Emotional Cluster
+      </h2>
+
+      {domain?.description && (
+        <p className="mb-6 leading-relaxed text-[#6B6B6B]">
+          {domain.description}
+        </p>
+      )}
+
+      <div className="flex flex-wrap gap-3 text-sm">
+        {domainHubs.map(({ slug, emotion: relatedEmotion }) => (
+          <Link
+            key={slug}
+            href={`/emotions/${slug}`}
+            className="border border-[#EAE6E1] bg-white/70 px-4 py-2 capitalize text-[#5F574E] transition hover:border-[#C6A96B]"
+          >
+            {relatedEmotion.title}
+          </Link>
+        ))}
+
+        {emotion.domain && (
+          <Link
+            href={`/categories/${normalizeSlug(emotion.domain)}`}
+            className="border border-[#EAE6E1] bg-white/70 px-4 py-2 capitalize text-[#5F574E] transition hover:border-[#C6A96B]"
+          >
+            {emotion.domain} dreams
+          </Link>
+        )}
+      </div>
+    </section>
+  );
+}
+
 export default async function EmotionPage({ params }) {
   const slug = normalizeSlug((await params)?.slug);
   const emotion = getEmotion(slug);
 
   if (!emotion) notFound();
+
+  const emotionNavItems = [
+    { id: "emotion-overview", label: "Overview" },
+    { id: "subconscious-patterns", label: "Patterns" },
+    { id: "life-situations", label: "Life situations" },
+    { id: "emotional-themes", label: "Themes" },
+    { id: "connected-dreams", label: "Connected dreams" },
+    { id: "related-emotional-states", label: "Related feelings" },
+    { id: "emotional-pathways", label: "Pathways" },
+    { id: "emotional-discovery", label: "Discovery" },
+    { id: "emotion-faq", label: "FAQs" },
+  ];
 
   return (
     <main className="bg-[#FAF8F5] min-h-screen text-[#1A1A1A]">
@@ -94,12 +259,19 @@ export default async function EmotionPage({ params }) {
           {emotion.title} Dream Meaning & Interpretation
         </h1>
 
-        <p className="text-[#6B6B6B] text-lg leading-relaxed">
-          {emotion.intro}
-        </p>
+        <section
+          id="emotion-overview"
+          className="scroll-mt-28"
+        >
+          <p className="text-[#6B6B6B] text-lg leading-relaxed">
+            {emotion.intro}
+          </p>
+        </section>
+
+        <DreamPageClientNav items={emotionNavItems} />
 
         {/* Search intent */}
-        <section className="mt-8">
+        <section className="mt-8 scroll-mt-28">
   <p className="text-[#6B6B6B]">
     People often search for:
   </p>
@@ -122,7 +294,7 @@ export default async function EmotionPage({ params }) {
 </section>
 
         {/* Core answer */}
-        <section className="mt-10">
+        <section className="mt-10 scroll-mt-28">
           <h2 className="font-serif text-2xl md:text-3xl mb-4">
             What does {emotion.title.toLowerCase()} mean in dreams?
           </h2>
@@ -135,41 +307,39 @@ export default async function EmotionPage({ params }) {
         </section>
 
         {/* Deep content */}
-        {emotion.deepInterpretation?.length > 0 && (
-          <section className="mt-10 space-y-5 text-[#4E463D]">
-            {emotion.deepInterpretation.map((p) => (
-              <p key={p}>{p}</p>
-            ))}
-          </section>
-        )}
+        <ParagraphSection
+          id="deep-interpretation"
+          title={`The deeper emotional meaning of ${emotion.title.toLowerCase()} dreams`}
+          paragraphs={emotion.deepInterpretation}
+        />
 
-        {/* Emotional hub linking */}
-        {emotion.relatedHubs?.length > 0 && (
-          <section className="mt-10">
-            <p className="text-[#6B6B6B]">
-              This feeling often connects with{" "}
-              {emotion.relatedHubs.slice(0, 3).map((slug) => {
-                const e = emotionalHubs[slug];
-                if (!e) return null;
+        <ParagraphSection
+          id="how-it-connects"
+          eyebrow="Contextual connections"
+          title="Why different dreams can carry this same feeling"
+          paragraphs={emotion.connectionExplanation}
+        />
 
-                return (
-                  <Link
-                    key={slug}
-                    href={`/emotions/${slug}`}
-                    className="underline mx-1"
-                  >
-                    {e.title.toLowerCase()}
-                  </Link>
-                );
-              })}
-              .
-            </p>
-          </section>
-        )}
+        <TextListSection
+          id="subconscious-patterns"
+          eyebrow="Subconscious patterns"
+          title="Subconscious Patterns This Feeling Can Reveal"
+          items={emotion.subconsciousPatterns}
+        />
+
+        <TextListSection
+          id="life-situations"
+          eyebrow="Waking life"
+          title="Life Situations That May Intensify This Feeling"
+          items={emotion.lifeSituations}
+        />
 
         {/* Themes */}
         {emotion.emotionalThemes?.length > 0 && (
-          <section className="mt-16 border-t pt-10">
+          <section
+            id="emotional-themes"
+            className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+          >
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
               Emotional patterns connected to this feeling
             </h2>
@@ -185,21 +355,18 @@ export default async function EmotionPage({ params }) {
         )}
 
         {/* Pattern block */}
-        <section className="mt-16">
-          <h2 className="font-serif text-2xl md:text-3xl mb-4">
-            How this feeling may appear in dreams
-          </h2>
-
-          <ul className="list-disc space-y-3 pl-5 text-[#5F574E]">
-            <li>Recurring emotional tension</li>
-            <li>Situations you cannot control</li>
-            <li>Pressure or avoidance</li>
-            <li>Unresolved emotional experiences</li>
-          </ul>
-        </section>
+        <TextListSection
+          id="dream-manifestations"
+          eyebrow="Dream forms"
+          title="How This Feeling May Take Shape in Dreams"
+          items={emotion.manifestations}
+        />
 
         {/* Dream connections */}
-        <section className="mt-16 border-t pt-10">
+        <section
+          id="connected-dreams"
+          className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+        >
           <h2 className="font-serif text-3xl mb-5">
             Dreams connected to this feeling
           </h2>
@@ -210,14 +377,18 @@ export default async function EmotionPage({ params }) {
           />
         </section>
 
+        <RelatedEmotionLinks slugs={emotion.relatedHubs} />
+
         {/* Emotional pathways */}
         <EmotionPathways pathways={emotion.emotionalPathways} />
 
         {/* Journey */}
         <EmotionalJourney emotion={emotion} />
 
+        <EmotionalDiscovery emotion={emotion} />
+
         {/* Category bridge */}
-        <section className="mt-20 border-t pt-10">
+        <section className="mt-20 scroll-mt-28 border-t border-[#EAE6E1] pt-10">
           <h2 className="font-serif text-2xl md:text-3xl mb-4">
             Explore dreams by emotional category
           </h2>
@@ -236,7 +407,10 @@ export default async function EmotionPage({ params }) {
         </section>
 
         {/* FAQ */}
-        <section className="mt-20 border-t pt-10">
+        <section
+          id="emotion-faq"
+          className="mt-20 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+        >
           <h2 className="font-serif text-2xl md:text-3xl mb-6">
             Common questions about {emotion.title.toLowerCase()} dreams
           </h2>
