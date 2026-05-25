@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   trailingSlash: false,
+  reactStrictMode: true,
+  compress: true,
+  trailingSlash: false,
+
   async redirects() {
     return [
-      // 🌐 Force non-www → www
       {
         source: "/:path*",
         has: [
@@ -14,7 +16,6 @@ const nextConfig = {
         ],
         destination: "https://www.dreamscriptures.com/:path*",
         permanent: true,
-      
       },
 
       // 🔁 Legacy URL redirects
@@ -37,11 +38,6 @@ const nextConfig = {
       {
         source: "/modern-interpretation",
         destination: "/guides",
-        permanent: true,
-      },
-      {
-        source: "/faq",
-        destination: "/about",
         permanent: true,
       },
       {
@@ -73,6 +69,13 @@ const nextConfig = {
   destination: "/dreams/mirrors",
   permanent: true,
 },
+{
+  source: "/blog/what-are-dreams",
+ 
+ 
+  destination: "/guides/what-are-dreams",
+  permanent: true,
+},
       {
   source: "/blog/dream-rituals",
   destination: "/guides",
@@ -93,6 +96,7 @@ const nextConfig = {
   destination: "/guides/recurring-dreams",
   permanent: true,
 },
+
     ];
   },
 };

@@ -5,7 +5,9 @@ import Script from "next/script";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
 import DreamInsightSection from "@/components/DreamInsightSection";
+import DreamMethodologyCallout from "@/components/DreamMethodologyCallout";
 import DreamEmotionalConnections from "@/components/emotions/DreamEmotionalConnections";
+import DreamEmotionalPathways from "@/components/emotions/DreamEmotionalPathways";
 import RelatedDreams from "@/components/RelatedDreams";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
@@ -30,6 +32,7 @@ import {
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import ClusterPathway from "@/app/components/ClusterPathway";
 import { getClusterGuides } from "@/lib/clusterGuides";
+import { getDreamRobots } from "@/lib/seo";
 
 export function generateStaticParams() {
   return dreams.map((dream) => ({
@@ -76,6 +79,7 @@ export async function generateMetadata({ params } = {}) {
   return {
     title: dynamicTitle,
     description,
+    robots: getDreamRobots(dream),
     alternates: {
       canonical: `https://www.dreamscriptures.com/dreams/${canonicalSlug}`,
     },
@@ -278,6 +282,239 @@ function DreamEmotionalThemesSection({ dream }) {
           );
         })}
       </div>
+    </section>
+  );
+}
+
+function getTypeText(item = {}, primaryKey, fallbackKey) {
+  return item[primaryKey] || item[fallbackKey] || "";
+}
+
+function getTypeTitle(type = "") {
+  return String(type || "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
+function getTypePreviewSlug(item = {}) {
+  const explicitSlug = normalizeSlug(item?.slug || "");
+  const typeSlug = normalizeSlug(item?.type || item?.title || "");
+  const aliases = {
+    "snake-biting-you": "snake-bite",
+    "being-bitten-by-a-snake": "snake-bite",
+  };
+
+  return explicitSlug || aliases[typeSlug] || typeSlug;
+}
+
+function buildTypePreview(item = {}, standaloneDream) {
+  const type = String(item?.type || item?.title || standaloneDream?.title || "").trim();
+  const title = `${getTypeTitle(standaloneDream?.title || type)} Dream Meaning`;
+  const excerpt = shorten(
+    standaloneDream?.shortDescription ||
+      standaloneDream?.microSummary ||
+      item?.emotionalMeaning ||
+      item?.emotional ||
+      standaloneDream?.emotionalMeaning ||
+      standaloneDream?.description,
+    230
+  );
+  const summary = shorten(
+    standaloneDream?.summary ||
+      standaloneDream?.emotionalMeaning ||
+      item?.symbolicMeaning ||
+      item?.symbolic,
+    260
+  );
+
+  return {
+    ...item,
+    type,
+    title,
+    excerpt,
+    summary,
+    standaloneDream,
+    href: standaloneDream
+      ? `/dreams/${normalizeSlug(standaloneDream.slug || standaloneDream.title)}`
+      : "",
+  };
+}
+
+function DreamTypesSection({ dream }) {
+  const types = (dream.types || [])
+    .map((item) => {
+      const type = String(item?.type || item?.title || "").trim();
+      const previewSlug = getTypePreviewSlug(item);
+      const standaloneDream = getDreamBySlug(previewSlug, dreams);
+      const id = normalizeSlug(item?.slug || type);
+      const preview = buildTypePreview(item, standaloneDream);
+
+      return {
+        ...item,
+        id,
+        type,
+        preview,
+        summary: item?.summary || item?.shortDescription || "",
+        emotionalMeaning: getTypeText(item, "emotionalMeaning", "emotional"),
+        symbolicMeaning: getTypeText(item, "symbolicMeaning", "symbolic"),
+      };
+    })
+    .filter(
+      (item) =>
+        item.id &&
+        item.type &&
+        (item.preview?.standaloneDream ||
+          item.summary ||
+          item.emotionalMeaning ||
+          item.symbolicMeaning)
+    );
+
+  if (types.length === 0) {
+    return null;
+  }
+
+  const linkedTypes = types.filter((item) => item.preview?.standaloneDream);
+  const inlineTypes = types.filter((item) => !item.preview?.standaloneDream);
+  const linkedSectionTitle =
+    normalizeSlug(dream.slug || dream.title) === "snakes"
+      ? "Related Snake Dream Meanings"
+      : `Related ${dream.title.toLowerCase()} Dream Meanings`;
+
+  return (
+    <section
+      id="dream-types"
+      aria-labelledby="dream-types-heading"
+      className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+    >
+      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+        Dream variations
+      </p>
+
+      <h2 id="dream-types-heading" className="mb-5 font-serif text-3xl md:text-4xl">
+        Types of {dream.title.toLowerCase()} Dreams
+      </h2>
+
+      {linkedTypes.length > 0 && (
+        <div className="mb-12">
+          <h3 className="mb-3 font-serif text-2xl md:text-3xl">
+            {linkedSectionTitle}
+          </h3>
+
+          <p className="mb-6 max-w-2xl text-base leading-relaxed text-[#6B6B6B]">
+            These related interpretations stay separate because each one carries
+            its own emotional atmosphere and search intent. This hub offers a
+            preview, then points to the complete interpretation.
+          </p>
+
+          <div className="grid gap-4 md:grid-cols-2">
+            {linkedTypes.map((item) => (
+              <Link
+                key={item.id}
+                href={item.preview.href}
+                className="group block border-l border-[#D8C7A0] bg-white/75 px-5 py-4 transition hover:border-[#C6A96B] hover:bg-white"
+              >
+                <span className="text-[10px] uppercase tracking-[0.16em] text-[#8A8175]">
+                  Full interpretation
+                </span>
+
+                <h4 className="mt-2 font-serif text-xl leading-snug text-[#1A1A1A] transition group-hover:text-[#8F743C]">
+                  {item.preview.title}
+                </h4>
+
+                {item.preview.excerpt && (
+                  <p className="mt-3 text-sm leading-relaxed text-[#6B6B6B]">
+                    {item.preview.excerpt}
+                  </p>
+                )}
+
+                {item.preview.summary && (
+                  <p className="mt-3 border-t border-[#EAE6E1] pt-3 text-sm leading-relaxed text-[#4F4A43]">
+                    {item.preview.summary}
+                  </p>
+                )}
+
+                <span className="mt-4 inline-block text-sm text-[#8F743C] underline underline-offset-4">
+                  Read full interpretation
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {inlineTypes.length > 0 && (
+        <nav aria-label={`${dream.title} dream variations`} className="mb-10 flex flex-wrap gap-2">
+          {inlineTypes.map((item) => (
+          <a
+            key={item.id}
+            href={`#${item.id}`}
+            className="border border-[#EAE6E1] bg-white/70 px-3 py-2 text-sm text-[#5F574E] transition hover:border-[#C6A96B]"
+          >
+            {getTypeTitle(item.type)}
+          </a>
+          ))}
+        </nav>
+      )}
+
+      {inlineTypes.length > 0 && (
+        <div className="space-y-16">
+          {inlineTypes.map((item) => {
+          const heading = `${getTypeTitle(item.type)} Dream Meaning`;
+
+          return (
+            <section
+              key={item.id}
+              id={item.id}
+              aria-labelledby={`${item.id}-heading`}
+              className="scroll-mt-28 mt-16"
+            >
+              <h3
+                id={`${item.id}-heading`}
+                className="mb-4 font-serif text-2xl md:text-3xl"
+              >
+                {heading}
+              </h3>
+
+              {item.summary && (
+                <TextBlocks
+                  text={item.summary}
+                  className="mb-6"
+                  textClassName="text-[#3A3A3A] text-base md:text-lg leading-relaxed font-serif"
+                />
+              )}
+
+              {item.emotionalMeaning && (
+                <section
+                  aria-labelledby={`${item.id}-emotional-heading`}
+                  className="mb-6"
+                >
+                  <h4
+                    id={`${item.id}-emotional-heading`}
+                    className="mb-2 text-sm font-medium uppercase tracking-[0.14em] text-[#8A8175]"
+                  >
+                    Emotional meaning
+                  </h4>
+                  <TextBlocks text={item.emotionalMeaning} />
+                </section>
+              )}
+
+              {item.symbolicMeaning && (
+                <section aria-labelledby={`${item.id}-symbolic-heading`}>
+                  <h4
+                    id={`${item.id}-symbolic-heading`}
+                    className="mb-2 text-sm font-medium uppercase tracking-[0.14em] text-[#8A8175]"
+                  >
+                    Symbolic meaning
+                  </h4>
+                  <TextBlocks text={item.symbolicMeaning} />
+                </section>
+              )}
+            </section>
+          );
+          })}
+        </div>
+      )}
     </section>
   );
 }
@@ -522,6 +759,7 @@ function getDreamContext(dream) {
         </p>
 
         <div className="w-56 h-[1px] bg-[#C6A96B] mt-8 mb-10 opacity-60" />
+        <DreamMethodologyCallout />
     
    
       <section className="space-y-16">
@@ -535,6 +773,7 @@ function getDreamContext(dream) {
   ))}
 </section>
 <MultipleMeaningsSection dream={dream} dreamTitle={dreamTitle} />
+<DreamTypesSection dream={dream} />
 <DreamListSection
   id="subconscious-patterns"
   eyebrow="Subconscious patterns"
@@ -547,6 +786,7 @@ function getDreamContext(dream) {
   title="Life Situations Connected to This Dream"
   items={toTextItems(dream.lifeSituations)}
 />
+<DreamEmotionalPathways dream={dream} />
 <DreamEmotionalThemesSection dream={dream} />
 <DreamEmotionalConnections dream={dream} />
         {summaryText && (

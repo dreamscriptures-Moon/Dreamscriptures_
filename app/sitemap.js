@@ -2,6 +2,7 @@ import { dreams } from "@/data/dreams";
 import { emotionalHubs } from "@/data/emotionalHubs";
 import { getClusterGuides } from "@/lib/clusterGuides";
 import { normalizeSlug } from "@/lib/normalizeSlug";
+import { isDreamIndexable } from "@/lib/seo";
 
 export default function sitemap() {
   const baseUrl = "https://www.dreamscriptures.com";
@@ -37,9 +38,19 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/faq`,
+      lastModified: now,
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/about`,
       lastModified: now,
       priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/author`,
+      lastModified: now,
+      priority: 0.6,
     },
     {
       url: `${baseUrl}/contact`,
@@ -61,7 +72,9 @@ export default function sitemap() {
   /* -----------------------------
      🔥 Dream Pages
   ----------------------------- */
-  const dreamPages = dreams.map((dream) => ({
+  const indexedDreams = dreams.filter(isDreamIndexable);
+
+  const dreamPages = indexedDreams.map((dream) => ({
     url: `${baseUrl}/dreams/${normalizeSlug(
       dream.slug || dream.title
     )}`,
@@ -76,7 +89,7 @@ export default function sitemap() {
   ----------------------------- */
   const categories = [
     ...new Set(
-      dreams.flatMap((dream) => dream.categories || [])
+      indexedDreams.flatMap((dream) => dream.categories || [])
     ),
   ];
 

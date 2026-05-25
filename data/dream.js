@@ -90,6 +90,7 @@ If the dream repeats often, it may point toward unresolved emotional fear, mistr
 
   types: [
     {
+      slug: "being-chased-by-a-snake",
       type: "being chased by a snake",
 
       emotionalMeaning:
@@ -100,6 +101,7 @@ If the dream repeats often, it may point toward unresolved emotional fear, mistr
     },
 
     {
+      slug: "snake-bite",
       type: "snake biting you",
 
       emotionalMeaning:
@@ -107,6 +109,39 @@ If the dream repeats often, it may point toward unresolved emotional fear, mistr
 
       symbolicMeaning:
         "A snake bite often symbolizes emotional wounds, harsh truth, betrayal, emotional awakening, or painful transformation."
+    },
+
+    {
+      slug: "black-snake",
+      type: "black snake",
+
+      emotionalMeaning:
+        "Often reflects hidden fear, emotional uncertainty, mistrust, or something emotionally intense that feels difficult to fully understand.",
+
+      symbolicMeaning:
+        "A black snake commonly symbolizes unknown emotional tension, shadow material, hidden conflict, or transformation moving beneath conscious awareness."
+    },
+
+    {
+      slug: "cobra",
+      type: "cobra",
+
+      emotionalMeaning:
+        "May reflect intimidation, alertness, emotional danger, power dynamics, or a situation that feels charged and difficult to approach casually.",
+
+      symbolicMeaning:
+        "A cobra often symbolizes concentrated threat, guarded power, instinct, protection, and emotionally significant tension rising into view."
+    },
+
+    {
+      slug: "giant-snake",
+      type: "giant snake",
+
+      emotionalMeaning:
+        "Can reflect overwhelming pressure, fear, transformation, or an unresolved emotional issue that feels too large to ignore.",
+
+      symbolicMeaning:
+        "A giant snake commonly symbolizes magnified instinct, emotional force, hidden tension, or a powerful change taking up space in your inner life."
     },
 
     {
@@ -14282,210 +14317,588 @@ The dream mirrors your emotional relationship with progress, pressure, timing, c
 },
 {
   slug: "losing-your-language",
-  title: "Losing your language",
 
-  description: `Losing your language in a dream often reflects difficulty expressing yourself, feeling misunderstood, or emotionally disconnected from your own thoughts and identity. These dreams commonly appear during periods where communication feels strained, emotions feel difficult to explain, or you no longer feel fully understood by the people around you.
+  title: "Losing Your Language",
 
-There is usually a strong sense of frustration or helplessness in the dream. You may know what you want to say internally, but the words will not come out properly, disappear completely, or no longer make sense to others. Sometimes the language itself changes, becomes unfamiliar, or feels impossible to understand.
-
-The feeling matters. If the dream feels stressful or panicked, it may reflect anxiety, social pressure, fear of judgment, or emotional suppression. If it feels quieter or more confusing than frightening, it can point to disconnection, identity shifts, emotional distance, or difficulty understanding yourself clearly during a period of change.`,
+  microSummary:
+    "Dreams of losing your language often feel frustrating and disorienting — like you know exactly what you want to say, but can’t make it understood.",
 
   shortDescription:
-    "Trying to speak but losing the ability to communicate clearly. This dream often reflects emotional suppression, misunderstanding, identity shifts, or the feeling that your thoughts and emotions are no longer easy to express.",
+    "Trying to speak but the words don’t come out right, disappear, or aren’t understood. These dreams often carry frustration, disconnection, or the feeling that expression is breaking down.",
 
-  emotional: `There is often a strong feeling of frustration in this dream.
+  description: `
+  You know what you want to say.
 
-You may know exactly what you want to say internally while feeling unable to express it properly outwardly. That gap between thought and expression can feel emotionally intense.
+  That’s what makes it so frustrating.
 
-Sometimes the strongest emotion is helplessness. Wanting to be understood while realizing the connection is breaking down or disappearing completely.
+  The thought is clear.
 
-There can also be embarrassment or vulnerability. Especially if other people in the dream seem confused, impatient, or unable to understand you no matter how hard you try.
+  The feeling is there.
 
-In some cases, the feeling is quieter and more isolating. Less panic and more emotional distance, like you are disconnected not only from others, but partially from yourself too.
+  But when you try to speak — something breaks.
 
-If the dream repeats, it may reflect ongoing emotional suppression, communication struggles, identity confusion, or situations where you feel unseen, unheard, or emotionally misunderstood.`,
+  The words don’t come out.
 
-  symbolic: `Language in dreams often symbolizes communication, identity, self-expression, understanding, and emotional connection.
+  Or they come out wrong.
 
-Losing your language can symbolize difficulty expressing your emotions, thoughts, needs, or personal truth clearly in waking life.
+  Or no one understands you, no matter how hard you try.
 
-Sometimes the dream reflects emotional suppression. Feelings becoming trapped internally because they have not been fully acknowledged, expressed, or understood.
+  That gap builds quickly.
 
-It can also symbolize identity shifts. Language is deeply tied to how we understand ourselves and connect to the world around us. Losing it may reflect periods where your sense of self feels unstable, unfamiliar, or emotionally disconnected.
+  Inside, everything makes sense.
 
-If others cannot understand you, the dream may reflect fear of rejection, social anxiety, emotional isolation, or feeling disconnected from the people around you.
+  Outside, nothing lands.
 
-In some cases, the dream reflects transition itself. Outgrowing old ways of expressing yourself while not fully understanding the new emotional language you are developing internally.`,
+  In some dreams, the language changes.
 
-  spiritual: `Spiritually, this dream can reflect disconnection, inner transition, or difficulty aligning your inner world with your outward expression.
+  It becomes unfamiliar, unreadable, impossible to follow.
 
-There are periods where emotions, identity, and understanding shift faster internally than they can be clearly explained externally. Losing language in a dream can symbolize being inside that uncertain emotional space.
+  In others, your voice disappears completely.
 
-For some people, the dream reflects silence rather than failure. A period where deeper emotions or realizations are still forming beneath the surface and cannot yet be fully expressed in words.
+  You’re speaking — but nothing is heard.
 
-It can also reflect the limits of communication itself. Not everything meaningful can always be explained clearly, especially during periods of emotional transformation or personal growth.
+  That’s where the tension sits.
 
-The emotional tone matters most. Panic may reflect fear of losing connection or control, while calmer confusion may point toward introspection, emotional transition, or rebuilding a more honest relationship with yourself.`,
+  Not in silence.
 
-  wakingLife: `This dream often appears during periods where communication feels emotionally difficult, strained, or unsatisfying.
+  But in failed connection.
 
-You may feel misunderstood, emotionally unheard, unable to fully express yourself, or frustrated that your thoughts are not translating clearly into words.
+  The dream isn’t about not knowing.
 
-Sometimes the dream reflects social anxiety, pressure around speaking up, fear of judgment, or situations where you feel your voice carries less weight than it should.
+  It’s about not being able to translate what you already do.
+  `,
 
-It can also appear during identity changes. Moments where you are emotionally evolving faster than you fully understand, making it harder to explain yourself clearly to others.
+  emotionalMeaning: `
+  Emotionally, these dreams often carry frustration, helplessness, and disconnection.
 
-In some cases, the dream reflects emotional exhaustion. Feeling too mentally overwhelmed, disconnected, or emotionally drained to properly communicate what is happening inside you.
+  There can be frustration. Knowing what you want to express but not being able to deliver it.
 
-The dream mirrors the tension between what you feel internally and what you are currently able to express outwardly.`,
+  Sometimes there’s helplessness. Trying repeatedly without being understood.
 
-  summary:
-    "Losing your language in a dream often reflects difficulty expressing emotions, feeling misunderstood, or experiencing disconnection from yourself or others. It commonly appears during periods of emotional suppression, identity change, social pressure, or communication struggles, highlighting the gap between what you feel internally and what you are able to express outwardly.",
-  relatedDreams: [
+  There may also be vulnerability. Feeling exposed when communication breaks down.
+
+  In some cases, there’s embarrassment. Especially when others react with confusion.
+
+  Other times, the feeling is quieter. A sense of distance from yourself or others.
+
+  The emotion comes from the gap between internal clarity and external expression.
+  `,
+
+  symbolicMeaning: `
+  Language represents expression.
+
+  The ability to translate thoughts and emotions outward.
+
+  When it breaks, that translation fails.
+
+  This often reflects disconnection.
+
+  Not from what you feel — but from how you communicate it.
+
+  It can point to suppression.
+
+  Holding things internally without release.
+
+  It can also reflect identity shifts.
+
+  When how you understand yourself changes faster than you can explain it.
+
+  The symbol isn’t about silence.
+
+  It’s about blocked expression.
+
+  Knowing — but not being heard.
+  `,
+
+  spiritualMeaning: `
+  There is a pause in expression here.
+
+  Not everything inside you is ready to be spoken yet.
+
+  For some, this feels frustrating.
+
+  For others, it feels like transition.
+
+  Something forming that doesn’t yet have language.
+
+  The dream doesn’t take your voice away.
+
+  It shows the space where words haven’t caught up yet.
+
+  And leaves you inside that gap.
+  `,
+
+  wakingLifeMeaning: `
+  These dreams often appear when communication feels strained.
+
+  You may feel misunderstood.
+
+  Or unable to express what you’re really thinking or feeling.
+
+  Sometimes it reflects social pressure.
+
+  Fear of saying the wrong thing or not being heard properly.
+
+  Other times, it reflects internal change.
+
+  When your thoughts or identity are shifting, but you don’t yet have the words for it.
+
+  It can also appear during emotional buildup.
+
+  When too much is held inside without clear expression.
+
+  The dream mirrors that state.
+
+  Clear inside — unclear outside.
+  `,
+
+  contradictions: [
+    "In some cases, losing language reflects frustration and communication breakdown.",
+    "In other cases, it reflects transition, where new understanding hasn’t formed into words yet.",
+    "Sometimes the dream highlights feeling unheard or misunderstood.",
+    "Other times, it reflects internal change that hasn’t fully taken shape."
+  ],
+
+  types: [
     {
-      slug: "talking-to-yourself",
-      reason:
-        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+      type: "trying to speak but nothing comes out",
+
+      emotionalMeaning:
+      "Feels frustrating or helpless.",
+
+      symbolicMeaning:
+      "Represents blocked expression."
     },
+
     {
-      slug: "aging-suddenly",
-      reason:
-        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+      type: "speaking but others don’t understand",
+
+      emotionalMeaning:
+      "Feels isolating or confusing.",
+
+      symbolicMeaning:
+      "Represents disconnection in communication."
     },
+
     {
-      slug: "seeing-your-younger-self",
-      reason:
-        "These dreams connect through vulnerability around self-image, recognition, or personal change."
+      type: "language changing or becoming unfamiliar",
+
+      emotionalMeaning:
+      "Feels disorienting.",
+
+      symbolicMeaning:
+      "Represents identity or cognitive shift."
     },
+
     {
-      slug: "being-naked-in-public",
-      reason:
-        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
+      type: "forgetting words mid-sentence",
+
+      emotionalMeaning:
+      "Feels stressful or embarrassing.",
+
+      symbolicMeaning:
+      "Represents instability in expression."
     },
+
     {
-      slug: "watching-yourself-like-a-movie",
-      reason:
-        "These dreams often point to reflection, exposure, and the emotional truth of how you see yourself."
-    },
-    {
-      slug: "mirrors",
-      reason:
-        "Both dreams can appear when your sense of self is shifting or asking to be understood more honestly."
+      type: "being unable to understand others",
+
+      emotionalMeaning:
+      "Feels disconnected or distant.",
+
+      symbolicMeaning:
+      "Represents breakdown in mutual understanding."
     }
   ],
 
+  emotionalStates: [
+    "frustration",
+    "helplessness",
+    "confusion",
+    "vulnerability",
+    "disconnection",
+    "anxiety"
+  ],
+
+  subconsciousPatterns: [
+    "difficulty expressing emotions",
+    "fear of being misunderstood",
+    "emotional suppression",
+    "identity transition",
+    "internal clarity without external expression"
+  ],
+
+  emotionalTriggers: [
+    "communication issues",
+    "feeling unheard",
+    "social pressure",
+    "emotional buildup",
+    "identity changes"
+  ],
+
+  lifeSituations: [
+    "relationship conflict",
+    "public speaking anxiety",
+    "identity shifts",
+    "emotional overwhelm",
+    "miscommunication"
+  ],
+
+  dreamSymbols: [
+    "speech",
+    "voice",
+    "language",
+    "silence",
+    "misunderstanding"
+  ],
+
+  summary:
+    "Dreams of losing your language reflect a breakdown between internal understanding and external expression. They often appear during periods of miscommunication, emotional suppression, or identity change, highlighting the gap between what you feel and what you’re able to say.",
+
+  relatedDreams: [
+    {
+      slug: "being-naked-in-public",
+
+      relationshipType: "exposure",
+
+      emotionalOverlap: [
+        "vulnerability",
+        "anxiety"
+      ],
+
+      reason:
+      "Both involve exposure, but one reflects visible vulnerability while the other reflects expressive vulnerability."
+    },
+
+    {
+      slug: "talking-to-yourself",
+
+      relationshipType: "internal-dialogue",
+
+      emotionalOverlap: [
+        "reflection",
+        "confusion"
+      ],
+
+      reason:
+      "Both relate to communication, but one stays internal while the other fails externally."
+    },
+
+    {
+      slug: "mirrors",
+
+      relationshipType: "self-perception",
+
+      emotionalOverlap: [
+        "identity",
+        "awareness"
+      ],
+
+      reason:
+      "Both reflect self-understanding, but one focuses on expression while the other focuses on perception."
+    }
+  ],
 
   categories: [
-    "Identity",
-    "Hidden Emotions",
-    "Anxiety",
-    "Transformation",
-    "Spiritual"
+    "anxiety",
+    "identity",
+    "hidden-emotions",
+    "transformation",
+    "spiritual"
   ]
 },
 {
   slug: "missing-a-flight",
-  title: "Missing a flight",
 
-  description: `Missing a flight in a dream often reflects pressure around timing, fear of missed opportunities, or the feeling that something important is moving forward without you. These dreams commonly appear during periods where you feel behind, uncertain, emotionally pressured, or worried that you are not moving fast enough toward something meaningful in your life.
+  title: "Missing a Flight",
 
-There is usually a strong sense of almost in this dream. Reaching the airport too late, watching the gate close, or seeing the plane leave without you can create frustration, disappointment, regret, or emotional urgency. It often reflects situations where timing feels important and you fear you may have missed your moment.
-
-The feeling matters. If the dream feels stressful or panicked, it may reflect anxiety, pressure, fear of failure, or self-doubt about your decisions and timing. If the feeling is quieter or more reflective, it can point toward acceptance, emotional processing, or slowly realizing that not every missed opportunity is necessarily meant to become part of your path.`,
+  microSummary:
+    "Dreams of missing a flight often feel urgent and frustrating — like something important has already moved on without you.",
 
   shortDescription:
-    "Watching something important leave without you after arriving too late. Missing a flight in a dream often reflects pressure around timing, fear of missed opportunities, regret, or anxiety about falling behind in life.",
+    "Watching a plane leave after arriving too late. These dreams often carry urgency, pressure, regret, or the feeling that timing didn’t work in your favor.",
 
-  emotional: `Dreams about missing a flight often carry a strong sense of frustration and emotional urgency.
+  description: `
+  You were close.
 
-There is usually the feeling of almost making it. Like you were close enough to see the opportunity, but something still prevented you from reaching it in time.
+  That’s what makes it stay with you.
 
-Sometimes the strongest emotion is regret. Replaying what could have been done differently, wishing you had moved faster, prepared more, or acted sooner.
+  You made it to the airport. The gate. The moment.
 
-Other times, the feeling is heavier and quieter. Less panic and more realization — understanding that something has already passed and cannot be immediately undone.
+  But not in time.
 
-There can also be pressure here. Not only pressure to succeed, but pressure to not fall behind while everything around you seems to keep moving forward.
+  The door closes.
 
-If the dream repeats, it may reflect deeper anxiety surrounding missed chances, life direction, self-worth, or fear that you are not becoming the version of yourself you hoped you would be by now.`,
+  The plane pulls away.
 
-  symbolic: `Flights in dreams often symbolize movement, transition, opportunity, direction, and major life change.
+  And you’re still there.
 
-Because planes travel quickly from one place to another, they usually represent momentum — situations moving forward, life progressing, or opportunities requiring timing and readiness.
+  Watching it happen.
 
-Missing the flight can symbolize perceived missed opportunities, hesitation, delay, self-doubt, or feeling emotionally out of sync with where you want your life to be heading.
+  That’s where the feeling lands.
 
-Sometimes the dream reflects fear more than reality itself. Fear of being left behind, missing your chance, or not progressing as quickly as you believe you should.
+  Not just missing it.
 
-It can also symbolize disconnection between preparation and action. Wanting something deeply but struggling with timing, confidence, or circumstances aligning properly.
+  But seeing it leave.
 
-At times, the dream represents redirection rather than failure. Certain paths may not unfold the way you expected, even when they initially seemed important or necessary.`,
+  In some dreams, you’re running.
 
-  spiritual: `Spiritually, this dream often reflects tension surrounding timing, control, and trust.
+  Rushing through crowds, checking the time, trying to fix it.
 
-There are moments in life where things do not unfold when you planned them to, even after effort, preparation, or emotional investment. Missing the flight in a dream can symbolize the discomfort of realizing you cannot force every outcome or timeline.
+  In others, you arrive just as it’s already over.
 
-For some people, the dream reflects fear of being "too late" in life emotionally, spiritually, personally, or professionally.
+  No chance to change it.
 
-Others may experience it more as redirection. Something appearing lost on the surface while another path quietly begins forming underneath it.
+  Just realization.
 
-The dream can also reflect learning patience with yourself. Understanding that timing is not always fully controlled by pressure, comparison, or urgency.
+  The movement is gone.
 
-The emotional tone matters most. Panic may reflect fear of failure or loss, while calmer emotions may suggest reflection, acceptance, or trust that your path is still unfolding even if it looks different than expected.`,
+  And you’re left behind.
 
-  wakingLife: `This dream often appears during periods where you feel pressured by timing, opportunity, expectations, or life direction.
+  The dream doesn’t ask what the flight was.
 
-You may be thinking about decisions you delayed, chances you feel you missed, goals that are taking longer than expected, or situations where you worry others are moving ahead faster than you are.
+  It focuses on the moment you didn’t make it.
+  `,
 
-Sometimes the dream reflects comparison. Watching other people succeed, move forward, or reach milestones while questioning your own pace internally.
+  emotionalMeaning: `
+  Emotionally, these dreams often carry urgency, frustration, and regret.
 
-It can also appear when you are under pressure to make important choices quickly without fully feeling ready emotionally.
+  There can be urgency. The sense that time was working against you.
 
-In some cases, the dream reflects fear rather than reality. Anxiety about missing opportunities even when meaningful possibilities are still available to you.
+  Sometimes there’s frustration. Knowing you were close, but not close enough.
 
-At its core, this dream often highlights your relationship with timing, self-pressure, regret, ambition, and the fear of falling behind.`,
+  There may also be regret. Replaying what could have been done differently.
 
-  summary:
-    "Missing a flight in a dream often reflects anxiety about timing, missed opportunities, pressure, or fear of falling behind while life keeps moving forward. It commonly appears during periods of uncertainty, comparison, or emotional urgency, highlighting both regret and the deeper question of whether every missed path was truly meant for you.",
-  relatedDreams: [
+  In some cases, there’s pressure. Feeling like you should have acted sooner.
+
+  Other times, the emotion is quieter. A realization that something has already passed.
+
+  The feeling comes from seeing the moment leave, not just missing it.
+  `,
+
+  symbolicMeaning: `
+  A flight represents movement.
+
+  Fast, directional, and time-sensitive.
+
+  It’s not just opportunity — it’s timing.
+
+  Missing it means the timing didn’t align.
+
+  This often reflects moments where something felt important, but out of reach.
+
+  Not because it didn’t exist.
+
+  But because you weren’t there at the right moment.
+
+  It can point to hesitation.
+
+  Delay.
+
+  Or pressure around readiness.
+
+  The symbol isn’t just about loss.
+
+  It’s about watching something move forward without you.
+  `,
+
+  spiritualMeaning: `
+  There is a confrontation with timing here.
+
+  Not everything waits.
+
+  Not everything can be caught once it starts moving.
+
+  For some, this feels like loss.
+
+  For others, it feels like redirection.
+
+  The dream doesn’t stop the departure.
+
+  It shows you the moment you couldn’t change.
+
+  And leaves you with what that means.
+  `,
+
+  wakingLifeMeaning: `
+  These dreams often appear when timing feels important.
+
+  You may feel behind.
+
+  Or pressured to act quickly.
+
+  Sometimes it reflects comparison.
+
+  Watching others move forward while questioning your own pace.
+
+  Other times, it reflects hesitation.
+
+  Wanting something, but not moving toward it in time.
+
+  It can also appear during transitions.
+
+  When decisions feel urgent, but clarity isn’t fully there.
+
+  The dream mirrors that tension.
+
+  Between readiness and movement.
+  `,
+
+  contradictions: [
+    "In some cases, missing a flight reflects regret and pressure around timing.",
+    "In other cases, it reflects acceptance that something has already passed.",
+    "Sometimes the dream highlights fear of falling behind.",
+    "Other times, it reflects redirection away from something that wasn’t aligned."
+  ],
+
+  types: [
     {
-      slug: "being-late",
-      reason:
-        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+      type: "running to catch the flight but failing",
+
+      emotionalMeaning:
+      "Feels urgent and stressful.",
+
+      symbolicMeaning:
+      "Represents pressure and last-minute effort."
     },
+
     {
-      slug: "hearing-a-clock-ticking",
-      reason:
-        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+      type: "arriving just as the plane leaves",
+
+      emotionalMeaning:
+      "Feels frustrating or disappointing.",
+
+      symbolicMeaning:
+      "Represents being slightly out of sync with timing."
     },
+
     {
-      slug: "being-unprepared",
-      reason:
-        "These dreams share the anxiety of trying to keep up with something that feels important."
+      type: "missing the flight without rushing",
+
+      emotionalMeaning:
+      "Feels quiet or reflective.",
+
+      symbolicMeaning:
+      "Represents acceptance or delayed realization."
     },
+
     {
-      slug: "arriving-just-in-time",
-      reason:
-        "These dreams connect through self-evaluation, urgency, and the worry that an important moment may be missed."
+      type: "watching the plane take off",
+
+      emotionalMeaning:
+      "Feels distant or final.",
+
+      symbolicMeaning:
+      "Represents awareness of missed movement."
     },
+
     {
-      slug: "going-back-to-school",
-      reason:
-        "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
-    },
-    {
-      slug: "missing-an-opportunity",
-      reason:
-        "Both dreams can appear when responsibility, standards, or deadlines feel emotionally heavy."
+      type: "being unable to reach the gate",
+
+      emotionalMeaning:
+      "Feels blocked or pressured.",
+
+      symbolicMeaning:
+      "Represents obstacles preventing action."
     }
   ],
 
+  emotionalStates: [
+    "urgency",
+    "frustration",
+    "regret",
+    "pressure",
+    "disappointment",
+    "anxiety"
+  ],
+
+  subconsciousPatterns: [
+    "fear of missing out",
+    "pressure around timing",
+    "hesitation during important moments",
+    "comparison with others",
+    "feeling behind in life"
+  ],
+
+  emotionalTriggers: [
+    "missed opportunities",
+    "time pressure",
+    "uncertain decisions",
+    "comparison",
+    "delayed action"
+  ],
+
+  lifeSituations: [
+    "career timing",
+    "relationship timing",
+    "major decisions",
+    "life transitions",
+    "goal progression"
+  ],
+
+  dreamSymbols: [
+    "airport",
+    "departure gate",
+    "plane taking off",
+    "running late",
+    "closed doors"
+  ],
+
+  summary:
+    "Dreams of missing a flight reflect urgency, timing pressure, and the emotional impact of watching something move forward without you. They often appear during periods of uncertainty, hesitation, or comparison, highlighting the tension between readiness and opportunity.",
+
+  relatedDreams: [
+    {
+      slug: "missing-an-opportunity",
+
+      relationshipType: "timing",
+
+      emotionalOverlap: [
+        "regret",
+        "pressure",
+        "uncertainty"
+      ],
+
+      reason:
+      "Both reflect missed moments, but one is broader while the other is tied to exact timing."
+    },
+
+    {
+      slug: "being-late",
+
+      relationshipType: "time-pressure",
+
+      emotionalOverlap: [
+        "stress",
+        "urgency",
+        "anxiety"
+      ],
+
+      reason:
+      "Both involve timing pressure, but one focuses on delay while the other focuses on final loss of the moment."
+    },
+
+    {
+      slug: "arriving-just-in-time",
+
+      relationshipType: "timing-contrast",
+
+      emotionalOverlap: [
+        "urgency",
+        "relief"
+      ],
+
+      reason:
+      "Both revolve around timing, but one reflects missing it while the other reflects narrowly making it."
+    }
+  ],
 
   categories: [
-    "Fear",
-    "Anxiety",
-    "Work",
-    "Money",
-    "Spiritual"
+    "anxiety",
+    "fear",
+    "life-transitions",
+    "identity",
+    "emotional-growth"
   ]
 },
 {
