@@ -1,6 +1,7 @@
 import { dreams } from "@/data/dreams";
 import { emotionalHubs } from "@/data/emotionalHubs";
 import { getClusterGuides } from "@/lib/clusterGuides";
+import { getAuthorityPriority } from "@/lib/emotions/authority";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import { isDreamIndexable } from "@/lib/seo";
 
@@ -48,7 +49,7 @@ export default function sitemap() {
       priority: 0.5,
     },
     {
-      url: `${baseUrl}/author`,
+      url: `${baseUrl}/methodology`,
       lastModified: now,
       priority: 0.6,
     },
@@ -81,7 +82,7 @@ export default function sitemap() {
     lastModified: dream.updatedAt
       ? new Date(dream.updatedAt)
       : now,
-    priority: 0.7,
+    priority: getAuthorityPriority(dream),
   }));
 
   /* -----------------------------

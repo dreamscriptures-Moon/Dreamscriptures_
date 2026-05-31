@@ -7,6 +7,7 @@ import DreamPageClientNav from "@/app/dreams/[slug]/DreamPageClientNav";
 import { emotionalHubs } from "@/data/emotionalHubs";
 import { dreams } from "@/data/dreams";
 import { getDreamBySlug, shorten } from "@/lib/dreams";
+import { getAuthorityProfilesForEmotion } from "@/lib/emotions/authority";
 import { emotionalDomains } from "@/lib/emotions/domain";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import SiteFooter from "@/app/components/SiteFooter";
@@ -223,6 +224,61 @@ function EmotionalDiscovery({ emotion }) {
   );
 }
 
+function EmotionAuthorityRoutes({ emotionSlug }) {
+  const profiles = getAuthorityProfilesForEmotion(emotionSlug).slice(0, 6);
+
+  if (profiles.length === 0) {
+    return null;
+  }
+
+  return (
+    <section
+      id="authority-routes"
+      className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+    >
+      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+        Authority routes
+      </p>
+
+      <h2 className="mb-5 font-serif text-2xl md:text-3xl">
+        Dream Hubs That Carry This Emotional Pattern
+      </h2>
+
+      <div className="grid gap-4 md:grid-cols-2">
+        {profiles.map((profile) => (
+          <Link
+            key={profile.canonicalSlug}
+            href={`/dreams/${profile.canonicalSlug}#emotional-authority-map`}
+            className="group block border-l border-[#D8C7A0] bg-white/75 px-5 py-4 transition hover:border-[#C6A96B] hover:bg-white"
+          >
+            <span className="text-[10px] uppercase tracking-[0.16em] text-[#8A8175]">
+              Semantic hub
+            </span>
+
+            <h3 className="mt-2 font-serif text-xl transition group-hover:text-[#8F743C]">
+              {profile.title}
+            </h3>
+
+            <div className="mt-3 flex flex-wrap gap-2">
+              {profile.clusters
+                .flatMap((cluster) => cluster.searchIntents || [])
+                .slice(0, 3)
+                .map((intent) => (
+                  <span
+                    key={intent}
+                    className="border border-[#EAE6E1] bg-white/70 px-2 py-1 text-xs text-[#6B6B6B]"
+                  >
+                    {intent}
+                  </span>
+                ))}
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export default async function EmotionPage({ params }) {
   const slug = normalizeSlug((await params)?.slug);
   const emotion = getEmotion(slug);
@@ -238,6 +294,7 @@ export default async function EmotionPage({ params }) {
     { id: "related-emotional-states", label: "Related feelings" },
     { id: "emotional-pathways", label: "Pathways" },
     { id: "emotional-discovery", label: "Discovery" },
+    { id: "authority-routes", label: "Authority routes" },
     { id: "emotion-faq", label: "FAQs" },
   ];
 
@@ -269,42 +326,6 @@ export default async function EmotionPage({ params }) {
         </section>
 
         <DreamPageClientNav items={emotionNavItems} />
-
-        {/* Search intent */}
-        <section className="mt-8 scroll-mt-28">
-  <p className="text-[#6B6B6B]">
-    People often search for:
-  </p>
-
-  <div className="flex flex-wrap gap-2 mt-3 text-sm">
-
-    <span className="border px-3 py-1">
-      {emotion.title.toLowerCase()} dream meaning
-    </span>
-
-    <span className="border px-3 py-1">
-      why do I feel {emotion.title.toLowerCase()} in dreams
-    </span>
-
-    <span className="border px-3 py-1">
-      {emotion.title.toLowerCase()} dreams interpretation
-    </span>
-
-  </div>
-</section>
-
-        {/* Core answer */}
-        <section className="mt-10 scroll-mt-28">
-          <h2 className="font-serif text-2xl md:text-3xl mb-4">
-            What does {emotion.title.toLowerCase()} mean in dreams?
-          </h2>
-
-          <p className="text-[#5F574E] leading-relaxed">
-            Dreams connected to {emotion.title.toLowerCase()} often reflect
-            emotional patterns, internal tension, or experiences unfolding
-            beneath the surface of waking life.
-          </p>
-        </section>
 
         {/* Deep content */}
         <ParagraphSection
@@ -386,6 +407,7 @@ export default async function EmotionPage({ params }) {
         <EmotionalJourney emotion={emotion} />
 
         <EmotionalDiscovery emotion={emotion} />
+        <EmotionAuthorityRoutes emotionSlug={slug} />
 
         {/* Category bridge */}
         <section className="mt-20 scroll-mt-28 border-t border-[#EAE6E1] pt-10">

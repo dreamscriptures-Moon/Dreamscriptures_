@@ -6,12 +6,12 @@ import { normalizeSlug } from "@/lib/normalizeSlug";
 const relationshipGroups = [
   {
     key: "fear",
-    title: "Dreams Connected Through Fear",
+    title: "Dreams Where Fear Feels Close",
     matches: ["fear", "threat", "panic", "survival", "danger", "attack"],
   },
   {
     key: "vulnerability",
-    title: "Dreams Connected Through Vulnerability",
+    title: "Dreams That Carry Vulnerability",
     matches: [
       "vulnerability",
       "exposure",
@@ -24,7 +24,7 @@ const relationshipGroups = [
   },
   {
     key: "transformation",
-    title: "Dreams Connected Through Transformation",
+    title: "Dreams Where Something Is Changing",
     matches: [
       "transformation",
       "transition",
@@ -37,7 +37,7 @@ const relationshipGroups = [
   },
   {
     key: "overwhelm",
-    title: "Dreams Connected Through Emotional Overwhelm",
+    title: "Dreams Where Everything Feels Like Too Much",
     matches: [
       "overwhelm",
       "pressure",
@@ -62,7 +62,7 @@ function getRelationshipGroup(type = "") {
       group.matches.some((match) => normalizedType.includes(match))
     ) || {
       key: "other",
-      title: "Dreams Connected Through Similar Emotional Patterns",
+      title: "Dreams With a Similar Emotional Shape",
     }
   );
 }
@@ -104,16 +104,15 @@ export default function RelatedDreams({ slugs = [] }) {
       className="mt-16 border-t border-[#EAE6E1] pt-10 scroll-mt-28"
     >
       <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
-        Emotional pathways
+        Similar emotional experiences
       </p>
       <h2 className="mb-4 font-serif text-3xl md:text-4xl">
-        Related Dream Clusters
+        Emotionally Related Dreams
       </h2>
 
       <p className="mb-8 max-w-2xl text-base leading-relaxed text-[#6B6B6B]">
-        These dreams are connected by emotional structure, not by a single fixed
-        meaning. The relationship notes show why each dream belongs near this
-        one.
+        These dreams stay near each other because they share emotional shape,
+        inner pressure, or a similar movement beneath the symbol.
       </p>
 
       <div className="space-y-10">

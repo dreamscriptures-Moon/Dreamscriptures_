@@ -11,9 +11,9 @@ export const dreams = [
     "A powerful emotional presence that can feel tense, mysterious, threatening, fascinating, or deeply transformative depending on the behavior of the snake and the emotional atmosphere surrounding it.",
 
   description:
-    `Seeing a snake in a dream can feel tense, mysterious, fascinating, emotionally intense, frightening, or strangely powerful depending on the behavior of the snake and the emotional atmosphere surrounding it. Sometimes the snake appears suddenly, creating immediate fear, shock, or emotional danger. Other times, it moves quietly in the background, creating the feeling that something emotionally unresolved, emotionally hidden, or emotionally important exists beneath the surface of your life.
+    `Seeing a snake in a dream can feel tense, mysterious, fascinating, emotionally intense, frightening, or strangely powerful depending on the behavior of the snake and the emotional atmosphere surrounding it. Sometimes the snake appears suddenly, creating immediate fear, shock, or emotional danger. Other times, it moves quietly in the background, creating the feeling that something unresolved, hidden, or psychologically significant exists beneath the surface of your life.
 
-Snake dreams commonly appear during periods involving emotional tension, mistrust, fear, anxiety, emotional transformation, healing, hidden conflict, vulnerability, relationship stress, emotional awakening, or situations where instinct tells you something no longer feels emotionally safe, emotionally clear, or emotionally trustworthy.
+Snake dreams commonly appear during periods involving emotional tension, mistrust, fear, anxiety, emotional transformation, healing, hidden conflict, vulnerability, relationship stress, emotional awakening, or situations where instinct quietly signals that something no longer feels safe, stable, or fully trustworthy beneath the surface.
 
 The emotional tone matters most. Fearful snake dreams may reflect anxiety, emotional caution, hidden threats, emotional pressure, betrayal, or situations that feel emotionally dangerous or emotionally unpredictable. Calm or emotionally neutral snake dreams may symbolize healing, intuition, wisdom, emotional awareness, transformation, personal growth, or emotionally important truths slowly rising into awareness.
 
@@ -79,7 +79,7 @@ The dream can also appear during periods of emotional growth and healing. Emotio
 
 In some cases, the dream reflects emotional overwhelm. Feeling emotionally surrounded by stress, conflict, emotional pressure, or emotionally unpredictable situations that create ongoing emotional tension beneath the surface.
 
-If the dream repeats often, it may point toward unresolved emotional fear, mistrust, emotional awakening, healing, suppressed emotions, or emotionally significant transformation continuing to unfold internally.`,
+If the dream repeats often, it may point toward unresolved emotional fear, mistrust, emotional awakening, healing, suppressed emotions, or deep internal transformation continuing to unfold internally.`,
 
   contradictions: [
     "In some cases, snake dreams reflect fear, emotional danger, betrayal, mistrust, or emotional tension.",
@@ -87,7 +87,55 @@ If the dream repeats often, it may point toward unresolved emotional fear, mistr
     "Not every snake dream reflects deception or danger. Some symbolize wisdom, emotional rebirth, emotional truth, or powerful internal transformation.",
     "How you feel during the dream matters more than the snake alone."
   ],
+behavioralInsights: [
+  {
+    title:
+      "Why snake dreams feel emotionally threatening",
 
+    content:
+      "Snake dreams often feel threatening because snakes trigger instinctive alertness inside the subconscious. Unlike visible danger, snake fear usually feels quiet, unpredictable, and difficult to fully understand at first. The tension often comes from sensing that something beneath the surface no longer feels completely safe, stable, or trustworthy even before the mind fully understands why."
+  },
+
+  {
+    title:
+      "Why snake dreams repeat emotionally",
+
+    content:
+      "Recurring snake dreams commonly appear when fear, mistrust, emotional tension, or unresolved internal conflict continues remaining active beneath the surface of waking life. The dream may return repeatedly because the emotional situation itself still feels psychologically unfinished or internally unsettled."
+  },
+
+  {
+    title:
+      "Why betrayal themes appear in snake dreams",
+
+    content:
+      "Snake dreams frequently connect to betrayal because snakes often symbolize hidden movement, unpredictability, emotional caution, or situations where trust feels unstable. The subconscious may use snake imagery during periods where instinct quietly questions someone's intentions, honesty, or emotional safety."
+  },
+
+  {
+    title:
+      "Fear versus transformation in snake dreams",
+
+    content:
+      "One reason snake dreams feel emotionally complex is because snakes often symbolize both fear and transformation simultaneously. While some snake dreams reflect danger, mistrust, or emotional tension, others reflect healing, awakening, emotional shedding, or personal growth unfolding through uncomfortable change."
+  },
+
+  {
+    title:
+      "Why snake dreams appear during emotional change",
+
+    content:
+      "Snake dreams commonly appear during emotionally transformative periods because snakes naturally symbolize shedding older layers. The dream may emerge when identity, relationships, emotional patterns, or internal beliefs are beginning to change in ways that feel uncomfortable, unfamiliar, or psychologically intense."
+  },
+
+  {
+    title:
+      "Why hidden tension appears through snakes",
+
+    content:
+      "Snakes often appear in dreams connected to hidden emotional tension because they move quietly, remain partially unseen, and create instinctive alertness. This makes them powerful subconscious symbols for situations, emotions, fears, or relationship dynamics that feel difficult to fully trust or clearly understand beneath the surface."
+  }
+],
   types: [
     {
       slug: "being-chased-by-a-snake",
@@ -194,7 +242,6 @@ If the dream repeats often, it may point toward unresolved emotional fear, mistr
         "Touching a snake often symbolizes emotional courage, transformation, emotional acceptance, or developing emotional understanding surrounding difficult truths."
     }
   ],
-
   emotionalStates: [
     "fear",
     "emotional-tension",
@@ -316,11 +363,11 @@ The emotional tone matters most. Fearful chasing dreams may reflect emotional ov
 What is chasing you often matters less than how the chase feels emotionally.`,
 
   emotionalMeaning:
-    `This dream often reflects anxiety, emotional pressure, stress, avoidance, overwhelm, or situations that feel emotionally difficult to fully confront.
+    `This dream often reflects anxiety, emotional pressure, stress, avoidance, overwhelm, or situations that feel psychologically difficult to fully confront.
 
 You may be trying to stay ahead of something emotionally instead of slowing down enough to deal with it directly. This could involve emotions, responsibilities, conflict, fear, difficult conversations, expectations, or situations that continue building beneath the surface.
 
-If the chase feels intense or endless, it may reflect stress that feels emotionally persistent or situations that continue following you mentally even when you try to distance yourself from them.
+If the chase feels intense or endless, it may reflect stress that feels mentally relentless or situations that continue following you mentally even when you try to distance yourself from them.
 
 Sometimes the dream reflects emotional exhaustion. Feeling emotionally overwhelmed by pressure that never fully gives you space to rest, pause, or emotionally recover.
 
@@ -365,7 +412,55 @@ If the dream repeats often, it may point toward ongoing emotional stress, avoida
     "Not every chase dream represents danger. Some reflect unresolved emotions, responsibilities, or internal conflict becoming harder to avoid.",
     "The emotional tone of the chase matters more than the chaser itself."
   ],
+  behavioralInsights: [
+  {
+    title:
+      "Why being chased dreams feel exhausting",
 
+    content:
+      "Being chased dreams often feel emotionally exhausting because the subconscious keeps the nervous system in a prolonged state of urgency, fear, and alertness without resolution. The dream mirrors situations in waking life where stress, pressure, emotional conflict, or unresolved fear continues building without allowing emotional rest or relief."
+  },
+
+  {
+    title:
+      "Why you cannot run properly in chase dreams",
+
+    content:
+      "Many chase dreams involve running slowly, feeling heavy, or struggling to move properly because the dream reflects emotional helplessness rather than physical ability. The subconscious often uses slowed movement to symbolize situations where fear, pressure, anxiety, or emotional overwhelm make progress feel psychologically difficult."
+  },
+
+  {
+    title:
+      "Why chase dreams repeat emotionally",
+
+    content:
+      "Recurring chase dreams commonly appear when emotional avoidance, unresolved stress, fear, or internal conflict continues remaining active beneath the surface. Because the emotional situation itself still feels unfinished internally, the subconscious repeats the pursuit as a reflection of tension that has not fully settled or been confronted."
+  },
+
+  {
+    title:
+      "Why emotional avoidance appears through chase dreams",
+
+    content:
+      "Being chased often symbolizes emotional avoidance because the subconscious naturally turns unresolved fear, pressure, conflict, or emotional discomfort into pursuit imagery. The act of running mirrors the psychological desire to escape situations, emotions, or truths that feel difficult to fully face directly."
+  },
+
+  {
+    title:
+      "Why chase dreams appear during stress or burnout",
+
+    content:
+      "Chase dreams commonly appear during periods of high stress, emotional exhaustion, burnout, or psychological overload because the nervous system remains internally alert even during sleep. The dream can mirror waking life periods where responsibilities, anxiety, emotional pressure, or unresolved tension feel mentally relentless."
+  },
+
+  {
+    title:
+      "Fear versus confrontation in chase dreams",
+
+    content:
+      "Not every chase dream reflects danger alone. In some cases, the dream reflects emotional confrontation slowly approaching rather than something purely threatening. The closer the chaser becomes, the more the subconscious may be pushing awareness toward emotions, responsibilities, truths, or personal growth that can no longer remain ignored."
+  }
+],
   emotionalStates: [
     "fear",
     "anxiety",
@@ -470,7 +565,7 @@ If the dream repeats often, it may point toward ongoing emotional stress, avoida
     "anxiety",
     "inner-conflict",
     "relationships",
-    "transitions",
+    "transition",
     "suppressed-emotions"
   ]
 },
@@ -478,86 +573,284 @@ If the dream repeats often, it may point toward ongoing emotional stress, avoida
   slug: "being-pregnant",
   title: "Being pregnant",
 
-  description: `Pregnancy dreams usually carry the feeling that something important is developing quietly beneath the surface of your life. Even if nothing has fully changed yet, there is often a sense that growth, transformation, responsibility, or emotional change is already beginning internally.
-
-These dreams commonly appear during periods of personal growth, new beginnings, emotional transition, creative development, or moments where you can feel yourself moving toward a different phase of life. Sometimes the dream connects to excitement and potential. Other times, it reflects pressure, uncertainty, fear of responsibility, or the emotional weight of carrying something that still feels unfinished or unknown.
-
-The emotional tone matters. A peaceful pregnancy may reflect alignment, emotional readiness, or trust in what is unfolding. A stressful or overwhelming pregnancy can point to anxiety, pressure, emotional exhaustion, or uncertainty about what the future may require from you.`,
+  microSummary:
+    "Pregnancy dreams often reflect growth, transformation, unrealized potential, emotional development, or something meaningful slowly taking shape beneath the surface of your life.",
 
   shortDescription:
-    "Carrying something meaningful that has not fully entered your life yet. Pregnancy dreams often connect to growth, emotional development, responsibility, and quiet transformation happening beneath the surface.",
-microSummary:
-  "Being pregnant in a dream often reflects growth, potential, emotional development, or something meaningful slowly taking shape within your life or identity.",
-  emotional: `This dream often carries a mix of anticipation, curiosity, emotional attachment, and pressure.
+    "Carrying something meaningful that has not fully entered your life yet. Pregnancy dreams often reflect growth, personal transformation, responsibility, emotional development, and quiet change unfolding over time.",
 
-There is usually a quiet awareness that something important is developing internally, even if you cannot fully explain what it is yet. That feeling can create both excitement and emotional weight at the same time.
+  description:
+    `Pregnancy dreams usually carry the feeling that something important is slowly developing beneath the surface of your life. Even if nothing has fully changed externally yet, there is often a quiet awareness that growth, transformation, responsibility, healing, or emotional change has already begun internally.
 
-Sometimes the strongest emotion is protectiveness. Feeling deeply connected to something fragile, meaningful, or personal that still needs time before it is fully ready to exist outwardly.
+These dreams commonly appear during periods of personal growth, emotional transition, creative development, identity change, healing, or moments where you can sense yourself gradually moving toward a different phase of life. Sometimes the dream feels hopeful and full of possibility. Other times, it reflects pressure, uncertainty, fear of responsibility, or the weight of carrying something that still feels unfinished or unknown.
 
-Other times, the dream feels heavier. Like you are carrying emotional responsibility, expectations, uncertainty, or pressure connected to something growing in your life that you do not fully feel prepared for yet.
+The emotional tone matters most. A peaceful pregnancy may reflect alignment, readiness, trust in timing, or confidence in what is unfolding naturally. A stressful or overwhelming pregnancy can point toward anxiety, uncertainty, emotional pressure, exhaustion, or fear surrounding what the future may require from you.
 
-There can also be fear of change. Pregnancy naturally represents movement toward a new stage, and part of you may feel uncertain about what life will look like once that change fully arrives.
+The type of pregnancy can also add meaning.
+A happy or calm pregnancy may symbolize growth that feels natural, meaningful, or emotionally aligned.
+An unexpected pregnancy can reflect sudden change, uncertainty, vulnerability, or awareness that life is shifting in ways you did not fully plan for.
+A stressful pregnancy may point toward pressure, emotional burden, fear of responsibility, or feeling unprepared for major change.
+Dreams about hiding a pregnancy can symbolize private growth, hidden plans, vulnerability, or something deeply personal still developing beneath the surface.
 
-If the dream feels calm or emotionally warm, it often reflects emotional alignment, hope, personal growth, or trust in the process unfolding within your life.`,
+Not every pregnancy dream reflects literal children or motherhood. In many cases, the dream symbolizes growth itself — the slow development of identity, purpose, healing, relationships, creativity, emotional maturity, or a new version of yourself that is still becoming real.`,
 
-  symbolic: `Pregnancy in dreams symbolizes creation, growth, transformation, and unrealized potential.
+  emotionalMeaning:
+    `This dream often carries a mixture of anticipation, attachment, protectiveness, curiosity, and pressure.
 
-It can represent something slowly forming within your life — an idea, relationship, goal, emotional shift, creative path, personal identity, or new version of yourself that is still developing beneath the surface.
+There is usually a quiet awareness that something meaningful is developing within your life, even if you cannot fully explain what it is yet. That feeling can create both excitement and emotional weight at the same time.
 
-Unlike sudden change, pregnancy represents gradual development. Something important requiring patience, attention, emotional energy, and time before it fully becomes visible.
+Sometimes the strongest feeling is protectiveness. Feeling deeply connected to something fragile, personal, meaningful, or unfinished that still needs patience and care before it is ready to fully emerge outwardly.
 
-The dream can also reflect emotional responsibility. Carrying something internally that feels meaningful, delicate, or deeply tied to your future.
+Other times, the dream feels heavier. Like you are carrying responsibility, expectations, uncertainty, or pressure connected to something growing in your life that you do not yet feel fully prepared for.
 
-If the pregnancy feels overwhelming, it may symbolize pressure, emotional burden, fear of responsibility, or anxiety about whether you are ready for what is coming next.
+There can also be fear surrounding change itself. Pregnancy naturally symbolizes movement toward a new phase of life, and part of you may feel uncertain about what your life, identity, or future will look like once that transformation fully arrives.
 
-If it feels peaceful or meaningful, it can reflect growth that feels natural, aligned, emotionally fulfilling, or connected to a deeper sense of purpose.`,
+If the dream feels warm or peaceful, it often reflects trust, hope, growth, healing, or confidence in the process slowly unfolding within your life.
 
-  spiritual: `Spiritually, this dream often connects to inner creation and transformation.
+However, not every pregnancy dream reflects fulfillment alone. Some reveal uncertainty, vulnerability, pressure, or the complexity that often comes with meaningful personal change.`,
 
-It may appear during periods where something meaningful is quietly developing within you before fully entering your external life. Not everything is meant to happen immediately. Some forms of growth need privacy, patience, and time before they fully emerge.
+  symbolicMeaning:
+    `Symbolically, pregnancy often represents growth, transformation, creation, development, unrealized potential, and something important gradually taking shape over time.
 
-For some people, pregnancy dreams symbolize alignment with a new direction, emotional awakening, deeper self-understanding, or becoming more connected to what truly matters to them.
+Unlike sudden change, pregnancy reflects slow development. Something meaningful requiring patience, energy, attention, and time before it fully becomes visible externally.
 
-The dream can also reflect trust in timing. Certain changes cannot be forced before they are ready, even if you already feel their presence internally.
+The dream can represent a developing idea, relationship, identity shift, personal goal, healing process, creative path, awakening, or a new version of yourself that still feels unfinished beneath the surface.
 
-The emotional tone matters most. Fear may reflect uncertainty or pressure, while calmness may symbolize readiness, acceptance, emotional growth, or trust in what is unfolding.`,
+Pregnancy also symbolizes investment. Carrying something internally that feels deeply connected to your future, your identity, or your sense of purpose.
 
-  wakingLife: `This dream commonly appears during periods of personal growth, emotional transition, creative development, or major life change.
+If the pregnancy feels overwhelming, it may symbolize pressure, fear of responsibility, uncertainty, or anxiety surrounding major change and long-term commitment.
 
-You may be working toward something important that has not fully become reality yet. A goal, relationship, idea, decision, identity shift, or emotional change that is still forming beneath the surface.
+If the dream feels calm or meaningful, it may reflect growth that feels natural, aligned, fulfilling, or connected to a deeper sense of purpose and direction.
 
-Sometimes the dream reflects responsibility. Feeling emotionally connected to something that now requires patience, consistency, protection, or long-term care.
+At its core, pregnancy symbolism reflects becoming — the gradual process of change before a new phase of life fully arrives.`,
 
-It can also appear when you are slowly becoming aware that your life is changing internally before it changes externally.
+  spiritualMeaning:
+    `Spiritually, pregnancy dreams often connect to inner transformation, creation, growth, renewal, and the development of something meaningful before it fully enters external life.
 
-If the dream repeats often, it may reflect ongoing emotional focus on your future, your potential, your responsibilities, or uncertainty about what the next stage of your life will bring.`,
+These dreams commonly appear during periods where identity, perspective, awareness, healing, purpose, or spiritual direction are quietly evolving beneath the surface.
 
-  summary: `A sense that something meaningful is slowly developing within your life. This dream often reflects growth, emotional transformation, new beginnings, responsibility, and the quiet awareness that change is already happening beneath the surface.`,
+For some people, pregnancy symbolizes alignment with a new path, deeper self-understanding, maturity, or becoming more connected to what truly matters internally.
+
+The dream may also reflect trust in timing. Certain forms of growth cannot be rushed before they are ready, even when you can already feel them beginning internally.
+
+In some interpretations, pregnancy reflects hidden transformation. A phase where change is already happening even if the outer world has not fully caught up yet.
+
+The emotional tone matters most. Fear may reflect uncertainty or pressure surrounding change, while peaceful emotions may point toward readiness, trust, acceptance, or confidence in what is unfolding over time.`,
+
+  wakingLifeMeaning:
+    `Pregnancy dreams commonly appear during periods of personal growth, transition, healing, creative development, future planning, or major life change.
+
+You may be working toward something meaningful that has not fully become reality yet. A goal, relationship, opportunity, creative idea, identity shift, breakthrough, or personal transformation that is still developing gradually over time.
+
+Sometimes the dream reflects responsibility. Feeling connected to something that now requires patience, consistency, care, protection, or long-term investment.
+
+It can also appear during periods where you are becoming aware that your life is changing internally before it visibly changes externally.
+
+For some people, the dream reflects uncertainty surrounding the future. Questions about readiness, responsibility, identity, or whether you feel fully prepared for the changes developing in your life.
+
+If the dream repeats often, it may point toward ongoing growth, identity development, future-focused thinking, transition, or internal transformation that continues unfolding beneath the surface.`,
+
+  contradictions: [
+    "In some cases, pregnancy dreams reflect hope, fulfillment, growth, or meaningful new beginnings.",
+    "However, for others, the dream may symbolize pressure, fear of responsibility, uncertainty, or overwhelm connected to major life changes.",
+    "Not every pregnancy dream represents literal children or motherhood. Some reflect identity development, personal transformation, healing, creativity, or growth slowly unfolding over time.",
+    "The emotional tone of the dream matters more than pregnancy itself."
+  ],
+
+  types: [
+    {
+      type: "happy or peaceful pregnancy",
+
+      emotionalMeaning:
+        "Often reflects hope, readiness, trust in the future, alignment, or growth unfolding naturally over time.",
+
+      symbolicMeaning:
+        "A peaceful pregnancy commonly symbolizes healthy development, transformation, fulfillment, or meaningful change gradually taking shape."
+    },
+
+    {
+      type: "stressful or overwhelming pregnancy",
+
+      emotionalMeaning:
+        "May reflect pressure, uncertainty, exhaustion, fear of responsibility, or anxiety surrounding major life changes and expectations.",
+
+      symbolicMeaning:
+        "An overwhelming pregnancy often symbolizes burden, internal pressure, fear of change, or difficulty carrying responsibilities that feel deeply important."
+    },
+
+    {
+      type: "unexpected pregnancy",
+
+      emotionalMeaning:
+        "Can reflect surprise, vulnerability, uncertainty, or sudden awareness that life is changing in unexpected ways.",
+
+      symbolicMeaning:
+        "Unexpected pregnancy commonly symbolizes unplanned growth, emerging responsibility, internal change, or developments that feel difficult to fully control."
+    },
+
+    {
+      type: "being heavily pregnant",
+
+      emotionalMeaning:
+        "Often reflects anticipation, buildup, pressure, or the awareness that an important change is becoming impossible to ignore.",
+
+      symbolicMeaning:
+        "Late-stage pregnancy commonly symbolizes transformation nearing completion, readiness, or major developments approaching reality."
+    },
+
+    {
+      type: "hiding a pregnancy",
+
+      emotionalMeaning:
+        "May reflect vulnerability, secrecy, uncertainty, or the desire to protect something deeply personal before revealing it outwardly.",
+
+      symbolicMeaning:
+        "Hiding a pregnancy often symbolizes private growth, hidden development, unspoken hopes, or change still unfolding internally."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title:
+        "Why pregnancy dreams feel quietly significant",
+
+      content:
+        "Pregnancy dreams often feel quietly significant because they point to something still forming beneath the surface. The dream may not be about a literal pregnancy, but about a new part of life, identity, healing, creativity, or responsibility that has begun before it is fully visible."
+    },
+
+    {
+      title:
+        "Why pregnancy dreams appear during inner change",
+
+      content:
+        "These dreams commonly appear when something inside you is changing more quickly than the outside world can show. You may be carrying a decision, hope, relationship shift, creative idea, or new version of yourself that still needs time before it can be understood clearly."
+    },
+
+    {
+      title:
+        "Hope versus pressure in pregnancy dreams",
+
+      content:
+        "Some pregnancy dreams feel hopeful and tender, while others feel heavy, private, or difficult to carry. The difference often comes from whether the growth in your life feels supported, rushed, uncertain, protected, or tied to expectations you are still trying to understand."
+    },
+
+    {
+      title:
+        "Why pregnancy dreams can feel protective",
+
+      content:
+        "Pregnancy dreams often create a protective feeling because they symbolize something vulnerable that is not ready to be exposed yet. This may reflect private healing, a fragile plan, a changing identity, or a part of yourself that needs patience before it can fully emerge."
+    },
+
+    {
+      title:
+        "Why pregnancy dreams repeat",
+
+      content:
+        "Recurring pregnancy dreams often appear when an inner change is still unfolding. The repetition may continue while you are learning how to carry responsibility, trust timing, protect something meaningful, or accept that a new phase of life is developing slowly."
+    }
+  ],
+
+  emotionalStates: [
+    "anticipation",
+    "hope",
+    "uncertainty",
+    "protectiveness",
+    "pressure",
+    "transformation",
+    "vulnerability"
+  ],
+
+  subconsciousPatterns: [
+    "personal-growth",
+    "identity-development",
+    "fear-of-change",
+    "future-focus",
+    "creative-development",
+    "emotional-transition"
+  ],
+
+  emotionalTriggers: [
+    "major life changes",
+    "new beginnings",
+    "responsibility",
+    "future uncertainty",
+    "creative projects",
+    "identity shifts"
+  ],
+
+  lifeSituations: [
+    "personal transformation",
+    "creative growth",
+    "future planning",
+    "relationship changes",
+    "healing and recovery",
+    "major transitions"
+  ],
+
+  dreamSymbols: [
+    "babies",
+    "growth",
+    "birth",
+    "stomach",
+    "motherhood",
+    "new life"
+  ],
+
+  summary:
+    "Pregnancy dreams often reflect growth, transformation, development, unrealized potential, or something meaningful slowly taking shape beneath the surface of your life. These dreams commonly appear during periods of personal growth, healing, identity change, creativity, or major transition while also symbolizing responsibility, hope, vulnerability, pressure, and the gradual movement toward a new phase of life.",
 
   relatedDreams: [
     {
       slug: "pregnant-with-twins",
+      relationshipType: "growth-and-development",
+
+      emotionalOverlap: [
+        "anticipation",
+        "responsibility",
+        "transformation"
+      ],
+
       reason:
-        "These dreams connect through creation, responsibility, and the emotional weight of what is still unfolding."
+        "Both dreams commonly reflect growth, responsibility, development, and meaningful changes slowly unfolding over time."
     },
+
     {
       slug: "giving-birth",
+      relationshipType: "transformation",
+
+      emotionalOverlap: [
+        "hope",
+        "vulnerability",
+        "new beginnings"
+      ],
+
       reason:
-        "Both dreams hold themes of growth, care, uncertainty, and attachment to something fragile or emerging."
+        "These dreams both connect through transformation, creation, transition, and the movement from development into visible change."
     },
+
     {
       slug: "holding-a-baby",
+      relationshipType: "care-and-attachment",
+
+      emotionalOverlap: [
+        "protectiveness",
+        "love",
+        "responsibility"
+      ],
+
       reason:
-        "These dreams often sit near major transitions where hope, pressure, and protectiveness overlap."
+        "Both dreams commonly reflect attachment, care, vulnerability, and connection to something meaningful still developing or requiring protection."
     }
   ],
 
   categories: [
-    "Transformation",
-    "Identity",
-    "Hidden Emotions",
-    "Spiritual",
-    "Love", "Relationships"
+    "transformation",
+    "identity",
+    "hidden-emotions",
+    "spiritual",
+    "growth",
+    "new-beginnings"
   ]
 },
 {
@@ -588,9 +881,9 @@ Not every dream about an ex-partner means you still want the relationship back. 
   emotionalMeaning:
     `There is usually emotional familiarity throughout this dream.
 
-Sometimes the strongest feeling is nostalgia. Revisiting emotional memories, emotional comfort, emotional intimacy, or parts of yourself connected to a period of life that still emotionally lingers beneath the surface.
+Sometimes the strongest feeling is nostalgia. Revisiting memories, comfort, intimacy, or parts of yourself connected to a period of life that still quietly lingers beneath the surface.
 
-There can also be unresolved emotion. Quiet sadness, confusion, emotional tension, regret, longing, disappointment, anger, or emotional questions that never fully settled internally.
+There can also be unresolved feelings. Quiet sadness, tension, regret, longing, disappointment, anger, or questions that never fully settled beneath the surface.
 
 Other times, the emotion feels reflective rather than painful. Looking back emotionally with more awareness, emotional maturity, or understanding than you had during the relationship itself.
 
@@ -609,7 +902,7 @@ Positive interactions may symbolize healing, appreciation, emotional understandi
 
 Negative or emotionally tense interactions may symbolize unresolved emotional conflict, lingering emotional pain, fear of repeating emotional patterns, emotional insecurity, regret, mistrust, or emotional wounds that still influence you beneath the surface.
 
-Sometimes the dream reflects familiarity itself. The mind emotionally revisiting known emotional territory during periods of uncertainty, loneliness, stress, vulnerability, or emotional change.
+Sometimes the dream reflects the pull of familiarity itself. The mind emotionally revisiting known emotional territory during periods of uncertainty, loneliness, stress, vulnerability, or emotional change.
 
 In deeper interpretations, the dream may symbolize identity transformation. Recognizing how much you have emotionally changed since that relationship or becoming emotionally aware of patterns you no longer want to repeat.
 
@@ -721,6 +1014,63 @@ If the dream repeats often, it may point toward unresolved emotional attachment,
         "Positive interactions with an ex commonly symbolize emotional acceptance, healing, growth, or emotional peace surrounding the past."
     }
   ],
+  behavioralInsights: [
+  {
+    title:
+      "Why dreams about an ex-partner feel unusually real",
+
+    content:
+      "Dreams about an ex-partner often feel unusually vivid because the subconscious reconnects to attachment, familiarity, memory, vulnerability, and psychologically significant experiences tied to that relationship. Relationships tend to leave stronger internal imprints than ordinary memories, which is why dreams involving former partners can feel deeply personal even years later."
+  },
+
+  {
+    title:
+      "Why ex-partner dreams appear during emotional transition",
+
+    content:
+      "Dreams about an ex commonly appear during periods of loneliness, healing, uncertainty, identity change, vulnerability, emotional transition, or relationship instability. The mind often revisits familiar relational experiences while trying to process present situations beneath the surface."
+  },
+
+  {
+    title:
+      "Why dreaming about an ex does not always mean you want them back",
+
+    content:
+      "Many dreams about ex-partners are not about wanting the relationship again. Instead, they often reflect familiarity, unresolved feelings, attachment patterns, lingering questions, personal history, or psychological connections tied to that chapter of life."
+  },
+
+  {
+    title:
+      "Why ex-partner dreams repeat",
+
+    content:
+      "Recurring dreams about an ex often reflect unresolved attachment, unfinished processing, repeated relationship patterns, lingering hurt, unanswered questions, or experiences that still remain psychologically active beneath the surface."
+  },
+
+  {
+    title:
+      "Nostalgia versus unresolved attachment in ex dreams",
+
+    content:
+      "Some ex-partner dreams reflect simple nostalgia and memory, while others reveal unresolved attachment, longing, loneliness, or lingering conflict that has not fully settled internally. The atmosphere of the dream usually reveals whether the experience feels reflective, painful, comforting, or emotionally unfinished."
+  },
+
+  {
+    title:
+      "Why familiar relationship patterns return through ex dreams",
+
+    content:
+      "The subconscious often uses ex-partners symbolically when present situations resemble older relational dynamics. Even when different people are involved in waking life, the dream may revisit familiar patterns connected to trust, rejection, intimacy, insecurity, abandonment, conflict, or emotional dependence."
+  },
+
+  {
+    title:
+      "Why ex-partner dreams can appear during healing",
+
+    content:
+      "Dreams about an ex sometimes appear during healing rather than emotional relapse. As the mind processes past experiences more deeply, old memories, unresolved feelings, and relationship dynamics may temporarily resurface while psychological closure and personal growth continue developing internally."
+  }
+],
 
   emotionalStates: [
     "nostalgia",
@@ -948,30 +1298,30 @@ At its core, this dream often reflects pressure more than actual failure.`,
     "Watching something familiar, personal, or emotionally significant being consumed by fire while feelings of fear, helplessness, overwhelm, release, or transformation rise beneath the surface.",
 
   description:
-    `Dreams about a house burning can feel frightening, emotionally intense, overwhelming, chaotic, helpless, shocking, or strangely transformative depending on the emotional atmosphere surrounding the fire and your role within the dream. Sometimes the house burns suddenly and violently, creating panic and emotional instability. Other times, the fire spreads more slowly, creating the painful awareness that something familiar, emotionally important, or emotionally stable is changing in ways that cannot fully be stopped or controlled.
+    `Dreams about a house burning can feel frightening, intense, chaotic, helpless, shocking, or strangely transformative depending on the atmosphere surrounding the fire and your role within the dream. Sometimes the house burns suddenly and violently, creating panic, instability, and the sense that life is becoming difficult to control.
 
-These dreams commonly appear during periods involving emotional pressure, instability, major life transitions, relationship conflict, emotional overwhelm, identity shifts, stress, burnout, emotional release, personal transformation, loss, emotional exhaustion, or situations where something emotionally familiar no longer feels fully secure or sustainable.
+These dreams commonly appear during periods of stress, instability, major life transitions, burnout, relationship conflict, identity shifts, or situations where life no longer feels fully secure beneath the surface.
 
-The emotional tone matters most. Fearful or chaotic house fire dreams may reflect emotional instability, anxiety, emotional pressure, helplessness, fear of loss, conflict, or situations emotionally breaking down faster than you feel emotionally prepared for. Calm or emotionally reflective house fire dreams may symbolize emotional release, transformation, healing, renewal, emotional clearing, or awareness that important change is emotionally necessary even if it feels painful.
+The emotional tone matters most. Fearful or chaotic house fire dreams may reflect anxiety, instability, pressure, fear of loss, or situations that seem to be falling apart faster than you can manage. Calm or reflective house fire dreams may symbolize release, renewal, healing, or the awareness that difficult change may still be necessary.
 
 The type of experience can also add meaning.
-Watching the house burn may symbolize emotional helplessness, emotional observation, grief, or awareness that change is happening whether you are emotionally ready or not.
-Trying to stop the fire can reflect emotional struggle, resistance to change, efforts to emotionally hold things together, or fear of losing emotional stability.
-Escaping from the burning house may point toward emotional survival, emotional protection, leaving emotionally unhealthy situations behind, or trying to emotionally distance yourself from overwhelming pressure.
-Losing everything inside the house can symbolize emotional grief, identity loss, emotional exhaustion, fear of instability, or deep emotional change affecting your sense of self and security.
+Watching the house burn may symbolize helplessness, grief, or the awareness that major change is unfolding whether you feel ready for it or not.
+Trying to stop the fire can reflect resistance to change, fear of losing stability, or attempts to hold important parts of life together as things begin to shift.
+Escaping from the burning house may point toward survival, self-protection, leaving unhealthy situations behind, or creating distance from overwhelming pressure.
+Losing everything inside the house can symbolize grief, identity shifts, exhaustion, fear of instability, or deep personal change affecting your sense of safety and identity.
 
 Not every house burning dream reflects destruction alone. In many cases, the dream symbolizes emotional transformation, emotional release, renewal, emotional awakening, personal growth, or the clearing away of emotional structures that can no longer remain unchanged.`,
 
   emotionalMeaning:
     `There is usually strong emotional intensity throughout this dream.
 
-Sometimes the strongest feeling is fear. Feeling emotionally unsafe, emotionally overwhelmed, emotionally unstable, or emotionally aware that something important is emotionally breaking apart or emotionally changing too quickly.
+Sometimes the strongest feeling is fear. Feeling unsafe, overwhelmed, unstable, or aware that something important is beginning to break apart too quickly.
 
-There can also be helplessness. Watching emotional situations unfold while feeling unable to emotionally stop, emotionally control, or emotionally repair what is happening.
+There can also be helplessness. Watching difficult situations unfold while feeling unable to stop, control, or repair what is happening.
 
 Other times, the emotion feels heavier and quieter underneath. Emotional exhaustion, grief, sadness, emotional burnout, or awareness that something emotionally familiar is slowly disappearing or emotionally transforming.
 
-In some cases, the dream reflects emotional buildup. Stress, anger, emotional tension, emotional pressure, conflict, or emotional instability reaching a point where it can no longer remain emotionally contained beneath the surface.
+In some cases, the dream reflects emotional buildup. Stress, anger, tension, conflict, or instability reaching a point where it can no longer stay buried beneath the surface.
 
 There may also be emotional release. Emotional patterns, emotional attachments, emotional identities, relationships, fears, or emotionally unhealthy situations finally beginning to emotionally collapse so something new can eventually emerge.
 
@@ -986,9 +1336,9 @@ A burning house may symbolize relationships changing, emotional identities shift
 
 Sometimes the dream reflects emotional intensity itself. Feelings, stress, conflict, emotional truths, emotional pain, or emotional pressure becoming too powerful to remain emotionally hidden or emotionally controlled anymore.
 
-The dream may also symbolize emotional clearing. Old emotional patterns, emotional attachments, fears, emotional wounds, emotional identities, or emotionally limiting situations being emotionally burned away because they can no longer continue in the same form.
+The dream may also symbolize clearing away old patterns, attachments, fears, or parts of yourself that can no longer remain the same. Old emotional patterns, emotional attachments, fears, emotional wounds, emotional identities, or emotionally limiting situations being emotionally burned away because they can no longer continue in the same form.
 
-In deeper interpretations, the burning house may symbolize identity transformation. The emotional realization that who you once were emotionally is no longer fully aligned with who you are becoming.
+In deeper interpretations, the burning house may symbolize identity transformation. The realization that who you once were no longer fully aligns with who you are becoming.
 
 The emotions surrounding the fire often reveal the deeper meaning more than the destruction itself.`,
 
@@ -997,7 +1347,7 @@ The emotions surrounding the fire often reveal the deeper meaning more than the 
 
 These dreams commonly appear during periods where emotional healing, spiritual growth, emotional awakening, personal evolution, or major life transition are emotionally reshaping your inner world.
 
-In many spiritual interpretations, fire symbolizes purification. Emotional wounds, emotional attachments, fears, limiting beliefs, emotional identities, or emotionally unhealthy structures being emotionally cleared away so deeper healing and transformation can emerge.
+In many spiritual interpretations, fire symbolizes purification. Emotional wounds, emotional attachments, fears, limiting beliefs, unhealthy patterns, attachments, or older versions of yourself being cleared away so deeper healing and transformation can emerge.
 
 The burning house may also symbolize shedding older versions of yourself. Emotional identities, emotional patterns, emotional environments, or emotional attachments that no longer align with your growth emotionally breaking down.
 
@@ -1008,7 +1358,7 @@ The emotional tone changes the interpretation significantly. Panic may reflect r
   wakingLifeMeaning:
     `Dreams about a house burning often connect to waking life situations involving emotional instability, stress, major life changes, relationship conflict, emotional pressure, burnout, personal transformation, fear of loss, emotional exhaustion, or situations affecting your emotional sense of safety and stability.
 
-You may be emotionally experiencing situations that feel emotionally overwhelming, emotionally unpredictable, emotionally consuming, or emotionally difficult to emotionally control anymore.
+You may be experiencing situations that feel overwhelming, unpredictable, consuming, or increasingly difficult to manage.
 
 Sometimes the dream reflects emotional pressure building beneath the surface for a long time until emotional change becomes unavoidable.
 
@@ -1094,6 +1444,48 @@ If the dream repeats often, it may point toward unresolved emotional stress, emo
 
       symbolicMeaning:
         "Calmness during the fire commonly symbolizes emotional release, healing, spiritual transformation, or acceptance of emotionally necessary endings."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title:
+        "Why house burning dreams feel so emotionally disturbing",
+
+      content:
+        "House burning dreams often feel deeply unsettling because houses commonly symbolize stability, identity, security, familiarity, or your inner emotional world. Watching the house burn can feel like witnessing something important becoming unstable or impossible to preserve."
+    },
+
+    {
+      title:
+        "Why house burning dreams appear during major change",
+
+      content:
+        "These dreams commonly appear during emotionally intense periods involving loss, identity change, relationship shifts, instability, emotional pressure, burnout, or situations where life no longer feels as secure or predictable as before."
+    },
+
+    {
+      title:
+        "Destruction versus transformation in house burning dreams",
+
+      content:
+        "Some house burning dreams reflect fear, instability, or emotional loss, while others symbolize release, transformation, clearing old emotional structures, or the realization that something can no longer continue unchanged."
+    },
+
+    {
+      title:
+        "Why house burning dreams repeat",
+
+      content:
+        "Recurring house burning dreams often reflect ongoing instability, unresolved stress, emotional pressure, fear surrounding change, or internal situations that continue feeling unsafe or overwhelming beneath the surface."
+    },
+
+    {
+      title:
+        "Why fire commonly appears during emotional overload",
+
+      content:
+        "The subconscious often uses fire imagery during periods where pressure, anger, fear, frustration, stress, or emotional intensity have become difficult to fully contain internally."
     }
   ],
 
@@ -1234,7 +1626,7 @@ If the dream repeats often, it may point toward unresolved emotional stress, emo
 
   categories: [
     "transformation",
-    "transitions",
+    "transition",
     "fear",
     "anxiety",
     "hidden-emotions",
@@ -1298,13 +1690,13 @@ At its core, death in dreams often symbolizes transition — the emotional movem
   spiritualMeaning:
     `Spiritually, death dreams are often connected to emotional transformation, rebirth, release, renewal, emotional awakening, and the process of shedding older emotional versions of yourself that no longer align with your growth.
 
-These dreams commonly appear during periods of inner change where emotional identity, emotional awareness, beliefs, direction, or spiritual understanding are quietly shifting beneath the surface.
+These dreams commonly appear during periods of inner change where identity, self-awareness, beliefs, direction, or spiritual understanding are quietly shifting beneath the surface.
 
-In many interpretations, death represents endings that create space for renewal. Something emotionally old is being released so something emotionally more aligned, honest, healed, or evolved can begin to emerge.
+In many interpretations, death represents endings that create space for renewal. Something old is being released so something more aligned, honest, healed, or internally evolved can begin to emerge.
 
 Sometimes the dream reflects spiritual growth through uncertainty, grief, emotional transition, surrender, or emotional detachment from situations that can no longer remain unchanged.
 
-If the dream feels dark or frightening, it may reflect emotional resistance to change, fear of uncertainty, emotional attachment, or difficulty accepting endings that feel emotionally irreversible.
+If the dream feels dark or frightening, it may reflect resistance to change, fear of uncertainty, deep attachment, or difficulty accepting endings that feel impossible to reverse.
 
 If the dream feels calm or peaceful, it can symbolize emotional acceptance, healing, closure, spiritual readiness, surrender, or emotional trust in transformation unfolding over time.
 
@@ -1317,11 +1709,11 @@ You may be moving through relationship changes, emotional healing, grief, identi
 
 Sometimes the dream reflects letting go. Releasing emotional pain, expectations, attachments, habits, beliefs, emotional roles, or emotional versions of yourself that no longer feel aligned with who you are becoming.
 
-The dream can also appear during emotionally reflective periods where you are becoming more aware that your emotional needs, priorities, identity, relationships, or sense of self are changing over time.
+The dream can also appear during deeply reflective periods where you are becoming more aware that your needs, priorities, identity, relationships, or sense of self are changing over time.
 
 For some people, the dream reflects fear of uncertainty or emotional difficulty accepting change that feels emotionally final or irreversible.
 
-If the dream repeats often, it may point toward unresolved grief, emotional transition, emotional exhaustion, suppressed emotional change, or internal transformation that has not yet been fully processed emotionally.`,
+If the dream repeats often, it may point toward unresolved grief, ongoing transition, exhaustion, suppressed internal change, or transformation that has not yet been fully processed beneath the surface.`,
 
   contradictions: [
     "In some cases, death dreams reflect fear, grief, emotional overwhelm, or resistance to change.",
@@ -1329,7 +1721,55 @@ If the dream repeats often, it may point toward unresolved grief, emotional tran
     "Not every death dream represents loss alone. Some reflect emotional rebirth, transition, or the ending of emotional patterns that no longer feel sustainable.",
     "The emotional tone of the dream matters more than death itself."
   ],
+behavioralInsights: [
+  {
+    title:
+      "Why death dreams feel emotionally intense",
 
+    content:
+      "Death dreams often feel emotionally intense because they touch multiple subconscious fears and transitions at the same time. Endings, uncertainty, grief, identity change, emotional attachment, and fear of the unknown can all merge together inside one symbolic experience, creating a dream that feels psychologically powerful even when no literal danger exists."
+  },
+
+  {
+    title:
+      "Why death dreams appear during personal transformation",
+
+    content:
+      "Death dreams commonly appear during periods of deep personal transformation because the subconscious often uses death symbolism to represent endings before renewal. As older identities, emotional patterns, beliefs, relationships, or life structures begin changing internally, the dream may symbolize the psychological process of leaving one version of yourself behind while another slowly begins forming."
+  },
+
+  {
+    title:
+      "Why repeated death dreams happen",
+
+    content:
+      "Recurring death dreams often appear when emotional transition, grief, identity change, or internal transformation remains unresolved beneath the surface. The subconscious may continue repeating death imagery because the psychological process itself still feels unfinished, emotionally active, or difficult to fully accept internally."
+  },
+
+  {
+    title:
+      "Fear versus renewal in death dreams",
+
+    content:
+      "One reason death dreams feel emotionally complex is because death symbolism often represents both loss and renewal simultaneously. Some dreams reflect grief, fear, emotional endings, or uncertainty, while others reflect release, healing, rebirth, transformation, and the gradual emergence of a new emotional phase of life."
+  },
+
+  {
+    title:
+      "Why death dreams appear during emotional exhaustion",
+
+    content:
+      "Death dreams sometimes appear during periods of emotional exhaustion, burnout, or psychological overload because part of the subconscious may be seeking closure, release, or an ending to prolonged internal strain. In these cases, the dream often symbolizes the desire for emotional relief rather than literal loss."
+  },
+
+  {
+    title:
+      "Why death dreams feel spiritually significant",
+
+    content:
+      "Death dreams often feel spiritually significant because they naturally confront questions surrounding identity, meaning, attachment, change, and what continues after emotional endings occur. Even when the dream is psychologically symbolic rather than spiritual, the emotional weight of transformation can create a strong feeling that something deeply important is shifting internally."
+  }
+],
   types: [
     {
       type: "your own death",
@@ -1529,7 +1969,7 @@ If the dream repeats often, it may point toward unresolved grief, emotional tran
 
   categories: [
     "transformation",
-    "transitions",
+    "transition",
     "spiritual",
     "identity",
     "emotional-overwhelm",
@@ -1563,20 +2003,20 @@ Not every flying dream reflects escape alone. In many cases, it reflects emotion
   emotionalMeaning:
     `There is usually a strong sense of emotional movement throughout this dream.
 
-Sometimes the strongest feeling is freedom. Feeling emotionally lighter, emotionally unrestricted, emotionally capable, or emotionally released from situations that once felt heavy, limiting, or emotionally consuming.
+Sometimes the strongest feeling is freedom. Feeling lighter, unrestricted, capable, or finally released from situations that once felt heavy or limiting from situations that once felt heavy, limiting, or emotionally consuming.
 
-There can also be empowerment. Feeling emotionally confident, emotionally elevated, or emotionally above situations that once created fear, insecurity, or emotional pressure.
+There can also be empowerment. Feeling emotionally confident, emotionally elevated, or above situations that once created fear, insecurity, or emotional pressure.
 
 Other times, the dream carries instability beneath the excitement. Struggling to stay in the air may reflect emotional inconsistency, insecurity, fear of failure, emotional imbalance, or confidence that still shifts beneath the surface.
 
-In some cases, the dream reflects emotional distance. Pulling away emotionally or mentally from situations, responsibilities, relationships, or emotional environments that feel emotionally exhausting or emotionally overwhelming.
+In some cases, the dream reflects emotional distance. Pulling away emotionally or mentally from situations, responsibilities, relationships, or emotional environments that feel mentally exhausting or overwhelming beneath the surface.
 
 Sometimes flying reflects emotional possibility itself. The realization that life, identity, freedom, or emotional direction may not be as fixed, heavy, or limited as they once seemed.
 
 However, not every flying dream reflects confidence alone. Fear during flight may reveal emotional uncertainty, fear of losing control, or difficulty fully trusting your own growth, direction, or emotional independence yet.`,
 
   symbolicMeaning:
-    `Symbolically, flying often represents freedom, emotional release, perspective, independence, growth, ambition, emotional elevation, or rising above situations that once felt emotionally overwhelming or limiting.
+    `Symbolically, flying often represents freedom, emotional release, perspective, independence, growth, ambition, emotional elevation, or rising above situations that once felt heavy, restrictive, or difficult to rise above.
 
 Because flying removes you from the ground, it commonly symbolizes emotional distance from problems, fears, emotional heaviness, pressure, or emotional entanglements that once felt consuming.
 
@@ -1608,11 +2048,11 @@ The emotional tone matters most. Freedom and excitement may reflect emotional co
 
 You may be emotionally moving beyond situations that once felt restrictive, emotionally heavy, emotionally controlling, or difficult to escape.
 
-Sometimes the dream reflects growing confidence. Feeling emotionally stronger, emotionally freer, more self-directed, or less emotionally controlled by outside expectations or emotional limitations.
+Sometimes the dream reflects growing confidence. Feeling emotionally stronger, emotionally freer, more self-directed, or less controlled by outside expectations or emotional limitations.
 
 If the flying feels unstable, it may point toward progress that still feels emotionally uncertain. You may be emotionally moving forward while part of you still fears failure, instability, emotional imbalance, or losing control.
 
-The dream can also appear during periods where emotional distance is developing. Pulling away mentally or emotionally from situations, people, environments, or emotional patterns that feel emotionally draining or limiting.
+The dream can also appear during periods where emotional distance is developing. Pulling away mentally or emotionally from situations, people, environments, or emotional patterns that feel draining, restrictive, or difficult to remain inside comfortably.
 
 If the dream repeats often, it may point toward ongoing emotional growth, changing perspective, emotional transition, or the desire for greater emotional freedom and expansion in waking life.`,
 
@@ -1622,7 +2062,55 @@ If the dream repeats often, it may point toward ongoing emotional growth, changi
     "Not every flying dream represents empowerment alone. Some reflect emotional uncertainty, fragile confidence, or the desire to emotionally distance yourself from overwhelming situations.",
     "The emotional tone of the dream matters more than the act of flying itself."
   ],
+behavioralInsights: [
+  {
+    title:
+      "Why flying dreams feel freeing",
 
+    content:
+      "Flying dreams often feel freeing because they remove physical and emotional limitations at the same time. The subconscious uses flight to symbolize movement beyond pressure, fear, heaviness, restriction, or situations that once felt emotionally difficult to escape."
+  },
+
+  {
+    title:
+      "Why flying dreams appear during personal growth",
+
+    content:
+      "Flying dreams commonly appear during periods of personal growth, confidence building, emotional healing, independence, or changing perspective. As internal limitations begin weakening, the dream may symbolize the growing realization that life no longer feels as restricted or emotionally heavy as before."
+  },
+
+  {
+    title:
+      "Why unstable flying dreams happen",
+
+    content:
+      "Struggling to stay in the air or flying without control often reflects uncertainty beneath visible progress. Even when growth is happening externally, part of the subconscious may still fear failure, instability, losing control, or not fully trusting the direction life is taking."
+  },
+
+  {
+    title:
+      "Freedom versus escape in flying dreams",
+
+    content:
+      "Some flying dreams reflect confidence, emotional freedom, and expansion, while others reflect avoidance or the desire to emotionally distance yourself from overwhelming situations. The emotional tone of the dream usually reveals whether the flight feels liberating or emotionally defensive."
+  },
+
+  {
+    title:
+      "Why flying dreams feel spiritually powerful",
+
+    content:
+      "Flying dreams often feel spiritually significant because they naturally create distance from ordinary limitations. Height, openness, perspective, and movement through the sky can symbolically reflect expansion in awareness, identity, emotional freedom, or spiritual perspective."
+  },
+
+  {
+    title:
+      "Why flying dreams often feel physically real",
+
+    content:
+      "Flying dreams can feel physically vivid because the subconscious combines emotional release with sensations of movement, balance, weightlessness, and elevation. The body often responds strongly to dreams involving motion, freedom, or loss of physical limitation."
+  }
+],
   types: [
     {
       type: "flying effortlessly",
@@ -1937,6 +2425,49 @@ It can also reflect a period of introspection. Pulling back, thinking more, feel
 In some cases, it’s simply that things haven’t revealed themselves yet — and you’re in that in-between space.`,
 
   summary: `A sense of being in the unknown. This dream often reflects uncertainty, hidden emotions, or a phase where things aren’t fully clear yet. It doesn’t always mean something is wrong — just that not everything has come into view.`,
+
+  behavioralInsights: [
+    {
+      title:
+        "Why darkness dreams feel unsettling",
+
+      content:
+        "Darkness dreams often feel unsettling because darkness symbolizes uncertainty, invisibility, lack of control, hidden fear, and the inability to clearly understand what surrounds you."
+    },
+
+    {
+      title:
+        "Why darkness dreams appear during uncertainty",
+
+      content:
+        "These dreams commonly appear during periods involving anxiety, confusion, instability, fear of the unknown, isolation, or situations where clarity feels difficult to reach."
+    },
+
+    {
+      title:
+        "Fear versus introspection in darkness dreams",
+
+      content:
+        "Some darkness dreams reflect fear, uncertainty, or instability, while others symbolize introspection, emotional depth, spiritual searching, or periods where answers have not fully revealed themselves yet."
+    },
+
+    {
+      title:
+        "Why darkness dreams repeat",
+
+      content:
+        "Recurring darkness dreams often reflect unresolved fear, uncertainty, suppressed tension, instability, or situations that continue feeling psychologically unclear beneath the surface."
+    },
+
+    {
+      title:
+        "Why the subconscious uses darkness symbolically",
+
+      content:
+        "Darkness naturally removes certainty and visibility. The subconscious often uses it to symbolize fear, ambiguity, hidden truths, uncertainty, or situations that feel difficult to fully understand."
+    }
+  ],
+
   relatedDreams: [
     {
       slug: "seeing-a-demon-or-spirit-in-front-of-you",
@@ -1971,7 +2502,7 @@ In some cases, it’s simply that things haven’t revealed themselves yet — a
   ],
 
 
-  categories: ["Fear", "Anxiety", "Hidden Emotions", "Inner Conflict", "Spiritual", "Transitions"]
+  categories: ["Fear", "Anxiety", "Hidden Emotions", "Inner Conflict", "Spiritual", "Transition"]
 },
 {
   slug: "hearing-bells",
@@ -2045,7 +2576,7 @@ It can also reflect moments where your attention shifts. Where something interru
   ],
 
 
-  categories: ["Spiritual", "Hidden Emotions", "Transitions", "Inner Conflict", "Identity"]
+  categories: ["Spiritual", "Hidden Emotions", "Transition", "Inner Conflict", "Identity"]
 },
 {
   slug: "walking-in-the-sky",
@@ -2114,7 +2645,7 @@ In some cases, it’s simply space. Emotional or mental distance that you didn�
   ],
 
 
-  categories: ["Spiritual", "Transitions", "Transformation", "Identity", "Inner Conflict"]
+  categories: ["Spiritual", "Transition", "Transformation", "Identity", "Inner Conflict"]
 },
 {
   slug: "seeing-a-dead-person",
@@ -4526,7 +5057,7 @@ The dream reflects your emotional relationship with change, uncertainty, movemen
   ],
 
   categories: [
-    "Transitions",
+    "Transition",
     "Transformation",
     "Spiritual",
     "Identity",
@@ -5210,13 +5741,14 @@ If the dream repeats often, it may point toward unresolved attachment wounds, em
     "emotional-healing"
   ]
 },
+
 {
   slug: "crying-uncontrollably",
   title: "Crying uncontrollably",
 
   microSummary:
-    "Dreams about crying uncontrollably often reflect emotional overwhelm, grief, emotional release, vulnerability, burnout, or feelings becoming too powerful to continue suppressing internally.",
-
+  "Dreams about crying uncontrollably often reflect overwhelm, grief, release, vulnerability, burnout, or feelings becoming too powerful to continue suppressing.",
+  
   shortDescription:
     "Crying intensely without being able to stop while emotions completely take over. The dream can feel heartbreaking, emotionally overwhelming, relieving, vulnerable, or emotionally exhausting beneath the surface.",
 
@@ -5665,6 +6197,48 @@ If the dream repeats often, it may point toward unresolved emotional pain, emoti
 
       symbolicMeaning:
         "Holding back tears commonly symbolizes emotional resistance, emotional pressure, hidden pain, or fear surrounding emotional honesty and emotional exposure."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title:
+        "Why crying dreams feel emotionally releasing",
+
+      content:
+        "Dreams about crying often feel emotionally powerful because they allow emotions that may be suppressed, ignored, or difficult to express in waking life to finally surface more openly."
+    },
+
+    {
+      title:
+        "Why crying dreams appear during emotional pressure",
+
+      content:
+        "These dreams commonly appear during periods involving stress, grief, vulnerability, loneliness, exhaustion, disappointment, or situations where emotions have been building internally for too long."
+    },
+
+    {
+      title:
+        "Relief versus sadness in crying dreams",
+
+      content:
+        "Some crying dreams reflect grief, sadness, or emotional pain, while others symbolize emotional release, healing, vulnerability, or relief after long periods of suppression."
+    },
+
+    {
+      title:
+        "Why crying dreams repeat",
+
+      content:
+        "Recurring dreams about crying often reflect unresolved feelings, emotional overload, exhaustion, suppressed vulnerability, or emotions that continue seeking acknowledgment beneath the surface."
+    },
+
+    {
+      title:
+        "Why the subconscious uses crying symbolically",
+
+      content:
+        "Crying commonly symbolizes emotional release. The dream often reflects the need for emotional expression, honesty, support, or relief from pressure that has become difficult to continue carrying internally."
     }
   ],
 
@@ -6175,7 +6749,7 @@ The dream reflects your emotional relationship with uncertainty, instability, di
   ],
 
   categories: [
-    "Transitions",
+    "Transition",
     "Fear",
     "Anxiety",
     "Transformation",
@@ -7687,7 +8261,7 @@ Or, you could be working toward something. Putting in effort, trying to move for
   ],
 
 
-  categories: ["Fear", "Anxiety", "Transitions", "Inner Conflict", "Work", "Money", "Identity"]
+  categories: ["Fear", "Anxiety", "Transition", "Inner Conflict", "Work", "Money", "Identity"]
 },
 {
   slug: "running-but-cant-move-fast",
@@ -7765,7 +8339,7 @@ At the same time, it might be worth noticing why things feel slowed. Not everyth
   ],
 
 
-  categories: ["Fear", "Anxiety", "Inner Conflict", "Transitions", "Work", "Money", "Identity"]
+  categories: ["Fear", "Anxiety", "Inner Conflict", "Transition", "Work", "Money", "Identity"]
 },
 {
   slug: "white-snake",
@@ -8315,7 +8889,7 @@ Either way, you’re in it — not avoiding it.`,
   ],
 
 
-  categories: ["Hidden Emotions","Water", "Transitions", "Spiritual", "Inner Conflict", "Identity"]
+  categories: ["Hidden Emotions","Water", "Transition", "Spiritual", "Inner Conflict", "Identity"]
 },
 {
   slug: "fighting-a-demon",
@@ -8921,31 +9495,31 @@ Not every drowning dream represents danger itself. In some cases, it reflects em
   emotionalMeaning:
     `There is usually a strong sense of emotional overwhelm throughout this dream.
 
-Not simply stress in a normal sense, but the feeling that emotions, responsibilities, expectations, or internal pressure are building faster than you can emotionally process them.
+Not simply ordinary stress, but the feeling that emotions, responsibilities, expectations, or internal pressure are building faster than you can internally keep up with them.
 
-Sometimes the strongest emotion is panic. Trying to stay emotionally afloat while feeling as though something continues pulling you deeper no matter how hard you try to regain steadiness or control.
+Sometimes the strongest emotion is panic. Trying to stay mentally afloat while feeling as though something continues pulling you deeper no matter how hard you try to regain steadiness or control.
 
-Other times, the feeling is quieter but heavier. Emotional exhaustion, numbness, burnout, loneliness, or silently carrying too much internally without enough emotional recovery or support.
+Other times, the feeling is quieter but heavier. Emotional exhaustion, numbness, burnout, loneliness, or silently carrying too much internally without enough rest, recovery, or support.
 
-There can also be helplessness. Feeling emotionally trapped inside situations, pressure, emotions, or responsibilities that no longer leave enough emotional space to fully breathe or recover.
+There can also be helplessness. Feeling trapped inside situations, pressure, emotions, or responsibilities that no longer leave enough emotional space to fully breathe or recover.
 
 However, not every drowning dream reflects emotional collapse alone. In some cases, it may symbolize emotional release, vulnerability, or emotional truths becoming too strong to continue suppressing beneath the surface.`,
 
   symbolicMeaning:
-    `Symbolically, drowning often represents emotional overload, emotional suffocation, pressure, vulnerability, burnout, suppressed emotion, or becoming emotionally consumed by situations that feel difficult to control.
+    `Symbolically, drowning often represents emotional overload, emotional suffocation, pressure, vulnerability, burnout, suppressed emotion, or becoming consumed by situations that feel difficult to control.
 
 Water usually symbolizes emotions, and drowning reflects what happens when emotions stop feeling manageable and instead begin emotionally overwhelming your ability to remain balanced or steady.
 
 Unlike swimming, where there is movement and direction, drowning often symbolizes emotional helplessness, emotional survival mode, or feeling trapped inside overwhelming emotional intensity.
 
 Sometimes the dream reflects emotionally consuming situations — relationships, grief, anxiety, stress, burnout, responsibilities, emotional conflict, or pressure that continuously drains emotional energy without enough recovery.
-
-It can also symbolize emotional suppression. Feelings held inside for too long eventually becoming impossible to comfortably contain or emotionally avoid.
+emotionally avoid
+It can also symbolize emotional suppression. Feelings held inside for too long eventually becoming impossible to comfortably contain or .
 
 The inability to breathe is especially important symbolically. It often reflects emotional suffocation — the feeling that there is not enough emotional space, peace, support, rest, or emotional freedom to process everything properly.`,
 
   spiritualMeaning:
-    `Spiritually, drowning dreams can sometimes reflect emotional release, surrender, transformation, emotional imbalance, emotional awakening, or reaching the limits of what can continue being emotionally carried alone.
+    `Spiritually, drowning dreams can sometimes reflect emotional release, surrender, transformation, emotional imbalance, emotional awakening, or reaching the limits of what can continue being carried alone internally.
 
 For some people, the dream appears during periods where emotions have been suppressed, emotionally ignored, or internally contained for too long. Drowning then becomes symbolic of emotional overflow finally reaching the surface.
 
@@ -8972,7 +9546,75 @@ If the dream repeats often, it may point toward chronic stress, emotional burnou
     "Not every drowning dream represents danger itself. Some reflect emotional awareness and the recognition that something internally needs attention or release.",
     "The emotional tone of the water matters more than the symbol alone."
   ],
+  types: [
+  {
+    type: "drowning in the ocean"
+  },
+  {
+    type: "watching someone drown"
+  },
+  {
+    type: "saving someone from drowning"
+  },
+  {
+    type: "drowning but surviving"
+  },
+  {
+    type: "drowning in dark water"
+  },
+  {
+    type: "being unable to breathe underwater"
+  }
+],
+behavioralInsights: [
+  {
+    title:
+      "Why drowning dreams feel physically overwhelming",
 
+    content:
+      "Drowning dreams often feel physically intense because the subconscious combines emotional pressure with survival sensations. Difficulty breathing, sinking, panic, and helplessness create a strong bodily experience that mirrors how overwhelm can feel internally during stressful or emotionally overloaded periods."
+  },
+
+  {
+    title:
+      "Why drowning dreams appear during emotional overload",
+
+    content:
+      "Drowning dreams commonly appear when responsibilities, emotions, stress, grief, pressure, or unresolved feelings begin exceeding what feels mentally manageable. The dream often reflects the subconscious recognition that internal strain has been building for too long without enough recovery, support, or release."
+  },
+
+  {
+    title:
+      "Why drowning dreams repeat",
+
+    content:
+      "Recurring drowning dreams often reflect ongoing overwhelm, chronic stress, emotional suppression, burnout, or situations that continue draining emotional energy beneath the surface. The repetition may continue until the underlying pressure, exhaustion, or unresolved emotional strain begins receiving more attention internally."
+  },
+
+  {
+    title:
+      "The difference between panic drowning and calm drowning",
+
+    content:
+      "Panicked drowning dreams often reflect resistance, fear, anxiety, or the feeling that life has become too difficult to control. Calmer drowning dreams may sometimes reflect surrender, exhaustion, emotional release, acceptance, or awareness that something internally can no longer continue the same way."
+  },
+
+  {
+    title:
+      "Why water becomes overwhelming in drowning dreams",
+
+    content:
+      "Water in dreams usually symbolizes emotion, subconscious depth, intuition, and internal experience. Drowning occurs when those feelings stop feeling navigable and instead begin overpowering your sense of balance, control, clarity, or emotional stability."
+  },
+
+  {
+    title:
+      "Why drowning dreams often appear during burnout",
+
+    content:
+      "Drowning dreams frequently appear during burnout because the subconscious uses suffocation and sinking imagery to mirror exhaustion, depletion, pressure, and the feeling of carrying more than your mind or body comfortably wants to continue handling alone."
+  }
+],
   emotionalStates: [
     "emotional-overwhelm",
     "anxiety",
@@ -9078,7 +9720,7 @@ If the dream repeats often, it may point toward chronic stress, emotional burnou
     "emotional-overwhelm",
     "spiritual",
     "transformation",
-    "vulnerability"
+    "hidden-emotions"
   ]
 },
 {
@@ -9582,7 +10224,7 @@ If you were trying to get out, it can show awareness that you don’t want to st
   ],
 
 
-  categories: ["Fear", "Anxiety", "Hidden Emotions", "Inner Conflict", "Transitions", "Spiritual"]
+  categories: ["Fear", "Anxiety", "Hidden Emotions", "Inner Conflict", "Transition", "Spiritual"]
 },
 {
   slug: "getting-married-to-a-stranger",
@@ -9658,7 +10300,7 @@ It can also reflect internal change. Becoming someone slightly different, even i
   ],
 
 
-  categories: ["Love", "Relationships", "Transitions", "Identity", "Inner Conflict", "Spiritual"]
+  categories: ["Love", "Relationships", "Transition", "Identity", "Inner Conflict", "Spiritual"]
 },
 {
   slug: "marrying-someone-you-know",
@@ -10632,7 +11274,7 @@ If the dream repeats often, it may point toward chronic stress, emotional overlo
     "emotional-overwhelm",
     "transformation",
     "vulnerability",
-    "transitions"
+    "transition"
   ]
 },
 {
@@ -10744,7 +11386,7 @@ If the dream repeats often, it may point toward ongoing emotional restriction, b
         "Can reflect unresolved fear, emotional conflict, stress, anxiety, or situations that continue affecting you internally even when you want emotional distance from them.",
 
       symbolicMeaning:
-        "Danger inside trapped dreams often symbolizes emotional threats, unresolved tension, fear, or pressure that feels emotionally persistent beneath the surface."
+        "Danger inside trapped dreams often symbolizes emotional threats, unresolved tension, fear, or pressure that feels mentally relentless beneath the surface."
     },
 
     {
@@ -11362,7 +12004,7 @@ It can also reflect a desire to leave something behind — even if you haven’t
   ],
 
 
-  categories: ["Transformation", "Transitions", "Inner Conflict", "Fear", "Anxiety", "Identity"]
+  categories: ["Transformation", "Transition", "Inner Conflict", "Fear", "Anxiety", "Identity"]
 },
 {
   slug: "confrontation-argument",
@@ -12432,7 +13074,7 @@ However, not every argument dream reflects unresolved romantic attachment. In so
   symbolicMeaning:
     `Symbolically, arguing with an ex often represents unresolved emotional tension, inner conflict, emotional wounds, attachment patterns, communication breakdown, emotional reflection, or emotionally unfinished situations connected to the relationship.
 
-The ex commonly symbolizes more than the actual person themselves. They often represent emotional experiences, emotional habits, emotional triggers, emotional insecurities, relationship dynamics, or parts of yourself connected to that period of your life.
+The ex commonly represents more than the actual person themselves. They often represent emotional experiences, emotional habits, emotional triggers, emotional insecurities, relationship dynamics, or parts of yourself connected to that period of your life.
 
 Arguments in dreams frequently symbolize internal emotional conflict. Emotional conversations, emotional truths, frustrations, regrets, fears, or emotional needs that continue existing beneath the surface even if they are no longer openly expressed.
 
@@ -13328,7 +13970,7 @@ The emotional tone matters most. Fearful falling may reflect anxiety, insecurity
 Not every falling dream represents danger. In some cases, it reflects emotional transition, personal growth, or the uncomfortable space between who you were and who you are becoming.`,
 
   emotionalMeaning:
-    `Falling dreams often reflect emotional vulnerability, instability, anxiety, pressure, or situations where life feels emotionally difficult to steady or control.
+    `Falling dreams often reflect emotional vulnerability, instability, anxiety, pressure, or situations where life feels difficult to steady or regain control over internally.
 
 These dreams commonly appear during periods of uncertainty, emotional overwhelm, stress, insecurity, burnout, or situations where your emotional foundation no longer feels as stable as it once did.
 
@@ -13349,7 +13991,7 @@ Falling can symbolize major internal or external changes happening beneath the s
 
 Sometimes the dream reflects vulnerability more than danger. Moments where you feel emotionally exposed without the usual sense of stability, reassurance, or control you normally rely on.
 
-In deeper interpretations, falling can also symbolize transition. The emotional space between an old version of yourself and a new one still developing. That in-between state can feel emotionally uncomfortable, unstable, or uncertain even while growth is quietly taking place underneath it.`,
+In deeper interpretations, falling can also symbolize transition. The emotional space between an old version of yourself and a new one still developing. That in-between state can feel psychologically uncomfortable, unstable, or uncertain even while growth is quietly taking place underneath it.`,
 
   spiritualMeaning:
     `Spiritually, falling dreams can sometimes reflect surrender, release, emotional awakening, transformation, or detachment from emotional structures that no longer fully support your growth.
@@ -13365,7 +14007,7 @@ The emotional feeling inside the dream matters most. Panic may reflect resistanc
   wakingLifeMeaning:
     `Falling dreams often connect to waking life situations involving emotional pressure, uncertainty, instability, burnout, fear of failure, major transitions, or situations that feel emotionally difficult to manage or control.
 
-You may be dealing with stress related to relationships, work, finances, emotional exhaustion, identity, expectations, or decisions that feel emotionally risky or overwhelming.
+You may be dealing with stress related to relationships, work, finances, emotional exhaustion, identity, expectations, or decisions that feel personally risky or mentally overwhelming.
 
 Sometimes the dream reflects fear surrounding failure, losing emotional stability, disappointing others, or not being able to maintain the same level of control you once relied on.
 
@@ -13379,7 +14021,55 @@ If the dream repeats often, it may point toward ongoing emotional stress, insecu
     "Not every falling dream represents danger. Some reflect growth happening during emotionally uncertain periods.",
     "Calm falling may carry a very different emotional meaning than fearful falling."
   ],
+behavioralInsights: [
+  {
+    title:
+      "Why falling dreams feel physically real",
 
+    content:
+      "Falling dreams often feel physically intense because they activate deep subconscious survival responses connected to instability, danger, and loss of control. The sudden drop inside the dream can mirror moments in waking life where emotional certainty, security, or stability feels like it is slipping unexpectedly beneath you."
+  },
+
+  {
+    title:
+      "Why falling dreams appear during uncertainty",
+
+    content:
+      "Falling dreams commonly appear during periods where life feels unstable, unclear, or emotionally unpredictable. The subconscious often uses falling to symbolize moments where familiar emotional foundations, routines, relationships, or identities no longer feel fully steady or reliable."
+  },
+
+  {
+    title:
+      "Why endless falling dreams repeat",
+
+    content:
+      "Endless falling dreams often repeat when emotional stress, uncertainty, anxiety, or internal instability remains unresolved beneath the surface. Because the dream never reaches the ground, it can reflect situations where emotional closure, clarity, or stability still feels psychologically distant."
+  },
+
+  {
+    title:
+      "Fear versus surrender in falling dreams",
+
+    content:
+      "One reason falling dreams feel emotionally complex is because falling can symbolize both fear and surrender at the same time. Fearful falling may reflect resistance, instability, or anxiety surrounding loss of control, while calm falling may symbolize acceptance, emotional release, or learning to move through uncertainty without constant resistance."
+  },
+
+  {
+    title:
+      "Why falling dreams connect to fear of losing control",
+
+    content:
+      "Falling dreams frequently connect to fear of losing control because they remove stability suddenly and completely. The subconscious often uses falling during periods where pressure, expectations, emotional overwhelm, or major life changes create the feeling that control is becoming harder to maintain internally."
+  },
+
+  {
+    title:
+      "Why falling dreams appear during emotional transition",
+
+    content:
+      "Falling dreams commonly appear during emotionally transformative periods because transition itself can feel unstable. The dream may reflect the uncomfortable psychological space between an older version of yourself and a newer identity, direction, or emotional reality still forming beneath the surface."
+  }
+],
   types: [
     {
       type: "falling from a height",
@@ -13435,7 +14125,7 @@ If the dream repeats often, it may point toward ongoing emotional stress, insecu
       type: "falling and waking up suddenly",
 
       emotionalMeaning:
-        "Can reflect emotional shock, anxiety, hypervigilance, stress, or nervous system overwhelm during emotionally pressured periods.",
+        "Can reflect emotional shock, anxiety, hypervigilance, stress, or nervous system overwhelm during high-pressure periods.",
 
       symbolicMeaning:
         "Sudden awakening during falling dreams often symbolizes emotional alarm, survival instincts, or unresolved emotional tension beneath the surface."
@@ -13553,7 +14243,7 @@ If the dream repeats often, it may point toward ongoing emotional stress, insecu
     "anxiety",
     "transformation",
     "emotional-vulnerability",
-    "transitions"
+    "transition"
   ]
 },
 {
@@ -14216,64 +14906,65 @@ In some cases, it’s a reminder. Of what you actually want, beyond routine or e
   slug: "being-late",
   title: "Being late",
 
-  description: `Trying to get somewhere important while everything keeps slowing you down can feel frustrating, stressful, or emotionally exhausting inside a dream. No matter how hard you try, something keeps delaying you — losing time, missing directions, forgetting things, moving too slowly, or realizing you are already behind.
+description: `Trying to get somewhere important while everything keeps slowing you down can feel frustrating, stressful, or exhausting inside a dream. No matter how hard you try, something keeps delaying you — losing time, missing directions, forgetting things, moving too slowly, or realizing you are already behind.
 
-These dreams commonly appear during periods where pressure, expectations, timing, or personal progress feel emotionally heavy. Sometimes the dream reflects fear of missing opportunities. Other times, it reflects anxiety about not being where you think you should be in life yet.
+These dreams commonly appear during periods where pressure, expectations, timing, or personal progress feel heavy. Sometimes the dream reflects fear of missing opportunities. Other times, it reflects anxiety about not being where you think you should be in life yet.
 
-The feeling matters. If the dream feels rushed or panicked, it may reflect stress, fear of failure, pressure to succeed, or anxiety about falling behind. If it feels quieter or emotionally heavy instead, it can point more toward frustration, disappointment, self-pressure, or feeling emotionally out of sync with your own timeline.`,
+The feeling matters. If the dream feels rushed or panicked, it may reflect stress, fear of failure, pressure to succeed, or anxiety about falling behind. If it feels quieter or heavier instead, it can point more toward frustration, disappointment, self-pressure, or feeling out of sync with your own timeline.`,
 
-  shortDescription:
-    "Trying to reach something important while time keeps slipping away. These dreams often reflect pressure, anxiety, fear of falling behind, missed opportunities, or feeling out of sync with where you think you should be in life.",
+shortDescription:
+"Trying to reach something important while time keeps slipping away. These dreams often reflect pressure, anxiety, fear of falling behind, missed opportunities, or feeling out of sync with where you think you should be in life.",
 
-  emotional: `There is usually a quiet sense of urgency in this dream.
+emotional: `There is usually a quiet sense of urgency in this dream.
 
 Sometimes the strongest feeling is stress. Trying harder and harder while things still refuse to align properly.
 
-There can also be frustration. Feeling like effort is there, but progress still feels delayed, blocked, or constantly interrupted.
+There can also be frustration. Feeling like the effort is there, but progress remains delayed, blocked, or constantly interrupted.
 
 In some cases, the dream creates panic. The fear that something important will happen without you, or that you will disappoint someone by not arriving in time.
 
-At times, the feeling is heavier than panic. More like emotional pressure building quietly beneath the surface.
+At times, the feeling is heavier than panic. More like pressure building quietly beneath the surface.
 
-If the dream repeats, it may reflect ongoing anxiety surrounding progress, expectations, timing, or feeling emotionally stuck despite trying to move forward.`,
+If the dream repeats, it may reflect ongoing anxiety surrounding progress, expectations, timing, or feeling stuck despite trying to move forward.`,
 
-  symbolic: `Being late in a dream often symbolizes pressure surrounding timing, progress, expectations, or emotional readiness.
+symbolic: `Being late in a dream often symbolizes pressure surrounding timing, progress, expectations, or readiness.
 
 The dream is usually less about actual time and more about your relationship with where you feel you "should" be in life.
 
 It can reflect fear of missing opportunities, falling behind others, disappointing people, or not reaching goals quickly enough.
 
-Sometimes the dream points toward inner conflict between effort and progress. Trying to move forward while feeling emotionally blocked, delayed, distracted, or unsupported.
+Sometimes the dream points toward inner conflict between effort and progress. Trying to move forward while feeling blocked, delayed, distracted, or unsupported.
 
-Running without getting closer may symbolize effort without emotional movement. Missing the event entirely can reflect fear that important chances or stages of life are slipping away.
+Running without getting closer may symbolize effort without meaningful movement. Missing the event entirely can reflect fear that important opportunities or stages of life are slipping away.
 
-The destination matters too. Work, school, flights, weddings, or important meetings each shift the meaning toward different forms of pressure, responsibility, identity, or emotional expectation.`,
+The destination matters too. Work, school, flights, weddings, or important meetings each shift the meaning toward different forms of pressure, responsibility, identity, or expectation.`,
 
-  spiritual: `This dream can reflect tension between your personal timing and how life is unfolding around you.
+spiritual: `This dream can reflect tension between your personal timing and how life is unfolding around you.
 
-Sometimes it appears during periods where comparison, expectations, or internal pressure make you feel emotionally behind, even if your path is simply moving differently.
+Sometimes it appears during periods where comparison, expectations, or internal pressure make you feel behind, even if your path is simply moving differently.
 
 It can also point toward trust being tested. Learning how to continue moving forward without needing everything to happen perfectly or immediately.
 
-For some people, the dream reflects emotional misalignment. Wanting progress externally while internally still processing fear, uncertainty, or transition.
+For some people, the dream reflects a disconnect between external goals and internal readiness. Wanting progress while still working through fear, uncertainty, or transition.
 
-The emotional tone matters most. Panic may reflect resistance and pressure, while calmer emotions may point more toward reflection, patience, or learning to release unrealistic expectations around timing and control.`,
+The tone of the dream matters most. Panic may reflect resistance and pressure, while calmer emotions may point more toward reflection, patience, or learning to release unrealistic expectations around timing and control.`,
 
-  wakingLife: `This dream often appears during stressful or transitional periods where you feel pressure to keep up, succeed, achieve something, or move faster than you currently are.
+wakingLife: `This dream often appears during stressful or transitional periods where you feel pressure to keep up, succeed, achieve something, or move faster than you currently are.
 
-You may be thinking about work, relationships, finances, school, goals, aging, or personal milestones that feel emotionally tied to timing.
+You may be thinking about work, relationships, finances, school, goals, aging, or personal milestones that feel closely tied to timing.
 
-Sometimes the dream reflects comparison with others. Feeling like people around you are moving ahead while you are still trying to catch up emotionally or practically.
+Sometimes the dream reflects comparison with others. Feeling like people around you are moving ahead while you are still trying to catch up.
 
 It can also connect to delays, obstacles, burnout, overthinking, procrastination, or situations where progress feels slower than expected despite your effort.
 
 In some cases, the dream reflects pressure coming from within yourself more than from others. Expectations you quietly carry about who you should already be by now.
 
-The dream mirrors your emotional relationship with progress, pressure, timing, control, and self-worth.`,
+The dream mirrors your relationship with progress, pressure, timing, control, and self-worth.`,
 
-  summary:
-    "Being late in a dream often reflects pressure surrounding timing, expectations, progress, or fear of falling behind. These dreams commonly appear during stressful or transitional periods and highlight anxiety about missing opportunities, disappointing others, or not being where you think you should be in life yet.",
-  relatedDreams: [
+summary:
+"Being late in a dream often reflects pressure surrounding timing, expectations, progress, or fear of falling behind. These dreams commonly appear during stressful or transitional periods and highlight anxiety about missed opportunities, disappointing others, or not being where you think you should be in life yet.",
+
+relatedDreams: [
     {
       slug: "being-unprepared",
       reason:
@@ -14303,6 +14994,48 @@ The dream mirrors your emotional relationship with progress, pressure, timing, c
       slug: "arriving-just-in-time",
       reason:
         "Both dreams reflect pressure, timing, and the fear of not being ready for what is expected."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title:
+        "Why being late dreams feel stressful",
+
+      content:
+        "Dreams about being late often create anxiety because they reflect pressure, expectations, timing, responsibility, and the fear of failing to keep up with something important."
+    },
+
+    {
+      title:
+        "Why being late dreams commonly repeat",
+
+      content:
+        "Recurring dreams about being late often reflect ongoing stress, self-pressure, perfectionism, anxiety about responsibility, or fear of falling behind in life emotionally or practically."
+    },
+
+    {
+      title:
+        "Why being late dreams appear during uncertainty",
+
+      content:
+        "These dreams commonly appear during periods involving deadlines, important decisions, transitions, responsibility, stress, or situations where direction and timing feel unclear."
+    },
+
+    {
+      title:
+        "Pressure versus readiness in being late dreams",
+
+      content:
+        "Some being late dreams reflect external pressure, while others reveal internal fear surrounding readiness, capability, expectations, or uncertainty about whether you are prepared for what life currently requires."
+    },
+
+    {
+      title:
+        "Why timing becomes central in these dreams",
+
+      content:
+        "Timing often symbolizes alignment and control. Being late in the dream may reflect the feeling that life is moving faster than your sense of internal readiness."
     }
   ],
 
@@ -14720,29 +15453,31 @@ The dream mirrors your emotional relationship with progress, pressure, timing, c
   And leaves you with what that means.
   `,
 
-  wakingLifeMeaning: `
-  These dreams often appear when timing feels important.
+ wakingLifeMeaning: `
+These dreams often appear when timing feels important.
 
-  You may feel behind.
+You may feel behind.
 
-  Or pressured to act quickly.
+Or pressured to act quickly.
 
-  Sometimes it reflects comparison.
+Sometimes it reflects comparison.
 
-  Watching others move forward while questioning your own pace.
+Watching others move forward while questioning your own pace.
 
-  Other times, it reflects hesitation.
+Other times, it reflects hesitation.
 
-  Wanting something, but not moving toward it in time.
+Knowing what you want, but struggling to move toward it before the moment passes.
 
-  It can also appear during transitions.
+It can also appear during periods of transition.
 
-  When decisions feel urgent, but clarity isn’t fully there.
+When decisions feel urgent, but clarity hasn't fully arrived.
 
-  The dream mirrors that tension.
+The dream mirrors that tension.
 
-  Between readiness and movement.
-  `,
+Between readiness and movement.
+
+Between opportunity and action.
+`,
 
   contradictions: [
     "In some cases, missing a flight reflects regret and pressure around timing.",
@@ -14803,6 +15538,48 @@ The dream mirrors your emotional relationship with progress, pressure, timing, c
     }
   ],
 
+ behavioralInsights: [
+  {
+    title:
+      "Why missing a flight dreams feel urgent",
+
+    content:
+      "Dreams about missing a flight often feel urgent because they symbolize timing, movement, opportunity, and the fear that something important may move forward without you."
+  },
+
+  {
+    title:
+      "Why missing a flight dreams appear during stressful periods",
+
+    content:
+      "These dreams commonly appear during periods involving pressure, uncertainty, deadlines, major decisions, transitions, anxiety, or situations where you feel behind or unprepared."
+  },
+
+  {
+    title:
+      "Fear of missing out in flight dreams",
+
+    content:
+      "Missing a flight often symbolizes fear of lost opportunity, falling behind, making the wrong decision, or not moving quickly enough toward something important."
+  },
+
+  {
+    title:
+      "Why missing a flight dreams repeat",
+
+    content:
+      "Recurring dreams about missing flights often reflect ongoing pressure surrounding timing, readiness, uncertainty, or anxiety about opportunities and life direction."
+  },
+
+  {
+    title:
+      "Why airports commonly symbolize transition",
+
+    content:
+      "Airports often symbolize movement between different phases of life. Missing the flight can reflect uncertainty surrounding change, progress, or major transitions that feel difficult to fully commit to."
+  }
+],
+
   emotionalStates: [
     "urgency",
     "frustration",
@@ -14844,9 +15621,8 @@ The dream mirrors your emotional relationship with progress, pressure, timing, c
     "closed doors"
   ],
 
-  summary:
-    "Dreams of missing a flight reflect urgency, timing pressure, and the emotional impact of watching something move forward without you. They often appear during periods of uncertainty, hesitation, or comparison, highlighting the tension between readiness and opportunity.",
-
+ summary:
+  "Dreams of missing a flight reflect urgency, timing pressure, and the experience of watching something move forward without you. They often appear during periods of uncertainty, hesitation, or comparison, highlighting the tension between readiness and opportunity.",
   relatedDreams: [
     {
       slug: "missing-an-opportunity",
@@ -15080,7 +15856,7 @@ If the dream repeats often, it may point toward unresolved emotional stress, chr
   ],
 
   summary:
-    "Dreams about running away often reflect emotional pressure, fear, overwhelm, avoidance, or situations that feel emotionally difficult to fully confront or remain inside. These dreams commonly appear during stressful or emotionally intense periods while also symbolizing emotional survival, boundaries, self-protection, emotional exhaustion, unresolved conflict, healing, and the emotional need for freedom, relief, or distance from overwhelming situations.",
+    "Dreams about running away often reflect emotional pressure, fear, overwhelm, avoidance, or situations that feel difficult to directly face internally or remain inside. These dreams commonly appear during stressful or emotionally intense periods while also symbolizing emotional survival, boundaries, self-protection, emotional exhaustion, unresolved conflict, healing, and the emotional need for freedom, relief, or distance from overwhelming situations.",
 
   relatedDreams: [
     {
@@ -15145,7 +15921,7 @@ If the dream repeats often, it may point toward unresolved emotional stress, chr
     "anxiety",
     "emotional-overwhelm",
     "inner-conflict",
-    "transitions",
+    "transition",
     "emotional-vulnerability"
   ]
 },
@@ -15433,43 +16209,48 @@ If the dream repeats often, it may point toward chronic self-pressure, insecurit
   slug: "going-back-to-school",
   title: "Going back to school",
 
-  microSummary:
-    "Dreams about going back to school often reflect self-evaluation, emotional pressure, unresolved patterns, growth, insecurity, or situations that make you feel tested, unprepared, or emotionally uncertain again.",
+ microSummary:
+  "Dreams about going back to school often reflect self-evaluation, pressure, unresolved patterns, growth, insecurity, or situations that make you feel tested, unprepared, or uncertain again.",
 
-  shortDescription:
-    "Finding yourself back in school long after that part of life has ended while feelings of pressure, confusion, familiarity, or emotional discomfort slowly return. These dreams often reflect growth, self-evaluation, repeated emotional patterns, or situations that make you question whether you are truly ready.",
+shortDescription:
+  "Finding yourself back in school long after that part of life has ended while feelings of pressure, confusion, familiarity, or discomfort slowly return. These dreams often reflect growth, self-evaluation, repeated patterns, or situations that make you question whether you are truly ready.",
 
-  description:
-    `Going back to school in a dream can feel strange, familiar, emotionally uncomfortable, or quietly overwhelming because it places you back inside a phase of life connected to learning, pressure, expectations, structure, judgment, and personal development. Sometimes the dream feels stressful and confusing. Other times, it feels reflective — like revisiting an older emotional version of yourself from a different stage of life.
+ description: `
+Going back to school in a dream can feel strange, familiar, uncomfortable, or quietly overwhelming because it places you back inside a phase of life connected to learning, pressure, expectations, structure, judgment, and personal development. Sometimes the dream feels stressful and confusing. Other times, it feels reflective — like revisiting an older version of yourself from a different stage of life.
 
-These dreams commonly appear during periods involving emotional growth, self-doubt, uncertainty, pressure, comparison, major life transitions, identity changes, learning experiences, work stress, emotional insecurity, perfectionism, or situations where you feel emotionally tested, emotionally unprepared, or unsure of yourself again.
+These dreams commonly appear during periods involving growth, self-doubt, uncertainty, pressure, comparison, major life transitions, identity changes, learning experiences, work stress, insecurity, perfectionism, or situations where you feel tested, unprepared, or unsure of yourself again.
 
 The type of school experience can add meaning.
-Being lost at school may reflect uncertainty, confusion, emotional disconnection, or difficulty finding direction in waking life.
-Being unprepared for class or exams can symbolize insecurity, pressure, fear of failure, or emotional anxiety surrounding expectations.
-Returning to old classrooms or familiar school environments may point toward emotional patterns, memories, insecurities, or unresolved emotional themes resurfacing beneath the surface.
 
-The emotional tone matters most. If the dream feels stressful or overwhelming, it may reflect pressure, insecurity, comparison, or fear of not measuring up. If the dream feels calmer or more reflective instead, it can point toward emotional growth, revisiting old lessons, self-awareness, or understanding familiar emotional patterns differently than before.`,
+Being lost at school may reflect uncertainty, confusion, disconnection, or difficulty finding direction in waking life.
 
-  emotionalMeaning:
-    `There is usually emotional pressure or emotional self-awareness throughout this dream.
+Being unprepared for class or exams can symbolize insecurity, pressure, fear of failure, or anxiety surrounding expectations.
 
-Sometimes the strongest feeling is discomfort. Feeling emotionally placed back inside situations connected to expectations, judgment, pressure, insecurity, or emotional uncertainty you thought you had already moved beyond.
+Returning to old classrooms or familiar school environments may point toward recurring patterns, memories, insecurities, or unresolved themes resurfacing beneath the surface.
 
-There can also be anxiety. Feeling emotionally tested, evaluated, compared, or expected to prove yourself again without fully feeling prepared internally.
+The tone of the dream matters most. If it feels stressful or overwhelming, it may reflect pressure, insecurity, comparison, or fear of not measuring up. If it feels calmer or more reflective instead, it can point toward growth, revisiting old lessons, self-awareness, or understanding familiar patterns differently than before.
+`,
 
-Other times, the emotion feels quieter and more reflective. Emotional growth, awareness, nostalgia, or recognizing emotional patterns that continue repeating beneath different stages of life.
+ emotionalMeaning: `
+There is usually pressure or heightened self-awareness throughout this dream.
 
-In some cases, the dream reflects insecurity. Wondering whether you are emotionally capable enough, successful enough, prepared enough, or emotionally “behind” compared to where you believe you should be.
+Sometimes the strongest feeling is discomfort. Feeling placed back inside situations connected to expectations, judgment, pressure, insecurity, or uncertainty you thought you had already moved beyond.
 
-However, not every school dream reflects fear or emotional pressure alone. In some cases, it reflects emotional growth, learning, maturity, or the realization that certain emotional lessons are being revisited from a deeper perspective now.`,
+There can also be anxiety. Feeling tested, evaluated, compared, or expected to prove yourself again without fully feeling prepared.
+
+Other times, the dream feels quieter and more reflective. Recognizing recurring patterns, gaining perspective, or noticing lessons that continue appearing in different stages of life.
+
+In some cases, the dream reflects insecurity. Wondering whether you are capable enough, successful enough, prepared enough, or somehow behind where you believe you should be.
+
+However, not every school dream reflects fear or pressure alone. In some cases, it reflects growth, learning, maturity, or the realization that certain lessons are being revisited from a deeper perspective now.
+`,
 
   symbolicMeaning:
     `Symbolically, going back to school often represents emotional growth, self-evaluation, repeated patterns, learning experiences, insecurity, pressure, emotional development, or situations where life feels emotionally focused on progress, expectations, or personal understanding.
 
-School commonly symbolizes learning, structure, performance, rules, social comparison, emotional development, and environments where your abilities or identity feel emotionally measured.
+School commonly symbolizes learning, structure, performance, rules, social comparison, personal growth, and environments where your abilities or identity feel measured.
 
-Returning to school often symbolizes revisiting emotional lessons, patterns, fears, insecurities, or emotional themes connected to growth and self-worth.
+Revisiting emotional lessons, patterns, fears, insecurities, or emotional themes.
 
 Sometimes the dream reflects repetition. Situations in waking life appearing different on the surface while emotionally carrying the same underlying patterns, fears, pressures, or emotional struggles.
 
@@ -15482,22 +16263,23 @@ The emotional atmosphere matters most. Anxiety may reflect pressure or insecurit
 
 For some people, the dream appears during periods where emotional patterns, fears, insecurities, or unresolved lessons continue resurfacing beneath the surface of life.
 
-The dream may symbolize growth that is not fully linear. Certain emotional experiences returning again, not necessarily because you failed, but because your understanding of them is evolving.
+The dream may symbolize growth that is not fully linear. Certain experiences returning again, not necessarily because you failed, but because your understanding of them is evolving.
 
 In some interpretations, school reflects emotional preparation. Life emotionally teaching patience, awareness, resilience, boundaries, maturity, or self-understanding through repeated experiences and emotional challenges.
 
 The emotional tone matters most. Stress may reflect pressure or fear of judgment, while calmness or reflection may point more toward emotional maturity, learning, healing, or growth unfolding gradually over time.`,
 
-  wakingLifeMeaning:
-    `Dreams about going back to school often connect to waking life situations involving pressure, expectations, self-doubt, growth, comparison, emotional insecurity, learning experiences, transitions, work stress, or situations where you feel emotionally tested or emotionally uncertain again.
+ wakingLifeMeaning: `
+Dreams about going back to school often connect to waking life situations involving pressure, expectations, self-doubt, growth, comparison, insecurity, learning experiences, transitions, work stress, or situations where you feel tested or uncertain again.
 
-You may be entering unfamiliar environments, facing responsibilities, learning new skills, questioning your direction, or emotionally revisiting situations that trigger older feelings of pressure, insecurity, or emotional evaluation.
+You may be entering unfamiliar environments, facing new responsibilities, learning new skills, questioning your direction, or revisiting situations that trigger older feelings of pressure, insecurity, or self-evaluation.
 
-Sometimes the dream reflects comparison. Feeling emotionally behind others, questioning your progress, or worrying that you are not where you “should” be in life.
+Sometimes the dream reflects comparison. Feeling behind others, questioning your progress, or worrying that you are not where you think you should be in life.
 
-The dream can also appear during periods of emotional growth where life feels focused on learning, adapting, improving, or emotionally understanding yourself more honestly.
+The dream can also appear during periods of growth where life feels focused on learning, adapting, improving, or understanding yourself more honestly.
 
-If the dream repeats often, it may point toward recurring emotional patterns connected to pressure, self-worth, insecurity, perfectionism, emotional evaluation, or unresolved emotional experiences from earlier stages of life.`,
+If the dream repeats often, it may point toward recurring patterns connected to pressure, self-worth, insecurity, perfectionism, self-evaluation, or unresolved experiences from earlier stages of life.
+`,
 
   contradictions: [
     "In some cases, going back to school reflects pressure, insecurity, emotional stress, or fear of judgment.",
@@ -15568,6 +16350,48 @@ If the dream repeats often, it may point toward recurring emotional patterns con
     }
   ],
 
+  behavioralInsights: [
+    {
+      title:
+        "Why school dreams often return years later",
+
+      content:
+        "School dreams commonly return long after school itself ends because the subconscious still associates school with pressure, evaluation, expectations, learning, comparison, and personal development."
+    },
+
+    {
+      title:
+        "Why school dreams appear during self-doubt",
+
+      content:
+        "These dreams often appear during periods involving uncertainty, responsibility, insecurity, growth, performance pressure, or situations where you feel tested mentally or personally."
+    },
+
+    {
+      title:
+        "Why school dreams commonly involve confusion",
+
+      content:
+        "Many school dreams involve forgetting schedules, missing classes, or feeling unprepared because they symbolize uncertainty surrounding direction, responsibility, expectations, or confidence in waking life."
+    },
+
+    {
+      title:
+        "Why school dreams repeat",
+
+      content:
+        "Recurring school dreams often reflect ongoing self-pressure, unresolved insecurity, fear of judgment, stress, or situations where life continues feeling emotionally evaluative."
+    },
+
+    {
+      title:
+        "Growth versus pressure in school dreams",
+
+      content:
+        "Some school dreams reflect learning and personal growth, while others symbolize anxiety, comparison, performance pressure, or fear of not meeting expectations."
+    }
+  ],
+
   emotionalStates: [
     "anxiety",
     "pressure",
@@ -15614,8 +16438,8 @@ If the dream repeats often, it may point toward recurring emotional patterns con
     "unfinished assignments"
   ],
 
-  summary:
-    "Dreams about going back to school often reflect emotional growth, pressure, self-evaluation, repeated patterns, insecurity, or situations that make you feel emotionally tested or uncertain again. These dreams commonly appear during transitional or emotionally demanding periods while also symbolizing learning, maturity, comparison, unresolved emotional themes, personal development, and the emotional process of revisiting familiar lessons from a deeper perspective.",
+ summary:
+  "Dreams about going back to school often reflect self-evaluation, pressure, insecurity, growth, or recurring patterns resurfacing beneath the surface. These dreams commonly appear during periods of transition, learning, or self-doubt and highlight questions surrounding readiness, progress, expectations, and personal development.",
 
   relatedDreams: [
     {
@@ -15681,7 +16505,7 @@ If the dream repeats often, it may point toward recurring emotional patterns con
     "work",
     "spiritual",
     "inner-conflict",
-    "transitions"
+    "transition"
   ]
 },
 {
@@ -18020,22 +18844,23 @@ If the dream repeats, it may be asking you to notice where you feel disempowered
 
 The way the teeth fall matters. Sudden crumbling can reflect emotional overwhelm or pressure becoming too heavy to hold together anymore. Teeth falling out slowly or one by one may point to gradual exhaustion, insecurity growing over time, fear of aging, or the feeling that your confidence is quietly weakening little by little.
 
-At its core, this dream often connects to vulnerability — especially in situations where you feel exposed, judged, emotionally overwhelmed, or uncertain about yourself and the direction your life is taking.`,
+At its core, this dream often connects to vulnerability — especially in situations where you feel exposed, judged, overwhelmed, or uncertain about yourself and the direction your life is taking.`,
 
   shortDescription:
     "Watching your teeth fall out can feel disturbing, personal, and impossible to stop. These dreams often reflect insecurity, emotional pressure, loss of confidence, or fear that something important in your life feels unstable.",
-  microSummary:
+ 
+    microSummary:
   "Teeth falling out dreams often reflect insecurity, emotional stress, vulnerability, fear of loss, or situations affecting your confidence, stability, or self-expression.",
+  
   emotional: `Dreams about teeth falling out often carry immediate shock.
 
 There is usually a moment where you realize something important is changing, and you cannot fully stop it. That feeling can bring panic, helplessness, embarrassment, or quiet emotional dread.
 
 Teeth are deeply connected to appearance, confidence, speaking, and how secure you feel around other people. Because of that, losing them in a dream can feel intensely personal very quickly.
 
-Sometimes the strongest feeling is shame. Worrying about how others see you, or feeling emotionally exposed in a way you cannot easily hide.
+Sometimes the strongest feeling is shame. Worrying about how others see you, or feeling exposed in a way you cannot easily hide.
 
-Other times, the emotion feels heavier and quieter. Like stress has been building for too long beneath the surface, and your mind finally expresses that pressure through something physically breaking apart.
-
+Other times, the feeling is heavier and quieter. Like stress has been building for too long beneath the surface, and your mind finally expresses it through something physically breaking apart.
 If the dream repeats, it may reflect anxiety, insecurity, emotional burnout, or pressure that has not fully been acknowledged yet.`,
 
   symbolic: `Teeth in dreams often symbolize confidence, identity, communication, personal strength, and emotional stability.
@@ -18044,11 +18869,11 @@ They help you speak, bite, chew, smile, and present yourself to the world. Becau
 
 Sometimes the dream reflects fear of embarrassment, aging, rejection, or losing control over how you are perceived by others.
 
-It can also symbolize transition. Parts of your identity, life structure, or emotional foundation may no longer feel as stable as they once did.
+It can also symbolize transition. Parts of your identity, life, or sense of security may no longer feel as steady as they once did.
 
 In some cases, the dream reflects words being held back. Wanting to speak honestly, defend yourself, or express emotion, but feeling unable to do so comfortably.
 
-The condition of the teeth matters too. Healthy teeth falling out often connects more strongly to stress, insecurity, or sudden emotional instability. Rotten or damaged teeth may point toward emotional neglect, ongoing problems, or situations that have been affecting you quietly for a long time.`,
+The condition of the teeth matters too.Healthy teeth falling out often connects more strongly to stress, insecurity, or situations that suddenly feel less secure than before.`,
 
   spiritual: `Spiritually, teeth falling out is interpreted in many different ways.
 
@@ -18062,15 +18887,15 @@ The emotional tone matters most. Panic may reflect resistance, fear, or emotiona
 
   wakingLife: `This dream commonly appears during periods of stress, insecurity, emotional pressure, or major personal change.
 
-You may be dealing with relationship tension, financial pressure, confidence issues, communication struggles, appearance concerns, or situations where you feel emotionally exposed or judged.
+You may be dealing with relationship tension, financial pressure, confidence issues, communication struggles, appearance concerns, or situations where you feel exposed or judged.
 
 It can also appear when your sense of stability feels weaker than usual, especially during moments where you are questioning your worth, identity, future, or ability to keep things together.
 
-Sometimes the dream reflects communication issues directly. Wanting to say something important, defend yourself, or express emotion honestly, but feeling afraid of the outcome.
+Sometimes the dream reflects communication issues directly. Wanting to say something important, defend yourself, or speak honestly, but feeling afraid of the outcome.
 
 If the dream repeats often, it may be highlighting anxiety or emotional stress that has quietly been affecting your confidence more deeply than you realize.`,
 
-  summary: `Teeth falling out in a dream often reflects insecurity, emotional pressure, anxiety, or situations where confidence and stability feel shaken. It commonly appears during stressful periods, major transitions, or moments where you feel vulnerable, exposed, emotionally overwhelmed, or unsure of yourself and your direction in life.`,
+ summary: `Teeth falling out in a dream often reflects insecurity, anxiety, pressure, or situations where confidence and stability feel shaken. It commonly appears during stressful periods, major transitions, or moments where you feel vulnerable, exposed, overwhelmed, or uncertain about yourself and the direction your life is taking.`,
 
   relatedDreams: [
     {
@@ -18087,6 +18912,48 @@ If the dream repeats often, it may be highlighting anxiety or emotional stress t
       slug: "aging-suddenly",
       reason:
         "Both dreams reflect identity, self-understanding, and the emotional process of seeing yourself clearly."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title:
+        "Why teeth falling out dreams feel physically real",
+
+      content:
+        "Teeth falling out dreams often feel unusually vivid because teeth are closely connected to appearance, communication, confidence, control, vulnerability, and personal identity."
+    },
+
+    {
+      title:
+        "Why teeth falling out dreams appear during stress",
+
+      content:
+        "These dreams commonly appear during periods involving anxiety, insecurity, pressure, major life changes, instability, loss of control, or fear surrounding how you are perceived by others."
+    },
+
+    {
+      title:
+        "Control versus vulnerability in teeth dreams",
+
+      content:
+        "Teeth commonly symbolize confidence and stability. Losing them in the dream often reflects feelings of vulnerability, insecurity, instability, or situations where control no longer feels fully secure."
+    },
+
+    {
+      title:
+        "Why teeth falling out dreams repeat",
+
+      content:
+        "Recurring teeth dreams often reflect chronic stress, insecurity, self-consciousness, unresolved anxiety, instability, or ongoing fear surrounding change and loss of control."
+    },
+
+    {
+      title:
+        "Why appearance and identity become linked to teeth dreams",
+
+      content:
+        "The subconscious often connects teeth to self-image, confidence, attractiveness, aging, communication, and social identity, which is why these dreams commonly appear during vulnerable periods."
     }
   ],
 
@@ -23637,40 +24504,44 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   title: "A baby crying",
 
   microSummary:
-    "Dreams about a crying baby often reflect emotional vulnerability, unmet emotional needs, emotional overwhelm, neglected feelings, inner sensitivity, or something emotionally fragile asking for attention and care.",
+"Dreams about a crying baby often reflect vulnerability, unmet needs, overwhelm, neglected feelings, inner sensitivity, or something fragile asking for attention and care.",
 
-  shortDescription:
-    "Hearing or seeing a baby cry while feelings of concern, helplessness, tenderness, emotional pressure, sadness, or vulnerability rise beneath the surface.",
+shortDescription:
+"Hearing or seeing a baby cry while feelings of concern, helplessness, tenderness, pressure, sadness, or vulnerability rise beneath the surface.",
 
-  description:
-    `Dreams about a baby crying can feel emotionally heavy, stressful, heartbreaking, protective, emotionally overwhelming, or deeply tender depending on the emotional atmosphere surrounding the baby and your reaction inside the dream. Sometimes the crying feels loud, desperate, and impossible to ignore. Other times, it feels distant, soft, emotionally unsettling, or quietly sad beneath the surface.
+description:
+`Dreams about a crying baby can feel heavy, stressful, heartbreaking, protective, overwhelming, or deeply tender depending on the atmosphere surrounding the baby and your reaction inside the dream. Sometimes the crying feels loud, desperate, and impossible to ignore. Other times, it feels distant, soft, unsettling, or quietly sad beneath the surface.
 
-These dreams commonly appear during periods involving emotional vulnerability, emotional neglect, loneliness, emotional exhaustion, emotional pressure, healing, emotional sensitivity, stress, responsibility, insecurity, burnout, attachment, emotional overwhelm, inner-child wounds, emotional needs, or situations where something emotionally fragile within your life or within yourself requires attention, care, reassurance, or emotional protection.
+These dreams commonly appear during periods involving vulnerability, neglect, loneliness, exhaustion, pressure, healing, sensitivity, stress, responsibility, insecurity, burnout, attachment, inner-child wounds, unmet needs, or situations where something fragile within your life or within yourself requires attention, care, reassurance, or protection.
 
-The emotional tone matters most. Distressing or emotionally overwhelming crying baby dreams may reflect emotional exhaustion, helplessness, suppressed emotions, neglected emotional needs, fear of failing emotionally, or emotional situations that feel difficult to emotionally manage. Softer or emotionally tender crying baby dreams may point more toward emotional sensitivity, healing, compassion, emotional awareness, emotional nurturing, or becoming more emotionally connected to vulnerable parts of yourself.
+The tone of the dream matters most. Distressing or overwhelming crying baby dreams may reflect exhaustion, helplessness, suppressed feelings, neglected needs, fear of letting someone down, or situations that feel difficult to manage. Softer or more tender dreams may point toward sensitivity, healing, compassion, nurturing, or becoming more connected to vulnerable parts of yourself.
 
 The type of crying can also add meaning.
-A baby crying loudly may symbolize emotional overwhelm, emotional pressure, emotional urgency, or emotions becoming impossible to emotionally ignore.
-A baby crying while nobody responds may reflect emotional neglect, loneliness, emotional isolation, or feeling emotionally unsupported internally.
-Trying to comfort the crying baby may symbolize healing, emotional nurturing, responsibility, emotional care, or the desire emotionally to protect something vulnerable.
-Not being able to stop the crying may point toward helplessness, emotional frustration, burnout, emotional exhaustion, or emotional situations that continue emotionally demanding attention without resolution.
 
-Not every crying baby dream reflects literal children or parenting. In many cases, the baby symbolizes emotional vulnerability, emotional needs, healing, sensitivity, growth, emotional dependence, inner-child wounds, fragile beginnings, or emotionally vulnerable parts of yourself and your life asking emotionally for attention and emotional care.`,
+A baby crying loudly may symbolize urgency, pressure, or feelings becoming impossible to ignore.
 
-  emotionalMeaning:
-    `There is usually emotional vulnerability throughout this dream.
+A baby crying while nobody responds may reflect neglect, loneliness, isolation, or feeling unsupported.
 
-Sometimes the strongest feeling is concern. The emotional awareness that something emotionally fragile, emotionally vulnerable, emotionally neglected, or emotionally overwhelmed needs emotional attention and emotional care.
+Trying to comfort the crying baby may symbolize healing, nurturing, responsibility, care, or the desire to protect something vulnerable.
 
-There can also be helplessness. Feeling emotionally unable to fully comfort, emotionally protect, emotionally fix, or emotionally understand what is emotionally wrong beneath the surface.
+Not being able to stop the crying may point toward helplessness, frustration, burnout, exhaustion, or situations that continue demanding attention without resolution.
 
-Other times, the emotion feels deeply tender. Emotional sensitivity, emotional compassion, protectiveness, emotional connection, or emotional awareness becoming stronger internally.
+Not every crying baby dream reflects literal children or parenting. In many cases, the baby symbolizes vulnerability, unmet needs, healing, sensitivity, growth, dependence, inner-child wounds, fragile beginnings, or parts of yourself asking for attention and care.`,
 
-In some cases, the dream reflects emotional exhaustion. Feeling emotionally drained by responsibility, emotional pressure, emotional caregiving, emotional stress, or situations that continue emotionally demanding energy and emotional attention.
+ emotionalMeaning:
+`There is usually a sense of vulnerability throughout this dream.
 
-There may also be sadness. Especially if the baby feels emotionally abandoned, emotionally ignored, emotionally unreachable, or emotionally difficult to emotionally soothe inside the dream.
+Sometimes the strongest feeling is concern. The awareness that something fragile, neglected, overwhelmed, or vulnerable needs attention and care.
 
-However, not every crying baby dream reflects emotional suffering. In some cases, it symbolizes healing, emotional awareness, compassion, emotional nurturing, emotional honesty, or emotionally reconnecting with vulnerable parts of yourself that have remained emotionally neglected or emotionally unheard.`,
+There can also be helplessness. Feeling unable to fully comfort, protect, fix, or understand what is wrong beneath the surface.
+
+Other times, the feeling is deeply tender. Sensitivity, compassion, protectiveness, connection, or self-awareness becoming stronger internally.
+
+In some cases, the dream reflects exhaustion. Feeling drained by responsibility, pressure, caregiving, stress, or situations that continue demanding energy and attention.
+
+There may also be sadness. Especially if the baby feels abandoned, ignored, unreachable, or difficult to soothe inside the dream.
+
+However, not every crying baby dream reflects suffering. In some cases, it symbolizes healing, awareness, compassion, nurturing, honesty, or reconnecting with vulnerable parts of yourself that have remained neglected or unheard.`,
 
   symbolicMeaning:
     `Symbolically, a crying baby in dreams often represents emotional vulnerability, unmet emotional needs, emotional sensitivity, neglected emotions, healing, emotional dependence, inner-child wounds, emotional overwhelm, or emotionally fragile parts of yourself seeking emotional attention and emotional care.
@@ -23792,6 +24663,48 @@ If the dream repeats often, it may point toward unresolved emotional needs, emot
     }
   ],
 
+  behavioralInsights: [
+    {
+      title:
+        "Why a baby crying dream feels emotionally intense",
+
+      content:
+        "A crying baby often symbolizes vulnerability, emotional need, helplessness, or something important requiring care and attention. The crying creates urgency because it represents needs that feel impossible to ignore."
+    },
+
+    {
+      title:
+        "Why baby crying dreams appear during stressful periods",
+
+      content:
+        "These dreams commonly appear during periods involving exhaustion, responsibility, anxiety, overwhelm, pressure, caregiving, or situations where emotional needs are not being fully addressed."
+    },
+
+    {
+      title:
+        "Why crying babies symbolize neglected emotional needs",
+
+      content:
+        "The subconscious often uses crying babies to symbolize vulnerable emotions, neglected needs, unresolved fears, exhaustion, or parts of yourself that require more care and attention."
+    },
+
+    {
+      title:
+        "Why baby crying dreams repeat",
+
+      content:
+        "Recurring dreams about a crying baby often reflect ongoing stress, emotional neglect, burnout, unresolved vulnerability, or situations where emotional needs continue going unmet beneath the surface."
+    },
+
+    {
+      title:
+        "Responsibility versus helplessness in baby crying dreams",
+
+      content:
+        "Some baby crying dreams reflect protectiveness and care, while others symbolize pressure, helplessness, exhaustion, or fear surrounding responsibility and emotional capability."
+    }
+  ],
+
   emotionalStates: [
     "vulnerability",
     "sadness",
@@ -23838,8 +24751,8 @@ If the dream repeats often, it may point toward unresolved emotional needs, emot
     "holding a child"
   ],
 
-  summary:
-    "Dreams about a crying baby often reflect emotional vulnerability, unmet emotional needs, emotional overwhelm, healing, emotional sensitivity, or emotionally fragile parts of yourself seeking attention and emotional care. These dreams commonly appear during emotionally intense or emotionally vulnerable periods and highlight themes of compassion, emotional nurturing, loneliness, burnout, emotional honesty, healing, inner-child wounds, emotional responsibility, and emotionally reconnecting with feelings that have remained emotionally neglected beneath the surface.",
+summary:
+"Dreams about a crying baby often reflect vulnerability, unmet needs, overwhelm, healing, sensitivity, or fragile parts of yourself seeking attention and care. These dreams commonly appear during stressful or vulnerable periods and highlight themes of compassion, nurturing, loneliness, burnout, healing, inner-child wounds, responsibility, and reconnecting with feelings that have been neglected beneath the surface.",
 
   relatedDreams: [
     {
@@ -24094,6 +25007,48 @@ If the dream repeats often, it may point toward unresolved emotional confusion, 
 
       symbolicMeaning:
         "Escaping the forest commonly symbolizes emotional resolution, clarity, healing, or emotionally moving beyond confusion and uncertainty."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title:
+        "Why being lost in a forest feels emotionally isolating",
+
+      content:
+        "Forests often symbolize the unknown, emotional depth, instinct, and the subconscious. Becoming lost inside one can feel emotionally isolating because the dream reflects uncertainty without clear direction or visibility."
+    },
+
+    {
+      title:
+        "Why forest dreams appear during emotional confusion",
+
+      content:
+        "These dreams commonly appear during periods involving uncertainty, overwhelm, identity questioning, major decisions, anxiety, transitions, or situations where the future feels difficult to clearly understand."
+    },
+
+    {
+      title:
+        "Fear versus self-discovery in forest dreams",
+
+      content:
+        "Some forest dreams reflect fear, confusion, or instability, while others symbolize introspection, exploration, spiritual searching, or slowly discovering deeper parts of yourself."
+    },
+
+    {
+      title:
+        "Why lost forest dreams repeat",
+
+      content:
+        "Recurring dreams about being lost in forests often reflect unresolved uncertainty, confusion, identity searching, isolation, or situations where clarity still feels out of reach."
+    },
+
+    {
+      title:
+        "Why forests commonly symbolize the subconscious",
+
+      content:
+        "Forests are layered, dense, and difficult to fully see through, which makes them powerful symbols for hidden emotions, internal complexity, instinct, and deeper psychological areas of the mind."
     }
   ],
 
@@ -26274,6 +27229,48 @@ If the dream repeats often, it may point toward unresolved emotional confusion, 
 
       symbolicMeaning:
         "Escaping the building commonly symbolizes emotional resolution, clarity, emotional understanding, or emotionally moving beyond uncertainty and overwhelm."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title:
+        "Why being lost in a building feels mentally overwhelming",
+
+      content:
+        "Buildings often symbolize structure, identity, systems, responsibility, or organized areas of life. Becoming lost inside one can feel mentally overwhelming because the dream reflects confusion within something that should normally feel understandable or familiar."
+    },
+
+    {
+      title:
+        "Why these dreams appear during uncertainty",
+
+      content:
+        "Dreams about being lost in buildings commonly appear during periods involving uncertainty, identity confusion, pressure, transitions, career stress, instability, or difficulty finding direction."
+    },
+
+    {
+      title:
+        "Why endless hallways commonly appear in these dreams",
+
+      content:
+        "Hallways and repeating rooms often symbolize mental looping, overthinking, uncertainty, or the feeling of searching for clarity without fully reaching it."
+    },
+
+    {
+      title:
+        "Why being lost in a building dreams repeat",
+
+      content:
+        "Recurring dreams about being lost in buildings often reflect ongoing confusion, identity uncertainty, pressure, indecision, or situations where clarity continues feeling difficult to fully reach."
+    },
+
+    {
+      title:
+        "Exploration versus anxiety in lost building dreams",
+
+      content:
+        "Some lost building dreams reflect curiosity, exploration, or self-discovery, while others symbolize anxiety, pressure, confusion, or fear surrounding direction and identity."
     }
   ],
 
@@ -32082,14 +33079,14 @@ The dream mirrors that frustration.`,
     "Dreams about being pregnant with twins often reflect emotional expansion, duality, rapid personal growth, or carrying multiple important developments, responsibilities, or possibilities at the same time.",
 
   shortDescription:
-    "Carrying twins and becoming aware that multiple important changes, emotions, or possibilities are developing simultaneously. These dreams often feel emotionally intense, meaningful, overwhelming, exciting, or deeply transformative.",
+    "Carrying twins and becoming aware that multiple important changes, emotions, or possibilities are developing simultaneously. These dreams often feel intense, meaningful, overwhelming, exciting, or deeply transformative.",
 
   description:
-    `Dreams about being pregnant with twins often reflect emotional expansion, duality, growth, transformation, or carrying multiple important developments at the same time. These dreams commonly appear during periods of rapid personal growth, emotional change, major transitions, increased responsibility, emotional intensity, or situations where several parts of your life feel like they are evolving together beneath the surface.
+    `Dreams about being pregnant with twins often reflect rapid personal growth, duality, transformation, or the feeling that multiple important developments are unfolding simultaneously beneath the surface. These dreams commonly appear during periods of major transition, increased responsibility, inner change, or phases where several parts of life seem to be shifting at once.
 
 Twins add intensity to the symbolism of pregnancy. Instead of carrying one emotional development, the dream reflects duality — two emotions, paths, goals, responsibilities, identities, relationships, ideas, or versions of yourself growing side by side simultaneously.
 
-The emotional tone matters most. If the dream feels meaningful, fulfilling, or exciting, it may reflect abundance, emotional readiness, possibility, growth, or confidence surrounding what is unfolding. If the dream feels stressful or emotionally heavy instead, it can point toward pressure, emotional overload, divided focus, fear of imbalance, or anxiety surrounding the responsibility of carrying too many emotionally important things at once.
+The emotional tone matters most. If the dream feels meaningful, fulfilling, or exciting, it may reflect abundance, emotional readiness, possibility, growth, or confidence surrounding what is unfolding.If the dream feels stressful or heavy, it may reflect pressure, divided priorities, burnout, or the feeling of trying to carry too much at once.
 
 The type of twin pregnancy can also add meaning.
 Healthy or peaceful twin pregnancies may symbolize emotional alignment, abundance, balance, or growth unfolding naturally.
@@ -32101,11 +33098,11 @@ Not every dream about twins reflects pressure alone. In many cases, it symbolize
   emotionalMeaning:
     `There is often emotional intensity throughout this dream.
 
-Sometimes the strongest feeling is excitement. Feeling emotionally aware that something meaningful, emotionally important, or life-changing is developing beneath the surface of your life.
+Sometimes the strongest feeling is excitement. Feeling aware that something meaningful or life-changing is quietly developing beneath the surface of your life.
 
-There can also be surprise. Realizing situations feel emotionally bigger, emotionally faster, or emotionally more significant than expected.
+There can also be surprise. Realizing certain situations are becoming bigger, faster, or more life-changing than expected.
 
-Other times, the emotion feels overwhelming. Trying to emotionally carry multiple responsibilities, emotions, goals, expectations, relationships, or changes simultaneously without losing balance internally.
+Other times, the emotion feels overwhelming. Trying to carry multiple responsibilities, expectations, relationships, or major changes at once without losing your sense of balance.
 
 In some moments, there is anticipation. A growing awareness that important emotional change is approaching even if it has not fully arrived yet.
 
@@ -32119,8 +33116,7 @@ However, not every twin pregnancy dream reflects emotional overwhelm. In some ca
 Twins expand that symbolism through duality. The dream may reflect two major emotional developments growing together — emotionally, personally, creatively, spiritually, relationally, or within different areas of your life simultaneously.
 
 Sometimes the twins symbolize balance between opposite emotional forces. Logic and emotion. Stability and change. Fear and excitement. Independence and responsibility existing side by side.
-
-The dream can also reflect competing priorities or emotional division. Trying to emotionally nurture multiple goals, relationships, identities, responsibilities, or emotional directions simultaneously.
+The dream can also reflect divided priorities, inner conflict, or the feeling of being pulled in different directions.
 
 Because twins naturally amplify responsibility, the dream may point toward emotional growth happening faster or more intensely than you fully feel prepared for internally.
 
@@ -32148,7 +33144,7 @@ Sometimes the dream reflects anticipation surrounding emotionally important deve
 
 The dream can also appear during emotionally busy periods where several parts of your life are evolving together, creating both emotional excitement and emotional pressure simultaneously.
 
-You may feel emotionally stretched between priorities while also recognizing that your life, identity, responsibilities, or emotional world are becoming larger, fuller, or more demanding than before.
+You may feel stretched between competing priorities while also recognizing that your life and responsibilities are becoming larger or more demanding than before.
 
 If the dream repeats often, it may point toward ongoing emotional transition, emotional overload, major growth, divided focus, or the emotional challenge of balancing multiple meaningful developments simultaneously.`,
 
@@ -32221,6 +33217,47 @@ If the dream repeats often, it may point toward ongoing emotional transition, em
     }
   ],
 
+  behavioralInsights: [
+    {
+      title:
+        "Why twin pregnancy dreams feel so full",
+
+      content:
+        "Dreams about being pregnant with twins often feel full because they suggest more than one important thing developing at the same time. The dream may hold two responsibilities, two possibilities, two fears, two desires, or two versions of yourself trying to grow side by side."
+    },
+
+    {
+      title:
+        "Why twins appear during divided seasons of life",
+
+      content:
+        "Twin pregnancy dreams commonly appear when attention is split between meaningful parts of life. You may be caring about more than one future, relationship, responsibility, creative direction, or inner change, and the dream gives that divided attention a single image to hold."
+    },
+
+    {
+      title:
+        "Abundance versus pressure in twin pregnancy dreams",
+
+      content:
+        "Some twin pregnancy dreams feel like abundance, possibility, and expansion. Others feel heavy because growth is arriving with pressure. The emotional tone often shows whether the dream is reflecting a fuller life, a stretched capacity, or both at the same time."
+    },
+
+    {
+      title:
+        "Why twin pregnancy dreams can feel hard to balance",
+
+      content:
+        "Twins naturally bring up balance. The dream may appear when you are trying to hold different needs, choices, timelines, or emotional truths without letting one erase the other. It can reflect the difficulty of caring for several important things without losing yourself."
+    },
+
+    {
+      title:
+        "Why twin pregnancy dreams repeat",
+
+      content:
+        "Recurring twin pregnancy dreams often reflect ongoing growth that has not settled into one clear direction yet. The repetition may continue while you are learning how to carry expansion, responsibility, uncertainty, and hope without feeling pulled apart by them."
+    }
+  ],
   emotionalStates: [
     "anticipation",
     "emotional-overwhelm",
@@ -32361,7 +33398,7 @@ If the dream repeats often, it may point toward ongoing emotional transition, em
     "identity",
     "hidden-emotions",
     "emotional-overwhelm",
-    "transitions"
+    "transition"
   ]
 },
 ];

@@ -48,7 +48,7 @@ export default function Home() {
   <section className="max-w-3xl mx-auto px-6 pt-12 md:pt-20 pb-10 text-center">
 
     <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.15] font-serif tracking-tight mb-6">
-  Dream Interpretation: What Your Dreams Really Mean (Spiritual & Emotional Meaning)
+Dream Meanings Through Emotion, Symbolism, Spiritual insights and Life Context
 </h1>
 
 <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
@@ -62,7 +62,7 @@ export default function Home() {
   <Link href="/dreams/being-chased" className="underline mx-1">being chased</Link>, 
   <Link href="/dreams/teeth-falling-out" className="underline mx-1">losing teeth</Link>, 
   and 
-  <Link href="/dreams/snake" className="underline mx-1">snakes</Link>.
+  <Link href="/dreams/snakes" className="underline mx-1">snakes</Link>.
 </p>
 
 <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
@@ -111,7 +111,7 @@ export default function Home() {
       <Link href="/dreams/falling" className="underline">Falling dreams meaning</Link>
       <Link href="/dreams/being-chased" className="underline">Being chased dream meaning</Link>
       <Link href="/dreams/teeth-falling-out" className="underline">Teeth falling out dream meaning</Link>
-      <Link href="/dreams/snake" className="underline">Snake dream meaning</Link>
+      <Link href="/dreams/snakes" className="underline">Snake dream meaning</Link>
     </div>
 
   </div>
@@ -120,11 +120,57 @@ export default function Home() {
 </p>
 </section>
  
+{/* OUR APPROACH */}
+
+<section className="bg-[#FAF9F7] px-6 py-20 md:py-28">
+  <div className="max-w-3xl mx-auto text-center">
+
+
+<p className="mb-4 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+  Our approach
+</p>
+
+<h2 className="font-serif text-4xl md:text-5xl leading-tight text-[#1A1A1A]">
+  Dream meanings are rarely one-size-fits-all
+</h2>
+
+<div className="w-16 h-[1px] bg-[#C6A96B] mx-auto my-8 opacity-70" />
+
+<div className="space-y-6 text-base md:text-lg leading-relaxed text-[#6B6B6B]">
+  <p>
+    Many dream dictionaries assign fixed meanings to symbols.
+  </p>
+
+  <p>
+    DreamScriptures takes a different approach.
+  </p>
+
+  <p>
+    We explore dreams through emotional patterns, symbolic relationships,
+    subconscious themes, and personal context because the same dream can
+    mean something very different depending on how it feels and what is
+    happening in your life.
+  </p>
+</div>
+
+<div className="mt-10">
+  <Link
+    href="/methodology"
+    className="text-sm underline underline-offset-4 transition hover:text-[#8F743C]"
+  >
+    Read our methodology
+  </Link>
+</div>
+
+
+  </div>
+</section>
+
 
   {/* EXPLANATION */}
   <section className="max-w-3xl mx-auto px-6 pb-12 text-left">
     <h2 className="text-2xl md:text-3xl font-serif mb-4">
-      What do dreams really mean?
+      How can dreams be interpreted?
     </h2>
 
     <p className="text-[#6B6B6B] leading-relaxed mb-4">
@@ -149,8 +195,9 @@ export default function Home() {
   {/* SEO INTERNAL LINKS */}
   <section className="max-w-3xl mx-auto px-6 pb-8 text-left">
     <p className="text-sm text-[#6B6B6B]">
-      Some of the most searched dream meanings include{" "}
-      <Link href="/dreams/teeth-falling-out" className="underline">
+     Many recurring dreams revolve around fear, uncertainty,
+transformation, and emotional pressure.
+ <Link href="/dreams/teeth-falling-out" className="underline">
         teeth falling out
       </Link>
       ,{" "}
@@ -309,9 +356,12 @@ export default function Home() {
     </h2>
 
     <p className="text-[#4A4A4A] max-w-2xl leading-relaxed text-base md:text-lg">
-      We explore dreams through symbolism, emotional patterns, spiritual traditions,
-      cultural perspectives, and modern dream research.
-    </p>
+    Most dream dictionaries focus on fixed meanings.
+
+DreamScriptures explores dreams through emotional patterns,
+symbolic relationships, subconscious themes,
+and personal context.
+</p>
 
     <div className="mt-8 inline-flex items-center gap-2 text-sm text-[#6B6B6B] group">
       <span className="group-hover:text-[#1A1A1A] transition">

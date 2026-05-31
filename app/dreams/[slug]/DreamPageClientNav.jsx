@@ -12,8 +12,10 @@ const defaultNavItems = [
   { id: "multiple-meanings", label: "Multiple meanings" },
   { id: "subconscious-patterns", label: "Subconscious patterns" },
   { id: "life-situations", label: "Life situations" },
+  { id: "behavioral-insights", label: "Behavioral insights" },
   { id: "emotional-themes", label: "Emotional themes" },
   { id: "emotional-connections", label: "Emotional connections" },
+  { id: "emotional-authority-map", label: "Authority map" },
   { id: "related-dreams", label: "Related clusters" },
   { id: "faqs", label: "FAQs" },
 ];

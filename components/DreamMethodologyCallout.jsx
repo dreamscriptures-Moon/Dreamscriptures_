@@ -49,7 +49,7 @@ export default function DreamMethodologyCallout() {
 
       <div className="mt-8 flex flex-wrap gap-5 text-sm">
         <Link
-          href="/author"
+          href="/methodology"
           className="underline underline-offset-4 transition hover:text-[#8F743C]"
         >
           Read the DreamScriptures interpretation approach

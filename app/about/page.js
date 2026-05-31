@@ -4,9 +4,14 @@ import SiteHeader from "@/app/components/SiteHeader";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 
 export const metadata = {
-  title: "About DreamScriptures | Dream Meaning & Interpretation",
+  title: "About DreamScriptures | Dream Meanings, Symbolism & Interpretation",
+
   description:
-    "Learn about DreamScriptures, a modern approach to dream interpretation exploring emotional, symbolic, and spiritual meanings behind dreams.",
+    "Learn about DreamScriptures, our mission, methodology, editorial standards, and the emotional interpretation framework behind our dream meanings.",
+
+  alternates: {
+    canonical: "https://www.dreamscriptures.com/about",
+  },
 };
 
 export default function AboutPage() {
@@ -14,55 +19,94 @@ export default function AboutPage() {
     <main className="bg-[#FAF8F5] min-h-screen">
       <SiteHeader />
 
-      <div className="max-w-3xl mx-auto px-6 py-2 md:py-32">
-
+      <div className="max-w-3xl mx-auto px-6 py-16 md:py-28">
         {/* Breadcrumb */}
-        <nav className="text-sm text-[#6B6B6B] mb-6">
+        <nav className="text-sm text-[#6B6B6B] mb-8">
           <Link href="/" className="hover:underline">
             Home
           </Link>{" "}
           / <span>About</span>
         </nav>
 
-        {/* Title */}
+        <p className="mb-4 text-[11px] uppercase tracking-[0.2em] text-[#8A8175]">
+          About DreamScriptures
+        </p>
+
         <h1 className="text-4xl md:text-5xl font-serif mb-6">
           About DreamScriptures
         </h1>
 
-        {/* Intro */}
         <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-6">
-          A thoughtful, modern approach to dream interpretation.
+          A thoughtful approach to dream interpretation rooted in emotional
+          patterns, symbolism, and personal context.
         </p>
 
-        {/* SEO anchor */}
         <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
-      DreamScriptures is a growing resource for understanding dream meanings,
-interpretation, and symbolism through emotional, spiritual, and real-life perspectives.
-</p>
-<LazyMobileQuickNav />
-        <div className="space-y-10 text-[#2A2A2A] leading-loose text-base md:text-lg">
+          DreamScriptures is an independent dream interpretation resource
+          dedicated to exploring dream meanings through emotional awareness,
+          symbolic relationships, subconscious themes, and reflective insight.
+        </p>
 
+        <LazyMobileQuickNav />
+
+        <div className="space-y-14 text-[#2A2A2A] leading-loose text-base md:text-lg">
+          {/* Why Created */}
           <section>
+            <h2 className="font-serif text-2xl md:text-3xl mb-4">
+              Why DreamScriptures Was Created
+            </h2>
+
+            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+
             <p>
-              DreamScriptures was created for people seeking deeper, more
-              thoughtful dream interpretation. Too often, dream meanings online
-              feel simplistic, generic, or disconnected from real life. This
-              space exists to explore dreams with more care, nuance, and
-              perspective.
+              DreamScriptures was created to provide a more thoughtful and
+              contextual approach to dream interpretation. Many dream meaning
+              websites rely heavily on fixed definitions that often overlook
+              emotional nuance, personal experiences, and the complexity of how
+              dreams are experienced.
+            </p>
+
+            <p className="mt-6">
+              The goal was to create a resource that treats dreams as layered
+              experiences shaped by emotions, symbolism, subconscious patterns,
+              relationships, and life circumstances rather than one-size-fits-all
+              answers.
             </p>
           </section>
 
+          {/* Mission */}
           <section>
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
-              Our approach to dream interpretation
+              Our Mission
             </h2>
 
-            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6"></div>
+            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
 
             <p>
-              Dreams rarely have one fixed meaning. The same symbol can reflect
-              different things depending on your emotions, relationships,
-              beliefs, memories, and current stage of life.
+              Our mission is to build one of the most useful, trustworthy, and
+              emotionally intelligent dream interpretation resources online.
+            </p>
+
+            <p className="mt-6">
+              We aim to help readers explore possible meanings within their
+              dreams while recognizing that dream experiences are deeply personal
+              and rarely explained by a single interpretation alone.
+            </p>
+          </section>
+
+          {/* Approach */}
+          <section>
+            <h2 className="font-serif text-2xl md:text-3xl mb-4">
+              Our Approach
+            </h2>
+
+            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+
+            <p>
+              Dreams rarely have one universal meaning. The same symbol may
+              represent something entirely different depending on emotional
+              tone, personal history, relationships, beliefs, and current life
+              circumstances.
             </p>
 
             <p className="mt-6">
@@ -70,91 +114,185 @@ interpretation, and symbolism through emotional, spiritual, and real-life perspe
             </p>
 
             <ul className="mt-6 space-y-3 text-[#4A4A4A]">
-              <li>• Emotional and psychological patterns</li>
-              <li>• Symbolism and archetypal meaning</li>
-              <li>• Spiritual and religious traditions</li>
-              <li>• Cultural perspectives and folklore</li>
+              <li>• Emotional and behavioral patterns</li>
+              <li>• Symbolic and archetypal meaning</li>
+              <li>• Subconscious themes and recurring experiences</li>
+              <li>• Spiritual and reflective perspectives</li>
               <li>• Modern dream and sleep research</li>
             </ul>
           </section>
 
+          {/* Emotional Framework */}
           <section>
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
-              What we value
+              Emotional Interpretation Framework
             </h2>
-           <p className="mt-6 text-sm text-[#8A8177]">
-  This project is independently created and continuously developed to provide
-  thoughtful, meaningful, and evolving interpretations of dreams.
-</p>or explore deeper insights in{" "}
-<Link href="/guides" className="underline">
-  dream guides
-</Link>.
-            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6"></div>
+
+            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
 
             <p>
-              We value clarity over confusion, depth over generic answers, and
-              honesty over exaggerated claims. Our goal is not to define your
-              dream for you, but to help you reflect on what it may be revealing.
+              DreamScriptures is built around the idea that dreams are often
+              organized through emotion before they are organized through
+              symbols.
+            </p>
+
+            <p className="mt-6">
+              Two people may dream about the same symbol yet experience very
+              different meanings because the emotional atmosphere surrounding
+              the dream is different.
+            </p>
+
+            <p className="mt-6">
+              For this reason, interpretations consider emotional tone,
+              symbolic behavior, subconscious themes, recurring patterns, and
+              waking-life context rather than relying on fixed definitions
+              alone.
             </p>
           </section>
 
+          {/* Research */}
           <section>
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
-          A growing library of dream meanings and interpretations
-           </h2>
+              How We Research Dream Meanings
+            </h2>
 
-            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6"></div>
+            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
 
             <p>
-              DreamScriptures continues to grow as new dreams, guides, and
-              interpretations are added. It is designed as an evolving library
-              for curiosity, insight, and self-understanding.
+              DreamScriptures interpretations draw from historical dream
+              symbolism, cultural traditions, psychological and behavioral
+              concepts, dream research, and recurring themes reported across a
+              wide range of dream experiences.
             </p>
-          </section>
-<section className="mt-16 border-t border-[#EAE6E1] pt-10">
-  <h2 className="font-serif text-2xl mb-4">
-    Explore dream meanings
-  </h2>
 
-  <div className="flex flex-wrap gap-3">
-    <Link href="/dreams/falling" className="underline">
-      Falling dream meaning
-    </Link>
-    <Link href="/dreams/being-chased" className="underline">
-      Being chased dream
-    </Link>
-    <Link href="/dreams/snake" className="underline">
-      Snake dream meaning
-    </Link>
-    <Link href="/categories/fear" className="underline">
-      Fear dreams
-    </Link>
-    <Link href="/categories/anxiety" className="underline">
-      Anxiety dreams
-    </Link>
-  </div>
-</section>
-          {/* Internal linking (important for SEO) */}
-          <section>
-            <p>
-              You can explore dream meanings directly through our{" "}
-              <Link href="/dreams" className="underline">
-                dream dictionary
-              </Link>{" "}
-              or browse patterns and themes in{" "}
-              <Link href="/categories" className="underline">
-                dream categories
+            <p className="mt-6">
+              Rather than relying on a single interpretation system, meanings
+              are developed by comparing multiple perspectives and identifying
+              recurring emotional and symbolic patterns.
+            </p>
+
+            <p className="mt-6">
+              Learn more about our{" "}
+              <Link href="/methodology" className="underline">
+                interpretation methodology
               </Link>.
             </p>
           </section>
 
-          <section className="pt-8 border-t border-[#EAE6E1]">
-            <p className="font-serif text-2xl leading-relaxed">
-              Your dreams may not be random. They may be reflecting something
-              worth noticing.
+          {/* Editorial Standards */}
+          <section>
+            <h2 className="font-serif text-2xl md:text-3xl mb-4">
+              Editorial Standards
+            </h2>
+
+            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+
+            <p>
+              Content is reviewed for clarity, consistency, readability, and
+              alignment with the DreamScriptures methodology before publication.
+            </p>
+
+            <p className="mt-6">
+              Existing content may be revised, expanded, and updated as new
+              information, perspectives, and research become available.
+            </p>
+
+            <p className="mt-6">
+              View our full{" "}
+              <Link href="/editorial-standards" className="underline">
+                editorial standards
+              </Link>.
             </p>
           </section>
 
+          {/* How To Use */}
+          <section>
+            <h2 className="font-serif text-2xl md:text-3xl mb-4">
+              How to Use DreamScriptures
+            </h2>
+
+            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+
+            <p>
+              Dream interpretations are intended to be explored rather than
+              accepted as fixed answers.
+            </p>
+
+            <p className="mt-6">
+              When reading an interpretation, consider the emotions present,
+              recent life experiences, recurring themes, symbolic details, and
+              personal associations connected to the dream.
+            </p>
+
+            <p className="mt-6">
+              The most useful interpretation is often the one that resonates
+              with the emotional experience of the dream itself.
+            </p>
+          </section>
+
+          {/* Founder */}
+          <section>
+            <h2 className="font-serif text-2xl md:text-3xl mb-4">
+              About the Founder
+            </h2>
+
+            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+
+            <p>
+              DreamScriptures was founded by Amber Balentine, an independent
+              writer and dream researcher with a long-standing interest in
+              dream symbolism, recurring dream themes, emotional patterns, and
+              subconscious experiences.
+            </p>
+
+            <p className="mt-6">
+              The project began as an effort to move beyond traditional dream
+              dictionaries and explore dreams through emotional relationships,
+              symbolic behavior, and recurring subconscious patterns.
+            </p>
+
+            <p className="mt-6">
+              Over time, DreamScriptures evolved into a structured
+              interpretation framework designed to help readers explore dream
+              experiences with greater depth, context, and emotional realism.
+            </p>
+          </section>
+
+          {/* Transparency */}
+          <section>
+            <h2 className="font-serif text-2xl md:text-3xl mb-4">
+              Transparency
+            </h2>
+
+            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+
+            <p>
+              DreamScriptures is independently operated and is not affiliated
+              with any medical organization, psychological practice, academic
+              institution, governmental agency, or religious authority.
+            </p>
+
+            <p className="mt-6">
+              Content is created according to the sites methodology,
+              editorial standards, and interpretation framework.
+            </p>
+
+            <p className="mt-6">
+              Learn more through our{" "}
+              <Link href="/methodology" className="underline">
+                Methodology
+              </Link>
+              ,{" "}
+              <Link href="/editorial-standards" className="underline">
+                Editorial Standards
+              </Link>
+              , and{" "}
+              <Link href="/disclaimer" className="underline">
+                Disclaimer
+              </Link>{" "}
+              pages.
+            </p>
+          </section>
         </div>
       </div>
 

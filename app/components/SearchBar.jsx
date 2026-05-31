@@ -1,15 +1,9 @@
 "use client";
 
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
-import { dreamSearchIndex } from "@/data/dreamSearchIndex";
+import { useRouter } from "next/navigation";
+import { getBestSearchRoute, getSearchResults } from "@/lib/searchRouting";
 import Link from "next/link";
-
-const MAX_RESULTS = 8;
-const searchableDreams = dreamSearchIndex.map((item) => ({
-  slug: item.slug,
-  title: item.title,
-  normalizedTitle: item.title.toLowerCase(),
-}));
 
 function useDebouncedValue(value, delay = 300) {
   const [debouncedValue, setDebouncedValue] = useState(value);
@@ -31,8 +25,8 @@ const SearchResults = memo(function SearchResults({ results }) {
       {results.length > 0 ? (
         results.map((item) => (
           <Link
-            key={item.slug}
-            href={`/dreams/${item.slug}`}
+            key={item.href}
+            href={item.href}
             className="block px-6 py-4 hover:bg-[#FAF7F2] focus:bg-[#FAF7F2] active:bg-[#F3EEE6] transition"
           >
             <p className="font-medium">{item.title}</p>
@@ -46,6 +40,7 @@ const SearchResults = memo(function SearchResults({ results }) {
 });
 
 export default function SearchBar() {
+  const router = useRouter();
   const [query, setQuery] = useState("");
   const debouncedQuery = useDebouncedValue(query, 300);
   const displayQuery = query.trim();
@@ -53,6 +48,19 @@ export default function SearchBar() {
   const handleQueryChange = useCallback((event) => {
     setQuery(event.target.value);
   }, []);
+  const handleSubmit = useCallback(
+    (event) => {
+      event.preventDefault();
+
+      const href = getBestSearchRoute(query);
+
+      if (href) {
+        setQuery("");
+        router.push(href);
+      }
+    },
+    [query, router]
+  );
 
   useEffect(() => {
     if (normalizedQuery.length <= 2) {
@@ -75,26 +83,15 @@ export default function SearchBar() {
       return [];
     }
 
-    const matches = [];
-
-    for (const item of searchableDreams) {
-      if (item.normalizedTitle.includes(normalizedQuery)) {
-        matches.push({
-          slug: item.slug,
-          title: item.title,
-        });
-      }
-
-      if (matches.length >= MAX_RESULTS) {
-        break;
-      }
-    }
-
-    return matches;
+    return getSearchResults(normalizedQuery);
   }, [normalizedQuery]);
 
   return (
-    <form className="max-w-3xl mx-auto px-6 relative" role="search">
+    <form
+      className="max-w-3xl mx-auto px-6 relative"
+      role="search"
+      onSubmit={handleSubmit}
+    >
       <input
         type="text"
         value={query}

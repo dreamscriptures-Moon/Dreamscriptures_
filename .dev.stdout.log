@@ -5,5 +5,37 @@
 ▲ Next.js 16.2.3 (Turbopack)
 - Local:         http://localhost:3000
 - Network:       http://192.168.100.7:3000
-✓ Ready in 1165ms
-
+✓ Ready in 1165ms✓ Finished filesystem cache database compaction in 12.6s
+✓ Finished filesystem cache database compaction in 11.0s
+✓ Finished filesystem cache database compaction in 10.0s
+✓ Finished filesystem cache database compaction in 17.5s
+✓ Finished filesystem cache database compaction in 12.3s
+✓ Finished filesystem cache database compaction in 13.1s
+✓ Finished filesystem cache database compaction in 14.0s
+✓ Finished filesystem cache database compaction in 10.8s
+✓ Finished filesystem cache database compaction in 10.6s
+✓ Finished filesystem cache database compaction in 11.3s
+✓ Finished filesystem cache database compaction in 12.3s
+✓ Finished filesystem cache database compaction in 11.1s
+✓ Finished filesystem cache database compaction in 11.6s
+✓ Finished filesystem cache database compaction in 16.9s
+✓ Finished filesystem cache database compaction in 10.4s
+✓ Finished filesystem cache database compaction in 14.0s
+✓ Finished filesystem cache database compaction in 14.0s
+✓ Finished filesystem cache database compaction in 12.5s
+✓ Finished filesystem cache database compaction in 10.9s
+ GET /contact 200 in 2.7s (next.js: 937ms, application-code: 1774ms)
+ GET /contact 200 in 865ms (next.js: 379ms, application-code: 486ms)
+ GET /contact 200 in 230ms (next.js: 7ms, application-code: 223ms)
+✓ Finished filesystem cache database compaction in 12.6s
+ GET /contact 200 in 4.2s (next.js: 2.7s, application-code: 1521ms)
+ GET /contact 200 in 1180ms (next.js: 231ms, application-code: 949ms)
+ GET /contact 200 in 721ms (next.js: 16ms, application-code: 705ms)
+ GET /contact 200 in 444ms (next.js: 35ms, application-code: 409ms)
+✓ Finished filesystem cache database compaction in 26.4s
+ GET /contact 200 in 277ms (next.js: 127ms, application-code: 149ms)
+ GET /contact 200 in 1046ms (next.js: 531ms, application-code: 515ms)
+✓ Finished filesystem cache database compaction in 17.8s
+ GET /contact 200 in 668ms (next.js: 18ms, application-code: 650ms)
+ GET /contact 200 in 304ms (next.js: 14ms, application-code: 290ms)
+[?25h

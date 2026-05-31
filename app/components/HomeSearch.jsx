@@ -1,21 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
-import { dreamSearchIndex } from "@/data/dreamSearchIndex";
-
-const MAX_RESULTS = 8;
-
-function truncate(text = "", words = 14) {
-  return text.split(" ").slice(0, words).join(" ") + "...";
-}
-
-const searchableDreams = dreamSearchIndex.map((dream) => ({
-  slug: dream.slug,
-  title: dream.title,
-  normalizedTitle: dream.title.toLowerCase(),
-  snippet: truncate(dream.description, 14),
-}));
+import { getBestSearchRoute, getSearchResults } from "@/lib/searchRouting";
 
 const SUGGESTED_SEARCHES = ["falling", "snake", "being-chased", "flying"].map(
   (value) => ({
@@ -48,8 +36,8 @@ const SearchResults = memo(function SearchResults({
       {results.length > 0 ? (
         results.map((dream) => (
           <Link
-            key={dream.slug}
-            href={`/dreams/${dream.slug}`}
+            key={dream.href}
+            href={dream.href}
             onClick={() => onResultClick(dream.title)}
             className="block px-4 py-3 border-b border-[#EAE6E1] hover:bg-[#FAF9F7] focus:bg-[#FAF9F7] active:bg-[#F3EEE6] transition"
           >
@@ -100,6 +88,7 @@ const SearchInput = memo(function SearchInput({ value, onChange }) {
 });
 
 export default function HomeSearch() {
+  const router = useRouter();
   const [search, setSearch] = useState("");
   const debouncedSearch = useDebouncedValue(search, 300);
   const displayQuery = search.trim();
@@ -120,6 +109,19 @@ export default function HomeSearch() {
       }
     }, 0);
   }, []);
+  const handleSubmit = useCallback(
+    (event) => {
+      event.preventDefault();
+
+      const href = getBestSearchRoute(search);
+
+      if (href) {
+        setSearch("");
+        router.push(href);
+      }
+    },
+    [router, search]
+  );
 
   useEffect(() => {
     if (query.length <= 2) {
@@ -142,28 +144,16 @@ export default function HomeSearch() {
       return [];
     }
 
-    const matches = [];
-
-    for (const dream of searchableDreams) {
-      if (dream.normalizedTitle.includes(query)) {
-        matches.push({
-          slug: dream.slug,
-          title: dream.title,
-          snippet: dream.snippet,
-        });
-      }
-
-      if (matches.length >= MAX_RESULTS) {
-        break;
-      }
-    }
-
-    return matches;
+    return getSearchResults(query);
   }, [query]);
 
   return (
     <>
-      <form className="relative mx-auto max-w-3xl" role="search">
+      <form
+        className="relative mx-auto max-w-3xl"
+        role="search"
+        onSubmit={handleSubmit}
+      >
         <SearchInput value={search} onChange={handleSearch} />
 
         {displayQuery && query && (

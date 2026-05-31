@@ -8,6 +8,7 @@ import DreamInsightSection from "@/components/DreamInsightSection";
 import DreamMethodologyCallout from "@/components/DreamMethodologyCallout";
 import DreamEmotionalConnections from "@/components/emotions/DreamEmotionalConnections";
 import DreamEmotionalPathways from "@/components/emotions/DreamEmotionalPathways";
+import DreamSemanticAuthority from "@/components/emotions/DreamSemanticAuthority";
 import RelatedDreams from "@/components/RelatedDreams";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
@@ -32,7 +33,7 @@ import {
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import ClusterPathway from "@/app/components/ClusterPathway";
 import { getClusterGuides } from "@/lib/clusterGuides";
-import { getDreamRobots } from "@/lib/seo";
+import { getCanonicalDreamSlug, getDreamRobots } from "@/lib/seo";
 
 export function generateStaticParams() {
   return dreams.map((dream) => ({
@@ -72,7 +73,7 @@ export async function generateMetadata({ params } = {}) {
   const description = shorten(
     `Learn what dreaming about ${title} means, including emotional, spiritual, and real-life interpretations. Discover what your dream may be trying to tell you.`
   );
-  const canonicalSlug = normalizeSlug(dream?.slug || dream?.title || metadataSlug);
+  const canonicalSlug = normalizeSlug(getCanonicalDreamSlug(dream, metadataSlug));
 
   const dynamicTitle = getDynamicDreamTitle(title);
 
@@ -223,6 +224,44 @@ function DreamListSection({ id, eyebrow, title, items = [] }) {
           >
             {item}
           </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function BehavioralInsightsSection({ insights = [] }) {
+  if (insights.length === 0) {
+    return null;
+  }
+
+  return (
+    <section
+      id="behavioral-insights"
+      className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+    >
+      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+        Behavioral insights
+      </p>
+
+      <h2 className="mb-5 font-serif text-3xl md:text-4xl">
+        Why This Dream Can Feel So Specific
+      </h2>
+
+      <div className="space-y-6">
+        {insights.map((insight) => (
+          <section
+            key={insight.title}
+            id={normalizeSlug(insight.title)}
+            className="scroll-mt-28"
+          >
+            <h3 className="font-serif text-xl text-[#1A1A1A]">
+              {insight.title}
+            </h3>
+            <p className="mt-2 text-base leading-relaxed text-[#6B6B6B]">
+              {insight.content}
+            </p>
+          </section>
         ))}
       </div>
     </section>
@@ -388,12 +427,12 @@ function DreamTypesSection({ dream }) {
       className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
     >
       <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
-        Dream variations
-      </p>
+  Related interpretations
+</p>
 
-      <h2 id="dream-types-heading" className="mb-5 font-serif text-3xl md:text-4xl">
-        Types of {dream.title.toLowerCase()} Dreams
-      </h2>
+<h2 id="dream-types-heading">
+  Common {dream.title.toLowerCase()} Dream Variations
+</h2>
 
       {linkedTypes.length > 0 && (
         <div className="mb-12">
@@ -608,7 +647,7 @@ const clusterGuide = getClusterGuides().find(
     )
 );
 
-const canonicalDreamSlug = normalizeSlug(dream.slug || dream.title);
+const canonicalDreamSlug = normalizeSlug(getCanonicalDreamSlug(dream, slug));
 const primaryRelatedDream = getDreamsBySlugs(dream.relatedDreams, dreams)[0];
 
   const exploreThemes = getExploreThemes(dreams);
@@ -786,9 +825,11 @@ function getDreamContext(dream) {
   title="Life Situations Connected to This Dream"
   items={toTextItems(dream.lifeSituations)}
 />
+<BehavioralInsightsSection insights={dream.behavioralInsights || []} />
 <DreamEmotionalPathways dream={dream} />
 <DreamEmotionalThemesSection dream={dream} />
 <DreamEmotionalConnections dream={dream} />
+<DreamSemanticAuthority dream={dream} />
         {summaryText && (
           <section className="mt-20 scroll-mt-28 border-y border-[#EAE6E1] py-10 text-center md:mt-32">
             <p className="text-[11px] tracking-[0.2em] text-[#8A8175] uppercase mb-4">

@@ -225,7 +225,7 @@ export default function FAQPage() {
             </Link>
 
             <Link
-              href="/author"
+              href="/methodology"
               className="underline underline-offset-4 transition hover:text-[#8F743C]"
             >
               Interpretation approach

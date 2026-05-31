@@ -71,8 +71,6 @@ const nextConfig = {
 },
 {
   source: "/blog/what-are-dreams",
- 
- 
   destination: "/guides/what-are-dreams",
   permanent: true,
 },

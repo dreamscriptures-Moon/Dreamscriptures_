@@ -75,20 +75,51 @@ export default function ContactPage() {
             </section>
           ))}
         </section>
+<section>
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    Who You will Reach
+  </h2>
+
+  <p>
+    Messages sent through DreamScriptures are reviewed by the site founder,
+    Amber Balentine. Questions, feedback, corrections, collaboration ideas,
+    and thoughtful discussion about dream interpretation are all welcome.
+  </p>
+</section>
 
         {/* Email */}
         <div className="mt-14 pt-10 border-t border-[#E8E0D2]">
           <h2 className="font-serif text-2xl md:text-3xl mb-4">
             Email
           </h2>
-          <p className="text-base md:text-lg text-[#2A2A2A]">
-            dreamscriptures@gmail.com
-          </p>
+         <p className="text-base md:text-lg text-[#2A2A2A]">
+  dreamscriptures@gmail.com
+</p>
+
+<p className="mt-4 text-[#6B6B6B]">
+  For questions about content, corrections, partnerships, media inquiries,
+  or general feedback.
+</p>
+
           <p className="text-sm text-[#8A8177] mt-4">
   DreamScriptures is an independent project focused on thoughtful,
   emotionally grounded dream interpretation.
 </p>
         </div>
+
+<div className="mt-6 flex flex-wrap gap-4 text-sm">
+  <Link href="/methodology" className="underline">
+    Methodology
+  </Link>
+
+  <Link href="/editorial-standards" className="underline">
+    Editorial Standards
+  </Link>
+
+  <Link href="/disclaimer" className="underline">
+    Disclaimer
+  </Link>
+</div>
 
         {/* Internal link */}
         <div className="mt-6">
@@ -109,7 +140,7 @@ export default function ContactPage() {
   <div className="flex flex-wrap gap-3">
     <Link href="/dreams/falling" className="underline">Falling dream meaning</Link>
     <Link href="/dreams/being-chased" className="underline">Being chased dream</Link>
-    <Link href="/dreams/snake" className="underline">Snake dream meaning</Link>
+    <Link href="/dreams/snakes" className="underline">Snake dream meaning</Link>
     <Link href="/categories/fear" className="underline">Fear dreams</Link>
     <Link href="/categories/anxiety" className="underline">Anxiety dreams</Link>
   </div>
