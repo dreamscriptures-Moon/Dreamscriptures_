@@ -10,11 +10,11 @@ export const metadata = {
     canonical: "/",
   },
   title: {
-    default: "Dreamscriptures",
-    template: "%s | Dreamscriptures",
-  },
+  default: "DreamScriptures",
+  template: "%s | DreamScriptures",
+},
   description:
-    "Decode dreams, discover symbols, spiritual meanings, nightmares, love dreams, and deeper interpretations at Dreamscriptures.",
+    "Decode dreams, discover symbols, emotional patterns,dream symbolism, subconscious themes and spiritual insights.",
   openGraph: {
     title: "Dreamscriptures",
     description: "Decode dreams, discover symbols and spiritual meanings.",
@@ -113,7 +113,14 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-C8E9Y4L832');
           `}
         </Script>
-
+{/* Google AdSense */}
+<Script
+  id="google-adsense"
+  async
+  strategy="afterInteractive"
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7402615514555783"
+  crossOrigin="anonymous"
+/>
       </body>
     </html>
   );
