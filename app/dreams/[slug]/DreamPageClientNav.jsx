@@ -96,7 +96,7 @@ export default function DreamPageClientNav({ items = defaultNavItems }) {
   return (
     <>
       <div
-        className="fixed top-0 left-0 h-[2px] bg-[#C6A96B] z-50"
+        className="fixed top-0 left-0 h-[3px] bg-[#C6A96B] z-50"
         style={{ width: `${scrollProgress}%` }}
       />
 

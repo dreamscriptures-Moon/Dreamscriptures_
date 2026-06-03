@@ -24,15 +24,15 @@ export default function SiteFooter() {
             </h3>
 
             <nav className="mt-3 flex flex-col gap-2 text-sm text-[#5F574E]">
-              <Link href="/dreams" className="hover:text-[#8F743C]">
+              <Link href="/dreams" prefetch={false} className="hover:text-[#8F743C]">
                 Dream Dictionary
               </Link>
 
-              <Link href="/guides" className="hover:text-[#8F743C]">
+              <Link href="/guides" prefetch={false} className="hover:text-[#8F743C]">
                 Guides
               </Link>
 
-              <Link href="/faq" className="hover:text-[#8F743C]">
+              <Link href="/faq" prefetch={false} className="hover:text-[#8F743C]">
                 FAQ
               </Link>
             </nav>
@@ -45,26 +45,27 @@ export default function SiteFooter() {
             </h3>
 
             <nav className="mt-3 flex flex-col gap-2 text-sm text-[#5F574E]">
-              <Link href="/methodology" className="hover:text-[#8F743C]">
+              <Link href="/methodology" prefetch={false} className="hover:text-[#8F743C]">
                 Methodology
               </Link>
 
               <Link
                 href="/editorial-standards"
+                prefetch={false}
                 className="hover:text-[#8F743C]"
               >
                 Editorial Standards
               </Link>
 
-              <Link href="/disclaimer" className="hover:text-[#8F743C]">
+              <Link href="/disclaimer" prefetch={false} className="hover:text-[#8F743C]">
                 Disclaimer
               </Link>
 
-              <Link href="/about" className="hover:text-[#8F743C]">
+              <Link href="/about" prefetch={false} className="hover:text-[#8F743C]">
                 About
               </Link>
 
-              <Link href="/contact" className="hover:text-[#8F743C]">
+              <Link href="/contact" prefetch={false} className="hover:text-[#8F743C]">
                 Contact
               </Link>
             </nav>
@@ -77,11 +78,11 @@ export default function SiteFooter() {
           </p>
 
           <div className="flex gap-4 text-xs text-[#8A8175]">
-            <Link href="/privacy" className="hover:text-[#8F743C]">
+            <Link href="/privacy" prefetch={false} className="hover:text-[#8F743C]">
               Privacy
             </Link>
 
-            <Link href="/terms" className="hover:text-[#8F743C]">
+            <Link href="/terms" prefetch={false} className="hover:text-[#8F743C]">
               Terms
             </Link>
           </div>

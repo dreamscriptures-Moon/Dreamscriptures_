@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { dreams } from "@/data/dreams";
-import { getDreamsBySlugs, shorten } from "@/lib/dreams";
+import { shorten } from "@/lib/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 
 const relationshipGroups = [
@@ -67,7 +66,7 @@ function getRelationshipGroup(type = "") {
   );
 }
 
-export default function RelatedDreams({ slugs = [] }) {
+export default function RelatedDreams({ slugs = [], relatedDreams = [] }) {
   const relationships = slugs
     .map((item) => ({
       slug: typeof item === "string" ? item : item?.slug,
@@ -79,8 +78,6 @@ export default function RelatedDreams({ slugs = [] }) {
   const relationshipBySlug = new Map(
     relationships.map((item) => [normalizeSlug(item.slug), item])
   );
-
-  const relatedDreams = getDreamsBySlugs(relationships, dreams);
 
   if (relatedDreams.length === 0) {
     return null;
@@ -134,6 +131,7 @@ export default function RelatedDreams({ slugs = [] }) {
                   <Link
                     key={dream.slug}
                     href={href}
+                    prefetch={false}
                     className="group block border-l border-[#D8C7A0] bg-white/70 px-5 py-4 shadow-sm shadow-[#EAE6E1]/30 transition duration-200 hover:border-[#C6A96B] hover:bg-white hover:shadow-md"
                   >
                     {relationship.relationshipType && (

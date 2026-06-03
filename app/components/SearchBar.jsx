@@ -2,8 +2,17 @@
 
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { getBestSearchRoute, getSearchResults } from "@/lib/searchRouting";
 import Link from "next/link";
+
+let searchRoutingPromise;
+
+function loadSearchRouting() {
+  if (!searchRoutingPromise) {
+    searchRoutingPromise = import("@/lib/searchRouting");
+  }
+
+  return searchRoutingPromise;
+}
 
 function useDebouncedValue(value, delay = 300) {
   const [debouncedValue, setDebouncedValue] = useState(value);
@@ -42,25 +51,44 @@ const SearchResults = memo(function SearchResults({ results }) {
 export default function SearchBar() {
   const router = useRouter();
   const [query, setQuery] = useState("");
+  const [searchRouting, setSearchRouting] = useState(null);
   const debouncedQuery = useDebouncedValue(query, 300);
   const displayQuery = query.trim();
   const normalizedQuery = debouncedQuery.trim().toLowerCase();
-  const handleQueryChange = useCallback((event) => {
-    setQuery(event.target.value);
-  }, []);
-  const handleSubmit = useCallback(
+  const ensureSearchRouting = useCallback(async () => {
+    if (searchRouting) {
+      return searchRouting;
+    }
+
+    const module = await loadSearchRouting();
+    setSearchRouting(module);
+    return module;
+  }, [searchRouting]);
+  const handleQueryChange = useCallback(
     (event) => {
+      setQuery(event.target.value);
+      ensureSearchRouting();
+    },
+    [ensureSearchRouting]
+  );
+  const handleSubmit = useCallback(
+    async (event) => {
       event.preventDefault();
 
-      const href = getBestSearchRoute(query);
+      const search = await ensureSearchRouting();
+      const href = search.getBestSearchRoute(query);
 
       if (href) {
         setQuery("");
         router.push(href);
       }
     },
-    [query, router]
+    [ensureSearchRouting, query, router]
   );
+
+  const handleSearchFocus = useCallback(() => {
+    ensureSearchRouting();
+  }, [ensureSearchRouting]);
 
   useEffect(() => {
     if (normalizedQuery.length <= 2) {
@@ -79,12 +107,12 @@ export default function SearchBar() {
   }, [debouncedQuery, normalizedQuery.length]);
 
   const results = useMemo(() => {
-    if (!normalizedQuery) {
+    if (!normalizedQuery || !searchRouting) {
       return [];
     }
 
-    return getSearchResults(normalizedQuery);
-  }, [normalizedQuery]);
+    return searchRouting.getSearchResults(normalizedQuery);
+  }, [normalizedQuery, searchRouting]);
 
   return (
     <form
@@ -95,12 +123,15 @@ export default function SearchBar() {
       <input
         type="text"
         value={query}
+        onFocus={handleSearchFocus}
         onChange={handleQueryChange}
         placeholder="Search another dream..."
         className="w-full mt-10 border border-[#EAE6E1] rounded-xl px-6 py-5 bg-white shadow-sm outline-none text-base md:text-lg placeholder:text-[#A89F91] focus:border-[#C6A96B] active:border-[#C6A96B] transition"
       />
 
-      {displayQuery && normalizedQuery && <SearchResults results={results} />}
+      {displayQuery && normalizedQuery && searchRouting && (
+        <SearchResults results={results} />
+      )}
     </form>
   );
 }

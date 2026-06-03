@@ -12,7 +12,7 @@ import DreamSemanticAuthority from "@/components/emotions/DreamSemanticAuthority
 import RelatedDreams from "@/components/RelatedDreams";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-import DreamPageClientNav from "./DreamPageClientNav";
+import DreamPageClientNav from "./DreamPageClientNavDynamic";
 import { dreams } from "@/data/dreams";
 import { emotionalHubs } from "@/data/emotionalHubs";
 import {
@@ -648,7 +648,8 @@ const clusterGuide = getClusterGuides().find(
 );
 
 const canonicalDreamSlug = normalizeSlug(getCanonicalDreamSlug(dream, slug));
-const primaryRelatedDream = getDreamsBySlugs(dream.relatedDreams, dreams)[0];
+const relatedDreamItems = getDreamsBySlugs(dream.relatedDreams, dreams);
+const primaryRelatedDream = relatedDreamItems[0];
 
   const exploreThemes = getExploreThemes(dreams);
   const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
@@ -861,7 +862,7 @@ function getDreamContext(dream) {
             ))}
           </div>
         </section>
- <RelatedDreams slugs={dream.relatedDreams} />
+ <RelatedDreams slugs={dream.relatedDreams} relatedDreams={relatedDreamItems} />
 
         <p className="text-sm text-[#8A8A8A] mt-12 italic">
           Each dream is personal. Its meaning can shift depending on what you
@@ -951,4 +952,3 @@ function getDreamContext(dream) {
     </main>
   );
 }
-
