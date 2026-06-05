@@ -1,5 +1,53 @@
 export const dreamSearchIndex = [
   {
+    slug: "1111",
+    title: "1111",
+    description:
+      "Dreams or repeated experiences involving 11:11 often reflect synchronicity, heightened awareness, spiritual searching, emotional alignment, intuition, or transformation.",
+  },
+  {
+    slug: "1111",
+    title: "222",
+    description:
+      "Dreams or repeated experiences involving repeating numbers often reflect synchronicity, heightened awareness, spiritual searching, emotional alignment, intuition, or transformation.",
+  },
+  {
+    slug: "1111",
+    title: "333",
+    description:
+      "Dreams or repeated experiences involving repeating numbers often reflect synchronicity, heightened awareness, spiritual searching, emotional alignment, intuition, or transformation.",
+  },
+  {
+    slug: "1111",
+    title: "444",
+    description:
+      "Dreams or repeated experiences involving repeating numbers often reflect synchronicity, heightened awareness, spiritual searching, emotional alignment, intuition, or transformation.",
+  },
+  {
+    slug: "1111",
+    title: "666",
+    description:
+      "Dreams or repeated experiences involving repeating numbers often reflect synchronicity, heightened awareness, spiritual searching, emotional alignment, intuition, or transformation.",
+  },
+  {
+    slug: "1111",
+    title: "777",
+    description:
+      "Dreams or repeated experiences involving repeating numbers often reflect synchronicity, heightened awareness, spiritual searching, emotional alignment, intuition, or transformation.",
+  },
+  {
+    slug: "1111",
+    title: "888",
+    description:
+      "Dreams or repeated experiences involving repeating numbers often reflect synchronicity, heightened awareness, spiritual searching, emotional alignment, intuition, or transformation.",
+  },
+  {
+    slug: "1111",
+    title: "999",
+    description:
+      "Dreams or repeated experiences involving repeating numbers often reflect synchronicity, heightened awareness, spiritual searching, emotional alignment, intuition, or transformation.",
+  },
+  {
     slug: "snake",
     title: "a Snake",
     description:

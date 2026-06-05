@@ -17,27 +17,6 @@ export default function SiteFooter() {
             </p>
           </div>
 
-          {/* Explore */}
-          <div>
-            <h3 className="text-xs font-medium uppercase tracking-[0.14em] text-[#8A8175]">
-              Explore
-            </h3>
-
-            <nav className="mt-3 flex flex-col gap-2 text-sm text-[#5F574E]">
-              <Link href="/dreams" prefetch={false} className="hover:text-[#8F743C]">
-                Dream Dictionary
-              </Link>
-
-              <Link href="/guides" prefetch={false} className="hover:text-[#8F743C]">
-                Guides
-              </Link>
-
-              <Link href="/faq" prefetch={false} className="hover:text-[#8F743C]">
-                FAQ
-              </Link>
-            </nav>
-          </div>
-
           {/* Trust */}
           <div>
             <h3 className="text-xs font-medium uppercase tracking-[0.14em] text-[#8A8175]">
@@ -63,6 +42,9 @@ export default function SiteFooter() {
 
               <Link href="/about" prefetch={false} className="hover:text-[#8F743C]">
                 About
+              </Link>
+<Link href="/faq" prefetch={false} className="hover:text-[#8F743C]">
+                FAQ
               </Link>
 
               <Link href="/contact" prefetch={false} className="hover:text-[#8F743C]">

@@ -336,13 +336,13 @@ behavioralInsights: [
   ],
 
   categories: [
-    "animals",
-    "fear",
-    "anxiety",
-    "transformation",
-    "spiritual",
-    "hidden-emotions",
-    "emotional-awareness"
+    "Animals",
+    "Fear",
+    "Anxiety",
+    "Transformation",
+    "Spiritual",
+    "Hidden Emotions",
+    "Emotional Awareness"
   ]
 },
 {
@@ -561,12 +561,12 @@ If the dream repeats often, it may point toward ongoing emotional stress, avoida
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "inner-conflict",
-    "relationships",
-    "transition",
-    "suppressed-emotions"
+    "Fear",
+    "Anxiety",
+    "Inner Conflict",
+    "Relationships",
+    "Transition",
+    "Suppressed Emotions"
   ]
 },
 {
@@ -845,12 +845,12 @@ If the dream repeats often, it may point toward ongoing growth, identity develop
   ],
 
   categories: [
-    "transformation",
-    "identity",
-    "hidden-emotions",
-    "spiritual",
-    "growth",
-    "new-beginnings"
+    "Transformation",
+    "Identity",
+    "Hidden Emotions",
+    "Spiritual",
+    "Growth",
+    "New Beginnings"
   ]
 },
 {
@@ -1208,13 +1208,13 @@ If the dream repeats often, it may point toward unresolved emotional attachment,
   ],
 
   categories: [
-    "love",
-    "relationships",
-    "hidden-emotions",
-    "identity",
-    "transformation",
-    "inner-conflict",
-    "emotional-healing"
+    "Love",
+    "Relationships",
+    "Hidden Emotions",
+    "Identity",
+    "Transformation",
+    "Inner Conflict",
+    "Emotional Healing"
   ]
 },
 {
@@ -1625,14 +1625,14 @@ If the dream repeats often, it may point toward unresolved emotional stress, emo
   ],
 
   categories: [
-    "transformation",
-    "transition",
-    "fear",
-    "anxiety",
-    "hidden-emotions",
-    "identity",
-    "spiritual",
-    "emotional-intensity"
+    "Transformation",
+    "Transition",
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Identity",
+    "Spiritual",
+    "Emotional Intensity"
   ]
 },
 {
@@ -1968,12 +1968,12 @@ behavioralInsights: [
   ],
 
   categories: [
-    "transformation",
-    "transition",
-    "spiritual",
-    "identity",
-    "emotional-overwhelm",
-    "hidden-emotions"
+    "Transformation",
+    "Transition",
+    "Spiritual",
+    "Identity",
+    "Emotional Overwhelm",
+    "Hidden Emotions"
   ]
 },
 {
@@ -2305,12 +2305,12 @@ behavioralInsights: [
   ],
 
   categories: [
-    "spiritual",
-    "identity",
-    "transformation",
-    "fear",
-    "anxiety",
-    "emotional-release"
+    "Spiritual",
+    "Identity",
+    "Transformation",
+    "Fear",
+    "Anxiety",
+    "Emotional Release"
   ]
 },
 {
@@ -3175,13 +3175,13 @@ If the dream repeats often, it may point toward unresolved emotional tension, em
   ],
 
   categories: [
-    "transformation",
-    "fear",
-    "anxiety",
-    "hidden-emotions",
-    "spiritual",
-    "inner-conflict",
-    "emotional-intensity"
+    "Transformation",
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Spiritual",
+    "Inner Conflict",
+    "Emotional Intensity"
   ]
 },
 {
@@ -3453,12 +3453,12 @@ If the dream repeats often, it may point toward ongoing emotional growth, emotio
   ],
 
   categories: [
-    "transformation",
-    "identity",
-    "hidden-emotions",
-    "emotional-vulnerability",
-    "relationships",
-    "healing"
+    "Transformation",
+    "Identity",
+    "Hidden Emotions",
+    "Emotional Vulnerability",
+    "Relationships",
+    "Healing"
   ]
 },
 {
@@ -3746,12 +3746,12 @@ If the dream repeats often, it may point toward ongoing emotional growth, identi
   ],
 
   categories: [
-    "spiritual",
-    "transformation",
-    "identity",
-    "relationships",
-    "hidden-emotions",
-    "emotional-vulnerability"
+    "Spiritual",
+    "Transformation",
+    "Identity",
+    "Relationships",
+    "Hidden Emotions",
+    "Emotional Vulnerability"
   ]
 },
 {
@@ -4039,12 +4039,12 @@ If the dream repeats often, it may point toward ongoing emotional healing, emoti
   ],
 
   categories: [
-    "spiritual",
-    "identity",
-    "hidden-emotions",
-    "transformation",
-    "relationships",
-    "emotional-vulnerability"
+    "Spiritual",
+    "Identity",
+    "Hidden Emotions",
+    "Transformation",
+    "Relationships",
+    "Emotional Vulnerability"
   ]
 },
 {
@@ -5888,13 +5888,13 @@ If the dream repeats often, it may point toward unresolved attachment wounds, em
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "relationships",
-    "hidden-emotions",
-    "identity",
-    "inner-conflict",
-    "emotional-healing"
+    "Fear",
+    "Anxiety",
+    "Relationships",
+    "Hidden Emotions",
+    "Identity",
+    "Inner Conflict",
+    "Emotional Healing"
   ]
 },
 
@@ -6192,12 +6192,12 @@ If the dream repeats often, it may point toward unresolved grief, emotional exha
   ],
 
   categories: [
-    "hidden-emotions",
-    "healing",
-    "fear",
-    "anxiety",
-    "relationships",
-    "spiritual"
+    "Hidden Emotions",
+    "Healing",
+    "Fear",
+    "Anxiety",
+    "Relationships",
+    "Spiritual"
   ]
 },
 {
@@ -6534,12 +6534,12 @@ If the dream repeats often, it may point toward unresolved emotional pain, emoti
   ],
 
   categories: [
-    "hidden-emotions",
-    "healing",
-    "fear",
-    "anxiety",
-    "relationships",
-    "spiritual"
+    "Hidden Emotions",
+    "Healing",
+    "Fear",
+    "Anxiety",
+    "Relationships",
+    "Spiritual"
   ]
 },
 {
@@ -9343,10 +9343,10 @@ Either way, you’re in it — not avoiding it.`,
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "hidden-emotions",
-    "transformation"
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Transformation"
   ]
 },
 {
@@ -9625,10 +9625,10 @@ Either way, you’re in it — not avoiding it.`,
   ],
 
   categories: [
-    "spiritual",
-    "identity",
-    "transformation",
-    "emotional-growth"
+    "Spiritual",
+    "Identity",
+    "Transformation",
+    "Emotional Growth"
   ]
 },
 {
@@ -9871,12 +9871,12 @@ behavioralInsights: [
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "emotional-overwhelm",
-    "spiritual",
-    "transformation",
-    "hidden-emotions"
+    "Fear",
+    "Anxiety",
+    "Emotional Overwhelm",
+    "Spiritual",
+    "Transformation",
+    "Hidden Emotions"
   ]
 },
 {
@@ -10193,12 +10193,12 @@ types: [
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "emotional-overwhelm",
-    "inner-conflict",
-    "emotional-vulnerability",
-    "relationships"
+    "Fear",
+    "Anxiety",
+    "Emotional Overwhelm",
+    "Inner Conflict",
+    "Emotional Vulnerability",
+    "Relationships"
   ]
 },
 {
@@ -10860,13 +10860,13 @@ If the dream repeats often, it may point toward unresolved emotional attachment,
   ],
 
   categories: [
-    "love",
-    "relationships",
-    "hidden-emotions",
-    "identity",
-    "transformation",
-    "inner-conflict",
-    "emotional-healing"
+    "Love",
+    "Relationships",
+    "Hidden Emotions",
+    "Identity",
+    "Transformation",
+    "Inner Conflict",
+    "Emotional Healing"
   ]
 },
 {
@@ -11425,12 +11425,12 @@ If the dream repeats often, it may point toward chronic stress, emotional overlo
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "emotional-overwhelm",
-    "transformation",
-    "vulnerability",
-    "transition"
+    "Fear",
+    "Anxiety",
+    "Emotional Overwhelm",
+    "Transformation",
+    "Vulnerability",
+    "Transition"
   ]
 },
 {
@@ -11664,12 +11664,12 @@ If the dream repeats often, it may point toward ongoing emotional restriction, b
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "inner-conflict",
-    "emotional-overwhelm",
-    "transformation",
-    "vulnerability"
+    "Fear",
+    "Anxiety",
+    "Inner Conflict",
+    "Emotional Overwhelm",
+    "Transformation",
+    "Vulnerability"
   ]
 },
 {
@@ -12898,11 +12898,11 @@ In some cases, it reflects growth. Being able to stay present in something you w
   ],
 
   categories: [
-    "identity",
-    "transformation",
-    "spiritual",
-    "uncertainty",
-    "emotional-growth"
+    "Identity",
+    "Transformation",
+    "Spiritual",
+    "Uncertainty",
+    "Emotional Growth"
   ]
 },
 {
@@ -13181,10 +13181,10 @@ In some cases, it reflects growth. Being able to stay present in something you w
   ],
 
   categories: [
-    "relationships",
-    "hidden-emotions",
-    "identity",
-    "emotional-growth"
+    "Relationships",
+    "Hidden Emotions",
+    "Identity",
+    "Emotional Growth"
   ]
 },
 {
@@ -13485,13 +13485,13 @@ If the dream repeats often, it may point toward unresolved emotional wounds, att
   ],
 
   categories: [
-    "love",
-    "relationships",
-    "hidden-emotions",
-    "identity",
-    "inner-conflict",
-    "emotional-healing",
-    "anxiety"
+    "Love",
+    "Relationships",
+    "Hidden Emotions",
+    "Identity",
+    "Inner Conflict",
+    "Emotional Healing",
+    "Anxiety"
   ]
 },
 {
@@ -13792,13 +13792,13 @@ If the dream repeats often, it may point toward unresolved emotional dissatisfac
   ],
 
   categories: [
-    "love",
-    "relationships",
-    "hidden-emotions",
-    "identity",
-    "anxiety",
-    "transformation",
-    "inner-conflict"
+    "Love",
+    "Relationships",
+    "Hidden Emotions",
+    "Identity",
+    "Anxiety",
+    "Transformation",
+    "Inner Conflict"
   ]
 },
 {
@@ -14099,13 +14099,13 @@ If the dream repeats often, it may point toward unresolved trust wounds, insecur
   ],
 
   categories: [
-    "love",
-    "relationships",
-    "fear",
-    "anxiety",
-    "hidden-emotions",
-    "identity",
-    "inner-conflict"
+    "Love",
+    "Relationships",
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Identity",
+    "Inner Conflict"
   ]
 },
 {
@@ -14395,11 +14395,11 @@ behavioralInsights: [
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "transformation",
-    "emotional-vulnerability",
-    "transition"
+    "Fear",
+    "Anxiety",
+    "Transformation",
+    "Emotional Vulnerability",
+    "Transition"
   ]
 },
 {
@@ -15489,11 +15489,11 @@ relatedDreams: [
   ],
 
   categories: [
-    "anxiety",
-    "identity",
-    "hidden-emotions",
-    "transformation",
-    "spiritual"
+    "Anxiety",
+    "Identity",
+    "Hidden Emotions",
+    "Transformation",
+    "Spiritual"
   ]
 },
 {
@@ -15826,11 +15826,11 @@ Between opportunity and action.
   ],
 
   categories: [
-    "anxiety",
-    "fear",
-    "life-transitions",
-    "identity",
-    "emotional-growth"
+    "Anxiety",
+    "Fear",
+    "Life Transitions",
+    "Identity",
+    "Emotional Growth"
   ]
 },
 {
@@ -16073,12 +16073,12 @@ If the dream repeats often, it may point toward unresolved emotional stress, chr
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "emotional-overwhelm",
-    "inner-conflict",
-    "transition",
-    "emotional-vulnerability"
+    "Fear",
+    "Anxiety",
+    "Emotional Overwhelm",
+    "Inner Conflict",
+    "Transition",
+    "Emotional Vulnerability"
   ]
 },
 {
@@ -16353,12 +16353,12 @@ If the dream repeats often, it may point toward chronic self-pressure, insecurit
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "work",
-    "money",
-    "spiritual",
-    "inner-conflict"
+    "Fear",
+    "Anxiety",
+    "Work",
+    "Money",
+    "Spiritual",
+    "Inner Conflict"
   ]
 },
 {
@@ -16656,12 +16656,12 @@ If the dream repeats often, it may point toward recurring patterns connected to 
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "work",
-    "spiritual",
-    "inner-conflict",
-    "transition"
+    "Fear",
+    "Anxiety",
+    "Work",
+    "Spiritual",
+    "Inner Conflict",
+    "Transition"
   ]
 },
 {
@@ -16913,12 +16913,12 @@ If the dream repeats often, it may point toward chronic self-pressure, fear of f
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "work",
-    "spiritual",
-    "inner-conflict",
-    "emotional-vulnerability"
+    "Fear",
+    "Anxiety",
+    "Work",
+    "Spiritual",
+    "Inner Conflict",
+    "Emotional Vulnerability"
   ]
 },
 
@@ -17429,12 +17429,12 @@ If the dream repeats often, it may point toward ongoing identity transformation,
   ],
 
   categories: [
-    "identity",
-    "hidden-emotions",
-    "transformation",
-    "spiritual",
-    "anxiety",
-    "self-awareness"
+    "Identity",
+    "Hidden Emotions",
+    "Transformation",
+    "Spiritual",
+    "Anxiety",
+    "Self Awareness"
   ]
 },
 {
@@ -19539,7 +19539,7 @@ If the dream repeats, it may be asking you to notice whether you are meant to wa
   ],
 
 
-  categories: ["Spiritual","Water","Transformation","Water", "Fear", "Anxiety"]
+  categories: ["Spiritual", "Water", "Transformation", "Fear", "Anxiety"]
 },
 {
   slug: "killing-yourself",
@@ -20725,10 +20725,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "transformation",
-    "spiritual",
-    "hidden-emotions",
-    "emotional-growth"
+    "Animals",
+    "Transformation",
+    "Spiritual",
+    "Hidden Emotions",
+    "Emotional Growth"
   ]
 },
 {
@@ -21017,11 +21018,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "spiritual",
-    "fear",
-    "anxiety",
-    "transformation",
-    "emotional-growth"
+    "Spiritual",
+    "Fear",
+    "Anxiety",
+    "Transformation",
+    "Emotional Growth"
   ]
 },
 {
@@ -21310,11 +21311,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "life-transitions",
-    "transformation",
-    "uncertainty"
+    "Fear",
+    "Anxiety",
+    "Life Transitions",
+    "Transformation",
+    "Uncertainty"
   ]
 },
 {
@@ -21613,11 +21614,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "spiritual",
-    "transformation",
-    "hidden-emotions"
+    "Fear",
+    "Anxiety",
+    "Spiritual",
+    "Transformation",
+    "Hidden Emotions"
   ]
 },
 {
@@ -21910,12 +21911,12 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "relationships",
-    "fear",
-    "anxiety",
-    "spiritual",
-    "transformation",
-    "emotional-growth"
+    "Relationships",
+    "Fear",
+    "Anxiety",
+    "Spiritual",
+    "Transformation",
+    "Emotional Growth"
   ]
 },
 {
@@ -22200,11 +22201,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "relationships",
-    "identity",
-    "transformation",
-    "hidden-emotions",
-    "emotional-growth"
+    "Relationships",
+    "Identity",
+    "Transformation",
+    "Hidden Emotions",
+    "Emotional Growth"
   ]
 },
 {
@@ -22505,11 +22506,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "relationships",
-    "identity",
-    "emotional-growth",
-    "hidden-emotions",
-    "transformation"
+    "Relationships",
+    "Identity",
+    "Emotional Growth",
+    "Hidden Emotions",
+    "Transformation"
   ]
 },
 {
@@ -22802,10 +22803,10 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "relationships",
-    "identity",
-    "emotional-growth",
-    "hidden-emotions"
+    "Relationships",
+    "Identity",
+    "Emotional Growth",
+    "Hidden Emotions"
   ]
 },
 {
@@ -23110,11 +23111,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "hidden-emotions",
-    "transformation",
-    "emotional-growth"
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Transformation",
+    "Emotional Growth"
   ]
 },
 {
@@ -23419,11 +23420,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "emotional-growth",
-    "healing",
-    "spiritual",
-    "identity",
-    "hidden-emotions"
+    "Emotional Growth",
+    "Healing",
+    "Spiritual",
+    "Identity",
+    "Hidden Emotions"
   ]
 },
 {
@@ -23709,11 +23710,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "emotional-growth",
-    "healing",
-    "identity",
-    "hidden-emotions",
-    "spiritual"
+    "Emotional Growth",
+    "Healing",
+    "Identity",
+    "Hidden Emotions",
+    "Spiritual"
   ]
 },
 {
@@ -24007,11 +24008,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "anxiety",
-    "fear",
-    "hidden-emotions",
-    "emotional-growth",
-    "transformation"
+    "Anxiety",
+    "Fear",
+    "Hidden Emotions",
+    "Emotional Growth",
+    "Transformation"
   ]
 },
 {
@@ -24304,11 +24305,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "transformation",
-    "hidden-emotions",
-    "emotional-growth"
+    "Fear",
+    "Anxiety",
+    "Transformation",
+    "Hidden Emotions",
+    "Emotional Growth"
   ]
 },
 {
@@ -24587,11 +24588,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "relationships",
-    "identity",
-    "hidden-emotions",
-    "emotional-growth",
-    "vulnerability"
+    "Relationships",
+    "Identity",
+    "Hidden Emotions",
+    "Emotional Growth",
+    "Vulnerability"
   ]
 },
 {
@@ -24892,11 +24893,11 @@ If the dream repeats, it may be asking you to stay consistent while also recogni
   ],
 
   categories: [
-    "anxiety",
-    "identity",
-    "life-transitions",
-    "emotional-growth",
-    "uncertainty"
+    "Anxiety",
+    "Identity",
+    "Life Transitions",
+    "Emotional Growth",
+    "Uncertainty"
   ]
 },
 {
@@ -25241,13 +25242,13 @@ summary:
   ],
 
   categories: [
-    "hidden-emotions",
-    "healing",
-    "relationships",
-    "anxiety",
-    "spiritual",
-    "identity",
-    "emotional-growth"
+    "Hidden Emotions",
+    "Healing",
+    "Relationships",
+    "Anxiety",
+    "Spiritual",
+    "Identity",
+    "Emotional Growth"
   ]
 },
 {
@@ -25588,12 +25589,12 @@ If the dream repeats often, it may point toward unresolved emotional confusion, 
   ],
 
   categories: [
-    "fear",
-    "anxiety",
-    "spiritual",
-    "identity",
-    "hidden-emotions",
-    "transformation"
+    "Fear",
+    "Anxiety",
+    "Spiritual",
+    "Identity",
+    "Hidden Emotions",
+    "Transformation"
   ]
 },
 {
@@ -25893,12 +25894,12 @@ If the dream repeats often, it may point toward emotional curiosity, emotional l
   ],
 
   categories: [
-    "spiritual",
-    "hidden-emotions",
-    "identity",
-    "transformation",
-    "relationships",
-    "emotional-growth"
+    "Spiritual",
+    "Hidden Emotions",
+    "Identity",
+    "Transformation",
+    "Relationships",
+    "Emotional Growth"
   ]
 },
 
@@ -27168,6 +27169,289 @@ The dream reflects that tension between wanting progress and being held in place
   categories: ["Anxiety", "Fear", "Work"]
 },
 {
+  slug: "crows",
+
+  title: "Crows",
+
+  microSummary:
+    "Crows in dreams often reflect intelligence, hidden truths, transformation, warnings, intuition, observation, or awareness of something that feels important beneath the surface.",
+
+  shortDescription:
+    "Seeing a crow watching you, flying overhead, gathering in groups, or appearing unexpectedly. These dreams often connect to awareness, change, mystery, intuition, and situations that deserve closer attention.",
+
+  description:
+    `Crows are rarely passive dream symbols.
+
+They tend to attract attention immediately, creating the feeling that something important is happening, even if the reason is not fully clear.
+
+Unlike many birds that symbolize freedom or peace, crows often carry a stronger sense of awareness. They appear when the dream is drawing attention toward something that may be hidden, overlooked, unresolved, or waiting to be understood.
+
+Sometimes the crow feels intelligent and watchful. Other times it feels mysterious, unsettling, or difficult to interpret.
+
+These dreams commonly appear during periods of change, uncertainty, personal growth, intuition, emotional reflection, hidden tension, major decisions, or situations where you feel that something important exists beneath the surface.
+
+The emotional atmosphere matters most. Curiosity may suggest discovery and awareness. Unease may suggest uncertainty or unanswered questions. Calmness may reflect wisdom, observation, or trust in your instincts.
+
+At its core, the crow often symbolizes awareness. The recognition that something deserves your attention, whether you fully understand it yet or not.`,
+
+  emotionalMeaning:
+    `Curiosity is one of the strongest emotions associated with crow dreams.
+
+The crow often creates the feeling that there is more happening than what is immediately visible.
+
+There may also be caution. Part of you senses that something deserves closer attention before moving forward.
+
+Sometimes the dream carries unease. Not necessarily fear, but a feeling that something remains unanswered, hidden, or uncertain.
+
+For others, the crow feels comforting. Its presence may create a sense of wisdom, guidance, awareness, or trust in your own instincts.
+
+There can also be reflection. The dream encourages observation rather than immediate action.
+
+The emotional atmosphere often reveals whether the dream centers on intuition, uncertainty, transformation, hidden truths, or personal awareness.`,
+
+  symbolicMeaning:
+    `Crows often symbolize awareness, intelligence, observation, mystery, transformation, intuition, and hidden knowledge.
+
+Because they are highly observant birds, they frequently represent paying attention to details that might otherwise be ignored.
+
+A single crow may symbolize a message, realization, insight, or something that requires awareness.
+
+Multiple crows can represent overwhelming thoughts, growing concerns, collective influence, or situations becoming impossible to ignore.
+
+Flying crows often reflect movement, transition, or awareness developing over time.
+
+A crow watching you may symbolize self-awareness, intuition, or the feeling that something important is waiting to be noticed.
+
+The symbol rarely provides direct answers. Instead, it encourages observation, reflection, and attention.`,
+
+  spiritualMeaning:
+    `Many spiritual traditions associate crows with wisdom, mystery, transformation, messages, and heightened awareness.
+
+The dream may appear during periods where you are becoming more conscious of patterns, instincts, intuition, or lessons that are unfolding gradually.
+
+Sometimes the crow represents a guide through uncertainty. Not because it reveals every answer, but because it encourages trust in observation and awareness.
+
+There can also be themes of transformation. Old perspectives fading while new understanding begins to emerge.
+
+For some people, the crow symbolizes spiritual curiosity and a desire to understand deeper meanings beneath everyday experiences.
+
+The emotional atmosphere matters most. Peace may suggest trust in your intuition, while discomfort may suggest uncertainty about what is being revealed.`,
+
+  wakingLifeMeaning:
+    `Crow dreams often appear when something deserves more attention than it is currently receiving.
+
+You may be noticing inconsistencies, questioning a situation, developing stronger intuition, or becoming aware of details that previously went unnoticed.
+
+Sometimes the dream reflects personal growth. A deeper understanding of yourself, other people, or situations gradually emerging.
+
+It can also appear during periods of uncertainty when instinct is trying to guide you before clear answers become available.
+
+In some cases, the dream highlights observation itself. The need to watch, learn, reflect, and understand before taking action.
+
+The dream emphasizes awareness more than reaction.`,
+
+  contradictions: [
+    "In some cases, crows reflect wisdom, awareness, intuition, and personal growth.",
+    "For others, they reflect uncertainty, hidden tension, unanswered questions, or situations that feel difficult to understand.",
+    "Not every crow dream is a warning. Many represent observation, learning, and growing awareness.",
+    "The emotional atmosphere often matters more than the crow itself."
+  ],
+
+  types: [
+    {
+      type: "a single crow",
+
+      emotionalMeaning:
+        "Curiosity, caution, awareness, or reflection may become especially noticeable.",
+
+      symbolicMeaning:
+        "A single crow often highlights an important realization, message, observation, or insight."
+    },
+
+    {
+      type: "many crows",
+
+      emotionalMeaning:
+        "Overwhelm, fascination, uncertainty, or heightened awareness may emerge.",
+
+      symbolicMeaning:
+        "A group of crows can reflect growing concerns, collective influence, or multiple issues competing for attention."
+    },
+
+    {
+      type: "a crow watching you",
+
+      emotionalMeaning:
+        "Self-awareness, caution, curiosity, or unease may become stronger.",
+
+      symbolicMeaning:
+        "Being watched by a crow often reflects intuition, observation, or the feeling that something important is being noticed."
+    },
+
+    {
+      type: "a flying crow",
+
+      emotionalMeaning:
+        "Freedom, uncertainty, curiosity, or anticipation may appear.",
+
+      symbolicMeaning:
+        "Flying crows often symbolize movement, change, transition, or awareness developing over time."
+    },
+
+    {
+      type: "a crow entering your house",
+
+      emotionalMeaning:
+        "Surprise, discomfort, curiosity, or concern may become central.",
+
+      symbolicMeaning:
+        "The crow brings attention to something personal, private, or connected to your inner life."
+    },
+
+    {
+      type: "a dead crow",
+
+      emotionalMeaning:
+        "Relief, sadness, reflection, or uncertainty may dominate the experience.",
+
+      symbolicMeaning:
+        "A dead crow can symbolize the end of a fear, belief, concern, misunderstanding, or period of uncertainty."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why crows feel important in dreams",
+
+      insight:
+        "Crows naturally attract attention. Their intelligence and watchful nature make them powerful symbols of awareness and observation."
+    },
+
+    {
+      title: "Why crow dreams appear during uncertainty",
+
+      insight:
+        "When answers are incomplete, the mind often focuses on observation. The crow becomes a symbol of paying attention before acting."
+    },
+
+    {
+      title: "Why crows feel mysterious",
+
+      insight:
+        "Unlike symbols that provide obvious meaning, crows often represent information that is still unfolding or not fully understood."
+    },
+
+    {
+      title: "Warning versus awareness",
+
+      insight:
+        "Many people assume crows are warnings, but they more often symbolize awareness itself. The dream encourages attention rather than fear."
+    },
+
+    {
+      title: "Why crows appear during personal growth",
+
+      insight:
+        "Growth often begins with observation. Recognizing patterns, truths, and insights before meaningful change can occur."
+    },
+
+    {
+      title: "Why crow dreams repeat",
+
+      insight:
+        "Recurring crow dreams often suggest that something important continues to demand attention, reflection, or understanding."
+    }
+  ],
+
+  emotionalStates: [
+    "curiosity",
+    "awareness",
+    "uncertainty",
+    "caution",
+    "reflection",
+    "intuition",
+    "fascination"
+  ],
+
+  subconsciousPatterns: [
+    "heightened awareness",
+    "intuition",
+    "observation",
+    "personal growth",
+    "search for understanding",
+    "recognizing hidden patterns"
+  ],
+
+  emotionalTriggers: [
+    "uncertainty",
+    "major decisions",
+    "personal growth",
+    "hidden tension",
+    "important realizations",
+    "life changes"
+  ],
+
+  lifeSituations: [
+    "making important decisions",
+    "developing intuition",
+    "personal transformation",
+    "uncertain situations",
+    "discovering hidden truths",
+    "periods of reflection"
+  ],
+
+  dreamSymbols: [
+    "crow",
+    "black bird",
+    "feathers",
+    "sky",
+    "trees",
+    "flight"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "black-bird",
+      reason:
+        "Both dreams connect through mystery, awareness, observation, and hidden meaning."
+    },
+    {
+      slug: "owl",
+      reason:
+        "These dreams often explore wisdom, intuition, observation, and deeper understanding."
+    },
+    {
+      slug: "darkness",
+      reason:
+        "Both dreams can involve uncertainty, the unknown, and what remains hidden from immediate view."
+    },
+    {
+      slug: "black-door",
+      reason:
+        "These dreams connect through mystery, curiosity, and unexplored territory."
+    },
+    {
+      slug: "snake",
+      reason:
+        "Both symbols commonly appear during periods of transformation, awareness, and personal growth."
+    },
+    {
+      slug: "being-watched",
+      reason:
+        "These dreams often involve observation, awareness, intuition, and attention directed toward something important."
+    }
+  ],
+
+  categories: [
+    "Spiritual",
+    "Transformation",
+    "Hidden Emotions",
+    "Identity",
+"Animals",
+    "Life Transitions"
+  ]
+},
+{
   slug: "1111",
   title: "11:11",
 
@@ -27461,12 +27745,12 @@ If the dream repeats often, it may point toward emotional searching, spiritual c
   ],
 
   categories: [
-    "spiritual",
-    "identity",
-    "transformation",
-    "hidden-emotions",
-    "healing",
-    "emotional-growth"
+    "Spiritual",
+    "Identity",
+    "Transformation",
+    "Hidden Emotions",
+    "Healing",
+    "Emotional Growth"
   ]
 },
 {
@@ -27810,12 +28094,12 @@ If the dream repeats often, it may point toward unresolved emotional confusion, 
   ],
 
   categories: [
-    "anxiety",
-    "identity",
-    "hidden-emotions",
-    "fear",
-    "transformation",
-    "spiritual"
+    "Anxiety",
+    "Identity",
+    "Hidden Emotions",
+    "Fear",
+    "Transformation",
+    "Spiritual"
   ]
 },
 {
@@ -29076,11 +29360,293 @@ The dream connects to moments where progress feels unclear or slow.`,
   ],
 
   categories: [
-    "anxiety",
-    "identity",
-    "emotional-growth",
+    "Anxiety",
+    "Identity",
+    "Emotional Growth",
+    "Fear",
+    "Life Transitions"
+  ]
+},
+{
+  slug: "seeing-your-own-death",
+
+  title: "Seeing Your Own Death",
+
+  microSummary:
+    "Seeing your own death in a dream often reflects personal transformation, identity shifts, emotional endings, or the realization that an old version of yourself is beginning to fade.",
+
+  shortDescription:
+    "Witnessing your own death or becoming aware of it within the dream. These dreams often connect to major life transitions, personal growth, emotional release, identity changes, and the ending of one chapter before another begins.",
+
+  description:
+    `Seeing your own death can be one of the most powerful dream experiences because it feels deeply personal.
+
+The dream rarely points to physical death. Instead, it often reflects change that feels significant enough to resemble an ending.
+
+Sometimes the dream appears when an old version of yourself no longer fits who you are becoming. Beliefs, habits, relationships, goals, roles, or parts of your identity may be changing in ways that feel permanent.
+
+The experience can feel frightening because endings naturally create uncertainty. Even positive growth can involve letting go of something familiar.
+
+In other cases, the dream feels peaceful. There may be acceptance, relief, or a quiet awareness that a difficult period is finally ending.
+
+The emotional atmosphere matters most. Fear may reflect resistance to change, while calmness may suggest acceptance of a transformation already taking place.
+
+At its core, the dream reflects the ending of one phase of life and the emergence of another.`,
+
+  emotionalMeaning:
+    `Fear is often the first emotion people remember.
+
+There can be shock, vulnerability, or uncertainty as you witness something that feels impossible or deeply significant.
+
+Sometimes sadness becomes stronger. The dream may highlight attachment to parts of life, identity, relationships, or routines that are changing.
+
+For others, the experience feels surprisingly calm. Instead of panic, there is acceptance or relief.
+
+There can also be reflection. The dream encourages awareness of who you have been, who you are now, and who you may be becoming.
+
+In some cases, the strongest feeling is freedom. The ending feels less like loss and more like release from something that no longer belongs in your life.
+
+The emotional atmosphere often reveals whether the dream centers on fear, growth, grief, acceptance, or transformation.`,
+
+  symbolicMeaning:
+    `Your own death symbolizes transformation.
+
+The image represents an ending connected to identity, habits, beliefs, relationships, life direction, emotional patterns, or personal development.
+
+Unlike dreams about another person's death, the focus remains on your own evolution.
+
+The experience often appears when a significant internal shift is taking place. Something familiar is ending so something new can emerge.
+
+The dream may also highlight release. Old fears, attachments, expectations, or limitations gradually losing their influence.
+
+In some cases, the symbol points toward emotional maturity. Recognizing that growth often requires leaving parts of the past behind.
+
+The image captures the transition between who you were and who you are becoming.`,
+
+  spiritualMeaning:
+    `Spiritually, seeing your own death is often connected to rebirth.
+
+Many traditions view symbolic death as part of transformation. One stage of development ends so another can begin.
+
+The dream may appear during periods of awakening, self-discovery, healing, personal growth, or major life transitions.
+
+Sometimes it reflects surrender. Releasing the need to control every outcome and allowing change to unfold naturally.
+
+There can also be themes of renewal. What appears to be ending may actually be creating space for something more aligned with who you are becoming.
+
+The emotional atmosphere matters most. Fear may suggest resistance to change, while peace may suggest trust in the transformation taking place.`,
+
+  wakingLifeMeaning:
+    `These dreams frequently appear during major turning points.
+
+You may be experiencing personal growth, relationship changes, career transitions, healing, loss, recovery, spiritual development, or shifts in identity.
+
+Sometimes the dream reflects awareness that life can no longer continue exactly as it once did.
+
+It can also appear when old patterns are losing their influence and new priorities are emerging.
+
+The experience may highlight the gap between your past self and the person you are becoming.
+
+Rather than predicting an event, the dream often reflects internal change already happening beneath the surface.`,
+
+  contradictions: [
+    "In some cases, seeing your own death reflects fear, uncertainty, or resistance to major change.",
+    "For others, it symbolizes growth, freedom, healing, and personal transformation.",
+    "Not every death of the self represents loss. Some represent renewal and the beginning of a new chapter.",
+    "The emotional atmosphere often matters more than the death itself."
+  ],
+
+  types: [
+    {
+      type: "dying peacefully",
+
+      emotionalMeaning:
+        "Acceptance, relief, calmness, or readiness for change may become central.",
+
+      symbolicMeaning:
+        "A peaceful death often reflects healing, closure, and transformation unfolding naturally."
+    },
+
+    {
+      type: "watching yourself die",
+
+      emotionalMeaning:
+        "Shock, reflection, curiosity, or emotional distance may stand out strongly.",
+
+      symbolicMeaning:
+        "Observing your own death highlights awareness of personal change and identity transformation."
+    },
+
+    {
+      type: "dying suddenly",
+
+      emotionalMeaning:
+        "Fear, vulnerability, uncertainty, or loss of control may become amplified.",
+
+      symbolicMeaning:
+        "Sudden death often reflects unexpected change or rapid shifts in life circumstances."
+    },
+
+    {
+      type: "dying and feeling calm",
+
+      emotionalMeaning:
+        "Peace, acceptance, surrender, or emotional resolution may dominate the experience.",
+
+      symbolicMeaning:
+        "The calm response suggests readiness to leave something behind and move forward."
+    },
+
+    {
+      type: "dying and coming back to life",
+
+      emotionalMeaning:
+        "Hope, relief, resilience, or renewal may become especially noticeable.",
+
+      symbolicMeaning:
+        "Death followed by revival symbolizes rebirth, recovery, and emerging from a period of transformation."
+    },
+
+    {
+      type: "repeated dreams of your own death",
+
+      emotionalMeaning:
+        "Ongoing uncertainty, reflection, or awareness of change may continue resurfacing.",
+
+      symbolicMeaning:
+        "Recurring dreams often suggest a transformation that is still unfolding or not yet fully understood."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why seeing your own death feels so intense",
+
+      insight:
+        "Few symbols feel more personal. The dream places your own identity at the center, making change feel impossible to ignore."
+    },
+
+    {
+      title: "Why these dreams appear during transformation",
+
+      insight:
+        "Major growth often requires leaving older versions of yourself behind. The mind uses death to represent endings that feel permanent."
+    },
+
+    {
+      title: "Why fear appears even during positive change",
+
+      insight:
+        "The unknown creates uncertainty. Even beneficial changes can trigger anxiety when familiar parts of life begin disappearing."
+    },
+
+    {
+      title: "Fear versus freedom",
+
+      insight:
+        "Some people experience the dream as terrifying, while others experience relief. The difference often reflects whether change feels forced or welcomed."
+    },
+
+    {
+      title: "Why these dreams repeat",
+
+      insight:
+        "Recurring versions often appear when a major transition remains unfinished or when identity changes are still developing."
+    },
+
+    {
+      title: "Why the dream is rarely about literal death",
+
+      insight:
+        "Most versions focus on psychological, emotional, or personal change rather than physical events. The symbol reflects transformation more often than loss."
+    }
+  ],
+
+  emotionalStates: [
     "fear",
-    "life-transitions"
+    "uncertainty",
+    "acceptance",
+    "relief",
+    "vulnerability",
+    "reflection",
+    "transformation"
+  ],
+
+  subconsciousPatterns: [
+    "identity change",
+    "personal growth",
+    "fear of change",
+    "letting go",
+    "self-discovery",
+    "emotional transition"
+  ],
+
+  emotionalTriggers: [
+    "major life changes",
+    "personal growth",
+    "relationship endings",
+    "career transitions",
+    "healing",
+    "uncertainty about the future"
+  ],
+
+  lifeSituations: [
+    "identity shifts",
+    "starting over",
+    "major transitions",
+    "personal transformation",
+    "healing from the past",
+    "entering a new phase of life"
+  ],
+
+  dreamSymbols: [
+    "death",
+    "funeral",
+    "grave",
+    "rebirth",
+    "darkness",
+    "light"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "death",
+      reason:
+        "Both dreams explore endings, transformation, identity shifts, and major life transitions."
+    },
+    {
+      slug: "going-to-heaven",
+      reason:
+        "These dreams connect through transition, acceptance, peace, and spiritual reflection."
+    },
+    {
+      slug: "going-to-hell",
+      reason:
+        "Both dreams can reflect fear, judgment, personal change, and emotional intensity."
+    },
+    {
+      slug: "seeing-your-body-while-you-are-asleep",
+      reason:
+        "These dreams often involve identity, self-awareness, spiritual reflection, and altered perspectives."
+    },
+    {
+      slug: "being-in-the-past",
+      reason:
+        "Both dreams encourage reflection on personal growth, identity, and how life is changing over time."
+    },
+    {
+      slug: "seeing-a-dead-person",
+      reason:
+        "These dreams connect through change, memory, transformation, and the emotional impact of endings."
+    }
+  ],
+
+  categories: [
+    "Transformation",
+    "Identity",
+    "Spiritual",
+    "Hidden Emotions",
+    "Life Transitions"
   ]
 },
 {
@@ -31251,11 +31817,11 @@ The dream mirrors your relationship with closure, remembrance, healing, and acce
   ],
 
   categories: [
-    "hidden-emotions",
-    "identity",
-    "transformation",
-    "emotional-growth",
-    "relationships"
+    "Hidden Emotions",
+    "Identity",
+    "Transformation",
+    "Emotional Growth",
+    "Relationships"
   ]
 },
 {
@@ -31526,10 +32092,10 @@ The dream mirrors your relationship with closure, remembrance, healing, and acce
   ],
 
   categories: [
-    "hidden-emotions",
-    "spiritual",
-    "identity",
-    "uncertainty"
+    "Hidden Emotions",
+    "Spiritual",
+    "Identity",
+    "Uncertainty"
   ]
 },
 {
@@ -31800,10 +32366,10 @@ The dream mirrors your relationship with closure, remembrance, healing, and acce
   ],
 
   categories: [
-    "hidden-emotions",
-    "anxiety",
-    "transformation",
-    "emotional-growth"
+    "Hidden Emotions",
+    "Anxiety",
+    "Transformation",
+    "Emotional Growth"
   ]
 },
 {
@@ -32068,10 +32634,10 @@ The dream mirrors your relationship with closure, remembrance, healing, and acce
   ],
 
   categories: [
-    "spiritual",
-    "hidden-emotions",
-    "transformation",
-    "emotional-growth"
+    "Spiritual",
+    "Hidden Emotions",
+    "Transformation",
+    "Emotional Growth"
   ]
 },
 {
@@ -32334,10 +32900,10 @@ The dream mirrors your relationship with closure, remembrance, healing, and acce
   ],
 
   categories: [
-    "spiritual",
-    "hidden-emotions",
-    "transformation",
-    "emotional-growth"
+    "Spiritual",
+    "Hidden Emotions",
+    "Transformation",
+    "Emotional Growth"
   ]
 },
 {
@@ -32606,10 +33172,10 @@ The dream mirrors your relationship with closure, remembrance, healing, and acce
   ],
 
   categories: [
-    "fear",
-    "spiritual",
-    "hidden-emotions",
-    "vulnerability"
+    "Fear",
+    "Spiritual",
+    "Hidden Emotions",
+    "Vulnerability"
   ]
 },
 {
@@ -32876,11 +33442,289 @@ The dream mirrors your relationship with closure, remembrance, healing, and acce
   ],
 
   categories: [
-    "fear",
+    "Fear",
+    "Animals",
+    "Uncertainty",
+    "Hidden Emotions",
+    "Identity",
+    "Transformation"
+  ]
+},
+{
+  slug: "angel-numbers",
+
+  title: "Angel Numbers",
+
+  microSummary:
+    "Angel numbers in dreams often reflect awareness, intuition, guidance, synchronicity, searching for meaning, or the feeling that something important is trying to get your attention.",
+
+  shortDescription:
+    "Seeing repeating number sequences such as 111, 222, 333, 444, 555, or 1111 within a dream. These dreams often connect to intuition, personal growth, spiritual curiosity, emotional awareness, and the search for meaning during important periods of life.",
+
+  description:
+    `Angel numbers often stand out in dreams because they feel intentional.
+
+Unlike random numbers, they tend to appear in a way that immediately draws attention. You may notice them on clocks, phones, receipts, signs, screens, houses, license plates, or repeatedly throughout the dream itself.
+
+The experience often creates the feeling that the number matters, even if the reason is not fully understood.
+
+These dreams commonly appear during periods of uncertainty, personal growth, emotional reflection, spiritual curiosity, life transitions, major decisions, healing, identity shifts, or situations where you are searching for clarity and direction.
+
+Sometimes the dream focuses on a specific number. Other times, multiple repeating numbers appear throughout the experience.
+
+The emotional atmosphere matters. Comfort may suggest reassurance and trust. Curiosity may point toward exploration and self-discovery. Anxiety may reflect uncertainty, overthinking, or the desire for answers.
+
+At its core, the dream often reflects awareness. A growing sense that something deserves attention, reflection, or deeper understanding.`,
+
+  emotionalMeaning:
+    `Curiosity is one of the strongest emotions connected to angel number dreams.
+
+There is often a feeling that the number carries significance, even when its meaning remains unclear.
+
+Hope may also become central. The dream can create a sense that guidance, reassurance, or clarity is available during uncertain periods.
+
+Sometimes the experience feels comforting. The repetition creates familiarity, making the dream feel supportive rather than random.
+
+For others, the dream creates frustration or confusion. The number feels important, yet its meaning remains difficult to understand.
+
+There can also be fascination. The mind becomes focused on patterns, timing, and the possibility that events may be connected in ways that are not immediately obvious.
+
+The emotional atmosphere often reveals whether the dream centers on reassurance, uncertainty, awareness, intuition, or personal growth.`,
+
+  symbolicMeaning:
+    `Angel numbers often symbolize awareness, patterns, intuition, guidance, synchronicity, meaning, and attention.
+
+The repeating nature of the numbers is important. Repetition naturally attracts focus, causing the symbol to stand out from everything around it.
+
+Sometimes the number reflects a specific area of life demanding attention.
+
+Other times, the symbol represents a broader search for understanding, direction, or clarity.
+
+The dream may also highlight timing. Certain experiences, opportunities, decisions, or realizations becoming difficult to ignore.
+
+Rather than providing answers directly, the number often points toward awareness itself. The recognition that something feels significant enough to explore more deeply.`,
+
+  spiritualMeaning:
+    `Spiritually, angel numbers are commonly associated with synchronicity, intuition, guidance, awareness, and personal growth.
+
+Many people view them as reminders to pay attention to their thoughts, choices, direction, or inner guidance.
+
+The dream may appear during periods where spiritual curiosity is growing or where life feels full of meaningful coincidences and unexplained patterns.
+
+Sometimes the experience reflects trust. A feeling that life is moving in a meaningful direction even when every answer is not yet visible.
+
+For others, the dream reflects searching. A desire to understand purpose, direction, identity, or the deeper meaning behind current experiences.
+
+The emotional atmosphere matters most. Peace may suggest trust and alignment, while anxiety may suggest uncertainty and the desire for reassurance.`,
+
+  wakingLifeMeaning:
+    `Angel number dreams often appear when you are paying closer attention to patterns, timing, intuition, or meaningful events in your life.
+
+You may be moving through a period of change, self-discovery, healing, uncertainty, growth, or spiritual exploration.
+
+Sometimes the dream reflects a desire for answers. Looking for signs that you are making the right decisions or moving in the right direction.
+
+It can also appear when important realizations are beginning to emerge but have not yet fully formed.
+
+The dream highlights your relationship with intuition, awareness, meaning, and the way you interpret important experiences.`,
+
+  contradictions: [
+    "In some cases, angel numbers reflect intuition, guidance, awareness, and personal growth.",
+    "For others, they reflect uncertainty, overthinking, or the desire for reassurance during confusing periods.",
+    "Not every angel number dream carries a spiritual message. Some reflect attention, pattern recognition, and the search for meaning.",
+    "The emotional atmosphere often matters more than the number itself."
+  ],
+
+  types: [
+    {
+      type: "seeing 111",
+
+      emotionalMeaning:
+        "Hope, anticipation, curiosity, or awareness of new beginnings may become stronger.",
+
+      symbolicMeaning:
+        "The number often highlights fresh starts, new ideas, or emerging opportunities."
+    },
+
+    {
+      type: "seeing 222",
+
+      emotionalMeaning:
+        "Comfort, patience, reassurance, or a desire for balance may become noticeable.",
+
+      symbolicMeaning:
+        "The number commonly reflects harmony, relationships, trust, and stability."
+    },
+
+    {
+      type: "seeing 333",
+
+      emotionalMeaning:
+        "Encouragement, confidence, inspiration, or personal growth may stand out.",
+
+      symbolicMeaning:
+        "The number often connects to creativity, expansion, communication, and development."
+    },
+
+    {
+      type: "seeing 444",
+
+      emotionalMeaning:
+        "Security, reassurance, protection, or stability may become central.",
+
+      symbolicMeaning:
+        "The number commonly reflects foundations, support, and steady progress."
+    },
+
+    {
+      type: "seeing 555",
+
+      emotionalMeaning:
+        "Excitement, uncertainty, anticipation, or nervousness may emerge.",
+
+      symbolicMeaning:
+        "The number often points toward change, transition, and movement."
+    },
+
+    {
+      type: "seeing 1111",
+
+      emotionalMeaning:
+        "Awareness, fascination, curiosity, or heightened attention may dominate the experience.",
+
+      symbolicMeaning:
+        "The number commonly reflects synchronicity, intuition, awareness, and meaningful patterns."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why angel numbers stand out in dreams",
+
+      insight:
+        "Repeating patterns naturally attract attention. The mind notices repetition quickly, making the numbers feel significant and memorable."
+    },
+
+    {
+      title: "Why these dreams appear during uncertainty",
+
+      insight:
+        "Periods of uncertainty often increase awareness of patterns, signs, timing, and events that might provide reassurance or direction."
+    },
+
+    {
+      title: "Why people search for meaning in angel numbers",
+
+      insight:
+        "When answers feel incomplete, the mind naturally looks for connections that help create understanding and structure."
+    },
+
+    {
+      title: "Guidance versus reassurance",
+
+      insight:
+        "Some dreams focus on direction and insight, while others focus more on comfort and emotional support during difficult periods."
+    },
+
+    {
+      title: "Why angel number dreams repeat",
+
+      insight:
+        "Recurring dreams often appear when important questions, decisions, transitions, or personal reflections remain active in waking life."
+    },
+
+    {
+      title: "Why the same number keeps appearing",
+
+      insight:
+        "The repeated appearance often reflects ongoing attention toward a particular theme, concern, lesson, or area of personal growth."
+    }
+  ],
+
+  emotionalStates: [
+    "curiosity",
+    "hope",
+    "awareness",
     "uncertainty",
-    "hidden-emotions",
-    "identity",
-    "transformation"
+    "comfort",
+    "fascination",
+    "intuition"
+  ],
+
+  subconsciousPatterns: [
+    "searching for meaning",
+    "spiritual curiosity",
+    "pattern recognition",
+    "personal growth",
+    "self-discovery",
+    "intuition"
+  ],
+
+  emotionalTriggers: [
+    "major life changes",
+    "uncertainty",
+    "spiritual exploration",
+    "identity shifts",
+    "healing",
+    "important decisions"
+  ],
+
+  lifeSituations: [
+    "personal growth",
+    "life transitions",
+    "spiritual development",
+    "searching for direction",
+    "healing",
+    "major decisions"
+  ],
+
+  dreamSymbols: [
+    "repeating numbers",
+    "clocks",
+    "phones",
+    "screens",
+    "signs",
+    "digital displays"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "1111",
+      reason:
+        "Both dreams explore synchronicity, awareness, intuition, and meaningful patterns."
+    },
+    {
+      slug: "seeing-repeating-numbers",
+      reason:
+        "These dreams connect through pattern recognition, curiosity, and the search for meaning."
+    },
+    {
+      slug: "444",
+      reason:
+        "Both dreams commonly reflect reassurance, awareness, and personal guidance."
+    },
+    {
+      slug: "light-that-blinds-you",
+      reason:
+        "These dreams often involve heightened awareness, realization, and powerful moments of attention."
+    },
+    {
+      slug: "clear-water",
+      reason:
+        "Both dreams connect through clarity, intuition, awareness, and deeper understanding."
+    },
+    {
+      slug: "being-in-another-world",
+      reason:
+        "These dreams often explore mystery, spiritual curiosity, and experiences that feel larger than ordinary life."
+    }
+  ],
+
+  categories: [
+    "Spiritual",
+    "Identity",
+    "Transformation",
+    "Hidden Emotions"
   ]
 },
 {
@@ -33945,10 +34789,10 @@ The dream mirrors that frustration.`,
   ],
 
   categories: [
-    "hidden-emotions",
-    "identity",
-    "emotional-growth",
-    "transformation"
+    "Hidden Emotions",
+    "Identity",
+    "Emotional Growth",
+    "Transformation"
   ]
 },
 {
@@ -34227,10 +35071,10 @@ The dream mirrors that frustration.`,
   ],
 
   categories: [
-    "anxiety",
-    "fear",
-    "hidden-emotions",
-    "uncertainty"
+    "Anxiety",
+    "Fear",
+    "Hidden Emotions",
+    "Uncertainty"
   ]
 },
 {
@@ -34517,10 +35361,10 @@ The dream mirrors that frustration.`,
   ],
 
   categories: [
-    "transformation",
-    "identity",
-    "hidden-emotions",
-    "emotional-growth"
+    "Transformation",
+    "Identity",
+    "Hidden Emotions",
+    "Emotional Growth"
   ]
 },
 {
@@ -34801,10 +35645,10 @@ The dream mirrors that frustration.`,
   ],
 
   categories: [
-    "transformation",
-    "identity",
-    "hidden-emotions",
-    "emotional-growth"
+    "Transformation",
+    "Identity",
+    "Hidden Emotions",
+    "Emotional Growth"
   ]
 },
 {
@@ -35085,10 +35929,10 @@ The dream mirrors that frustration.`,
   ],
 
   categories: [
-    "anxiety",
-    "identity",
-    "hidden-emotions",
-    "vulnerability"
+    "Anxiety",
+    "Identity",
+    "Hidden Emotions",
+    "Vulnerability"
   ]
 },
 {
@@ -35367,10 +36211,10 @@ The dream mirrors that frustration.`,
   ],
 
   categories: [
-    "anxiety",
-    "identity",
-    "transformation",
-    "emotional-growth"
+    "Anxiety",
+    "Identity",
+    "Transformation",
+    "Emotional Growth"
   ]
 },
 {
@@ -35647,10 +36491,10 @@ The dream mirrors that frustration.`,
   ],
 
   categories: [
-    "identity",
-    "hidden-emotions",
-    "spiritual",
-    "emotional-growth"
+    "Identity",
+    "Hidden Emotions",
+    "Spiritual",
+    "Emotional Growth"
   ]
 },
 {
@@ -35929,10 +36773,10 @@ The dream mirrors that frustration.`,
   ],
 
   categories: [
-    "identity",
-    "hidden-emotions",
-    "transformation",
-    "emotional-growth"
+    "Identity",
+    "Hidden Emotions",
+    "Transformation",
+    "Emotional Growth"
   ]
 },
 {
@@ -36258,11 +37102,11 @@ If the dream repeats often, it may point toward ongoing emotional transition, em
   ],
 
   categories: [
-    "transformation",
-    "identity",
-    "hidden-emotions",
-    "emotional-overwhelm",
-    "transition"
+    "Transformation",
+    "Identity",
+    "Hidden Emotions",
+    "Emotional Overwhelm",
+    "Transition"
   ]
 },
 ];
