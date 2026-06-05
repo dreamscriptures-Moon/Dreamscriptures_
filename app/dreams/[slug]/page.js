@@ -704,8 +704,8 @@ function getDreamContext(dream) {
   }}
 />
       <SiteHeader />
-     <div className="max-w-3xl mx-auto px-8 pt-8 md:px-6 md:pt-6">
-     <nav aria-label="Breadcrumb" className="mb-8 text-sm text-[#5F574E] md:mb-6">
+     <div className="max-w-3xl mx-auto px-6 pt-6">
+     <nav aria-label="Breadcrumb" className="mb-6 text-sm text-[#5F574E]">
   <ol className="flex flex-wrap items-center gap-2">
     <li>
       <Link href="/" className="hover:text-[#C6A96B] transition-colors">
@@ -730,11 +730,11 @@ function getDreamContext(dream) {
 </nav>
 </div>    
 
-     <div className="max-w-3xl mx-auto px-8 mt-6 mb-10 space-y-5 md:px-6 md:mt-4 md:mb-6 md:space-y-3">
+     <div className="max-w-3xl mx-auto px-6 mt-4 mb-6 space-y-3">
   <SearchBar />
   <LazyMobileQuickNav />
 </div>
-      <article className="max-w-3xl lg:max-w-3xl mx-auto px-8 pt-3 pb-10 md:px-0 md:pt-14 md:pb-24">
+      <article className="max-w-3xl lg:max-w-3xl mx-auto pt-1 pb-10 md:pt-14 md:pb-24">
      <h1 className="text-4xl md:text-5xl leading-[1.15] font-serif mb-4">
   {dynamicTitle}
 </h1>

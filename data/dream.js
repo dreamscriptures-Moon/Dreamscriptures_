@@ -1973,338 +1973,2185 @@ behavioralInsights: [
   ]
 },
 {
-  slug: "angels",
-  title: "Angels",
-  description: "A presence that feels calm, protective, or guiding. This dream often carries a sense that you’re not alone — even if you’ve been feeling that way.",
+  slug: "sheep",
 
-  emotional: `There’s usually a sense of comfort here. Not always overwhelming, but noticeable — like something feels softer, safer, or understood.
+  title: "Sheep",
 
-It can come up during moments when you need reassurance. When things feel uncertain, heavy, or unclear, this kind of dream can bring a quiet sense of support.
+  microSummary:
+    "Sheep in dreams often reflect peace, innocence, trust, belonging, vulnerability, guidance, or the desire for safety and stability during uncertain periods.",
 
-Sometimes, it reflects relief. Like something within you is settling, even if your situation hasn’t fully changed yet.`,
+  shortDescription:
+    "Seeing a sheep, a flock of sheep, or interacting with sheep in a dream. These dreams often connect to trust, community, gentleness, conformity, protection, and the need to feel safe or supported.",
 
-  symbolic: `Angels often symbolize guidance, protection, or a higher perspective.
+  description:
+    `Sheep often appear in dreams during periods where safety, trust, belonging, or guidance become emotionally important.
 
-They can represent a part of you that already knows what feels right — even if you’ve been doubting it. Not loud or forceful, just present.
+Unlike predators or animals associated with danger, sheep usually carry a calmer presence. Their appearance often draws attention to themes of peace, innocence, vulnerability, cooperation, and emotional comfort.
 
-They can also reflect clarity. Seeing something in a different way, or feeling more certain about something that was previously unclear.
+Sometimes the dream focuses on a single sheep. Other times, an entire flock appears, creating stronger themes of community, conformity, social influence, or the desire to belong.
 
-In some cases, angels symbolize help — not always external, but an internal sense that you’re being supported in ways you don’t always recognize.`,
+The emotional atmosphere matters. Peaceful sheep may reflect comfort, trust, and emotional stability. Lost or frightened sheep can point toward vulnerability, uncertainty, or feeling disconnected from support.
 
-  spiritual: `This dream can reflect connection. Not necessarily to something outside of you, but to something deeper within you that feels steady and aware.
+At its core, the sheep often represents the relationship between safety and independence. The balance between trusting others and trusting yourself.`,
 
-It can point to alignment — moments where you’re more in tune with yourself, your path, or what you truly feel.
+  emotionalMeaning:
+    `Comfort is often one of the strongest feelings connected to sheep dreams.
 
-Sometimes, it shows up as reassurance. Not that everything is perfect, but that you’re being guided through what you’re experiencing.
+There can be a sense of safety, calmness, or reassurance.
 
-There’s a quiet trust here. Even if you don’t have all the answers.`,
+Sometimes the dream highlights vulnerability. Sheep are naturally gentle animals, making them symbols of openness and trust.
 
-  wakingLife: `You might be going through something where you need clarity, support, or reassurance.
+There may also be a desire to belong. The flock can reflect connection, acceptance, or the comfort of being part of something larger than yourself.
 
-This dream can come up when you’ve been thinking deeply, questioning things, or trying to understand what direction to take.
+In some cases, frustration appears instead. Following others too closely may create feelings of restriction or loss of individuality.
 
-It can also reflect moments where things are starting to make more sense — even if slowly.
+The emotional atmosphere often reveals whether the dream centers on security, trust, belonging, vulnerability, or independence.`,
 
-In some cases, it’s simply a reflection of calm. A moment where your mind isn’t overwhelmed, and you’re able to feel a sense of peace, even briefly.`,
+  symbolicMeaning:
+    `Sheep often symbolize peace, innocence, trust, guidance, community, vulnerability, and cooperation.
 
-  summary: `A sense of guidance, comfort, or quiet support. This dream often reflects reassurance, clarity, or a deeper connection to yourself. It doesn’t always answer everything, but it can bring a feeling that you’re not navigating things alone.`,
+A healthy sheep may represent stability, comfort, and emotional balance.
+
+A flock of sheep can symbolize belonging, social influence, conformity, or shared direction.
+
+A lost sheep often reflects feeling disconnected, uncertain, unsupported, or separated from something important.
+
+Black sheep imagery may highlight individuality, feeling different, or standing apart from expectations.
+
+The symbol frequently explores the relationship between following guidance and maintaining personal independence.`,
+
+  spiritualMeaning:
+    `Spiritually, sheep are often associated with guidance, faith, trust, humility, protection, and peaceful growth.
+
+The dream may appear during periods where you are seeking reassurance, direction, or a stronger sense of purpose.
+
+Sometimes the sheep symbolizes trust in a path that is gradually unfolding.
+
+There can also be themes of surrender. Allowing yourself to stop carrying every burden alone and accepting support when it becomes available.
+
+For some people, the dream reflects compassion, gentleness, and emotional healing.
+
+The emotional atmosphere matters most. Peace may suggest trust and acceptance, while fear may suggest uncertainty about where you belong or who to follow.`,
+
+  wakingLifeMeaning:
+    `Sheep dreams often appear when safety, belonging, trust, relationships, community, or guidance become important themes in waking life.
+
+You may be looking for support, seeking stability, joining a group, or questioning whether you are following your own path or someone else's.
+
+Sometimes the dream reflects a desire for simplicity and peace during stressful periods.
+
+It can also appear when you feel vulnerable and would benefit from stronger support systems around you.
+
+The dream highlights how you relate to trust, belonging, independence, and emotional security.`,
+
+  contradictions: [
+    "In some cases, sheep reflect peace, trust, support, and emotional comfort.",
+    "For others, they reflect conformity, dependence, or difficulty thinking independently.",
+    "Not every sheep dream is about following others. Some emphasize safety, healing, and belonging.",
+    "The emotional atmosphere often matters more than the sheep itself."
+  ],
+
+  types: [
+    {
+      type: "a white sheep",
+
+      emotionalMeaning:
+        "Peace, comfort, trust, or emotional stability may become more noticeable.",
+
+      symbolicMeaning:
+        "A white sheep often symbolizes innocence, safety, healing, and emotional balance."
+    },
+
+    {
+      type: "a black sheep",
+
+      emotionalMeaning:
+        "Isolation, independence, pride, or feeling misunderstood may stand out.",
+
+      symbolicMeaning:
+        "A black sheep often reflects individuality, uniqueness, or feeling different from those around you."
+    },
+
+    {
+      type: "a flock of sheep",
+
+      emotionalMeaning:
+        "Belonging, comfort, security, or social pressure may become central.",
+
+      symbolicMeaning:
+        "The flock often symbolizes community, conformity, shared direction, or support."
+    },
+
+    {
+      type: "a lost sheep",
+
+      emotionalMeaning:
+        "Loneliness, uncertainty, vulnerability, or confusion may emerge.",
+
+      symbolicMeaning:
+        "A lost sheep often reflects feeling disconnected from support, purpose, or guidance."
+    },
+
+    {
+      type: "feeding a sheep",
+
+      emotionalMeaning:
+        "Compassion, care, responsibility, or protectiveness may become stronger.",
+
+      symbolicMeaning:
+        "Feeding a sheep often symbolizes nurturing trust, healing, or emotional wellbeing."
+    },
+
+    {
+      type: "being chased by sheep",
+
+      emotionalMeaning:
+        "Confusion, amusement, pressure, or discomfort may appear.",
+
+      symbolicMeaning:
+        "The dream may reflect social expectations, group influence, or pressure to conform."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why sheep appear during stressful periods",
+
+      insight:
+        "The mind often uses sheep as symbols of safety, comfort, and emotional stability when life feels uncertain or demanding."
+    },
+
+    {
+      title: "Why flock imagery feels important",
+
+      insight:
+        "Humans naturally seek belonging. A flock often represents support, community, and shared direction."
+    },
+
+    {
+      title: "Belonging versus independence",
+
+      insight:
+        "Many sheep dreams explore the balance between fitting in and remaining true to your own identity."
+    },
+
+    {
+      title: "Why lost sheep dreams feel emotional",
+
+      insight:
+        "The image reflects separation from safety, support, guidance, or connection, making vulnerability more noticeable."
+    },
+
+    {
+      title: "Why black sheep dreams appear",
+
+      insight:
+        "Feeling different, misunderstood, or independent can cause the subconscious to use black sheep imagery."
+    }
+  ],
+
+  emotionalStates: [
+    "peace",
+    "comfort",
+    "trust",
+    "vulnerability",
+    "belonging",
+    "security",
+    "calmness"
+  ],
+
+  subconsciousPatterns: [
+    "seeking support",
+    "need for belonging",
+    "trust",
+    "personal independence",
+    "community connection",
+    "emotional healing"
+  ],
+
+  emotionalTriggers: [
+    "uncertainty",
+    "loneliness",
+    "need for support",
+    "life transitions",
+    "social pressure",
+    "searching for stability"
+  ],
+
+  lifeSituations: [
+    "joining a new community",
+    "seeking emotional support",
+    "family relationships",
+    "personal growth",
+    "feeling different from others",
+    "looking for stability"
+  ],
+
+  dreamSymbols: [
+    "sheep",
+    "flock",
+    "field",
+    "pasture",
+    "shepherd",
+    "wool"
+  ],
+
   relatedDreams: [
     {
-      slug: "seeing-jesus",
+      slug: "goat",
       reason:
-        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+        "Both dreams explore guidance, independence, instincts, and personal direction."
     },
     {
-      slug: "speaking-to-jesus",
+      slug: "cow",
       reason:
-        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+        "These dreams often connect through nurturing, security, abundance, and stability."
     },
     {
-      slug: "speaking-to-god",
+      slug: "horse",
       reason:
-        "These dreams often point to hope, protection, and the desire to feel held through change."
+        "Both dreams explore freedom, trust, guidance, and personal growth."
     },
     {
-      slug: "light-surrounding-you",
+      slug: "lost-in-a-field",
       reason:
-        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+        "These dreams can reflect vulnerability, uncertainty, and the search for direction."
     },
     {
-      slug: "feeling-intense-peace",
+      slug: "being-part-of-a-crowd",
       reason:
-        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+        "Both dreams explore belonging, conformity, social influence, and identity."
+    },
+    {
+      slug: "shepherd",
+      reason:
+        "These dreams connect through guidance, protection, trust, and leadership."
+    }
+  ],
+
+  categories: [
+    "Animals",
+    "Spiritual",
+    "Identity",
+    "Hidden Emotions",
+    "Relationships"
+  ]
+},
+{
+  slug: "bright-light-in-the-sky",
+
+  title: "Bright Light in the Sky",
+
+  microSummary:
+    "A bright light in the sky often reflects awareness, clarity, hope, guidance, realization, or the feeling that something important is becoming visible after a period of uncertainty.",
+
+  shortDescription:
+    "Looking up and seeing a powerful light shining in the sky. It can feel beautiful, overwhelming, mysterious, comforting, or impossible to ignore. These dreams often connect to insight, perspective, hope, and significant realizations.",
+
+  description:
+    `A bright light in the sky naturally draws attention.
+
+Unlike ordinary objects in a dream, it often becomes the center of focus. Everything else fades into the background while the light feels important, powerful, or meaningful.
+
+Sometimes the light appears like a star, a glowing object, or an unexplained source of brightness. Other times, it feels almost spiritual, creating a sense of awe or wonder.
+
+These dreams commonly appear during periods of uncertainty, personal growth, emotional healing, self-discovery, major decisions, or situations where understanding is slowly beginning to emerge.
+
+The emotional atmosphere matters. Comfort may reflect reassurance and hope. Curiosity may suggest discovery and awareness. Fear may point toward uncertainty surrounding something that feels larger than yourself.
+
+At its core, the dream often reflects illumination. Something becoming visible that was previously difficult to see clearly.`,
+
+  emotionalMeaning:
+    `Wonder is often one of the strongest feelings.
+
+The light can create a sense of fascination, making it difficult to look away.
+
+There may also be relief. The appearance of brightness can feel reassuring during periods of confusion or uncertainty.
+
+Sometimes the dream creates hope. The light feels like a reminder that clarity or direction exists, even if you have not fully reached it yet.
+
+For some people, the experience feels overwhelming. The intensity of the light can create vulnerability or uncertainty.
+
+There can also be peace. Simply observing the light may create a feeling of calmness, trust, or emotional reassurance.
+
+The emotional atmosphere often reveals whether the dream centers on hope, awareness, curiosity, healing, or transformation.`,
+
+  symbolicMeaning:
+    `A bright light often symbolizes awareness, clarity, understanding, truth, realization, hope, guidance, or perspective.
+
+The sky adds another layer of meaning because it represents possibilities, larger perspectives, and things that exist beyond immediate circumstances.
+
+The combination suggests something becoming visible that was previously hidden, confusing, or difficult to understand.
+
+Sometimes the light reflects a realization. A situation, relationship, goal, or truth becoming clearer.
+
+Other times, it symbolizes direction. A path forward beginning to reveal itself.
+
+The dream often focuses on recognition rather than action. Seeing something clearly before deciding what to do about it.`,
+
+  spiritualMeaning:
+    `Spiritually, bright lights are often associated with guidance, awakening, higher awareness, insight, and connection.
+
+The dream may appear during periods where your understanding of yourself, life, or your direction is expanding.
+
+Sometimes the light represents wisdom becoming available through reflection, growth, or experience.
+
+There can also be themes of trust. Believing that clarity will arrive even if everything does not make sense yet.
+
+For some people, the experience feels deeply meaningful because the light seems to represent something larger than ordinary concerns.
+
+The emotional atmosphere matters most. Peace may suggest trust and alignment, while fear may suggest uncertainty about what is being revealed.`,
+
+  wakingLifeMeaning:
+    `These dreams often appear when understanding is beginning to replace confusion.
+
+You may be gaining insight into a relationship, decision, opportunity, goal, personal challenge, or area of your life that previously felt unclear.
+
+Sometimes the dream reflects hope during difficult periods.
+
+It can also appear when important realizations are approaching, even if they have not fully formed yet.
+
+The dream highlights awareness, perspective, and the process of seeing situations more clearly than before.`,
+
+  contradictions: [
+    "In some cases, a bright light reflects hope, clarity, guidance, and understanding.",
+    "For others, it reflects uncertainty surrounding something powerful, unfamiliar, or difficult to fully comprehend.",
+    "Not every bright light dream is spiritual. Many simply reflect growing awareness and perspective.",
+    "The emotional atmosphere often matters more than the light itself."
+  ],
+
+  types: [
+    {
+      type: "a single bright light",
+
+      emotionalMeaning:
+        "Curiosity, hope, peace, or fascination may become central.",
+
+      symbolicMeaning:
+        "A single light often represents clarity, guidance, or one important realization."
+    },
+
+    {
+      type: "a light moving across the sky",
+
+      emotionalMeaning:
+        "Excitement, anticipation, curiosity, or uncertainty may appear.",
+
+      symbolicMeaning:
+        "Movement often reflects change, transition, or awareness developing over time."
+    },
+
+    {
+      type: "a light shining directly on you",
+
+      emotionalMeaning:
+        "Vulnerability, recognition, awareness, or reassurance may become stronger.",
+
+      symbolicMeaning:
+        "The dream may highlight something personal that deserves attention or understanding."
+    },
+
+    {
+      type: "multiple bright lights",
+
+      emotionalMeaning:
+        "Wonder, excitement, confusion, or overwhelm may emerge.",
+
+      symbolicMeaning:
+        "Several lights often symbolize multiple possibilities, insights, or opportunities."
+    },
+
+    {
+      type: "an extremely bright light",
+
+      emotionalMeaning:
+        "Awe, fear, fascination, or emotional intensity may dominate the experience.",
+
+      symbolicMeaning:
+        "The dream emphasizes something powerful that feels impossible to ignore."
+    },
+
+    {
+      type: "a light appearing through darkness",
+
+      emotionalMeaning:
+        "Relief, hope, comfort, or reassurance may become especially noticeable.",
+
+      symbolicMeaning:
+        "The contrast often symbolizes understanding emerging after confusion or difficulty."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why bright lights attract attention",
+
+      insight:
+        "The mind naturally focuses on light because it represents visibility, understanding, and awareness."
+    },
+
+    {
+      title: "Why these dreams appear during uncertainty",
+
+      insight:
+        "When answers are beginning to emerge, the subconscious often uses light as a symbol of growing clarity."
+    },
+
+    {
+      title: "Why the sky matters",
+
+      insight:
+        "The sky represents perspective and possibility, making it a natural place for symbols connected to insight and direction."
+    },
+
+    {
+      title: "Hope versus certainty",
+
+      insight:
+        "The light does not always provide answers. Sometimes it simply reminds you that answers exist and are becoming easier to see."
+    },
+
+    {
+      title: "Why these dreams feel spiritual",
+
+      insight:
+        "Light has been connected to wisdom, awareness, and guidance across cultures for centuries, making it one of the most powerful dream symbols."
+    }
+  ],
+
+  emotionalStates: [
+    "hope",
+    "wonder",
+    "curiosity",
+    "peace",
+    "awareness",
+    "reassurance",
+    "anticipation"
+  ],
+
+  subconsciousPatterns: [
+    "searching for clarity",
+    "personal growth",
+    "developing awareness",
+    "hope during uncertainty",
+    "self-discovery",
+    "seeking direction"
+  ],
+
+  emotionalTriggers: [
+    "major decisions",
+    "life changes",
+    "uncertainty",
+    "personal growth",
+    "healing",
+    "searching for answers"
+  ],
+
+  lifeSituations: [
+    "finding direction",
+    "overcoming confusion",
+    "personal transformation",
+    "spiritual exploration",
+    "major transitions",
+    "gaining insight"
+  ],
+
+  dreamSymbols: [
+    "light",
+    "sky",
+    "stars",
+    "sunlight",
+    "glow",
+    "brightness"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "light-that-blinds-you",
+      reason:
+        "Both dreams connect through awareness, realization, and powerful insight."
+    },
+    {
+      slug: "angel-numbers",
+      reason:
+        "These dreams often involve guidance, awareness, and the search for meaning."
+    },
+    {
+      slug: "seeing-a-star",
+      reason:
+        "Both dreams connect through hope, direction, inspiration, and possibility."
+    },
+    {
+      slug: "heaven-opening",
+      reason:
+        "These dreams often explore wonder, spiritual reflection, and awareness of something larger."
+    },
+    {
+      slug: "bright-moon",
+      reason:
+        "Both dreams involve illumination, perspective, and understanding what was previously hidden."
+    },
+    {
+      slug: "darkness",
+      reason:
+        "These dreams represent opposite experiences, one focusing on uncertainty and the other on clarity."
+    }
+  ],
+
+  categories: [
+    "Spiritual",
+    "Transformation",
+    "Identity",
+    "Hidden Emotions",
+    "Nature"
+  ]
+},
+{
+  slug: "person-changing-into-an-animal",
+
+  title: "Person Changing into an Animal",
+
+  microSummary:
+    "Seeing a person transform into an animal often reflects changing behavior, hidden instincts, identity shifts, emotional truths, or qualities that are becoming more visible than before.",
+
+  shortDescription:
+    "Watching someone slowly or suddenly turn into an animal. These dreams often connect to instinct, transformation, personality changes, hidden traits, and seeing someone in a different way than before.",
+
+  description:
+    `A person transforming into an animal is often less about the animal itself and more about what the change reveals.
+
+At first, the person appears familiar. Then something begins to shift. Their appearance changes, their behavior changes, or they become fully animal.
+
+The transformation often highlights qualities that were previously hidden, ignored, or difficult to recognize.
+
+Sometimes the dream focuses on someone you know. Other times, the person is unfamiliar. In both cases, the animal usually represents instincts, behaviors, emotions, or traits becoming more noticeable.
+
+These dreams commonly appear during periods where your perception of someone is changing. You may be noticing different sides of their personality, questioning their intentions, recognizing patterns, or seeing qualities that were previously overlooked.
+
+The emotional atmosphere matters. Curiosity may suggest discovery. Fear may suggest distrust or uncertainty. Fascination may reflect growing awareness.
+
+At its core, the dream often reflects transformation and perception. Seeing someone differently than you once did.`,
+
+  emotionalMeaning:
+    `Surprise is often one of the strongest emotions.
+
+The transformation creates a feeling that something familiar is becoming unfamiliar.
+
+There may be curiosity about what the change means or what it reveals.
+
+Sometimes the dream creates discomfort. The person no longer feels predictable, making trust or understanding more difficult.
+
+For others, the experience feels fascinating. The transformation reveals qualities that suddenly make sense.
+
+There can also be uncertainty. You may feel unsure whether the change is positive, negative, or simply different.
+
+The emotional atmosphere often reveals whether the dream centers on awareness, distrust, discovery, acceptance, or personal growth.`,
+
+  symbolicMeaning:
+    `The person often represents someone specific, a relationship, or a part of yourself.
+
+The animal represents instincts, natural behavior, personality traits, emotional tendencies, strengths, weaknesses, or hidden qualities.
+
+The transformation symbolizes those traits becoming more visible.
+
+A gentle animal may reflect kindness, vulnerability, loyalty, or emotional openness.
+
+A predator may highlight aggression, dominance, fear, control, or survival instincts.
+
+A bird may reflect freedom, perspective, or independence.
+
+The meaning often depends on both the person and the animal involved.
+
+The dream focuses on what becomes visible through the transformation.`,
+
+  spiritualMeaning:
+    `Spiritually, transformation into an animal often reflects deeper awareness.
+
+The dream may reveal instincts, truths, strengths, fears, or aspects of character that exist beneath social roles and appearances.
+
+Sometimes the transformation represents seeing beyond the surface of a person or situation.
+
+There can also be themes of growth. Understanding that people contain different layers, some of which only become visible over time.
+
+For some people, the dream reflects intuition. Recognizing something internally before being able to explain it logically.
+
+The emotional atmosphere matters most. Peace may suggest acceptance and understanding, while fear may suggest uncertainty about what is being revealed.`,
+
+  wakingLifeMeaning:
+    `These dreams often appear when your perception of someone is changing.
+
+You may be noticing new behaviors, questioning someone's motives, recognizing personality patterns, or understanding a relationship differently than before.
+
+Sometimes the dream reflects qualities you associate with that person becoming impossible to ignore.
+
+It can also appear when you are projecting certain traits onto someone, whether positive or negative.
+
+In some cases, the person represents part of yourself. The transformation then reflects personal growth, changing behavior, or becoming more aware of your own instincts and tendencies.
+
+The dream highlights observation and awareness rather than judgment.`,
+
+  contradictions: [
+    "In some cases, the transformation reflects growth, awareness, and understanding.",
+    "For others, it reflects distrust, uncertainty, or concern about changing behavior.",
+    "Not every animal transformation is negative. Many reveal strengths, instincts, and qualities that deserve recognition.",
+    "The emotional atmosphere often matters more than the transformation itself."
+  ],
+
+  types: [
+    {
+      type: "someone changing into a wolf",
+
+      emotionalMeaning:
+        "Caution, fascination, fear, or respect may become stronger.",
+
+      symbolicMeaning:
+        "The transformation may highlight instincts, independence, loyalty, aggression, or survival behavior."
+    },
+
+    {
+      type: "someone changing into a snake",
+
+      emotionalMeaning:
+        "Unease, curiosity, distrust, or awareness may emerge.",
+
+      symbolicMeaning:
+        "The dream may highlight transformation, hidden motives, intuition, or emotional tension."
+    },
+
+    {
+      type: "someone changing into a bird",
+
+      emotionalMeaning:
+        "Freedom, curiosity, wonder, or distance may become noticeable.",
+
+      symbolicMeaning:
+        "The transformation often reflects independence, perspective, or emotional release."
+    },
+
+    {
+      type: "someone changing into a cat",
+
+      emotionalMeaning:
+        "Curiosity, uncertainty, comfort, or caution may appear.",
+
+      symbolicMeaning:
+        "The dream may highlight independence, mystery, intuition, or personal boundaries."
+    },
+
+    {
+      type: "someone changing into a dog",
+
+      emotionalMeaning:
+        "Trust, comfort, loyalty, or protectiveness may become stronger.",
+
+      symbolicMeaning:
+        "The transformation often reflects loyalty, companionship, support, or emotional connection."
+    },
+
+    {
+      type: "you recognize the animal immediately",
+
+      emotionalMeaning:
+        "Clarity, certainty, awareness, or understanding may stand out.",
+
+      symbolicMeaning:
+        "The subconscious may already associate the person with specific traits represented by the animal."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why people become animals in dreams",
+
+      insight:
+        "Animals often represent instincts and natural behavior. The transformation reveals qualities that feel more genuine or difficult to hide."
+    },
+
+    {
+      title: "Why these dreams appear when your perception changes",
+
+      insight:
+        "The subconscious often uses transformation imagery when you begin seeing someone differently than before."
+    },
+
+    {
+      title: "Why the animal matters",
+
+      insight:
+        "Each animal carries different symbolic traits, helping explain what qualities the dream is drawing attention to."
+    },
+
+    {
+      title: "Hidden traits versus obvious behavior",
+
+      insight:
+        "The dream may reveal characteristics that were always present but have recently become more noticeable."
+    },
+
+    {
+      title: "Why these dreams feel memorable",
+
+      insight:
+        "Transformation creates a powerful contrast between familiarity and change, making the symbolism difficult to ignore."
+    }
+  ],
+
+  emotionalStates: [
+    "curiosity",
+    "surprise",
+    "uncertainty",
+    "awareness",
+    "fascination",
+    "caution",
+    "reflection"
+  ],
+
+  subconsciousPatterns: [
+    "changing perceptions",
+    "recognizing hidden traits",
+    "intuition",
+    "relationship reflection",
+    "personal growth",
+    "increased awareness"
+  ],
+
+  emotionalTriggers: [
+    "trust issues",
+    "changing relationships",
+    "new discoveries",
+    "uncertainty about someone",
+    "personal growth",
+    "major life changes"
+  ],
+
+  lifeSituations: [
+    "seeing someone differently",
+    "relationship changes",
+    "discovering hidden qualities",
+    "personal transformation",
+    "building trust",
+    "questioning intentions"
+  ],
+
+  dreamSymbols: [
+    "transformation",
+    "animal",
+    "instinct",
+    "identity",
+    "behavior",
+    "change"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "turning-into-an-animal",
+      reason:
+        "Both dreams explore transformation, instincts, identity, and changing behavior."
+    },
+    {
+      slug: "animals",
+      reason:
+        "These dreams connect through instinct, personality traits, and symbolic behavior."
+    },
+    {
+      slug: "seeing-a-stranger",
+      reason:
+        "Both dreams can reflect uncertainty, discovery, and understanding unfamiliar qualities."
+    },
+    {
+      slug: "shape-shifting",
+      reason:
+        "These dreams often involve changing identity, perception, and hidden aspects of personality."
+    },
+    {
+      slug: "wolf",
+      reason:
+        "Both dreams can explore instinct, independence, loyalty, and survival behavior."
+    },
+    {
+      slug: "snake",
+      reason:
+        "These dreams often connect through transformation, awareness, and hidden truths."
+    }
+  ],
+
+  categories: [
+    "Animals",
+    "Transformation",
+    "Identity",
+    "Hidden Emotions",
+    "Spiritual"
+  ]
+},
+{
+  slug: "seeing-god",
+
+  title: "Seeing God",
+
+  microSummary:
+    "Seeing God in a dream often reflects guidance, meaning, reassurance, personal transformation, spiritual reflection, or the desire to understand something larger than yourself.",
+
+  shortDescription:
+    "Encountering God directly, sensing a divine presence, or becoming aware of something that feels sacred and beyond ordinary understanding. These dreams often connect to purpose, faith, wisdom, guidance, and major moments of reflection.",
+
+  description:
+    `Seeing God is often one of the most emotionally powerful dream experiences a person can have.
+
+The dream may involve a visible figure, a voice, light, overwhelming presence, or simply an unshakable feeling that God is there.
+
+What makes these dreams unique is that the emotional impact often feels stronger than the visual details themselves. Many people wake up remembering how the experience felt rather than exactly what they saw.
+
+These dreams commonly appear during periods involving uncertainty, major life changes, grief, healing, spiritual reflection, personal growth, difficult decisions, or moments where deeper meaning becomes important.
+
+Sometimes the experience feels comforting and peaceful. Other times it feels overwhelming, humbling, or impossible to fully explain.
+
+The emotional atmosphere matters most. Peace may reflect reassurance. Awe may reflect expanded awareness. Fear may reflect feeling small in the presence of something much larger than yourself.
+
+At its core, the dream often reflects a search for understanding, guidance, purpose, or connection.`,
+
+  emotionalMeaning:
+    `Awe is often the strongest emotion.
+
+The experience can create a feeling that something larger than ordinary life is present.
+
+There may be peace. Questions, worries, or uncertainty seem less important for a moment.
+
+Sometimes the dream brings comfort. The feeling that you are supported, understood, protected, or not alone.
+
+For others, the experience feels overwhelming. The scale of what is being encountered creates humility or vulnerability.
+
+There can also be reassurance. The dream may arrive during difficult periods when hope feels important.
+
+The emotional atmosphere often reveals whether the dream centers on guidance, healing, faith, reflection, purpose, or personal growth.`,
+
+  symbolicMeaning:
+    `God often symbolizes ultimate wisdom, guidance, truth, purpose, authority, meaning, protection, or understanding.
+
+The dream may represent a desire for answers during uncertain periods.
+
+Sometimes the symbol reflects conscience. A deeper awareness of values, decisions, responsibilities, or personal direction.
+
+Other times, the experience represents hope. The belief that challenges can be navigated even when answers remain incomplete.
+
+The dream can also symbolize perspective. Looking beyond immediate concerns and considering a larger picture.
+
+The focus is often less on appearance and more on what the presence represents.`,
+
+  spiritualMeaning:
+    `Spiritually, this dream commonly reflects connection, faith, awareness, guidance, reflection, and transformation.
+
+It may appear during periods where spiritual questions, purpose, healing, or personal growth are becoming more important.
+
+Sometimes the dream feels like reassurance. A reminder that meaning can exist even when life feels uncertain.
+
+For others, the experience reflects a desire to deepen understanding of faith, spirituality, purpose, or personal beliefs.
+
+There can also be themes of surrender. Accepting that not every question can be answered immediately.
+
+The emotional atmosphere matters most. Peace may suggest trust and connection, while fear may suggest uncertainty about what is being revealed.`,
+
+  wakingLifeMeaning:
+    `These dreams often appear during periods where meaning, purpose, guidance, healing, or direction become significant concerns.
+
+You may be facing important decisions, personal challenges, loss, uncertainty, major transitions, or periods of deep reflection.
+
+Sometimes the dream reflects a need for reassurance when life feels difficult to understand.
+
+It can also appear when you are exploring questions about faith, values, identity, or the direction of your life.
+
+The dream highlights your relationship with meaning, purpose, hope, and understanding.`,
+
+  contradictions: [
+    "In some cases, seeing God reflects reassurance, peace, guidance, and personal growth.",
+    "For others, it reflects uncertainty, questioning, or the search for deeper meaning.",
+    "Not every dream about God is strictly religious. Many reflect purpose, wisdom, hope, or reflection.",
+    "The emotional atmosphere often matters more than the appearance itself."
+  ],
+
+  types: [
+    {
+      type: "seeing God as light",
+
+      emotionalMeaning:
+        "Peace, wonder, comfort, or reassurance may become especially noticeable.",
+
+      symbolicMeaning:
+        "Light often represents clarity, awareness, wisdom, and understanding."
+    },
+
+    {
+      type: "hearing God speak",
+
+      emotionalMeaning:
+        "Comfort, curiosity, awe, or emotional intensity may emerge.",
+
+      symbolicMeaning:
+        "The dream may reflect guidance, insight, personal truth, or important reflection."
+    },
+
+    {
+      type: "feeling God's presence",
+
+      emotionalMeaning:
+        "Peace, safety, comfort, or emotional connection may become central.",
+
+      symbolicMeaning:
+        "The experience often reflects support, faith, trust, or spiritual awareness."
+    },
+
+    {
+      type: "God appearing in human form",
+
+      emotionalMeaning:
+        "Wonder, humility, curiosity, or reassurance may stand out.",
+
+      symbolicMeaning:
+        "The dream may make abstract guidance feel more personal and relatable."
+    },
+
+    {
+      type: "being afraid of God",
+
+      emotionalMeaning:
+        "Fear, guilt, uncertainty, vulnerability, or self-reflection may appear.",
+
+      symbolicMeaning:
+        "The dream may reflect concerns about judgment, responsibility, values, or personal choices."
+    },
+
+    {
+      type: "God blessing you",
+
+      emotionalMeaning:
+        "Relief, gratitude, hope, or emotional reassurance may dominate the experience.",
+
+      symbolicMeaning:
+        "The dream often reflects encouragement, healing, support, or trust in the future."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why these dreams feel unforgettable",
+
+      insight:
+        "The emotional intensity is often stronger than the visual details, creating a lasting impression after waking."
+    },
+
+    {
+      title: "Why seeing God often happens during difficult periods",
+
+      insight:
+        "When people search for meaning, reassurance, or guidance, the mind may use powerful spiritual symbols to explore those needs."
+    },
+
+    {
+      title: "Why peace is so common",
+
+      insight:
+        "Many people associate God with protection, wisdom, comfort, and understanding, which naturally influences the emotional tone of the dream."
+    },
+
+    {
+      title: "Guidance versus certainty",
+
+      insight:
+        "The dream often offers reassurance without providing complete answers, encouraging trust rather than certainty."
+    },
+
+    {
+      title: "Why these dreams appear during personal transformation",
+
+      insight:
+        "Periods of growth often involve larger questions about purpose, identity, values, and direction, themes commonly associated with God."
+    }
+  ],
+
+  emotionalStates: [
+    "awe",
+    "peace",
+    "hope",
+    "wonder",
+    "comfort",
+    "humility",
+    "reassurance"
+  ],
+
+  subconsciousPatterns: [
+    "searching for meaning",
+    "spiritual reflection",
+    "personal growth",
+    "seeking guidance",
+    "healing",
+    "identity development"
+  ],
+
+  emotionalTriggers: [
+    "major life changes",
+    "grief",
+    "uncertainty",
+    "important decisions",
+    "healing",
+    "spiritual questions"
+  ],
+
+  lifeSituations: [
+    "personal transformation",
+    "spiritual growth",
+    "finding purpose",
+    "overcoming challenges",
+    "healing from loss",
+    "searching for direction"
+  ],
+
+  dreamSymbols: [
+    "light",
+    "heaven",
+    "voice",
+    "glow",
+    "clouds",
+    "divine presence"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "jesus",
+      reason:
+        "Both dreams explore faith, guidance, spiritual reflection, and personal meaning."
+    },
+    {
+      slug: "going-to-heaven",
+      reason:
+        "These dreams often connect through peace, hope, spirituality, and purpose."
+    },
+    {
+      slug: "bright-light-in-the-sky",
+      reason:
+        "Both dreams involve awareness, wonder, guidance, and expanded perspective."
+    },
+    {
+      slug: "angel",
+      reason:
+        "These dreams commonly reflect reassurance, protection, guidance, and spiritual awareness."
+    },
+    {
+      slug: "praying",
+      reason:
+        "Both dreams explore connection, reflection, faith, and seeking understanding."
+    },
+    {
+      slug: "hearing-a-voice",
+      reason:
+        "These dreams often involve guidance, insight, awareness, and important messages."
+    }
+  ],
+
+  categories: [
+    "Spiritual",
+    "Transformation",
+    "Identity",
+    "Hidden Emotions"
+  ]
+},
+{
+  slug: "angels",
+
+  title: "Angels",
+
+  microSummary:
+    "Angels in dreams often reflect guidance, protection, reassurance, hope, healing, or the feeling that support is available during uncertain periods of life.",
+
+  shortDescription:
+    "Seeing angels, sensing their presence, or interacting with them in a dream. These dreams often connect to guidance, protection, faith, comfort, hope, and the search for reassurance during important moments of change or uncertainty.",
+
+  description:
+    `Angels often appear during periods when guidance, reassurance, or support feels especially important.
+
+Sometimes they appear clearly with wings, light, or a recognizable form. Other times, their presence is simply felt without being fully seen. What usually stands out is not their appearance but the feeling they leave behind.
+
+Many people describe angel dreams as unusually peaceful. Even when the dream contains challenges, there is often a sense that help, protection, or understanding is nearby.
+
+These dreams commonly appear during periods of grief, healing, uncertainty, major life changes, personal growth, difficult decisions, spiritual reflection, or situations that feel larger than your ability to control.
+
+The atmosphere matters most. Peace may reflect trust and reassurance. Wonder may reflect expanding awareness. Comfort may reflect a need for support during a difficult period.
+
+At their core, angel dreams often reflect the desire to feel guided, protected, understood, or connected to something greater than immediate circumstances.`,
+
+  emotionalMeaning:
+    `Comfort is often the strongest feeling connected to angel dreams.
+
+There may be a sense of relief, as though a burden has become lighter for a moment.
+
+Sometimes the dream brings reassurance. Problems that seemed overwhelming feel more manageable in the presence of something calm and supportive.
+
+There can also be hope. A feeling that things may improve even if answers have not fully appeared yet.
+
+For some people, the experience creates wonder. The dream feels meaningful in a way that is difficult to explain logically.
+
+There may also be gratitude, trust, or peace.
+
+The emotional atmosphere often reveals whether the dream centers on healing, protection, reassurance, guidance, or personal growth.`,
+
+  symbolicMeaning:
+    `Angels often symbolize guidance, protection, wisdom, hope, support, trust, and perspective.
+
+They can represent a part of you that already understands more than your fears allow you to see.
+
+Sometimes they appear when you need reassurance that a situation is not as hopeless as it feels.
+
+They may also symbolize compassion, forgiveness, patience, or a reminder to approach yourself with greater kindness.
+
+In some dreams, angels represent guidance that is available but easy to overlook while focusing on immediate worries.
+
+The symbol often points toward support, clarity, and a broader perspective rather than direct answers.`,
+
+  spiritualMeaning:
+    `Spiritually, angels are commonly associated with guidance, protection, faith, trust, and connection.
+
+These dreams often appear when spiritual questions, personal growth, healing, or life direction become important themes.
+
+Sometimes the experience feels like reassurance that you are not facing everything alone.
+
+For others, the dream reflects a growing awareness of intuition, inner wisdom, or trust in a path that is still unfolding.
+
+There can also be themes of surrender. Accepting that not every outcome can be controlled while still believing that progress is possible.
+
+The atmosphere matters most. Peace may suggest trust and connection, while urgency may suggest a need to pay closer attention to something important.`,
+
+  wakingLifeMeaning:
+    `Angel dreams often appear when you are searching for clarity, reassurance, support, or direction.
+
+You may be facing important decisions, recovering from a difficult experience, moving through grief, questioning your path, or entering a period of significant change.
+
+Sometimes the dream reflects a need for comfort during stressful situations.
+
+Other times, it appears when you are beginning to trust yourself, your instincts, or the direction your life is taking.
+
+The dream highlights your relationship with guidance, hope, trust, and the support systems available to you.`,
+
+  contradictions: [
+    "In some cases, angels reflect guidance, protection, comfort, and reassurance.",
+    "For others, they reflect a desire for answers, support, or clarity during uncertain periods.",
+    "Not every angel dream is religious. Many reflect hope, trust, healing, and personal growth.",
+    "The feeling created by the angel often matters more than its appearance."
+  ],
+
+  types: [
+    {
+      type: "seeing an angel",
+
+      emotionalMeaning:
+        "Comfort, wonder, hope, or reassurance may become especially noticeable.",
+
+      symbolicMeaning:
+        "An angel often symbolizes guidance, protection, support, or awareness."
+    },
+
+    {
+      type: "talking to an angel",
+
+      emotionalMeaning:
+        "Curiosity, trust, comfort, or relief may emerge.",
+
+      symbolicMeaning:
+        "The dream may reflect guidance, insight, wisdom, or important reflection."
+    },
+
+    {
+      type: "an angel protecting you",
+
+      emotionalMeaning:
+        "Safety, reassurance, peace, or gratitude may become central.",
+
+      symbolicMeaning:
+        "Protection often symbolizes support, resilience, and trust during difficult periods."
+    },
+
+    {
+      type: "an angel giving a message",
+
+      emotionalMeaning:
+        "Curiosity, anticipation, hope, or emotional intensity may appear.",
+
+      symbolicMeaning:
+        "The dream may highlight guidance, awareness, or something important deserving attention."
+    },
+
+    {
+      type: "multiple angels",
+
+      emotionalMeaning:
+        "Wonder, peace, comfort, or spiritual connection may become stronger.",
+
+      symbolicMeaning:
+        "Multiple angels often symbolize abundant support, guidance, or reassurance."
+    },
+
+    {
+      type: "a bright angel surrounded by light",
+
+      emotionalMeaning:
+        "Awe, peace, hope, or inspiration may dominate the experience.",
+
+      symbolicMeaning:
+        "Light often represents clarity, understanding, healing, and wisdom."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why angel dreams feel comforting",
+
+      insight:
+        "Many people associate angels with safety, support, and protection, creating a naturally reassuring emotional atmosphere."
+    },
+
+    {
+      title: "Why angels appear during difficult periods",
+
+      insight:
+        "The mind often uses symbols of guidance and protection when facing uncertainty, grief, or major life changes."
+    },
+
+    {
+      title: "Why angel dreams feel meaningful",
+
+      insight:
+        "These dreams often focus less on events and more on the feeling that something important is being understood or supported."
+    },
+
+    {
+      title: "Guidance versus answers",
+
+      insight:
+        "Angel dreams rarely provide complete solutions. They often encourage trust, reflection, and confidence in the process ahead."
+    },
+
+    {
+      title: "Why angel dreams are remembered so clearly",
+
+      insight:
+        "The feelings of peace, comfort, awe, or reassurance often leave a stronger impression than the visual details themselves."
+    }
+  ],
+
+  emotionalStates: [
+    "peace",
+    "comfort",
+    "hope",
+    "trust",
+    "wonder",
+    "gratitude",
+    "reassurance"
+  ],
+
+  subconsciousPatterns: [
+    "seeking guidance",
+    "healing",
+    "searching for meaning",
+    "spiritual reflection",
+    "personal growth",
+    "developing trust"
+  ],
+
+  emotionalTriggers: [
+    "grief",
+    "uncertainty",
+    "major life changes",
+    "healing",
+    "important decisions",
+    "spiritual questions"
+  ],
+
+  lifeSituations: [
+    "personal transformation",
+    "recovering from loss",
+    "finding direction",
+    "spiritual growth",
+    "major transitions",
+    "overcoming challenges"
+  ],
+
+  dreamSymbols: [
+    "wings",
+    "light",
+    "heaven",
+    "white robes",
+    "glow",
+    "divine presence"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "seeing-god",
+      reason:
+        "Both dreams explore guidance, faith, reassurance, and connection to something greater than yourself."
+    },
+    {
+      slug: "going-to-heaven",
+      reason:
+        "These dreams commonly reflect peace, hope, spirituality, and a search for meaning."
+    },
+    {
+      slug: "bright-light-in-the-sky",
+      reason:
+        "Both dreams involve guidance, awareness, hope, and expanded perspective."
+    },
+    {
+      slug: "praying",
+      reason:
+        "These dreams often connect through faith, reflection, trust, and seeking support."
     },
     {
       slug: "being-protected",
       reason:
-        "These dreams connect through a search for comfort, clarity, and meaning beyond ordinary emotion."
+        "Both dreams explore safety, reassurance, support, and resilience."
+    },
+    {
+      slug: "hearing-a-voice",
+      reason:
+        "These dreams often involve guidance, insight, messages, and awareness."
     }
   ],
 
-
-  categories: ["Spiritual", "Hidden Emotions", "Identity", "Transformation", "Love", "Relationships"]
+  categories: [
+    "Spiritual",
+    "Transformation",
+    "Identity",
+    "Hidden Emotions"
+  ]
 },
 {
   slug: "darkness",
+
   title: "Darkness",
-  description: "A space where things aren’t clear, visible, or fully understood. This dream often carries a sense of uncertainty — like you’re in something you can’t quite see through yet.",
 
-  emotional: `There’s usually unease here, but it’s not always panic. Sometimes it’s subtle — confusion, discomfort, or feeling slightly lost.
+  microSummary:
+    "Darkness in dreams often reflects uncertainty, hidden truths, unanswered questions, fear of the unknown, or periods where clarity has not fully emerged yet.",
 
-It can reflect moments where you don’t feel sure about something. Not necessarily wrong, just unclear. Like you’re moving through something without full understanding.
+  shortDescription:
+    "Being surrounded by darkness, unable to see clearly, or moving through an environment where visibility feels limited. These dreams often connect to uncertainty, introspection, hidden fears, confusion, and situations that feel difficult to fully understand.",
 
-It can also connect to emotions you haven’t fully faced. Not because you’re avoiding them on purpose, but because they’re still forming, still hard to name.
+  description:
+    `Darkness often appears when something in life feels unclear.
 
-If the darkness feels calm, it can reflect stillness or withdrawal. If it feels tense, it can point to fear of what you might find if things became clearer.`,
+Unlike dreams that present obvious answers or visible threats, darkness creates uncertainty. The challenge is rarely what you can see. It is what you cannot see.
 
-  symbolic: `Darkness often symbolizes the unknown.
+Sometimes the darkness feels threatening. Other times it feels calm, quiet, or strangely peaceful. The atmosphere often reveals more about the dream than the darkness itself.
 
-Not everything in your life is visible or certain right now, and this dream can reflect that space — where things haven’t fully revealed themselves yet.
+These dreams commonly appear during periods involving major decisions, life transitions, uncertainty, anxiety, hidden concerns, self-discovery, grief, personal growth, or situations where answers feel difficult to find.
 
-It can also represent what’s hidden. Thoughts, feelings, or situations that aren’t fully brought into awareness.
+Darkness can represent the unknown, but it can also represent potential. Not everything hidden is dangerous. Some things simply have not revealed themselves yet.
 
-Sometimes, darkness isn’t negative — it’s just incomplete. A phase where you don’t have all the information yet.
+The emotional atmosphere matters most. Fear may point toward uncertainty or hidden worries. Calmness may reflect reflection, patience, or a willingness to move forward without immediate answers.
 
-But if it feels heavy or threatening, it can point to fear of uncertainty, or discomfort with not being in control.`,
+At its core, darkness often symbolizes the space between not knowing and understanding.`,
 
-  spiritual: `This can reflect an inward phase.
+  emotionalMeaning:
+    `Unease is one of the most common feelings associated with darkness dreams.
 
-A period where things are quieter, less clear, and more internal than external. Not everything is meant to be seen or understood all at once.
+There may be uncertainty about where you are going or what lies ahead.
 
-It can also point to a kind of reset — stepping away from noise, distraction, or clarity, so something deeper can take shape.
+Sometimes the dream creates vulnerability. Without clear visibility, it becomes harder to feel secure or in control.
 
-Not all growth feels light. Some of it happens in spaces where you don’t have clear direction yet.`,
+For some people, the strongest feeling is fear. The darkness seems to hide possibilities, outcomes, or situations that cannot yet be understood.
 
-  wakingLife: `You might be in a situation where things feel unclear — emotionally, mentally, or even practically.
+Others experience a quieter emotional atmosphere. Reflection, solitude, introspection, or stillness become more noticeable than fear itself.
 
-You may not know what’s coming next, or you may feel like you don’t have enough information to make a clear decision.
+There can also be frustration. A desire for answers, direction, or certainty that remains out of reach.
 
-It can also reflect a period of introspection. Pulling back, thinking more, feeling more, but not fully expressing or understanding it yet.
+The emotional atmosphere often reveals whether the dream centers on anxiety, self-discovery, uncertainty, patience, or personal growth.`,
 
-In some cases, it’s simply that things haven’t revealed themselves yet — and you’re in that in-between space.`,
+  symbolicMeaning:
+    `Darkness often symbolizes the unknown.
 
-  summary: `A sense of being in the unknown. This dream often reflects uncertainty, hidden emotions, or a phase where things aren’t fully clear yet. It doesn’t always mean something is wrong — just that not everything has come into view.`,
+It can represent situations that feel incomplete, uncertain, hidden, or difficult to fully understand.
+
+Sometimes darkness reflects unanswered questions. Information may be missing, unavailable, or still developing.
+
+It can also symbolize hidden emotions, unconscious thoughts, fears, desires, or truths that have not fully entered awareness.
+
+Unlike symbols associated with direct danger, darkness often represents uncertainty itself rather than a specific threat.
+
+In some dreams, darkness reflects a temporary phase. A period where understanding has not arrived yet but is gradually developing.
+
+The symbol often highlights what remains unseen rather than what is already known.`,
+
+  spiritualMeaning:
+    `Spiritually, darkness is often associated with introspection, transformation, mystery, and growth that occurs before clarity arrives.
+
+Many spiritual traditions view darkness as a period of preparation rather than failure. A stage where deeper understanding develops beneath the surface.
+
+Sometimes the dream reflects a need to trust the process even when answers are unavailable.
+
+There can also be themes of inner exploration. Learning to become comfortable with uncertainty instead of immediately trying to escape it.
+
+For some people, darkness represents a spiritual transition. One phase ending before another becomes fully visible.
+
+The atmosphere matters most. Peace may suggest trust and patience, while fear may suggest resistance to uncertainty or change.`,
+
+  wakingLifeMeaning:
+    `Darkness dreams often appear when life feels unclear.
+
+You may be waiting for answers, navigating uncertainty, facing a major decision, questioning a relationship, exploring a new direction, or moving through a period where the future feels difficult to predict.
+
+Sometimes the dream reflects confusion about what to do next.
+
+Other times, it reflects hidden concerns that have not been fully acknowledged yet.
+
+It can also appear during periods of self-reflection when you are exploring deeper thoughts, beliefs, fears, or personal truths.
+
+The dream highlights your relationship with uncertainty, patience, awareness, and the unknown.`,
+
+  contradictions: [
+    "In some cases, darkness reflects fear, uncertainty, confusion, or hidden concerns.",
+    "For others, it reflects reflection, patience, inner growth, and the process of discovering deeper understanding.",
+    "Not every darkness dream is negative. Some symbolize transformation happening before clarity arrives.",
+    "The atmosphere surrounding the darkness often matters more than the darkness itself."
+  ],
+
+  types: [
+    {
+      type: "being surrounded by darkness",
+
+      emotionalMeaning:
+        "Often reflects uncertainty, vulnerability, confusion, or the feeling that clarity is difficult to reach.",
+
+      symbolicMeaning:
+        "Being surrounded by darkness commonly symbolizes situations that feel unresolved, unknown, or difficult to fully understand."
+    },
+
+    {
+      type: "walking through darkness",
+
+      emotionalMeaning:
+        "May reflect caution, perseverance, uncertainty, or continuing forward without knowing exactly what lies ahead.",
+
+      symbolicMeaning:
+        "Walking through darkness often symbolizes navigating uncertainty while searching for direction."
+    },
+
+    {
+      type: "darkness with no fear",
+
+      emotionalMeaning:
+        "Can reflect acceptance, introspection, patience, or comfort with temporarily not having all the answers.",
+
+      symbolicMeaning:
+        "Calm darkness often symbolizes reflection, personal growth, and inner exploration."
+    },
+
+    {
+      type: "darkness with a hidden presence",
+
+      emotionalMeaning:
+        "May reflect anxiety, mistrust, hidden fears, or concerns that feel difficult to identify clearly.",
+
+      symbolicMeaning:
+        "A presence within darkness often symbolizes unresolved worries, uncertainty, or something that has not been fully acknowledged."
+    },
+
+    {
+      type: "seeing light inside darkness",
+
+      emotionalMeaning:
+        "Often reflects hope, resilience, reassurance, or confidence that answers are beginning to emerge.",
+
+      symbolicMeaning:
+        "Light appearing in darkness commonly symbolizes guidance, clarity, and understanding developing over time."
+    },
+
+    {
+      type: "being trapped in darkness",
+
+      emotionalMeaning:
+        "Can reflect helplessness, confusion, frustration, or feeling unable to find a clear path forward.",
+
+      symbolicMeaning:
+        "Being trapped in darkness often symbolizes unresolved situations, stagnation, or uncertainty that feels overwhelming."
+    }
+  ],
 
   behavioralInsights: [
     {
-      title:
-        "Why darkness dreams feel unsettling",
+      title: "Why darkness dreams feel unsettling",
 
       content:
-        "Darkness dreams often feel unsettling because darkness symbolizes uncertainty, invisibility, lack of control, hidden fear, and the inability to clearly understand what surrounds you."
+        "Darkness dreams often feel unsettling because darkness removes visibility, certainty, and control. The mind naturally becomes more alert when it cannot clearly understand what surrounds it."
     },
 
     {
-      title:
-        "Why darkness dreams appear during uncertainty",
+      title: "Why darkness dreams appear during uncertainty",
 
       content:
-        "These dreams commonly appear during periods involving anxiety, confusion, instability, fear of the unknown, isolation, or situations where clarity feels difficult to reach."
+        "These dreams commonly appear during periods involving unanswered questions, major decisions, life transitions, anxiety, or situations where the future feels difficult to predict."
     },
 
     {
-      title:
-        "Fear versus introspection in darkness dreams",
+      title: "Fear versus introspection in darkness dreams",
 
       content:
-        "Some darkness dreams reflect fear, uncertainty, or instability, while others symbolize introspection, emotional depth, spiritual searching, or periods where answers have not fully revealed themselves yet."
+        "Some darkness dreams reflect fear and uncertainty, while others symbolize reflection, patience, and personal growth unfolding before answers become visible."
     },
 
     {
-      title:
-        "Why darkness dreams repeat",
+      title: "Why darkness dreams repeat",
 
       content:
-        "Recurring darkness dreams often reflect unresolved fear, uncertainty, suppressed tension, instability, or situations that continue feeling psychologically unclear beneath the surface."
+        "Recurring darkness dreams often reflect ongoing uncertainty, unresolved concerns, hidden fears, or situations that continue feeling unclear in waking life."
     },
 
     {
-      title:
-        "Why the subconscious uses darkness symbolically",
+      title: "Why the subconscious uses darkness symbolically",
 
       content:
-        "Darkness naturally removes certainty and visibility. The subconscious often uses it to symbolize fear, ambiguity, hidden truths, uncertainty, or situations that feel difficult to fully understand."
+        "Darkness naturally represents what cannot yet be seen. The subconscious often uses it to symbolize uncertainty, hidden truths, unanswered questions, and periods where understanding has not fully emerged."
+    },
+
+    {
+      title: "Why darkness sometimes contains a presence",
+
+      content:
+        "When darkness contains a figure, presence, or feeling of being watched, the dream often reflects fears, concerns, or unresolved issues that feel difficult to identify directly."
+    },
+
+    {
+      title: "Why light appears inside darkness",
+
+      content:
+        "Light often appears when the dream begins shifting from uncertainty toward understanding. It commonly symbolizes hope, guidance, answers, or clarity beginning to emerge."
     }
+  ],
+
+  emotionalStates: [
+    "uncertainty",
+    "fear",
+    "confusion",
+    "vulnerability",
+    "introspection",
+    "isolation"
+  ],
+
+  subconsciousPatterns: [
+    "fear-of-the-unknown",
+    "hidden-truths",
+    "lack-of-clarity",
+    "avoidance",
+    "uncertainty-about-direction",
+    "internal-conflict"
+  ],
+
+  emotionalTriggers: [
+    "major life changes",
+    "uncertainty",
+    "anxiety",
+    "lack of answers",
+    "fear of outcomes",
+    "feeling lost"
+  ],
+
+  lifeSituations: [
+    "waiting for important answers",
+    "going through a transition",
+    "uncertain relationships",
+    "career uncertainty",
+    "personal transformation",
+    "periods of isolation"
+  ],
+
+  dreamSymbols: [
+    "shadows",
+    "night",
+    "dark hallways",
+    "dark forests",
+    "hidden figures",
+    "unknown spaces"
   ],
 
   relatedDreams: [
     {
-      slug: "seeing-a-demon-or-spirit-in-front-of-you",
-      reason:
-        "Both dreams can reflect vulnerability when clarity is missing and the atmosphere feels unsafe."
-    },
-    {
-      slug: "feeling-someone-watching-you-while-you-sleep",
-      reason:
-        "These dreams connect through shadowy emotion, spiritual unease, or parts of the self that feel hard to face."
-    },
-    {
-      slug: "being-in-another-world",
-      reason:
-        "These dreams often point to hidden fear, isolation, and the need to understand what feels threatening."
-    },
-    {
       slug: "lost-in-the-forest",
       reason:
-        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+        "Both dreams explore uncertainty, vulnerability, and difficulty seeing a clear path forward."
     },
     {
       slug: "being-in-a-forest",
       reason:
-        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+        "These dreams commonly reflect the unknown, introspection, and navigating uncertainty."
     },
     {
       slug: "going-to-hell",
       reason:
-        "Both dreams move through fear, uncertainty, and the feeling that something unknown is close."
+        "Both dreams can involve fear, uncertainty, hidden concerns, and confronting difficult emotions."
+    },
+    {
+      slug: "bright-light-in-the-sky",
+      reason:
+        "These dreams represent opposite experiences, one focused on uncertainty and the other on clarity."
+    },
+    {
+      slug: "lost-in-a-building",
+      reason:
+        "Both dreams commonly reflect confusion, searching, and difficulty finding direction."
+    },
+    {
+      slug: "being-in-another-world",
+      reason:
+        "These dreams often involve mystery, uncertainty, and experiences that feel unfamiliar or difficult to understand."
     }
   ],
 
-
-  categories: ["Fear", "Anxiety", "Hidden Emotions", "Inner Conflict", "Spiritual", "Transition"]
+  categories: [
+    "Fear",
+    "Anxiety",
+    "Hidden Emotions",
+    "Inner Conflict",
+    "Spiritual",
+    "Transition"
+  ]
 },
 {
   slug: "hearing-bells",
-  title: "hearing / seeing bells",
-  description: "A sound that cuts through everything else. Not constant, but clear enough that you notice it — like something is trying to get your attention.",
 
-  emotional: `There’s usually a feeling of awareness here. Not always urgent, but hard to ignore.
+  title: "Hearing / Seeing Bells",
 
-It can feel like something is being pointed out to you. Not explained fully, just… highlighted. Like a moment where you suddenly notice something you hadn’t been paying attention to before.
+  microSummary:
+    "Hearing or seeing bells in a dream often reflects awareness, important realizations, timing, guidance, transitions, or something that is becoming difficult to ignore.",
 
-Depending on the tone of the bell, it can feel different. Soft bells can feel calming, almost reassuring. Louder or sudden bells can feel jarring — like being pulled out of your thoughts or forced to notice something you weren’t ready to look at.
+  shortDescription:
+    "A bell ringing in the distance, sounding nearby, or appearing visually within a dream. These dreams often connect to attention, awareness, turning points, important messages, and moments where something begins standing out more clearly than before.",
 
-There’s often a shift in attention. From being inside your own thoughts to suddenly being aware of something outside of them.`,
+  description:
+    `Bells naturally attract attention.
 
-  symbolic: `Bells often symbolize a signal. Not necessarily danger, but awareness.
+Unlike background sounds, a bell announces itself. It cuts through distraction and pulls focus toward something specific.
 
-They can represent something becoming clear — or at least clearer than it was before. A moment where something moves from background to foreground.
+In dreams, bells often appear during periods where awareness is increasing. Something may be moving from the background of your life into the foreground of your attention.
 
-Sometimes, it’s about timing. Like something reaching a point where it can’t stay unnoticed anymore.
+Sometimes the bell feels peaceful and reassuring. Other times it feels urgent, impossible to ignore, or strangely significant without revealing exactly why.
 
-It can also reflect interruption. A break in your usual flow of thinking or feeling, where something new enters your awareness.`,
+These dreams commonly appear during periods involving major decisions, personal growth, spiritual reflection, life transitions, important realizations, changing priorities, or situations where something deserves closer attention.
 
-  spiritual: `This can reflect a kind of awakening — not dramatic, just a shift in attention.
+The atmosphere matters most. A calm bell may reflect guidance and clarity. A sudden bell may reflect urgency or awakening. Repeated bells may suggest something continues demanding attention.
 
-A moment where you’re being drawn to notice something more deeply. Not because you’re being forced, but because you’re ready to see it.
+At its core, a bell often symbolizes awareness. Something is trying to be noticed, understood, or acknowledged.`,
 
-It can also feel like alignment. Like something within you recognizes what’s being shown, even if you don’t fully understand it yet.
+  emotionalMeaning:
+    `Awareness is often the strongest feeling connected to bell dreams.
 
-There’s a sense of presence here. Being brought into the moment, even briefly.`,
+There may be a sense that something important is happening, even if the reason is not immediately obvious.
 
-  wakingLife: `You might be starting to notice something you hadn’t fully paid attention to before.
+Sometimes the dream creates curiosity. The bell feels meaningful without fully explaining itself.
 
-It could be a feeling, a realization, or even something small that keeps standing out to you.
+For some people, the experience brings reassurance. The sound feels comforting, familiar, or supportive.
 
-There may be something in your life that’s trying to come into focus — not in a dramatic way, just enough that you can’t completely ignore it anymore.
+Others experience urgency. The bell interrupts the dream in a way that feels impossible to ignore.
 
-It can also reflect moments where your attention shifts. Where something interrupts your usual thinking and makes you pause.`,
+There can also be anticipation. A feeling that change, realization, or understanding is approaching.
 
-  summary: `A sense of something calling for your attention. This dream often reflects awareness, timing, or a subtle shift in focus. It’s less about urgency, and more about noticing — something becoming clear enough that you can’t fully overlook it anymore.`,
-  relatedDreams: [
+The emotional atmosphere often reveals whether the dream centers on guidance, timing, awakening, transition, or personal growth.`,
+
+  symbolicMeaning:
+    `Bells often symbolize awareness, attention, timing, communication, realization, and transition.
+
+A ringing bell may represent something that can no longer remain unnoticed.
+
+Sometimes the symbol reflects a turning point. A situation reaching a stage where action, reflection, or awareness becomes necessary.
+
+Bells can also represent messages. Not always literal communication, but information, insight, or understanding moving into awareness.
+
+In some dreams, bells symbolize beginnings or endings. The completion of one phase and the arrival of another.
+
+The symbol often highlights what deserves attention rather than what already feels obvious.`,
+
+  spiritualMeaning:
+    `Spiritually, bells are often associated with awakening, awareness, presence, guidance, and heightened attention.
+
+Many traditions use bells to mark transitions, call attention, or create moments of focus and reflection.
+
+These dreams may appear when spiritual questions, personal growth, intuition, or self-discovery become important themes.
+
+Sometimes the bell represents a reminder to become more present rather than remaining distracted by worry or uncertainty.
+
+There can also be themes of alignment. Feeling drawn toward something that resonates deeply even before fully understanding why.
+
+The atmosphere matters most. Peace may suggest trust and guidance, while urgency may suggest something important deserves immediate attention.`,
+
+  wakingLifeMeaning:
+    `Bell dreams often appear when something in your life is becoming increasingly difficult to overlook.
+
+You may be noticing a pattern, realization, opportunity, concern, relationship dynamic, or inner feeling that keeps returning to your attention.
+
+Sometimes the dream reflects a growing awareness that change is approaching.
+
+Other times, it appears when an important decision, responsibility, or realization is moving closer.
+
+The dream highlights what is trying to enter awareness rather than what is already fully understood.`,
+
+  contradictions: [
+    "In some cases, bells reflect guidance, awareness, clarity, and important realizations.",
+    "For others, they reflect urgency, pressure, or situations demanding attention.",
+    "Not every bell dream carries a spiritual meaning. Many simply reflect growing awareness and shifting priorities.",
+    "The atmosphere surrounding the bell often matters more than the bell itself."
+  ],
+
+  types: [
     {
-      slug: "being-protected",
-      reason:
-        "These dreams often point to hope, protection, and the desire to feel held through change."
+      type: "hearing a bell ring",
+
+      emotionalMeaning:
+        "Awareness, curiosity, anticipation, or attention may become stronger.",
+
+      symbolicMeaning:
+        "A ringing bell often symbolizes realization, timing, or something demanding recognition."
     },
+
     {
-      slug: "feeling-intense-peace",
-      reason:
-        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+      type: "hearing church bells",
+
+      emotionalMeaning:
+        "Peace, reflection, comfort, or spiritual curiosity may emerge.",
+
+      symbolicMeaning:
+        "Church bells often symbolize guidance, transition, reflection, and deeper meaning."
     },
+
     {
-      slug: "light-surrounding-you",
-      reason:
-        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+      type: "hearing loud bells",
+
+      emotionalMeaning:
+        "Urgency, surprise, alertness, or emotional intensity may become noticeable.",
+
+      symbolicMeaning:
+        "Loud bells often symbolize situations that can no longer be ignored."
     },
+
     {
-      slug: "speaking-to-god",
-      reason:
-        "These dreams often point to hope, protection, and the desire to feel held through change."
+      type: "hearing distant bells",
+
+      emotionalMeaning:
+        "Curiosity, anticipation, longing, or reflection may appear.",
+
+      symbolicMeaning:
+        "Distant bells often symbolize awareness of something approaching but not yet fully present."
     },
+
     {
-      slug: "speaking-to-jesus",
-      reason:
-        "Both dreams carry themes of guidance, reassurance, protection, or deeper spiritual attention."
+      type: "seeing a bell without hearing it",
+
+      emotionalMeaning:
+        "Reflection, curiosity, or quiet awareness may become central.",
+
+      symbolicMeaning:
+        "A silent bell often symbolizes potential realization or awareness that has not fully emerged."
     },
+
     {
-      slug: "seeing-jesus",
-      reason:
-        "Both dreams can feel like moments of inner steadiness during uncertainty or transition."
+      type: "repeated bell ringing",
+
+      emotionalMeaning:
+        "Persistence, urgency, frustration, or heightened awareness may develop.",
+
+      symbolicMeaning:
+        "Repeated bells often symbolize a message, realization, or issue that continues demanding attention."
     }
   ],
 
+  behavioralInsights: [
+    {
+      title: "Why bell dreams stand out",
 
-  categories: ["Spiritual", "Hidden Emotions", "Transition", "Inner Conflict", "Identity"]
+      content:
+        "Bells naturally interrupt whatever is happening around them. The subconscious often uses bells when something deserves immediate attention."
+    },
+
+    {
+      title: "Why bell dreams appear during life transitions",
+
+      content:
+        "Bells have long been associated with beginnings, endings, ceremonies, and important moments, making them powerful symbols during periods of change."
+    },
+
+    {
+      title: "Guidance versus urgency",
+
+      content:
+        "Some bell dreams feel reassuring and reflective, while others feel urgent. The emotional atmosphere often reveals whether the dream focuses on awareness or immediate action."
+    },
+
+    {
+      title: "Why bell dreams repeat",
+
+      content:
+        "Recurring bell dreams often appear when an important realization, decision, or situation continues demanding attention in waking life."
+    },
+
+    {
+      title: "Why bells symbolize awareness",
+
+      content:
+        "Unlike background sounds, bells are designed to be noticed. The subconscious uses them to highlight thoughts, situations, feelings, or opportunities that should no longer be overlooked."
+    }
+  ],
+
+  emotionalStates: [
+    "awareness",
+    "curiosity",
+    "anticipation",
+    "reassurance",
+    "alertness",
+    "reflection"
+  ],
+
+  subconsciousPatterns: [
+    "growing-awareness",
+    "recognizing-patterns",
+    "spiritual-reflection",
+    "life-transitions",
+    "searching-for-clarity",
+    "important-realizations"
+  ],
+
+  emotionalTriggers: [
+    "major decisions",
+    "life changes",
+    "important realizations",
+    "uncertainty",
+    "spiritual questions",
+    "shifting priorities"
+  ],
+
+  lifeSituations: [
+    "approaching transitions",
+    "making important choices",
+    "recognizing patterns",
+    "personal growth",
+    "spiritual exploration",
+    "changing direction"
+  ],
+
+  dreamSymbols: [
+    "bells",
+    "church bells",
+    "ringing sounds",
+    "towers",
+    "messages",
+    "signals"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "angel-numbers",
+      reason:
+        "Both dreams often reflect awareness, guidance, timing, and noticing something significant."
+    },
+    {
+      slug: "bright-light-in-the-sky",
+      reason:
+        "These dreams commonly symbolize awareness, realization, and something important coming into focus."
+    },
+    {
+      slug: "angels",
+      reason:
+        "Both dreams explore guidance, reassurance, protection, and spiritual attention."
+    },
+    {
+      slug: "hearing-a-voice",
+      reason:
+        "These dreams often involve messages, awareness, guidance, and important realizations."
+    },
+    {
+      slug: "praying",
+      reason:
+        "Both dreams connect through reflection, spirituality, guidance, and seeking understanding."
+    },
+    {
+      slug: "seeing-god",
+      reason:
+        "These dreams commonly reflect guidance, awareness, purpose, and deeper reflection."
+    }
+  ],
+
+  categories: [
+    "Spiritual",
+    "Transition",
+    "Identity",
+    "Hidden Emotions"
+  ]
 },
 {
   slug: "walking-in-the-sky",
+
   title: "Walking in the Sky",
-  description: "Moving through a space you’re not supposed to stand in — but somehow, you can. It often feels light, quiet, and slightly unreal, like you’re between something rather than fully in it.",
 
-  emotional: `There’s usually a sense of calm here, or at least distance from everything below.
+  microSummary:
+    "Walking in the sky often reflects freedom, perspective, spiritual growth, emotional distance from old problems, or the feeling that your outlook on life is changing.",
 
-It can feel like you’re removed from pressure, from noise, from things that normally weigh on you. Not disconnected in a bad way — just… not as affected.
+  shortDescription:
+    "Walking above the world as if the sky has become solid beneath your feet. These dreams often connect to perspective, freedom, spiritual awareness, personal growth, and seeing life from a different point of view.",
 
-At the same time, there can be a slight unfamiliarity. Like things feel different, lighter, but not fully grounded. You’re okay, but you’re aware this isn’t your usual state.
+  description:
+    `Walking in the sky creates a strange balance between freedom and stability.
 
-Sometimes it reflects peace. Other times, it reflects detachment — creating space without fully realizing why.`,
+Unlike flying, where movement can feel fast and unpredictable, walking suggests control. You are not being carried. You are moving forward deliberately in a place where movement should not normally be possible.
 
-  symbolic: `Walking in the sky often symbolizes perspective and elevation.
+The dream often creates a sense of distance from everyday concerns. Problems that once felt overwhelming may seem smaller when viewed from above.
 
-You’re not just seeing things differently — you’re above them in some way. Situations, emotions, or people that once felt heavy may not hold the same weight anymore.
+These dreams commonly appear during periods of personal growth, healing, spiritual reflection, major life transitions, self-discovery, changing priorities, or situations where your perspective is beginning to shift.
 
-It can also represent freedom, but a quiet kind. Not excitement or escape, just ease.
+Sometimes the experience feels peaceful and effortless. Other times, it feels unfamiliar, as though you are entering a stage of life that has not fully become comfortable yet.
 
-At the same time, it can point to being between states. Not where you were, but not fully grounded in where you’re going either.`,
+The atmosphere matters most. Peace may reflect trust and confidence. Wonder may reflect expanding awareness. Uncertainty may reflect adjusting to a new way of seeing yourself or the world.
 
-  spiritual: `This can reflect a shift in awareness.
+At its core, walking in the sky often symbolizes perspective, freedom, and moving beyond limitations that once felt impossible to overcome.`,
 
-A moment where you’re less tied to things that used to pull at you. Not because they disappeared, but because your relationship to them changed.
+  emotionalMeaning:
+    `Freedom is often the strongest feeling connected to this dream.
 
-There’s a sense of lightness here — like something has been released, even if you didn’t notice exactly when it happened.
+There may be relief from pressures that once felt difficult to escape.
 
-It can also reflect trust. Moving through something unfamiliar without resistance, even if you don’t fully understand it.`,
+Sometimes the dream creates peace. The distance between you and the world below makes worries feel less overwhelming.
 
-  wakingLife: `You might be in a phase where things feel different — lighter, less intense, or more distant than before.
+For some people, the experience brings wonder. The dream feels larger than ordinary life and difficult to explain.
 
-Something that used to affect you deeply may not feel the same now. Or you may be stepping back from situations that once pulled you in.
+There can also be uncertainty. Being somewhere unfamiliar may create questions about where you are heading or what comes next.
 
-It can also reflect a shift in how you see things. You’re not reacting the same way, and that can feel unfamiliar, even if it’s a good thing.
+In some cases, the dream reflects confidence. A growing belief that challenges no longer have the same power over you as before.
 
-In some cases, it’s simply space. Emotional or mental distance that you didn’t realize you needed until you felt it.`,
+The emotional atmosphere often reveals whether the dream centers on freedom, healing, growth, perspective, or transition.`,
 
-  summary: `A sense of moving above what once felt grounding or heavy. This dream often reflects distance, perspective, or a quiet kind of freedom. It can point to change — not loud or disruptive, but noticeable in how lightly things begin to feel.`,
-  relatedDreams: [
+  symbolicMeaning:
+    `Walking often symbolizes progress, direction, and personal movement.
+
+The sky represents perspective, possibility, freedom, spirituality, and things that exist beyond ordinary limitations.
+
+Together, the symbols suggest moving through life with a broader understanding than before.
+
+Sometimes the dream reflects rising above problems, conflict, stress, or situations that once felt consuming.
+
+It can also symbolize a shift in perspective. Looking at circumstances from a distance rather than becoming trapped inside them.
+
+Unlike flying, walking suggests stability. Growth is happening steadily rather than suddenly.
+
+The dream often highlights personal evolution and changing awareness.`,
+
+  spiritualMeaning:
+    `Spiritually, walking in the sky often symbolizes expanded awareness, trust, personal transformation, and a deeper connection to something beyond everyday concerns.
+
+These dreams may appear during periods of spiritual growth, self-discovery, healing, or reflection.
+
+Sometimes the dream reflects faith. Continuing forward even when the path feels unusual or unfamiliar.
+
+There can also be themes of transcendence. Learning not to be controlled by fears, limitations, or concerns that once felt overwhelming.
+
+For some people, the dream represents alignment. Feeling more connected to their purpose, values, or inner direction.
+
+The atmosphere matters most. Peace may suggest trust and spiritual growth, while uncertainty may suggest adjustment to a new stage of awareness.`,
+
+  wakingLifeMeaning:
+    `Walking in the sky often appears when your relationship with a situation is changing.
+
+You may be gaining perspective on problems that once felt overwhelming.
+
+Sometimes the dream reflects healing. Old concerns no longer carrying the same emotional weight they once did.
+
+It can also appear during periods where your priorities, beliefs, goals, or sense of identity are evolving.
+
+The dream may reflect growing confidence, greater self-awareness, or the realization that you are no longer viewing life from the same perspective as before.
+
+The experience highlights freedom, perspective, and personal growth.`,
+
+  contradictions: [
+    "In some cases, walking in the sky reflects freedom, growth, confidence, and expanded awareness.",
+    "For others, it reflects uncertainty surrounding a new stage of life or identity.",
+    "Not every sky-walking dream is spiritual. Many reflect perspective, healing, and changing priorities.",
+    "The atmosphere of the dream often matters more than the sky itself."
+  ],
+
+  types: [
     {
-      slug: "climbing-stairs",
-      reason:
-        "These dreams connect through progress, elevation, and the desire to rise beyond what once felt limiting."
+      type: "walking peacefully in the sky",
+
+      emotionalMeaning:
+        "Peace, trust, confidence, or emotional balance may become stronger.",
+
+      symbolicMeaning:
+        "Peaceful sky walking often symbolizes harmony, perspective, and steady personal growth."
     },
+
+    {
+      type: "walking above clouds",
+
+      emotionalMeaning:
+        "Freedom, wonder, hope, or optimism may emerge.",
+
+      symbolicMeaning:
+        "Clouds often symbolize rising above concerns, uncertainty, or everyday pressures."
+    },
+
+    {
+      type: "walking in the sky with someone",
+
+      emotionalMeaning:
+        "Connection, trust, support, or shared growth may become noticeable.",
+
+      symbolicMeaning:
+        "The dream may reflect a relationship helping you gain perspective or move through change."
+    },
+
+    {
+      type: "being afraid while walking in the sky",
+
+      emotionalMeaning:
+        "Uncertainty, vulnerability, or discomfort with change may appear.",
+
+      symbolicMeaning:
+        "Fear may reflect difficulty adjusting to new perspectives, opportunities, or personal growth."
+    },
+
+    {
+      type: "walking toward light in the sky",
+
+      emotionalMeaning:
+        "Hope, reassurance, purpose, or anticipation may become stronger.",
+
+      symbolicMeaning:
+        "The dream often symbolizes guidance, clarity, and movement toward greater understanding."
+    },
+
+    {
+      type: "falling while walking in the sky",
+
+      emotionalMeaning:
+        "Insecurity, doubt, or fear of losing progress may become noticeable.",
+
+      symbolicMeaning:
+        "The fall often reflects concerns about stability, confidence, or maintaining a new perspective."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why walking in the sky feels peaceful",
+
+      content:
+        "The dream combines freedom with stability. Unlike flying, walking provides a sense of control, making the experience feel calm and balanced."
+    },
+
+    {
+      title: "Why these dreams appear during personal growth",
+
+      content:
+        "As perspective changes, the subconscious often uses elevated settings to symbolize seeing life differently than before."
+    },
+
+    {
+      title: "Freedom versus escape",
+
+      content:
+        "Some sky-walking dreams reflect genuine growth and perspective, while others may reflect a temporary desire to distance yourself from stress or responsibility."
+    },
+
+    {
+      title: "Why the sky symbolizes perspective",
+
+      content:
+        "Being high above the ground naturally changes how things look. The subconscious uses height to symbolize broader understanding and greater awareness."
+    },
+
+    {
+      title: "Why these dreams feel spiritual",
+
+      content:
+        "The combination of elevation, peace, and unusual freedom often creates an experience that feels larger than ordinary life."
+    }
+  ],
+
+  emotionalStates: [
+    "freedom",
+    "peace",
+    "wonder",
+    "confidence",
+    "hope",
+    "curiosity",
+    "relief"
+  ],
+
+  subconsciousPatterns: [
+    "expanding-awareness",
+    "personal-growth",
+    "healing",
+    "searching-for-purpose",
+    "changing-perspective",
+    "spiritual-reflection"
+  ],
+
+  emotionalTriggers: [
+    "major life changes",
+    "healing",
+    "personal growth",
+    "new opportunities",
+    "spiritual exploration",
+    "gaining clarity"
+  ],
+
+  lifeSituations: [
+    "moving beyond old problems",
+    "finding direction",
+    "personal transformation",
+    "changing priorities",
+    "developing confidence",
+    "spiritual growth"
+  ],
+
+  dreamSymbols: [
+    "sky",
+    "clouds",
+    "height",
+    "light",
+    "horizon",
+    "open space"
+  ],
+
+  relatedDreams: [
     {
       slug: "flying",
       reason:
-        "These dreams often point to upward movement in life, even when the path requires effort."
+        "Both dreams connect through freedom, perspective, possibility, and moving beyond limitations."
     },
     {
       slug: "climbing-a-mountain",
       reason:
-        "Both dreams can reflect ambition, spiritual growth, or the slow work of becoming more confident."
+        "These dreams often reflect growth, perspective, achievement, and personal development."
     },
     {
-      slug: "traveling-to-your-dream-destination",
+      slug: "walking-on-water",
       reason:
-        "These dreams connect through progress, elevation, and the desire to rise beyond what once felt limiting."
+        "Both dreams involve moving through impossible spaces with confidence and trust."
     },
     {
-      slug: "climbing-a-tree",
+      slug: "bright-light-in-the-sky",
       reason:
-        "These dreams connect through progress, elevation, and the desire to rise beyond what once felt limiting."
+        "These dreams commonly reflect awareness, guidance, hope, and expanded perspective."
+    },
+    {
+      slug: "heaven",
+      reason:
+        "Both dreams explore peace, spirituality, perspective, and experiences beyond ordinary limitations."
+    },
+    {
+      slug: "floating",
+      reason:
+        "These dreams often connect through freedom, detachment, release, and changing perspective."
     }
   ],
 
-
-  categories: ["Spiritual", "Transition", "Transformation", "Identity", "Inner Conflict"]
+  categories: [
+    "Spiritual",
+    "Transformation",
+    "Identity",
+    "Transition"
+  ]
 },
 {
   slug: "seeing-a-dead-person",
@@ -5860,6 +7707,275 @@ If the dream repeats often, it may point toward unresolved grief, emotional exha
   ]
 },
 {
+  slug: "seeing-the-devil",
+
+  title: "Seeing the Devil",
+
+  microSummary:
+    "Seeing the devil in a dream often reflects fear, temptation, guilt, inner conflict, destructive influences, or confronting parts of yourself or your life that feel difficult to face honestly.",
+
+  shortDescription:
+    "Encountering a figure that feels dark, threatening, manipulative, or deeply unsettling. These dreams often connect to fear, inner conflict, temptation, personal struggles, and situations that challenge your values or sense of control.",
+
+  description:
+    `Seeing the devil can be one of the most intense dream experiences.
+
+The figure may appear clearly, remain hidden in shadows, or simply be recognized without needing an exact appearance. What often stands out is the feeling surrounding the encounter.
+
+These dreams commonly appear during periods of fear, guilt, stress, temptation, personal struggle, major decisions, emotional pressure, or situations where something feels wrong beneath the surface.
+
+Sometimes the devil appears threatening and aggressive. Other times, the figure feels calm, persuasive, intelligent, or strangely familiar.
+
+The dream is rarely about the figure itself. More often, it reflects a conflict taking place within your life, your thoughts, your choices, or your fears.
+
+The atmosphere matters most. Fear may reflect anxiety or vulnerability. Temptation may reflect internal conflict. Calm observation may reflect awareness of something you are beginning to understand more clearly.
+
+At its core, the dream often reflects confrontation. Something you can no longer comfortably ignore.`,
+
+  emotionalMeaning:
+    `Fear is one of the most common emotions connected to this dream.
+
+There may be a feeling that something powerful or uncomfortable is close.
+
+Sometimes the dream creates anxiety. A sense that something is influencing your thoughts, decisions, or behavior in ways that feel difficult to control.
+
+For some people, the strongest emotion is guilt. Questions about choices, actions, or situations that do not fully align with their values.
+
+There can also be temptation. Feeling pulled toward something that seems appealing while knowing it may come with consequences.
+
+In other cases, the dream creates awareness rather than fear. The figure becomes a symbol of something that deserves closer attention.
+
+The emotional atmosphere often reveals whether the dream centers on fear, conflict, temptation, guilt, awareness, or personal growth.`,
+
+  symbolicMeaning:
+    `The devil often symbolizes temptation, fear, manipulation, guilt, destructive habits, inner conflict, unhealthy influences, or parts of yourself that feel difficult to acknowledge.
+
+Sometimes the symbol reflects external influences. People, situations, environments, or pressures that seem harmful or deceptive.
+
+Other times, it reflects an internal struggle. Conflicting desires, difficult choices, fears, insecurities, or behaviors that create tension within yourself.
+
+The devil can also symbolize power. Not necessarily evil itself, but forces that feel overwhelming, controlling, or difficult to resist.
+
+The dream often highlights what feels dangerous, tempting, unhealthy, or unresolved rather than making a literal statement about good and evil.`,
+
+  spiritualMeaning:
+    `Spiritually, this dream often reflects confrontation with fear, temptation, shadow aspects of the self, personal responsibility, or challenges that test your values and beliefs.
+
+Many spiritual traditions view darkness not only as something to fear but as something that must be understood and overcome.
+
+Sometimes the dream appears during periods where important choices need to be made.
+
+There can also be themes of awareness. Becoming conscious of influences, behaviors, fears, or patterns that no longer serve you.
+
+For some people, the dream reflects spiritual struggle. Questions about faith, purpose, morality, or personal direction becoming more important.
+
+The atmosphere matters most. Fear may reflect resistance, while confidence may reflect growing strength and awareness.`,
+
+  wakingLifeMeaning:
+    `These dreams often appear when something feels wrong, unhealthy, tempting, or difficult to confront.
+
+You may be dealing with pressure, unhealthy habits, toxic relationships, fear, guilt, manipulation, self-sabotage, or situations that challenge your values.
+
+Sometimes the dream reflects awareness that a particular path could create problems if ignored.
+
+Other times, it reflects internal conflict between what feels right and what feels easy.
+
+The dream highlights areas of life where honesty, awareness, and self-reflection may be needed.`,
+
+  contradictions: [
+    "In some cases, seeing the devil reflects fear, temptation, guilt, or destructive influences.",
+    "For others, it reflects awareness, personal growth, and confronting difficult truths honestly.",
+    "Not every devil dream is religious. Many reflect internal struggles, unhealthy patterns, or difficult decisions.",
+    "The atmosphere surrounding the figure often matters more than the figure itself."
+  ],
+
+  types: [
+    {
+      type: "the devil watching you",
+
+      emotionalMeaning:
+        "Fear, vulnerability, anxiety, or discomfort may become stronger.",
+
+      symbolicMeaning:
+        "Being watched often symbolizes awareness of a problem, fear, or influence that feels difficult to ignore."
+    },
+
+    {
+      type: "talking to the devil",
+
+      emotionalMeaning:
+        "Curiosity, temptation, uncertainty, or inner conflict may emerge.",
+
+      symbolicMeaning:
+        "The dream often reflects negotiation with desires, fears, doubts, or difficult choices."
+    },
+
+    {
+      type: "being chased by the devil",
+
+      emotionalMeaning:
+        "Fear, pressure, avoidance, or helplessness may become noticeable.",
+
+      symbolicMeaning:
+        "Being chased often symbolizes problems, fears, or conflicts that continue demanding attention."
+    },
+
+    {
+      type: "fighting the devil",
+
+      emotionalMeaning:
+        "Determination, courage, resistance, or struggle may dominate the experience.",
+
+      symbolicMeaning:
+        "The dream often reflects confronting fears, temptations, unhealthy influences, or personal challenges."
+    },
+
+    {
+      type: "the devil appearing as someone familiar",
+
+      emotionalMeaning:
+        "Confusion, distrust, uncertainty, or caution may appear.",
+
+      symbolicMeaning:
+        "The dream may reflect concerns about trust, hidden motives, or deceptive appearances."
+    },
+
+    {
+      type: "seeing the devil but feeling no fear",
+
+      emotionalMeaning:
+        "Awareness, confidence, curiosity, or acceptance may become stronger.",
+
+      symbolicMeaning:
+        "The dream may reflect growing understanding of fears or challenges that once felt overwhelming."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why devil dreams feel so intense",
+
+      content:
+        "The devil is one of the strongest symbols of fear, temptation, and conflict, making these dreams emotionally memorable even when little actually happens."
+    },
+
+    {
+      title: "Why these dreams appear during difficult decisions",
+
+      content:
+        "When values, desires, responsibilities, or consequences conflict with each other, the subconscious may use the devil as a symbol of that struggle."
+    },
+
+    {
+      title: "Fear versus awareness",
+
+      content:
+        "Not every devil dream reflects danger. Some reflect growing awareness of patterns, habits, influences, or choices that deserve closer attention."
+    },
+
+    {
+      title: "Why the devil appears in human form",
+
+      content:
+        "The subconscious often gives abstract fears or conflicts a recognizable form, making them easier to confront and understand."
+    },
+
+    {
+      title: "Why these dreams repeat",
+
+      content:
+        "Recurring devil dreams often reflect unresolved fears, ongoing inner conflict, unhealthy influences, or situations that continue creating tension in waking life."
+    }
+  ],
+
+  emotionalStates: [
+    "fear",
+    "anxiety",
+    "temptation",
+    "guilt",
+    "confusion",
+    "vulnerability",
+    "inner conflict"
+  ],
+
+  subconsciousPatterns: [
+    "fear-of-consequences",
+    "temptation",
+    "self-sabotage",
+    "internal-struggle",
+    "hidden-fears",
+    "unhealthy-influences"
+  ],
+
+  emotionalTriggers: [
+    "guilt",
+    "major decisions",
+    "temptation",
+    "stress",
+    "toxic relationships",
+    "personal struggles"
+  ],
+
+  lifeSituations: [
+    "facing difficult choices",
+    "breaking unhealthy habits",
+    "dealing with manipulation",
+    "questioning values",
+    "overcoming fear",
+    "personal transformation"
+  ],
+
+  dreamSymbols: [
+    "horns",
+    "dark figures",
+    "fire",
+    "shadows",
+    "red eyes",
+    "darkness"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "going-to-hell",
+      reason:
+        "Both dreams explore fear, guilt, consequences, and confronting difficult aspects of life."
+    },
+    {
+      slug: "darkness",
+      reason:
+        "These dreams often involve uncertainty, fear, hidden concerns, and the unknown."
+    },
+    {
+      slug: "seeing-a-demon",
+      reason:
+        "Both dreams commonly reflect fear, inner conflict, and confronting disturbing influences."
+    },
+    {
+      slug: "being-chased",
+      reason:
+        "These dreams often connect through avoidance, pressure, fear, and unresolved concerns."
+    },
+    {
+      slug: "seeing-god",
+      reason:
+        "Both dreams explore powerful spiritual themes, values, guidance, and personal reflection."
+    },
+    {
+      slug: "angels",
+      reason:
+        "These dreams represent opposite symbolic forces while both exploring protection, guidance, and spiritual awareness."
+    }
+  ],
+
+  categories: [
+    "Fear",
+    "Spiritual",
+    "Inner Conflict",
+    "Hidden Emotions",
+    "Transformation"
+  ]
+},
+{
   slug: "crying",
   title: "Crying",
 
@@ -6819,133 +8935,844 @@ The dream reflects your emotional relationship with fear, awareness, intuition, 
   ]
 },
 {
-  slug: "light-that-blinds-you",
-  title: "Light that blinds you",
+  slug: "moving-to-a-new-house",
+
+  title: "Moving to a New House",
 
   microSummary:
-    "Blinding light dreams often reflect overwhelming truth, spiritual awakening, emotional intensity, fear, sudden awareness, or situations that feel too powerful to fully process emotionally.",
+    "Moving to a new house in a dream often reflects personal change, new beginnings, identity shifts, life transitions, or entering a different stage of life.",
 
   shortDescription:
-    "A powerful light appearing so intensely that you cannot fully see, focus, or protect yourself from it. The dream often feels overwhelming, spiritual, emotional, frightening, or deeply transformative.",
+    "Packing, relocating, or arriving at a new home. These dreams often connect to change, growth, fresh starts, changing circumstances, and the way your inner world is adapting to a new chapter.",
 
   description:
-    `Seeing a light that blinds you in a dream can feel awe-inspiring, frightening, emotional, spiritual, or deeply overwhelming because light often symbolizes truth, awareness, revelation, clarity, energy, awakening, or emotional exposure. When the light becomes too intense to look at directly, it can create the emotional feeling that something powerful is entering your awareness faster than you are emotionally prepared to process.
+    `Moving to a new house often marks a transition.
 
-Sometimes the light appears suddenly out of nowhere. Other times, it grows brighter until everything else disappears beneath it. In some dreams, the light feels peaceful and divine. In others, it feels overwhelming, disorienting, or emotionally impossible to escape.
+Unlike simply seeing a house, moving into one suggests leaving something behind and stepping into something new. The dream may focus on the move itself, the new home, the people involved, or the emotions surrounding the change.
 
-These dreams commonly appear during periods involving emotional awakening, spiritual searching, major realizations, emotional overwhelm, intense change, truth becoming unavoidable, identity shifts, emotional exposure, fear, anxiety, emotional sensitivity, transformation, heightened intuition, or situations where clarity itself feels emotionally overwhelming.
+Sometimes the new house feels exciting and welcoming. Other times it feels unfamiliar, uncomfortable, unfinished, or confusing.
 
-The nature of the light matters.
-Warm peaceful light may symbolize healing, spiritual guidance, emotional clarity, awakening, hope, or emotional truth becoming visible.
-Harsh or painful light can reflect emotional overwhelm, fear of truth, emotional exposure, pressure, anxiety, or situations emotionally forcing awareness before you feel ready.
-Being unable to open your eyes within the light may symbolize emotional resistance, fear of confronting reality, emotional overload, or difficulty processing sudden change or emotional truth.
+These dreams commonly appear during periods involving major life changes, personal growth, new opportunities, relationship changes, career shifts, healing, independence, or changing priorities.
 
-The feeling matters most. If the dream feels peaceful or emotionally profound, it may reflect healing, awakening, emotional clarity, intuition, or spiritual transformation. If the dream feels frightening or emotionally overwhelming, it can point toward emotional overload, vulnerability, fear of truth, anxiety, emotional exposure, or situations emotionally forcing you to confront something too intense too quickly.`,
+The condition of the house matters. A beautiful house may reflect optimism and possibility. A damaged house may suggest uncertainty about the future. A larger house may reflect growth, while an empty house may symbolize potential that has not yet been fully explored.
 
-  emotional:
-    `There is usually emotional intensity throughout this dream.
+The atmosphere matters most. Excitement may reflect readiness for change. Anxiety may reflect uncertainty about what comes next. Curiosity may reflect discovery and self-exploration.
 
-Sometimes the strongest feeling is overwhelm. The awareness that something emotionally powerful, emotionally revealing, or emotionally unavoidable is entering your awareness.
+At its core, moving to a new house often symbolizes entering a new phase of life.`,
 
-There can also be fear and emotional vulnerability. Feeling emotionally exposed, emotionally unprepared, or emotionally unable to fully handle what is becoming visible.
+  emotionalMeaning:
+    `Anticipation is often one of the strongest emotions in this dream.
 
-In some cases, the dream reflects emotional awakening. Suddenly understanding emotions, truths, patterns, or emotional realities that previously remained hidden or emotionally unclear.
+There may be excitement about what lies ahead.
 
-At times, the emotion becomes awe or emotional surrender. Feeling emotionally small before something emotionally larger, deeper, or more powerful than your normal understanding.
+Sometimes the dream reflects uncertainty. The future feels unfamiliar, even if it also feels promising.
 
-Sometimes the dream reflects emotional sensitivity itself. Feeling emotionally overstimulated by awareness, pressure, truth, emotional intensity, or emotional transformation happening too quickly internally.`,
+There can be hope. A sense that new possibilities are becoming available.
 
-  symbolic:
-    `A blinding light in a dream often symbolizes truth, awareness, awakening, emotional exposure, revelation, intuition, transformation, emotional overwhelm, spiritual clarity, or emotional realities becoming impossible to ignore.
+For some people, the dream creates anxiety. Leaving behind what is familiar can feel uncomfortable even when change is necessary.
 
-Light usually represents understanding, consciousness, emotional truth, healing, awareness, hope, or spiritual perception.
+There may also be relief. The feeling that an old chapter is ending and something different is beginning.
 
-When the light becomes blinding, it often reflects emotional intensity becoming stronger than your current ability to comfortably process or emotionally integrate.
+The emotional atmosphere often reveals whether the dream centers on growth, uncertainty, freedom, healing, or personal transformation.`,
 
-Sometimes the dream reflects emotional truth arriving suddenly — realizations, emotional clarity, hidden truths, emotional awareness, or understanding that emotionally changes how you see yourself or your life.
+  symbolicMeaning:
+    `A house often symbolizes the self, identity, personal life, and inner world.
 
-It can also symbolize emotional overload. Too much pressure, emotional stimulation, emotional exposure, spiritual searching, emotional intensity, or emotional change happening too quickly.
+Moving to a new house symbolizes change within those areas.
 
-The emotional atmosphere matters most. Peace may reflect awakening and healing, while fear may point toward emotional overwhelm, vulnerability, anxiety, resistance, or fear surrounding what is becoming emotionally visible.`,
+The dream may reflect a new mindset, a changing sense of identity, different priorities, or a major life transition.
 
-  spiritual:
-    `This dream can reflect awakening, intuition, spiritual awareness, emotional truth, transformation, emotional exposure, healing, heightened perception, or the awareness that deeper emotional and spiritual understanding is becoming impossible to avoid internally.
+Sometimes the house represents who you are becoming rather than who you have been.
 
-Sometimes it appears during periods where healing, emotional sensitivity, identity shifts, emotional awakening, intuition, spiritual searching, emotional transformation, or truth are becoming emotionally significant beneath the surface.
+The act of moving highlights progress and movement rather than remaining in familiar patterns.
 
-For some people, blinding light symbolizes divine presence, spiritual awakening, emotional truth, enlightenment, protection, emotional cleansing, or powerful emotional and spiritual transformation.
+The dream often reflects adaptation, growth, and entering unfamiliar territory.`,
 
-Others see it as emotional overload. Awareness arriving faster than emotional readiness, creating fear, instability, vulnerability, or emotional disorientation while deeper understanding develops internally.
+  spiritualMeaning:
+    `Spiritually, moving to a new house can symbolize transformation, renewal, and personal evolution.
 
-The emotional tone matters most. Peace may reflect healing and awakening, while fear may point toward emotional overwhelm, resistance, emotional vulnerability, or anxiety surrounding emotional truth and transformation.`,
+It may appear during periods where old beliefs, habits, or ways of living are being replaced by something new.
 
-  wakingLife:
-    `This dream often appears during emotionally intense or emotionally transformative periods where truth, awareness, emotional realization, change, vulnerability, spiritual searching, anxiety, emotional exposure, or emotional overwhelm feel especially active.
+Sometimes the dream reflects leaving behind a phase that has already served its purpose.
 
-You may be realizing something emotionally important about yourself, your relationships, your direction, or your emotional life that feels difficult to ignore anymore.
+There can also be themes of preparation. The new house may represent possibilities that are still developing.
 
-Sometimes the dream reflects emotional overload. Too many realizations, responsibilities, emotions, truths, or pressures arriving at once without enough emotional grounding or stability.
+For some people, the dream reflects spiritual growth and a broader understanding of themselves.
 
-It can also appear during periods of emotional awakening where intuition, emotional clarity, self-awareness, or emotional honesty are becoming stronger than before.
+The atmosphere matters most. Comfort may suggest alignment, while uncertainty may suggest adjustment to a new stage of life.`,
 
-In some cases, the dream mirrors emotional fear surrounding truth itself. Wanting clarity emotionally while also feeling emotionally afraid of what full awareness could reveal or change.
+  wakingLifeMeaning:
+    `These dreams often appear when life is changing.
 
-The dream reflects your emotional relationship with truth, awareness, emotional intensity, vulnerability, awakening, intuition, emotional clarity, transformation, and emotional exposure.`,
+You may be starting a new job, entering a relationship, ending one, moving physically, becoming more independent, changing goals, or redefining who you are.
 
-  summary:
-    "A light that blinds you in a dream often reflects overwhelming truth, awakening, emotional intensity, vulnerability, or awareness becoming too powerful to comfortably ignore. These dreams commonly appear during emotionally transformative periods and highlight themes of emotional clarity, spiritual awakening, emotional overload, intuition, truth, exposure, transformation, vulnerability, and the challenge of emotionally processing powerful new awareness.",
+Sometimes the dream reflects excitement about opportunities ahead.
+
+Other times, it reflects the uncertainty that naturally comes with major transitions.
+
+The dream can also appear when your perspective, priorities, or sense of identity is evolving.
+
+It highlights adaptation, growth, and the process of building a new chapter.`,
+
+  contradictions: [
+    "In some cases, moving to a new house reflects growth, opportunity, freedom, and fresh beginnings.",
+    "For others, it reflects uncertainty, adjustment, and concerns about the future.",
+    "Not every new house dream reflects external change. Many symbolize internal growth and personal transformation.",
+    "The emotional atmosphere often matters more than the house itself."
+  ],
+
+  types: [
+    {
+      type: "moving into a beautiful new house",
+
+      emotionalMeaning:
+        "Hope, excitement, confidence, or optimism may become stronger.",
+
+      symbolicMeaning:
+        "A beautiful house often symbolizes growth, opportunity, and positive change."
+    },
+
+    {
+      type: "moving into a large house",
+
+      emotionalMeaning:
+        "Excitement, ambition, possibility, or anticipation may emerge.",
+
+      symbolicMeaning:
+        "A larger house often symbolizes expansion, personal growth, or increased potential."
+    },
+
+    {
+      type: "moving into an unfinished house",
+
+      emotionalMeaning:
+        "Uncertainty, curiosity, or anticipation may become noticeable.",
+
+      symbolicMeaning:
+        "An unfinished house often symbolizes a new chapter that is still developing."
+    },
+
+    {
+      type: "moving into an old house",
+
+      emotionalMeaning:
+        "Reflection, nostalgia, uncertainty, or familiarity may appear.",
+
+      symbolicMeaning:
+        "An old house may symbolize reconnecting with past experiences, lessons, or parts of yourself."
+    },
+
+    {
+      type: "packing before moving",
+
+      emotionalMeaning:
+        "Preparation, anticipation, sadness, or readiness may become stronger.",
+
+      symbolicMeaning:
+        "Packing often symbolizes letting go of the past before embracing change."
+    },
+
+    {
+      type: "not wanting to move",
+
+      emotionalMeaning:
+        "Resistance, fear, attachment, or uncertainty may dominate the experience.",
+
+      symbolicMeaning:
+        "The dream may reflect discomfort with change or difficulty letting go of familiar situations."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why moving dreams appear during transitions",
+
+      content:
+        "Major life changes often require psychological adjustment. The subconscious commonly uses moving as a symbol of entering a new chapter."
+    },
+
+    {
+      title: "Why houses represent the self",
+
+      content:
+        "People naturally associate homes with identity, security, comfort, and personal life, making houses powerful symbols of inner change."
+    },
+
+    {
+      title: "Excitement versus uncertainty",
+
+      content:
+        "Most moving dreams contain both anticipation and uncertainty because change often involves opportunity alongside the unknown."
+    },
+
+    {
+      title: "Why unfinished houses appear",
+
+      content:
+        "The subconscious often uses unfinished homes to symbolize growth that is still in progress."
+    },
+
+    {
+      title: "Why these dreams repeat",
+
+      content:
+        "Recurring moving dreams often appear when life is changing rapidly or when an important transition has not been fully processed yet."
+    }
+  ],
+
+  emotionalStates: [
+    "anticipation",
+    "hope",
+    "uncertainty",
+    "curiosity",
+    "relief",
+    "excitement",
+    "optimism"
+  ],
+
+  subconsciousPatterns: [
+    "personal-growth",
+    "identity-change",
+    "new-beginnings",
+    "life-transition",
+    "adaptation",
+    "self-discovery"
+  ],
+
+  emotionalTriggers: [
+    "major life changes",
+    "new opportunities",
+    "career shifts",
+    "relationship changes",
+    "independence",
+    "personal growth"
+  ],
+
+  lifeSituations: [
+    "starting a new chapter",
+    "changing careers",
+    "moving physically",
+    "relationship transitions",
+    "personal transformation",
+    "redefining goals"
+  ],
+
+  dreamSymbols: [
+    "house",
+    "boxes",
+    "moving truck",
+    "new rooms",
+    "keys",
+    "doorways"
+  ],
 
   relatedDreams: [
     {
-      slug: "eyes",
-      relationshipType: "awareness",
+      slug: "house",
       reason:
-        "Both dreams reflect perception, emotional truth, awareness, and deeper emotional understanding becoming visible."
+        "Both dreams explore identity, personal life, and the state of your inner world."
     },
     {
-      slug: "eyes-staring-at-you-in-the-dark",
-      relationshipType: "hidden-truth",
+      slug: "new-house",
       reason:
-        "These dreams connect through awareness, emotional intensity, fear, and the feeling that something deeper is demanding attention."
+        "These dreams commonly reflect fresh beginnings, opportunity, and personal growth."
     },
     {
-      slug: "looking-in-the-mirror",
-      relationshipType: "self-awareness",
+      slug: "opening-a-door",
       reason:
-        "Both dreams often reflect emotional reflection, identity awareness, and confronting deeper emotional truths."
+        "Both dreams symbolize entering new possibilities, opportunities, and stages of life."
     },
     {
-      slug: "clear-water",
-      relationshipType: "clarity",
+      slug: "many-doors",
       reason:
-        "These dreams connect through emotional clarity, healing, awareness, and seeing emotions more honestly."
+        "These dreams often reflect choices, possibilities, and transitions."
     },
     {
-      slug: "flying-then-falling",
-      relationshipType: "transformation",
+      slug: "packing",
       reason:
-        "Both dreams reflect emotional intensity, vulnerability, awakening, and emotionally overwhelming shifts in awareness and control."
+        "Both dreams involve preparation, letting go, and moving toward change."
     },
     {
-      slug: "water-rising",
-      relationshipType: "overwhelm",
+      slug: "moving-away",
       reason:
-        "These dreams commonly reflect emotional intensity, overwhelm, emotional exposure, and feelings becoming impossible to ignore."
+        "These dreams connect through transition, change, independence, and new beginnings."
     }
   ],
 
   categories: [
-    "Spiritual",
+    "Transformation",
+    "Identity",
+    "Transition",
+    "Hidden Emotions"
+  ]
+},
+{
+  slug: "moving-to-a-new-house",
+
+  title: "Moving to a New House",
+
+  microSummary:
+    "Moving to a new house in a dream often reflects personal change, new beginnings, identity shifts, life transitions, or entering a different stage of life.",
+
+  shortDescription:
+    "Packing, relocating, or arriving at a new home. These dreams often connect to change, growth, fresh starts, changing circumstances, and the way your inner world is adapting to a new chapter.",
+
+  description:
+    `Moving to a new house often marks a transition.
+
+Unlike simply seeing a house, moving into one suggests leaving something behind and stepping into something new. The dream may focus on the move itself, the new home, the people involved, or the emotions surrounding the change.
+
+Sometimes the new house feels exciting and welcoming. Other times it feels unfamiliar, uncomfortable, unfinished, or confusing.
+
+These dreams commonly appear during periods involving major life changes, personal growth, new opportunities, relationship changes, career shifts, healing, independence, or changing priorities.
+
+The condition of the house matters. A beautiful house may reflect optimism and possibility. A damaged house may suggest uncertainty about the future. A larger house may reflect growth, while an empty house may symbolize potential that has not yet been fully explored.
+
+The atmosphere matters most. Excitement may reflect readiness for change. Anxiety may reflect uncertainty about what comes next. Curiosity may reflect discovery and self-exploration.
+
+At its core, moving to a new house often symbolizes entering a new phase of life.`,
+
+  emotionalMeaning:
+    `Anticipation is often one of the strongest emotions in this dream.
+
+There may be excitement about what lies ahead.
+
+Sometimes the dream reflects uncertainty. The future feels unfamiliar, even if it also feels promising.
+
+There can be hope. A sense that new possibilities are becoming available.
+
+For some people, the dream creates anxiety. Leaving behind what is familiar can feel uncomfortable even when change is necessary.
+
+There may also be relief. The feeling that an old chapter is ending and something different is beginning.
+
+The emotional atmosphere often reveals whether the dream centers on growth, uncertainty, freedom, healing, or personal transformation.`,
+
+  symbolicMeaning:
+    `A house often symbolizes the self, identity, personal life, and inner world.
+
+Moving to a new house symbolizes change within those areas.
+
+The dream may reflect a new mindset, a changing sense of identity, different priorities, or a major life transition.
+
+Sometimes the house represents who you are becoming rather than who you have been.
+
+The act of moving highlights progress and movement rather than remaining in familiar patterns.
+
+The dream often reflects adaptation, growth, and entering unfamiliar territory.`,
+
+  spiritualMeaning:
+    `Spiritually, moving to a new house can symbolize transformation, renewal, and personal evolution.
+
+It may appear during periods where old beliefs, habits, or ways of living are being replaced by something new.
+
+Sometimes the dream reflects leaving behind a phase that has already served its purpose.
+
+There can also be themes of preparation. The new house may represent possibilities that are still developing.
+
+For some people, the dream reflects spiritual growth and a broader understanding of themselves.
+
+The atmosphere matters most. Comfort may suggest alignment, while uncertainty may suggest adjustment to a new stage of life.`,
+
+  wakingLifeMeaning:
+    `These dreams often appear when life is changing.
+
+You may be starting a new job, entering a relationship, ending one, moving physically, becoming more independent, changing goals, or redefining who you are.
+
+Sometimes the dream reflects excitement about opportunities ahead.
+
+Other times, it reflects the uncertainty that naturally comes with major transitions.
+
+The dream can also appear when your perspective, priorities, or sense of identity is evolving.
+
+It highlights adaptation, growth, and the process of building a new chapter.`,
+
+  contradictions: [
+    "In some cases, moving to a new house reflects growth, opportunity, freedom, and fresh beginnings.",
+    "For others, it reflects uncertainty, adjustment, and concerns about the future.",
+    "Not every new house dream reflects external change. Many symbolize internal growth and personal transformation.",
+    "The emotional atmosphere often matters more than the house itself."
+  ],
+
+  types: [
+    {
+      type: "moving into a beautiful new house",
+
+      emotionalMeaning:
+        "Hope, excitement, confidence, or optimism may become stronger.",
+
+      symbolicMeaning:
+        "A beautiful house often symbolizes growth, opportunity, and positive change."
+    },
+
+    {
+      type: "moving into a large house",
+
+      emotionalMeaning:
+        "Excitement, ambition, possibility, or anticipation may emerge.",
+
+      symbolicMeaning:
+        "A larger house often symbolizes expansion, personal growth, or increased potential."
+    },
+
+    {
+      type: "moving into an unfinished house",
+
+      emotionalMeaning:
+        "Uncertainty, curiosity, or anticipation may become noticeable.",
+
+      symbolicMeaning:
+        "An unfinished house often symbolizes a new chapter that is still developing."
+    },
+
+    {
+      type: "moving into an old house",
+
+      emotionalMeaning:
+        "Reflection, nostalgia, uncertainty, or familiarity may appear.",
+
+      symbolicMeaning:
+        "An old house may symbolize reconnecting with past experiences, lessons, or parts of yourself."
+    },
+
+    {
+      type: "packing before moving",
+
+      emotionalMeaning:
+        "Preparation, anticipation, sadness, or readiness may become stronger.",
+
+      symbolicMeaning:
+        "Packing often symbolizes letting go of the past before embracing change."
+    },
+
+    {
+      type: "not wanting to move",
+
+      emotionalMeaning:
+        "Resistance, fear, attachment, or uncertainty may dominate the experience.",
+
+      symbolicMeaning:
+        "The dream may reflect discomfort with change or difficulty letting go of familiar situations."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why moving dreams appear during transitions",
+
+      content:
+        "Major life changes often require psychological adjustment. The subconscious commonly uses moving as a symbol of entering a new chapter."
+    },
+
+    {
+      title: "Why houses represent the self",
+
+      content:
+        "People naturally associate homes with identity, security, comfort, and personal life, making houses powerful symbols of inner change."
+    },
+
+    {
+      title: "Excitement versus uncertainty",
+
+      content:
+        "Most moving dreams contain both anticipation and uncertainty because change often involves opportunity alongside the unknown."
+    },
+
+    {
+      title: "Why unfinished houses appear",
+
+      content:
+        "The subconscious often uses unfinished homes to symbolize growth that is still in progress."
+    },
+
+    {
+      title: "Why these dreams repeat",
+
+      content:
+        "Recurring moving dreams often appear when life is changing rapidly or when an important transition has not been fully processed yet."
+    }
+  ],
+
+  emotionalStates: [
+    "anticipation",
+    "hope",
+    "uncertainty",
+    "curiosity",
+    "relief",
+    "excitement",
+    "optimism"
+  ],
+
+  subconsciousPatterns: [
+    "personal-growth",
+    "identity-change",
+    "new-beginnings",
+    "life-transition",
+    "adaptation",
+    "self-discovery"
+  ],
+
+  emotionalTriggers: [
+    "major life changes",
+    "new opportunities",
+    "career shifts",
+    "relationship changes",
+    "independence",
+    "personal growth"
+  ],
+
+  lifeSituations: [
+    "starting a new chapter",
+    "changing careers",
+    "moving physically",
+    "relationship transitions",
+    "personal transformation",
+    "redefining goals"
+  ],
+
+  dreamSymbols: [
+    "house",
+    "boxes",
+    "moving truck",
+    "new rooms",
+    "keys",
+    "doorways"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "house",
+      reason:
+        "Both dreams explore identity, personal life, and the state of your inner world."
+    },
+    {
+      slug: "new-house",
+      reason:
+        "These dreams commonly reflect fresh beginnings, opportunity, and personal growth."
+    },
+    {
+      slug: "opening-a-door",
+      reason:
+        "Both dreams symbolize entering new possibilities, opportunities, and stages of life."
+    },
+    {
+      slug: "many-doors",
+      reason:
+        "These dreams often reflect choices, possibilities, and transitions."
+    },
+    {
+      slug: "packing",
+      reason:
+        "Both dreams involve preparation, letting go, and moving toward change."
+    },
+    {
+      slug: "moving-away",
+      reason:
+        "These dreams connect through transition, change, independence, and new beginnings."
+    }
+  ],
+
+  categories: [
+    "Transformation",
+    "Identity",
+    "Transition",
+    "Hidden Emotions"
+  ]
+},
+{
+  slug: "blood",
+
+  title: "Blood",
+
+  microSummary:
+    "Blood in dreams often reflects life force, emotional intensity, sacrifice, vulnerability, family ties, loss, healing, or situations that feel deeply personal and significant.",
+
+  shortDescription:
+    "Seeing blood, bleeding, touching blood, or finding blood where it shouldn't be. These dreams often connect to vitality, emotional wounds, personal struggles, healing, family bonds, and experiences that feel impossible to ignore.",
+
+  description:
+    `Blood is one of the most powerful symbols that can appear in a dream.
+
+Because blood is closely connected to life itself, dreams involving blood often feel intense, memorable, and emotionally significant. Even small amounts can leave a strong impression after waking.
+
+Sometimes the blood belongs to you. Other times, it belongs to someone else or appears without a clear source. The meaning often depends on how the blood appears and the emotions surrounding it.
+
+These dreams commonly appear during periods involving stress, loss, healing, emotional pain, family concerns, sacrifice, personal growth, illness, recovery, major life changes, conflict, or situations that feel deeply personal.
+
+The condition of the blood matters. Fresh blood may symbolize active issues, emotional intensity, or vitality. Dried blood may point toward past wounds, healing, or experiences that continue leaving a mark.
+
+The atmosphere matters most. Fear may reflect vulnerability or loss. Calmness may reflect healing or acceptance. Curiosity may reflect self-discovery and awareness.
+
+At its core, blood often symbolizes what feels most vital, personal, and emotionally significant in your life.`,
+
+  emotionalMeaning:
+    `Vulnerability is one of the most common feelings connected to blood dreams.
+
+There may be a sense that something important is exposed.
+
+Sometimes the dream reflects emotional pain. A situation, memory, loss, disappointment, or struggle that still feels significant.
+
+There can also be fear. Concerns about losing something valuable, whether emotionally, physically, or personally.
+
+For some people, blood creates concern because it represents damage or injury.
+
+Others experience relief. The blood may symbolize release, healing, recovery, or letting something leave the system.
+
+The emotional atmosphere often reveals whether the dream centers on loss, healing, sacrifice, fear, connection, or personal transformation.`,
+
+  symbolicMeaning:
+    `Blood often symbolizes life force, vitality, sacrifice, family, connection, vulnerability, healing, and emotional intensity.
+
+Because blood keeps the body alive, it frequently represents what is most important, meaningful, or personally significant.
+
+Sometimes blood symbolizes emotional wounds. Situations that continue affecting you even after the original event has passed.
+
+It can also symbolize family connections, ancestry, loyalty, and bonds that run deep.
+
+In other dreams, blood represents sacrifice. Giving energy, time, effort, or parts of yourself to support something important.
+
+The symbol often highlights what feels deeply personal rather than what feels superficial or temporary.`,
+
+  spiritualMeaning:
+    `Spiritually, blood is often associated with life, transformation, sacrifice, renewal, and deep connection.
+
+Many traditions view blood as a symbol of both life and change. Something ending while something else begins.
+
+These dreams may appear during periods of healing, growth, personal transformation, or major transitions.
+
+Sometimes blood symbolizes release. Letting go of old pain, burdens, or experiences that no longer need to be carried.
+
+There can also be themes of responsibility, commitment, and honoring what truly matters.
+
+The atmosphere matters most. Fear may suggest resistance, while acceptance may suggest healing and renewal.`,
+
+  wakingLifeMeaning:
+    `Blood dreams often appear when something feels highly important or emotionally significant.
+
+You may be dealing with stress, healing, conflict, family matters, personal struggles, health concerns, major decisions, or situations that feel deeply connected to your wellbeing.
+
+Sometimes the dream reflects emotional wounds that have not fully healed.
+
+Other times, it reflects recovery and the process of becoming stronger after a difficult period.
+
+The dream can also appear when relationships, responsibilities, or sacrifices are demanding significant energy and attention.
+
+It highlights what feels vital, meaningful, and difficult to ignore.`,
+
+  contradictions: [
+    "In some cases, blood reflects loss, vulnerability, pain, or emotional wounds.",
+    "For others, it reflects healing, renewal, vitality, and personal growth.",
+    "Not every blood dream is negative. Many symbolize recovery, strength, sacrifice, and transformation.",
+    "The source of the blood and the emotional atmosphere often matter more than the blood itself."
+  ],
+
+  types: [
+    {
+      type: "seeing blood",
+
+      emotionalMeaning:
+        "Concern, vulnerability, curiosity, or awareness may become stronger.",
+
+      symbolicMeaning:
+        "Blood often symbolizes something important, personal, or emotionally significant."
+    },
+
+    {
+      type: "bleeding",
+
+      emotionalMeaning:
+        "Exhaustion, loss, vulnerability, or emotional pain may emerge.",
+
+      symbolicMeaning:
+        "Bleeding often symbolizes energy, attention, or emotional resources being drained."
+    },
+
+    {
+      type: "blood on your hands",
+
+      emotionalMeaning:
+        "Guilt, responsibility, regret, or concern may become noticeable.",
+
+      symbolicMeaning:
+        "Blood on the hands often symbolizes accountability, consequences, or involvement in a situation."
+    },
+
+    {
+      type: "someone else bleeding",
+
+      emotionalMeaning:
+        "Concern, empathy, helplessness, or worry may appear.",
+
+      symbolicMeaning:
+        "The dream may reflect concern for another person or awareness of someone's struggles."
+    },
+
+    {
+      type: "coughing or spitting blood",
+
+      emotionalMeaning:
+        "Fear, vulnerability, stress, or emotional overwhelm may dominate the experience.",
+
+      symbolicMeaning:
+        "This often symbolizes internal pressure, emotional strain, or something painful needing expression."
+    },
+
+    {
+      type: "cleaning blood",
+
+      emotionalMeaning:
+        "Relief, responsibility, regret, or determination may become stronger.",
+
+      symbolicMeaning:
+        "Cleaning blood often symbolizes healing, repairing damage, or moving forward after a difficult experience."
+    },
+
+    {
+      type: "blood coming from your nose",
+
+      emotionalMeaning:
+        "Stress, exhaustion, frustration, or pressure may become noticeable.",
+
+      symbolicMeaning:
+        "A nosebleed often symbolizes overwhelm, burnout, or pushing yourself too hard."
+    },
+
+    {
+      type: "blood coming from your mouth",
+
+      emotionalMeaning:
+        "Fear, vulnerability, anxiety, or emotional discomfort may appear.",
+
+      symbolicMeaning:
+        "Blood from the mouth often symbolizes painful truths, communication struggles, or emotional strain."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why blood dreams feel intense",
+
+      content:
+        "Blood is strongly connected to life and survival, making it one of the most emotionally powerful symbols the subconscious can use."
+    },
+
+    {
+      title: "Why blood appears during stressful periods",
+
+      content:
+        "When something feels deeply personal, emotionally significant, or difficult to ignore, the subconscious may use blood to emphasize its importance."
+    },
+
+    {
+      title: "Blood as a symbol of healing",
+
+      content:
+        "Although blood can symbolize injury, it can also represent recovery, renewal, and the body's natural response to healing."
+    },
+
+    {
+      title: "Why family themes appear in blood dreams",
+
+      content:
+        "Blood is often associated with ancestry, family, loyalty, and deep personal bonds, making it a common symbol during relationship and family concerns."
+    },
+
+    {
+      title: "Why blood dreams repeat",
+
+      content:
+        "Recurring blood dreams often reflect unresolved wounds, ongoing stress, major sacrifices, or situations that continue feeling deeply significant."
+    }
+  ],
+
+  emotionalStates: [
+    "vulnerability",
+    "fear",
+    "concern",
+    "pain",
+    "relief",
+    "anxiety",
+    "determination"
+  ],
+
+  subconsciousPatterns: [
+    "healing",
+    "emotional-wounds",
+    "sacrifice",
+    "family-connections",
+    "stress-accumulation",
+    "personal-transformation"
+  ],
+
+  emotionalTriggers: [
+    "loss",
+    "conflict",
+    "healing",
+    "family concerns",
+    "stress",
+    "major life changes"
+  ],
+
+  lifeSituations: [
+    "recovering from hardship",
+    "family challenges",
+    "emotional healing",
+    "high-pressure situations",
+    "personal transformation",
+    "making sacrifices"
+  ],
+
+  dreamSymbols: [
+    "bleeding",
+    "wounds",
+    "injury",
+    "red liquid",
+    "bandages",
+    "medical settings"
+  ],
+
+  relatedDreams: [
+    {
+      slug: "being-injured",
+      reason:
+        "Both dreams explore vulnerability, recovery, wounds, and personal challenges."
+    },
+    {
+      slug: "hospital",
+      reason:
+        "These dreams commonly reflect healing, recovery, wellbeing, and personal care."
+    },
+    {
+      slug: "death",
+      reason:
+        "Both dreams connect through life, change, vulnerability, and major transitions."
+    },
+    {
+      slug: "funeral",
+      reason:
+        "These dreams often reflect loss, release, transformation, and emotional significance."
+    },
+    {
+      slug: "being-shot",
+      reason:
+        "Both dreams commonly involve vulnerability, survival, injury, and emotional impact."
+    },
+    {
+      slug: "crying",
+      reason:
+        "These dreams often symbolize release, healing, emotional expression, and recovery."
+    }
+  ],
+
+  categories: [
     "Transformation",
     "Hidden Emotions",
-    "Fear",
-    "Anxiety",
-    "Identity"
+    "Health",
+    "Spiritual"
   ]
 },
 {
   slug: "lion-chasing-you",
-  title: "Lion chasing you",
+  title: "Being chased by lion",
 
   microSummary:
     "Dreams about a lion chasing you often reflect fear, pressure, power struggles, emotional intimidation, survival instincts, or avoiding something emotionally powerful and impossible to ignore.",
