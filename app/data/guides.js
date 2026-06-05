@@ -840,16 +840,13 @@ intro:
 "Most people think of sleep as a single state.\n\nYou fall asleep, dream, and wake up.\n\nBut sleep is actually a constantly changing cycle.\n\nThroughout the night, the brain moves through different stages that influence memory, emotional processing, physical recovery, awareness, and dreaming itself.\n\nSome dreams appear during lighter stages of sleep.\n\nOthers emerge during REM sleep, where vivid imagery, emotional intensity, and complex storylines become more common.\n\nUnderstanding these stages helps explain why some dreams feel fragmented, why others feel incredibly real, and why certain dreams remain vivid long after waking.\n\nThe deeper we understand how sleep works, the easier it becomes to understand the experiences unfolding within our dreams.",
 
 content: [
-"Sleep occurs in repeating cycles rather than a single uninterrupted state. Throughout the night, the brain moves through multiple stages that each serve different biological and psychological functions.",
+  "Sleep occurs in repeating cycles rather than a single uninterrupted state. Throughout the night, the brain moves through multiple stages that each serve different biological and psychological functions.",
 
-```
-"These stages help regulate memory, learning, emotional processing, nervous system recovery, physical restoration, and the organization of experiences gathered during waking life.",
+  "These stages help regulate memory, learning, emotional processing, nervous system recovery, physical restoration, and the organization of experiences gathered during waking life.",
 
-"Dreaming can occur in several stages of sleep, but the most vivid and emotionally complex dreams are often associated with REM sleep.",
+  "Dreaming can occur in several stages of sleep, but the most vivid and emotionally complex dreams are often associated with REM sleep.",
 
-"Because sleep cycles repeat multiple times each night, dreaming is not limited to a single moment. Different dreams may emerge during different stages depending on emotional activity, brain function, and sleep depth."
-```
-
+  "Because sleep cycles repeat multiple times each night, dreaming is not limited to a single moment. Different dreams may emerge during different stages depending on emotional activity, brain function, and sleep depth."
 ],
 
 sections: [
