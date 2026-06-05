@@ -26,6 +26,12 @@ const nextConfig = {
         
       },
       {
+        source: "/blog/stages-of-sleep-&-dreaming",
+        destination: "/stages-of-sleep-and-dreaming",
+        permanent: true,
+        
+      },
+      {
         source: "/dream/:slug",
         destination: "/dreams/:slug",
         permanent: true,

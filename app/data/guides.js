@@ -829,6 +829,135 @@ export const guides = uniqueGuidesBySlug([
   ]
 },
 {
+slug: "stages-of-sleep-and-dreaming",
+
+title: "Stages of Sleep and Dreaming: What Happens in the Mind Throughout the Night",
+
+description:
+"Learn how the stages of sleep influence dreaming, memory, emotions, REM sleep, deep sleep, and why different dreams appear at different points during the night.",
+
+intro:
+"Most people think of sleep as a single state.\n\nYou fall asleep, dream, and wake up.\n\nBut sleep is actually a constantly changing cycle.\n\nThroughout the night, the brain moves through different stages that influence memory, emotional processing, physical recovery, awareness, and dreaming itself.\n\nSome dreams appear during lighter stages of sleep.\n\nOthers emerge during REM sleep, where vivid imagery, emotional intensity, and complex storylines become more common.\n\nUnderstanding these stages helps explain why some dreams feel fragmented, why others feel incredibly real, and why certain dreams remain vivid long after waking.\n\nThe deeper we understand how sleep works, the easier it becomes to understand the experiences unfolding within our dreams.",
+
+content: [
+"Sleep occurs in repeating cycles rather than a single uninterrupted state. Throughout the night, the brain moves through multiple stages that each serve different biological and psychological functions.",
+
+```
+"These stages help regulate memory, learning, emotional processing, nervous system recovery, physical restoration, and the organization of experiences gathered during waking life.",
+
+"Dreaming can occur in several stages of sleep, but the most vivid and emotionally complex dreams are often associated with REM sleep.",
+
+"Because sleep cycles repeat multiple times each night, dreaming is not limited to a single moment. Different dreams may emerge during different stages depending on emotional activity, brain function, and sleep depth."
+```
+
+],
+
+sections: [
+{
+title: "The four major stages of sleep",
+
+  body:
+    "Modern sleep science generally divides sleep into four stages.\n\nThe first three belong to non-REM sleep, while the fourth stage is REM sleep.\n\nEach stage contributes something different to physical recovery, memory consolidation, emotional regulation, and dream formation.\n\nRather than remaining in one stage all night, the brain cycles through these stages repeatedly, usually every 90 to 120 minutes.\n\nA typical night includes four to six complete sleep cycles."
+},
+
+{
+  title: "Stage 1: The transition into sleep",
+
+  body:
+    "Stage 1 is the lightest stage of sleep.\n\nThis is the period when wakefulness gradually begins to fade.\n\nThoughts become less organized, awareness starts shifting inward, and the mind may drift between waking and sleeping states.\n\nPeople often experience sudden muscle jerks, brief sensations of falling, flashes of imagery, or fragmented dream-like experiences during this stage.\n\nBecause consciousness has not fully disengaged from the external world, memories from this stage are often easier to recall than dreams occurring later in the night."
+},
+
+{
+  title: "Stage 2: Light sleep and mental processing",
+
+  body:
+    "Stage 2 sleep represents the largest portion of most people's sleep.\n\nDuring this stage, awareness of the external environment decreases significantly.\n\nBrain activity begins organizing information collected throughout the day while the body continues preparing for deeper sleep.\n\nDreaming can occur during Stage 2, although these dreams are often shorter, less vivid, and more thought-like than REM dreams.\n\nResearchers believe this stage plays an important role in learning, memory processing, and emotional regulation."
+},
+
+{
+  title: "Stage 3: Deep sleep",
+
+  body:
+    "Stage 3 is often called deep sleep or slow-wave sleep.\n\nThis is the stage most associated with physical recovery and restoration.\n\nHeart rate slows, breathing becomes more regular, muscles relax deeply, and the body focuses heavily on repair processes.\n\nDreaming still occurs during deep sleep, but the dreams often feel different from REM dreams.\n\nThey may be less narrative, less visually detailed, and more focused on sensations, emotions, or simple scenarios.\n\nWaking someone during deep sleep is often difficult because the brain is operating at its lowest level of conscious awareness."
+},
+
+{
+  title: "REM sleep and vivid dreaming",
+
+  body:
+    "REM stands for Rapid Eye Movement.\n\nThis stage is where many of the most memorable dreams occur.\n\nBrain activity becomes surprisingly active during REM sleep, often resembling patterns seen during wakefulness.\n\nDreams during REM sleep tend to be emotionally rich, visually vivid, symbolic, complex, and highly immersive.\n\nThe brain areas involved in emotion, imagination, and memory become particularly active, while logical reasoning and critical judgment often become less dominant.\n\nThis may help explain why unusual dream events often feel completely normal until waking."
+},
+
+{
+  title: "Why dreams feel more real during REM sleep",
+
+  body:
+    "Many people describe REM dreams as feeling extraordinarily realistic.\n\nPart of this comes from the brain's heightened emotional activity during REM sleep.\n\nEmotional experiences become amplified while logical evaluation becomes less active.\n\nAs a result, dream scenarios can feel convincing even when they contain impossible events, unusual symbolism, or dramatic emotional shifts.\n\nThe mind becomes deeply immersed in the experience itself rather than questioning whether the experience is realistic."
+},
+
+{
+  title: "How sleep cycles influence dream content",
+
+  body:
+    "Dream content often changes throughout the night because different stages dominate different parts of sleep.\n\nEarlier cycles contain more deep sleep, while later cycles contain increasingly longer REM periods.\n\nBecause REM sleep becomes longer toward morning, many vivid dreams occur shortly before waking.\n\nThis timing may also explain why morning dreams are often easier to remember.\n\nThe closer a dream occurs to waking consciousness, the more likely it is to remain accessible in memory."
+},
+
+{
+  title: "Nightmares and emotional processing",
+
+  body:
+    "Many nightmares occur during REM sleep because this stage is strongly connected to emotional processing.\n\nThe brain may revisit fears, unresolved concerns, stress, uncertainty, grief, conflict, or emotionally significant experiences through symbolic dream scenarios.\n\nAlthough nightmares can feel disturbing, some researchers believe they may represent part of the brain's effort to process emotional information and prepare for future challenges."
+},
+
+{
+  title: "Lucid dreaming and sleep stages",
+
+  body:
+    "Lucid dreaming occurs when a person becomes aware that they are dreaming while remaining asleep.\n\nMost lucid dreams happen during REM sleep because REM provides the vivid dream environment necessary for conscious awareness to emerge within the dream itself.\n\nSome lucid dreamers report being able to influence dream events, interact intentionally with dream characters, or explore dream environments while maintaining awareness that the experience is taking place within a dream."
+},
+
+{
+  title: "Why some dreams are forgotten",
+
+  body:
+    "Forgetting dreams is completely normal.\n\nDream recall depends heavily on when the dream occurs, how quickly a person wakes, emotional intensity, sleep quality, and attention immediately after waking.\n\nMany dreams fade within minutes because the brain rapidly shifts focus toward waking tasks and sensory information.\n\nDreams that carry strong emotional impact often remain accessible longer because emotional experiences are generally encoded more strongly into memory."
+},
+
+{
+  title: "What sleep stages reveal about dreaming",
+
+  body:
+    "Understanding sleep stages helps explain why dreams vary so dramatically.\n\nSome dreams feel fragmented.\n\nOthers feel symbolic.\n\nSome feel realistic, spiritual, emotional, or intensely memorable.\n\nThese differences are not random.\n\nThey emerge from changing brain activity throughout the night as sleep cycles move between lighter sleep, deep sleep, and REM sleep.\n\nThe dream experience reflects not only the mind's symbolic activity but also the biological rhythm of sleep itself."
+}
+
+
+],
+
+quickInsight:
+"Dreams occur throughout the night, but the most vivid and emotionally immersive dreams often emerge during REM sleep, when brain activity becomes highly active and emotionally engaged.",
+
+reflection:
+"Think about a dream you still remember clearly. Did it feel vivid, emotional, realistic, symbolic, or unusually immersive? What might that reveal about the stage of sleep in which it occurred?",
+
+actions: [
+"Keep a dream journal beside your bed to improve dream recall",
+"Notice whether vivid dreams occur closer to waking in the morning",
+"Pay attention to recurring emotional themes across different dreams",
+"Track sleep quality alongside dream intensity to identify patterns",
+"Reflect on how emotional experiences from waking life appear within dreams"
+],
+
+related: [
+"why-we-dream",
+"what-are-dreams",
+"lucid-dreaming",
+"nightmares-meaning",
+"subconscious-mind-dreams",
+"spiritual-dreams-meaning",
+"recurring-dreams"
+]
+},
+{
   slug: "lucid-dreaming",
 
   title: "Lucid Dreaming: What It Is, Why It Happens, and How It Feels So Real",
