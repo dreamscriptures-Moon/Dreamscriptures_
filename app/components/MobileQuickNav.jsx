@@ -15,7 +15,7 @@ export default function MobileQuickNav() {
 
   return (
     <nav className="md:hidden bg-[#F7F5F2]">
-      <div className="flex gap-6 overflow-x-auto no-scrollbar px- py-5 text-sm">
+      <div className="flex gap-6 overflow-x-auto no-scrollbar px-1 py-5 text-sm">
 
         {QUICK_NAV_LINKS.map((link) => {
   const isActive =
