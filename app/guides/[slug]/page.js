@@ -352,6 +352,25 @@ function linkifyText(text = "") {
   </p>
 </section>
 
+{guide.relatedDreams?.length > 0 && (
+  <section className="mt-12 border-t border-[#EAE6E1] pt-10">
+    <h2 className="font-serif text-2xl md:text-3xl mb-4">
+      Related dream meanings
+    </h2>
+
+    <div className="space-y-3 text-sm text-[#6B6B6B]">
+      {guide.relatedDreams.map((relatedSlug) => (
+        <Link
+          key={relatedSlug}
+          href={`/dreams/${relatedSlug}`}
+          className="block underline hover:text-[#1A1A1A]"
+        >
+          {relatedSlug.replace(/-/g, " ")}
+        </Link>
+      ))}
+    </div>
+  </section>
+)}
 
 <section className="mt-20 border-t border-[#EAE6E1] pt-10 text-center">
   <h2 className="font-serif text-2xl md:text-3xl mb-4">
