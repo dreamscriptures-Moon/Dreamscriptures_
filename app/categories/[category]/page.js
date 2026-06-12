@@ -113,6 +113,7 @@ Spiritual dreams are often less about predicting the future and more about helpi
         a: `${formatCategory(normalizedCategory)} dreams often reflect emotional patterns, life experiences, or internal changes connected to your waking life.`,
       },
     ];
+
   function getCategoryEmotions() {
     return categoryData?.emotionalThemes || [
       "Emotion",

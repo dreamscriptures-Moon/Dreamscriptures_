@@ -48,8 +48,8 @@ export default function Home() {
   <section className="max-w-3xl mx-auto px-6 pt-12 md:pt-20 pb-10 text-center">
 
     <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.15] font-serif tracking-tight mb-6">
-Dream Meanings Through Emotion, Symbolism, Spiritual insights and Life Context
-</h1>
+Understand Your Dreams Through Emotion,
+Symbolism, Spiritual insights, Personal Context and Dream Dictionaries </h1>
 
 <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
   Explore dream meanings through symbols, emotions, and deeper interpretation from spiritual insight to real-life emotional patterns.
@@ -72,11 +72,7 @@ Dream Meanings Through Emotion, Symbolism, Spiritual insights and Life Context
   and 
   <Link href="/emotions/uncertainty" className="underline mx-1">uncertainty</Link>.
 </p>
-    <section className="max-w-xl mx-auto px-6 py-6 md:py-22">
-    <p className="text-[11px] uppercase tracking-[0.28em] text-[#5E454E]">
-      Dreams do not follow one fixed meaning. What matters most is what your dream may be reflecting.
-    </p>
-</section>
+  
 
    <div className="w-26 h-[1px] bg-[#EAE6E1] mx-auto mt-6 mb-3" />
   </section>
@@ -131,8 +127,7 @@ Dream Meanings Through Emotion, Symbolism, Spiritual insights and Life Context
 </p>
 
 <h2 className="font-serif text-4xl md:text-5xl leading-tight text-[#1A1A1A]">
-  Dream meanings are rarely one-size-fits-all
-</h2>
+The Meaning of a Dream Often Depends on the Emotion Behind It</h2>
 
 <div className="w-16 h-[1px] bg-[#C6A96B] mx-auto my-8 opacity-70" />
 
@@ -174,10 +169,16 @@ Dream Meanings Through Emotion, Symbolism, Spiritual insights and Life Context
     </h2>
 
     <p className="text-[#6B6B6B] leading-relaxed mb-4">
-      Dream meanings often reflect your emotions, experiences, and subconscious thoughts. 
-      Whether you dream about falling, being chased, snakes, or losing teeth, these symbols 
-      can represent fear, change, stress, or transformation in your waking life.
-    </p>
+   A dream about falling may reflect a loss of control.
+
+A dream about being chased may reflect avoidance,
+pressure, or unresolved stress.
+
+A dream about water may reflect emotional depth,
+healing, or change.
+
+While symbols matter, the emotions surrounding
+the dream often reveal the deeper meaning.</p>
 
     <p className="text-[#6B6B6B] leading-relaxed">
       Understanding your dreams involves looking at emotional patterns, symbolic meaning, 
@@ -212,28 +213,7 @@ transformation, and emotional pressure.
     </p>
   </section>
 
-      <section className="max-w-xl mx-auto px-6 py-2 md:py-22">
-        <h2 className="text-4xl md:text-5xl mb-4 text-center font-serif">
-          Popular dream meanings
-        </h2>
-        <div className="w-24 h-[1px] bg-[#C6A96B] mx-auto mb-8 opacity-60" />
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {popularDreams.map((dream) => (
-            <Link
-              key={dream.slug}
-              href={`/dreams/${dream.slug}`}
-              className="block border border-[#EAE6E1] p-6 rounded-xl hover:border-[#C6A96B] hover:bg-white/40 transition"
-            >
-              <p className="text-base md:text-lg font-medium">{dream.title}</p>
-             <p className="text-sm text-[#6B6B6B] mt-2">
-              Explore the meaning of this dream and what it may reveal
-             </p>
-            </Link>
-          ))}
-        </div>
-      </section>
-
+{/* Explore Dreams Through Emotional Experiences */}
       <section className="max-w-5xl mx-auto px-6 py-16 md:py-24">
         <div className="max-w-3xl mx-auto text-center mb-10">
           <h2 className="text-4xl md:text-5xl mb-5 font-serif">
@@ -287,6 +267,31 @@ transformation, and emotional pressure.
         </div>
       </section>
 
+{/* Popular dream meanings */}
+      <section className="max-w-xl mx-auto px-6 py-2 md:py-22">
+        <h2 className="text-4xl md:text-5xl mb-4 text-center font-serif">
+          Popular dream meanings
+        </h2>
+        <div className="w-24 h-[1px] bg-[#C6A96B] mx-auto mb-8 opacity-60" />
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {popularDreams.map((dream) => (
+            <Link
+              key={dream.slug}
+              href={`/dreams/${dream.slug}`}
+              className="block border border-[#EAE6E1] p-6 rounded-xl hover:border-[#C6A96B] hover:bg-white/40 transition"
+            >
+              <p className="text-base md:text-lg font-medium">{dream.title}</p>
+             <p className="text-sm text-[#6B6B6B] mt-2">
+              Explore the meaning of this dream and what it may reveal
+             </p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+
+
       <div className="text-center mt-8">
   <Link
     href="/categories"
@@ -299,13 +304,20 @@ transformation, and emotional pressure.
       <section className="bg-[#FAF9F7] px-6 py-20 md:py-32 text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl mb-6 font-serif">
-            How interpretation works
+            How DreamScriptures Interprets Dreams
           </h2>
           <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">
-            Dreams are not one-size-fits-all. The same dream can mean different
-            things depending on your emotions, your experiences, and what is
-            happening in your life.
-          </p>
+        DreamScriptures begins with the emotional
+experience of the dream.
+
+The same symbol may carry different meanings
+depending on whether the dream feels fearful,
+peaceful, overwhelming, comforting, or uncertain.
+
+By examining emotions, symbolism, recurring
+patterns, and life circumstances together,
+interpretations become more personal and
+meaningful.</p>
         </div>
       </section>
 
@@ -387,6 +399,25 @@ and personal context.
     </p>
 
   </div>
+
+</section>
+
+<section className="max-w-3xl mx-auto px-6 py-16 text-center">
+
+  <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-4">
+    About DreamScriptures
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed">
+    DreamScriptures was created to explore dreams through emotional
+    patterns, symbolism, and personal context rather than fixed
+    definitions. Learn more about our story, methodology, and
+    editorial standards.
+  </p>
+
+  <Link href="/about" className="underline mt-4 inline-block">
+    Read our story
+  </Link>
 
 </section>
 

@@ -55,8 +55,8 @@ export default function ContactPage() {
 
         {/* Intro */}
         <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-6">
-          Some connections arrive quietly, but still matter deeply.
-        </p>
+      Have a question about a dream meaning, interpretation, or article on DreamScriptures? We would love to hear from you.
+      </p>
 <LazyMobileQuickNav />
         {/* SEO anchor */}
         <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
@@ -75,16 +75,32 @@ export default function ContactPage() {
             </section>
           ))}
         </section>
+
+       <section>
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    What We Can Help With
+  </h2>
+
+  <ul className="space-y-3">
+    <li>• Questions about dream meanings and interpretations</li>
+    <li>• Reporting errors, corrections, or outdated information</li>
+    <li>• Feedback about DreamScriptures content</li>
+    <li>• Partnership and collaboration inquiries</li>
+    <li>• Media and interview requests</li>
+  </ul>
+</section>
+
 <section>
   <h2 className="font-serif text-2xl md:text-3xl mb-4">
-    Who You will Reach
+    Who You will Be Contacting
   </h2>
 
   <p>
-    Messages sent through DreamScriptures are reviewed by the site founder,
-    Amber Balentine. Questions, feedback, corrections, collaboration ideas,
-    and thoughtful discussion about dream interpretation are all welcome.
-  </p>
+Messages sent through DreamScriptures are reviewed by founder and editor
+Amber Balentine.
+
+Questions, feedback, corrections, collaboration ideas, and thoughtful
+discussion about dream interpretation are all welcome. </p>
 </section>
 
         {/* Email */}

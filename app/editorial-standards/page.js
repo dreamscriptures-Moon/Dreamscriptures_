@@ -97,6 +97,53 @@ export default function EditorialStandardsPage() {
           </div>
         </section>
 
+{/* Content Creation Process */}
+<section className="mt-14 border-t border-[#EAE6E1] pt-10">
+  <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
+    Content Creation Process
+  </h2>
+
+  <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
+
+    <p>
+      DreamScriptures content follows a structured editorial workflow
+      designed to promote consistency, clarity, and quality.
+    </p>
+
+    <ol className="space-y-3 list-decimal pl-5">
+      <li>Topic selection and content planning</li>
+      <li>Research and pattern analysis</li>
+      <li>Initial interpretation drafting</li>
+      <li>Review for clarity, accuracy, and consistency</li>
+      <li>Publication</li>
+      <li>Periodic updates and revisions when improvements are identified</li>
+    </ol>
+
+  </div>
+</section>
+
+{/* Quality Standards */}
+<section className="mt-14 border-t border-[#EAE6E1] pt-10">
+  <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
+    Quality Standards
+  </h2>
+
+  <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B']">
+
+    <p>DreamScriptures content is developed according to the following standards:</p>
+
+    <ul className="space-y-3">
+      <li>• Content must be original and independently created.</li>
+      <li>• Interpretations should avoid fear-based conclusions.</li>
+      <li>• Interpretations should acknowledge uncertainty where appropriate.</li>
+      <li>• Multiple perspectives may be explored when relevant.</li>
+      <li>• Content should remain clear, balanced, and reflective.</li>
+      <li>• Articles may be updated when significant improvements are identified.</li>
+    </ul>
+
+  </div>
+</section>
+
         {/* Content Structure */}
         <section className="mt-14 border-t border-[#EAE6E1] pt-10">
           <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
@@ -135,9 +182,8 @@ export default function EditorialStandardsPage() {
             </p>
 
             <p>
-              Content is written and reviewed by the site’s editor to ensure
-              alignment with DreamScriptures methodology and editorial
-              standards.
+             Content is researched, written, reviewed, and maintained by
+Amber Balentine, founder and editor of DreamScriptures.
             </p>
 
             <p>
@@ -255,7 +301,7 @@ export default function EditorialStandardsPage() {
         </section>
 <section className="mt-14 border-t border-[#EAE6E1] pt-10">
   <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
-    Our interpretation philosophy
+    Editorial standards
   </h2>
 
   <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">

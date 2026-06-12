@@ -41,11 +41,12 @@ export default function AboutPage() {
           patterns, symbolism, and personal context.
         </p>
 
-        <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
-          DreamScriptures is an independent dream interpretation resource
-          dedicated to exploring dream meanings through emotional awareness,
-          symbolic relationships, subconscious themes, and reflective insight.
-        </p>
+      <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
+  DreamScriptures is an independent dream interpretation resource
+  dedicated to exploring dream meanings through emotional awareness,
+  symbolic relationships, subconscious themes, dream psychology, and
+  reflective insight.
+   </p>
 
         <LazyMobileQuickNav />
 
@@ -178,6 +179,40 @@ export default function AboutPage() {
               </Link>.
             </p>
           </section>
+{/* Research Sources */}
+<section>
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    Research Sources & Influences
+  </h2>
+
+  <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+
+  <p>
+    DreamScriptures interpretations are informed by a combination of
+    historical symbolism, dream psychology, emotional pattern analysis,
+    cross-cultural traditions, and modern dream research.
+  </p>
+
+  <p className="mt-6">
+    Research and interpretation may draw from:
+  </p>
+
+  <ul className="mt-6 space-y-3 text-[#4A4A4A]">
+    <li>• Historical dream symbolism traditions</li>
+    <li>• Jungian concepts of archetypes and symbolism</li>
+    <li>• Dream psychology and behavioral theories</li>
+    <li>• Sleep and dream research literature</li>
+    <li>• Cross-cultural dream traditions</li>
+    <li>• Recurring dream reports and common dream themes</li>
+    <li>• Comparative analysis of symbolic and emotional patterns</li>
+  </ul>
+
+  <p className="mt-6">
+    Rather than relying on a single authority or interpretation system,
+    DreamScriptures compares multiple perspectives to identify recurring
+    emotional, symbolic, and behavioral themes.
+  </p>
+</section>
 
           {/* Editorial Standards */}
           <section>
@@ -231,32 +266,43 @@ export default function AboutPage() {
           </section>
 
           {/* Founder */}
-          <section>
-            <h2 className="font-serif text-2xl md:text-3xl mb-4">
-              About the Founder
-            </h2>
+<section>
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    About the Founder
+  </h2>
 
-            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+  <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
 
-            <p>
-              DreamScriptures was founded by Amber Balentine, an independent
-              writer and dream researcher with a long-standing interest in
-              dream symbolism, recurring dream themes, emotional patterns, and
-              subconscious experiences.
-            </p>
+  <p>
+    DreamScriptures was founded by Amber Balentine, an independent writer
+    and dream researcher with a long-standing interest in dream symbolism,
+    recurring dream themes, emotional patterns, and subconscious
+    experiences.
+  </p>
 
-            <p className="mt-6">
-              The project began as an effort to move beyond traditional dream
-              dictionaries and explore dreams through emotional relationships,
-              symbolic behavior, and recurring subconscious patterns.
-            </p>
+  <p className="mt-6">
+    The project began after years of studying how emotions, symbolic
+    relationships, and recurring patterns influence dream interpretation.
+    During this research, it became clear that many dream resources
+    focused heavily on fixed symbol definitions while giving less
+    attention to emotional context and personal experience.
+  </p>
 
-            <p className="mt-6">
-              Over time, DreamScriptures evolved into a structured
-              interpretation framework designed to help readers explore dream
-              experiences with greater depth, context, and emotional realism.
-            </p>
-          </section>
+  <p className="mt-6">
+    DreamScriptures was created to provide a more thoughtful and
+    contextual approach that explores dreams through emotional awareness,
+    symbolic behavior, subconscious themes, and waking-life relevance.
+  </p>
+
+  <p className="mt-6">
+    Over time, the project evolved into a structured interpretation
+    framework designed to help readers explore dream experiences with
+    greater depth, perspective, and emotional realism.
+  </p>
+<Link href="/author" className="underline">
+  Amber Balentine
+</Link>
+</section>
 
           {/* Transparency */}
           <section>
@@ -295,6 +341,13 @@ export default function AboutPage() {
           </section>
         </div>
       </div>
+
+<p className="mt-4 text-sm text-[#6B6B6B]">
+  Founded and edited by{" "}
+  <Link href="/author" className="underline">
+    Amber Balentine
+  </Link>
+</p>
 
       <SiteFooter />
     </main>

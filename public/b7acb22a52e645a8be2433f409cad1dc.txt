@@ -1,5 +1,1 @@
-C:\Users\HP\Desktop\dreamscriptures> git add .
-PS C:\Users\HP\Desktop\dreamscriptures>C:\Users\HP\Desktop\dreamscriptures> git add .
-PS C:\Users\HP\Desktop\dreamscriptures> git add .
->> git commit -m "Add IndexNow key"
->> git push
+b7acb22a52e645a8be2433f409cad1dc.txt

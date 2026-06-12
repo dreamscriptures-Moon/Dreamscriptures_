@@ -253,6 +253,28 @@ return ( <main className="min-h-screen bg-[#FAF8F5]"> <SiteHeader />
         </p>
       </div>
     </section>
+{/* Sources and Interpretation Framework */}
+<section className="mt-14 border-t border-[#EAE6E1] pt-10">
+  <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
+    Sources and Interpretation Framework
+  </h2>
+
+  <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
+    <p>
+      DreamScriptures interpretations are informed by dream symbolism,
+      historical dream traditions, emotional pattern analysis,
+      psychological concepts, recurring dream themes, and contemporary
+      dream research.
+    </p>
+
+    <p>
+      Content is developed using the DreamScriptures interpretation
+      methodology and is intended as reflective educational material
+      rather than scientific conclusions or definitive statements of
+      fact.
+    </p>
+  </div>
+</section>
 
     {/* Acceptance */}
     <section className="mt-14 border-t border-[#EAE6E1] pt-10">

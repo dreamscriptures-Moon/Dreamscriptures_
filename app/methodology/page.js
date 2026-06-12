@@ -68,8 +68,9 @@ export default function MethodologyPage() {
 
           <p>
             This methodology reflects a structured approach developed through
-            observing recurring emotional and symbolic patterns across a wide
-            range of dream experiences.
+researching hundreds of dream symbols, recurring dream themes,
+emotional patterns, and symbolic relationships across a wide range
+of dream reports and experiences.
           </p>
 
           <p>
@@ -167,6 +168,92 @@ export default function MethodologyPage() {
             ))}
           </div>
         </section>
+
+{/* Interpretation Workflow */}
+<section className="mt-14 border-t border-[#EAE6E1] pt-10">
+  <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
+    How a DreamScriptures Interpretation Is Built
+  </h2>
+
+  <div className="space-y-6 text-base leading-relaxed text-[#6B6B6B]">
+
+    <p>
+      DreamScriptures interpretations follow a structured process designed
+      to explore emotional meaning, symbolic relationships, recurring
+      patterns, and waking-life context together.
+    </p>
+
+    <div className="space-y-4">
+
+      <div>
+        <strong className="text-[#1A1A1A]">
+          1. Identify the emotional atmosphere
+        </strong>
+        <p>
+          The first step is understanding how the dream feels. Fear,
+          relief, uncertainty, peace, grief, excitement, pressure, or
+          emotional conflict often provide important clues about meaning.
+        </p>
+      </div>
+
+      <div>
+        <strong className="text-[#1A1A1A]">
+          2. Examine symbolic behavior
+        </strong>
+        <p>
+          Symbols are evaluated based on their actions, relationships,
+          movement, and role within the dream rather than through fixed
+          definitions alone.
+        </p>
+      </div>
+
+      <div>
+        <strong className="text-[#1A1A1A]">
+          3. Analyze relationships between dream elements
+        </strong>
+        <p>
+          Meaning often emerges through how people, objects, locations,
+          and events interact with one another throughout the dream.
+        </p>
+      </div>
+
+      <div>
+        <strong className="text-[#1A1A1A]">
+          4. Consider recurring themes and patterns
+        </strong>
+        <p>
+          Recurring emotions, symbols, conflicts, and dream themes can
+          reveal deeper subconscious patterns that extend beyond a single
+          dream experience.
+        </p>
+      </div>
+
+      <div>
+        <strong className="text-[#1A1A1A]">
+          5. Explore waking-life context
+        </strong>
+        <p>
+          Life circumstances, personal experiences, relationships,
+          transitions, stress, and emotional challenges all influence how
+          a dream may be understood.
+        </p>
+      </div>
+
+      <div>
+        <strong className="text-[#1A1A1A]">
+          6. Develop possible interpretations
+        </strong>
+        <p>
+          Interpretations are then explored through emotional, symbolic,
+          behavioral, subconscious, and reflective perspectives rather
+          than reduced to a single conclusion.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
         {/* Meaning Development */}
         <section className="mt-14 border-t border-[#EAE6E1] pt-10">
