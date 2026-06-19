@@ -71234,5 +71234,350 @@ It often means you should examine it more honestly.`,
     "Growth"
   ]
 },
+{
+  slug: "engagement",
 
+  title: "Getting engaged",
+
+  microSummary:
+    "Dreams about getting engaged often reflect commitment, important decisions, emotional investment, future planning, personal growth, relationships, life transitions, promises, responsibilities, or a desire to build something meaningful and lasting.",
+
+  shortDescription:
+    "A dream that may feel joyful, exciting, emotional, surprising, stressful, or uncertain. Whether you are becoming engaged, receiving a proposal, giving a ring, celebrating an engagement, or questioning an engagement, these dreams often symbolize commitment, choices, partnership, long-term goals, personal values, and significant transitions in your life.",
+
+  description:
+    `Engagement is one of the strongest symbols of commitment that can appear in dreams.
+
+It represents a decision to move toward something meaningful.
+
+A promise.
+
+A partnership.
+
+A future possibility.
+
+Or an important responsibility.
+
+Because of this, dreams about getting engaged are not always about marriage.
+
+More often, they symbolize commitment itself.
+
+The dream may reflect dedication to a relationship.
+
+A career.
+
+A goal.
+
+A project.
+
+A belief.
+
+Or a new chapter of life.
+
+An engagement often marks the point where a choice becomes more serious.
+
+The future begins to feel more real.
+
+And responsibilities become more significant.
+
+The details of the engagement often matter.
+
+A happy engagement may symbolize readiness, confidence, hope, or emotional fulfillment.
+
+A stressful engagement may reflect uncertainty, pressure, fear of commitment, or concerns about the future.
+
+An unexpected engagement may symbolize opportunities, life changes, or responsibilities that arrive sooner than anticipated.
+
+Refusing an engagement may symbolize hesitation, self-doubt, changing priorities, or resistance toward a particular commitment.
+
+The identity of the person involved can also provide important clues.
+
+Being engaged to a partner may reflect feelings about the relationship itself.
+
+Being engaged to a stranger may symbolize unknown possibilities, future opportunities, or unexplored aspects of yourself.
+
+Being engaged to someone unexpected may symbolize qualities, goals, or life paths becoming more important.
+
+The emotional atmosphere often reveals the dream's deeper meaning.
+
+Excitement may reflect anticipation and hope.
+
+Anxiety may reflect uncertainty or fear of responsibility.
+
+Joy may reflect fulfillment and emotional readiness.
+
+Confusion may reflect mixed feelings about a commitment or future decision.
+
+Dreams about engagement commonly appear during periods involving relationships, career decisions, personal growth, major life transitions, future planning, important commitments, or situations requiring long-term dedication.
+
+The dream often asks:
+
+What am I becoming more committed to in my life right now?`,
+
+  emotionalMeaning:
+    `Emotionally, this dream often revolves around commitment.
+
+Expectation.
+
+Responsibility.
+
+Connection.
+
+For some dreamers, the strongest feeling is excitement.
+
+The sense that something meaningful is developing.
+
+For others, the dream creates anxiety.
+
+The awareness that commitment often brings responsibility and change.
+
+There can also be uncertainty.
+
+Particularly when the engagement feels unexpected or unwanted.
+
+The emotional atmosphere often reveals whether the dream is focusing on hope, readiness, pressure, fear, partnership, responsibility, or personal growth.
+
+The emotional question often becomes:
+
+How do I truly feel about the commitments I am making or considering?`,
+
+  symbolicMeaning:
+    `Symbolically, engagement often represents commitment, dedication, promises, future planning, and important decisions.
+
+The engagement may symbolize:
+
+A relationship.
+
+A goal.
+
+A career path.
+
+A personal transformation.
+
+A project.
+
+A responsibility.
+
+A future vision.
+
+The ring itself often symbolizes continuity, commitment, value, and long-term intention.
+
+The dream frequently appears when a decision is becoming more serious or when a future possibility is demanding greater investment.
+
+It often reflects emotional and psychological commitment rather than literal marriage alone.`,
+
+  spiritualMeaning:
+    `Spiritually, engagement may symbolize alignment, purpose, intention, and commitment to a path of growth.
+
+The dream can appear when you are making deeper promises to yourself, embracing personal development, or moving toward a more meaningful direction.
+
+It may encourage reflection on what deserves your energy, dedication, and long-term attention.
+
+The dream often highlights the importance of conscious choices and intentional commitment.`,
+
+  wakingLifeMeaning:
+    `This dream commonly appears during periods involving relationships, future planning, career development, personal goals, major decisions, or significant life transitions.
+
+Someone considering a major commitment may experience it because an important choice is becoming more real.
+
+Someone entering a new chapter may dream of engagement because responsibility and investment are increasing.
+
+Someone building a relationship, business, or future goal may experience the dream because dedication is deepening.
+
+The dream may also appear when commitment feels exciting, intimidating, or uncertain.
+
+Many dreamers focus on the engagement itself.
+
+The deeper meaning often involves commitment, responsibility, future planning, growth, and emotional investment.
+
+The dream is usually asking:
+
+What am I preparing to commit myself to more fully?`,
+
+  contradictions: [
+    {
+      type: "commitment_vs-freedom",
+      meaning:
+        "The dream may explore the desire for stability while also recognizing the value of independence."
+    },
+    {
+      type: "certainty_vs-uncertainty",
+      meaning:
+        "Important commitments often involve both confidence and unanswered questions."
+    },
+    {
+      type: "responsibility_vs-opportunity",
+      meaning:
+        "New commitments can create obligations while also opening doors to meaningful growth."
+    },
+    {
+      type: "fear_vs-readiness",
+      meaning:
+        "Feeling nervous about commitment does not necessarily mean you are unprepared for it."
+    }
+  ],
+
+  types: [
+    {
+      type: "receiving a marriage proposal",
+      meaning:
+        "Often symbolizes opportunity, commitment, future possibilities, or important decisions approaching."
+    },
+    {
+      type: "happily getting engaged",
+      meaning:
+        "May reflect readiness, confidence, emotional fulfillment, or positive commitment."
+    },
+    {
+      type: "feeling anxious about an engagement",
+      meaning:
+        "Often symbolizes uncertainty, pressure, fear of responsibility, or concerns about the future."
+    },
+    {
+      type: "getting engaged to a stranger",
+      meaning:
+        "May symbolize unexplored opportunities, unknown futures, or developing aspects of yourself."
+    },
+    {
+      type: "getting engaged to someone unexpected",
+      meaning:
+        "Often reflects surprising possibilities, changing priorities, or qualities becoming important."
+    },
+    {
+      type: "losing an engagement ring",
+      meaning:
+        "May symbolize doubts, insecurity, fear of commitment, or concerns about a promise or responsibility."
+    },
+    {
+      type: "breaking off an engagement",
+      meaning:
+        "Often symbolizes changing priorities, hesitation, reevaluation, or a desire for greater freedom."
+    }
+  ],
+
+  behavioralInsights: [
+    {
+      title: "Why engagement symbolizes commitment",
+      content:
+        "Engagement represents a conscious decision to invest emotionally, practically, or psychologically in a future outcome."
+    },
+    {
+      title: "What psychologists might see in this dream",
+      content:
+        "From a psychological perspective, the dream may reflect commitment, decision-making, relationship development, future planning, responsibility, or personal growth."
+    },
+    {
+      title: "Why the person matters",
+      content:
+        "The identity of the person involved often provides clues about what qualities, goals, relationships, or life paths the dream is highlighting."
+    },
+    {
+      title: "Why engagement dreams occur during transitions",
+      content:
+        "Major life changes frequently involve choices that require increased dedication and responsibility."
+    },
+    {
+      title: "Why anxiety can appear alongside happiness",
+      content:
+        "Meaningful commitments often create both excitement and uncertainty about the future."
+    },
+    {
+      title: "Why rings are powerful symbols",
+      content:
+        "Rings often symbolize continuity, value, promises, connection, and long-term commitment."
+    },
+    {
+      title: "Why recurring dreams happen",
+      content:
+        "Recurring dreams about engagement may suggest ongoing decisions, commitment concerns, relationship questions, future planning, or responsibilities that continue requiring attention."
+    }
+  ],
+
+  emotionalStates: [
+    "excitement",
+    "hope",
+    "anticipation",
+    "anxiety",
+    "joy",
+    "uncertainty",
+    "commitment"
+  ],
+
+  subconsciousPatterns: [
+    "future planning",
+    "decision-making",
+    "commitment awareness",
+    "relationship reflection",
+    "personal growth",
+    "life transition processing"
+  ],
+
+  emotionalTriggers: [
+    "relationship developments",
+    "major life decisions",
+    "career commitments",
+    "future planning",
+    "new responsibilities",
+    "personal goals"
+  ],
+
+  lifeSituations: [
+    "making important decisions",
+    "planning for the future",
+    "deepening relationships",
+    "building long-term goals",
+    "entering a new chapter",
+    "accepting responsibilities"
+  ],
+
+  dreamSymbols: [
+    "engagement",
+    "ring",
+    "proposal",
+    "celebration",
+    "promise",
+    "commitment",
+    "partnership"
+  ],
+
+  summary:
+    "Dreams about getting engaged often symbolize commitment, important decisions, future planning, emotional investment, and significant life transitions. These dreams commonly appear during periods involving relationships, personal growth, career development, or major choices about the future. While engagement dreams may focus on romance, they frequently represent broader themes involving dedication, responsibility, opportunity, partnership, and the commitments shaping your life.",
+
+  relatedDreams: [
+    {
+      slug: "marriage",
+      reason:
+        "Both dreams symbolize commitment, partnership, long-term decisions, emotional investment, and major life transitions."
+    },
+    {
+      slug: "marrying-a-crush",
+      reason:
+        "Both dreams involve emotional connection, hopes for the future, commitment, and relationship desires."
+    },
+    {
+      slug: "marrying-a-celebrity",
+      reason:
+        "Both dreams explore aspirations, ideals, commitment, personal desires, and future possibilities."
+    },
+    {
+      slug: "saying-no-at-a-wedding",
+      reason:
+        "Both dreams explore commitment, readiness, major decisions, uncertainty, and personal choice."
+    },
+    {
+      slug: "wedding-day-drama",
+      reason:
+        "Both dreams involve commitment, expectations, relationships, life transitions, and emotions surrounding important decisions."
+    }
+  ],
+
+  categories: [
+    "Relationships",
+    "Life transitions",
+    "Personal growth",
+    "Self awareness",
+    "Emotional awareness",
+    "Commitment"
+  ]
+},
 ];
