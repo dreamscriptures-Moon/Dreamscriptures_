@@ -23,7 +23,11 @@ const faqItems = [
     answer:
       "The emotional atmosphere often reveals more than the symbol itself. Water may feel peaceful in one dream and emotionally overwhelming in another. A house may feel comforting, abandoned, unsafe, or unfamiliar. DreamScriptures focuses heavily on emotional tone because the subconscious often communicates through emotional experience rather than direct explanation.",
   },
-
+{
+  question: "Why do I keep having the same dream over and over?",
+  answer:
+    "Repeated dreams often suggest that an emotion, concern, life transition, unresolved conflict, or subconscious pattern remains active beneath the surface. While the details may change, the emotional theme often remains consistent until the underlying issue becomes easier to recognize or process."
+},
   {
     question: "Why do dreams feel so real?",
     answer:
@@ -53,7 +57,11 @@ const faqItems = [
     answer:
       "Some dreams can feel spiritually significant, emotionally profound, or deeply reflective. Others may simply process stress, memory, emotion, fear, or daily experience. DreamScriptures keeps both possibilities open without forcing every dream into supernatural certainty or fear-based interpretation.",
   },
-
+{
+  question: "Can anxiety affect dreams?",
+  answer:
+    "Yes. Anxiety frequently appears in dreams through pressure, urgency, confusion, avoidance, falling, being chased, losing control, or emotionally overwhelming situations. Dreams often translate emotional stress into symbolic experiences that feel easier for the subconscious to express."
+},
   {
     question: "Do dreams predict the future?",
     answer:
@@ -89,6 +97,11 @@ const faqItems = [
     answer:
       "Dreams often combine memory, fear, imagination, stress, attachment, symbolism, and emotional association into experiences that do not follow normal logic. The subconscious prioritizes emotional connection over chronological structure, which can make dreams difficult to explain clearly after waking.",
   },
+  {
+  question: "Why do certain people appear in dreams?",
+  answer:
+    "People in dreams may represent relationships, memories, emotional associations, personality traits, unresolved feelings, or aspects of yourself. Sometimes the person matters directly, while other times they serve as a symbolic connection to a larger emotional theme."
+},
 ];
 
 export const metadata = {
@@ -159,12 +172,20 @@ export default function FAQPage() {
             transformation, memory, longing, or emotional transition.
           </p>
 
-          <p className="mt-5 text-base leading-[1.9] text-[#5F574E] md:text-lg">
-            DreamScriptures approaches dreams through emotional realism,
-            symbolic flexibility, subconscious pattern recognition, and
-            spiritually open reflection rather than fixed symbolic definitions
-            alone.
-          </p>
+         <p className="mt-5 text-base leading-[1.9] text-[#5F574E] md:text-lg">
+  DreamScriptures approaches dreams through emotional realism,
+  symbolic flexibility, subconscious pattern recognition, and
+  spiritually open reflection rather than fixed symbolic definitions
+  alone. Explore our{" "}
+  <Link href="/emotions" className="underline">
+    emotional hubs
+  </Link>{" "}
+  and{" "}
+  <Link href="/guides" className="underline">
+    dream guides
+  </Link>{" "}
+  to learn more about this approach.
+</p>
         </section>
 
         <LazyMobileQuickNav />
@@ -185,6 +206,36 @@ export default function FAQPage() {
             </section>
           ))}
         </div>
+
+<section className="mt-20 border-t border-[#EAE6E1] pt-10">
+  <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
+    How DreamScriptures creates content
+  </h2>
+
+  <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
+    <p>
+      DreamScriptures is independently operated by Amber Balentine and follows
+      a structured editorial process focused on emotional context, symbolic
+      relationships, subconscious themes, and reflective interpretation.
+    </p>
+
+    <p>
+      Learn more about our{" "}
+      <Link href="/methodology" className="underline">
+        interpretation methodology
+      </Link>
+      ,{" "}
+      <Link href="/editorial-standards" className="underline">
+        editorial standards
+      </Link>
+      , and{" "}
+      <Link href="/about" className="underline">
+        founder background
+      </Link>
+      .
+    </p>
+  </div>
+</section>
 
         <section className="mt-20 border-y border-[#EAE6E1] bg-white/70 px-6 py-10">
           <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
