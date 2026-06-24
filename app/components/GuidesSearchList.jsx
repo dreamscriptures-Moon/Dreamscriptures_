@@ -4,11 +4,16 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
 const featuredSlugs = [
-  "why-we-dream",
-  "spiritual-dreams-meaning",
-  "how-to-remember-dreams",
-  "lucid-dreaming",
-];
+  "what-are-dreams",          
+  "why-we-dream",            
+  "dreams-and-emotions",  
+  "spiritual-dreams-meaning", 
+  "how-to-interpret-dream-symbols", 
+  "how-to-remember-dreams",   
+  "lucid-dreaming",           
+  "recurring-dreams", 
+  "prophetic-dreams-meaning",
+  ];    
 
 const INITIAL_COUNT = 12;
 const LOAD_MORE_COUNT = 8;
@@ -81,17 +86,23 @@ export default function GuidesSearchList({ guides = [] }) {
       <section className="mb-16">
         <div className="flex items-end justify-between gap-6 mb-6">
           <div>
-            <p className="text-[11px] tracking-[0.25em] text-[#A89F91] uppercase mb-2">
-              Featured Guides
-            </p>
-            <h2 className="font-serif text-2xl md:text-3xl text-[#1A1A1A]">
-              Selected reads to start with
-            </h2>
+          <p className="text-[11px] tracking-[0.25em] text-[#A89F91] uppercase mb-2">
+  Editor&apos;s Picks
+</p>
+
+<h2 className="font-serif text-2xl md:text-3xl text-[#1A1A1A]">
+  Featured Learning
+</h2>
+
+<p className="text-[#6B6B6B] mt-3 max-w-2xl leading-relaxed">
+  Explore some of the most popular and foundational guides in the
+  DreamScriptures Knowledge Hub.
+</p>
           </div>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-2">
-          {featuredGuides.map((guide, index) => (
+       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        {featuredGuides.map((guide, index) => (
             <Link
               key={guide.slug}
               href={`/guides/${guide.slug}`}
@@ -100,9 +111,9 @@ export default function GuidesSearchList({ guides = [] }) {
               <div className="absolute inset-0 bg-gradient-to-br from-[#FBF8F2] via-white to-[#F3EEE6] opacity-90" />
               <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-[#C6A96B]/10 blur-2xl" />
               <div className="relative">
-                <p className="text-[11px] tracking-[0.25em] text-[#A89F91] uppercase mb-4">
-                  Featured {index + 1}
-                </p>
+               <p className="text-[11px] tracking-[0.25em] text-[#A89F91] uppercase mb-4">
+  Recommended Guide
+</p>
                 <h3 className="font-serif text-xl md:text-2xl text-[#1A1A1A] leading-tight mb-3 group-hover:text-[#C6A96B] transition-colors">
                   {guide.title}
                 </h3>
@@ -121,13 +132,19 @@ export default function GuidesSearchList({ guides = [] }) {
         </div>
       </section>
 
-      <div className="flex items-center gap-4 mb-8">
-        <div className="h-px flex-1 bg-[#EAE6E1]" />
-        <h2 className="font-serif text-2xl md:text-3xl text-[#1A1A1A]">
-          All Guides
-        </h2>
-        <div className="h-px flex-1 bg-[#EAE6E1]" />
-      </div>
+    <div className="mb-8">
+
+  <h2 className="font-serif text-3xl md:text-4xl text-[#1A1A1A]">
+    Browse All Dream Guides
+  </h2>
+
+  <p className="text-[#6B6B6B] mt-3 max-w-2xl leading-relaxed">
+    Search or browse every guide in the DreamScriptures Knowledge Hub,
+    covering dream psychology, sleep science, spirituality,
+    symbolism, wellness and modern dream research.
+  </p>
+
+</div> 
 
       <div className="space-y-6">
         {filteredGuides.length > 0 ? (

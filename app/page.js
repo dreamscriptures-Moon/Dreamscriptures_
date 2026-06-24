@@ -321,37 +321,85 @@ meaningful.</p>
         </div>
       </section>
 
-      <section className="max-w-3xl mx-auto px-6 py-20 md:py-32">
-        <h2 className="text-4xl md:text-5xl font-serif mb-10 text-center">
-          Guides
-        </h2>
+    <section className="max-w-5xl mx-auto px-6 py-20 md:py-28">
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {featuredGuides.map((guide) => (
-            <Link
-              key={guide.slug}
-              href={`/guides/${guide.slug}`}
-              className="block border border-[#EAE6E1] p-6 rounded-xl bg-white hover:border-[#C6A96B] transition"
-            >
-              <span className="block font-medium text-base md:text-lg">
-                {guide.title}
-              </span>
-              <span className="block text-sm text-[#6B6B6B] mt-2">
-                {guide.desc}
-              </span>
-            </Link>
-          ))}
-        </div>
+  <div className="text-center max-w-3xl mx-auto mb-12">
 
-        <div className="mt-8 text-center">
-          <Link
-            href="/guides"
-            className="text-sm text-[#6B6B6B] hover:text-[#1A1A1A] transition"
-          >
-            Browse all guides →
-          </Link>
-        </div>
-      </section>
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-4">
+      Learn About Dreams
+    </p>
+
+    <h2 className="text-4xl md:text-5xl font-serif mb-6">
+      Dreams Knowledge Hub
+    </h2>
+
+    <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">
+      Explore dreams through science, psychology,
+      spirituality, symbolism, wellness, history and
+      modern research. Learn how dreams work before
+      exploring individual dream meanings.
+    </p>
+
+  </div>
+
+  <div className="grid gap-5 md:grid-cols-2">
+
+    <Link href="/guides/basics" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
+      <h3 className="font-serif text-2xl">📖 Basics</h3>
+      <p className="mt-3 text-[#6B6B6B]">
+        Learn what dreams are, why we dream and how dream interpretation works.
+      </p>
+    </Link>
+
+    <Link href="/guides/science" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
+      <h3 className="font-serif text-2xl">🧠 Science</h3>
+      <p className="mt-3 text-[#6B6B6B]">
+        REM sleep, memory, brain activity and neuroscience.
+      </p>
+    </Link>
+
+    <Link href="/guides/psychology" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
+      <h3 className="font-serif text-2xl">🧠 Psychology</h3>
+      <p className="mt-3 text-[#6B6B6B]">
+        Freud, Jung, subconscious patterns and emotion.
+      </p>
+    </Link>
+
+    <Link href="/guides/spirituality" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
+      <h3 className="font-serif text-2xl">✨Spirituality</h3>
+      <p className="mt-3 text-[#6B6B6B]">
+        Christian, Islamic and African dream perspectives.
+      </p>
+    </Link>
+
+    <Link href="/guides/history-culture" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
+      <h3 className="font-serif text-2xl">🌍 History & Culture</h3>
+      <p className="mt-3 text-[#6B6B6B]">
+        Discover how civilizations have understood dreams.
+      </p>
+    </Link>
+
+    <Link href="/guides/wellness" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
+      <h3 className="font-serif text-2xl">🌿Wellness</h3>
+      <p className="mt-3 text-[#6B6B6B]">
+        Improve dream recall, sleep quality and reflection.
+      </p>
+    </Link>
+
+  </div>
+
+  <div className="text-center mt-10">
+
+    <Link
+      href="/guides"
+      className="text-sm underline underline-offset-4"
+    >
+      Explore the complete Knowledge Hub →
+    </Link>
+
+  </div>
+
+</section>
 
 <a
   href="/about"

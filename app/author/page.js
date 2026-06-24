@@ -25,10 +25,9 @@ export default function AuthorPage() {
             Home
           </Link>{" "}
           /{" "}
-          <Link href="/authors" className="hover:underline">
+          <Link href="/author" className="hover:underline">
             Authors
-          </Link>{" "}
-          / <span>Amber Balentine</span>
+          </Link>
         </nav>
 
         <p className="mb-4 text-[11px] uppercase tracking-[0.2em] text-[#8A8175]">

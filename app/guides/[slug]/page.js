@@ -314,7 +314,7 @@ function linkifyText(text = "") {
     <Link href="/dreams/being-chased" className="underline">
       Being chased dream
     </Link>
-    <Link href="/dreams/snake" className="underline">
+    <Link href="/dreams/snakes" className="underline">
       Snake dream meaning
     </Link>
   </div>

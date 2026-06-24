@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const QUICK_NAV_LINKS = [
   { href: "/dreams", label: "Dream Dictionary" },
   { href: "/categories", label: "Categories" },
-  { href: "/guides", label: "Guides" },
+  { href: "/guides", label: "Knowledge Hub" },
   { href: "/about", label: "About" },
 ];
 
