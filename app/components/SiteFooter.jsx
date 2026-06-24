@@ -17,6 +17,23 @@ export default function SiteFooter() {
             </p>
           </div>
 
+<div className="mt-8 text-center text-sm text-[#6B6B6B]">
+
+  <p className="mb-3">
+    Enjoying DreamScriptures?
+  </p>
+
+  <a
+    href="https://buymeacoffee.com/dreamscriptures"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline hover:text-[#C6A96B]"
+  >
+    ☕ Support the project
+  </a>
+
+</div>
+
           {/* Trust */}
           <div>
             <h3 className="text-xs font-medium uppercase tracking-[0.14em] text-[#8A8175]">

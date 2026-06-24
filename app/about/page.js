@@ -37,9 +37,9 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-6">
-          A thoughtful approach to dream interpretation rooted in emotional
-          patterns, symbolism, and personal context.
-        </p>
+       An independent dream knowledge hub exploring dreams through
+psychology, symbolism, spirituality, sleep science, emotional
+patterns, history and modern research. </p>
 
       <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
   DreamScriptures is an independent dream interpretation resource
@@ -49,6 +49,40 @@ export default function AboutPage() {
    </p>
 
         <LazyMobileQuickNav />
+
+<section>
+
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    What You&apos;ll Find
+  </h2>
+
+  <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+
+  <div className="grid gap-5 md:grid-cols-2">
+
+    <div>
+      <h3 className="font-serif text-xl mb-2">📖 Dream Dictionary</h3>
+      <p>Thousands of dream symbols and meanings.</p>
+    </div>
+
+    <div>
+      <h3 className="font-serif text-xl mb-2">🧠 Knowledge Hub</h3>
+      <p>Psychology, science, spirituality and dream research.</p>
+    </div>
+
+    <div>
+      <h3 className="font-serif text-xl mb-2">❤️ Emotional Guides</h3>
+      <p>Interpret dreams through emotional patterns.</p>
+    </div>
+
+    <div>
+      <h3 className="font-serif text-xl mb-2">🌍 Categories</h3>
+      <p>Browse dreams by situations, people and themes.</p>
+    </div>
+
+  </div>
+
+</section>
 
         <div className="space-y-14 text-[#2A2A2A] leading-loose text-base md:text-lg">
           {/* Why Created */}
@@ -84,9 +118,10 @@ export default function AboutPage() {
             <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
 
             <p>
-              Our mission is to build one of the most useful, trustworthy, and
-              emotionally intelligent dream interpretation resources online.
-            </p>
+           Our mission is to build one of the most useful, trustworthy and
+comprehensive dream education resources online by combining dream
+meanings, psychology, sleep science, symbolism, spirituality,
+history, wellness and research into one accessible knowledge hub.</p>
 
             <p className="mt-6">
               We aim to help readers explore possible meanings within their
@@ -111,8 +146,7 @@ export default function AboutPage() {
             </p>
 
             <p className="mt-6">
-              DreamScriptures explores dream meanings through multiple lenses:
-            </p>
+           DreamScriptures explores dreams through multiple complementary perspectives:</p>
 
             <ul className="mt-6 space-y-3 text-[#4A4A4A]">
               <li>• Emotional and behavioral patterns</li>
@@ -120,6 +154,10 @@ export default function AboutPage() {
               <li>• Subconscious themes and recurring experiences</li>
               <li>• Spiritual and reflective perspectives</li>
               <li>• Modern dream and sleep research</li>
+             <li>•Sleep science and neuroscience</li>
+              <li>•History and cultural traditions</li>
+               <li>•Dream wellness and journaling</li>
+                <li>•Modern dream research</li>
             </ul>
           </section>
 
@@ -295,13 +333,46 @@ export default function AboutPage() {
   </p>
 
   <p className="mt-6">
-    Over time, the project evolved into a structured interpretation
-    framework designed to help readers explore dream experiences with
-    greater depth, perspective, and emotional realism.
-  </p>
+  Today DreamScriptures continues to grow as an independent dream
+knowledge hub dedicated to thoughtful interpretation, educational
+research and a deeper understanding of dreams through multiple
+perspectives.</p>
 <Link href="/author" className="underline">
   Amber Balentine
 </Link>
+</section>
+
+<section>
+
+<h2 className="font-serif text-2xl md:text-3xl mb-4">
+☕ Support DreamScriptures
+</h2>
+
+<div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+
+<p>
+DreamScriptures is independently researched, written and
+maintained.
+</p>
+
+<p className="mt-6">
+If a guide has helped you understand a dream, learn
+something new or simply enjoy exploring this growing
+knowledge hub, you can support future research and new
+content with a coffee.
+</p>
+
+<p className="mt-6">
+<a
+href="https://buymeacoffee.com/dreamscriptures"
+target="_blank"
+rel="noopener noreferrer"
+className="underline"
+>
+🌙 Enjoying DreamScriptures? Support the project →
+</a>
+</p>
+
 </section>
 
           {/* Transparency */}

@@ -4,7 +4,7 @@ import SiteFooter from "@/app/components/SiteFooter";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 
 export const metadata = {
-  title: "Amber Balentine | Founder & Editor of DreamScriptures",
+  title: "Amber Balentine | Founder, Editor & Dream Researcher | DreamScriptures",
   description:
     "Learn about Amber Balentine, founder and editor of DreamScriptures, and the emotional interpretation framework behind the site's dream meanings and symbolism.",
   alternates: {
@@ -31,7 +31,7 @@ export default function AuthorPage() {
         </nav>
 
         <p className="mb-4 text-[11px] uppercase tracking-[0.2em] text-[#8A8175]">
-          Founder & Editor
+          Founder • Editor • Independent Dream Researcher
         </p>
 
         <h1 className="text-4xl md:text-5xl font-serif mb-6">
@@ -39,8 +39,9 @@ export default function AuthorPage() {
         </h1>
 
         <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-6">
-          Founder, editor, and creator of the DreamScriptures emotional
-          interpretation framework.
+         Founder and editor of DreamScriptures, an independent dream
+knowledge hub exploring dreams through psychology, symbolism,
+sleep science, spirituality, emotional patterns and research.
         </p>
 
         <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
@@ -62,10 +63,15 @@ export default function AuthorPage() {
             <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
 
             <p>
-              Amber created DreamScriptures to provide a more thoughtful
-              alternative to traditional dream dictionaries, which often rely
-              on fixed symbol definitions without considering emotional context
-              and personal experience.
+              Amber founded DreamScriptures after becoming fascinated by the
+way dreams combine emotion, memory, symbolism and personal
+experience into stories that often feel more meaningful than
+ordinary thoughts.
+
+Rather than collecting fixed dream definitions, the project
+gradually evolved into an educational resource exploring dreams
+through multiple perspectives including psychology, sleep science,
+spiritual traditions, history and modern research.
             </p>
 
             <p className="mt-6">
@@ -80,6 +86,68 @@ export default function AuthorPage() {
               throughout the site.
             </p>
           </section>
+
+{/* Why DreamScriptures Exists */}
+
+<section>
+  <h2 className="font-serif text-2xl md:text-3xl mb-4">
+    Why DreamScriptures Exists
+  </h2>
+
+  <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+
+  <p>
+    Many dream websites provide a single meaning for every symbol.
+    A snake always means betrayal. Water always represents emotion.
+    Falling always means losing control.
+  </p>
+
+  <p className="mt-6">
+    DreamScriptures was created from a different belief: dreams are
+    personal experiences shaped by memory, emotion, relationships,
+    culture, spirituality, subconscious patterns, and the events of
+    everyday life.
+  </p>
+
+  <p className="mt-6">
+    Instead of asking only{" "}
+    <span className="italic">
+      &quot;What does this symbol mean?&quot;
+    </span>{" "}
+    DreamScriptures also asks:
+  </p>
+
+  <div className="mt-8 space-y-4 border-l border-[#EAE6E1] pl-6">
+
+    <p>❤️ What emotions were present during the dream?</p>
+
+    <p>🌙 What was happening in waking life?</p>
+
+    <p>🔍 How did the symbols interact with one another?</p>
+
+    <p>🧠 What might psychology or neuroscience suggest?</p>
+
+    <p>📊 What does modern dream research tell us?</p>
+
+    <p>🌍 How have different cultures and traditions understood similar dreams?</p>
+
+  </div>
+
+  <p className="mt-8">
+    Rather than offering absolute answers, DreamScriptures combines
+    emotional interpretation, symbolism, psychology, spirituality,
+    sleep science, history, wellness, and research to help readers
+    explore dreams from multiple complementary perspectives.
+  </p>
+
+<p className="mt-8 text-[#5F574E] font-serif text-lg leading-relaxed italic">
+  Dreams rarely speak in fixed definitions.
+  They speak through emotion, memory, symbolism,
+  experience, and the quiet patterns we often overlook
+  while awake.
+</p>
+
+</section>
 
           {/* Philosophy */}
           <section>
@@ -108,12 +176,17 @@ export default function AuthorPage() {
               spiritual perspectives, and waking-life experiences rather than
               relying solely on fixed definitions.
             </p>
+
+            <p className="mt-6">
+              Dream interpretation is best approached as exploration rather
+than certainty. </p>
+
           </section>
 
           {/* Research */}
           <section>
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
-              Research & Areas of Interest
+              Research &  Interest
             </h2>
 
             <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
@@ -128,7 +201,8 @@ export default function AuthorPage() {
               <li>• Recurring dreams and nightmares</li>
               <li>• Jungian symbolism and archetypes</li>
               <li>• Dream psychology concepts</li>
-              <li>• Sleep and dream research</li>
+              <li>• Sleep science</li>
+              <li>• Psychology</li>
               <li>• Cross-cultural dream traditions</li>
               <li>• Subconscious themes and personal reflection</li>
             </ul>
@@ -137,7 +211,7 @@ export default function AuthorPage() {
           {/* Role */}
           <section>
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
-              Role at DreamScriptures
+              Editorial & Research Role
             </h2>
 
             <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
@@ -209,9 +283,12 @@ export default function AuthorPage() {
             <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
 
             <p>
-              Questions, feedback, corrections, collaboration inquiries, and
-              thoughtful discussion about dream interpretation are welcome.
-            </p>
+           Questions, corrections, collaboration inquiries and thoughtful
+discussion about dreams, symbolism and research are always
+welcome.
+
+DreamScriptures continues to grow through ongoing research,
+careful writing and community feedback.</p>
 
             <p className="mt-6">
               Email: dreamscriptures@gmail.com

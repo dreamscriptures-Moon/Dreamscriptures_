@@ -33,6 +33,11 @@ const principles = [
     body:
       "Recurring emotional states, repeating dream themes, and subconscious patterns often reveal more than one isolated symbol.",
   },
+  {
+  title: "Multiple perspectives strengthen understanding",
+  body:
+    "DreamScriptures explores dreams through psychology, neuroscience, spirituality, history, wellness and personal experience, recognizing that no single framework explains every dream.",
+},
 ];
 
 export default function MethodologyPage() {
@@ -59,26 +64,73 @@ export default function MethodologyPage() {
           How DreamScriptures Interprets Dreams
         </h1>
 
-        <div className="space-y-6 text-lg leading-relaxed text-[#5F574E]">
-          <p>
-            DreamScriptures is built around emotional realism, symbolic
-            relationships, subconscious pattern recognition, and reflective
-            interpretation.
-          </p>
+       
+<div className="space-y-6 text-lg leading-relaxed text-[#5F574E]">
 
-          <p>
-            This methodology reflects a structured approach developed through
-researching hundreds of dream symbols, recurring dream themes,
-emotional patterns, and symbolic relationships across a wide range
-of dream reports and experiences.
-          </p>
+  <p>
+    DreamScriptures explores dreams through multiple
+    complementary perspectives including emotional
+    patterns, symbolic relationships, psychology,
+    sleep science, spirituality, history, wellness,
+    and modern dream research.
+  </p>
 
-          <p>
-            The goal is not to force one rigid interpretation onto every dream,
-            but to understand what the dream may be organizing emotionally
-            beneath the surface.
-          </p>
-        </div>
+  <p>
+    Rather than relying on fixed definitions, our
+    methodology combines these perspectives to
+    encourage thoughtful, reflective, and
+    context-aware dream interpretation.
+  </p>
+
+  <p>
+    The goal is not to force one rigid interpretation
+    onto every dream, but to understand what the dream
+    may be organizing emotionally, psychologically,
+    symbolically, and personally beneath the surface.
+  </p>
+
+</div>
+
+{/* Knowledge Hub */}
+
+<section className="mt-14 border-t border-[#EAE6E1] pt-10">
+
+  <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
+    The DreamScriptures Knowledge Framework
+  </h2>
+
+  <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
+
+    <p>
+      DreamScriptures organizes dream education through
+      eight interconnected learning libraries that
+      explore dreams from multiple perspectives rather
+      than a single interpretive system.
+    </p>
+
+    <ul className="space-y-3 list-disc pl-6">
+
+      <li><strong>Basics</strong> — understanding what dreams are and how interpretation works.</li>
+
+      <li><strong>Science</strong> — REM sleep, neuroscience, memory and brain activity.</li>
+
+      <li><strong>Psychology</strong> — subconscious patterns, Freud, Jung and modern research.</li>
+
+      <li><strong>Spirituality</strong> — educational perspectives from different spiritual traditions.</li>
+
+      <li><strong>Interpretation</strong> — symbols, emotional context and reflective analysis.</li>
+
+      <li><strong>History & Culture</strong> — historical and cross-cultural understandings of dreams.</li>
+
+      <li><strong>Wellness</strong> — dream recall, journaling, sleep quality and reflection.</li>
+
+      <li><strong>Research</strong> — scientific studies, statistics and modern discoveries.</li>
+
+    </ul>
+
+  </div>
+
+</section>
 
         {/* Research Foundations */}
 <section className="mt-14 border-t border-[#EAE6E1] pt-10">
@@ -148,7 +200,7 @@ of dream reports and experiences.
         {/* Principles */}
         <section className="mt-14 border-t border-[#EAE6E1] pt-10">
           <h2 className="mb-6 font-serif text-3xl text-[#1A1A1A]">
-            Interpretation principles
+            Core Principles
           </h2>
 
           <div className="grid gap-4 md:grid-cols-2">
@@ -318,6 +370,41 @@ of dream reports and experiences.
           </div>
         </section>
 
+<section className="mt-14 border-t border-[#EAE6E1] pt-10">
+
+  <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
+    What DreamScriptures Is Not
+  </h2>
+
+  <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
+
+    <p>
+      DreamScriptures does not assign one universal
+      meaning to every dream symbol.
+    </p>
+
+    <p>
+      Spiritual perspectives are presented for
+      education and reflection rather than certainty
+      or prediction.
+    </p>
+
+    <p>
+      Dream interpretation is intended to encourage
+      curiosity, self-reflection and personal insight,
+      not fear or absolute conclusions.
+    </p>
+
+    <p>
+      Every interpretation should be considered within
+      the dreamer&apos;s own emotional experiences,
+      relationships and life circumstances.
+    </p>
+
+  </div>
+
+</section>
+
         {/* Editorial Bridge */}
         <section className="mt-14 border-t border-[#EAE6E1] pt-10">
           <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
@@ -352,7 +439,7 @@ of dream reports and experiences.
 
         {/* Freshness */}
         <p className="mt-10 text-xs text-[#8A8175]">
-          Last updated: May 2026
+          Last updated: June 2026
         </p>
 
       </article>

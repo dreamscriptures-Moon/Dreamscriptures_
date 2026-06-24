@@ -7,7 +7,13 @@
   --subtle: #756c61;
   --border: #eae6e1;
   --accent: #c6a96b;
+
+    /* Coffee Button */
+  --coffee-bg: #faf8f5;
+  --coffee-text: #5f574e;
+  --coffee-hover: #f3ede2;
 }
+
 
 @theme inline {
   --color-background: var(--background);
@@ -15,6 +21,11 @@
   --color-muted: var(--muted);
   --color-border: var(--border);
   --color-accent: var(--accent);
+
+  --color-coffee-bg: var(--coffee-bg);
+  --color-coffee-text: var(--coffee-text);
+  --color-coffee-hover: var(--coffee-hover);
+
   --font-sans: var(--font-inter);
   --font-serif: var(--font-playfair);
 }
@@ -86,4 +97,23 @@ h1, h2, h3, p {
     font-size: 1.25rem;
     line-height: 1.8;
   }
+}
+/* Floating Coffee Button */
+
+@keyframes coffeeFloat {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-2px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.coffee-float {
+  animation: coffeeFloat 5s ease-in-out infinite;
 }

@@ -4,6 +4,8 @@ import { Playfair_Display, Inter } from "next/font/google";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import BackToTop from "@/app/components/BackToTop";
+import BuyMeCoffee from "@/app/components/BuyMeCoffee";
+
 
 export const metadata = {
   metadataBase: new URL("https://www.dreamscriptures.com"),
@@ -86,6 +88,7 @@ export default function RootLayout({ children }) {
 
         {children}
         <BackToTop />
+        <BuyMeCoffee />
 
         {/* Analytics */}
         <Analytics />
