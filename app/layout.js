@@ -62,17 +62,25 @@ const inter = Inter({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        {/* 🚀 Preconnect for faster external scripts */}
-        <link
-          rel="preconnect"
-          href="https://www.googletagmanager.com"
-        />
-        <link
-          rel="preconnect"
-          href="https://pagead2.googlesyndication.com"
-        />
-      </head>
+     <head>
+  {/* 🚀 Preconnect */}
+  <link
+    rel="preconnect"
+    href="https://www.googletagmanager.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://pagead2.googlesyndication.com"
+  />
+
+  {/* Google AdSense */}
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7402615514555783"
+    crossOrigin="anonymous"
+  />
+</head>
 
       <body className={`${playfair.variable} ${inter.variable}`}>
 
@@ -89,6 +97,7 @@ export default function RootLayout({ children }) {
         {children}
         <BackToTop />
         <BuyMeCoffee />
+        
 
         {/* Analytics */}
         <Analytics />
@@ -118,14 +127,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-C8E9Y4L832');
           `}
         </Script>
-{/* Google AdSense */}
-<Script
-  id="google-adsense"
-  async
-  strategy="afterInteractive"
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7402615514555783"
-  crossOrigin="anonymous"
-/>
+
       </body>
     </html>
   );

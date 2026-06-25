@@ -2,7 +2,7 @@ import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
-
+import JumpToNavigation from "@/app/components/JumpToNavigation";
 export const metadata = {
   title:
     "Dream Wellness: Sleep, Stress, Dream Recall & Healthy Dream Habits",
@@ -125,6 +125,8 @@ export default function DreamWellnessPage() {
 
       </section>
 
+<section id="navigation"></section>
+
       <section className="max-w-6xl mx-auto px-6 mb-20">
 
         <div className="grid md:grid-cols-4 gap-6">
@@ -221,150 +223,7 @@ export default function DreamWellnessPage() {
 
       </section>
 
-      <section className="max-w-5xl mx-auto px-6 mb-20">
-
-        <div className="bg-white rounded-3xl border border-[#EAE6E1] p-8">
-
-          <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-4">
-
-            START HERE
-
-          </p>
-
-          <h2 className="font-serif text-4xl mb-8">
-
-            Reading Path
-
-          </h2>
-
-          <div className="space-y-5 text-lg">
-
-            <a href="#healthy-sleep">
-
-              ① Sleep & Dream Health
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#dream-recall">
-
-              ② Better Dream Recall
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#nightmares-stress">
-
-              ③ Nightmares & Stress
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#emotional-wellbeing">
-
-              ④ Emotional Well-being
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#dream-journaling">
-
-              ⑤ Dream Journaling
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#healthy-habits">
-
-              ⑥ Healthy Sleep Habits
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#morning-reflection">
-
-              ⑦ Morning Reflection
-
-            </a>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <section className="max-w-6xl mx-auto px-6 mb-24">
-
-        <div className="mb-10">
-
-          <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
-
-            START LEARNING
-
-          </p>
-
-          <h2 className="font-serif text-4xl mt-3">
-
-            Explore Dream Wellness
-
-          </h2>
-
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-6">
-
-          {startLearning.map((item) => (
-
-            <a
-              key={item.title}
-              href={item.href}
-              className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
-            >
-
-              <div className="text-4xl mb-5">
-
-                {item.icon}
-
-              </div>
-
-              <p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
-
-                {item.read}
-
-              </p>
-
-              <h3 className="font-serif text-2xl mb-4">
-
-                {item.title}
-
-              </h3>
-
-              <p className="text-[#6B6B6B] leading-relaxed">
-
-                {item.description}
-
-              </p>
-
-              <p className="mt-6 text-[#B79B5E]">
-
-                Explore →
-
-              </p>
-
-            </a>
-
-          ))}
-
-        </div>
-
-      </section>
-
+    
       <article
         className="max-w-4xl mx-auto px-6 mb-24"
       >
@@ -1087,7 +946,7 @@ className="bg-white border border-[#EAE6E1] rounded-2xl p-8"
 
 <h3 className="font-serif text-2xl mt-4">
 
-Dream Basics
+Basics
 
 </h3>
 
@@ -1096,6 +955,10 @@ Dream Basics
 </div>
 
 </section>
+<JumpToNavigation
+  target="#navigation"
+  label="Jump to Navigation"
+/>
 
       <SiteFooter />
 

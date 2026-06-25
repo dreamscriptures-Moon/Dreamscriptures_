@@ -2,10 +2,11 @@ import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
+import JumpToNavigation from "@/app/components/JumpToNavigation";
 
 export const metadata = {
   title:
-    "Dream History & Culture: How Civilizations Have Understood Dreams",
+    "History & Culture: How Civilizations Have Understood Dreams",
 
   description:
     "Explore more than 5,000 years of dream history, from ancient civilizations and philosophy to psychology and modern dream research.",
@@ -15,43 +16,7 @@ export const metadata = {
   },
 };
 
-const startLearning = [
-  {
-    title: "History of Dream Interpretation",
-    description:
-      "See how dream interpretation evolved across thousands of years.",
-    href: "#history-of-dreams",
-    read: "6 min read",
-    icon: "📜",
-  },
 
-  {
-    title: "🏺 Egypt: Dreams as Divine Messages",
-    description:
-      "Explore dream temples, dream books and divine symbolism.",
-    href: "#egypt",
-    read: "7 min read",
-    icon: "🏺",
-  },
-
-  {
-    title: "🏛️ Greece: Dreams, Healing & Philosophy",
-    description:
-      "Discover healing temples, philosophers and dream incubation.",
-    href: "#greece",
-    read: "7 min read",
-    icon: "🏛️",
-  },
-
-  {
-    title: "Dreams Around the World",
-    description:
-      "Compare how different cultures have understood dreams.",
-    href: "#cultures",
-    read: "8 min read",
-    icon: "🌍",
-  },
-];
 
 export default function DreamHistoryCulturePage() {
   return (
@@ -76,14 +41,13 @@ export default function DreamHistoryCulturePage() {
         </nav>
 
         <p className="uppercase tracking-[0.22em] text-[#B79B5E] text-xs mb-4">
-
-          Dream School
+Dream Library
 
         </p>
 
         <h1 className="font-serif text-5xl md:text-6xl text-[#1A1A1A] leading-tight mb-8">
 
-          Dream History & Culture
+          History & Culture
 
         </h1>
 
@@ -110,7 +74,7 @@ export default function DreamHistoryCulturePage() {
 
           <span className="bg-white border border-[#EAE6E1] rounded-full px-4 py-2 text-sm">
 
-            🏛️ 5,000+ Years of Dream History
+            🏛️ 5,000+ Years of Dreams History
 
           </span>
 
@@ -118,6 +82,7 @@ export default function DreamHistoryCulturePage() {
 
       </section>
 
+<section id="navigation"></section>
       <section className="max-w-5xl mx-auto px-6 mb-20">
 
         <SearchBar />
@@ -220,157 +185,107 @@ export default function DreamHistoryCulturePage() {
 
       </section>
 
-      <section className="max-w-5xl mx-auto px-6 mb-20">
-
-        <div className="bg-white border border-[#EAE6E1] rounded-3xl p-8">
-
-          <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-4">
-
-            START HERE
-
-          </p>
-
-          <h2 className="font-serif text-4xl mb-8">
-
-            Reading Path
-
-          </h2>
-
-          <div className="space-y-5 text-lg">
-
-            <a href="#history-of-dreams">
-
-              ① Why Humans Have Always Interpreted Dreams
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#mesopotamia">
-
-              ② Ancient Mesopotamia
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#egypt">
-
-              ③ Ancient Egypt
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#greece">
-
-              ④ Ancient Greece
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#rome">
-
-              ⑤ Ancient Rome
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#china">
-
-              ⑥ Ancient China
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#africa">
-
-              ⑦ African Dream Traditions
-
-            </a>
-
-            <div>↓</div>
-
-            <Link href="/guides/psychology">
-
-              ⑧ Modern Dream Psychology
-
-            </Link>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <section className="max-w-6xl mx-auto px-6 mb-24">
-
-        <div className="mb-10">
-
-          <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
-
-            START LEARNING
-
-          </p>
-
-          <h2 className="font-serif text-4xl mt-3">
-
-            Explore Dream History
-
-          </h2>
-
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-6">
-
-          {startLearning.map((item) => (
-
-            <a
-              key={item.title}
-              href={item.href}
-              className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
-            >
-
-              <div className="text-4xl mb-4">
-
-                {item.icon}
-
-              </div>
-
-              <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-                {item.read}
-
-              </p>
-
-              <h3 className="font-serif text-2xl mb-4">
-
-                {item.title}
-
-              </h3>
-
-              <p className="text-[#6B6B6B] leading-relaxed">
-
-                {item.description}
-
-              </p>
-
-              <p className="mt-6 text-[#B79B5E]">
-
-                Read →
-
-              </p>
-
-            </a>
-
-          ))}
-
-        </div>
-
-      </section>
+      <section className="max-w-5xl mx-auto px-6 mt-16">
+
+  <nav
+    className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
+    aria-label="Guide sections"
+  >
+
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
+      Explore this guide
+    </p>
+
+    <ul className="space-y-2 pl-4 relative">
+
+      <li
+        aria-hidden="true"
+        className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
+      />
+
+      <li>
+        <Link
+          href="#history-of-dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]"
+        >
+          Why Humans Have Always Interpreted Dreams
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#timeline" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
+          Historical Timeline
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#why-every-civilization-dreamed" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
+          Why Every Civilization Dreamed
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#mesopotamia" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
+          Ancient Mesopotamia
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#egypt" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
+          Ancient Egypt
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#greece" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
+          Ancient Greece
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#rome" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
+          Ancient Rome
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#china" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
+          Ancient China
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#africa" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
+          African Dream Traditions
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#comparison" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
+          How Civilizations Compared
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#faq" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
+          Frequently Asked Questions
+        </Link>
+      </li>
+
+      <li className="pt-2">
+        <Link
+          href="/guides"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] font-medium hover:border-[#C6A96B]"
+        >
+          Explore More Guides →
+        </Link>
+      </li>
+
+    </ul>
+
+  </nav>
+
+</section>
 
       <article
         id="history-of-dreams"
@@ -422,7 +337,7 @@ export default function DreamHistoryCulturePage() {
 
           <p>
 
-            This guide explores how dream ideas evolved across history,
+            This guide explores how dreams ideas evolved across history,
             comparing ancient civilizations, philosophical traditions,
             cultural perspectives and modern research without suggesting
             that one approach replaces another.
@@ -433,8 +348,10 @@ export default function DreamHistoryCulturePage() {
 
       </article>
 
-<section className="max-w-5xl mx-auto px-6 mb-24">
-
+<section
+id="timeline"
+className="max-w-5xl mx-auto px-6 mb-24"
+>
   <h2 className="font-serif text-4xl mb-10">
 
     Dream History Timeline
@@ -1045,8 +962,7 @@ rich and evolving understanding of dreams across the continent.
 
 <h2 className="font-serif text-4xl mb-10">
 
-Compare Historical Perspectives
-
+How Civilizations Compared
 </h2>
 
 <div className="overflow-x-auto">
@@ -1054,24 +970,154 @@ Compare Historical Perspectives
 <table className="w-full bg-white rounded-2xl overflow-hidden">
 
 <thead>
-
 <tr>
 
 <th className="p-5 text-left">
-
 Civilization
-
 </th>
 
 <th className="p-5 text-left">
+Primary View
+</th>
 
-Dreams Were Often Understood As
-
+<th className="p-5 text-left">
+Lasting Influence
 </th>
 
 </tr>
-
 </thead>
+
+<tbody>
+
+<tr>
+
+<td className="p-5 font-medium">
+Mesopotamia
+</td>
+
+<td className="p-5">
+Messages requiring interpretation
+</td>
+
+<td className="p-5">
+One of the earliest written dream records
+</td>
+
+</tr>
+
+<tr>
+
+<td className="p-5 font-medium">
+Ancient Egypt
+</td>
+
+<td className="p-5">
+Divine guidance and healing
+</td>
+
+<td className="p-5">
+Dream books and dream temples
+</td>
+
+</tr>
+
+<tr>
+
+<td className="p-5 font-medium">
+Ancient Greece
+</td>
+
+<td className="p-5">
+Healing, philosophy and observation
+</td>
+
+<td className="p-5">
+Rational inquiry into dreams
+</td>
+
+</tr>
+
+<tr>
+
+<td className="p-5 font-medium">
+Ancient Rome
+</td>
+
+<td className="p-5">
+Politics, public life and omens
+</td>
+
+<td className="p-5">
+Preserved and expanded Greek traditions
+</td>
+
+</tr>
+
+<tr>
+
+<td className="p-5 font-medium">
+Ancient China
+</td>
+
+<td className="p-5">
+Inner balance and philosophical reflection
+</td>
+
+<td className="p-5">
+Ideas about consciousness and identity
+</td>
+
+</tr>
+
+<tr>
+
+<td className="p-5 font-medium">
+African Traditions
+</td>
+
+<td className="p-5">
+Community, ancestors and guidance
+</td>
+
+<td className="p-5">
+Rich oral traditions and cultural wisdom
+</td>
+
+</tr>
+
+<tr>
+
+<td className="p-5 font-medium">
+Modern Psychology
+</td>
+
+<td className="p-5">
+The unconscious mind
+</td>
+
+<td className="p-5">
+Clinical dream interpretation
+</td>
+
+</tr>
+
+<tr>
+
+<td className="p-5 font-medium">
+Neuroscience
+</td>
+
+<td className="p-5">
+Memory, emotion and REM sleep
+</td>
+
+<td className="p-5">
+Scientific study of dreaming
+</td>
+
+</tr>
+
+</tbody>
 
 <tbody>
 
@@ -1199,7 +1245,7 @@ Memory and emotion processing
 
 <h2 className="font-serif text-4xl mb-10">
 
-Dream History Facts
+Did You Know?
 
 </h2>
 
@@ -1260,9 +1306,7 @@ Nearly every known civilization left records describing dreams.
 <section className="max-w-6xl mx-auto px-6 mb-24">
 
   <h2 className="font-serif text-4xl mb-10">
-
-    Explore Dream History by Era
-
+From Ancient Civilizations to Modern Science
   </h2>
 
   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -1581,7 +1625,7 @@ Dream Psychology
 
 <h3 className="font-serif text-2xl mt-4 mb-3">
 
-Dream Basics
+Basics
 
 </h3>
 
@@ -1615,7 +1659,10 @@ Dream Spirituality
 
 </section>
 
-
+<JumpToNavigation
+  target="#navigation"
+  label="Jump to Navigation"
+/>
 
       <SiteFooter />
 

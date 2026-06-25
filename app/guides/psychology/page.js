@@ -2,6 +2,7 @@ import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
+import JumpToNavigation from "@/app/components/JumpToNavigation";
 
 export const metadata = {
   title:
@@ -15,39 +16,6 @@ export const metadata = {
   },
 };
 
-const startLearning = [
-  {
-    title: "What Is Dream Psychology?",
-    href: "#what-is-dream-psychology",
-    description:
-      "Discover how psychologists study dreams and the unconscious mind.",
-    read: "5 min read",
-  },
-
-  {
-    title: "Freud's Dream Theory",
-    href: "#freud",
-    description:
-      "Learn why Freud believed dreams reveal hidden wishes.",
-    read: "7 min read",
-  },
-
-  {
-    title: "Jung's Dream Theory",
-    href: "#jung",
-    description:
-      "Explore archetypes, symbols and the collective unconscious.",
-    read: "8 min read",
-  },
-
-  {
-    title: "Modern Dream Research",
-    href: "#modern",
-    description:
-      "See how neuroscience explains dreams today.",
-    read: "6 min read",
-  },
-];
 
 export default function DreamPsychologyPage() {
   return (
@@ -79,7 +47,7 @@ export default function DreamPsychologyPage() {
 
         <h1 className="font-serif text-5xl md:text-6xl text-[#1A1A1A] leading-tight mb-8">
 
-          Dream Psychology
+          Psychology
 
         </h1>
 
@@ -120,6 +88,7 @@ export default function DreamPsychologyPage() {
 
       </section>
 
+<section id="navigation"></section>
 <section className="max-w-6xl mx-auto px-6 mb-20">
 
 <div className="grid md:grid-cols-4 gap-5">
@@ -278,65 +247,151 @@ Reading Time
 
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 mb-24">
+<section className="max-w-5xl mx-auto px-6 mt-16 mb-20">
 
-        <div className="mb-10">
+<nav
+className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
+aria-label="Guide sections"
+>
 
-          <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
+<p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
 
-            START LEARNING
+On This Page
 
-          </p>
+</p>
 
-          <h2 className="font-serif text-4xl mt-3">
+<ul className="space-y-2 pl-4 relative">
 
-            Psychology Fundamentals
+<li
+aria-hidden="true"
+className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
+/>
 
-          </h2>
+<li>
 
-        </div>
+<Link href="#what-is-dream-psychology"
+className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B]">
 
-        <div className="grid md:grid-cols-2 gap-6">
+What Is Dream Psychology?
 
-          {startLearning.map((item) => (
+</Link>
 
-            <a
-              key={item.title}
-              href={item.href}
-              className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
-            >
+</li>
 
-              <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
+<li>
 
-                {item.read}
+<Link href="#history">
 
-              </p>
+History of Dream Psychology
 
-              <h3 className="font-serif text-2xl mb-4">
+</Link>
 
-                {item.title}
+</li>
 
-              </h3>
+<li>
 
-              <p className="text-[#6B6B6B] leading-relaxed">
+<Link href="#timeline">
 
-                {item.description}
+Dream Psychology Timeline
 
-              </p>
+</Link>
 
-              <p className="mt-6 text-[#B79B5E]">
+</li>
+<section
+className="max-w-4xl mx-auto px-6 mb-24"
+>
 
-                Read →
+<h2 className="font-serif text-4xl mb-8">
 
-              </p>
+How Dream Psychology Evolved
 
-            </a>
+</h2>
 
-          ))}
+<div className="space-y-8 text-lg leading-relaxed text-[#444]">
 
-        </div>
+<p>
 
-      </section>
+Dream psychology didn&apos;t replace older ideas about dreams—it built upon them.
+
+</p>
+
+<p>
+
+Ancient cultures often viewed dreams as messages from gods or ancestors.
+
+Freud shifted the focus inward, arguing that dreams reflected unconscious wishes.
+
+Jung expanded the idea by exploring archetypes and personal growth.
+
+Modern neuroscience now studies how dreaming relates to memory, emotion and brain activity.
+
+</p>
+
+<p>
+
+Each theory explains a different part of dreaming, which is why modern researchers often combine insights from several perspectives instead of relying on a single explanation.
+
+</p>
+
+</div>
+
+</section>
+
+<li>
+
+<Link href="#freud">
+
+Freud&apos;s Dream Theory
+
+</Link>
+
+</li>
+
+<li>
+
+<Link href="#jung">
+
+Jung&apos;s Dream Theory
+
+</Link>
+
+</li>
+
+<li>
+
+<Link href="#comparison">
+
+Freud vs Jung
+
+</Link>
+
+</li>
+
+<li>
+
+<Link href="#faq">
+
+Frequently Asked Questions
+
+</Link>
+
+</li>
+
+<li className="pt-2">
+
+<Link href="/guides/science">
+
+Continue to Dream Science →
+
+</Link>
+
+</li>
+
+</ul>
+
+</nav>
+
+</section>
 
       <article
         id="what-is-dream-psychology"
@@ -395,8 +450,12 @@ Reading Time
 
       </article>
 
-      <section className="max-w-4xl mx-auto px-6 mb-24">
+     <section
 
+     
+id="history"
+className="max-w-4xl mx-auto px-6 mb-24"
+>
         <h2 className="font-serif text-4xl mb-8">
 
           The History of Dream Psychology
@@ -438,8 +497,10 @@ Reading Time
 
       </section>
 
-<section className="max-w-6xl mx-auto px-6 mb-24">
-
+<section
+id="timeline"
+className="max-w-6xl mx-auto px-6 mb-24"
+>
 <h2 className="font-serif text-4xl mb-10">
 
 Dream Psychology Timeline
@@ -906,8 +967,10 @@ century later.
 
 </section>
 
-<section className="max-w-5xl mx-auto px-6 mb-24">
-
+<section
+id="comparison"
+className="max-w-5xl mx-auto px-6 mb-24"
+>
 <h2 className="font-serif text-4xl mb-10">
 
 Freud vs Jung
@@ -920,21 +983,21 @@ Freud vs Jung
 
 <thead>
 
-<tr>
+<tr className="bg-[#F8F6F2]">
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
-Topic
+Question
 
 </th>
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
 Freud
 
 </th>
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
 Jung
 
@@ -946,39 +1009,39 @@ Jung
 
 <tbody>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
-<td className="p-5">
+<td className="p-5 font-medium">
 
-Purpose
-
-</td>
-
-<td className="p-5">
-
-Hidden wishes
+Dreams come from...
 
 </td>
 
 <td className="p-5">
 
-Personal growth
+Hidden wishes and unconscious desires
+
+</td>
+
+<td className="p-5">
+
+The unconscious guiding personal growth
 
 </td>
 
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
-<td className="p-5">
+<td className="p-5 font-medium">
 
-Symbols
+Symbols are...
 
 </td>
 
 <td className="p-5">
 
-Personal
+Mostly personal
 
 </td>
 
@@ -990,17 +1053,17 @@ Universal archetypes
 
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
-<td className="p-5">
+<td className="p-5 font-medium">
 
-Goal
+Purpose of dreams
 
 </td>
 
 <td className="p-5">
 
-Reveal conflict
+Wish fulfillment
 
 </td>
 
@@ -1012,16 +1075,61 @@ Psychological balance
 
 </tr>
 
-</tbody>
+<tr className="border-t border-[#EAE6E1]">
 
+<td className="p-5 font-medium">
+
+Goal
+
+</td>
+
+<td className="p-5">
+
+Reveal hidden conflict
+
+</td>
+
+<td className="p-5">
+
+Encourage self-understanding
+
+</td>
+
+</tr>
+
+<tr className="border-t border-[#EAE6E1]">
+
+<td className="p-5 font-medium">
+
+Modern influence
+
+</td>
+
+<td className="p-5">
+
+Psychoanalysis
+
+</td>
+
+<td className="p-5">
+
+Analytical psychology
+
+</td>
+
+</tr>
+
+</tbody>
 </table>
 
 </div>
 
 </section>
 
-<section className="max-w-5xl mx-auto px-6 mb-24">
-
+<section
+id="faq"
+className="max-w-5xl mx-auto px-6 mb-24"
+>
   <h2 className="font-serif text-4xl mb-10">
 
     Frequently Asked Questions
@@ -1220,21 +1328,129 @@ Meet The Researchers
 
 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-<div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
+<Link
+href="/guides/psychology#freud"
+className="bg-white border border-[#EAE6E1] rounded-3xl p-8 hover:shadow-lg transition"
+>
 
-<h3 className="font-serif text-2xl mb-3">
+<p className="uppercase tracking-[0.2em] text-xs text-[#B79B5E] mb-3">
+
+Pioneer
+
+</p>
+
+<h3 className="font-serif text-2xl mb-4">
 
 Sigmund Freud
 
 </h3>
 
-<p>
+<p className="text-[#6B6B6B] mb-6">
 
-Founder of psychoanalysis.
+Founder of psychoanalysis and the theory of wish fulfillment.
 
 </p>
 
-</div>
+<p className="text-[#B79B5E] font-medium">
+
+Read More →
+
+</p>
+
+</Link>
+
+<Link
+href="/guides/psychology#jung"
+className="bg-white border border-[#EAE6E1] rounded-3xl p-8 hover:shadow-lg transition"
+>
+
+<p className="uppercase tracking-[0.2em] text-xs text-[#B79B5E] mb-3">
+
+Pioneer
+
+</p>
+
+<h3 className="font-serif text-2xl mb-4">
+
+Carl Jung
+
+</h3>
+
+<p className="text-[#6B6B6B] mb-6">
+
+Creator of analytical psychology and the theory of archetypes.
+
+</p>
+
+<p className="text-[#B79B5E] font-medium">
+
+Read More →
+
+</p>
+
+</Link>
+
+<Link
+href="https://en.wikipedia.org/wiki/J._Allan_Hobson"
+className="bg-white border border-[#EAE6E1] rounded-3xl p-8 hover:shadow-lg transition"
+>
+
+<p className="uppercase tracking-[0.2em] text-xs text-[#B79B5E] mb-3">
+
+Researcher
+
+</p>
+
+<h3 className="font-serif text-2xl mb-4">
+
+J. Allan Hobson
+
+</h3>
+
+<p className="text-[#6B6B6B] mb-6">
+
+Co-developed the Activation-Synthesis theory of dreaming.
+
+</p>
+
+<p className="text-[#B79B5E] font-medium">
+
+Learn More →
+
+</p>
+
+</Link>
+
+<Link
+href="https://en.wikipedia.org/wiki/Rosalind_Cartwright"
+className="bg-white border border-[#EAE6E1] rounded-3xl p-8 hover:shadow-lg transition"
+>
+
+<p className="uppercase tracking-[0.2em] text-xs text-[#B79B5E] mb-3">
+
+Researcher
+
+</p>
+
+<h3 className="font-serif text-2xl mb-4">
+
+Rosalind Cartwright
+
+</h3>
+
+<p className="text-[#6B6B6B] mb-6">
+
+Known for research on dreams, emotion and mental health.
+
+</p>
+
+<p className="text-[#B79B5E] font-medium">
+
+Learn More →
+
+</p>
+
+</Link>
 
 <div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
 
@@ -1320,8 +1536,7 @@ Dreams and emotional processing.
 
     <h2 className="font-serif text-5xl text-[#1A1A1A]">
 
-      Explore Different Perspectives
-
+ Continue Your Dream Library Journey
     </h2>
 
     <p className="max-w-2xl mx-auto mt-6 text-lg text-[#6B6B6B] leading-relaxed">
@@ -1465,6 +1680,11 @@ Dreams and emotional processing.
   </div>
 
 </section>
+
+<JumpToNavigation
+  target="#navigation"
+  label="Jump to Navigation"
+/>
 
       <SiteFooter />
 

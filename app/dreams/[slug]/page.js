@@ -34,6 +34,7 @@ import { normalizeSlug } from "@/lib/normalizeSlug";
 import ClusterPathway from "@/app/components/ClusterPathway";
 import { getClusterGuides } from "@/lib/clusterGuides";
 import { getCanonicalDreamSlug, getDreamRobots } from "@/lib/seo";
+import JumpToNavigation from "@/app/components/JumpToNavigation";
 
 export function generateStaticParams() {
   return dreams.map((dream) => ({
@@ -732,6 +733,9 @@ function getDreamContext(dream) {
 
      <div className="max-w-3xl mx-auto px-6 mt-4 mb-6 space-y-3">
   <SearchBar />
+
+<section id="navigation"></section>
+
   <LazyMobileQuickNav />
 </div>
       <article className="max-w-3xl lg:max-w-3xl mx-auto pt-1 pb-10 md:pt-14 md:pb-24">
@@ -948,6 +952,12 @@ function getDreamContext(dream) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+
+      <JumpToNavigation
+  target="#navigation"
+  label="Jump to navigation"
+/>
+
       <SiteFooter />
     </main>
   );

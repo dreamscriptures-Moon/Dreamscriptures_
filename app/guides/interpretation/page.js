@@ -2,6 +2,7 @@ import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
+import JumpToNavigation from "@/app/components/JumpToNavigation";
 
 export const metadata = {
   title:
@@ -15,36 +16,7 @@ export const metadata = {
   },
 };
 
-const startLearning = [
-  {
-    title: "How To Interpret Dreams",
-    description:
-      "Learn a simple framework for understanding dream meanings.",
-    href: "#how-to-interpret",
-    time: "5 min read",
-  },
-  {
-    title: "Literal vs Symbolic Dreams",
-    description:
-      "Discover why some dreams should not be interpreted literally.",
-    href: "#literal-vs-symbolic",
-    time: "4 min read",
-  },
-  {
-    title: "Personal vs Universal Symbols",
-    description:
-      "Understand why dream symbols depend on personal experience.",
-    href: "#personal-symbols",
-    time: "5 min read",
-  },
-  {
-    title: "Why Context Matters",
-    description:
-      "Learn why emotions and situations matter more than isolated symbols.",
-    href: "#context-matters",
-    time: "4 min read",
-  },
-];
+
 
 export default function DreamInterpretationGuide() {
   return (
@@ -118,130 +90,134 @@ export default function DreamInterpretationGuide() {
 
       </section>
 
-      <section className="max-w-5xl mx-auto px-6 mb-20">
+<section id="navigation"></section>
+<section className="max-w-5xl mx-auto px-6 mt-16 mb-20">
 
-        <div className="bg-white border border-[#EAE6E1] rounded-3xl p-8 md:p-10">
+  <nav
+    className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
+    aria-label="Guide sections"
+  >
 
-          <p className="uppercase tracking-[0.22em] text-[#B79B5E] text-xs mb-4">
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
+      On This Page
+    </p>
 
-            NEW HERE?
+    <ul className="space-y-2 pl-4 relative">
 
-          </p>
+      <li
+        aria-hidden="true"
+        className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
+      />
 
-          <h2 className="font-serif text-4xl mb-8">
+      <li>
+        <Link
+          href="#what-is-dream-interpretation"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          What Is Dream Interpretation?
+        </Link>
+      </li>
 
-            Follow This Reading Path
+      <li>
+        <Link
+          href="#dreamscriptures-method"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          The DreamScriptures Method
+        </Link>
+      </li>
 
-          </h2>
+      <li>
+        <Link
+          href="#how-to-interpret"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          How To Interpret Dreams
+        </Link>
+      </li>
 
-          <div className="space-y-5 text-lg">
+      <li>
+        <Link
+          href="#literal-vs-symbolic"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Literal vs Symbolic Dreams
+        </Link>
+      </li>
 
-            <a href="#how-to-interpret" className="block hover:text-[#C6A96B]">
+      <li>
+        <Link
+          href="#personal-symbols"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Personal vs Universal Symbols
+        </Link>
+      </li>
 
-              ① How To Interpret Dreams
+      <li>
+        <Link
+          href="#context-matters"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Why Context Matters
+        </Link>
+      </li>
 
-            <p>
+      <li>
+        <Link
+          href="#looking-beyond-symbols"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Looking at the Whole Dream
+        </Link>
+      </li>
 
-            Instead of asking only &quot;What does this symbol mean?&quot;, ask &quot;What is this
-            dream trying to show me?&quot;
+      <li>
+        <Link
+          href="#common-mistakes"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Common Mistakes
+        </Link>
+      </li>
 
-            </p>
-              ② Literal vs Symbolic Dreams
+      <li>
+        <Link
+          href="#practice"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Practice Together
+        </Link>
+      </li>
 
-            </a>
+      <li>
+        <Link
+          href="#faq"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Frequently Asked Questions
+        </Link>
+      </li>
 
-            <div>↓</div>
+      <li className="pt-2">
+        <Link
+          href="/dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] font-medium hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Explore Dream Meanings →
+        </Link>
+      </li>
 
-            <a href="#personal-symbols" className="block hover:text-[#C6A96B]">
+    </ul>
 
-              ③ Personal vs Universal Symbols
+  </nav>
 
-            </a>
-
-            <div>↓</div>
-
-            <a href="#context-matters" className="block hover:text-[#C6A96B]">
-
-              ④ Why Context Matters
-
-            </a>
-
-            <div>↓</div>
-
-            <Link href="/dreams" className="block hover:text-[#C6A96B]">
-
-              ⑤ Explore Dream Meanings
-
-            </Link>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <section className="max-w-6xl mx-auto px-6 mb-24">
-
-        <div className="mb-10">
-
-          <p className="uppercase tracking-[0.22em] text-[#B79B5E] text-xs">
-
-            START LEARNING
-
-          </p>
-
-          <h2 className="font-serif text-4xl mt-3">
-
-            Dream Interpretation Fundamentals
-
-          </h2>
-
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-6">
-
-          {startLearning.map((guide) => (
-
-            <a
-              key={guide.title}
-              href={guide.href}
-              className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
-            >
-
-              <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-                {guide.time}
-
-              </p>
-
-              <h3 className="font-serif text-2xl mb-4">
-
-                {guide.title}
-
-              </h3>
-
-              <p className="text-[#6B6B6B] leading-relaxed">
-
-                {guide.description}
-
-              </p>
-
-              <p className="mt-6 text-[#B79B5E]">
-
-                Read →
-
-              </p>
-
-            </a>
-
-          ))}
-
-        </div>
-
-      </section>
-
-      <article className="max-w-4xl mx-auto px-6 mb-24">
-
+</section>
+    
+     <article
+id="what-is-dream-interpretation"
+className="max-w-4xl mx-auto px-6 mb-24"
+>
         <h2 className="font-serif text-4xl mb-8">
 
           What Is Dream Interpretation?
@@ -297,7 +273,61 @@ export default function DreamInterpretationGuide() {
 
       </article>
 <section
+id="dreamscriptures-method"
+className="max-w-4xl mx-auto px-6 mb-24"
+>
+
+<h2 className="font-serif text-4xl mb-8">
+
+The DreamScriptures Method
+
+</h2>
+
+<div className="space-y-8 text-lg leading-relaxed text-[#444]">
+
+<p>
+
+Dream interpretation begins with the whole dream rather than one symbol.
+
+</p>
+
+<p>
+
+Every interpretation starts by asking:
+
+</p>
+
+<ul className="list-disc pl-6 space-y-3">
+
+<li>What emotions were strongest?</li>
+
+<li>What happened first?</li>
+
+<li>Did anything repeat?</li>
+
+<li>Who was there?</li>
+
+<li>Where did it happen?</li>
+
+<li>What is happening in waking life?</li>
+
+</ul>
+
+<p>
+
+Only then do individual symbols become meaningful.
+
+</p>
+
+</div>
+
+</section>
+
+<section
 id="how-to-interpret"
+
+
+
 className="max-w-4xl mx-auto px-6 mb-24"
 >
 
@@ -619,8 +649,128 @@ more thoughtful and more personal interpretations.
 
 </section>
 
-<section className="max-w-6xl mx-auto px-6 mb-24">
+<section
+id="looking-beyond-symbols"
+className="max-w-5xl mx-auto px-6 mb-24"
+>
 
+<h2 className="font-serif text-4xl mb-10">
+
+Looking Beyond Symbols
+
+</h2>
+
+<p className="text-lg text-[#6B6B6B] mb-10 max-w-3xl">
+
+The same symbol can appear in thousands of dreams, yet its meaning changes
+depending on the emotions, setting, people and events surrounding it.
+Looking at the whole dream creates richer and more personal interpretations.
+
+</p>
+
+<div className="overflow-x-auto">
+
+<table className="w-full bg-white rounded-2xl border border-[#EAE6E1] overflow-hidden">
+
+<thead>
+
+<tr className="bg-[#F8F6F2]">
+
+<th className="p-5 text-left font-semibold">
+
+Looking only at...
+
+</th>
+
+<th className="p-5 text-left font-semibold">
+
+Looking at the whole dream
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr className="border-t border-[#EAE6E1]">
+
+<td className="p-5">
+
+Snake
+
+</td>
+
+<td className="p-5">
+
+Snake + fear + location + people
+
+</td>
+
+</tr>
+
+<tr className="border-t border-[#EAE6E1]">
+
+<td className="p-5">
+
+Water
+
+</td>
+
+<td className="p-5">
+
+Water + emotions + actions
+
+</td>
+
+</tr>
+
+<tr className="border-t border-[#EAE6E1]">
+
+<td className="p-5">
+
+House
+
+</td>
+
+<td className="p-5">
+
+House + memories + relationships
+
+</td>
+
+</tr>
+
+<tr className="border-t border-[#EAE6E1]">
+
+<td className="p-5">
+
+Being chased
+
+</td>
+
+<td className="p-5">
+
+Who is chasing you + fear + where it happened
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+
+<section
+id="common-mistakes"
+className="max-w-6xl mx-auto px-6 mb-24"
+>
 <h2 className="font-serif text-4xl mb-10">
 
 Common Dream Interpretation Mistakes
@@ -701,8 +851,10 @@ dream symbols in ways that no dictionary can completely capture.
 </div>
 
 </section>
-<section className="max-w-4xl mx-auto px-6 mb-24">
-
+<section
+id="practice"
+className="max-w-4xl mx-auto px-6 mb-24"
+>
 <div className="bg-white border border-[#EAE6E1] rounded-3xl p-10">
 
 <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-4">
@@ -719,9 +871,7 @@ Let&apos;s Interpret A Dream Together
 
 <p className="text-lg leading-relaxed text-[#444] mb-8">
 
-Imagine you dream that you&apos;re running through your old school while
-holding a bouquet of flowers.
-
+Imagine you&apos;re being chased through your childhood home.
 </p>
 
 <div className="space-y-6">
@@ -732,7 +882,7 @@ holding a bouquet of flowers.
 
 <p className="text-[#6B6B6B]">
 
-Were you scared, excited or relieved?
+Were you terrified, excited or relieved?
 
 </p>
 
@@ -795,8 +945,38 @@ experience instead of searching for a single definition.
 
 </section>
 
-<section className="max-w-5xl mx-auto px-6 mb-24">
+<section className="max-w-4xl mx-auto px-6 mb-24">
 
+<div className="bg-[#FCFBF8] border border-[#EAE6E1] rounded-3xl p-10">
+
+<p className="uppercase tracking-[0.2em] text-xs text-[#B79B5E] mb-4">
+
+Things To Remember
+
+</p>
+
+<ul className="space-y-4 text-lg">
+
+<li>✔ Dreams are personal.</li>
+
+<li>✔ Emotions often matter more than symbols.</li>
+
+<li>✔ Context changes meaning.</li>
+
+<li>✔ One symbol can have many interpretations.</li>
+
+<li>✔ The whole dream tells the story.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section
+id="faq"
+className="max-w-5xl mx-auto px-6 mb-24"
+>
 <h2 className="font-serif text-4xl mb-10">
 
 Frequently Asked Questions
@@ -895,7 +1075,7 @@ className="bg-white rounded-2xl border border-[#EAE6E1] p-8 hover:shadow-md tran
 
 <h3 className="font-serif text-2xl mb-4">
 
-Dream Basics
+Basics
 
 </h3>
 
@@ -948,6 +1128,11 @@ Explore dreams by animals, people, places, emotions and symbols.
 </div>
 
 </section>
+
+<JumpToNavigation
+  target="#navigation"
+  label="Jump to Navigation"
+/>
 
       <SiteFooter />
 

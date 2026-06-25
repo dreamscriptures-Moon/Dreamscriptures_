@@ -2,6 +2,7 @@ import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
+import JumpToNavigation from "@/app/components/JumpToNavigation";
 
 export const metadata = {
   title:
@@ -14,44 +15,6 @@ export const metadata = {
     canonical: "/guides/research",
   },
 };
-
-const startLearning = [
-  {
-    title: "What Dream Research Says",
-    description:
-      "Understand what researchers currently know about dreaming.",
-    href: "#research-overview",
-    icon: "📊",
-    read: "6 min read",
-  },
-
-  {
-    title: "How Scientists Study Dreams",
-    description:
-      "Sleep labs, EEG recordings, interviews and brain imaging.",
-    href: "#how-scientists-study-dreams",
-    icon: "🧠",
-    read: "7 min read",
-  },
-
-  {
-    title: "Most Common Dreams",
-    description:
-      "Explore dreams reported most frequently across research.",
-    href: "#most-common-dreams",
-    icon: "🌙",
-    read: "5 min read",
-  },
-
-  {
-    title: "Dream Statistics",
-    description:
-      "Interesting facts, numbers and dream trends.",
-    href: "#dream-statistics",
-    icon: "📚",
-    read: "5 min read",
-  },
-];
 
 export default function DreamResearchPage() {
   return (
@@ -77,8 +40,7 @@ export default function DreamResearchPage() {
 
         <p className="uppercase tracking-[0.22em] text-[#B79B5E] text-xs mb-4">
 
-          Dream School
-
+          Dream Library
         </p>
 
         <h1 className="font-serif text-5xl md:text-6xl text-[#1A1A1A] leading-tight mb-8">
@@ -124,107 +86,7 @@ export default function DreamResearchPage() {
         <SearchBar />
 
       </section>
-
-<section className="max-w-6xl mx-auto px-6 mb-20">
-
-<div className="bg-[#FDFBF7] border border-[#EAE6E1] rounded-3xl p-10">
-
-<div className="flex items-center gap-3 mb-8">
-
-<span className="text-3xl">
-
-📈
-
-</span>
-
-<div>
-
-<p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
-
-Dream Research Dashboard
-
-</p>
-
-<h2 className="font-serif text-4xl">
-
-Research Dashboard
-
-</h2>
-
-</div>
-
-</div>
-
-<p className="text-[#6B6B6B] text-lg max-w-3xl mb-10">
-
-Browse the most visited research topics, dream statistics,
-scientific findings and data collections from the Dream Research
-Library.
-
-</p>
-
-<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-
-<a
-href="#dream-statistics"
-className="bg-white border border-[#EAE6E1] rounded-2xl p-6 hover:shadow-md transition"
->
-
-🔥 Most Searched Dream Meanings
-
-</a>
-
-<a
-href="#most-common-dreams"
-className="bg-white border border-[#EAE6E1] rounded-2xl p-6 hover:shadow-md transition"
->
-
-🌙 Top 10 Most Common Dreams
-
-</a>
-
-<a
-href="#research-timeline"
-className="bg-white border border-[#EAE6E1] rounded-2xl p-6 hover:shadow-md transition"
->
-
-📚 Research Timeline
-
-</a>
-
-<a
-href="#research-highlights"
-className="bg-white border border-[#EAE6E1] rounded-2xl p-6 hover:shadow-md transition"
->
-
-🧠 Dream Facts
-
-</a>
-
-<a
-href="#consensus"
-className="bg-white border border-[#EAE6E1] rounded-2xl p-6 hover:shadow-md transition"
->
-
-📊 Scientific Consensus
-
-</a>
-
-<Link
-href="/guides/research"
-className="bg-white border border-[#EAE6E1] rounded-2xl p-6 hover:shadow-md transition"
->
-
-📈 Dream Research 2026
-
-</Link>
-
-</div>
-
-</div>
-
-</section>
-
+<section id="navigation"></section>
       <section className="max-w-6xl mx-auto px-6 mb-20">
 
         <div className="grid md:grid-cols-4 gap-5">
@@ -313,251 +175,54 @@ className="bg-white border border-[#EAE6E1] rounded-2xl p-6 hover:shadow-md tran
 
       </section>
 
-      <section className="max-w-5xl mx-auto px-6 mb-20">
 
-        <div className="bg-white border border-[#EAE6E1] rounded-3xl p-8">
+<section className="max-w-5xl mx-auto px-6 mt-16 mb-20">
 
-          <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-4">
+  <nav
+    className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
+    aria-label="Guide sections"
+  >
 
-            START HERE
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
+      On This Page
+    </p>
 
-          </p>
+    <ul className="space-y-2 pl-4 relative">
 
-          <h2 className="font-serif text-4xl mb-8">
+      <li
+        aria-hidden="true"
+        className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
+      />
 
-            Reading Path
+      <li><Link href="#research-overview">What Dream Research Tells Us</Link></li>
 
-          </h2>
+      <li><Link href="#how-scientists-study-dreams">How Scientists Study Dreams</Link></li>
 
-          <div className="space-y-5 text-lg">
+      <li><Link href="#most-common-dreams">Most Common Dreams</Link></li>
 
-            <a href="#research-overview">
+      <li><Link href="#dream-statistics">Most Searched Dream Meanings</Link></li>
 
-              ① What Dream Research Tells Us
+      <li><Link href="#research-timeline">Research Timeline</Link></li>
 
-            </a>
+      <li><Link href="#consensus">Scientific Consensus</Link></li>
 
-            <div>↓</div>
+      <li><Link href="#future">Where Dream Science Is Heading</Link></li>
 
-            <a href="#how-scientists-study-dreams">
+      <li><Link href="#faq">FAQ</Link></li>
 
-              ② How Scientists Study Dreams
+      <li className="pt-2">
+        <Link href="/guides/science">
+          Explore Dream Science →
+        </Link>
+      </li>
 
-            </a>
+    </ul>
 
-            <div>↓</div>
-
-            <a href="#most-common-dreams">
-
-              ③ Most Common Dreams
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#dream-statistics">
-
-              ④ Dream Statistics
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#research-timeline">
-
-              ⑤ Modern Dream Studies
-
-            </a>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <section className="max-w-6xl mx-auto px-6 mb-24">
-
-        <div className="mb-10">
-
-          <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
-
-            START LEARNING
-
-          </p>
-
-          <h2 className="font-serif text-4xl mt-3">
-
-            Explore Dream Research
-
-          </h2>
-
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-6">
-
-          {startLearning.map((item) => (
-
-            <a
-              key={item.title}
-              href={item.href}
-              className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
-            >
-
-              <div className="text-4xl mb-5">
-
-                {item.icon}
-
-              </div>
-
-              <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-                {item.read}
-
-              </p>
-
-              <h3 className="font-serif text-2xl mb-4">
-
-                {item.title}
-
-              </h3>
-
-              <p className="text-[#6B6B6B] leading-relaxed">
-
-                {item.description}
-
-              </p>
-
-              <p className="mt-6 text-[#B79B5E]">
-
-                Read →
-
-              </p>
-
-            </a>
-
-          ))}
-
-        </div>
-
-      </section>
-<section className="max-w-6xl mx-auto px-6 mb-24">
-
-<div className="mb-10">
-
-<p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
-
-📜 HISTORY OF DREAM RESEARCH
-
-</p>
-
-<h2 className="font-serif text-4xl mt-3">
-
-How Dream Research Evolved
-
-</h2>
-
-</div>
-
-<div className="grid md:grid-cols-3 gap-6">
-
-<div className="bg-white rounded-2xl border border-[#EAE6E1] p-8">
-
-3000 BC
-
-<h3 className="font-serif text-2xl mt-5">
-
-Ancient Observations
-
-</h3>
-
-</div>
-
-<div className="bg-white rounded-2xl border border-[#EAE6E1] p-8">
-
-1899
-
-<h3 className="font-serif text-2xl mt-5">
-
-Freud
-
-</h3>
-
-</div>
-
-<div className="bg-white rounded-2xl border border-[#EAE6E1] p-8">
-
-1953+
-
-<h3 className="font-serif text-2xl mt-5">
-
-REM & Modern Neuroscience
-
-</h3>
-
-</div>
-
-</div>
+  </nav>
 
 </section>
 
-<section className="max-w-6xl mx-auto px-6 mb-24">
 
-<div className="mb-10">
-
-<p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
-
-🌙 DID YOU KNOW?
-
-</p>
-
-<h2 className="font-serif text-4xl mt-3">
-
-Interesting Dream Facts
-
-</h2>
-
-</div>
-
-<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-<div className="bg-white rounded-2xl border border-[#EAE6E1] p-8">
-
-🧠
-
-<h3 className="font-serif text-xl mt-4">
-
-Most people dream 4–6 times every night.
-
-</h3>
-
-</div>
-
-<div className="bg-white rounded-2xl border border-[#EAE6E1] p-8">
-
-😴
-
-<h3 className="font-serif text-xl mt-4">
-
-Most dreams are forgotten within minutes.
-
-</h3>
-
-</div>
-
-<div className="bg-white rounded-2xl border border-[#EAE6E1] p-8">
-
-🐶
-
-<h3 className="font-serif text-xl mt-4">
-
-Many mammals experience REM sleep.
-
-</h3>
-
-</div>
-
-</div>
-</section>
 
 <section className="max-w-6xl mx-auto px-6 mb-24">
 
@@ -571,8 +236,7 @@ Many mammals experience REM sleep.
 
 <h2 className="font-serif text-4xl mt-3">
 
-Explore Dream Research
-
+Explore Research Topics
 </h2>
 
 </div>
@@ -862,71 +526,7 @@ states using advanced imaging technology.
 
 </section>
 
-<section className="max-w-6xl mx-auto px-6 mb-24">
 
-<div className="bg-[#FDFBF7] border border-[#EAE6E1] rounded-3xl p-10">
-
-<p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-4">
-
-Research Snapshot
-
-</p>
-
-<h2 className="font-serif text-3xl mb-8">
-
-Current Scientific Consensus
-
-</h2>
-
-<div className="grid md:grid-cols-2 gap-6 text-lg">
-
-<p>
-
-🟢 Everyone dreams, even if they don&apos;t remember them.
-
-</p>
-
-<p>
-
-🟢 REM sleep is strongly associated with vivid dreaming.
-
-</p>
-
-<p>
-
-🟢 Emotion plays a major role in dream content.
-
-</p>
-
-<p>
-
-🟡 Memory consolidation remains an active area of research.
-
-</p>
-
-<p>
-
-🔵 No single theory explains every dream.
-
-</p>
-
-<p>
-
-⚪ There is no scientific consensus that dreams predict the future.
-
-</p>
-
-</div>
-
-<p className="mt-10 text-sm text-[#777]">
-
-Last reviewed: 2026
-
-</p>
-
-</div>
-
-</section>
 
 <section
 id="most-common-dreams"
@@ -1209,46 +809,54 @@ Research Highlights
 <div className="bg-white border border-[#EAE6E1] rounded-2xl p-8">
 
 <div className="text-4xl mb-5">
-
 🧠
-
 </div>
 
-<p>
+<h3 className="font-serif text-2xl mb-3">
 
-Most people experience several dreams every night.
+4–6 Dreams
+
+</h3>
+
+<p className="text-[#6B6B6B]">
+
+Most people experience between four and six dreams every night.
 
 </p>
 
 </div>
 
-<div className="bg-white border border-[#EAE6E1] rounded-2xl p-8">
-
 <div className="text-4xl mb-5">
-
 🌙
-
 </div>
 
-<p>
+<h3 className="font-serif text-2xl mb-3">
 
-REM periods become longer toward morning.
+Longest REM
+
+</h3>
+
+<p className="text-[#6B6B6B]">
+
+REM periods become progressively longer toward morning.
 
 </p>
-
-</div>
 
 <div className="bg-white border border-[#EAE6E1] rounded-2xl p-8">
 
 <div className="text-4xl mb-5">
-
 📚
-
 </div>
 
-<p>
+<h3 className="font-serif text-2xl mb-3">
 
-Many dreams fade within minutes after waking.
+Dream Recall
+
+</h3>
+
+<p className="text-[#6B6B6B]">
+
+Many dreams fade within minutes unless they&apos;re written down.
 
 </p>
 
@@ -1257,14 +865,18 @@ Many dreams fade within minutes after waking.
 <div className="bg-white border border-[#EAE6E1] rounded-2xl p-8">
 
 <div className="text-4xl mb-5">
-
 🐶
-
 </div>
 
-<p>
+<h3 className="font-serif text-2xl mb-3">
 
-Many mammals experience REM sleep.
+Beyond Humans
+
+</h3>
+
+<p className="text-[#6B6B6B]">
+
+Many mammals experience REM sleep, suggesting dreaming may extend beyond humans.
 
 </p>
 
@@ -1273,14 +885,18 @@ Many mammals experience REM sleep.
 <div className="bg-white border border-[#EAE6E1] rounded-2xl p-8">
 
 <div className="text-4xl mb-5">
-
 😴
-
 </div>
 
-<p>
+<h3 className="font-serif text-2xl mb-3">
 
-People spend thousands of hours dreaming across a lifetime.
+A Lifetime of Dreams
+
+</h3>
+
+<p className="text-[#6B6B6B]">
+
+Most people spend thousands of hours dreaming over the course of their lives.
 
 </p>
 
@@ -1496,8 +1112,10 @@ Observe how dream patterns become clearer over time.
 
 </section>
 
-<section className="max-w-6xl mx-auto px-6 mb-24">
-
+<section
+id="consensus"
+className="max-w-6xl"
+>
 <div className="mb-10">
 
 <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
@@ -1520,17 +1138,23 @@ What Current Evidence Suggests
 
 <thead>
 
-<tr>
+<tr className="bg-[#F8F6F2]">
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
-Question
+Research Question
 
 </th>
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
 Current Evidence
+
+</th>
+
+<th className="p-5 text-left font-semibold">
+
+Confidence
 
 </th>
 
@@ -1540,7 +1164,7 @@ Current Evidence
 
 <tbody>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
 <td className="p-5">
 
@@ -1550,61 +1174,85 @@ Do humans dream every night?
 
 <td className="p-5">
 
-🟢 Yes
+Yes. Most healthy adults experience multiple dreams each night.
+
+</td>
+
+<td className="p-5">
+
+🟢 Strong
 
 </td>
 
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
 <td className="p-5">
 
-Do dreams happen only during REM sleep?
+Do dreams occur only during REM sleep?
 
 </td>
 
 <td className="p-5">
 
-🟡 No, but REM is strongly associated with vivid dreams
-
-</td>
-
-</tr>
-
-<tr>
-
-<td className="p-5">
-
-Can stress affect dreams?
+No. Dreams can occur outside REM, although REM dreams are often more vivid.
 
 </td>
 
 <td className="p-5">
 
-🟢 Strong evidence
+🟡 Moderate
 
 </td>
 
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
 <td className="p-5">
 
-Can dreams improve memory?
+Does stress affect dreams?
 
 </td>
 
 <td className="p-5">
 
-🟡 Evidence suggests they may contribute
+Stress is strongly linked with changes in dream frequency and emotional content.
+
+</td>
+
+<td className="p-5">
+
+🟢 Strong
 
 </td>
 
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
+
+<td className="p-5">
+
+Can dreams support memory?
+
+</td>
+
+<td className="p-5">
+
+Research suggests dreaming may contribute to memory consolidation.
+
+</td>
+
+<td className="p-5">
+
+🟡 Moderate
+
+</td>
+
+</tr>
+
+<tr className="border-t border-[#EAE6E1]">
 
 <td className="p-5">
 
@@ -1614,13 +1262,19 @@ Can dreams predict the future?
 
 <td className="p-5">
 
-⚪ No scientific consensus
+There is currently no scientific evidence that dreams predict future events.
+
+</td>
+
+<td className="p-5">
+
+⚪ Unsupported
 
 </td>
 
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
 <td className="p-5">
 
@@ -1630,7 +1284,13 @@ Is there one accepted dream theory?
 
 <td className="p-5">
 
-⚪ No
+No. Multiple theories continue to be researched.
+
+</td>
+
+<td className="p-5">
+
+🟡 Moderate
 
 </td>
 
@@ -1644,7 +1304,10 @@ Is there one accepted dream theory?
 
 </section>
 
-<section className="max-w-5xl mx-auto px-6 mb-24">
+<section
+id="future"
+className="max-w-5xl mx-auto px-6 mb-24"
+>
 
 <div className="bg-[#FDFBF7] border border-[#EAE6E1] rounded-3xl p-10">
 
@@ -1691,7 +1354,10 @@ fields in sleep research.
 
 </section>
 
-
+<JumpToNavigation
+  target="#navigation"
+  label="Jump to Navigation"
+/>
 
       <SiteFooter />
 

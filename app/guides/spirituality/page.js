@@ -2,6 +2,7 @@ import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
+import JumpToNavigation from "@/app/components/JumpToNavigation";
 
 export const metadata = {
   title:
@@ -15,41 +16,7 @@ export const metadata = {
   },
 };
 
-const startLearning = [
 
-{
-title:"What Are Spiritual Dreams?",
-description:"Explore dreams through spirituality, symbolism and personal reflection.",
-href:"#what-are-spiritual-dreams",
-icon:"✨",
-read:"5 min read"
-},
-
-{
-title:"Prophetic Dreams",
-description:"Learn how prophetic dreams appear across different traditions.",
-href:"/guides/prophetic-dreams-meaning",
-icon:"🔮",
-read:"6 min read"
-},
-
-{
-title:"Spiritual Dreams",
-description:"Explore spiritual dream experiences and symbolism.",
-href:"/guides/spiritual-dreams-meaning",
-icon:"🌙",
-read:"6 min read"
-},
-
-{
-title:"Dreams in Sacred Texts",
-description:"Explore biblical and Quranic dream narratives throughout history.",
-href:"#bible-references",
-icon:"📖",
-read:"5 min read"
-}
-
-];
 
 export default function DreamSpiritualityPage(){
 
@@ -77,13 +44,13 @@ return(
 
 <p className="uppercase tracking-[0.22em] text-[#B79B5E] text-xs mb-4">
 
-Dream School
+Dream Library
 
 </p>
 
 <h1 className="font-serif text-5xl md:text-6xl text-[#1A1A1A] leading-tight mb-8">
 
-Dream Spirituality
+Spirituality
 
 </h1>
 
@@ -111,7 +78,7 @@ across different traditions.
 
 <span className="bg-white border border-[#EAE6E1] rounded-full px-4 py-2 text-sm">
 
-☪️ Quranic Narratives
+☪️ Dream Narratives in the Quran
 
 </span>
 
@@ -124,6 +91,9 @@ across different traditions.
 <SearchBar/>
 
 </section>
+
+<section id="navigation"></section>
+
 
 <section className="max-w-6xl mx-auto px-6 mb-20">
 
@@ -144,6 +114,10 @@ Christian
 <br/>
 
 Islamic
+
+<br/>
+
+Hindu
 
 <br/>
 
@@ -221,153 +195,6 @@ Reading Time
 
 </section>
 
-<section className="max-w-5xl mx-auto px-6 mb-20">
-
-<div className="bg-white rounded-3xl border border-[#EAE6E1] p-8">
-
-<p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-4">
-
-START HERE
-
-</p>
-
-<h2 className="font-serif text-4xl mb-8">
-
-Reading Path
-
-</h2>
-
-<div className="space-y-5 text-lg">
-
-<a href="#what-are-spiritual-dreams">
-
-① What Are Spiritual Dreams?
-
-</a>
-
-<div>↓</div>
-
-<a href="#christian-perspectives">
-
-② Christian Perspectives
-
-</a>
-
-<div>↓</div>
-
-<a href="#islamic-perspectives">
-
-③ Islamic Perspectives
-
-</a>
-
-<div>↓</div>
-
-<a href="#african-perspectives">
-
-④ African Perspectives
-
-</a>
-
-<div>↓</div>
-
-<a href="#bible-references">
-
-⑤ Bible References
-
-</a>
-
-<div>↓</div>
-
-<a href="#quran-references">
-
-⑥ Quran References
-
-</a>
-
-<div>↓</div>
-
-<a href="#prophetic-figures">
-
-⑦ Prophetic Figures
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<section className="max-w-6xl mx-auto px-6 mb-24">
-
-<div className="mb-10">
-
-<p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
-
-START LEARNING
-
-</p>
-
-<h2 className="font-serif text-4xl mt-3">
-
-Explore Dream Spirituality
-
-</h2>
-
-</div>
-
-<div className="grid md:grid-cols-2 gap-6">
-
-{startLearning.map((item)=>(
-
-<a
-
-key={item.title}
-
-href={item.href}
-
-className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
-
->
-
-<div className="text-4xl mb-5">
-
-{item.icon}
-
-</div>
-
-<p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
-
-{item.read}
-
-</p>
-
-<h3 className="font-serif text-2xl mb-4">
-
-{item.title}
-
-</h3>
-
-<p className="text-[#6B6B6B] leading-relaxed">
-
-{item.description}
-
-</p>
-
-<p className="mt-6 text-[#B79B5E]">
-
-Explore →
-
-</p>
-
-</a>
-
-))}
-
-</div>
-
-</section>
 
 <article
 id="what-are-spiritual-dreams"
@@ -434,9 +261,9 @@ without suggesting that every dream carries the same purpose or meaning.
 
 <p>
 
-This library presents educational perspectives drawn from biblical,
-Islamic and African traditions while encouraging thoughtful reflection,
-context and personal understanding.
+This library presents educational perspectives drawn from Christian,
+Islamic, Hindu and African traditions while encouraging thoughtful
+reflection, context and personal understanding.
 
 </p>
 
@@ -739,6 +566,48 @@ than immediate conclusions.
 </section>
 
 <section
+id="hindu-perspectives"
+className="max-w-5xl mx-auto px-6 mb-24"
+>
+
+<p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-3">
+
+HINDU TRADITIONS
+
+</p>
+
+<h2 className="font-serif text-4xl mb-8">
+
+Hindu Perspectives on Dreams
+
+</h2>
+
+<div className="space-y-8 text-lg leading-relaxed text-[#444]">
+
+<p>
+
+Many Hindu traditions understand dreams as reflections of the mind, karma, personal experiences and spiritual development. Rather than having one universal meaning, dreams are often interpreted within the dreamer's life, actions and spiritual journey.
+
+</p>
+
+<p>
+
+Ancient Hindu texts, including the Upanishads and other philosophical writings, discuss dreams as one of the states of consciousness through which people experience reality.
+
+</p>
+
+<p>
+
+Some traditions also distinguish between ordinary dreams, symbolic dreams and dreams that may carry spiritual significance, encouraging thoughtful reflection rather than quick conclusions.
+
+</p>
+
+</div>
+
+</section>
+
+
+<section
 id="african-perspectives"
 className="max-w-6xl mx-auto px-6 mb-24"
 >
@@ -827,8 +696,10 @@ Modern Perspectives
 
 </section>
 
-<section className="max-w-6xl mx-auto px-6 mb-24">
-
+<section
+id="comparison"
+className="max-w-6xl mx-auto px-6 mb-24"
+>
 <div className="mb-10">
 
 <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
@@ -839,7 +710,7 @@ COMPARE PERSPECTIVES
 
 <h2 className="font-serif text-4xl mt-3">
 
-Different Approaches To Dreams
+Dreams Across Spiritual Traditions
 
 </h2>
 
@@ -851,27 +722,33 @@ Different Approaches To Dreams
 
 <thead>
 
-<tr>
+<tr className="bg-[#F8F6F2]">
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
-Topic
+Comparison
 
 </th>
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
 Christian
 
 </th>
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
 Islamic
 
 </th>
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
+
+Hindu
+
+</th>
+
+<th className="p-5 text-left font-semibold">
 
 African
 
@@ -883,45 +760,119 @@ African
 
 <tbody>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
-<td className="p-5">
+<td className="p-5 font-medium">
 
-Purpose
-
-</td>
-
-<td className="p-5">
-
-Reflection & guidance
+Primary emphasis
 
 </td>
 
 <td className="p-5">
 
-Reflection & wisdom
+Prayer, discernment and Scripture
 
 </td>
 
 <td className="p-5">
 
-Community & symbolism
+Reflection, scholarship and guidance
+
+</td>
+
+<td className="p-5">
+
+Karma, self-realization and spiritual growth
+
+</td>
+
+<td className="p-5">
+
+Community, tradition and lived experience
 
 </td>
 
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
-<td className="p-5">
+<td className="p-5 font-medium">
 
-Emphasis
+Role of dreams
 
 </td>
 
 <td className="p-5">
 
-Discernment
+May offer guidance or encouragement
+
+</td>
+
+<td className="p-5">
+
+May invite reflection depending on the dream
+
+</td>
+
+<td className="p-5">
+
+May reflect the mind, karma or spiritual development
+
+</td>
+
+<td className="p-5">
+
+Often understood within cultural and family traditions
+
+</td>
+
+</tr>
+
+<tr className="border-t border-[#EAE6E1]">
+
+<td className="p-5 font-medium">
+
+Approach to interpretation
+
+</td>
+
+<td className="p-5">
+
+Prayer and discernment
+
+</td>
+
+<td className="p-5">
+
+Classical scholarship and reflection
+
+</td>
+
+<td className="p-5">
+
+Spiritual teachings, personal reflection and context
+
+</td>
+
+<td className="p-5">
+
+Context, elders and storytelling
+
+</td>
+
+</tr>
+
+<tr className="border-t border-[#EAE6E1]">
+
+<td className="p-5 font-medium">
+
+Shared theme
+
+</td>
+
+<td className="p-5">
+
+Wisdom
 
 </td>
 
@@ -933,35 +884,13 @@ Reflection
 
 <td className="p-5">
 
-Context
-
-</td>
-
-</tr>
-
-<tr>
-
-<td className="p-5">
-
-Approach
+Self-understanding
 
 </td>
 
 <td className="p-5">
 
-Prayer & Scripture
-
-</td>
-
-<td className="p-5">
-
-Scholarship & reflection
-
-</td>
-
-<td className="p-5">
-
-Tradition & community
+Community
 
 </td>
 
@@ -1009,17 +938,23 @@ moments, personal journeys and significant historical events.
 
 <thead>
 
-<tr>
+<tr className="bg-[#F8F6F2]">
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
 Figure
 
 </th>
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
 Reference
+
+</th>
+
+<th className="p-5 text-left font-semibold">
+
+Why It Matters
 
 </th>
 
@@ -1029,9 +964,9 @@ Reference
 
 <tbody>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
-<td className="p-5">
+<td className="p-5 font-medium">
 
 Joseph
 
@@ -1043,11 +978,17 @@ Genesis 37, 40–41
 
 </td>
 
+<td className="p-5">
+
+Demonstrates symbolic dream interpretation and God&apos;s guidance through dreams.
+
+</td>
+
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
-<td className="p-5">
+<td className="p-5 font-medium">
 
 Daniel
 
@@ -1059,11 +1000,17 @@ Daniel 2, 4 & 7
 
 </td>
 
+<td className="p-5">
+
+Interprets kings&apos; dreams and visions, emphasizing wisdom and discernment.
+
+</td>
+
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
-<td className="p-5">
+<td className="p-5 font-medium">
 
 Jacob
 
@@ -1075,11 +1022,17 @@ Genesis 28
 
 </td>
 
+<td className="p-5">
+
+Receives the vision of the ladder to heaven, symbolizing God&apos;s presence and promise.
+
+</td>
+
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
-<td className="p-5">
+<td className="p-5 font-medium">
 
 Pharaoh
 
@@ -1091,11 +1044,17 @@ Genesis 41
 
 </td>
 
+<td className="p-5">
+
+His dreams lead to Joseph&apos;s rise in Egypt and prepare the nation for famine.
+
+</td>
+
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
-<td className="p-5">
+<td className="p-5 font-medium">
 
 Joseph (New Testament)
 
@@ -1107,19 +1066,31 @@ Matthew 1–2
 
 </td>
 
-</tr>
-
-<tr>
-
 <td className="p-5">
 
-Wise Men
+Receives guidance through dreams to protect Mary and Jesus.
+
+</td>
+
+</tr>
+
+<tr className="border-t border-[#EAE6E1]">
+
+<td className="p-5 font-medium">
+
+The Wise Men
 
 </td>
 
 <td className="p-5">
 
 Matthew 2:12
+
+</td>
+
+<td className="p-5">
+
+Warned in a dream not to return to Herod, changing their journey home.
 
 </td>
 
@@ -1154,7 +1125,7 @@ Dream Narratives in Islamic Tradition
 
 </div>
 
-<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
 <div className="bg-white border border-[#EAE6E1] rounded-2xl p-8">
 
@@ -1202,6 +1173,24 @@ Dream Categories
 
 Classical Islamic scholarship discusses different types of dreams and
 their possible origins.
+
+</p>
+
+</div>
+
+<div className="bg-white border border-[#EAE6E1] rounded-2xl p-8">
+
+🌙
+
+<h3 className="font-serif text-2xl mb-4">
+
+Prophet Ibrahim
+
+</h3>
+
+<p className="text-[#6B6B6B]">
+
+The Quran recounts Ibrahim&apos;s dream about sacrificing his son, a story remembered for its themes of faith, obedience and trust in God.
 
 </p>
 
@@ -1546,8 +1535,10 @@ Could the dream relate to your current experiences or personal growth?
 
 </section>
 
-<section className="max-w-6xl mx-auto px-6 mb-24">
-
+<section
+id="reflection"
+className="max-w-5xl mx-auto px-6 mb-24"
+>
 <div className="text-center mb-12">
 
 <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-3">
@@ -1558,7 +1549,7 @@ KEEP EXPLORING
 
 <h2 className="font-serif text-5xl">
 
-Explore More Dream Perspectives
+Continue Your Dream Library Journey
 
 </h2>
 
@@ -1629,6 +1620,11 @@ Interpretation
 </div>
 
 </section>
+
+<JumpToNavigation
+  target="#navigation"
+  label="Jump to Navigation"
+/>
 
 <SiteFooter/>
 

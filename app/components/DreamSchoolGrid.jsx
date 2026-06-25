@@ -105,7 +105,7 @@ export default function DreamSchoolGrid() {
             </p>
 
             <span className="text-sm font-medium">
-              Start Learning →
+              Dream`s library →
             </span>
 
           </Link>

@@ -3,6 +3,7 @@ import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
+import JumpToNavigation from "@/app/components/JumpToNavigation";
 
 export const metadata = {
   title:
@@ -16,32 +17,7 @@ export const metadata = {
   },
 };
 
-const startHere = [
-  {
-    title: "What Are Dreams?",
-    href: "/guides/what-are-dreams",
-    description:
-      "Understand what dreams are and why they have fascinated humanity for thousands of years.",
-  },
-  {
-    title: "Why Do We Dream?",
-    href: "/guides/why-we-dream",
-    description:
-      "Explore scientific, psychological and spiritual perspectives on dreaming.",
-  },
-  {
-    title: "Why Dreams Feel Real",
-    href: "/guides/why-dreams-feel-so-real",
-    description:
-      "Learn why dreams can feel emotionally vivid and impossible to distinguish from reality.",
-  },
-  {
-    title: "How Dream Symbols Work",
-    href: "/guides/how-to-interpret-dream-symbols",
-    description:
-      "Discover why symbols depend on personal context instead of fixed definitions.",
-  },
-];
+
 
 const guides = [
   {
@@ -112,13 +88,13 @@ export default function DreamBasicsPage() {
 
           <p className="uppercase tracking-[0.25em] text-[#B79B5E] text-xs mb-4">
 
-            Dream School
+            Dream Library
 
           </p>
 
           <h1 className="font-serif text-5xl md:text-6xl text-[#1A1A1A] leading-tight mb-8">
 
-            Dream Basics
+            Basics
 
           </h1>
 
@@ -170,199 +146,124 @@ Search 5,000+ dream meanings and interpretations
 
 </p>
 
+<section id="navigation">
+</section>
+
         <SearchBar />
 
       </section>
-<section className="max-w-5xl mx-auto px-6 mt-16">
 
-<div className="bg-white border border-[#EAE6E1] rounded-3xl p-8">
+      <section className="max-w-5xl mx-auto px-6 mt-16">
 
-<p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-3">
+  <nav
+    className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
+    aria-label="Guide sections"
+  >
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
+      Explore this guide
+    </p>
 
-NEW HERE?
+    <ul className="space-y-2 pl-4 relative">
+      <li
+        aria-hidden="true"
+        className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
+      />
 
-</p>
+      <li>
+        <Link
+          href="#what-are-dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          What Are Dreams?
+        </Link>
+      </li>
 
-<h2 className="font-serif text-3xl mb-8">
+      <li>
+        <Link
+          href="#why-we-dream"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Why Do We Dream?
+        </Link>
+      </li>
 
-Your Reading Path
+      <li>
+        <Link
+          href="#dream-symbols"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          How Dream Symbols Work
+        </Link>
+      </li>
 
-</h2>
+      <li>
+        <Link
+          href="#what-happens-when-we-sleep"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          What Happens When We Sleep?
+        </Link>
+      </li>
 
-<div className="space-y-4">
+      <li>
+        <Link
+          href="#why-dreams-feel-real"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Why Dreams Feel Real
+        </Link>
+      </li>
 
-<Link href="#what-are-dreams" className="block hover:text-[#C6A96B]">
+      <li>
+        <Link
+          href="#why-we-forget-dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Why We Forget Dreams
+        </Link>
+      </li>
 
-① What Are Dreams
+      <li>
+        <Link
+          href="#why-dreams-are-weird"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Why Dreams Are Weird
+        </Link>
+      </li>
 
-</Link>
+      <li>
+        <Link
+          href="#can-you-control-dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Can You Control Dreams?
+        </Link>
+      </li>
 
-<div className="pl-2">↓</div>
+      <li>
+        <Link
+          href="#who-dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Who Dreams?
+        </Link>
+      </li>
 
-<Link href="#why-we-dream" className="block hover:text-[#C6A96B]">
+      <li className="pt-2">
+        <Link
+          href="/dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] font-medium text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Explore Dream Meanings →
+        </Link>
+      </li>
+    </ul>
 
-② Why Do We Dream
-
-</Link>
-
-<div className="pl-2">↓</div>
-
-<Link href="#what-happens-when-we-sleep" className="block hover:text-[#C6A96B]">
-
-③ What Happens When We Sleep
-
-</Link>
-
-<div className="pl-2">↓</div>
-
-<Link href="#dream-symbols">
-
-④ How Dream Symbols Work
-
-</Link>
-
-<div className="pl-2">↓</div>
-
-<Link href="/dreams">
-
-⑤ Explore Dream Meanings
-
-</Link>
-
-</div>
-
-</div>
+  </nav>
 
 </section>
-      
-      <section className="max-w-6xl mx-auto px-6 mt-20">
-
-<div className="flex items-center justify-between mb-10">
-
-<div>
-
-<p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
-
-START LEARNING
-
-</p>
-
-<h2 className="font-serif text-4xl mt-2">
-
-Dream Fundamentals
-
-</h2>
-
-</div>
-
-</div>
-
-<div className="grid md:grid-cols-2 gap-6">
-
-<Link
-href="#what-are-dreams"
-className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
->
-
-<p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-5 min read
-
-</p>
-
-<h3 className="font-serif text-2xl mb-4">
-
-What Are Dreams?
-
-</h3>
-
-<p className="text-[#6B6B6B]">
-
-Understand what dreams are and why humans dream.
-
-</p>
-
-</Link>
-
-<Link
-href="#why-we-dream"
-className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
->
-
-<p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-5 min read
-
-</p>
-
-<h3 className="font-serif text-2xl mb-4">
-
-Why Do We Dream?
-
-</h3>
-
-<p className="text-[#6B6B6B]">
-
-Explore science, psychology and spirituality.
-
-</p>
-
-</Link>
-
-<Link
-href="#what-happens-when-we-sleep"
-className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
->
-
-<p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-8 min read
-
-</p>
-
-<h3 className="font-serif text-2xl mb-4">
-
-What Happens When We Sleep?
-
-</h3>
-
-<p className="text-[#6B6B6B]">
-
-Learn REM, NREM and sleep cycles.
-
-</p>
-
-</Link>
-
-<Link
-href="#dream-symbols"
-className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
->
-
-<p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-6 min read
-
-</p>
-
-<h3 className="font-serif text-2xl mb-4">
-
-How Dream Symbols Work
-
-</h3>
-
-<p className="text-[#6B6B6B]">
-
-Understand symbols through context, not fixed meanings.
-
-</p>
-
-</Link>
-
-</div>
-
-</section>
-
+   
       <LazyMobileQuickNav />
 
 <article className="max-w-4xl mx-auto px-6">
@@ -704,60 +605,54 @@ to process beneath conscious awareness.
 
 </section>
 
+<section
+  id="dream-symbols"
+  className="max-w-4xl mx-auto px-6 mt-24"
+>
+  <h2 className="font-serif text-4xl mb-8">
+    How Dream Symbols Work
+  </h2>
 
-      <section className="max-w-6xl mx-auto px-6 mt-24">
+  <div className="space-y-8 text-lg leading-relaxed text-[#444]">
 
-        <div className="flex items-center gap-3 mb-10">
+    <p>
+      Dream symbols do not have one universal meaning. Although many dream
+      dictionaries assign fixed definitions to objects such as snakes,
+      water, houses or teeth, dream interpretation is often far more
+      personal.
+    </p>
 
-          <span className="text-2xl">
+    <p>
+      The same symbol can represent completely different experiences for
+      different people. A dog may symbolize comfort, friendship and loyalty
+      for one dreamer, while another person who was bitten by a dog may
+      experience fear, danger or vulnerability.
+    </p>
 
-            ⭐
+    <p>
+      This is why DreamScriptures approaches dream interpretation through
+      context rather than fixed answers. Instead of asking only,
+      <em> &quot;What does this symbol mean?&quot;</em>, it also asks:
+    </p>
 
-          </span>
+    <ul className="list-disc pl-6 space-y-3">
+      <li>How did the dream feel emotionally?</li>
+      <li>What was happening in waking life?</li>
+      <li>What other symbols appeared together?</li>
+      <li>Did the symbol help, threaten or guide you?</li>
+      <li>Does the symbol have personal or cultural significance?</li>
+    </ul>
 
-          <h2 className="font-serif text-4xl">
+    <p>
+      Dreams communicate through relationships between symbols, emotions,
+      memories and experiences. Looking at the whole dream often provides
+      far more insight than interpreting a single object by itself.
+    </p>
 
-            Start Here
+  </div>
+</section>
 
-          </h2>
-
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-8">
-
-          {startHere.map((item) => (
-
-            <Link
-              key={item.title}
-              href={item.href}
-              className="bg-white rounded-2xl border border-[#EAE6E1] p-8 hover:shadow-md transition"
-            >
-
-              <h3 className="font-serif text-2xl mb-4">
-
-                {item.title}
-
-              </h3>
-
-              <p className="text-[#6B6B6B] leading-relaxed">
-
-                {item.description}
-
-              </p>
-
-              <p className="mt-6 text-[#B79B5E]">
-
-                Read guide →
-
-              </p>
-
-            </Link>
-
-          ))}
-
-        </div>
-
-      </section>
+      
 <section
 id="what-happens-when-we-sleep"
 className="max-w-4xl mx-auto px-6 mt-24"
@@ -879,6 +774,61 @@ wake up.
 
 </div>
 
+</section>
+
+<section id="why-dreams-feel-real" className="mt-20">
+  <h2 className="font-serif text-3xl mb-6">
+    Why Dreams Feel Real
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed mb-4">
+    Dreams often feel remarkably real because many of the same brain regions
+    involved in emotion, perception, and memory remain highly active during
+    REM sleep. Although the body is asleep, the mind can create vivid
+    experiences that feel completely believable.
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed">
+    Since the logical parts of the brain are less active while dreaming,
+    unusual events rarely seem strange until we wake up. This helps explain
+    why impossible situations can feel perfectly normal inside a dream.
+  </p>
+</section>
+
+<section id="why-we-forget-dreams" className="mt-20">
+  <h2 className="font-serif text-3xl mb-6">
+    Why We Forget Dreams
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed mb-4">
+    Most people dream several times each night, yet many remember little or
+    nothing after waking. Dream memories fade quickly because the brain
+    shifts from the sleeping state to waking consciousness before the dream
+    is fully stored as a long-term memory.
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed">
+    Factors such as sleep quality, stress, waking suddenly, and keeping a
+    dream journal can all influence how much of a dream you remember.
+  </p>
+</section>
+
+<section id="can-you-control-dreams" className="mt-20">
+  <h2 className="font-serif text-3xl mb-6">
+    Can You Control Dreams?
+  </h2>
+
+  <p className="text-[#6B6B6B] leading-relaxed mb-4">
+    Some people become aware that they are dreaming while the dream is still
+    happening. This experience is known as lucid dreaming. During a lucid
+    dream, a person may be able to influence the dream environment, make
+    decisions, or interact with dream characters intentionally.
+  </p>
+
+  <p className="text-[#6B6B6B] leading-relaxed">
+    Although not everyone experiences lucid dreams, researchers continue to
+    study why they occur and how awareness develops during sleep.
+  </p>
 </section>
 
 <section
@@ -1251,6 +1201,11 @@ Being Chased Dream
 </div>
 
 </section>
+
+<JumpToNavigation
+  target="#navigation"
+  label="Jump to Navigation"
+/>
 
       <SiteFooter />
 

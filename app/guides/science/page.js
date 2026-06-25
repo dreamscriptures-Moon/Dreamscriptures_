@@ -2,6 +2,7 @@ import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
+import JumpToNavigation from "@/app/components/JumpToNavigation";
 
 export const metadata = {
   title:
@@ -15,43 +16,6 @@ export const metadata = {
   },
 };
 
-const startLearning = [
-  {
-    title: "What Is Dream Science?",
-    description:
-      "Discover how modern science studies dreaming and the sleeping brain.",
-    href: "#what-is-dream-science",
-    icon: "🔬",
-    read: "5 min read",
-  },
-
-  {
-    title: "REM Sleep Explained",
-    description:
-      "Understand the sleep stage most closely associated with vivid dreams.",
-    href: "#rem-sleep",
-    icon: "🌙",
-    read: "6 min read",
-  },
-
-  {
-    title: "How The Brain Dreams",
-    description:
-      "Explore the brain regions involved in dreaming and imagination.",
-    href: "#brain-activity",
-    icon: "🧠",
-    read: "7 min read",
-  },
-
-  {
-    title: "Memory & Emotion",
-    description:
-      "See how dreams connect with memory formation and emotional processing.",
-    href: "#memory-emotion",
-    icon: "💭",
-    read: "6 min read",
-  },
-];
 
 export default function DreamSciencePage() {
   return (
@@ -77,7 +41,7 @@ export default function DreamSciencePage() {
 
         <p className="uppercase tracking-[0.22em] text-[#B79B5E] text-xs mb-4">
 
-          Dream School
+          Dream Library
 
         </p>
 
@@ -123,95 +87,131 @@ export default function DreamSciencePage() {
         <SearchBar />
 
       </section>
+<section id="navigation"></section>
 
-      <section className="max-w-6xl mx-auto px-6 mb-20">
 
-        <div className="grid md:grid-cols-4 gap-6">
+    <section className="max-w-5xl mx-auto px-6 mt-16 mb-20">
 
-          <div className="bg-white rounded-2xl border border-[#EAE6E1] p-6">
+  <nav
+    className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
+    aria-label="Guide sections"
+  >
 
-            <p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
+      On This Page
+    </p>
 
-              Main Topics
+    <ul className="space-y-2 pl-4 relative">
 
-            </p>
+      <li
+        aria-hidden="true"
+        className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
+      />
 
-            <p>
+      <li>
+        <Link
+          href="#what-is-dream-science"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          What Is Dream Science?
+        </Link>
+      </li>
 
-              REM Sleep
+      <li>
+        <Link
+          href="#sleep-cycles"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          How Sleep Cycles Work
+        </Link>
+      </li>
 
-              <br />
+      <li>
+        <Link
+          href="#rem-sleep"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          REM Sleep Explained
+        </Link>
+      </li>
 
-              Brain Activity
+      <li>
+        <Link
+          href="#brain-during-dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          The Brain During Dreams
+        </Link>
+      </li>
 
-              <br />
+      <li>
+        <Link
+          href="#brain-research"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          How Scientists Observe the Dreaming Brain
+        </Link>
+      </li>
 
-              Memory
+      <li>
+        <Link
+          href="#brain-activity"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Current Scientific Understanding
+        </Link>
+      </li>
 
-            </p>
+      <li>
+        <Link
+          href="#memory-emotion"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Memory & Emotion
+        </Link>
+      </li>
 
-          </div>
+      <li>
+        <Link
+          href="#lucid-dreaming"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          States of Dream Consciousness
+        </Link>
+      </li>
 
-          <div className="bg-white rounded-2xl border border-[#EAE6E1] p-6">
+      <li>
+        <Link
+          href="#myth-vs-science"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Myth vs Science
+        </Link>
+      </li>
 
-            <p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
+      <li>
+        <Link
+          href="#faq"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Frequently Asked Questions
+        </Link>
+      </li>
 
-              Disciplines
+      <li className="pt-2">
+        <Link
+          href="/guides/research"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] font-medium text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Explore Dream Research →
+        </Link>
+      </li>
 
-            </p>
+    </ul>
 
-            <p>
+  </nav>
 
-              Neuroscience
-
-              <br />
-
-              Sleep Medicine
-
-              <br />
-
-              Psychology
-
-            </p>
-
-          </div>
-
-          <div className="bg-white rounded-2xl border border-[#EAE6E1] p-6">
-
-            <p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
-
-              Reading Level
-
-            </p>
-
-            <h3 className="font-serif text-2xl">
-
-              Beginner
-
-            </h3>
-
-          </div>
-
-          <div className="bg-white rounded-2xl border border-[#EAE6E1] p-6">
-
-            <p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
-
-              Reading Time
-
-            </p>
-
-            <h3 className="font-serif text-2xl">
-
-              35 min
-
-            </h3>
-
-          </div>
-
-        </div>
-
-      </section>
-
+</section>
       <section className="max-w-5xl mx-auto px-6 mb-20">
 
         <div className="bg-white rounded-3xl border border-[#EAE6E1] p-8">
@@ -282,71 +282,7 @@ export default function DreamSciencePage() {
 
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 mb-24">
-
-        <div className="mb-10">
-
-          <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
-
-            START LEARNING
-
-          </p>
-
-          <h2 className="font-serif text-4xl mt-3">
-
-            Explore Dream Science
-
-          </h2>
-
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-6">
-
-          {startLearning.map((item) => (
-
-            <a
-              key={item.title}
-              href={item.href}
-              className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md transition"
-            >
-
-              <div className="text-4xl mb-5">
-
-                {item.icon}
-
-              </div>
-
-              <p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
-
-                {item.read}
-
-              </p>
-
-              <h3 className="font-serif text-2xl mb-4">
-
-                {item.title}
-
-              </h3>
-
-              <p className="text-[#6B6B6B] leading-relaxed">
-
-                {item.description}
-
-              </p>
-
-              <p className="mt-6 text-[#B79B5E]">
-
-                Explore →
-
-              </p>
-
-            </a>
-
-          ))}
-
-        </div>
-
-      </section>
+     
 
       <article
         id="what-is-dream-science"
@@ -401,8 +337,10 @@ export default function DreamSciencePage() {
 
       </article>
 
-<section className="max-w-6xl mx-auto px-6 mb-24">
-
+<section
+id="brain-during-dreams"
+className="max-w-6xl mx-auto px-6 mb-24"
+>
 <div className="mb-10">
 
 <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
@@ -511,6 +449,41 @@ until we wake up.
 </p>
 
 </div>
+
+</div>
+
+</section>
+
+<section
+id="brain-research"
+className="max-w-4xl mx-auto px-6 mb-24"
+>
+
+<h2 className="font-serif text-4xl mb-8">
+
+How Scientists Observe the Dreaming Brain
+
+</h2>
+
+<div className="space-y-8 text-lg leading-relaxed text-[#444]">
+
+<p>
+
+Researchers can&apos;t watch dreams directly, so they study the brain while people sleep.
+
+</p>
+
+<p>
+
+Using tools such as EEG, MRI and PET scans, scientists measure electrical activity, blood flow and communication between different brain regions during sleep.
+
+</p>
+
+<p>
+
+After participants wake, researchers compare brain recordings with dream reports to better understand how dreaming relates to memory, emotion and consciousness.
+
+</p>
 
 </div>
 
@@ -700,7 +673,7 @@ SCIENCE SNAPSHOT
 
 <h2 className="font-serif text-4xl mb-8">
 
-Current Understanding
+Current Scientific Understanding
 
 </h2>
 
@@ -943,7 +916,10 @@ Vivid sensory experiences that can occur while transitioning into sleep.
 
 </section>
 
-<section className="max-w-6xl mx-auto px-6 mb-24">
+<section
+id="myth-vs-science"
+className="max-w-6xl mx-auto px-6 mb-24"
+>
 
 <div className="mb-10">
 
@@ -967,17 +943,23 @@ Common Misconceptions
 
 <thead>
 
-<tr>
+<tr className="bg-[#F8F6F2]">
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
 Myth
 
 </th>
 
-<th className="p-5 text-left">
+<th className="p-5 text-left font-semibold">
 
-Current Science
+What Research Shows
+
+</th>
+
+<th className="p-5 text-left font-semibold">
+
+Confidence
 
 </th>
 
@@ -987,7 +969,7 @@ Current Science
 
 <tbody>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
 <td className="p-5">
 
@@ -997,14 +979,19 @@ Dreams only happen during REM sleep.
 
 <td className="p-5">
 
-Dreams can occur during multiple sleep stages, although REM dreams are
-often the most vivid.
+Dreams can occur during multiple stages of sleep, although REM dreams are usually the most vivid.
+
+</td>
+
+<td className="p-5">
+
+🟢 Strong
 
 </td>
 
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
 <td className="p-5">
 
@@ -1014,13 +1001,19 @@ The brain shuts down while sleeping.
 
 <td className="p-5">
 
-Many brain regions remain highly active throughout sleep.
+Many brain regions remain highly active during sleep, especially during REM sleep.
+
+</td>
+
+<td className="p-5">
+
+🟢 Strong
 
 </td>
 
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
 <td className="p-5">
 
@@ -1030,13 +1023,19 @@ Scientists know exactly why humans dream.
 
 <td className="p-5">
 
-Several theories exist and research continues.
+Researchers have several evidence-based theories, but there is no single accepted explanation.
+
+</td>
+
+<td className="p-5">
+
+🟡 Moderate
 
 </td>
 
 </tr>
 
-<tr>
+<tr className="border-t border-[#EAE6E1]">
 
 <td className="p-5">
 
@@ -1046,8 +1045,35 @@ Dreams are completely random.
 
 <td className="p-5">
 
-Research suggests dreams often incorporate memory, emotion and recent
-experience in meaningful ways.
+Dreams often incorporate memories, emotions and recent experiences, although the exact process is still being studied.
+
+</td>
+
+<td className="p-5">
+
+🟡 Moderate
+
+</td>
+
+</tr>
+
+<tr className="border-t border-[#EAE6E1]">
+
+<td className="p-5">
+
+Dreams can predict the future.
+
+</td>
+
+<td className="p-5">
+
+There is currently no reliable scientific evidence that dreams can predict future events.
+
+</td>
+
+<td className="p-5">
+
+⚪ Unsupported
 
 </td>
 
@@ -1061,7 +1087,10 @@ experience in meaningful ways.
 
 </section>
 
-<section className="max-w-5xl mx-auto px-6 mb-24">
+<section
+id="faq"
+className="max-w-5xl mx-auto px-6 mb-24"
+>
 
 <h2 className="font-serif text-4xl mb-10">
 
@@ -1156,7 +1185,7 @@ KEEP LEARNING
 
 <h2 className="font-serif text-5xl">
 
-Continue Exploring
+Continue Your Dream Library Journey
 
 </h2>
 
@@ -1202,8 +1231,7 @@ className="bg-white border border-[#EAE6E1] rounded-2xl p-8"
 📖
 
 <h3 className="font-serif text-2xl mt-4">
-
-Dream Basics
+Basics
 
 </h3>
 
@@ -1227,6 +1255,11 @@ Dream Interpretation
 </div>
 
 </section>
+
+<JumpToNavigation
+  target="#navigation"
+  label="Jump to Navigation"
+/>
 
       <SiteFooter />
 
