@@ -100,6 +100,12 @@ const nextConfig = {
   destination: "/guides/recurring-dreams",
   permanent: true,
 },
+{
+  source: "/blog/biblical-dreams",
+  destination: "/guides/spirituality",
+  permanent: true,
+},
+
 
     ];
   },
