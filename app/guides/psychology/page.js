@@ -41,7 +41,7 @@ export default function DreamPsychologyPage() {
 
         <p className="uppercase tracking-[0.22em] text-[#B79B5E] text-xs mb-4">
 
-          Dream School
+          Dream Library
 
         </p>
 

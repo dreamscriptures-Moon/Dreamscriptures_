@@ -35,7 +35,7 @@ export default function DreamSciencePage() {
 
           <span>›</span>
 
-          <span>Dream Science</span>
+          <span>Science</span>
 
         </nav>
 
@@ -47,7 +47,7 @@ export default function DreamSciencePage() {
 
         <h1 className="font-serif text-5xl md:text-6xl text-[#1A1A1A] leading-tight mb-8">
 
-          Dream Science
+        Science
 
         </h1>
 
@@ -212,76 +212,6 @@ export default function DreamSciencePage() {
   </nav>
 
 </section>
-      <section className="max-w-5xl mx-auto px-6 mb-20">
-
-        <div className="bg-white rounded-3xl border border-[#EAE6E1] p-8">
-
-          <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-4">
-
-            START HERE
-
-          </p>
-
-          <h2 className="font-serif text-4xl mb-8">
-
-            Reading Path
-
-          </h2>
-
-          <div className="space-y-5 text-lg">
-
-            <a href="#what-is-dream-science">
-
-              ① What Is Dream Science?
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#sleep-cycles">
-
-              ② Sleep Cycles
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#rem-sleep">
-
-              ③ REM Sleep
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#brain-activity">
-
-              ④ Brain Activity
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#memory-emotion">
-
-              ⑤ Memory & Dreams
-
-            </a>
-
-            <div>↓</div>
-
-            <a href="#lucid-dreaming">
-
-              ⑥ Lucid Dreaming
-
-            </a>
-
-          </div>
-
-        </div>
-
-      </section>
-
      
 
       <article
@@ -1202,7 +1132,7 @@ className="bg-white border border-[#EAE6E1] rounded-2xl p-8"
 
 <h3 className="font-serif text-2xl mt-4">
 
-Dream Research
+Research
 
 </h3>
 
@@ -1217,7 +1147,7 @@ className="bg-white border border-[#EAE6E1] rounded-2xl p-8"
 
 <h3 className="font-serif text-2xl mt-4">
 
-Dream Psychology
+Psychology
 
 </h3>
 

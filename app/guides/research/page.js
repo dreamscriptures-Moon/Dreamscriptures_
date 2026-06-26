@@ -87,6 +87,53 @@ export default function DreamResearchPage() {
 
       </section>
 <section id="navigation"></section>
+<section className="max-w-5xl mx-auto px-6 mt-16 mb-20">
+
+  <nav
+    className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
+    aria-label="Guide sections"
+  >
+
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
+      On This Page
+    </p>
+
+    <ul className="space-y-2 pl-4 relative">
+
+      <li
+        aria-hidden="true"
+        className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
+      />
+
+      <li><Link href="#research-overview">What Dream Research Tells Us</Link></li>
+
+      <li><Link href="#how-scientists-study-dreams">How Scientists Study Dreams</Link></li>
+
+      <li><Link href="#most-common-dreams">Most Common Dreams</Link></li>
+
+      <li><Link href="#dream-statistics">Most Searched Dream Meanings</Link></li>
+
+      <li><Link href="#research-timeline">Research Timeline</Link></li>
+
+      <li><Link href="#consensus">Scientific Consensus</Link></li>
+
+      <li><Link href="#future">Where Dream Science Is Heading</Link></li>
+
+      <li><Link href="#faq">FAQ</Link></li>
+
+      <li className="pt-2">
+        <Link href="/guides/science">
+          Explore Dream Science →
+        </Link>
+      </li>
+
+    </ul>
+
+  </nav>
+
+</section>
+
+
       <section className="max-w-6xl mx-auto px-6 mb-20">
 
         <div className="grid md:grid-cols-4 gap-5">
@@ -174,53 +221,6 @@ export default function DreamResearchPage() {
         </div>
 
       </section>
-
-
-<section className="max-w-5xl mx-auto px-6 mt-16 mb-20">
-
-  <nav
-    className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
-    aria-label="Guide sections"
-  >
-
-    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
-      On This Page
-    </p>
-
-    <ul className="space-y-2 pl-4 relative">
-
-      <li
-        aria-hidden="true"
-        className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
-      />
-
-      <li><Link href="#research-overview">What Dream Research Tells Us</Link></li>
-
-      <li><Link href="#how-scientists-study-dreams">How Scientists Study Dreams</Link></li>
-
-      <li><Link href="#most-common-dreams">Most Common Dreams</Link></li>
-
-      <li><Link href="#dream-statistics">Most Searched Dream Meanings</Link></li>
-
-      <li><Link href="#research-timeline">Research Timeline</Link></li>
-
-      <li><Link href="#consensus">Scientific Consensus</Link></li>
-
-      <li><Link href="#future">Where Dream Science Is Heading</Link></li>
-
-      <li><Link href="#faq">FAQ</Link></li>
-
-      <li className="pt-2">
-        <Link href="/guides/science">
-          Explore Dream Science →
-        </Link>
-      </li>
-
-    </ul>
-
-  </nav>
-
-</section>
 
 
 

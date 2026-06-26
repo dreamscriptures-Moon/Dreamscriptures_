@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const libraries = [
   {
-    step: 1,
+    
     icon: "📖",
     title: " Basics",
     href: "/guides/basics",
@@ -10,7 +10,7 @@ const libraries = [
       "Learn what dreams are, why we dream and how dream interpretation works.",
   },
   {
-    step: 2,
+    
     icon: "🧠",
     title: "Science",
     href: "/guides/science",
@@ -18,7 +18,7 @@ const libraries = [
       "Explore REM sleep, brain activity, memory and neuroscience.",
   },
   {
-    step: 3,
+   
     icon: "🧠",
     title: "Psychology",
     href: "/guides/psychology",
@@ -26,7 +26,7 @@ const libraries = [
       "Discover Freud, Jung and subconscious dream theories.",
   },
   {
-    step: 4,
+    
     icon: "✨",
     title: "Spirituality",
     href: "/guides/spirituality",
@@ -34,7 +34,7 @@ const libraries = [
       "Learn how dreams are understood through spiritual traditions.",
   },
   {
-    step: 5,
+    
     icon: "🔍",
     title: "Interpretation",
     href: "/guides/interpretation",
@@ -42,7 +42,7 @@ const libraries = [
       "Understand symbols, context, emotions and thoughtful interpretation.",
   },
   {
-    step: 6,
+    
     icon: "🌍",
     title: "History & Culture",
     href: "/guides/history-culture",
@@ -50,7 +50,7 @@ const libraries = [
       "Explore how civilizations have understood dreams throughout history.",
   },
   {
-    step: 7,
+   
     icon: "🌿",
     title: "Wellness",
     href: "/guides/wellness",
@@ -58,7 +58,7 @@ const libraries = [
       "Improve dream recall, sleep quality and personal reflection.",
   },
   {
-    step: 8,
+    
     icon: "📊",
     title: "Research",
     href: "/guides/research",
@@ -93,7 +93,7 @@ export default function DreamSchoolGrid() {
           >
 
             <p className="text-sm text-[#6B6B6B] mb-2">
-              STEP {library.step}
+               {library.step}
             </p>
 
             <h3 className="font-serif text-2xl mb-3">

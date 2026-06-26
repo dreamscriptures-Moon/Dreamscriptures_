@@ -32,17 +32,17 @@ export default function DreamInterpretationGuide() {
 
           <span>›</span>
 
-          <Link href="/guides">Dream Guides</Link>
+          <Link href="/guides">Guides</Link>
 
           <span>›</span>
 
-          <span>Dream Interpretation</span>
+          <span>Interpretation</span>
 
         </nav>
 
         <p className="uppercase tracking-[0.22em] text-[#B79B5E] text-xs mb-4">
 
-          Dream School
+          Dream Library
 
         </p>
 

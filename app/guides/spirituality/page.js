@@ -93,6 +93,137 @@ across different traditions.
 </section>
 
 <section id="navigation"></section>
+<section className="max-w-5xl mx-auto px-6 mt-16 mb-20">
+
+  <nav
+    className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
+    aria-label="Guide sections"
+  >
+
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
+      On This Page
+    </p>
+
+    <ul className="space-y-2 pl-4 relative">
+
+      <li
+        aria-hidden="true"
+        className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
+      />
+
+      <li>
+        <Link
+          href="#what-are-spiritual-dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          What Are Spiritual Dreams?
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href="#christian-perspectives"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Christian Perspectives
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href="#islamic-perspectives"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Islamic Perspectives
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href="#hindu-perspectives"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Hindu Perspectives
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href="#african-perspectives"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          African Perspectives
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href="#comparison"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Compare Traditions
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href="#bible-references"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Bible References
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href="#quran-references"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Quranic References
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href="#prophetic-figures"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Key Figures
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href="#reflection"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Reflection Corner
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href="#faq"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Frequently Asked Questions
+        </Link>
+      </li>
+
+      <li className="pt-2">
+        <Link
+          href="/dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] font-medium text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Explore Dream Meanings →
+        </Link>
+      </li>
+
+    </ul>
+
+  </nav>
+
+</section>
 
 
 <section className="max-w-6xl mx-auto px-6 mb-20">
@@ -586,7 +717,7 @@ Hindu Perspectives on Dreams
 
 <p>
 
-Many Hindu traditions understand dreams as reflections of the mind, karma, personal experiences and spiritual development. Rather than having one universal meaning, dreams are often interpreted within the dreamer's life, actions and spiritual journey.
+Many Hindu traditions understand dreams as reflections of the mind, karma, personal experiences and spiritual development. Rather than having one universal meaning, dreams are often interpreted within the dreamer&apos;s life, actions and spiritual journey.
 
 </p>
 
@@ -1125,7 +1256,7 @@ Dream Narratives in Islamic Tradition
 
 </div>
 
-<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
 <div className="bg-white border border-[#EAE6E1] rounded-2xl p-8">
 
@@ -1178,6 +1309,10 @@ their possible origins.
 
 </div>
 
+</div>
+
+</section>
+
 <div className="bg-white border border-[#EAE6E1] rounded-2xl p-8">
 
 🌙
@@ -1195,10 +1330,6 @@ The Quran recounts Ibrahim&apos;s dream about sacrificing his son, a story remem
 </p>
 
 </div>
-
-</div>
-
-</section>
 
 <section
 id="prophetic-figures"
@@ -1452,6 +1583,48 @@ different ways depending on context and tradition.
 
 </div>
 
+
+<div className="bg-white border border-[#EAE6E1] rounded-2xl p-8">
+
+
+
+<div className="text-4xl mb-5">
+
+
+
+🕉️
+
+
+
+</div>
+
+
+
+<h3 className="font-serif text-2xl mb-4">
+
+
+
+Hinduism
+
+
+
+</h3>
+
+
+
+<p className="text-[#6B6B6B]">
+
+
+
+Many Hindu traditions view dreams as reflections of consciousness, karma and personal spiritual growth.
+
+
+
+</p>
+
+
+
+</div>
 </section>
 
 <section className="max-w-5xl mx-auto px-6 mb-24">

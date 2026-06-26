@@ -91,6 +91,48 @@ export default function MethodologyPage() {
 
 </div>
 
+<section className="mt-16">
+
+  <nav
+    className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
+    aria-label="Methodology sections"
+  >
+
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
+      On This Page
+    </p>
+
+    <ul className="space-y-2 pl-4 relative">
+
+      <li
+        aria-hidden="true"
+        className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
+      />
+
+      <li><Link href="#framework" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">Knowledge Framework</Link></li>
+
+      <li><Link href="#research-foundations" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">Research Foundations</Link></li>
+
+      <li><Link href="#why-different" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">Why DreamScriptures Is Different</Link></li>
+
+      <li><Link href="#principles" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">Core Principles</Link></li>
+
+      <li><Link href="#workflow" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">Interpretation Workflow</Link></li>
+
+      <li><Link href="#meaning-development" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">How Meanings Are Developed</Link></li>
+
+      <li><Link href="#influences" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">What Influences Interpretation</Link></li>
+
+      <li><Link href="#what-we-are-not" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">What DreamScriptures Is Not</Link></li>
+
+      <li><Link href="#editorial" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">Editorial Standards</Link></li>
+
+    </ul>
+
+  </nav>
+
+</section>
+
 {/* Knowledge Hub */}
 
 <section className="mt-14 border-t border-[#EAE6E1] pt-10">
@@ -133,7 +175,8 @@ export default function MethodologyPage() {
 </section>
 
         {/* Research Foundations */}
-<section className="mt-14 border-t border-[#EAE6E1] pt-10">
+<section id="research-foundations"
+className="mt-14 border-t border-[#EAE6E1] pt-10">
 
   <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
     Research foundations
@@ -170,7 +213,8 @@ export default function MethodologyPage() {
 </section>
 
         {/* Difference */}
-        <section className="mt-14 border-t border-[#EAE6E1] pt-10">
+        <section id="why-different" 
+         className="mt-14 border-t border-[#EAE6E1] pt-10">
           <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
             Why this differs from fixed dream dictionaries
           </h2>
@@ -198,7 +242,8 @@ export default function MethodologyPage() {
         </section>
 
         {/* Principles */}
-        <section className="mt-14 border-t border-[#EAE6E1] pt-10">
+        <section id="principles"
+         className="mt-14 border-t border-[#EAE6E1] pt-10">
           <h2 className="mb-6 font-serif text-3xl text-[#1A1A1A]">
             Core Principles
           </h2>
@@ -222,7 +267,8 @@ export default function MethodologyPage() {
         </section>
 
 {/* Interpretation Workflow */}
-<section className="mt-14 border-t border-[#EAE6E1] pt-10">
+<section id="workflow"
+ className="mt-14 border-t border-[#EAE6E1] pt-10">
   <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
     How a DreamScriptures Interpretation Is Built
   </h2>
@@ -308,7 +354,8 @@ export default function MethodologyPage() {
 </section>
 
         {/* Meaning Development */}
-        <section className="mt-14 border-t border-[#EAE6E1] pt-10">
+        <section id="meaning-development"
+        className="mt-14 border-t border-[#EAE6E1] pt-10">
           <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
             How meanings are developed
           </h2>
@@ -340,7 +387,8 @@ export default function MethodologyPage() {
         </section>
 
         {/* Influences */}
-        <section className="mt-14 border-t border-[#EAE6E1] pt-10">
+        <section id="influences" 
+        className="mt-14 border-t border-[#EAE6E1] pt-10">
           <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
             What influences interpretation
           </h2>
@@ -370,7 +418,8 @@ export default function MethodologyPage() {
           </div>
         </section>
 
-<section className="mt-14 border-t border-[#EAE6E1] pt-10">
+<section id="what-we-are-not"
+ className="mt-14 border-t border-[#EAE6E1] pt-10">
 
   <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
     What DreamScriptures Is Not
@@ -406,7 +455,8 @@ export default function MethodologyPage() {
 </section>
 
         {/* Editorial Bridge */}
-        <section className="mt-14 border-t border-[#EAE6E1] pt-10">
+        <section id="editorial"
+         className="mt-14 border-t border-[#EAE6E1] pt-10">
           <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
             Editorial standards
           </h2>
@@ -443,6 +493,38 @@ export default function MethodologyPage() {
         </p>
 
       </article>
+
+<section className="mt-20 text-center">
+
+<p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-3">
+
+Continue Exploring
+
+</p>
+
+<h2 className="font-serif text-4xl mb-5">
+
+Learn More About Dreams
+
+</h2>
+
+<p className="text-[#6B6B6B] max-w-2xl mx-auto mb-8">
+
+Explore DreamScriptures through psychology, science,
+spirituality, symbolism and dream interpretation.
+
+</p>
+
+<Link
+href="/guides"
+className="inline-flex items-center gap-2 bg-[#1A1A1A] text-white rounded-full px-6 py-3 hover:bg-[#333] transition"
+>
+
+Explore the Dream Library →
+
+</Link>
+
+</section>
 
       <SiteFooter />
     </main>

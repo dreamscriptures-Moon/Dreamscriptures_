@@ -1009,7 +1009,7 @@ className="bg-white border border-[#EAE6E1] rounded-2xl p-8 hover:shadow-md tran
 
 <h3 className="font-serif text-2xl mb-4">
 
-Dream Science
+ Science
 
 </h3>
 

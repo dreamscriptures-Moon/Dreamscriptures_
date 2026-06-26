@@ -49,7 +49,7 @@ export default function GuidesPage() {
 <div className="flex flex-wrap gap-3 text-sm text-[#6B6B6B] mb-8">
   <span>📚 8 Learning Libraries</span>
   <span>🧠 100+ Guides</span>
-  <span>🌙 Beginner Friendly</span>
+  <span>🌍 Psychology • Science • Spirituality</span>
 </div>
 
 <LazyMobileQuickNav />
@@ -66,8 +66,7 @@ export default function GuidesPage() {
 <section className="my-16">
 
 <h2 className="font-serif text-3xl mb-3">
-🔥 Most Searched Dream Guides
-</h2>
+Popular Dream Guides</h2>
 
 <p className="text-[#6B6B6B] mb-8">
 Explore the dream topics readers search for most often.
@@ -121,7 +120,7 @@ Understand conscious dreaming and current research.
 </Link>
 
 <Link
-href="/guides/nightmares"
+href="/guides/nightmares-meaning"
 className="bg-white border rounded-xl p-5 hover:shadow-sm"
 >
 
@@ -142,8 +141,7 @@ Why nightmares happen and what research suggests.
 <section className="mb-16">
 
   <h2 className="font-serif text-3xl mb-6">
-    Learn Through Multiple Perspectives
-  </h2>
+ Why DreamScriptures Takes a Multi-Perspective Approach </h2>
 
   <p className="text-[#6B6B6B] leading-relaxed mb-6">
     DreamScriptures explores dreams through psychology,
@@ -167,7 +165,7 @@ Why nightmares happen and what research suggests.
 </section>
 
 <h2 className="font-serif text-3xl mb-6">
-All Dream Guides
+Browse Every Dream Guide
 </h2>
 
 <p className="text-[#6B6B6B] mb-8">

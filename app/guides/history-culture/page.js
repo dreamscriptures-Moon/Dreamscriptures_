@@ -88,104 +88,7 @@ Dream Library
         <SearchBar />
 
       </section>
-
-      <section className="max-w-6xl mx-auto px-6 mb-20">
-
-        <div className="grid md:grid-cols-4 gap-5">
-
-          <div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
-
-            <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-              Earliest Records
-
-            </p>
-
-            <h3 className="font-serif text-2xl">
-
-              3000 BCE
-
-            </h3>
-
-          </div>
-
-          <div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
-
-            <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-              Main Topics
-
-            </p>
-
-            <p>
-
-              History
-
-              <br />
-
-              Culture
-
-              <br />
-
-              Philosophy
-
-              <br />
-
-              Psychology
-
-            </p>
-
-          </div>
-
-          <div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
-
-            <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-              Civilizations
-
-            </p>
-
-            <p>
-
-              Egypt
-
-              <br />
-
-              Greece
-
-              <br />
-
-              Rome
-
-              <br />
-
-              China
-
-            </p>
-
-          </div>
-
-          <div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
-
-            <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
-
-              Reading Time
-
-            </p>
-
-            <h3 className="font-serif text-2xl">
-
-              30 min
-
-            </h3>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <section className="max-w-5xl mx-auto px-6 mt-16">
+ <section className="max-w-5xl mx-auto px-6 mt-16">
 
   <nav
     className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
@@ -286,6 +189,104 @@ Dream Library
   </nav>
 
 </section>
+
+      <section className="max-w-6xl mx-auto px-6 mb-20">
+
+        <div className="grid md:grid-cols-4 gap-5">
+
+          <div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
+
+            <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
+
+              Earliest Records
+
+            </p>
+
+            <h3 className="font-serif text-2xl">
+
+              3000 BCE
+
+            </h3>
+
+          </div>
+
+          <div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
+
+            <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
+
+              Main Topics
+
+            </p>
+
+            <p>
+
+              History
+
+              <br />
+
+              Culture
+
+              <br />
+
+              Philosophy
+
+              <br />
+
+              Psychology
+
+            </p>
+
+          </div>
+
+          <div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
+
+            <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
+
+              Civilizations
+
+            </p>
+
+            <p>
+
+              Egypt
+
+              <br />
+
+              Greece
+
+              <br />
+
+              Rome
+
+              <br />
+
+              China
+
+            </p>
+
+          </div>
+
+          <div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
+
+            <p className="text-xs uppercase tracking-widest text-[#B79B5E] mb-3">
+
+              Reading Time
+
+            </p>
+
+            <h3 className="font-serif text-2xl">
+
+              30 min
+
+            </h3>
+
+          </div>
+
+        </div>
+
+      </section>
+
+     
 
       <article
         id="history-of-dreams"

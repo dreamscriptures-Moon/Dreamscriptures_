@@ -118,7 +118,6 @@ export const guides = uniqueGuidesBySlug([
     "why-we-dream",
     "subconscious-mind-dreams",
     "how-dreams-work",
-    "subconscious-mind-dreams",
     "spiritual-dreams-meaning",
     "recurring-dreams"
   ],

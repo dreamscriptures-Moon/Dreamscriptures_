@@ -15,43 +15,6 @@ export const metadata = {
   },
 };
 
-const startLearning = [
-  {
-    title: "Healthy Sleep",
-    description:
-      "Discover how healthy sleep habits influence dreams and overall well-being.",
-    href: "#healthy-sleep",
-    icon: "😴",
-    read: "5 min read",
-  },
-
-  {
-    title: "Dream Journaling",
-    description:
-      "Learn simple ways to improve dream recall through consistent journaling.",
-    href: "#dream-journaling",
-    icon: "📝",
-    read: "6 min read",
-  },
-
-  {
-    title: "Nightmares & Stress",
-    description:
-      "Understand how stress and emotions can influence dream experiences.",
-    href: "#nightmares-stress",
-    icon: "🌙",
-    read: "6 min read",
-  },
-
-  {
-    title: "Morning Reflection",
-    description:
-      "Build a thoughtful morning routine for remembering and reflecting on dreams.",
-    href: "#morning-reflection",
-    icon: "💚",
-    read: "5 min read",
-  },
-];
 
 export default function DreamWellnessPage() {
   return (
@@ -67,23 +30,23 @@ export default function DreamWellnessPage() {
 
           <span>›</span>
 
-          <Link href="/guides">Dream Guides</Link>
+          <Link href="/guides">Guides</Link>
 
           <span>›</span>
 
-          <span>Dream Wellness</span>
+          <span>Wellness</span>
 
         </nav>
 
         <p className="uppercase tracking-[0.22em] text-[#B79B5E] text-xs mb-4">
 
-          Dream School
+          Dream Library
 
         </p>
 
         <h1 className="font-serif text-5xl md:text-6xl text-[#1A1A1A] leading-tight mb-8">
 
-          Dream Wellness
+          Wellness
 
         </h1>
 
@@ -127,104 +90,103 @@ export default function DreamWellnessPage() {
 
 <section id="navigation"></section>
 
-      <section className="max-w-6xl mx-auto px-6 mb-20">
+   <section className="max-w-5xl mx-auto px-6 mt-16 mb-20">
 
-        <div className="grid md:grid-cols-4 gap-6">
+  <nav
+    className="bg-white border border-[#EAE6E1] rounded-3xl p-8"
+    aria-label="Guide sections"
+  >
 
-          <div className="bg-white rounded-2xl border border-[#EAE6E1] p-6">
+    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-2">
+      On This Page
+    </p>
 
-            <p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
+    <ul className="space-y-2 pl-4 relative">
 
-              Topics
+      <li
+        aria-hidden="true"
+        className="absolute left-0 top-1 bottom-1 w-px bg-gradient-to-b from-[#EAE6E1] via-[#D8C7A0] to-[#EAE6E1]"
+      />
 
-            </p>
+      <li>
+        <Link
+          href="#sleep-dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Sleep, Dreams & Well-being
+        </Link>
+      </li>
 
-            <p>
+      <li>
+        <Link
+          href="#healthy-sleep"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Healthy Dream Habits
+        </Link>
+      </li>
 
-              Sleep
+      <li>
+        <Link
+          href="#dream-recall"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Better Dream Recall
+        </Link>
+      </li>
 
-              <br />
+      <li>
+        <Link
+          href="#nightmares-stress"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Stress & Nightmares
+        </Link>
+      </li>
 
-              Stress
+      <li>
+        <Link
+          href="#emotional-wellbeing"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          A Healthy Relationship With Dreams
+        </Link>
+      </li>
 
-              <br />
+      <li>
+        <Link
+          href="#morning-reflection"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Morning Reflection
+        </Link>
+      </li>
 
-              Dream Recall
+      <li>
+        <Link
+          href="#faq"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Frequently Asked Questions
+        </Link>
+      </li>
 
-            </p>
+      <li className="pt-2">
+        <Link
+          href="/dreams"
+          className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] font-medium text-[#6B6B6B] transition hover:border-[#C6A96B] hover:text-[#8F743C]"
+        >
+          Explore Dream Meanings →
+        </Link>
+      </li>
 
-          </div>
+    </ul>
 
-          <div className="bg-white rounded-2xl border border-[#EAE6E1] p-6">
+  </nav>
 
-            <p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
-
-              Focus
-
-            </p>
-
-            <p>
-
-              Healthy Habits
-
-              <br />
-
-              Reflection
-
-              <br />
-
-              Well-being
-
-            </p>
-
-          </div>
-
-          <div className="bg-white rounded-2xl border border-[#EAE6E1] p-6">
-
-            <p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
-
-              Approach
-
-            </p>
-
-            <p>
-
-              Science
-
-              <br />
-
-              Psychology
-
-              <br />
-
-              Practical
-
-            </p>
-
-          </div>
-
-          <div className="bg-white rounded-2xl border border-[#EAE6E1] p-6">
-
-            <p className="uppercase tracking-widest text-xs text-[#B79B5E] mb-3">
-
-              Reading Time
-
-            </p>
-
-            <h3 className="font-serif text-2xl">
-
-              30 min
-
-            </h3>
-
-          </div>
-
-        </div>
-
-      </section>
-
-    
-      <article
+</section>
+     <article
+id="sleep-dreams"
         className="max-w-4xl mx-auto px-6 mb-24"
       >
 
@@ -283,7 +245,7 @@ className="max-w-6xl mx-auto px-6 mb-24"
 
 <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs">
 
-DREAM WELLNESS TOOLKIT
+WELLNESS TOOLKIT
 
 </p>
 
@@ -463,6 +425,105 @@ naturally.
 </section>
 
 <section
+  id="healthy-habits-comparison"
+  className="max-w-6xl mx-auto px-6 mb-24"
+>
+
+  <h2 className="font-serif text-4xl mb-10">
+ Simple Habits That Support Better Sleep & Dream Recall
+  </h2>
+
+  <div className="overflow-x-auto">
+
+    <table className="w-full bg-white rounded-2xl border border-[#EAE6E1] overflow-hidden">
+
+      <thead>
+
+        <tr className="bg-[#F8F6F2]">
+
+          <th className="p-5 text-left font-semibold">
+            Habit
+          </th>
+
+          <th className="p-5 text-left font-semibold">
+            Why It Helps
+          </th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr className="border-t border-[#EAE6E1]">
+
+          <td className="p-5">
+            Keep a dream journal
+          </td>
+
+          <td className="p-5">
+            Strengthens dream recall by capturing details before they fade.
+          </td>
+
+        </tr>
+
+        <tr className="border-t border-[#EAE6E1]">
+
+          <td className="p-5">
+            Maintain a consistent sleep schedule
+          </td>
+
+          <td className="p-5">
+            Supports healthy sleep cycles and more regular dreaming.
+          </td>
+
+        </tr>
+
+        <tr className="border-t border-[#EAE6E1]">
+
+          <td className="p-5">
+            Limit screens before bed
+          </td>
+
+          <td className="p-5">
+            Encourages relaxation and may improve overall sleep quality.
+          </td>
+
+        </tr>
+
+        <tr className="border-t border-[#EAE6E1]">
+
+          <td className="p-5">
+            Reflect before checking your phone
+          </td>
+
+          <td className="p-5">
+            Gives your brain time to remember dreams more clearly.
+          </td>
+
+        </tr>
+
+        <tr className="border-t border-[#EAE6E1]">
+
+          <td className="p-5">
+            Practice stress management
+          </td>
+
+          <td className="p-5">
+            May reduce emotional distress and the frequency of stress-related nightmares.
+          </td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</section>
+
+<section
 id="nightmares-stress"
 className="max-w-6xl mx-auto px-6 mb-24"
 >
@@ -538,9 +599,7 @@ WELLNESS REMINDER
 </p>
 
 <h2 className="font-serif text-4xl mb-8">
-
-Dreams Are Part of Being Human
-
+A Healthy Relationship With Dreams
 </h2>
 
 <div className="space-y-6 text-lg text-[#444]">
@@ -789,8 +848,10 @@ Would writing about it help me understand it better?
 
 </section>
 
-<section className="max-w-5xl mx-auto px-6 mb-24">
-
+<section
+id="faq"
+className="max-w-5xl mx-auto px-6 mb-24"
+>
 <h2 className="font-serif text-4xl mb-10">
 
 Frequently Asked Questions
@@ -881,10 +942,9 @@ qualified healthcare professional.
 KEEP LEARNING
 
 </p>
-
 <h2 className="font-serif text-5xl">
 
-Continue Exploring
+Continue Your Dream Library Journey
 
 </h2>
 
@@ -901,7 +961,7 @@ className="bg-white border border-[#EAE6E1] rounded-2xl p-8"
 
 <h3 className="font-serif text-2xl mt-4">
 
-Dream Science
+Science
 
 </h3>
 
@@ -916,7 +976,7 @@ className="bg-white border border-[#EAE6E1] rounded-2xl p-8"
 
 <h3 className="font-serif text-2xl mt-4">
 
-Dream Psychology
+Psychology
 
 </h3>
 
@@ -931,7 +991,7 @@ className="bg-white border border-[#EAE6E1] rounded-2xl p-8"
 
 <h3 className="font-serif text-2xl mt-4">
 
-Dream Research
+Research
 
 </h3>
 

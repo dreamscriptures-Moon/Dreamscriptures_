@@ -48,11 +48,15 @@ export default function Home() {
   <section className="max-w-3xl mx-auto px-6 pt-12 md:pt-20 pb-10 text-center">
 
     <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.15] font-serif tracking-tight mb-6">
-Understand Your Dreams Through Emotion,
-Symbolism, Spiritual insights, Personal Context and Dream Dictionaries </h1>
+Understand Your Dreams Through
+Emotion, Symbolism and Personal Context
+ </h1>
 
 <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
-  Explore dream meanings through symbols, emotions, and deeper interpretation from spiritual insight to real-life emotional patterns.
+Explore dream meanings through emotional patterns,
+symbolism, psychology, spirituality and personal
+reflection to better understand what your dreams
+may be communicating.
 </p>
 
    <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-4">
@@ -86,6 +90,28 @@ Symbolism, Spiritual insights, Personal Context and Dream Dictionaries </h1>
   <div className="max-w-md mx-auto mb-6">
     <HomeSearchWrapper />
   </div>
+
+<div className="flex flex-wrap justify-center gap-3 mb-8">
+
+  <span className="px-4 py-2 rounded-full bg-white border border-[#EAE6E1] text-sm">
+
+    🌙 240+ Dream Meanings
+
+  </span>
+
+  <span className="px-4 py-2 rounded-full bg-white border border-[#EAE6E1] text-sm">
+
+    ❤️ 70+ Emotional Themes
+
+  </span>
+
+  <span className="px-4 py-2 rounded-full bg-white border border-[#EAE6E1] text-sm">
+
+    📚 100+ Dream Guides
+
+  </span>
+
+</div>
 
   {/* Intent shortcuts */}
   <div className="text-sm text-[#6B6B6B] space-y-2">
@@ -168,17 +194,32 @@ The Meaning of a Dream Often Depends on the Emotion Behind It</h2>
       How can dreams be interpreted?
     </h2>
 
-    <p className="text-[#6B6B6B] leading-relaxed mb-4">
-   A dream about falling may reflect a loss of control.
+  <div className="space-y-4 mb-6">
 
-A dream about being chased may reflect avoidance,
-pressure, or unresolved stress.
+  <div className="flex gap-3">
+    <span className="text-[#C6A96B]">•</span>
+    <p className="text-[#6B6B6B]">
+      <strong className="text-[#1A1A1A]">Falling</strong> may reflect a loss of control.
+    </p>
+  </div>
 
-A dream about water may reflect emotional depth,
-healing, or change.
+  <div className="flex gap-3">
+    <span className="text-[#C6A96B]">•</span>
+    <p className="text-[#6B6B6B]">
+      <strong className="text-[#1A1A1A]">Being chased</strong> may reflect avoidance,
+      pressure or unresolved stress.
+    </p>
+  </div>
 
-While symbols matter, the emotions surrounding
-the dream often reveal the deeper meaning.</p>
+  <div className="flex gap-3">
+    <span className="text-[#C6A96B]">•</span>
+    <p className="text-[#6B6B6B]">
+      <strong className="text-[#1A1A1A]">Water</strong> may reflect emotional depth,
+      healing or personal change.
+    </p>
+  </div>
+
+</div>
 
     <p className="text-[#6B6B6B] leading-relaxed">
       Understanding your dreams involves looking at emotional patterns, symbolic meaning, 
@@ -326,7 +367,7 @@ meaningful.</p>
   <div className="text-center max-w-3xl mx-auto mb-12">
 
     <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-4">
-      Learn About Dreams
+      Dream Library
     </p>
 
     <h2 className="text-4xl md:text-5xl font-serif mb-6">
@@ -366,7 +407,7 @@ meaningful.</p>
     </Link>
 
     <Link href="/guides/spirituality" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
-      <h3 className="font-serif text-2xl">✨Spirituality</h3>
+      <h3 className="font-serif text-2xl">✨ Spirituality</h3>
       <p className="mt-3 text-[#6B6B6B]">
         Christian, Islamic and African dream perspectives.
       </p>
@@ -380,28 +421,72 @@ meaningful.</p>
     </Link>
 
     <Link href="/guides/wellness" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
-      <h3 className="font-serif text-2xl">🌿Wellness</h3>
+      <h3 className="font-serif text-2xl">🌿 Wellness</h3>
       <p className="mt-3 text-[#6B6B6B]">
         Improve dream recall, sleep quality and reflection.
       </p>
     </Link>
 
+<Link
+  href="/guides/interpretation"
+  className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition"
+>
+
+  <h3 className="font-serif text-2xl">
+    🧩 Interpretation
+  </h3>
+
+  <p className="mt-3 text-[#6B6B6B]">
+    Learn how DreamScriptures interprets dreams using emotion, symbolism and context.
+  </p>
+
+</Link>
+
+<Link
+  href="/guides/research"
+  className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition"
+>
+
+  <h3 className="font-serif text-2xl">
+    🔬 Research
+  </h3>
+
+  <p className="mt-3 text-[#6B6B6B]">
+    Explore modern dream studies, sleep research and scientific discoveries.
+  </p>
+
+</Link>
+
   </div>
 
-  <div className="text-center mt-10">
+<div className="text-center mt-12">
 
-    <Link
-      href="/guides"
-      className="text-sm underline underline-offset-4"
-    >
-      Explore the complete Knowledge Hub →
-    </Link>
+  <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-3">
+    Continue Learning
+  </p>
 
-  </div>
+  <h3 className="font-serif text-3xl mb-4">
+    Explore the Dream Library
+  </h3>
+
+  <p className="text-[#6B6B6B] max-w-2xl mx-auto mb-8">
+    Learn about dreams through psychology, science, spirituality,
+    symbolism, history and practical dream interpretation.
+  </p>
+
+  <Link
+    href="/guides"
+    className="inline-flex items-center gap-2 bg-[#1A1A1A] text-white rounded-full px-6 py-3 hover:bg-[#333] transition"
+  >
+    Explore the Dream Library →
+  </Link>
+
+</div>
 
 </section>
 
-<a
+
+<Link
   href="/about"
   className="block max-w-5xl mx-auto px-6 pb-24"
 >
@@ -433,7 +518,7 @@ and personal context.
     </div>
 
   </section>
-</a>
+</Link>
 <section className="max-w-xl mx-auto px-6 py-1 text-center">
 
   <div className="border-t border-[#EAE6E1] pt-16">
@@ -450,24 +535,7 @@ and personal context.
 
 </section>
 
-<section className="max-w-3xl mx-auto px-6 py-16 text-center">
 
-  <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-4">
-    About DreamScriptures
-  </p>
-
-  <p className="text-[#6B6B6B] leading-relaxed">
-    DreamScriptures was created to explore dreams through emotional
-    patterns, symbolism, and personal context rather than fixed
-    definitions. Learn more about our story, methodology, and
-    editorial standards.
-  </p>
-
-  <Link href="/about" className="underline mt-4 inline-block">
-    Read our story
-  </Link>
-
-</section>
 
       <SiteFooter />
     </main>
