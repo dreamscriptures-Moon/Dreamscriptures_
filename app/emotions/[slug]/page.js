@@ -160,9 +160,14 @@ function RelatedEmotionLinks({ slugs = [] }) {
             </h3>
 
             {emotion.intro && (
-              <p className="mt-2 text-sm leading-relaxed text-[#6B6B6B]">
-                {shorten(emotion.intro, 150)}
-              </p>
+              <>
+                <p className="mt-2 text-sm leading-relaxed text-[#6B6B6B]">
+                  {shorten(emotion.intro, 150)}
+                </p>
+                <p className="mt-4 font-medium text-[#8F743C]">
+                  Read interpretation →
+                </p>
+              </>
             )}
           </Link>
         ))}
@@ -327,6 +332,52 @@ export default async function EmotionPage({ params }) {
 
         <DreamPageClientNav items={emotionNavItems} />
 
+ {/* At a Glance */}
+ <section className="max-w-5xl mx-auto px-6 mb-20">
+
+<h2 className="font-serif text-3xl mb-8">
+At a Glance
+</h2>
+
+<div className="grid md:grid-cols-2 gap-6">
+
+<div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
+<h3 className="font-serif text-xl mb-3">
+What this emotion usually reflects
+</h3>
+
+<p className="leading-relaxed text-[#6B6B6B]">
+  {emotion.deepInterpretation?.[0]}
+</p>
+</div>
+
+<div className="bg-white border border-[#EAE6E1] rounded-2xl p-6">
+<h3 className="font-serif text-xl mb-3">
+Common life situations
+</h3>
+
+<div className="grid gap-3">
+
+{emotion.lifeSituations.map((item) => (
+
+<div
+key={item}
+className="rounded-xl border border-[#EAE6E1] bg-[#FAF8F5] px-4 py-3"
+>
+
+{item}
+
+</div>
+
+))}
+
+</div>
+</div>
+
+</div>
+
+</section>
+
         {/* Deep content */}
         <ParagraphSection
           id="deep-interpretation"
@@ -355,6 +406,113 @@ export default async function EmotionPage({ params }) {
           items={emotion.lifeSituations}
         />
 
+{/* Comparison Table */}
+<section className="mt-16">
+
+<h2 className="font-serif text-3xl mb-6">
+
+Understanding This Emotion
+
+</h2>
+
+<div className="overflow-x-auto">
+
+<table className="w-full border border-[#EAE6E1] rounded-2xl overflow-hidden">
+
+<thead>
+
+<tr className="bg-[#F8F6F2]">
+
+<th className="p-5 text-left">
+
+Aspect
+
+</th>
+
+<th className="p-5 text-left">
+
+How it may appear
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td className="p-5">
+
+Common feeling
+
+</td>
+
+<td className="p-5">
+
+{emotion.title}
+
+</td>
+
+</tr>
+
+<tr>
+
+<td className="p-5">
+
+Dream symbols
+
+</td>
+
+<td className="p-5">
+
+{emotion.dreamSymbols?.slice(0,3).join(", ")}
+
+</td>
+
+</tr>
+
+<tr>
+
+<td className="p-5">
+
+Life situations
+
+</td>
+
+<td className="p-5">
+
+{emotion.lifeSituations?.slice(0,2).join(", ")}
+
+</td>
+
+</tr>
+
+<tr>
+
+<td className="p-5">
+
+Often connected to
+
+</td>
+
+<td className="p-5">
+
+{emotion.relatedHubs?.length || 0} related emotional states
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
         {/* Themes */}
         {emotion.emotionalThemes?.length > 0 && (
           <section
@@ -365,13 +523,16 @@ export default async function EmotionPage({ params }) {
               Emotional patterns connected to this feeling
             </h2>
 
-            <ul className="grid gap-3 md:grid-cols-2">
-              {emotion.emotionalThemes.map((t) => (
-                <li key={t} className="border px-4 py-2 bg-white/70">
+           <div className="flex flex-wrap gap-3">
+            {emotion.emotionalThemes.map((t) => (
+                <span
+                  key={t}
+                  className="rounded-full border border-[#EAE6E1] bg-white px-4 py-2 text-sm"
+                >
                   {t}
-                </li>
+                </span>
               ))}
-            </ul>
+            </div>
           </section>
         )}
 
@@ -410,23 +571,43 @@ export default async function EmotionPage({ params }) {
         <EmotionAuthorityRoutes emotionSlug={slug} />
 
         {/* Category bridge */}
-        <section className="mt-20 scroll-mt-28 border-t border-[#EAE6E1] pt-10">
-          <h2 className="font-serif text-2xl md:text-3xl mb-4">
-            Explore dreams by emotional category
-          </h2>
+        <section className="mt-20 border-t border-[#EAE6E1] pt-12 text-center">
 
-          <div className="flex flex-wrap gap-3 text-sm">
-            <Link href="/categories/fear" className="underline">
-              Fear dreams
-            </Link>
-            <Link href="/categories/anxiety" className="underline">
-              Anxiety dreams
-            </Link>
-            <Link href="/categories/transformation" className="underline">
-              Transformation dreams
-            </Link>
-          </div>
-        </section>
+<h2 className="font-serif text-3xl mb-4">
+
+Explore Related Dream Meanings
+
+</h2>
+
+<p className="text-[#6B6B6B] max-w-2xl mx-auto mb-8">
+
+Browse dream meanings connected to this emotional pattern or explore the complete Dream Dictionary.
+
+</p>
+
+<div className="flex flex-wrap justify-center gap-4">
+
+<Link
+href="/dreams"
+className="px-6 py-3 rounded-full bg-[#1A1A1A] text-white"
+>
+
+Dream Dictionary →
+
+</Link>
+
+<Link
+href="/categories"
+className="px-6 py-3 rounded-full border border-[#EAE6E1]"
+>
+
+Browse Categories
+
+</Link>
+
+</div>
+
+</section>
 
         {/* FAQ */}
         <section

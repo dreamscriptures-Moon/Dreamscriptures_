@@ -7,6 +7,8 @@ const baseHubDefaults = {
 
   emotionalPathways: [],
 
+  questionsToReflectOn: [],
+
   emotionalJourney: {
     before: [],
     deeper: [],
@@ -14,7 +16,7 @@ const baseHubDefaults = {
   },
 
   deepInterpretation: [],
-  connectionExplanation: [],
+  whyTheseDreamsConnect: [],
   manifestations: [],
   subconsciousPatterns: [],
 };
@@ -66,6 +68,15 @@ const hubDefinitions = {
     "pressure to keep everything together",
     "emotional overload",
   ],
+  questionsToReflectOn: [
+
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
 },
 "emotional-overwhelm": {
   title: "Emotional Overwhelm",
@@ -106,6 +117,15 @@ const hubDefinitions = {
     "constant responsibility accumulation",
     "difficulty emotionally slowing down",
   ],
+  questionsToReflectOn: [
+
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
 },
  "fear-of-abandonment": {
   title: "Fear of Abandonment",
@@ -146,6 +166,15 @@ const hubDefinitions = {
     "sensitivity to separation",
     "emotional reassurance seeking",
   ],
+  questionsToReflectOn: [
+
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
 },
  uncertainty: {
   title: "Uncertainty About the Future",
@@ -186,6 +215,15 @@ const hubDefinitions = {
     "fear of instability",
     "searching for emotional clarity",
   ],
+questionsToReflectOn: [
+
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
 },
  "survival-pressure": {
   title: "Survival Pressure",
@@ -209,7 +247,15 @@ const hubDefinitions = {
 
     "The subconscious chooses symbols that reflect how emotionally threatened, overwhelmed, or unsafe the nervous system currently feels.",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   manifestations: [
     "Some people experience survival pressure through being chased, attacked, trapped, or escaping dangerous situations.",
 
@@ -265,7 +311,15 @@ const hubDefinitions = {
 
     "The subconscious often increases dream intensity when emotional frustration, invalidation, or helplessness has been building for a long time without release.",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   subconsciousPatterns: [
     "difficulty expressing emotional needs",
     "fear of not being heard",
@@ -374,7 +428,15 @@ const hubDefinitions = {
     "crying",
     "losing-your-voice",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   relatedHubs: [
     "unspoken-feelings",
     "hidden-stress",
@@ -423,7 +485,15 @@ const hubDefinitions = {
 
     "This is why dreams involving screaming without being heard, being invisible in crowds, repeated failed communication, or emotionally unreachable people often connect emotionally underneath the surface.",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   connectionExplanation: [
     "The fear of being ignored can appear through many different dream symbols because the subconscious adapts emotional isolation into forms that match personal emotional experiences and insecurities.",
 
@@ -558,7 +628,15 @@ const hubDefinitions = {
     "lack-of-control",
     "emotional-overwhelm",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   emotionalJourney: {
     before: [
       "constant-responsibility",
@@ -638,7 +716,15 @@ const hubDefinitions = {
     "lack-of-control",
     "emotional-overwhelm",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   emotionalPathways: [
     "fear-of-being-trapped",
     "lack-of-control",
@@ -730,7 +816,15 @@ const hubDefinitions = {
     "feeling-powerless",
     "uncertainty",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   emotionalJourney: {
     before: [
       "uncertainty",
@@ -787,7 +881,15 @@ const hubDefinitions = {
 
     "The subconscious often increases dream intensity when nervous system tension, emotional pressure, or unresolved worry continues building without emotional recovery or grounding.",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   subconsciousPatterns: [
     "chronic nervous system alertness",
     "difficulty emotionally relaxing",
@@ -874,7 +976,15 @@ const hubDefinitions = {
 
     "The subconscious often increases dream intensity when emotional clarity feels urgently needed but remains unavailable internally.",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   subconsciousPatterns: [
     "fear of unpredictability",
     "difficulty emotionally tolerating uncertainty",
@@ -972,7 +1082,15 @@ const hubDefinitions = {
     "internalized pressure",
     "anticipation of judgment or criticism",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   connectedDreams: [
     "failing-a-test",
     "being-late",
@@ -1058,7 +1176,15 @@ const hubDefinitions = {
     "fear of emotional change",
     "difficulty emotionally moving forward",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   connectedDreams: [
     "ex-partner",
     "being-in-the-past",
@@ -1150,7 +1276,15 @@ const hubDefinitions = {
     "mirrors",
     "being-lost",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   relatedHubs: [
     "identity-confusion",
     "detachment",
@@ -1236,7 +1370,15 @@ const hubDefinitions = {
     "emotional-overwhelm",
     "pressure-building",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   emotionalJourney: {
     before: [
       "constant-responsibility",
@@ -1310,7 +1452,15 @@ const hubDefinitions = {
     "fear-of-losing-control",
     "lack-of-control",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   emotionalJourney: {
     before: [
       "hidden-stress",
@@ -1384,7 +1534,15 @@ const hubDefinitions = {
     "emotional-healing",
     "personal-growth",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   emotionalJourney: {
     before: [
       "difficulty-letting-go",
@@ -1458,7 +1616,15 @@ const hubDefinitions = {
     "moving-forward",
     "becoming-stronger",
   ],
+questionsToReflectOn: [
 
+"What currently feels outside your control?",
+
+"Where have you been carrying too much responsibility?",
+
+"What feels emotionally unstable right now?",
+
+],
   emotionalJourney: {
     before: [
       "life-transition",
@@ -1626,6 +1792,7 @@ const lightHubs = Object.fromEntries(
     .filter(([slug]) => !hubDefinitions[slug])
     .map(([slug, title]) => [slug, makeLightHub(slug, title)])
 );
+
 
 export const emotionalHubs = Object.fromEntries(
   Object.entries({ ...lightHubs, ...hubDefinitions }).map(([slug, hub]) => [
