@@ -60,9 +60,9 @@ export default function SearchBar() {
       return searchRouting;
     }
 
-    const module = await loadSearchRouting();
-    setSearchRouting(module);
-    return module;
+    const routingModule = await loadSearchRouting();
+    setSearchRouting(routingModule);
+    return routingModule;
   }, [searchRouting]);
   const handleQueryChange = useCallback(
     (event) => {

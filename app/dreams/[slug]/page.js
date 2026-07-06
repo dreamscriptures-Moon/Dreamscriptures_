@@ -6,9 +6,13 @@ import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
 import DreamInsightSection from "@/components/DreamInsightSection";
 import DreamMethodologyCallout from "@/components/DreamMethodologyCallout";
+import ArticleFeedback from "@/components/ArticleFeedback";
+import ContinueExploring from "@/components/ContinueExploring";
+import DreamCallout from "@/components/DreamCallout";
 import DreamEmotionalConnections from "@/components/emotions/DreamEmotionalConnections";
 import DreamEmotionalPathways from "@/components/emotions/DreamEmotionalPathways";
 import DreamSemanticAuthority from "@/components/emotions/DreamSemanticAuthority";
+import ReadingProgressBar from "@/components/ReadingProgressBar";
 import RelatedDreams from "@/components/RelatedDreams";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
@@ -33,6 +37,10 @@ import {
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import ClusterPathway from "@/app/components/ClusterPathway";
 import { getClusterGuides } from "@/lib/clusterGuides";
+import {
+  getIntelligentRelatedDreams,
+  getReadingTime,
+} from "@/lib/dreamEngagement";
 import { getCanonicalDreamSlug, getDreamRobots } from "@/lib/seo";
 import JumpToNavigation from "@/app/components/JumpToNavigation";
 
@@ -651,6 +659,8 @@ const clusterGuide = getClusterGuides().find(
 const canonicalDreamSlug = normalizeSlug(getCanonicalDreamSlug(dream, slug));
 const relatedDreamItems = getDreamsBySlugs(dream.relatedDreams, dreams);
 const primaryRelatedDream = relatedDreamItems[0];
+const primaryCategory = dream.categories?.[0] || "";
+const primaryCategorySlug = normalizeSlug(primaryCategory);
 
   const exploreThemes = getExploreThemes(dreams);
   const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
@@ -660,9 +670,13 @@ const primaryRelatedDream = relatedDreamItems[0];
   const breadcrumbSchema = getBreadcrumbSchema({
     dreamTitle,
     canonicalDreamSlug,
+    category: primaryCategory,
+    categorySlug: primaryCategorySlug,
   });
   const faqItems = getDreamFAQItems(dream, dreamTitle);
   const faqSchema = getFAQSchema(faqItems);
+  const readingTime = getReadingTime(dream);
+  const continueExploringDreams = getIntelligentRelatedDreams(dream, dreams, 6);
 
 function getDreamContext(dream) {
   const categories = (dream.categories || []).map((category) =>
@@ -698,6 +712,7 @@ function getDreamContext(dream) {
 
   return (
     <main className="bg-[#FAF8F5] min-h-screen">
+      <ReadingProgressBar />
       <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
@@ -707,7 +722,7 @@ function getDreamContext(dream) {
       <SiteHeader />
      <div className="max-w-3xl mx-auto px-6 pt-6">
      <nav aria-label="Breadcrumb" className="mb-6 text-sm text-[#5F574E]">
-  <ol className="flex flex-wrap items-center gap-2">
+  <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
     <li>
       <Link href="/" className="hover:text-[#C6A96B] transition-colors">
         Home
@@ -717,12 +732,27 @@ function getDreamContext(dream) {
     <li>/</li>
 
     <li>
-      <Link href="/dreams" className="hover:text-[#C6A96B] transition-colors">
-        Dreams
+      <Link href="/categories" className="hover:text-[#C6A96B] transition-colors">
+        Categories
       </Link>
     </li>
 
     <li>/</li>
+
+    {primaryCategory && (
+      <>
+        <li>
+          <Link
+            href={`/categories/${primaryCategorySlug}`}
+            className="capitalize hover:text-[#C6A96B] transition-colors"
+          >
+            {formatCategory(primaryCategory.toLowerCase())}
+          </Link>
+        </li>
+
+        <li>/</li>
+      </>
+    )}
 
     <li className="text-[#6B6B6B]" aria-current="page">
       {dreamTitle}
@@ -738,14 +768,17 @@ function getDreamContext(dream) {
 
   <LazyMobileQuickNav />
 </div>
-      <article className="max-w-3xl lg:max-w-3xl mx-auto pt-1 pb-10 md:pt-14 md:pb-24">
+      <article className="max-w-3xl lg:max-w-3xl mx-auto px-6 pt-1 pb-10 md:pt-14 md:pb-24">
      <h1 className="text-4xl md:text-5xl leading-[1.15] font-serif mb-4">
   {dynamicTitle}
 </h1>
+<p className="mb-8 text-sm text-[#8A8177]" aria-label={`Estimated reading time ${readingTime} minutes`}>
+  <span aria-hidden="true">⏱</span> {readingTime} min read
+</p>
 {dream.microSummary && (
-  <section id="dream-overview" className="mb-10 scroll-mt-28">
+  <section id="dream-overview" className="mb-12 scroll-mt-28">
 
-    <h2 className="text-xl md:text-2xl font-serif text-[#1A1A1A] mb-4">
+    <h2 className="text-2xl md:text-3xl font-serif text-[#1A1A1A] mb-5">
       What does it mean to dream about {dream.title.toLowerCase()}?
     </h2>
 
@@ -754,7 +787,7 @@ function getDreamContext(dream) {
   </section>
   
 )}
-<section id="when-this-dream-happens" className="mb-12 scroll-mt-28">
+<section id="when-this-dream-happens" className="mb-14 scroll-mt-28 border-t border-[#EAE6E1] pt-8">
   <h2 className="font-serif text-2xl md:text-3xl mb-4">
     When this dream tends to appear
   </h2>
@@ -782,7 +815,7 @@ function getDreamContext(dream) {
 <DreamPageClientNav />
 
  <p className="text-xs tracking-widest text-[#A89F91] uppercase mb-8">
-          Guide - 7 min read
+          Guide - {readingTime} min read
         </p>
 
         
@@ -804,6 +837,12 @@ function getDreamContext(dream) {
 
         <div className="w-56 h-[1px] bg-[#C6A96B] mt-8 mb-10 opacity-60" />
         <DreamMethodologyCallout />
+        <DreamCallout variant="reflection">
+          <p>
+            Notice the strongest feeling in the dream before assigning meaning
+            to the symbol. The emotional tone often changes the interpretation.
+          </p>
+        </DreamCallout>
     
    
       <section className="space-y-16">
@@ -867,6 +906,7 @@ function getDreamContext(dream) {
           </div>
         </section>
  <RelatedDreams slugs={dream.relatedDreams} relatedDreams={relatedDreamItems} />
+ <ContinueExploring dreams={continueExploringDreams} />
 
         <p className="text-sm text-[#8A8A8A] mt-12 italic">
           Each dream is personal. Its meaning can shift depending on what you
@@ -944,7 +984,8 @@ function getDreamContext(dream) {
     </Link>
 
   </div>
-</section>
+      </section>
+      <ArticleFeedback dreamSlug={canonicalDreamSlug} />
       </article>
 
       <Script

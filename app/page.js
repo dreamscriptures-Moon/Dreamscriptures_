@@ -3,8 +3,14 @@ import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import HomeSearchWrapper from "./components/HomeSearchWrapper";
+import { DreamCard, DreamFeatureCard } from "@/components/DreamCards";
+import { dreams } from "@/data/dreams";
 import { emotionalHubs } from "@/data/emotionalHubs";
 import { featuredEmotions } from "@/data/featuredEmotions";
+import {
+  getDreamOfTheDay,
+  getRecentlyAddedDreams,
+} from "@/lib/dreamEngagement";
 
 
 const popularDreams = [
@@ -40,6 +46,9 @@ const featuredGuides = [
 ];
 
 export default function Home() {
+  const recentlyAddedDreams = getRecentlyAddedDreams(dreams, 6);
+  const dreamOfTheDay = getDreamOfTheDay(dreams);
+
   return (
 <main className="bg-[#F7F5F2] text-[#1A1A1A] min-h-screen">
   <SiteHeader sticky />
@@ -140,6 +149,40 @@ may be communicating.
 <p className="text-sm text-[#6B6B6B] max-w-xl mx-auto mt-4">
   Dreams often repeat the same emotional patterns beneath different symbols like fear, uncertainty, or loss of control.
 </p>
+</section>
+
+{/* DREAM OF THE DAY */}
+<section className="max-w-5xl mx-auto px-6 py-12 md:py-16">
+  <div className="mb-8 text-center">
+    <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+      Daily reflection
+    </p>
+
+    <h2 className="font-serif text-4xl md:text-5xl">
+      Dream of the Day
+    </h2>
+  </div>
+
+  <DreamFeatureCard dream={dreamOfTheDay} />
+</section>
+
+{/* RECENTLY ADDED DREAMS */}
+<section className="max-w-6xl mx-auto px-6 py-12 md:py-20">
+  <div className="mx-auto mb-10 max-w-3xl text-center">
+    <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+      Newly published
+    </p>
+
+    <h2 className="font-serif text-4xl md:text-5xl">
+      Recently Added Dreams
+    </h2>
+  </div>
+
+  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    {recentlyAddedDreams.map((dream) => (
+      <DreamCard key={dream.slug || dream.title} dream={dream} />
+    ))}
+  </div>
 </section>
  
 {/* OUR APPROACH */}
