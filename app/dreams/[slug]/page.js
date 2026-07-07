@@ -763,9 +763,6 @@ function getDreamContext(dream) {
 
      <div className="max-w-3xl mx-auto px-6 mt-4 mb-6 space-y-3">
   <SearchBar />
-
-<section id="navigation"></section>
-
   <LazyMobileQuickNav />
 </div>
       <article className="max-w-3xl lg:max-w-3xl mx-auto px-6 pt-1 pb-10 md:pt-14 md:pb-24">
@@ -795,6 +792,7 @@ function getDreamContext(dream) {
   <TextBlocks text={getDreamContext(dream)} />
 </section>
 
+<section id="navigation"></section>
 
  {dream.categories?.length > 0 && (
           <nav className="mb-8 flex flex-wrap gap-2">

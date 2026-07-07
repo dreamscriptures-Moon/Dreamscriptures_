@@ -130,11 +130,11 @@ export function DreamFeatureCard({ dream }) {
   return (
     <article className="overflow-hidden rounded-2xl border border-[#EAE6E1] bg-white shadow-sm md:grid md:grid-cols-[0.95fr_1.05fr]">
 
-      <div className="min-h-[320px] overflow-hidden">
+      <div className="min-h-[150px] overflow-hidden">
         <DreamVisual dream={dream} />
       </div>
 
-      <div className="flex flex-col justify-center p-8 md:p-10">
+      <div className="flex flex-col justify-center p-8 md:p-8">
 
         <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
           🌙 Dream of the Day
