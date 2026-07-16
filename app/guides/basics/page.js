@@ -1154,7 +1154,7 @@ Popular Dream Meanings
 <div className="flex flex-wrap gap-4">
 
 <Link
-href="/dreams/snakes"
+href="/dreams/snake"
 className="bg-white border border-[#EAE6E1] rounded-full px-6 py-3 hover:border-[#C6A96B]"
 >
 
@@ -1190,7 +1190,7 @@ Falling Dream
 </Link>
 
 <Link
-href="/dreams/being-chased"
+href="/dreams/chased"
 className="bg-white border border-[#EAE6E1] rounded-full px-6 py-3 hover:border-[#C6A96B]"
 >
 

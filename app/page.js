@@ -13,6 +13,7 @@ import {
   getRecentlyAddedDreams,
 } from "@/lib/dreamEngagement";
 import SearchSuggestions from "@/app/components/SearchSuggestions";
+import { getDreamHref } from "@/lib/routes";
 
 
 const featuredGuides = [
@@ -50,7 +51,7 @@ const emotions = [
 const trendingDreams = [
   {
     title: "Dream About Snakes",
-    slug: "snakes",
+    slug: "snake",
     subtitle: "Transformation • Fear • Wisdom",
   },
   {
@@ -65,7 +66,7 @@ const trendingDreams = [
   },
   {
     title: "Dream About Being Chased",
-    slug: "being-chased",
+    slug: "chased",
     subtitle: "Avoidance • Fear • Unresolved Conflict",
   },
   {
@@ -75,7 +76,7 @@ const trendingDreams = [
   },
   {
     title: "Dream About Pregnancy",
-    slug: "being-pregnant",
+    slug: "pregnant",
     subtitle: "Growth • New Beginnings • Potential",
   },
 ];
@@ -125,10 +126,10 @@ may be communicating.
   Explore common dreams like 
 
   <Link href="/dreams/falling" className="underline mx-1">falling</Link>, 
-  <Link href="/dreams/being-chased" className="underline mx-1">being chased</Link>, 
+  <Link href="/dreams/chased" className="underline mx-1">being chased</Link>, 
   <Link href="/dreams/teeth-falling-out" className="underline mx-1">losing teeth</Link>, 
   and 
-  <Link href="/dreams/snakes" className="underline mx-1">snakes</Link>.
+  <Link href="/dreams/snake" className="underline mx-1">snakes</Link>.
 </p>
 
 <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
@@ -230,7 +231,7 @@ may be communicating.
     {trendingDreams.map((dream) => (
       <Link
         key={dream.slug}
-        href={`/dreams/${dream.slug}`}
+        href={getDreamHref(dream.slug)}
         className="rounded-2xl border border-[#EAE6E1] bg-white p-6 transition hover:border-[#C6A96B]"
       >
      <h3 className="font-serif text-xl">

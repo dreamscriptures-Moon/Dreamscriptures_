@@ -10,6 +10,7 @@ import {
   getLongTailSectionsForProfile,
 } from "@/lib/emotions/authority";
 import { normalizeSlug } from "@/lib/normalizeSlug";
+import { getDreamHref } from "@/lib/routes";
 
 function getLinkedDreams(slugs = []) {
   return slugs
@@ -122,7 +123,7 @@ export default function DreamSemanticAuthority({ dream }) {
                   {linkedDreams.map((item) => (
                     <Link
                       key={item.slug}
-                      href={`/dreams/${normalizeSlug(item.slug || item.title)}`}
+                      href={getDreamHref(item)}
                       className="group border-l border-[#D8C7A0] bg-white/75 px-4 py-3 transition hover:border-[#C6A96B] hover:bg-white"
                     >
                       <span className="text-[10px] uppercase tracking-[0.16em] text-[#8A8175]">

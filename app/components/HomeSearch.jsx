@@ -3,7 +3,16 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
-import { getBestSearchRoute, getSearchResults } from "@/lib/searchRouting";
+
+let searchRoutingPromise;
+
+function loadSearchRouting() {
+  if (!searchRoutingPromise) {
+    searchRoutingPromise = import("@/lib/searchRouting");
+  }
+
+  return searchRoutingPromise;
+}
 
 const SUGGESTED_SEARCHES = ["falling", "snake", "being-chased", "flying"].map(
   (value) => ({
@@ -90,13 +99,28 @@ const SearchInput = memo(function SearchInput({ value, onChange }) {
 export default function HomeSearch() {
   const router = useRouter();
   const [search, setSearch] = useState("");
+  const [searchRouting, setSearchRouting] = useState(null);
   const debouncedSearch = useDebouncedValue(search, 300);
   const displayQuery = search.trim();
   const query = debouncedSearch.trim().toLowerCase();
 
-  const handleSearch = useCallback((value) => {
-    setSearch(value);
-  }, []);
+  const ensureSearchRouting = useCallback(async () => {
+    if (searchRouting) {
+      return searchRouting;
+    }
+
+    const routingModule = await loadSearchRouting();
+    setSearchRouting(routingModule);
+    return routingModule;
+  }, [searchRouting]);
+
+  const handleSearch = useCallback(
+    (value) => {
+      setSearch(value);
+      ensureSearchRouting();
+    },
+    [ensureSearchRouting]
+  );
 
   const handleResultClick = useCallback((dreamTitle) => {
     setSearch("");
@@ -110,17 +134,18 @@ export default function HomeSearch() {
     }, 0);
   }, []);
   const handleSubmit = useCallback(
-    (event) => {
+    async (event) => {
       event.preventDefault();
 
-      const href = getBestSearchRoute(search);
+      const routing = await ensureSearchRouting();
+      const href = routing.getBestSearchRoute(search);
 
       if (href) {
         setSearch("");
         router.push(href);
       }
     },
-    [router, search]
+    [ensureSearchRouting, router, search]
   );
 
   useEffect(() => {
@@ -144,8 +169,8 @@ export default function HomeSearch() {
       return [];
     }
 
-    return getSearchResults(query);
-  }, [query]);
+    return searchRouting?.getSearchResults(query) || [];
+  }, [query, searchRouting]);
 
   return (
     <>
@@ -156,7 +181,7 @@ export default function HomeSearch() {
       >
         <SearchInput value={search} onChange={handleSearch} />
 
-        {displayQuery && query && (
+        {displayQuery && query && searchRouting && (
           <SearchResults
             displayQuery={displayQuery}
             results={filteredDreams}

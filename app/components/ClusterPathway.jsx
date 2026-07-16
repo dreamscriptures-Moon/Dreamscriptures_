@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getDreamHref } from "@/lib/routes";
 
 export default function ClusterPathway({
   cluster,
@@ -24,7 +25,7 @@ export default function ClusterPathway({
           .map((dream) => (
             <Link
               key={dream.slug}
-              href={`/dreams/${dream.slug}`}
+              href={getDreamHref(dream)}
               className="border border-[#EAE6E1] rounded-md p-5 bg-[#FCFBF9] hover:border-[#C6A96B] transition-colors"
             >
               <h3 className="font-serif text-xl mb-2">

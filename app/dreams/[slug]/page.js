@@ -1,10 +1,12 @@
 export const revalidate = 86400;
 
 import Link from "next/link";
+import { permanentRedirect } from "next/navigation";
 import Script from "next/script";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
 import DreamInsightSection from "@/components/DreamInsightSection";
+import SubmitYourDreamCTA from "@/components/SubmitYourDreamCTA";
 import DreamMethodologyCallout from "@/components/DreamMethodologyCallout";
 import ArticleFeedback from "@/components/ArticleFeedback";
 import ContinueExploring from "@/components/ContinueExploring";
@@ -17,6 +19,7 @@ import RelatedDreams from "@/components/RelatedDreams";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import DreamPageClientNav from "./DreamPageClientNavDynamic";
+import DreamSubmissionPopup from "./DreamSubmissionPopup";
 import { dreams } from "@/data/dreams";
 import { emotionalHubs } from "@/data/emotionalHubs";
 import {
@@ -33,6 +36,7 @@ import {
   getDynamicDreamTitle,
   linkCategories,
   shorten,
+  uniqueDreams,
 } from "@/lib/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import ClusterPathway from "@/app/components/ClusterPathway";
@@ -657,10 +661,25 @@ const clusterGuide = getClusterGuides().find(
 );
 
 const canonicalDreamSlug = normalizeSlug(getCanonicalDreamSlug(dream, slug));
-const relatedDreamItems = getDreamsBySlugs(dream.relatedDreams, dreams);
+
+if (slug !== canonicalDreamSlug) {
+  permanentRedirect(`/dreams/${canonicalDreamSlug}`);
+}
+
+const relatedDreamItems = uniqueDreams([
+  ...getDreamsBySlugs(dream.relatedDreams, dreams),
+  ...getIntelligentRelatedDreams(dream, dreams, 6),
+]).slice(0, 6);
 const primaryRelatedDream = relatedDreamItems[0];
-const primaryCategory = dream.categories?.[0] || "";
-const primaryCategorySlug = normalizeSlug(primaryCategory);
+const primaryEmotionSlug = [
+  ...(dream.emotionalConnections || []),
+  ...(dream.categories || []),
+]
+  .map((value) => normalizeSlug(value))
+  .find((emotionSlug) => emotionalHubs[emotionSlug]);
+const primaryEmotion = primaryEmotionSlug
+  ? emotionalHubs[primaryEmotionSlug]
+  : null;
 
   const exploreThemes = getExploreThemes(dreams);
   const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
@@ -670,8 +689,8 @@ const primaryCategorySlug = normalizeSlug(primaryCategory);
   const breadcrumbSchema = getBreadcrumbSchema({
     dreamTitle,
     canonicalDreamSlug,
-    category: primaryCategory,
-    categorySlug: primaryCategorySlug,
+    emotion: primaryEmotion?.title,
+    emotionSlug: primaryEmotionSlug,
   });
   const faqItems = getDreamFAQItems(dream, dreamTitle);
   const faqSchema = getFAQSchema(faqItems);
@@ -713,6 +732,7 @@ function getDreamContext(dream) {
   return (
     <main className="bg-[#FAF8F5] min-h-screen">
       <ReadingProgressBar />
+      <DreamSubmissionPopup />
       <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
@@ -732,21 +752,21 @@ function getDreamContext(dream) {
     <li>/</li>
 
     <li>
-      <Link href="/categories" className="hover:text-[#C6A96B] transition-colors">
-        Categories
+      <Link href="/dreams" className="hover:text-[#C6A96B] transition-colors">
+        Dream Dictionary
       </Link>
     </li>
 
     <li>/</li>
 
-    {primaryCategory && (
+    {primaryEmotion && (
       <>
         <li>
           <Link
-            href={`/categories/${primaryCategorySlug}`}
+            href={`/emotions/${primaryEmotionSlug}`}
             className="capitalize hover:text-[#C6A96B] transition-colors"
           >
-            {formatCategory(primaryCategory.toLowerCase())}
+            {primaryEmotion.title}
           </Link>
         </li>
 
@@ -997,6 +1017,7 @@ function getDreamContext(dream) {
   label="Jump to navigation"
 />
 
+      <SubmitYourDreamCTA />
       <SiteFooter />
     </main>
   );

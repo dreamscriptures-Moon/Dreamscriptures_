@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { shorten } from "@/lib/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
+import { getDreamHref } from "@/lib/routes";
 
 const relationshipGroups = [
   {
@@ -121,7 +122,7 @@ export default function RelatedDreams({ slugs = [], relatedDreams = [] }) {
 
             <div className="grid gap-4 md:grid-cols-2">
               {group.dreams.map(({ dream, relationship }) => {
-                const href = `/dreams/${normalizeSlug(dream.slug || dream.title)}`;
+                const href = getDreamHref(dream);
                 const preview = shorten(
                   relationship.reason || dream.microSummary || dream.summary,
                   190

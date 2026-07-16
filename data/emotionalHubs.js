@@ -1721,6 +1721,10 @@ questionsToReflectOn: [
 };
 
 const lightHubTitles = {
+  fear: "Fear",
+  healing: "Healing",
+  peace: "Peace",
+  love: "Love",
   "pressure-building": "Pressure Building",
   "mental-exhaustion": "Mental Exhaustion",
   "constant-responsibility": "Constant Responsibility",

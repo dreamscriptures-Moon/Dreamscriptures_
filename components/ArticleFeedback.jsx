@@ -88,7 +88,7 @@ export default function ArticleFeedback({ dreamSlug }) {
           </p>
 
           <a
-            href="/submit-dream"
+            href="/contact"
             className="mt-4 inline-flex items-center rounded-full bg-[#1A1A1A] px-5 py-2 text-sm text-white transition hover:bg-[#2E2E2E]"
           >
             Share Your Dream

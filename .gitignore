@@ -11,3 +11,6 @@ next-env.d.ts
 # Local development logs
 .dev.stdout.log
 .dev.stderr.log
+
+.env.local
+.env

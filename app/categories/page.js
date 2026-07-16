@@ -3,6 +3,7 @@ import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { dreams } from "@/data/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
+import { getDreamHref } from "@/lib/routes";
 import SearchBar from "@/app/components/SearchBar";
 import CategorySearchList from "@/app/components/CategorySearchList";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
@@ -144,7 +145,7 @@ export default function CategoriesPage() {
 <p className="text-sm text-[#8A8177] mt-4">
   Many dream categories include common experiences like{" "}
   <Link href="/dreams/falling" className="underline">falling</Link>,{" "}
-  <Link href="/dreams/being-chased" className="underline">being chased</Link>, and{" "}
+  <Link href="/dreams/chased" className="underline">being chased</Link>, and{" "}
   <Link href="/dreams/losing-control" className="underline">losing control</Link>.
 </p>
 
@@ -257,7 +258,7 @@ export default function CategoriesPage() {
   .map((dream) => (
     <Link
       key={dream.slug}
-      href={`/dreams/${dream.slug}`}
+      href={getDreamHref(dream)}
    className="text-sm px-4 py-2 border border-[#EAE6E1] rounded-full bg-white hover:border-[#C6A96B] transition"
     >
         {dream.title}

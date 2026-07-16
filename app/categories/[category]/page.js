@@ -6,6 +6,7 @@ import SiteHeader from "@/app/components/SiteHeader";
 import { dreams } from "@/data/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import { categoriesData } from "@/data/categories";
+import { getDreamHref } from "@/lib/routes";
 
 function normalizeCategory(cat = "") {
   const c = cat.toLowerCase().trim();
@@ -213,7 +214,7 @@ Spiritual dreams are often less about predicting the future and more about helpi
  {filteredDreams.slice(0, 3).map((dream) => (
   <Link
     key={dream.slug}
-    href={`/dreams/${dream.slug}`}
+    href={getDreamHref(dream)}
     className="underline mr-1"
   >
     {dream.title.toLowerCase()}
@@ -268,7 +269,7 @@ Spiritual dreams are often less about predicting the future and more about helpi
     return (
       <Link
         key={slug}
-        href={`/dreams/${slug}`}
+        href={getDreamHref(slug)}
         className="border border-[#EAE6E1] rounded-2xl p-5 bg-[#FCFBF9] hover:border-[#C6A96B] transition-colors"
       >
         <h3 className="font-serif text-xl mb-2">
@@ -295,7 +296,7 @@ Spiritual dreams are often less about predicting the future and more about helpi
       {filteredDreams.slice(0, 8).map((dream) => (
         <Link
           key={dream.slug}
-          href={`/dreams/${dream.slug}`}
+          href={getDreamHref(dream)}
           className="text-sm px-4 py-2 border border-[#EAE6E1] rounded-full hover:border-[#C6A96B] transition"
         >
           {dream.title}

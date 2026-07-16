@@ -161,7 +161,7 @@ export default function TermsPage() {
             <Link href="/dreams/falling" className="underline">
               Falling dream meaning
             </Link>
-            <Link href="/dreams/being-chased" className="underline">
+            <Link href="/dreams/chased" className="underline">
               Being chased dream
             </Link>
             <Link href="/categories" className="underline">

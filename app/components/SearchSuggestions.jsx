@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getDreamHref } from "@/lib/routes";
 
 const searches = [
   "Snake",
@@ -22,7 +23,7 @@ export default function SearchSuggestions() {
         {searches.map((item) => (
           <Link
             key={item}
-            href={`/dreams/${item.toLowerCase().replace(/\s+/g, "-")}`}
+            href={getDreamHref(item)}
             className="rounded-full border border-[#EAE6E1] bg-white px-4 py-2 hover:border-[#C6A96B]"
           >
             {item}

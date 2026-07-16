@@ -4,7 +4,7 @@ import {
   getDreamImage,
   getReadingTime,
 } from "@/lib/dreamEngagement";
-import { normalizeSlug } from "@/lib/normalizeSlug";
+import { getDreamHref } from "@/lib/routes";
 
 function DreamVisual({ dream }) {
   const image = getDreamImage(dream);
@@ -40,7 +40,7 @@ function DreamVisual({ dream }) {
 }
 
 export function DreamCard({ dream, compact = false }) {
-  const href = `/dreams/${normalizeSlug(dream.slug || dream.title)}`;
+  const href = getDreamHref(dream);
 
   const excerpt = getDreamExcerpt(
     dream,
@@ -179,7 +179,7 @@ export function DreamFeatureCard({ dream }) {
         </div>
 
         <Link
-          href={`/dreams/${normalizeSlug(dream.slug || dream.title)}`}
+          href={getDreamHref(dream)}
           className="mt-8 inline-flex w-fit items-center rounded-full bg-[#1A1A1A] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#333] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C6A96B] focus-visible:ring-offset-2"
         >
           Explore Meaning →

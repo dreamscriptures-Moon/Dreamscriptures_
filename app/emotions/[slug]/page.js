@@ -17,6 +17,12 @@ function getEmotion(slug) {
   return emotionalHubs[normalizeSlug(slug)];
 }
 
+export function generateStaticParams() {
+  return Object.keys(emotionalHubs).map((slug) => ({
+    slug: normalizeSlug(slug),
+  }));
+}
+
 export async function generateMetadata({ params }) {
   const slug = normalizeSlug((await params)?.slug);
   const emotion = getEmotion(slug);

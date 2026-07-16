@@ -37,6 +37,16 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/category/:category/:slug",
+        destination: "/dreams/:slug",
+        permanent: true,
+      },
+      {
+        source: "/categories/:category/:slug",
+        destination: "/dreams/:slug",
+        permanent: true,
+      },
+      {
         source: "/spiritual-and-symbolic",
         destination: "/guides",
         permanent: true,

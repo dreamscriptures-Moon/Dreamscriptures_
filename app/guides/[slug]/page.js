@@ -311,10 +311,10 @@ function linkifyText(text = "") {
     <Link href="/dreams/falling" className="underline">
       Falling dream meaning
     </Link>
-    <Link href="/dreams/being-chased" className="underline">
+    <Link href="/dreams/chased" className="underline">
       Being chased dream
     </Link>
-    <Link href="/dreams/snakes" className="underline">
+    <Link href="/dreams/snake" className="underline">
       Snake dream meaning
     </Link>
   </div>

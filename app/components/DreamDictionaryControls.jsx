@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { getDreamHref } from "@/lib/routes";
 
 const INITIAL_COUNT = 15;
 const LOAD_MORE_COUNT = 15;
@@ -159,7 +160,7 @@ export default function DreamDictionaryControls({
         {visibleDreams.map((dream) => (
           <Link
             key={dream.slug}
-            href={`/dreams/${dream.slug}`}
+            href={getDreamHref(dream)}
             className="group block border border-[#EAE6E1] rounded-[28px] p-6 md:p-8 bg-[#FCFBF9] hover:border-[#C6A96B] transition-all duration-300"
           >
             <h2 className="font-serif text-2xl md:text-3xl mb-4 leading-tight group-hover:text-[#8C6A3B] transition-colors">

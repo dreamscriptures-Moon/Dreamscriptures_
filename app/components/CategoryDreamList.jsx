@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { getDreamHref } from "@/lib/routes";
 
 const INITIAL_COUNT = 12;
 const LOAD_MORE_COUNT = 6;
@@ -21,7 +22,7 @@ export default function CategoryDreamList({
         {visibleDreams.map((dream) => (
           <Link
             key={dream.slug}
-            href={`/dreams/${dream.slug}`}
+            href={getDreamHref(dream)}
             className="group block border border-[#EAE6E1] rounded-[28px] p-6 md:p-8 bg-[#FCFBF9] hover:border-[#C6A96B] transition-all duration-300"
           >
             {/* Title */}

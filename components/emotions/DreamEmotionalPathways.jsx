@@ -3,7 +3,7 @@ import Link from "next/link";
 import { dreams } from "@/data/dreams";
 import { getEmotionalRoutingItems } from "@/lib/emotionalRouting";
 import { shorten } from "@/lib/dreams";
-import { normalizeSlug } from "@/lib/normalizeSlug";
+import { getDreamHref } from "@/lib/routes";
 
 export default function DreamEmotionalPathways({ dream }) {
   const pathways = getEmotionalRoutingItems(dream, dreams, 6);
@@ -34,7 +34,7 @@ export default function DreamEmotionalPathways({ dream }) {
 
       <div className="grid gap-4 md:grid-cols-2">
         {pathways.map(({ dream: item, pathway, reason }) => {
-          const href = `/dreams/${normalizeSlug(item.slug || item.title)}`;
+          const href = getDreamHref(item);
           const preview = shorten(
             reason || item.microSummary || item.summary || item.description,
             185

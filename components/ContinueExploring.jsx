@@ -48,7 +48,7 @@ export default function ContinueExploring({ dreams = [] }) {
         </p>
 
         <Link
-          href="/submit-dream"
+          href="/contact"
           className="mt-6 inline-flex items-center rounded-full bg-[#1A1A1A] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#2D2D2D]"
         >
           Share Your Dream →

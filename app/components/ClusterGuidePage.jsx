@@ -3,7 +3,7 @@ import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-import { normalizeSlug } from "@/lib/normalizeSlug";
+import { getDreamHref } from "@/lib/routes";
 
 function TextBlocks({ text = "", className = "" }) {
   const paragraphs = String(text)
@@ -142,7 +142,7 @@ export default function ClusterGuidePage({ clusterGuide }) {
             {clusterGuide.dreams.map((dream) => (
               <Link
                 key={dream.slug}
-                href={`/dreams/${normalizeSlug(dream.slug || dream.title)}`}
+                href={getDreamHref(dream)}
                 className="border border-[#EAE6E1] rounded-xl p-5 bg-[#FCFBF9] hover:border-[#C6A96B] transition-colors"
               >
                 <h3 className="font-serif text-xl mb-2 text-[#1A1A1A]">

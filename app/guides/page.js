@@ -199,7 +199,7 @@ Dream Categories
 
 {" • "}
 
-<Link href="/popular-dreams">
+<Link href="/dreams">
 Popular Dreams
 </Link>
 

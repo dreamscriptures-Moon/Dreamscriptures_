@@ -4,6 +4,7 @@ import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import Link from "next/link";
 import LazyMobileQuickNav from "../components/LazyMobileQuickNav";
+import { getDreamHref } from "@/lib/routes";
 function normalizeCategory(cat = "") {
   const c = cat.toLowerCase().trim();
 
@@ -163,7 +164,7 @@ Search for a dream symbol, browse by category, or explore related themes to disc
     </h2>
 
     <Link
-      href="/popular-dreams"
+      href="/dreams"
       className="text-sm text-[#8F743C] hover:underline"
     >
       View All →
@@ -176,7 +177,7 @@ Search for a dream symbol, browse by category, or explore related themes to disc
     {searchableDreams.slice(0, 10).map((dream) => (
       <Link
         key={dream.slug}
-        href={`/dreams/${dream.slug}`}
+        href={getDreamHref(dream)}
         className="text-sm px-4 py-2 border border-[#EAE6E1] rounded-full text-[#6B6B6B] hover:border-[#C6A96B] hover:text-[#8F743C] transition"
       >
         {dream.title}
