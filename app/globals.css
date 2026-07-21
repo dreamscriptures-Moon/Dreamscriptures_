@@ -117,3 +117,41 @@ h1, h2, h3, p {
 .coffee-float {
   animation: coffeeFloat 5s ease-in-out infinite;
 }
+
+/* Shared long-form rhythm for the Guides knowledge hub. */
+.guide-experience main {
+  overflow-wrap: anywhere;
+}
+
+.guide-experience main section[id] {
+  scroll-margin-top: 6rem;
+}
+
+.guide-experience main p {
+  text-wrap: pretty;
+}
+
+.guide-experience main a:focus-visible,
+.guide-experience main button:focus-visible,
+.guide-experience main summary:focus-visible {
+  outline: 2px solid #8f743c;
+  outline-offset: 3px;
+}
+
+@media (max-width: 767px) {
+  .guide-experience main article,
+  .guide-experience main section {
+    scroll-margin-top: 4.5rem;
+  }
+
+  .guide-experience main p,
+  .guide-experience main li {
+    line-height: 1.75;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .guide-experience * {
+    scroll-behavior: auto !important;
+  }
+}

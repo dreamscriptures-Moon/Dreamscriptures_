@@ -4,25 +4,14 @@ import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-import { guides } from "@/app/data/guides";
-import { getClusterGuides } from "@/lib/clusterGuides";
 import DreamSchoolGrid from "@/app/components/DreamSchoolGrid";
+import { getAllGuideEntries } from "@/lib/guideCatalog";
+import { createGuideMetadata } from "@/lib/guideExperience";
 
 
-const clusterGuideItems = getClusterGuides().map((guide) => ({
-  slug: guide.slug,
-  title: guide.title,
-  description: guide.description || "",
-}));
+export const metadata = createGuideMetadata({ slug: "", title: "Dream Guides & Knowledge Hub", description: "Explore dream psychology, sleep science, spirituality, symbolism, wellness, interpretation, and modern research." });
 
-const guideSearchItems = [
-  ...guides.map((guide) => ({
-    slug: guide.slug,
-    title: guide.title,
-    description: guide.description || "",
-  })),
-  ...clusterGuideItems,
-];
+const guideSearchItems = getAllGuideEntries();
 
 export default function GuidesPage() {
   return (

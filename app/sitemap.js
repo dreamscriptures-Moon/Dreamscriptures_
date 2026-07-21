@@ -126,6 +126,11 @@ export default function sitemap() {
       lastModified: now,
       priority: 0.75,
     },
+    {
+      url: `${baseUrl}/guides/types-of-dreams`,
+      lastModified: now,
+      priority: 0.85,
+    },
   ];
 
   /* -----------------------------

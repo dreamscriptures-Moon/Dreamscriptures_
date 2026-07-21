@@ -6,6 +6,7 @@ import Script from "next/script";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
 import DreamInsightSection from "@/components/DreamInsightSection";
+import BiblicalPerspective from "@/components/BiblicalPerspective";
 import SubmitYourDreamCTA from "@/components/SubmitYourDreamCTA";
 import DreamMethodologyCallout from "@/components/DreamMethodologyCallout";
 import ArticleFeedback from "@/components/ArticleFeedback";
@@ -873,6 +874,7 @@ function getDreamContext(dream) {
     />
   ))}
 </section>
+<BiblicalPerspective dream={dream} />
 <MultipleMeaningsSection dream={dream} dreamTitle={dreamTitle} />
 <DreamTypesSection dream={dream} />
 <DreamListSection

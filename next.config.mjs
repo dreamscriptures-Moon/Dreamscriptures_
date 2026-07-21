@@ -1,3 +1,34 @@
+import { guides } from "./app/data/guides.js";
+import { clusters } from "./data/clusters.js";
+
+const staticGuideSlugs = [
+  "basics",
+  "history-culture",
+  "interpretation",
+  "psychology",
+  "research",
+  "science",
+  "spirituality",
+  "types-of-dreams",
+  "wellness",
+];
+
+const clusterGuideSlugs = Object.entries(clusters).map(([key, cluster]) =>
+  (cluster.guide || `/guides/${key}`).split("/").filter(Boolean).at(-1)
+);
+
+const exactGuideRedirects = [...new Set([
+  ...guides.map((guide) => guide.slug),
+  ...clusterGuideSlugs,
+  ...staticGuideSlugs,
+])]
+  .filter(Boolean)
+  .map((slug) => ({
+    source: `/blog/${slug}`,
+    destination: `/guides/${slug}`,
+    permanent: true,
+  }));
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -27,7 +58,7 @@ const nextConfig = {
       },
       {
         source: "/blog/stages-of-sleep-&-dreaming",
-        destination: "/stages-of-sleep-and-dreaming",
+        destination: "/guides/stages-of-sleep-and-dreaming",
         permanent: true,
         
       },
@@ -72,6 +103,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/guides/biblical-dreams",
+        destination: "/guides/spirituality",
+        permanent: true,
+      },
+      {
         source: "/sleep-tracker-kit",
         destination: "/guides",
         permanent: true,
@@ -86,18 +122,8 @@ const nextConfig = {
   permanent: true,
 },
 {
-  source: "/blog/what-are-dreams",
-  destination: "/guides/what-are-dreams",
-  permanent: true,
-},
-      {
-  source: "/blog/dream-rituals",
-  destination: "/guides",
-  permanent: true,
-},
-{
   source: "/blog/category/types-of-dreams",
-  destination: "/guides",
+  destination: "/guides/types-of-dreams",
   permanent: true,
 },
 {
@@ -115,6 +141,8 @@ const nextConfig = {
   destination: "/guides/spirituality",
   permanent: true,
 },
+
+      ...exactGuideRedirects,
 
 
     ];

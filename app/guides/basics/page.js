@@ -1,21 +1,13 @@
 import Link from "next/link";
-import SiteHeader from "@/app/components/SiteHeader";
-import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import JumpToNavigation from "@/app/components/JumpToNavigation";
+import { createMetadataFromGuide } from "@/lib/guideExperience";
+import GuideLayout from "@/app/components/guides/GuideLayout";
+import { getDedicatedGuide } from "@/app/data/dedicatedGuides";
 
-export const metadata = {
-  title:
-    "Dream Basics: What Dreams Are, Why We Dream & How Dream Interpretation Works",
-
-  description:
-    "Learn the fundamentals of dreaming, dream symbols, dream interpretation, emotions, memory, and the science behind why we dream.",
-
-  alternates: {
-    canonical: "/guides/basics",
-  },
-};
+const guideInfo = getDedicatedGuide("basics");
+export const metadata = createMetadataFromGuide(guideInfo);
 
 
 
@@ -34,7 +26,7 @@ const guides = [
   },
   {
     title: "Different Types of Dreams",
-    href: "/guides/what-are-dreams",
+    href: "/guides/types-of-dreams",
   },
   {
     title: "Why Dreams Feel Real",
@@ -64,9 +56,7 @@ const guides = [
 
 export default function DreamBasicsPage() {
   return (
-    <main className="bg-[#F7F5F2] min-h-screen">
-
-      <SiteHeader />
+    <GuideLayout guide={guideInfo} readingTime={guideInfo.readingTime} toc={guideInfo.toc} contentStart={3}>
 
       <section className="max-w-6xl mx-auto px-6 pt-12 pb-20">
 
@@ -1207,8 +1197,6 @@ Being Chased Dream
   label="Jump to Navigation"
 />
 
-      <SiteFooter />
-
-    </main>
+    </GuideLayout>
   );
 }

@@ -1,27 +1,17 @@
 import Link from "next/link";
-import SiteHeader from "@/app/components/SiteHeader";
-import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
 import JumpToNavigation from "@/app/components/JumpToNavigation";
+import { createMetadataFromGuide } from "@/lib/guideExperience";
+import GuideLayout from "@/app/components/guides/GuideLayout";
+import { getDedicatedGuide } from "@/app/data/dedicatedGuides";
 
-export const metadata = {
-  title:
-    "Dream Science: REM Sleep, Brain Activity & The Neuroscience of Dreams",
-
-  description:
-    "Learn how dreams work through sleep cycles, REM sleep, brain activity, memory, emotion and modern neuroscience.",
-
-  alternates: {
-    canonical: "/guides/science",
-  },
-};
+const guideInfo = getDedicatedGuide("science");
+export const metadata = createMetadataFromGuide(guideInfo);
 
 
 export default function DreamSciencePage() {
   return (
-    <main className="bg-[#F7F5F2] min-h-screen">
-
-      <SiteHeader />
+    <GuideLayout guide={guideInfo} readingTime={guideInfo.readingTime} toc={guideInfo.toc} contentStart={4}>
 
       <section className="max-w-6xl mx-auto px-6 pt-12 pb-16">
 
@@ -1191,8 +1181,6 @@ Dream Interpretation
   label="Jump to Navigation"
 />
 
-      <SiteFooter />
-
-    </main>
+    </GuideLayout>
   );
 }

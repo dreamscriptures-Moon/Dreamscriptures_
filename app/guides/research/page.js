@@ -1,26 +1,16 @@
 import Link from "next/link";
-import SiteHeader from "@/app/components/SiteHeader";
-import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
 import JumpToNavigation from "@/app/components/JumpToNavigation";
+import { createMetadataFromGuide } from "@/lib/guideExperience";
+import GuideLayout from "@/app/components/guides/GuideLayout";
+import { getDedicatedGuide } from "@/app/data/dedicatedGuides";
 
-export const metadata = {
-  title:
-    "Dream Research Library | Scientific Studies, Statistics & Modern Dream Science",
-
-  description:
-    "Explore dream research, scientific studies, REM sleep, dream statistics, neuroscience, psychology and evidence-based discoveries about dreaming.",
-
-  alternates: {
-    canonical: "/guides/research",
-  },
-};
+const guideInfo = getDedicatedGuide("research");
+export const metadata = createMetadataFromGuide(guideInfo);
 
 export default function DreamResearchPage() {
   return (
-    <main className="bg-[#F7F5F2] min-h-screen">
-
-      <SiteHeader />
+    <GuideLayout guide={guideInfo} readingTime={guideInfo.readingTime} toc={guideInfo.toc} contentStart={4}>
 
       <section className="max-w-6xl mx-auto px-6 pt-12 pb-16">
 
@@ -1359,8 +1349,6 @@ fields in sleep research.
   label="Jump to Navigation"
 />
 
-      <SiteFooter />
-
-    </main>
+    </GuideLayout>
   );
 }

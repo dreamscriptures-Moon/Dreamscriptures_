@@ -1,26 +1,16 @@
 import Link from "next/link";
-import SiteHeader from "@/app/components/SiteHeader";
-import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
 import JumpToNavigation from "@/app/components/JumpToNavigation";
-export const metadata = {
-  title:
-    "Dream Wellness: Sleep, Stress, Dream Recall & Healthy Dream Habits",
-
-  description:
-    "Explore the connection between sleep, stress, emotional well-being, dream recall and healthy dreaming habits through practical science-based guidance.",
-
-  alternates: {
-    canonical: "/guides/wellness",
-  },
-};
+import { createMetadataFromGuide } from "@/lib/guideExperience";
+import GuideLayout from "@/app/components/guides/GuideLayout";
+import { getDedicatedGuide } from "@/app/data/dedicatedGuides";
+const guideInfo = getDedicatedGuide("wellness");
+export const metadata = createMetadataFromGuide(guideInfo);
 
 
 export default function DreamWellnessPage() {
   return (
-    <main className="bg-[#F7F5F2] min-h-screen">
-
-      <SiteHeader />
+    <GuideLayout guide={guideInfo} readingTime={guideInfo.readingTime} toc={guideInfo.toc} contentStart={4}>
 
       <section className="max-w-6xl mx-auto px-6 pt-12 pb-16">
 
@@ -1020,8 +1010,6 @@ Basics
   label="Jump to Navigation"
 />
 
-      <SiteFooter />
-
-    </main>
+    </GuideLayout>
   );
 }

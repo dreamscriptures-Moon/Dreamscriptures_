@@ -1,20 +1,12 @@
 import Link from "next/link";
-import SiteHeader from "@/app/components/SiteHeader";
-import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
 import JumpToNavigation from "@/app/components/JumpToNavigation";
+import { createMetadataFromGuide } from "@/lib/guideExperience";
+import GuideLayout from "@/app/components/guides/GuideLayout";
+import { getDedicatedGuide } from "@/app/data/dedicatedGuides";
 
-export const metadata = {
-  title:
-    "Dream Spirituality: Biblical, Islamic & Spiritual Perspectives on Dreams",
-
-  description:
-    "Explore spiritual dreams through biblical references, Quranic narratives, prophetic traditions, symbolism and personal reflection across different traditions.",
-
-  alternates: {
-    canonical: "/guides/spirituality",
-  },
-};
+const guideInfo = getDedicatedGuide("spirituality");
+export const metadata = createMetadataFromGuide(guideInfo);
 
 
 
@@ -22,9 +14,7 @@ export default function DreamSpiritualityPage(){
 
 return(
 
-<main className="bg-[#F7F5F2] min-h-screen">
-
-<SiteHeader/>
+<GuideLayout guide={guideInfo} readingTime={guideInfo.readingTime} toc={guideInfo.toc} contentStart={4}>
 
 <section className="max-w-6xl mx-auto px-6 pt-12 pb-16">
 
@@ -1799,9 +1789,7 @@ Interpretation
   label="Jump to Navigation"
 />
 
-<SiteFooter/>
-
-</main>
+</GuideLayout>
 
 )
 

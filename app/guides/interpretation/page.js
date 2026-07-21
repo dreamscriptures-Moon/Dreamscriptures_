@@ -1,28 +1,18 @@
 import Link from "next/link";
-import SiteHeader from "@/app/components/SiteHeader";
-import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
 import JumpToNavigation from "@/app/components/JumpToNavigation";
+import { createMetadataFromGuide } from "@/lib/guideExperience";
+import GuideLayout from "@/app/components/guides/GuideLayout";
+import { getDedicatedGuide } from "@/app/data/dedicatedGuides";
 
-export const metadata = {
-  title:
-    "Dream Interpretation Guide: How To Interpret Dreams Correctly",
-
-  description:
-    "Learn how to interpret dreams using emotions, context, symbols, colors, actions and recurring patterns instead of one meanings.",
-
-  alternates: {
-    canonical: "/guides/interpretation",
-  },
-};
+const guideInfo = getDedicatedGuide("interpretation");
+export const metadata = createMetadataFromGuide(guideInfo);
 
 
 
 export default function DreamInterpretationGuide() {
   return (
-    <main className="bg-[#F7F5F2] min-h-screen">
-
-      <SiteHeader />
+    <GuideLayout guide={guideInfo} readingTime={guideInfo.readingTime} toc={guideInfo.toc} contentStart={4}>
 
       <section className="max-w-6xl mx-auto px-6 pt-12 pb-16">
 
@@ -1134,8 +1124,6 @@ Explore dreams by animals, people, places, emotions and symbols.
   label="Jump to Navigation"
 />
 
-      <SiteFooter />
-
-    </main>
+    </GuideLayout>
   );
 }

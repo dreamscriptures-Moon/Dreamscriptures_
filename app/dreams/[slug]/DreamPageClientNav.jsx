@@ -8,6 +8,7 @@ const defaultNavItems = [
   { id: "emotional-meaning", label: "Emotional meaning" },
   { id: "symbolic-meaning", label: "Symbolic meaning" },
   { id: "spiritual-meaning", label: "Spiritual meaning" },
+  { id: "biblical-perspective", label: "Biblical perspective" },
   { id: "real-life-meaning", label: "Waking life meaning" },
   { id: "multiple-meanings", label: "Multiple meanings" },
   { id: "subconscious-patterns", label: "Subconscious patterns" },
