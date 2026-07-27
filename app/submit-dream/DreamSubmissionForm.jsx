@@ -44,6 +44,7 @@ function ChipGroup({ legend, hint, name, options }) {
 export default function DreamSubmissionForm() {
   const [state, formAction, pending] = useActionState(submitDreamAction, initialState);
   const [showCustomSymbols, setShowCustomSymbols] = useState(false);
+  const [dreamLength, setDreamLength] = useState(0);
 
   if (state.status === "success") {
     return (
@@ -61,10 +62,25 @@ export default function DreamSubmissionForm() {
   return (
     <form action={formAction} className="rounded-3xl border border-[#EAE6E1] bg-white p-6 shadow-[0_20px_55px_rgba(91,72,38,0.05)] md:p-10" noValidate>
       <div className="space-y-8">
+        <fieldset>
+          <legend className="font-serif text-xl text-[#2A2A2A]">Interpretation type</legend>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            <label className="flex cursor-pointer items-start gap-3 rounded-2xl border border-[#C6A96B] bg-[#FAF7EF] px-4 py-4 text-sm text-[#5F574E]">
+              <input type="radio" name="submissionType" value="Community" defaultChecked className="mt-1 h-4 w-4 accent-[#8F743C]" />
+              <span><strong className="block text-[#2A2A2A]">Community Interpretation</strong>Free. Your dream may anonymously inspire a public article.</span>
+            </label>
+            <div className="rounded-2xl border border-[#E1DCD5] bg-[#FCFBF9] px-4 py-4 text-sm text-[#756C61]" aria-disabled="true">
+              <strong className="block text-[#5F574E]">Personal Interpretation · $5.99</strong>
+              Detailed, private interpretation available after publication.
+            </div>
+          </div>
+        </fieldset>
+
         <div>
           <label htmlFor="dreamDescription" className="font-serif text-xl text-[#2A2A2A]">Dream description <span className="text-[#9A4F45]" aria-hidden="true">*</span></label>
-          <p id="dream-description-hint" className="mt-1 text-sm text-[#756C61]">Include what happened, how it felt, and any details that stayed with you.</p>
-          <textarea id="dreamDescription" name="dreamDescription" required rows="9" maxLength="10000" aria-required="true" aria-invalid={Boolean(state.errors?.dreamDescription)} aria-describedby={`dream-description-hint${state.errors?.dreamDescription ? " dream-description-error" : ""}`} className={inputClass} />
+          <textarea id="dreamDescription" name="dreamDescription" required rows="9" minLength="100" maxLength="3000" aria-required="true" aria-invalid={Boolean(state.errors?.dreamDescription)} aria-describedby={`dream-description-hint dream-description-counter${state.errors?.dreamDescription ? " dream-description-error" : ""}`} className={inputClass} onChange={(event) => setDreamLength(event.target.value.length)} />
+          <p id="dream-description-hint" className="mt-2 text-sm text-[#756C61]">Include as much detail as you remember—people, places, emotions, colors, symbols, conversations, and how the dream ended.</p>
+          <p id="dream-description-counter" className={`mt-1 text-xs transition-colors ${dreamLength >= 2700 ? "text-[#9A4F45]" : "text-[#756C61]"}`} aria-live="polite">{dreamLength} / 3000 characters</p>
           <FieldError id="dream-description-error" message={state.errors?.dreamDescription} />
         </div>
 
@@ -75,8 +91,9 @@ export default function DreamSubmissionForm() {
 
         <div className="grid gap-6 md:grid-cols-2">
           <div>
-            <label htmlFor="name" className="font-medium text-[#3A3A3A]">Name <span className="font-normal text-[#8A8175]">(optional)</span></label>
-            <input id="name" name="name" type="text" maxLength="120" autoComplete="name" className={inputClass} />
+            <label htmlFor="name" className="font-medium text-[#3A3A3A]">Name <span className="text-[#9A4F45]" aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" required maxLength="120" autoComplete="name" aria-required="true" aria-invalid={Boolean(state.errors?.name)} aria-describedby={state.errors?.name ? "name-error" : undefined} className={inputClass} />
+            <FieldError id="name-error" message={state.errors?.name} />
           </div>
           <div>
             <label htmlFor="email" className="font-medium text-[#3A3A3A]">Email <span className="text-[#9A4F45]" aria-hidden="true">*</span></label>
@@ -123,6 +140,14 @@ export default function DreamSubmissionForm() {
             ))}
           </div>
         </fieldset>
+
+        <div className="border-t border-[#EAE6E1] pt-8">
+          <label className="flex cursor-pointer items-start gap-3 text-sm leading-relaxed text-[#5F574E]">
+            <input type="checkbox" name="consent" required aria-required="true" aria-invalid={Boolean(state.errors?.consent)} aria-describedby={state.errors?.consent ? "consent-error" : undefined} className="mt-1 h-4 w-4 shrink-0 accent-[#8F743C]" />
+            <span>I understand my dream may be used anonymously to inspire a future DreamScriptures interpretation. My personal information will never be published. <span className="text-[#9A4F45]" aria-hidden="true">*</span></span>
+          </label>
+          <FieldError id="consent-error" message={state.errors?.consent} />
+        </div>
       </div>
 
       {state.status === "error" && <p className="mt-8 rounded-2xl border border-[#E8CEC9] bg-[#FFF8F6] px-4 py-3 text-sm text-[#8B443C]" role="alert">{state.message}</p>}
