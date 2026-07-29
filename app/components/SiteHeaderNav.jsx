@@ -7,6 +7,7 @@ const navItems = [
   ["Dream Dictionary", "/dreams"],
   ["Categories", "/categories"],
   ["Guides", "/guides"],
+  ["Submit Dream", "/submit-dream"],
   ["About", "/about"],
 ];
 

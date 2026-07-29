@@ -1,4 +1,6 @@
-import Link from "next/link";
+"use client";
+
+const OPEN_DREAM_SUBMISSION_POPUP = "dreamscriptures:open-submit-popup";
 
 export default function SubmitYourDreamCTA() {
   return (
@@ -27,12 +29,14 @@ export default function SubmitYourDreamCTA() {
             else.
           </p>
         </div>
-        <Link
-          href="/submit-dream"
+        <button
+          type="button"
+          onClick={() => window.dispatchEvent(new Event(OPEN_DREAM_SUBMISSION_POPUP))}
+          aria-haspopup="dialog"
           className="mt-8 inline-flex min-h-12 items-center justify-center rounded-full bg-[#1A1A1A] px-7 py-3 font-medium text-white transition hover:bg-[#333333] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]"
         >
           <span aria-hidden="true">✨</span>&nbsp; Submit Your Dream
-        </Link>
+        </button>
       </div>
     </section>
   );

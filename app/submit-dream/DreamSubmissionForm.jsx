@@ -69,10 +69,10 @@ export default function DreamSubmissionForm() {
               <input type="radio" name="submissionType" value="Community" defaultChecked className="mt-1 h-4 w-4 accent-[#8F743C]" />
               <span><strong className="block text-[#2A2A2A]">Community Interpretation</strong>Free. Your dream may anonymously inspire a public article.</span>
             </label>
-            <div className="rounded-2xl border border-[#E1DCD5] bg-[#FCFBF9] px-4 py-4 text-sm text-[#756C61]" aria-disabled="true">
-              <strong className="block text-[#5F574E]">Personal Interpretation · $5.99</strong>
-              Detailed, private interpretation available after publication.
-            </div>
+            <label className="flex cursor-pointer items-start gap-3 rounded-2xl border border-[#E1DCD5] bg-[#FCFBF9] px-4 py-4 text-sm text-[#756C61] transition hover:border-[#C6A96B] has-[:checked]:border-[#C6A96B] has-[:checked]:bg-[#FAF7EF]">
+              <input type="radio" name="submissionType" value="Personal" className="mt-1 h-4 w-4 accent-[#8F743C]" />
+              <span><strong className="block text-[#2A2A2A]">Personal Interpretation · $5.99</strong>Detailed, private interpretation placed in our Premium queue after payment.</span>
+            </label>
           </div>
         </fieldset>
 
@@ -153,7 +153,7 @@ export default function DreamSubmissionForm() {
       {state.status === "error" && <p className="mt-8 rounded-2xl border border-[#E8CEC9] bg-[#FFF8F6] px-4 py-3 text-sm text-[#8B443C]" role="alert">{state.message}</p>}
 
       <button type="submit" disabled={pending} className="mt-8 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-[#1A1A1A] px-7 py-3 font-medium text-white transition hover:bg-[#333333] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C] disabled:cursor-wait disabled:opacity-60 md:w-auto" aria-disabled={pending}>
-        {pending ? "Sharing your dream…" : "Share My Dream"}
+        {pending ? "Continuing…" : "Continue"}
       </button>
     </form>
   );

@@ -19,8 +19,7 @@ export async function submitDreamAction(_previousState, formData) {
       recurrence: formData.get("recurrence"),
       contactPermission: formData.get("contactPermission"),
       consent: formData.get("consent"),
-      // Premium will be enabled here only after a verified checkout session exists.
-      submissionType: "Community",
+      submissionType: formData.get("submissionType"),
     });
 
     if (!result.ok) {

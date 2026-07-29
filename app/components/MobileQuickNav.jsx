@@ -7,6 +7,7 @@ const QUICK_NAV_LINKS = [
   { href: "/dreams", label: "Dream Dictionary" },
   { href: "/categories", label: "Categories" },
   { href: "/guides", label: "Knowledge Hub" },
+  { href: "/submit-dream", label: "Submit Dream" },
   { href: "/about", label: "About" },
 ];
 

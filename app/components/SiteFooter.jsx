@@ -41,6 +41,9 @@ export default function SiteFooter() {
             </h3>
 
             <nav className="mt-3 flex flex-col gap-2 text-sm text-[#5F574E]">
+              <Link href="/submit-dream" prefetch={false} className="hover:text-[#8F743C]">
+                Submit Dream
+              </Link>
               <Link href="/methodology" prefetch={false} className="hover:text-[#8F743C]">
                 Methodology
               </Link>

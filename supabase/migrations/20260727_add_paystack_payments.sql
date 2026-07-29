@@ -62,7 +62,10 @@ create table if not exists public.payment_intents (
   created_at timestamptz not null default now(),
   check (
     (kind = 'RepeatCommunity' and submission_payload is not null and submission_id is null)
-    or (kind = 'Personal' and submission_payload is null and submission_id is not null)
+    or (kind = 'Personal' and (
+      (submission_payload is not null and submission_id is null)
+      or (submission_payload is null and submission_id is not null)
+    ))
   )
 );
 
