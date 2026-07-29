@@ -4,38 +4,66 @@ import { redirect } from "next/navigation";
 import { submitDream } from "@/lib/dreamSubmissions";
 
 export async function submitDreamAction(_previousState, formData) {
-  const result = await submitDream({
-    dreamDescription: formData.get("dreamDescription"),
-    dreamTitle: formData.get("dreamTitle"),
-    name: formData.get("name"),
-    email: formData.get("email"),
-    emotions: formData.getAll("emotions"),
-    symbols: formData.getAll("symbols"),
-    customSymbols: formData.get("customSymbols"),
-    recurrence: formData.get("recurrence"),
-    contactPermission: formData.get("contactPermission"),
-    consent: formData.get("consent"),
-    // Premium will be enabled here only after a verified checkout session exists.
-    submissionType: "Community",
-  });
+  const invocationId = crypto.randomUUID();
+  console.info("Dream submission server action started:", { invocationId });
 
-  if (!result.ok) {
+  try {
+    const result = await submitDream({
+      dreamDescription: formData.get("dreamDescription"),
+      dreamTitle: formData.get("dreamTitle"),
+      name: formData.get("name"),
+      email: formData.get("email"),
+      emotions: formData.getAll("emotions"),
+      symbols: formData.getAll("symbols"),
+      customSymbols: formData.get("customSymbols"),
+      recurrence: formData.get("recurrence"),
+      contactPermission: formData.get("contactPermission"),
+      consent: formData.get("consent"),
+      // Premium will be enabled here only after a verified checkout session exists.
+      submissionType: "Community",
+    });
+
+    if (!result.ok) {
+      console.info("Dream submission server action returning error:", {
+        invocationId,
+        storageFailed: Boolean(result.storageFailed),
+        deliveryFailed: Boolean(result.deliveryFailed),
+        failureStage: result.failureStage || null,
+        validationFields: Object.keys(result.errors || {}),
+      });
+      return {
+        status: "error",
+        message: result.storageFailed
+          ? "We couldn't save your dream right now. Please try again in a moment."
+          : result.deliveryFailed
+            ? "We couldn't send your dream right now. Please try again in a moment."
+            : "Please check the highlighted fields and try again.",
+        errors: result.errors,
+      };
+    }
+
+    if (result.paymentRequired) {
+      console.info("Dream submission server action redirecting to payment:", {
+        invocationId,
+      });
+      redirect(result.authorizationUrl);
+    }
+
+    console.info("Dream submission server action returning success:", {
+      invocationId,
+    });
     return {
-      status: "error",
-      message: result.storageFailed
-        ? "We couldn't save your dream right now. Please try again in a moment."
-        : result.deliveryFailed
-          ? "We couldn't send your dream right now. Please try again in a moment."
-          : "Please check the highlighted fields and try again.",
-      errors: result.errors,
+      status: "success",
+      message: "Your dream has been shared. Thank you for trusting us with it.",
+      errors: {},
     };
+  } catch (error) {
+    console.error("Dream submission server action threw unexpectedly:", {
+      invocationId,
+      errorName: error?.name || "Error",
+      errorMessage: error?.message || String(error),
+      digest: error?.digest,
+    });
+    throw error;
   }
-
-  if (result.paymentRequired) redirect(result.authorizationUrl);
-
-  return {
-    status: "success",
-    message: "Your dream has been shared. Thank you for trusting us with it.",
-    errors: {},
-  };
 }
