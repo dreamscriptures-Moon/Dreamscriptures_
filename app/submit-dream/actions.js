@@ -1,6 +1,5 @@
 "use server";
 
-import { redirect } from "next/navigation";
 import { submitDream } from "@/lib/dreamSubmissions";
 
 export async function submitDreamAction(_previousState, formData) {
@@ -32,7 +31,9 @@ export async function submitDreamAction(_previousState, formData) {
       });
       return {
         status: "error",
-        message: result.storageFailed
+        message: result.failureStage?.startsWith("initializing_")
+          ? "We couldn't start the secure payment right now. Your dream has not been submitted or charged. Please try again in a moment."
+          : result.storageFailed
           ? "We couldn't save your dream right now. Please try again in a moment."
           : result.deliveryFailed
             ? "We couldn't send your dream right now. Please try again in a moment."
@@ -42,10 +43,16 @@ export async function submitDreamAction(_previousState, formData) {
     }
 
     if (result.paymentRequired) {
-      console.info("Dream submission server action redirecting to payment:", {
+      console.info("Dream submission server action returning payment details:", {
         invocationId,
       });
-      redirect(result.authorizationUrl);
+      return {
+        status: "payment_required",
+        message: "Payment is required to continue.",
+        authorizationUrl: result.authorizationUrl,
+        paymentKind: result.paymentKind,
+        errors: {},
+      };
     }
 
     console.info("Dream submission server action returning success:", {
@@ -53,7 +60,8 @@ export async function submitDreamAction(_previousState, formData) {
     });
     return {
       status: "success",
-      message: "Your dream has been shared. Thank you for trusting us with it.",
+      submissionType: result.submission?.submissionType || "Community",
+      message: "Your dream has been received.",
       errors: {},
     };
   } catch (error) {

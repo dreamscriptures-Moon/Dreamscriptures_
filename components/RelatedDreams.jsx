@@ -2,6 +2,7 @@ import Link from "next/link";
 import { shorten } from "@/lib/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import { getDreamHref } from "@/lib/routes";
+import { getDreamImage } from "@/lib/dreamEngagement";
 
 const relationshipGroups = [
   {
@@ -123,6 +124,7 @@ export default function RelatedDreams({ slugs = [], relatedDreams = [] }) {
             <div className="grid gap-4 md:grid-cols-2">
               {group.dreams.map(({ dream, relationship }) => {
                 const href = getDreamHref(dream);
+                const image = getDreamImage(dream);
                 const preview = shorten(
                   relationship.reason || dream.microSummary || dream.summary,
                   190
@@ -133,8 +135,12 @@ export default function RelatedDreams({ slugs = [], relatedDreams = [] }) {
                     key={dream.slug}
                     href={href}
                     prefetch={false}
-                    className="group block border-l border-[#D8C7A0] bg-white/70 px-5 py-4 shadow-sm shadow-[#EAE6E1]/30 transition duration-200 hover:border-[#C6A96B] hover:bg-white hover:shadow-md"
+                    className="group grid grid-cols-[5rem_1fr] overflow-hidden border border-[#EAE6E1] bg-white/70 shadow-sm shadow-[#EAE6E1]/30 transition duration-200 hover:border-[#C6A96B] hover:bg-white hover:shadow-md"
                   >
+                    <div className="min-h-28 bg-[#F3EDE2]">
+                      {image ? <img /* eslint-disable-line @next/next/no-img-element */ src={image} alt={`${dream.title} dream interpretation illustration`} loading="lazy" decoding="async" width="160" height="180" className="h-full w-full object-cover" /> : <div aria-hidden="true" className="flex h-full items-center justify-center text-2xl text-[#8F743C]">◐</div>}
+                    </div>
+                    <div className="px-4 py-4">
                     {relationship.relationshipType && (
                       <span className="text-[10px] uppercase tracking-[0.16em] text-[#8A8175]">
                         {formatRelationshipType(relationship.relationshipType)}
@@ -150,6 +156,8 @@ export default function RelatedDreams({ slugs = [], relatedDreams = [] }) {
                         {preview}
                       </p>
                     )}
+                    <span className="mt-3 inline-block text-xs text-[#8F743C] underline underline-offset-4">Explore this meaning</span>
+                    </div>
                   </Link>
                 );
               })}

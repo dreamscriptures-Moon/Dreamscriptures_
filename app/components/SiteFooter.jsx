@@ -4,7 +4,7 @@ export default function SiteFooter() {
   return (
     <footer className="mt-24 border-t border-[#EAE6E1] bg-[#FAF8F5]">
       <div className="mx-auto max-w-6xl px-6 py-12">
-        <div className="grid gap-10 md:grid-cols-[2fr_1fr_1fr]">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1fr_1fr]">
           {/* Brand */}
           <div>
             <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
@@ -17,7 +17,7 @@ export default function SiteFooter() {
             </p>
           </div>
 
-<div className="mt-8 text-center text-sm text-[#6B6B6B]">
+<div className="mt-8 text-sm text-[#6B6B6B]">
 
   <p className="mb-3">
     Enjoying DreamScriptures?
@@ -34,6 +34,25 @@ export default function SiteFooter() {
 
 </div>
 
+          <div>
+            <h3 className="text-xs font-medium uppercase tracking-[0.14em] text-[#8A8175]">Dreams</h3>
+            <nav className="mt-3 flex flex-col gap-2 text-sm text-[#5F574E]">
+              <Link href="/dreams">Dream Dictionary</Link>
+              <Link href="/categories">Categories</Link>
+              <Link href="/emotions">Emotional Themes</Link>
+              <Link href="/submit-dream">Submit Dream</Link>
+            </nav>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-medium uppercase tracking-[0.14em] text-[#8A8175]">Resources</h3>
+            <nav className="mt-3 flex flex-col gap-2 text-sm text-[#5F574E]">
+              <Link href="/guides">Dream Guides</Link>
+              <Link href="/methodology">Methodology</Link>
+              <Link href="/faq">FAQ</Link>
+            </nav>
+          </div>
+
           {/* Trust */}
           <div>
             <h3 className="text-xs font-medium uppercase tracking-[0.14em] text-[#8A8175]">
@@ -41,23 +60,12 @@ export default function SiteFooter() {
             </h3>
 
             <nav className="mt-3 flex flex-col gap-2 text-sm text-[#5F574E]">
-              <Link href="/submit-dream" prefetch={false} className="hover:text-[#8F743C]">
-                Submit Dream
-              </Link>
-              <Link href="/methodology" prefetch={false} className="hover:text-[#8F743C]">
-                Methodology
-              </Link>
-
               <Link
                 href="/editorial-standards"
                 prefetch={false}
                 className="hover:text-[#8F743C]"
               >
                 Editorial Standards
-              </Link>
-
-              <Link href="/disclaimer" prefetch={false} className="hover:text-[#8F743C]">
-                Disclaimer
               </Link>
 
               <Link href="/about" prefetch={false} className="hover:text-[#8F743C]">
@@ -70,6 +78,14 @@ export default function SiteFooter() {
               <Link href="/contact" prefetch={false} className="hover:text-[#8F743C]">
                 Contact
               </Link>
+            </nav>
+          </div>
+          <div>
+            <h3 className="text-xs font-medium uppercase tracking-[0.14em] text-[#8A8175]">Legal</h3>
+            <nav className="mt-3 flex flex-col gap-2 text-sm text-[#5F574E]">
+              <Link href="/privacy">Privacy Policy</Link>
+              <Link href="/terms">Terms</Link>
+              <Link href="/disclaimer">Disclaimer</Link>
             </nav>
           </div>
         </div>

@@ -1,299 +1,925 @@
 import Link from "next/link";
-import Script from "next/script";
-
-import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
-import SiteFooter from "@/app/components/SiteFooter";
-import SiteHeader from "@/app/components/SiteHeader";
-
-const faqItems = [
-  {
-    question: "How does DreamScriptures interpret dreams?",
-    answer:
-      "DreamScriptures approaches dreams through emotional tone, symbolic behavior, subconscious patterns, spiritual nuance, and waking-life context. A dream is not treated as a fixed code with one universal answer. The same symbol can carry very different meanings depending on fear, relief, grief, stress, vulnerability, uncertainty, or emotional transition surrounding the experience.",
-  },
-
-  {
-    question: "Are dream meanings fixed?",
-    answer:
-      "No. Dream meanings are rarely fixed or universal. A symbol may carry common emotional patterns, but the meaning changes depending on context, personal history, emotional atmosphere, cultural background, relationships, memory, and current life circumstances. A snake dream, for example, may reflect fear for one person and transformation for another.",
-  },
-
-  {
-    question: "Why does emotional tone matter so much in dream interpretation?",
-    answer:
-      "The emotional atmosphere often reveals more than the symbol itself. Water may feel peaceful in one dream and emotionally overwhelming in another. A house may feel comforting, abandoned, unsafe, or unfamiliar. DreamScriptures focuses heavily on emotional tone because the subconscious often communicates through emotional experience rather than direct explanation.",
-  },
-{
-  question: "Why do I keep having the same dream over and over?",
-  answer:
-    "Repeated dreams often suggest that an emotion, concern, life transition, unresolved conflict, or subconscious pattern remains active beneath the surface. While the details may change, the emotional theme often remains consistent until the underlying issue becomes easier to recognize or process."
-},
-  {
-    question: "Why do dreams feel so real?",
-    answer:
-      "Dreams can feel emotionally real because many parts of the brain connected to emotion, imagery, memory, fear, and perception remain active during sleep. Logical evaluation becomes quieter, which allows impossible experiences to feel believable while they are happening. Even after waking, the emotional impact can remain surprisingly strong.",
-  },
-
-  {
-    question: "Why do recurring dreams happen?",
-    answer:
-      "Recurring dreams often reflect emotional patterns that remain unresolved beneath the surface. The dream may repeat because the emotional state connected to it is still active — fear, pressure, grief, uncertainty, longing, avoidance, emotional conflict, or transition. Sometimes the storyline changes while the emotional atmosphere remains the same.",
-  },
-
-  {
-    question: "Can dreams reflect stress or emotional pressure?",
-    answer:
-      "Yes. Dreams frequently organize emotional tension into symbolic experiences. Stress, burnout, uncertainty, grief, fear, emotional overload, relationship conflict, and internal pressure can all appear symbolically during sleep. Dreams may exaggerate emotions so they become easier to emotionally recognize.",
-  },
-
-  {
-    question: "What makes DreamScriptures different from dream dictionaries?",
-    answer:
-      "Most dream dictionaries focus on short symbolic definitions. DreamScriptures focuses on emotional realism, symbolic layering, subconscious patterns, spiritual openness, and interconnected emotional meaning. The goal is not simply to define symbols, but to understand the emotional experience surrounding them.",
-  },
-
-  {
-    question: "Are dreams spiritual?",
-    answer:
-      "Some dreams can feel spiritually significant, emotionally profound, or deeply reflective. Others may simply process stress, memory, emotion, fear, or daily experience. DreamScriptures keeps both possibilities open without forcing every dream into supernatural certainty or fear-based interpretation.",
-  },
-{
-  question: "Can anxiety affect dreams?",
-  answer:
-    "Yes. Anxiety frequently appears in dreams through pressure, urgency, confusion, avoidance, falling, being chased, losing control, or emotionally overwhelming situations. Dreams often translate emotional stress into symbolic experiences that feel easier for the subconscious to express."
-},
-  {
-    question: "Do dreams predict the future?",
-    answer:
-      "Dreams are not treated here as guaranteed predictions. However, some dreams may feel meaningful because the subconscious notices emotional patterns, tension, change, or uncertainty before conscious awareness fully recognizes them. DreamScriptures approaches these experiences carefully and avoids absolute claims.",
-  },
-
-  {
-    question: "Why do nightmares happen?",
-    answer:
-      "Nightmares often appear during periods of emotional overwhelm, stress, fear, unresolved tension, anxiety, grief, trauma, exhaustion, or instability. They may reflect emotional states that feel difficult to process directly while awake. What matters most is usually not only the frightening imagery, but the emotional pressure underneath it.",
-  },
-
-  {
-    question: "Why do some dreams stay with you for years?",
-    answer:
-      "Certain dreams leave stronger emotional impressions than others. Sometimes this happens because the dream carried unusual emotional intensity, symbolic clarity, personal relevance, or emotional recognition. The dream may fade visually while the emotional atmosphere remains emotionally active for a long time afterward.",
-  },
-
-  {
-    question: "How should I approach interpreting my own dreams?",
-    answer:
-      "Start with the emotional atmosphere before trying to force symbolic definitions. Ask what feeling remained strongest after waking. Fear, grief, pressure, longing, uncertainty, relief, emotional release, vulnerability, or transition often reveal more than isolated symbols alone. Then consider how similar emotional patterns may already exist in waking life.",
-  },
-
-  {
-    question: "Can the same dream symbol mean different things?",
-    answer:
-      "Yes. Symbols are flexible rather than fixed. Fire may symbolize destruction, transformation, anger, passion, cleansing, fear, or emotional intensity depending on the emotional context of the dream. DreamScriptures avoids rigid interpretation because the subconscious communicates relationally rather than mechanically.",
-  },
-
-  {
-    question: "Why do dreams sometimes feel emotionally confusing?",
-    answer:
-      "Dreams often combine memory, fear, imagination, stress, attachment, symbolism, and emotional association into experiences that do not follow normal logic. The subconscious prioritizes emotional connection over chronological structure, which can make dreams difficult to explain clearly after waking.",
-  },
-  {
-  question: "Why do certain people appear in dreams?",
-  answer:
-    "People in dreams may represent relationships, memories, emotional associations, personality traits, unresolved feelings, or aspects of yourself. Sometimes the person matters directly, while other times they serve as a symbolic connection to a larger emotional theme."
-},
-];
+import { Search, BookOpen, MoonStar, Sparkles, Brain, BookMarked, ArrowRight } from "lucide-react";
 
 export const metadata = {
   title: "Dream Interpretation FAQ | DreamScriptures",
-
   description:
-    "Explore thoughtful answers about dream meanings, emotional symbolism, recurring dreams, nightmares, subconscious patterns, and the DreamScriptures interpretation approach.",
-
-  alternates: {
-    canonical: "https://www.dreamscriptures.com/faq",
-  },
+    "Find answers to the most common questions about dreams, dream interpretation, symbolism, biblical meaning, recurring dreams, nightmares, and more.",
 };
 
-function getFAQSchema() {
-  return {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+const popularDreams = [
+  { title: "Snake Dream", href: "/dreams/snake" },
+  { title: "Water Dream", href: "/dreams/water" },
+  { title: "Teeth Falling Out", href: "/dreams/teeth-falling-out" },
+  { title: "Flying Dream", href: "/dreams/flying" },
+  { title: "Money Dream", href: "/dreams/money" },
+  { title: "Pregnancy Dream", href: "/dreams/pregnancy" },
+];
 
-    mainEntity: faqItems.map((item) => ({
-      "@type": "Question",
-
-      name: item.question,
-
-      acceptedAnswer: {
-        "@type": "Answer",
-
-        text: item.answer,
-      },
-    })),
-  };
-}
+const quickLinks = [
+  "How DreamScriptures Interprets Dreams",
+  "Are Dream Meanings Fixed?",
+  "Can Dreams Predict the Future?",
+  "Why Do Recurring Dreams Happen?",
+  "Why Do Nightmares Happen?",
+  "Can Anxiety Affect Dreams?",
+  "Why Do Dreams Feel So Real?",
+  "How Can I Interpret My Own Dreams?",
+];
 
 export default function FAQPage() {
   return (
-    <main className="min-h-screen bg-[#FAF8F5]">
-      <SiteHeader />
+    <main className="bg-[#FAF8F5]">
 
-      <article className="mx-auto max-w-4xl px-6 py-10 md:py-28">
-        <nav
-          aria-label="Breadcrumb"
-          className="mb-8 text-sm text-[#6B6B6B]"
-        >
-          <Link href="/" className="transition hover:text-[#8F743C]">
-            Home
-          </Link>{" "}
-          / <span>FAQ</span>
-        </nav>
+      {/* HERO */}
 
-        <p className="mb-4 text-[11px] uppercase tracking-[0.2em] text-[#8A8175]">
-          DreamScriptures FAQ
-        </p>
+      <section className="border-b border-[#E8DED1] bg-gradient-to-b from-[#FFFDF9] to-[#F8F4EE]">
+        <div className="mx-auto max-w-6xl px-6 py-20">
 
-        <h1 className="mb-6 font-serif text-4xl leading-tight md:text-5xl">
-          Frequently Asked Questions About Dream Meaning
-        </h1>
+          <div className="mb-5 inline-flex items-center rounded-full border border-[#E5D7BD] bg-[#FFF7EA] px-4 py-2 text-sm font-medium text-[#8B6A2F]">
 
-        <p className="max-w-3xl text-lg leading-relaxed text-[#6B6B6B]">
-          Thoughtful answers about dream interpretation, emotional symbolism,
-          recurring dreams, nightmares, subconscious patterns, spiritual
-          reflection, and how DreamScriptures approaches emotional dream meaning.
-        </p>
+            📖 8 min read
 
-        <section className="mt-12 border-l border-[#D8C7A0] bg-white/60 px-6 py-7">
-          <p className="text-base leading-[1.9] text-[#5F574E] md:text-lg">
-            Dreams rarely feel emotionally random while they are happening.
-            Even when difficult to explain afterward, they often carry patterns
-            connected to fear, pressure, uncertainty, attachment, grief,
-            transformation, memory, longing, or emotional transition.
+            <span className="mx-2">•</span>
+
+            Updated August 2026
+
+          </div>
+
+          <h1 className="max-w-4xl text-5xl font-bold tracking-tight text-[#2B2115]">
+            Dream Interpretation FAQ
+          </h1>
+
+          <p className="mt-6 max-w-3xl text-xl leading-9 text-[#5C5349]">
+            Everything you need to know about dream interpretation,
+            recurring dreams, nightmares, symbolism, biblical meaning,
+            emotional dreams, and how DreamScriptures approaches dream
+            interpretation.
           </p>
 
-         <p className="mt-5 text-base leading-[1.9] text-[#5F574E] md:text-lg">
-  DreamScriptures approaches dreams through emotional realism,
-  symbolic flexibility, subconscious pattern recognition, and
-  spiritually open reflection rather than fixed symbolic definitions
-  alone. Explore our{" "}
-  <Link href="/emotions" className="underline">
-    emotional hubs
-  </Link>{" "}
-  and{" "}
-  <Link href="/guides" className="underline">
-    dream guides
-  </Link>{" "}
-  to learn more about this approach.
-</p>
-        </section>
+          <div className="mt-10 rounded-3xl border border-[#E7DCC8] bg-white p-8 shadow-sm">
 
-        <LazyMobileQuickNav />
+            <div className="flex items-center gap-3">
 
-        <div className="mt-16 space-y-2">
-          {faqItems.map((item) => (
-            <section
-              key={item.question}
-              className="border-t border-[#EAE6E1] pt-10 md:pt-12"
-            >
-              <h2 className="font-serif text-2xl leading-snug text-[#1A1A1A] md:text-3xl">
-                {item.question}
+              <MoonStar className="h-8 w-8 text-amber-600" />
+
+              <h2 className="text-2xl font-semibold text-[#2B2115]">
+                Welcome to DreamScriptures
               </h2>
 
-              <p className="mt-5 text-base leading-[1.9] text-[#5F574E] md:text-lg">
-                {item.answer}
-              </p>
-            </section>
-          ))}
+            </div>
+
+            <p className="mt-5 text-lg leading-8 text-[#5C5349]">
+              Dreams can be fascinating, comforting, confusing,
+              emotional, and sometimes deeply personal.
+              Whether you experienced a vivid nightmare, a recurring
+              dream, or a dream that left you searching for answers,
+              you&apos;re not alone.
+
+              <br />
+              <br />
+
+              At DreamScriptures, we don&apos;t believe every dream has one
+              universal meaning.
+
+              Instead, we explore dreams through emotional context,
+              symbolism, biblical wisdom, spiritual reflection, and
+              personal life circumstances.
+
+              Our goal is to encourage thoughtful reflection—not make
+              absolute predictions.
+            </p>
+
+          </div>
+
         </div>
+      </section>
 
-<section className="mt-20 border-t border-[#EAE6E1] pt-10">
-  <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
-    How DreamScriptures creates content
-  </h2>
+      {/* SEARCH */}
 
-  <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
-    <p>
-      DreamScriptures is independently operated by Amber Balentine and follows
-      a structured editorial process focused on emotional context, symbolic
-      relationships, subconscious themes, and reflective interpretation.
-    </p>
+      <section className="py-16">
 
-    <p>
-      Learn more about our{" "}
-      <Link href="/methodology" className="underline">
-        interpretation methodology
-      </Link>
-      ,{" "}
-      <Link href="/editorial-standards" className="underline">
-        editorial standards
-      </Link>
-      , and{" "}
-      <Link href="/about" className="underline">
-        founder background
-      </Link>
-      .
-    </p>
-  </div>
-</section>
+        <div className="mx-auto max-w-6xl px-6">
 
-        <section className="mt-20 border-y border-[#EAE6E1] bg-white/70 px-6 py-10">
-          <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
-            Continue exploring
-          </p>
+          <div className="rounded-3xl bg-[#2B2115] p-10 text-white">
 
-          <h2 className="font-serif text-3xl leading-tight">
-            Explore deeper dream pathways
-          </h2>
+            <div className="flex items-center gap-3">
 
-          <p className="mt-4 max-w-2xl text-base leading-[1.9] text-[#6B6B6B]">
-            Move from general questions into emotional dream categories,
-            symbolic guides, recurring dream patterns, and long-form
-            interpretations built around emotional meaning rather than fixed
-            definitions alone.
-          </p>
+              <Search className="h-8 w-8" />
 
-          <div className="mt-6 flex flex-wrap gap-4 text-sm">
+              <h2 className="text-3xl font-bold">
+                Search Dream Meanings
+              </h2>
+
+            </div>
+
+            <p className="mt-4 max-w-2xl text-lg text-[#DDD2C3]">
+              Looking for a specific dream?
+
+              Search hundreds of dream interpretations covering
+              symbolism, biblical meaning, emotions, and spiritual
+              insights.
+            </p>
+
             <Link
               href="/dreams"
-              className="underline underline-offset-4 transition hover:text-[#8F743C]"
+              className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 font-semibold text-[#2B2115] transition hover:scale-105"
             >
-              Dream meanings
+              Browse Dream Library
+
+              <ArrowRight size={18} />
+
+            </Link>
+
+            <div className="mt-10 flex flex-wrap gap-3">
+
+              {popularDreams.map((dream) => (
+
+                <Link
+                  key={dream.href}
+                  href={dream.href}
+                  className="rounded-full bg-[#4A4034] px-5 py-3 text-sm transition hover:bg-[#5E5245]"
+                >
+                  {dream.title}
+                </Link>
+
+              ))}
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* STATS */}
+
+      <section className="pb-20">
+
+        <div className="mx-auto grid max-w-6xl gap-6 px-6 md:grid-cols-3">
+
+          <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+            <BookOpen className="mb-4 h-10 w-10 text-amber-600" />
+
+            <h3 className="text-4xl font-bold">300+</h3>
+
+            <p className="mt-2 text-[#6A6259]">
+              Dream Interpretations
+            </p>
+
+          </div>
+
+          <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+            <Brain className="mb-4 h-10 w-10 text-amber-600" />
+
+            <h3 className="text-4xl font-bold">
+              Emotional + Spiritual
+            </h3>
+
+            <p className="mt-2 text-[#6A6259]">
+              Every interpretation considers emotions,
+              symbolism, and spiritual reflection.
+            </p>
+
+          </div>
+
+          <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+            <Sparkles className="mb-4 h-10 w-10 text-amber-600" />
+
+            <h3 className="text-4xl font-bold">
+              Biblical Insights
+            </h3>
+
+            <p className="mt-2 text-[#6A6259]">
+              Scripture references where relevant,
+              always encouraging discernment.
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* HOW TO USE */}
+
+      <section className="bg-white py-20">
+
+        <div className="mx-auto max-w-6xl px-6">
+
+          <div className="mb-12">
+
+            <h2 className="text-4xl font-bold">
+              How to Get the Most from DreamScriptures
+            </h2>
+
+            <p className="mt-4 max-w-3xl text-lg text-[#5C5349]">
+              Dream interpretation isn&apos;t about finding one perfect
+              answer.
+
+              It&apos;s about exploring your dream thoughtfully from
+              multiple perspectives.
+            </p>
+
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2">
+
+            {[
+              {
+                number: "01",
+                title: "Start with your emotions",
+                text: "How did the dream make you feel? Fear, peace, joy, anxiety, excitement, or relief often reveal more than the symbols themselves.",
+              },
+              {
+                number: "02",
+                title: "Explore the symbolism",
+                text: "Dream symbols work together. Consider the relationships between people, places, actions, and objects rather than focusing on one symbol alone.",
+              },
+              {
+                number: "03",
+                title: "Read the biblical perspective",
+                text: "Where appropriate, compare dream themes with Scripture and broader biblical principles rather than isolated verses.",
+              },
+              {
+                number: "04",
+                title: "Reflect on your life",
+                text: "Dreams often connect with current relationships, emotions, spiritual growth, transitions, hopes, and concerns.",
+              },
+            ].map((item) => (
+
+              <div
+                key={item.number}
+                className="rounded-3xl border border-[#E7DDD2] bg-[#FAF8F4] p-8"
+              >
+
+                <span className="text-sm font-semibold tracking-widest text-amber-700">
+                  {item.number}
+                </span>
+
+                <h3 className="mt-3 text-2xl font-semibold">
+                  {item.title}
+                </h3>
+
+                <p className="mt-4 leading-8 text-[#5C5349]">
+                  {item.text}
+                </p>
+
+              </div>
+
+            ))}
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* QUICK NAVIGATION */}
+
+      <section className="py-20">
+
+        <div className="mx-auto max-w-6xl px-6">
+
+          <div className="rounded-3xl bg-white p-10 shadow-sm">
+
+            <div className="flex items-center gap-3">
+
+              <BookMarked className="text-amber-600" />
+
+              <h2 className="text-3xl font-bold">
+                Most Asked Questions
+              </h2>
+
+            </div>
+
+            <div className="mt-10 grid gap-4 md:grid-cols-2">
+
+              {quickLinks.map((question) => (
+
+                <a
+                  key={question}
+                  href={`#${question.toLowerCase().replaceAll(" ", "-")}`}
+                  className="rounded-xl border border-[#ECE4D8] p-5 transition hover:border-amber-500 hover:bg-[#FFF9EF]"
+                >
+                  {question}
+                </a>
+
+              ))}
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+            {/* FAQ SECTION */}
+
+      <section className="bg-white py-20">
+
+        <div className="mx-auto max-w-5xl px-6">
+
+          <div className="mb-14">
+
+            <h2 className="text-4xl font-bold text-[#2B2115]">
+              Frequently Asked Questions
+            </h2>
+
+            <p className="mt-4 text-lg text-[#5C5349]">
+              These are some of the questions we receive most often from
+              readers exploring the meaning of their dreams.
+            </p>
+
+          </div>
+
+          {/* Question */}
+
+          <article
+            id="how-dreamscriptures-interprets-dreams"
+            className="mb-14 border-b border-[#ECE4D8] pb-14"
+          >
+
+            <h3 className="text-3xl font-semibold">
+              How does DreamScriptures interpret dreams?
+            </h3>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              Have you ever noticed that two people can dream about
+              exactly the same thing yet experience completely different
+              emotions?
+
+              That&apos;s why DreamScriptures doesn&apos;t believe every dream has
+              one universal meaning.
+            </p>
+
+            <p className="mt-5 leading-8 text-[#5C5349]">
+              Instead, every interpretation considers multiple layers,
+              including:
+            </p>
+
+            <ul className="mt-6 space-y-3 text-[#5C5349]">
+
+              <li>🌙 Symbolic meaning</li>
+
+              <li>💛 Emotional context</li>
+
+              <li>🙏 Spiritual reflection</li>
+
+              <li>✝️ Biblical themes where appropriate</li>
+
+              <li>🧠 Personal life circumstances</li>
+
+            </ul>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              Our goal isn&apos;t to predict the future but to encourage
+              thoughtful reflection and discernment.
+            </p>
+
+          </article>
+
+          {/* Question */}
+
+          <article
+            id="are-dream-meanings-fixed"
+            className="mb-14 border-b border-[#ECE4D8] pb-14"
+          >
+
+            <h3 className="text-3xl font-semibold">
+              Are dream meanings fixed?
+            </h3>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              No.
+
+              Dream meanings are rarely absolute.
+
+              The same symbol can represent different things depending
+              on your emotions, experiences, relationships, and current
+              season of life.
+            </p>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              For example, dreaming about water may symbolize peace for
+              one person while representing emotional overwhelm for
+              another.
+            </p>
+
+            <div className="mt-8 rounded-2xl bg-[#FFF8EC] p-6">
+
+              <strong className="text-[#8B6A2F]">
+                DreamScriptures Tip
+              </strong>
+
+              <p className="mt-3 leading-8 text-[#5C5349]">
+                Always consider the emotional atmosphere of the dream,
+                not just the symbol itself.
+              </p>
+
+            </div>
+
+          </article>
+
+          {/* Question */}
+
+          <article
+            id="can-dreams-predict-the-future"
+            className="mb-14 border-b border-[#ECE4D8] pb-14"
+          >
+
+            <h3 className="text-3xl font-semibold">
+              Can dreams predict the future?
+            </h3>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              DreamScriptures does not treat dreams as guaranteed
+              predictions.
+            </p>
+
+            <p className="mt-5 leading-8 text-[#5C5349]">
+              While some people believe certain dreams may carry
+              spiritual significance, many dreams simply process
+              emotions, memories, stress, relationships, hopes, and
+              everyday experiences.
+            </p>
+
+            <p className="mt-5 leading-8 text-[#5C5349]">
+              We encourage prayer, wisdom, and discernment instead of
+              assuming every dream predicts future events.
+            </p>
+
+          </article>
+
+          {/* Question */}
+
+          <article
+            id="why-do-recurring-dreams-happen"
+            className="mb-14 border-b border-[#ECE4D8] pb-14"
+          >
+
+            <h3 className="text-3xl font-semibold">
+              Why do recurring dreams happen?
+            </h3>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              Recurring dreams often suggest that something important is
+              still asking for your attention.
+            </p>
+
+            <p className="mt-5 leading-8 text-[#5C5349]">
+              This could be:
+            </p>
+
+            <ul className="mt-5 space-y-3 text-[#5C5349]">
+
+              <li>• unresolved emotions</li>
+
+              <li>• ongoing stress</li>
+
+              <li>• personal growth</li>
+
+              <li>• relationship challenges</li>
+
+              <li>• spiritual reflection</li>
+
+              <li>• important life decisions</li>
+
+            </ul>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              Sometimes the symbols change while the emotional theme
+              stays the same.
+            </p>
+
+          </article>
+
+          {/* Question */}
+
+          <article
+            id="why-do-nightmares-happen"
+            className="mb-14 border-b border-[#ECE4D8] pb-14"
+          >
+
+            <h3 className="text-3xl font-semibold">
+              Why do nightmares happen?
+            </h3>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              Nightmares are more common than many people realize.
+            </p>
+
+            <p className="mt-5 leading-8 text-[#5C5349]">
+              They often appear during periods of:
+            </p>
+
+            <ul className="mt-5 space-y-3 text-[#5C5349]">
+
+              <li>😟 Anxiety</li>
+
+              <li>💔 Grief</li>
+
+              <li>😴 Poor sleep</li>
+
+              <li>😰 Emotional overwhelm</li>
+
+              <li>⚠️ Major life transitions</li>
+
+            </ul>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              Rather than focusing only on frightening images, it can be
+              helpful to ask what emotional message your subconscious may
+              be expressing.
+            </p>
+
+          </article>
+
+          {/* Question */}
+
+          <article
+            id="can-anxiety-affect-dreams"
+            className="mb-14 border-b border-[#ECE4D8] pb-14"
+          >
+
+            <h3 className="text-3xl font-semibold">
+              Can anxiety affect dreams?
+            </h3>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              Absolutely.
+            </p>
+
+            <p className="mt-5 leading-8 text-[#5C5349]">
+              Anxiety commonly appears through dreams involving:
+            </p>
+
+            <ul className="mt-5 space-y-3 text-[#5C5349]">
+
+              <li>🏃 Being chased</li>
+
+              <li>📚 Missing exams</li>
+
+              <li>⏰ Being late</li>
+
+              <li>⬇️ Falling</li>
+
+              <li>🧭 Getting lost</li>
+
+              <li>💼 Feeling unprepared</li>
+
+            </ul>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              These dreams often mirror emotional pressure experienced
+              during waking life.
+            </p>
+
+          </article>
+
+          {/* Question */}
+
+          <article
+            id="why-do-dreams-feel-so-real"
+            className="mb-14 border-b border-[#ECE4D8] pb-14"
+          >
+
+            <h3 className="text-3xl font-semibold">
+              Why do dreams feel so real?
+            </h3>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              Have you ever woken up completely convinced a dream really
+              happened?
+            </p>
+
+            <p className="mt-5 leading-8 text-[#5C5349]">
+              You&apos;re certainly not alone.
+            </p>
+
+            <p className="mt-5 leading-8 text-[#5C5349]">
+              During sleep, the parts of the brain responsible for
+              emotion and imagination remain highly active, making dreams
+              feel incredibly vivid.
+            </p>
+
+          </article>
+
+          {/* Question */}
+
+          <article
+            id="how-can-i-interpret-my-own-dreams"
+            className="pb-10"
+          >
+
+            <h3 className="text-3xl font-semibold">
+              How can I interpret my own dreams?
+            </h3>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              Start by asking yourself:
+            </p>
+
+            <ul className="mt-6 space-y-3 text-[#5C5349]">
+
+              <li>💭 What emotions stood out?</li>
+
+              <li>🌙 Which symbols appeared most often?</li>
+
+              <li>🙏 What is happening in my life right now?</li>
+
+              <li>📖 Are there biblical themes that connect?</li>
+
+              <li>❤️ What might this dream be inviting me to reflect on?</li>
+
+            </ul>
+
+            <p className="mt-6 leading-8 text-[#5C5349]">
+              Dream interpretation works best when approached with
+              curiosity, humility, and openness rather than searching for
+              one fixed answer.
+            </p>
+
+          </article>
+
+        </div>
+
+      </section>
+            {/* RELATED RESOURCES */}
+
+      <section className="bg-[#FAF8F5] py-20">
+
+        <div className="mx-auto max-w-6xl px-6">
+
+          <div className="text-center">
+
+            <h2 className="text-4xl font-bold text-[#2B2115]">
+              Continue Exploring DreamScriptures
+            </h2>
+
+            <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-[#5C5349]">
+              Understanding dreams doesn&apos;t stop with one answer.
+              Explore our growing collection of dream interpretations,
+              guides, categories, and biblical resources.
+            </p>
+
+          </div>
+
+          <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+
+            <Link
+              href="/dreams"
+              className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+              <span className="text-4xl">🌙</span>
+
+              <h3 className="mt-5 text-xl font-semibold">
+                Dream Library
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5C5349]">
+                Browse hundreds of dream meanings covering common and
+                unique dream symbols.
+              </p>
+            </Link>
+
+            <Link
+              href="/categories"
+              className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+              <span className="text-4xl">📂</span>
+
+              <h3 className="mt-5 text-xl font-semibold">
+                Dream Categories
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5C5349]">
+                Explore dreams grouped by themes including animals,
+                relationships, nature, emotions, and more.
+              </p>
             </Link>
 
             <Link
               href="/emotions"
-              className="underline underline-offset-4 transition hover:text-[#8F743C]"
+              className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
-              Emotional hubs
+              <span className="text-4xl">💛</span>
+
+              <h3 className="mt-5 text-xl font-semibold">
+                Emotional Meanings
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5C5349]">
+                Discover how emotions influence dream interpretation and
+                often reveal deeper meanings.
+              </p>
             </Link>
 
             <Link
               href="/guides"
-              className="underline underline-offset-4 transition hover:text-[#8F743C]"
+              className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
-              Dream guides
+              <span className="text-4xl">📖</span>
+
+              <h3 className="mt-5 text-xl font-semibold">
+                Dream Guides
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5C5349]">
+                Learn how dream interpretation works and build a deeper
+                understanding of symbolism and context.
+              </p>
+            </Link>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* STILL HAVE QUESTIONS */}
+
+      <section className="bg-white py-24">
+
+        <div className="mx-auto max-w-5xl px-6 text-center">
+
+          <div className="inline-flex rounded-full bg-[#FFF5E6] px-5 py-2 text-sm font-medium text-[#8B6A2F]">
+            🌙 Every dream is unique
+          </div>
+
+          <h2 className="mt-8 text-5xl font-bold text-[#2B2115]">
+            Didn&apos;t Find Your Answer?
+          </h2>
+
+          <p className="mx-auto mt-8 max-w-3xl text-xl leading-9 text-[#5C5349]">
+            Some dreams contain deeply personal experiences, unusual
+            symbols, or details that aren&apos;t fully explained by a general
+            interpretation.
+          </p>
+
+          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-[#5C5349]">
+            If you&apos;d like a thoughtful interpretation tailored to your
+            specific dream, we&apos;d love to help.
+          </p>
+
+          <div className="mt-12 flex flex-wrap justify-center gap-5">
+
+            <Link
+              href="/submit-dream"
+              className="rounded-full bg-[#2B2115] px-10 py-5 text-lg font-semibold text-white transition hover:scale-105"
+            >
+              Submit Your Dream
             </Link>
 
             <Link
-              href="/methodology"
-              className="underline underline-offset-4 transition hover:text-[#8F743C]"
+              href="/dreams"
+              className="rounded-full border border-[#D8CCBD] px-10 py-5 text-lg font-semibold text-[#2B2115] transition hover:bg-[#F7F3EC]"
             >
-              Interpretation approach
+              Browse Dream Library
             </Link>
+
           </div>
-        </section>
-      </article>
 
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(getFAQSchema()),
-        }}
-      />
+        </div>
 
-      <SiteFooter />
+      </section>
+
+      {/* EDITORIAL APPROACH */}
+
+      <section className="bg-[#F7F3EC] py-20">
+
+        <div className="mx-auto max-w-6xl px-6">
+
+          <div className="rounded-3xl bg-white p-12 shadow-sm">
+
+            <h2 className="text-4xl font-bold text-[#2B2115]">
+              Our Dream Interpretation Approach
+            </h2>
+
+            <p className="mt-6 text-lg leading-8 text-[#5C5349]">
+              At DreamScriptures, we believe dreams deserve thoughtful,
+              balanced interpretation rather than quick conclusions.
+            </p>
+
+            <div className="mt-12 grid gap-8 md:grid-cols-2">
+
+              <div className="rounded-2xl bg-[#FAF8F5] p-8">
+
+                <h3 className="text-2xl font-semibold">
+                  Every interpretation considers:
+                </h3>
+
+                <ul className="mt-6 space-y-4 text-[#5C5349]">
+
+                  <li>✨ Symbolic meaning</li>
+
+                  <li>💛 Emotional context</li>
+
+                  <li>🙏 Spiritual reflection</li>
+
+                  <li>✝️ Biblical themes (where appropriate)</li>
+
+                  <li>🧠 Personal life circumstances</li>
+
+                </ul>
+
+              </div>
+
+              <div className="rounded-2xl bg-[#FFF9EF] p-8">
+
+                <h3 className="text-2xl font-semibold">
+                  What we believe
+                </h3>
+
+                <p className="mt-6 leading-8 text-[#5C5349]">
+                  Dream interpretation should encourage wisdom,
+                  reflection, prayer, and discernment—not fear or
+                  certainty.
+                </p>
+
+                <p className="mt-5 leading-8 text-[#5C5349]">
+                  Every dream is unique, and multiple interpretations may
+                  be possible depending on the dreamer&apos;s circumstances.
+                </p>
+
+              </div>
+
+            </div>
+
+            <div className="mt-12 flex flex-wrap gap-4">
+
+              <Link
+                href="/methodology"
+                className="rounded-full bg-[#2B2115] px-7 py-3 text-white"
+              >
+                Our Methodology
+              </Link>
+
+              <Link
+                href="/editorial-standards"
+                className="rounded-full border border-[#D8CCBD] px-7 py-3"
+              >
+                Editorial Standards
+              </Link>
+
+              <Link
+                href="/about"
+                className="rounded-full border border-[#D8CCBD] px-7 py-3"
+              >
+                About DreamScriptures
+              </Link>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* FINAL CTA */}
+
+      <section className="bg-[#2B2115] py-24 text-white">
+
+        <div className="mx-auto max-w-5xl px-6 text-center">
+
+          <h2 className="text-5xl font-bold">
+            Explore the Meaning Behind Your Dreams
+          </h2>
+
+          <p className="mx-auto mt-8 max-w-3xl text-xl leading-9 text-[#DDD2C3]">
+            Whether you&apos;re searching for the meaning of a recurring
+            dream, exploring biblical symbolism, or looking for a
+            thoughtful personal interpretation, DreamScriptures is here
+            to help you reflect with wisdom and discernment.
+          </p>
+
+          <div className="mt-12 flex flex-wrap justify-center gap-5">
+
+            <Link
+              href="/dreams"
+              className="rounded-full bg-white px-10 py-5 text-lg font-semibold text-[#2B2115] transition hover:scale-105"
+            >
+              Browse Dream Meanings
+            </Link>
+
+            <Link
+              href="/submit-dream"
+              className="rounded-full border border-white px-10 py-5 text-lg font-semibold transition hover:bg-white hover:text-[#2B2115]"
+            >
+              Submit Your Dream
+            </Link>
+
+          </div>
+
+        </div>
+
+      </section>
+
     </main>
   );
 }

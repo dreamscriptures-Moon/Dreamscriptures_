@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Learn about Amber Balentine, founder and editor of DreamScriptures, and the emotional interpretation framework behind the site's dream meanings and symbolism.",
   alternates: {
-    canonical: "https://www.dreamscriptures.com/author/amber-balentine",
+    canonical: "https://www.dreamscriptures.com/author",
   },
 };
 

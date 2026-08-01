@@ -157,6 +157,11 @@ may be communicating.
     <HomeSearchWrapper />
   </div>
 <SearchSuggestions />
+<div className="mt-8 grid gap-3 border-y border-[#EAE6E1] py-5 text-left sm:grid-cols-3" aria-label="Why trust DreamScriptures">
+  <p className="text-sm leading-relaxed text-[#5F574E]"><strong className="block text-[#1A1A1A]">Context-first</strong> Meanings are explored through emotion, symbolism, faith, and real life.</p>
+  <p className="text-sm leading-relaxed text-[#5F574E]"><strong className="block text-[#1A1A1A]">Reflective, not predictive</strong> We encourage discernment rather than fixed or fearful conclusions.</p>
+  <p className="text-sm leading-relaxed text-[#5F574E]"><strong className="block text-[#1A1A1A]">Transparent approach</strong> Our <Link href="/methodology" className="underline underline-offset-4">methodology</Link> and <Link href="/editorial-standards" className="underline underline-offset-4">editorial standards</Link> are public.</p>
+</div>
 {/* Divider */}
 <div className="flex items-center gap-4 my-6">
   <div className="flex-1 h-[1px] bg-[#EAE6E1]" />
@@ -667,6 +672,12 @@ and personal context.
         className="inline-flex items-center gap-2 border border-[#EAE6E1] bg-white rounded-full px-8 py-3 text-sm font-medium text-[#1A1A1A] hover:border-[#C6A96B] transition"
       >
         Browse Guides
+      </Link>
+      <Link
+        href="/submit-dream"
+        className="inline-flex items-center gap-2 border border-[#D8C7A0] bg-[#F7F3EC] rounded-full px-8 py-3 text-sm font-medium text-[#1A1A1A] hover:border-[#C6A96B] transition"
+      >
+        Submit Your Dream
       </Link>
     </div>
   </div>

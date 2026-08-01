@@ -59,9 +59,10 @@ const SearchResults = memo(function SearchResults({
           </Link>
         ))
       ) : (
-        <p className="px-4 py-3 text-sm text-[#A89F91]">
-          No dreams found for &quot;{displayQuery}&quot;
-        </p>
+        <div className="px-4 py-4 text-sm text-[#6B6B6B]">
+          <p>No interpretation found for &quot;{displayQuery}&quot; yet.</p>
+          <Link href="/submit-dream" className="mt-2 inline-block font-medium text-[#8F743C] underline underline-offset-4">Submit your dream for a personal interpretation</Link>
+        </div>
       )}
     </div>
   );
@@ -91,6 +92,8 @@ const SearchInput = memo(function SearchInput({ value, onChange }) {
       value={value}
       onChange={(e) => onChange(e.target.value)}
       placeholder="Search a dream..."
+      aria-label="Search the dream interpretation library"
+      autoComplete="off"
       className="w-full bg-white/90 backdrop-blur border border-[#EAE6E1] rounded-xl px-6 py-5 outline-none text-base md:text-lg placeholder:text-[#A89F91] focus:border-[#C6A96B] active:border-[#C6A96B] transition"
     />
   );

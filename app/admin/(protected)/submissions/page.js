@@ -53,7 +53,7 @@ export default async function SubmissionListPage({ searchParams }) {
                 <td className="whitespace-nowrap px-4 py-4"><Link href={`/admin/submissions/${item.id}`} className="font-medium text-amber-800 hover:underline">{item.reference_id}</Link></td>
                 <td className="px-4 py-4"><p className="font-medium">{item.name}</p><p className="text-slate-500">{item.email}</p></td>
                 <td className="max-w-xs px-4 py-4">{item.dream_title || "Untitled dream"}</td>
-                <td className="px-4 py-4"><span className={`whitespace-nowrap rounded-full px-2.5 py-1 text-xs font-semibold ${item.priority === "Premium" ? "bg-amber-100 text-amber-900" : "bg-slate-100 text-slate-600"}`}>{item.priority === "Premium" ? "⭐⭐⭐ Premium" : "Community"}</span></td>
+                <td className="px-4 py-4"><div className="flex flex-col items-start gap-1.5"><span className={`whitespace-nowrap rounded-full px-2.5 py-1 text-xs font-semibold ${item.submission_type === "Personal" ? "bg-amber-100 text-amber-900" : "bg-slate-100 text-slate-600"}`}>{item.submission_type === "Personal" ? "⭐ Premium" : "☾ Community"}</span><span className={`text-xs font-semibold ${item.priority === "Premium" ? "text-amber-800" : "text-slate-500"}`}>{item.priority === "Premium" ? "⭐⭐⭐ VIP" : "Community priority"}</span></div></td>
                 <td className="px-4 py-4"><span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium">{item.status}</span></td>
                 <td className="px-4 py-4">{item.payment_status}</td>
                 <td className="whitespace-nowrap px-4 py-4 text-slate-500">{new Intl.DateTimeFormat("en", { dateStyle: "medium", timeStyle: "short" }).format(new Date(item.created_at))}</td>

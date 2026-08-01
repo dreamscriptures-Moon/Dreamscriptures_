@@ -667,6 +667,80 @@ if (slug !== canonicalDreamSlug) {
   permanentRedirect(`/dreams/${canonicalDreamSlug}`);
 }
 
+function firstUsefulText(...values) {
+  for (const value of values) {
+    const items = toTextItems(value);
+    if (items[0]) return shorten(items[0], 210);
+  }
+  return "Consider this alongside the dream's emotional tone and your present circumstances.";
+}
+
+function renderQuickTakeaways(dream, dreamTitle) {
+  const takeaways = [
+    { label: "Symbolic", text: firstUsefulText(dream.symbolicMeaning, dream.symbolic, dream.microSummary, dream.description) },
+    { label: "Emotional", text: firstUsefulText(dream.emotionalMeaning, dream.emotional, dream.emotionalStates, dream.microSummary) },
+    { label: "Spiritual", text: firstUsefulText(dream.spiritualMeaning, dream.spiritual, dream.summary, dream.microSummary) },
+    { label: "Biblical", text: firstUsefulText(dream.biblicalMeaning, dream.biblical, `Scripture can offer a reflective lens for a ${dreamTitle.toLowerCase()} dream, but context and discernment still matter.`) },
+  ];
+
+  return (
+    <section id="quick-takeaways" aria-labelledby="quick-takeaways-heading" className="mb-12 scroll-mt-28 border-y border-[#EAE6E1] bg-white/60 px-5 py-7 md:px-7">
+      <p className="mb-2 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">At a glance</p>
+      <h2 id="quick-takeaways-heading" className="mb-5 font-serif text-2xl md:text-3xl">Quick Takeaways</h2>
+      <dl className="grid gap-5 md:grid-cols-2">
+        {takeaways.map((item) => (
+          <div key={item.label} className="border-l border-[#D8C7A0] pl-4">
+            <dt className="text-xs font-medium uppercase tracking-[0.14em] text-[#8A8175]">{item.label} takeaway</dt>
+            <dd className="mt-2 text-sm leading-relaxed text-[#5F574E]">{item.text}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  );
+}
+
+function renderInterpretationContextSection() {
+  const factors = [
+    "The emotions you felt during and after the dream",
+    "Whether it was recurring or happened only once",
+    "The people involved and what they mean to you",
+    "The setting, atmosphere, and location",
+    "How the dream ended or changed direction",
+    "Your current relationships, pressures, and season of life",
+  ];
+  return (
+    <section id="meaning-context" className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10">
+      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">Context matters</p>
+      <h2 className="mb-4 font-serif text-3xl md:text-4xl">What Can Change the Meaning?</h2>
+      <p className="max-w-2xl text-base leading-relaxed text-[#6B6B6B]">A symbol does not carry one universal meaning. Consider the whole dream and your own associations before deciding which interpretation feels relevant.</p>
+      <ul className="mt-6 grid gap-3 md:grid-cols-2">
+        {factors.map((factor) => <li key={factor} className="border border-[#EAE6E1] bg-white/70 px-4 py-3 text-sm leading-relaxed text-[#5F574E]">{factor}</li>)}
+      </ul>
+      <p className="mt-5 text-sm leading-relaxed text-[#6B6B6B]">Read more about this context-first approach in our <Link href="/methodology" className="underline underline-offset-4 hover:text-[#8F743C]">dream interpretation methodology</Link>.</p>
+    </section>
+  );
+}
+
+function renderDreamReflectionSection() {
+  const questions = [
+    "What emotions stood out most during the dream—and after waking?",
+    "Has anything similar happened recently in your relationships or daily life?",
+    "Does this dream echo your current season of life, a decision, or a transition?",
+    "Which detail felt most personal or unusual to you?",
+    "Is there a Bible passage that speaks to this situation and invites prayer or wisdom?",
+  ];
+  return (
+    <section id="reflect-on-your-dream" className="mt-16 scroll-mt-28 border-y border-[#EAE6E1] bg-white/60 px-5 py-9 md:px-8">
+      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">Personal reflection</p>
+      <h2 className="mb-4 font-serif text-3xl md:text-4xl">Reflect on Your Dream</h2>
+      <p className="mb-6 text-base leading-relaxed text-[#6B6B6B]">Use these questions as prompts, not a test. Your own memories, faith, emotions, and circumstances are essential context.</p>
+      <ul className="space-y-3">
+        {questions.map((question) => <li key={question} className="flex gap-3 text-base leading-relaxed text-[#5F574E]"><span aria-hidden="true" className="text-[#C6A96B]">—</span><span>{question}</span></li>)}
+      </ul>
+    </section>
+  );
+}
+
 const relatedDreamItems = uniqueDreams([
   ...getDreamsBySlugs(dream.relatedDreams, dreams),
   ...getIntelligentRelatedDreams(dream, dreams, 6),
@@ -805,6 +879,7 @@ function getDreamContext(dream) {
   </section>
   
 )}
+{renderQuickTakeaways(dream, dreamTitle)}
 <section id="when-this-dream-happens" className="mb-14 scroll-mt-28 border-t border-[#EAE6E1] pt-8">
   <h2 className="font-serif text-2xl md:text-3xl mb-4">
     When this dream tends to appear
@@ -894,6 +969,7 @@ function getDreamContext(dream) {
 <DreamEmotionalThemesSection dream={dream} />
 <DreamEmotionalConnections dream={dream} />
 <DreamSemanticAuthority dream={dream} />
+{renderInterpretationContextSection()}
         {summaryText && (
           <section className="mt-20 scroll-mt-28 border-y border-[#EAE6E1] py-10 text-center md:mt-32">
             <p className="text-[11px] tracking-[0.2em] text-[#8A8175] uppercase mb-4">
@@ -928,10 +1004,12 @@ function getDreamContext(dream) {
  <RelatedDreams slugs={dream.relatedDreams} relatedDreams={relatedDreamItems} />
  <ContinueExploring dreams={continueExploringDreams} />
 
-        <p className="text-sm text-[#8A8A8A] mt-12 italic">
-          Each dream is personal. Its meaning can shift depending on what you
-          felt and what you are currently moving through.
-        </p>
+        {renderDreamReflectionSection()}
+
+        <aside className="mt-10 border-l border-[#D8C7A0] pl-5 text-sm leading-relaxed text-[#6B6B6B]" aria-label="Interpretation disclaimer">
+          <p className="font-medium text-[#3A3A3A]">Dream interpretation is deeply personal.</p>
+          <p className="mt-2">These interpretations are intended to encourage prayer, reflection, and discernment rather than provide absolute certainty, prediction, or professional advice.</p>
+        </aside>
 
         <section className="mt-20 scroll-mt-28 border-y border-[#EAE6E1] bg-white px-6 py-10 text-center md:mt-32">
           <p className="font-serif text-base md:text-lg leading-relaxed text-[#3A3A3A]">
