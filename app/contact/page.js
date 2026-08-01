@@ -1,259 +1,863 @@
 import Link from "next/link";
-import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
+import SiteFooter from "@/app/components/SiteFooter";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
+
 export const metadata = {
   title: "Contact DreamScriptures",
   description:
-    "Get in touch with DreamScriptures for questions, feedback, or collaboration opportunities related to dream meanings and interpretations.",
+    "Contact DreamScriptures with questions, feedback, corrections, partnership opportunities, or to share your dream. We'd love to hear from you.",
+  alternates: {
+    canonical: "https://www.dreamscriptures.com/contact",
+  },
 };
-
-const sections = [
-  [
-    "Questions & Conversation",
-    "If you have a question, suggestion, collaboration idea, or simply want to connect, you are welcome here. DreamScriptures is built with care, and thoughtful messages are always appreciated.",
-  ],
-  [
-    "Response times",
-    "Messages are read with attention and appreciation. While response times may vary, sincere inquiries are always valued.",
-  ],
-  [
-    "Ideas & feedback",
-    "If something could feel clearer, more useful, or more meaningful, feel free to share it. DreamScriptures grows through honest feedback and shared insight.",
-  ],
-  [
-    "Collaborations",
-    "For partnerships, creative features, business opportunities, or media inquiries, include a few details so the right conversation can begin.",
-  ],
-  [
-    "A final note",
-    "This space was created to feel calm, thoughtful, and meaningful. Thank you for taking the time to connect.",
-  ],
-];
 
 export default function ContactPage() {
   return (
-    <main className="bg-[#FAF8F5] min-h-screen">
+    <main className="min-h-screen bg-[#FAF8F5]">
       <SiteHeader />
 
-      <article className="max-w-3xl mx-auto px-6 py-2 md:py-32">
+      <article className="mx-auto max-w-6xl px-6 py-16 md:py-24">
 
         {/* Breadcrumb */}
-        <nav className="text-sm text-[#6B6B6B] mb-6">
-          <Link href="/" className="hover:underline">
+
+        <nav
+          aria-label="Breadcrumb"
+          className="mb-8 text-sm text-[#6B6B6B]"
+        >
+          <Link href="/" className="hover:text-[#8F743C] transition">
             Home
           </Link>{" "}
           / <span>Contact</span>
         </nav>
 
-        {/* Title */}
-        <h1 className="text-4xl md:text-5xl font-serif mb-6">
-          Contact DreamScriptures
-        </h1>
+        {/* Hero */}
 
-        <div className="w-12 h-[1px] bg-[#C6A96B] mb-10" />
+        <section className="rounded-[32px] border border-[#E7DDD2] bg-white p-10 shadow-sm md:p-16">
 
-        {/* Intro */}
-        <p className="text-[#7A7A7A] text-base md:text-lg leading-relaxed italic mb-6">
-      Have a question about a dream meaning, interpretation, or article on DreamScriptures? We would love to hear from you.
-      </p>
-<LazyMobileQuickNav />
-        {/* SEO anchor */}
-        <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-12">
-          If you have questions about dream meanings, interpretations, or the
-          content on DreamScriptures, you can reach out anytime.
-        </p>
+          <p className="mb-5 text-xs font-semibold uppercase tracking-[0.25em] text-[#8B6A2F]">
 
-        <section className="bg-white border border-[#EAE6E1] rounded-3xl p-8 mb-14">
+            We&apos;d Love To Hear From You
 
-  <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-3">
-    Share Your Dream
-  </p>
+          </p>
 
-  <h2 className="font-serif text-3xl mb-5">
-    We&apos;d Love to Hear Your Dream
-  </h2>
+          <h1 className="font-serif text-5xl leading-tight text-[#1A1A1A] md:text-6xl">
 
-  <p className="text-[#6B6B6B] leading-relaxed mb-6">
-    Have you experienced a dream that stayed with you?
-    Whether it was beautiful, confusing, recurring or deeply symbolic,
-    you&apos;re welcome to share it.
+            Get in Touch with DreamScriptures
 
-    Dream stories help us understand the many ways people experience dreams
-    and may inspire future educational content on DreamScriptures.
-  </p>
+          </h1>
 
-  <div className="bg-[#FAF8F5] border border-[#EAE6E1] rounded-2xl p-6">
+          <p className="mt-8 max-w-3xl text-xl leading-9 text-[#5F574E]">
 
-    <h3 className="font-serif text-xl mb-3">
-      When sharing your dream...
-    </h3>
+            Whether you have a question about a dream interpretation,
+            feedback on an article, a correction to suggest, a
+            collaboration opportunity, or simply want to say hello,
+            you&apos;re always welcome here.
 
-    <ul className="space-y-2 text-[#6B6B6B]">
+          </p>
 
-      <li>• Describe what happened.</li>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-[#5F574E]">
 
-      <li>• Mention how the dream made you feel.</li>
+            Every thoughtful message helps DreamScriptures continue
+            growing into a more helpful and trusted dream education
+            resource.
 
-      <li>• Include any recurring symbols.</li>
+          </p>
 
-      <li>• Share any waking-life context you feel comfortable sharing.</li>
-
-    </ul>
-
-  </div>
-
-</section>
-
-        {/* Sections */}
-        <section className="space-y-8 text-[#2A2A2A] text-base md:text-lg leading-relaxed">
-          {sections.map(([title, body]) => (
-            <section key={title}>
-              <h2 className="font-serif text-2xl md:text-3xl mb-3">
-                {title}
-              </h2>
-              <p>{body}</p>
-            </section>
-          ))}
         </section>
 
-       <section>
-  <h2 className="font-serif text-2xl md:text-3xl mb-4">
-    What We Can Help With
-  </h2>
+        <LazyMobileQuickNav />
 
-  <ul className="space-y-3">
-    <li>• Questions about dream meanings and interpretations</li>
-    <li>• Reporting errors, corrections, or outdated information</li>
-    <li>• Feedback about DreamScriptures content</li>
-    <li>• Partnership and collaboration inquiries</li>
-    <li>• Media and interview requests</li>
-  </ul>
-</section>
+        {/* Contact Cards */}
 
-<section>
-  <h2 className="font-serif text-2xl md:text-3xl mb-4">
-    Who You will Be Contacting
-  </h2>
+        <section className="mt-20">
 
-  <p>
-Messages sent through DreamScriptures are reviewed by founder and editor
-Amber Balentine.
+          <h2 className="font-serif text-4xl">
+            How Can We Help?
+          </h2>
 
-Questions, feedback, corrections, collaboration ideas, and thoughtful
-discussion about dream interpretation are all welcome. </p>
-</section>
+          <div className="mt-4 h-[2px] w-12 bg-[#8F743C]" />
 
-<section className="bg-[#F8F6F2] border border-[#EAE6E1] rounded-3xl p-8 mb-10">
+          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
 
-  <h2 className="font-serif text-3xl mb-4">
-    Every Dream Has a Story
-  </h2>
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
 
-  <p className="text-[#6B6B6B] leading-relaxed">
-    Some dreams are easy to forget.
+              <div className="text-4xl">💬</div>
 
-    Others stay with us for years.
+              <h3 className="mt-5 font-serif text-2xl">
 
-    If there&apos;s a dream you&apos;ve never stopped thinking about,
-    we&apos;d genuinely love to hear it.
-  </p>
+                Questions
 
-</section>
+              </h3>
 
-        {/* Email */}
-        <div className="mt-14 pt-10 border-t border-[#E8E0D2]">
-         <h2 className="font-serif text-3xl mb-4">
+              <p className="mt-4 leading-7 text-[#5F574E]">
 
-Email DreamScriptures
+                Ask about dream meanings,
+                articles,
+                or DreamScriptures itself.
 
-</h2>
+              </p>
 
-<p className="text-lg mb-4">
+            </div>
 
-dreamscriptures@gmail.com
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
 
-</p>
+              <div className="text-4xl">✍️</div>
 
-<p className="text-[#6B6B6B] leading-relaxed">
+              <h3 className="mt-5 font-serif text-2xl">
 
-Whether you&apos;re sharing a dream,
-asking a question,
-reporting an issue,
-or simply saying hello,
-your message is always welcome.
+                Share Your Dream
 
-</p>
+              </h3>
 
-          <p className="text-sm text-[#8A8177] mt-4">
-  DreamScriptures is an independent project focused on thoughtful,
-  emotionally grounded dream interpretation.
-</p>
-        </div>
+              <p className="mt-4 leading-7 text-[#5F574E]">
 
-<div className="mt-6 flex flex-wrap gap-4 text-sm">
-  <Link href="/methodology" className="underline">
-    Methodology
-  </Link>
+                Submit your dream for a thoughtful
+                Community or Premium interpretation.
 
-  <Link href="/editorial-standards" className="underline">
-    Editorial Standards
-  </Link>
+              </p>
 
-  <Link href="/disclaimer" className="underline">
-    Disclaimer
-  </Link>
-</div>
+            </div>
 
-        {/* Internal link */}
-        <div className="mt-6">
-          <p className="text-sm text-[#6B6B6B]">
-            You can also learn more about this project on the{" "}
-            <Link href="/about" className="underline">
-              About page
-            </Link>.
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+              <div className="text-4xl">🤝</div>
+
+              <h3 className="mt-5 font-serif text-2xl">
+
+                Collaborations
+
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5F574E]">
+
+                Partnerships,
+                interviews,
+                media requests,
+                and business opportunities.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+              <div className="text-4xl">🛠️</div>
+
+              <h3 className="mt-5 font-serif text-2xl">
+
+                Corrections
+
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5F574E]">
+
+                Report mistakes,
+                outdated information,
+                or suggest improvements.
+
+              </p>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        {/* Share Your Dream */}
+
+        <section className="mt-24 rounded-[32px] border border-[#E7DDD2] bg-white p-10 shadow-sm">
+
+          <p className="uppercase tracking-[0.25em] text-xs font-semibold text-[#8B6A2F]">
+
+            Share Your Dream
+
           </p>
+
+          <h2 className="mt-4 font-serif text-4xl">
+
+            Every Dream Has a Story
+
+          </h2>
+
+          <p className="mt-8 text-lg leading-9 text-[#5F574E]">
+
+            Some dreams disappear before breakfast.
+
+            Others stay with us for years.
+
+          </p>
+
+          <p className="mt-6 text-lg leading-9 text-[#5F574E]">
+
+            Whether your dream was comforting,
+            confusing,
+            recurring,
+            symbolic,
+            emotional,
+            or impossible to forget,
+            we&apos;d genuinely love to hear it.
+
+          </p>
+
+          <div className="mt-10 rounded-3xl bg-[#FAF8F5] p-8">
+
+            <h3 className="font-serif text-2xl">
+
+              To help us understand your dream...
+
+            </h3>
+
+            <div className="mt-8 grid gap-4 md:grid-cols-2">
+
+              <div>🌙 What happened?</div>
+
+              <div>❤️ How did you feel?</div>
+
+              <div>👥 Who was in the dream?</div>
+
+              <div>📍 Where did it happen?</div>
+
+              <div>🔄 Was it recurring?</div>
+
+              <div>💭 Any life context you&apos;d like to share?</div>
+
+            </div>
+
+          </div>
+
+          <div className="mt-10">
+
+            <Link
+              href="/submit-dream"
+              className="inline-flex rounded-full bg-[#1A1A1A] px-8 py-4 font-semibold text-white transition hover:bg-[#333]"
+            >
+
+              Submit Your Dream
+
+            </Link>
+
+          </div>
+
+        </section>
+
+        {/* What Happens Next */}
+
+        <section className="mt-24">
+
+          <h2 className="font-serif text-4xl">
+
+            What Happens Next?
+
+          </h2>
+
+          <div className="mt-4 h-[2px] w-12 bg-[#8F743C]" />
+
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
+
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+              <h3 className="font-serif text-2xl">
+                📬 Every Message is Read
+              </h3>
+
+              <p className="mt-5 leading-8 text-[#5F574E]">
+
+                Every thoughtful email is personally reviewed with care
+                and appreciation.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+              <h3 className="font-serif text-2xl">
+                ❤️ Your Feedback Matters
+              </h3>
+
+              <p className="mt-5 leading-8 text-[#5F574E]">
+
+                Reader suggestions often inspire new dream pages,
+                educational guides,
+                and improvements throughout DreamScriptures.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+              <h3 className="font-serif text-2xl">
+                🛠️ Corrections Welcome
+              </h3>
+
+              <p className="mt-5 leading-8 text-[#5F574E]">
+
+                If something needs updating or improving,
+                we&apos;d genuinely appreciate knowing.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+              <h3 className="font-serif text-2xl">
+                🌱 Always Improving
+              </h3>
+
+              <p className="mt-5 leading-8 text-[#5F574E]">
+
+                DreamScriptures continues to grow through research,
+                thoughtful discussion,
+                and reader feedback.
+
+              </p>
+
+            </div>
+
+          </div>
+
+        </section>
+                {/* Founder */}
+
+        <section className="mt-24">
+
+          <h2 className="font-serif text-4xl">
+            Who You&apos;ll Be Contacting
+          </h2>
+
+          <div className="mt-4 h-[2px] w-12 bg-[#8F743C]" />
+
+          <div className="mt-10 rounded-[32px] border border-[#E7DDD2] bg-white p-10 shadow-sm">
+
+            <p className="text-lg leading-9 text-[#5F574E]">
+
+              Messages sent through DreamScriptures are personally
+              reviewed by <strong>Amber Balentine</strong>, the founder
+              and editor of DreamScriptures.
+
+            </p>
+
+            <p className="mt-6 text-lg leading-9 text-[#5F574E]">
+
+              Questions about dream meanings, thoughtful feedback,
+              corrections, collaboration opportunities, media
+              inquiries, and conversations about dreams are always
+              welcome.
+
+            </p>
+
+            <p className="mt-6 text-lg leading-9 text-[#5F574E]">
+
+              Every message is appreciated because it helps improve
+              DreamScriptures for readers around the world.
+
+            </p>
+
+            <div className="mt-8">
+
+              <Link
+                href="/about"
+                className="font-medium underline"
+              >
+                Learn more about DreamScriptures →
+              </Link>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        {/* Before You Contact Us */}
+
+        <section className="mt-24">
+
+          <h2 className="font-serif text-4xl">
+            You Might Find What You&apos;re Looking For
+          </h2>
+
+          <div className="mt-4 h-[2px] w-12 bg-[#8F743C]" />
+
+          <p className="mt-8 max-w-3xl text-lg leading-9 text-[#5F574E]">
+
+            Before sending a message, you may find the answer in one of
+            our resources below.
+
+          </p>
+
+          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+            <Link
+              href="/dreams"
+              className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+
+              <div className="text-4xl">🌙</div>
+
+              <h3 className="mt-5 font-serif text-2xl">
+
+                Dream Library
+
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5F574E]">
+
+                Browse hundreds of dream interpretations covering
+                symbols, emotions, places, people, and recurring dream
+                themes.
+
+              </p>
+
+            </Link>
+
+            <Link
+              href="/guides"
+              className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+
+              <div className="text-4xl">📚</div>
+
+              <h3 className="mt-5 font-serif text-2xl">
+
+                Dream Guides
+
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5F574E]">
+
+                Learn more about dream symbolism, psychology,
+                spirituality, recurring dreams, and sleep science.
+
+              </p>
+
+            </Link>
+
+            <Link
+              href="/faq"
+              className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+
+              <div className="text-4xl">❓</div>
+
+              <h3 className="mt-5 font-serif text-2xl">
+
+                Frequently Asked Questions
+
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5F574E]">
+
+                Find answers to common questions about DreamScriptures,
+                dream interpretation, and submissions.
+
+              </p>
+
+            </Link>
+
+            <Link
+              href="/methodology"
+              className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+
+              <div className="text-4xl">📖</div>
+
+              <h3 className="mt-5 font-serif text-2xl">
+
+                Our Methodology
+
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5F574E]">
+
+                Learn how DreamScriptures researches and develops dream
+                interpretations.
+
+              </p>
+
+            </Link>
+
+            <Link
+              href="/editorial-standards"
+              className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+
+              <div className="text-4xl">✅</div>
+
+              <h3 className="mt-5 font-serif text-2xl">
+
+                Editorial Standards
+
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5F574E]">
+
+                Discover the editorial principles that guide every
+                article published on DreamScriptures.
+
+              </p>
+
+            </Link>
+
+            <Link
+              href="/submit-dream"
+              className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+
+              <div className="text-4xl">✍️</div>
+
+              <h3 className="mt-5 font-serif text-2xl">
+
+                Submit Your Dream
+
+              </h3>
+
+              <p className="mt-4 leading-7 text-[#5F574E]">
+
+                Want a personal interpretation?
+                Submit your dream through our Community or Premium
+                service.
+
+              </p>
+
+            </Link>
+
+          </div>
+
+        </section>
+
+        {/* FAQs */}
+
+        <section className="mt-24">
+
+          <h2 className="font-serif text-4xl">
+            Frequently Asked Questions
+          </h2>
+
+          <div className="mt-4 h-[2px] w-12 bg-[#8F743C]" />
+
+          <div className="mt-10 space-y-8">
+
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+              <h3 className="font-serif text-2xl">
+
+                Do you personally interpret dreams?
+
+              </h3>
+
+              <p className="mt-5 leading-8 text-[#5F574E]">
+
+                Yes. DreamScriptures offers both Community and Premium
+                dream interpretation services through our secure
+                submission platform.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+              <h3 className="font-serif text-2xl">
+
+                Can I report an error?
+
+              </h3>
+
+              <p className="mt-5 leading-8 text-[#5F574E]">
+
+                Absolutely. If you notice outdated information,
+                inaccuracies, or anything that could be improved,
+                we&apos;d genuinely appreciate hearing from you.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+              <h3 className="font-serif text-2xl">
+
+                Can I suggest a dream symbol?
+
+              </h3>
+
+              <p className="mt-5 leading-8 text-[#5F574E]">
+
+                Yes. Reader suggestions help us decide which dream
+                symbols and educational topics to research next.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-3xl bg-white p-8 shadow-sm">
+
+              <h3 className="font-serif text-2xl">
+
+                How quickly will I receive a response?
+
+              </h3>
+
+              <p className="mt-5 leading-8 text-[#5F574E]">
+
+                We aim to reply as quickly as possible, although response
+                times may vary depending on message volume.
+
+              </p>
+
+            </div>
+
+          </div>
+
+        </section>
+
+                {/* Email */}
+
+        <section className="mt-24">
+
+          <h2 className="font-serif text-4xl">
+            Email DreamScriptures
+          </h2>
+
+          <div className="mt-4 h-[2px] w-12 bg-[#8F743C]" />
+
+          <div className="mt-10 rounded-[32px] border border-[#E7DDD2] bg-white p-10 shadow-sm">
+
+            <p className="uppercase tracking-[0.25em] text-xs font-semibold text-[#8B6A2F]">
+
+              Contact Email
+
+            </p>
+
+            <h3 className="mt-4 text-3xl font-semibold text-[#1A1A1A]">
+
+              dreamscriptures@gmail.com
+
+            </h3>
+
+            <p className="mt-8 text-lg leading-9 text-[#5F574E]">
+
+              Whether you&apos;re asking a question,
+              sharing a dream,
+              reporting an error,
+              suggesting a new dream symbol,
+              discussing a collaboration,
+              or simply saying hello—
+
+              we&apos;d genuinely love to hear from you.
+
+            </p>
+
+            <div className="mt-10 grid gap-6 md:grid-cols-2">
+
+              <div className="rounded-2xl bg-[#FAF8F5] p-6">
+
+                <h4 className="font-semibold">
+
+                  💬 Typical Topics
+
+                </h4>
+
+                <ul className="mt-4 space-y-2 text-[#5F574E]">
+
+                  <li>Dream questions</li>
+
+                  <li>Article feedback</li>
+
+                  <li>Corrections</li>
+
+                  <li>Partnerships</li>
+
+                  <li>Media requests</li>
+
+                </ul>
+
+              </div>
+
+              <div className="rounded-2xl bg-[#FAF8F5] p-6">
+
+                <h4 className="font-semibold">
+
+                  ⏳ Response Time
+
+                </h4>
+
+                <p className="mt-4 leading-8 text-[#5F574E]">
+
+                  While response times vary depending on message volume,
+                  we do our best to reply within a few business days.
+
+                </p>
+
+              </div>
+
+            </div>
+
         </div>
+
+        </section>
+
+        {/* Every Message Matters */}
+
+        <section className="mt-24 rounded-[32px] bg-[#FFFDF9] p-10 shadow-sm">
+
+          <h2 className="font-serif text-4xl">
+
+            Every Message Matters
+
+          </h2>
+
+          <p className="mt-8 text-lg leading-9 text-[#5F574E]">
+
+            DreamScriptures continues to grow because readers take the
+            time to share their experiences, ask thoughtful questions,
+            and suggest improvements.
+
+          </p>
+
+          <p className="mt-6 text-lg leading-9 text-[#5F574E]">
+
+            Many of our ideas for new dream interpretations,
+            educational guides,
+            and website improvements begin with conversations from
+            readers just like you.
+
+          </p>
+
+          <blockquote className="mt-10 rounded-2xl border-l-4 border-[#8F743C] bg-white p-8">
+
+            <p className="text-2xl italic leading-10 text-[#3E352C]">
+
+              &quot;Every dream tells a story.
+
+              Every question starts a conversation.
+
+              Every message helps DreamScriptures become a better
+              resource for everyone.&quot;
+
+            </p>
+
+          </blockquote>
+
+        </section>
+
+        {/* Trust Links */}
+
+        <section className="mt-24">
+
+          <h2 className="font-serif text-4xl">
+
+            Learn More About DreamScriptures
+
+          </h2>
+
+          <div className="mt-4 h-[2px] w-12 bg-[#8F743C]" />
+
+          <div className="mt-10 flex flex-wrap gap-4">
+
+            <Link
+              href="/about"
+              className="rounded-full border border-[#D8CCBD] px-6 py-3 transition hover:bg-white"
+            >
+              About Us
+            </Link>
+
+            <Link
+              href="/methodology"
+              className="rounded-full border border-[#D8CCBD] px-6 py-3 transition hover:bg-white"
+            >
+              Methodology
+            </Link>
+
+            <Link
+              href="/editorial-standards"
+              className="rounded-full border border-[#D8CCBD] px-6 py-3 transition hover:bg-white"
+            >
+              Editorial Standards
+            </Link>
+
+            <Link
+              href="/faq"
+              className="rounded-full border border-[#D8CCBD] px-6 py-3 transition hover:bg-white"
+            >
+              FAQ
+            </Link>
+
+            <Link
+              href="/disclaimer"
+              className="rounded-full border border-[#D8CCBD] px-6 py-3 transition hover:bg-white"
+            >
+              Disclaimer
+            </Link>
+
+            <Link
+              href="/privacy"
+              className="rounded-full border border-[#D8CCBD] px-6 py-3 transition hover:bg-white"
+            >
+              Privacy Policy
+            </Link>
+
+          </div>
+
+        </section>
 
       </article>
-<section className="mt-20 text-center border-t border-[#EAE6E1] pt-14">
 
-  <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-3">
-    Continue Exploring
-  </p>
+      {/* Final CTA */}
 
-  <h2 className="font-serif text-4xl mb-5">
-    Keep Exploring Your Dreams
-  </h2>
+      <section className="mt-10 bg-[#1A1A1A] py-20 text-center text-white">
 
-  <p className="text-[#6B6B6B] max-w-2xl mx-auto mb-8">
-    Browse hundreds of dream meanings,
-    discover emotional themes,
-    or explore our Dream Library to learn more
-    about the fascinating world of dreams.
-  </p>
+        <div className="mx-auto max-w-4xl px-6">
 
-  <div className="flex flex-wrap justify-center gap-4">
+          <p className="uppercase tracking-[0.25em] text-xs font-semibold text-[#D8C08F]">
 
-    <Link
-      href="/dreams"
-      className="px-6 py-3 rounded-full bg-[#1A1A1A] text-white hover:bg-[#333] transition"
-    >
-      Dream Dictionary →
-    </Link>
+            Continue Exploring
 
-    <Link
-      href="/guides"
-      className="px-6 py-3 rounded-full border border-[#EAE6E1] hover:border-[#C6A96B] transition"
-    >
-      Dream Library
-    </Link>
+          </p>
 
-  </div>
+          <h2 className="mt-6 font-serif text-5xl">
 
-</section>
+            Explore the World of Dreams
+
+          </h2>
+
+          <p className="mx-auto mt-8 max-w-3xl text-xl leading-9 text-[#DDD2C3]">
+
+            Browse hundreds of dream interpretations,
+            discover emotional themes,
+            explore biblical perspectives,
+            or submit your own dream for a thoughtful interpretation.
+
+          </p>
+
+          <div className="mt-12 flex flex-wrap justify-center gap-5">
+
+            <Link
+              href="/dreams"
+              className="rounded-full bg-white px-8 py-4 font-semibold text-[#1A1A1A] transition hover:scale-105"
+            >
+              🌙 Browse Dream Library
+            </Link>
+
+            <Link
+              href="/submit-dream"
+              className="rounded-full border border-white px-8 py-4 font-semibold transition hover:bg-white hover:text-[#1A1A1A]"
+            >
+              ✍️ Submit Your Dream
+            </Link>
+
+          </div>
+
+        </div>
+
+      </section>
 
       <SiteFooter />
+
     </main>
+
   );
 }
