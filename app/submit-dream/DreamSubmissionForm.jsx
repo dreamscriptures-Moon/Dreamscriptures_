@@ -42,6 +42,49 @@ function ChipGroup({ legend, hint, name, options }) {
   );
 }
 
+function InterpretationCard({ value, title, price, description, responseTime, highlights, expandedBenefits, detailsId, readMoreLabel, premium = false, defaultChecked = false }) {
+  const [detailsOpen, setDetailsOpen] = useState(false);
+  const [hovered, setHovered] = useState(false);
+  const expanded = detailsOpen || hovered;
+
+  function handleMouseEnter() {
+    if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) setHovered(true);
+  }
+
+  return (
+    <div
+      className={`relative rounded-3xl border p-5 text-sm text-[#5F574E] shadow-sm transition duration-300 hover:-translate-y-0.5 focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-[#8F743C] has-[:checked]:ring-2 has-[:checked]:ring-[#C6A96B]/40 ${premium ? "border-[#D8C7A0] bg-gradient-to-b from-[#FFFDF8] to-[#FAF7EF] hover:border-[#B79B5E] hover:shadow-lg" : "border-[#E1DCD5] bg-[#FCFBF9] hover:border-[#C6A96B] hover:shadow-md"}`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={() => setHovered(false)}
+    >
+      {premium && <span className="absolute right-4 top-4 inline-flex rounded-full bg-[#8F743C] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-white">⭐ Most Popular</span>}
+      <label className="block cursor-pointer pr-1">
+        <span className="flex items-start gap-3">
+          <input type="radio" name="submissionType" value={value} defaultChecked={defaultChecked} className="mt-1 h-4 w-4 shrink-0 accent-[#8F743C]" />
+          <span className={premium ? "block pr-24" : "block"}>
+            <strong className="block font-serif text-xl text-[#2A2A2A]">{title}</strong>
+            <strong className={`mt-2 block text-base ${premium ? "text-[#8F743C]" : "text-[#3A3A3A]"}`}>{price}</strong>
+          </span>
+        </span>
+        <span className="mt-4 block leading-relaxed">{description}</span>
+        <span className="mt-5 block rounded-2xl border border-[#E5DED1] bg-white/65 px-4 py-3">
+          <span className="block text-[10px] font-semibold uppercase tracking-[0.16em] text-[#8A8175]">{premium ? "⚡" : "⏳"} Estimated response</span>
+          <strong className="mt-1 block font-serif text-lg text-[#2A2A2A]">{responseTime}</strong>
+        </span>
+        <span className="mt-5 block space-y-2.5">
+          {highlights.map((highlight) => <span key={highlight} className="flex gap-2 leading-relaxed"><span aria-hidden="true" className="text-[#8F743C]">✓</span><span>{highlight}</span></span>)}
+        </span>
+      </label>
+      <button type="button" aria-expanded={expanded} aria-controls={detailsId} onClick={() => setDetailsOpen((open) => !open)} className="mt-5 inline-flex min-h-11 items-center text-left font-medium text-[#7A612F] underline decoration-[#C6A96B] underline-offset-4 focus-visible:rounded-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8F743C]">
+        {detailsOpen ? "Show less" : readMoreLabel}
+      </button>
+      <div id={detailsId} aria-hidden={!expanded} className={`grid transition-[grid-template-rows,opacity] duration-500 ease-out motion-reduce:transition-none ${expanded ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}>
+        <div className="overflow-hidden"><div className="mt-5 border-t border-[#DED5C5] pt-5">{expandedBenefits}</div></div>
+      </div>
+    </div>
+  );
+}
+
 export default function DreamSubmissionForm() {
   const [state, formAction, pending] = useActionState(submitDreamAction, initialState);
   const [showCustomSymbols, setShowCustomSymbols] = useState(false);
@@ -82,15 +125,32 @@ export default function DreamSubmissionForm() {
       <div className="space-y-8">
         <fieldset>
           <legend className="font-serif text-xl text-[#2A2A2A]">Interpretation type</legend>
-          <div className="mt-4 grid gap-3 sm:grid-cols-2">
-            <label className="group flex cursor-pointer items-start gap-3 rounded-2xl border border-[#E1DCD5] bg-[#FCFBF9] px-5 py-5 text-sm text-[#5F574E] shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-[#C6A96B] hover:shadow-md has-[:checked]:border-[#C6A96B] has-[:checked]:bg-[#FAF7EF] focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-[#8F743C]">
-              <input type="radio" name="submissionType" value="Community" defaultChecked className="mt-1 h-4 w-4 accent-[#8F743C]" />
-              <span><strong className="block font-serif text-lg text-[#2A2A2A]">Community Interpretation</strong><span className="mt-2 block leading-relaxed">Perfect if you&apos;re happy to wait while helping DreamScriptures grow.</span><strong className="mt-4 block text-xs uppercase tracking-[0.14em] text-[#8A8175]">Included</strong><span className="mt-2 block leading-relaxed">✨ Complete dream interpretation<br />◈ Symbolic interpretation<br />◊ Spiritual reflection<br />✝️ Biblical insights where appropriate<br />✉ Email notification when ready<br />○ Community queue</span><strong className="mt-4 block text-[#3A3A3A]">⏳ Estimated response: 24–72 hours</strong><span className="mt-3 block border-t border-[#E1DCD5] pt-3 text-xs leading-relaxed">Your first Community dream submission is completely free.<br /><br />Additional Community submissions are $0.99 each to help reduce spam and keep the queue fair for everyone.</span></span>
-            </label>
-            <label className="group flex cursor-pointer items-start gap-3 rounded-2xl border border-[#D8C7A0] bg-gradient-to-b from-[#FFFDF8] to-[#FAF7EF] px-5 py-5 text-sm text-[#5F574E] shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-[#B79B5E] hover:shadow-lg has-[:checked]:ring-2 has-[:checked]:ring-[#C6A96B]/40 focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-[#8F743C]">
-              <input type="radio" name="submissionType" value="Personal" className="mt-1 h-4 w-4 accent-[#8F743C]" />
-              <span><span className="mb-2 inline-flex rounded-full bg-[#8F743C] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-white">⭐ Most Popular</span><strong className="block font-serif text-lg text-[#2A2A2A]">Personal Dream Interpretation · $5.99</strong><span className="mt-2 block leading-relaxed">Our deepest and most personalized interpretation, written specifically for your dream.</span><strong className="mt-4 block text-xs uppercase tracking-[0.14em] text-[#8A8175]">Premium includes</strong><span className="mt-2 block leading-relaxed">⭐ VIP Priority Queue<br />⚡ Estimated response: 2–8 hours<br />◆ Significantly deeper interpretation<br />◈ Greater symbolic analysis<br />✝️ Rich biblical context and scripture connections<br />◊ Personalized spiritual reflection<br />✓ Practical life application<br />? One follow-up clarification question<br />▣ Beautiful downloadable PDF<br />✉ Priority email delivery<br />⭐ VIP support</span><strong className="mt-4 block text-[#8F743C]">Up to 90% faster than Community</strong></span>
-            </label>
+          <p className="mt-2 text-sm leading-relaxed text-[#756C61]">Both options include a meaningful interpretation. Choose based on the depth, personalization, and turnaround time you prefer.</p>
+          <div className="mt-5 grid items-start gap-4 sm:grid-cols-2">
+            <InterpretationCard
+              value="Community"
+              title="Community Dream Interpretation"
+              price="Free for your first dream"
+              description="A thoughtful interpretation for dreamers who are happy to wait."
+              responseTime="24–72 hours"
+              highlights={["Complete interpretation", "Symbolic, spiritual & biblical insights", "First dream always free"]}
+              detailsId="community-benefits"
+              readMoreLabel="Read everything included →"
+              defaultChecked
+              expandedBenefits={<div className="space-y-3 leading-relaxed"><p>✨ Complete dream interpretation</p><p>◆ Symbolic interpretation</p><p>♡ Emotional context and reflection</p><p>✝️ Biblical insights where appropriate</p><p>✉ Email notification when your interpretation is ready</p><p>○ Standard Community queue</p><p className="pt-2 font-medium text-[#3A3A3A]">Your first Community dream is always free.</p><p>Additional Community dream submissions are just $0.99 each to help reduce spam and keep the queue fair for everyone.</p><p className="rounded-2xl bg-white/70 p-4 text-[#3A3A3A]">Community interpretations are complete and meaningful—they&apos;re simply shorter and less personalized than Premium.</p></div>}
+            />
+            <InterpretationCard
+              value="Personal"
+              title="Premium Dream Interpretation"
+              price="$5.99"
+              description="Private. Personalized. Priority."
+              responseTime="2–8 hours"
+              highlights={["VIP Priority Queue", "Downloadable PDF", "One follow-up question"]}
+              detailsId="premium-benefits"
+              readMoreLabel="See Premium benefits →"
+              premium
+              expandedBenefits={<div className="space-y-3 leading-relaxed"><p>⭐ VIP Priority Queue</p><p>◆ Much deeper interpretation written specifically for your dream</p><p>✝️ Rich biblical references &amp; scripture connections</p><p>◇ Expanded symbolic and spiritual analysis</p><p>♡ Personalized emotional insights</p><p>✓ Practical life application and guidance</p><p>❓ One follow-up clarification question included</p><p>▣ Beautiful downloadable PDF</p><p>✉ Priority email delivery</p><p>⭐ VIP support</p><p className="pt-2 font-medium text-[#8F743C]">Up to 90% faster than Community</p></div>}
+            />
           </div>
         </fieldset>
 
