@@ -735,6 +735,7 @@ export default function TermsPage() {
 
           <h2 className="mt-6 font-serif text-5xl">
 
+
             Thank You for Being Part of DreamScriptures
 
           </h2>
