@@ -85,21 +85,28 @@ const SuggestedSearches = memo(function SuggestedSearches({ onSelect }) {
   );
 });
 
-const SearchInput = memo(function SearchInput({ value, onChange }) {
+const SearchInput = memo(function SearchInput({ value, onChange, onFocus }) {
   return (
     <input
       type="text"
       value={value}
+      onFocus={onFocus}
       onChange={(e) => onChange(e.target.value)}
-      placeholder="Search a dream..."
+      onKeyDown={(event) => {
+        if (event.key === "Enter") {
+          event.preventDefault();
+          event.currentTarget.form?.requestSubmit();
+        }
+      }}
+      placeholder="What did you dream about?"
       aria-label="Search the dream interpretation library"
       autoComplete="off"
-      className="w-full bg-white/90 backdrop-blur border border-[#EAE6E1] rounded-xl px-6 py-5 outline-none text-base md:text-lg placeholder:text-[#A89F91] focus:border-[#C6A96B] active:border-[#C6A96B] transition"
+      className="min-w-0 flex-1 bg-transparent px-5 py-4 text-base outline-none placeholder:text-[#A89F91] md:px-6 md:py-5 md:text-lg"
     />
   );
 });
 
-export default function HomeSearch() {
+export default function HomeSearch({ showSuggestions = true }) {
   const router = useRouter();
   const [search, setSearch] = useState("");
   const [searchRouting, setSearchRouting] = useState(null);
@@ -182,7 +189,19 @@ export default function HomeSearch() {
         role="search"
         onSubmit={handleSubmit}
       >
-        <SearchInput value={search} onChange={handleSearch} />
+        <div className="flex items-stretch overflow-hidden rounded-2xl border border-[#D8CFC2] bg-white shadow-[0_16px_45px_rgba(73,60,40,0.08)] transition focus-within:border-[#B89B62]">
+          <SearchInput
+            value={search}
+            onChange={handleSearch}
+            onFocus={ensureSearchRouting}
+          />
+          <button
+            type="submit"
+            className="m-2 inline-flex min-h-12 shrink-0 items-center justify-center rounded-xl bg-[#1A1A1A] px-5 text-sm font-medium text-white transition hover:bg-[#333] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C] md:px-7"
+          >
+            Search
+          </button>
+        </div>
 
         {displayQuery && query && searchRouting && (
           <SearchResults
@@ -193,7 +212,7 @@ export default function HomeSearch() {
         )}
       </form>
 
-      <SuggestedSearches onSelect={handleSearch} />
+      {showSuggestions && <SuggestedSearches onSelect={handleSearch} />}
     </>
   );
 }

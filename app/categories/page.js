@@ -1,274 +1,42 @@
 import Link from "next/link";
-import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-import { dreams } from "@/data/dreams";
-import { normalizeSlug } from "@/lib/normalizeSlug";
-import { getDreamHref } from "@/lib/routes";
+import SiteFooter from "@/app/components/SiteFooter";
 import SearchBar from "@/app/components/SearchBar";
-import CategorySearchList from "@/app/components/CategorySearchList";
-import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
-function normalizeCategory(cat = "") {
-  const c = cat.toLowerCase().trim();
+import { dreams } from "@/data/dreams";
+import { categoriesData } from "@/data/categories";
+import { featuredEmotions } from "@/data/featuredEmotions";
+import { emotionalHubs } from "@/data/emotionalHubs";
+import { getDreamHref } from "@/lib/routes";
+import { getCategoryEntries, getRelevantGuides } from "@/lib/editorialDiscovery";
+import { Breadcrumbs, DreamPreviewGrid, FAQSection, GuideLinks, SectionHeading } from "@/app/components/EditorialDiscovery";
 
-  if (c === "relationships") return "relationship";
-  if (c === "emotions") return "emotion";
-
-  return c;
-}
-
-function formatCategory(cat) {
-  return cat.charAt(0).toUpperCase() + cat.slice(1);
-}
-
-const categoryDescriptions = {
-  fear:
-    "Dreams connected to uncertainty, emotional threat, vulnerability, survival instincts, and emotional tension.",
-  anxiety:
-    "Dreams reflecting stress, pressure, emotional overwhelm, insecurity, or unresolved emotional experiences.",
-  transformation:
-    "Dreams about change, identity shifts, emotional growth, endings, and new beginnings unfolding beneath the surface.",
-  spiritual:
-    "Dreams connected to intuition, inner awareness, emotional depth, symbolism, and personal reflection.",
-  relationship:
-    "Dreams reflecting emotional connection, attachment, conflict, vulnerability, intimacy, or emotional distance.",
-  hidden:
-    "Dreams involving suppressed emotions, subconscious tension, secrecy, or emotional experiences beneath awareness.",
+export const metadata = {
+  title: "Dream Categories: Explore Dream Meanings by Theme",
+  description: "Browse the DreamScriptures dream meaning atlas by theme, including emotions, relationships, transformation, animals, water, identity, and more.",
+  alternates: { canonical: "/categories" },
 };
 
 export default function CategoriesPage() {
-  const categories = [
-    ...new Set(
-      dreams.flatMap((d) => (d.categories || []).map(normalizeCategory))
-    ),
+  const categories = getCategoryEntries();
+  const popular = categories.slice(0, 6);
+  const popularDreams = dreams.filter((dream) => dream.microSummary).slice(0, 8);
+  const guides = getRelevantGuides(["interpret", "symbol", "recurring", "meaning"], 3);
+  const emotions = featuredEmotions.map((item) => ({ ...item, ...emotionalHubs[item.slug] })).filter((item) => item.title).slice(0, 6);
+  const faqs = [
+    { question: "Can one dream belong to more than one category?", answer: "Yes. Categories are overlapping ways of exploring a dream. A dream about water, for example, may also involve fear, transformation, relationships, or spiritual reflection depending on its events and emotional tone." },
+    { question: "Should I start with the symbol or the category?", answer: "Start with what you remember most clearly. A specific symbol can lead you to its dream meaning, while a category is helpful when the larger situation or theme feels more important than one object." },
+    { question: "Does a category give every dream the same meaning?", answer: "No. A category creates context, not a fixed definition. Your associations, waking circumstances, and feelings inside the dream remain essential to a thoughtful interpretation." },
   ];
-  function getCategoryThemes() {
-  return [
-    "Fear",
-    "Anxiety",
-    "Transformation",
-    "Relationships",
-    "Hidden emotions",
-    "Spirituality",
-  ];
-}
 
-  return (
-    <main className="bg-[#F7F5F2] min-h-screen">
-      <SiteHeader />
-
-      <section className="max-w-3xl mx-auto px-6 py-2 md:py-32">
-<nav aria-label="Breadcrumb" className="text-sm text-[#6B6B6B] mb-6">
-  <ol className="flex items-center gap-2">
-    <li>
-      <Link href="/" className="hover:underline">
-        Home
-      </Link>
-    </li>
-
-    <li>/</li>
-
-    <li className="text-[#1A1A1A]">
-      Categories
-    </li>
-  </ol>
-</nav>
-
-
-        {/* 🔥 Title */}
-        <h1 className="text-4xl md:text-5xl font-serif mb-4">
-          Dream categories: Explore Dream Meanings by Theme
-        </h1>
-
-        {/* 🔥 Intro */}
-        <p className="text-[#6B6B6B] leading-relaxed mb-10">
-  Explore dream categories to understand what your dreams may mean based on
-  emotional patterns, symbols, and recurring themes.
-
-  <br /><br />
-
-  Each category reflects a different aspect of your inner world, from fear and
-  anxiety to transformation and spiritual meaning.
-</p>
-<section className="mb-12">
-  <h2 className="font-serif text-2xl mb-4">
-    Explore dream categories and meanings
-  </h2>
-
-  <div className="flex flex-wrap gap-3">
-    {categories.map((cat) => (
-      <Link
-        key={cat}
-        href={`/categories/${normalizeSlug(cat)}`}
-        className="text-sm px-4 py-2 border border-[#EAE6E1] rounded-full hover:border-[#C6A96B] transition"
-      >
-        {formatCategory(cat)}
-      </Link>
-    ))}
-  </div>
-</section>
-
-<section className="mt-16 border-t pt-10">
-  <h2 className="font-serif text-2xl mb-4">
-    Explore dream meanings by category
-  </h2>
-
-  <div className="flex flex-wrap gap-3">
-    {categories.slice(0, 6).map((cat) => (
-      <Link
-        key={cat}
-        href={`/categories/${normalizeSlug(cat)}`}
-        className="group block border border-[#EAE6E1] rounded-[28px] p-6 md:p-8 bg-[#FCFBF9] hover:border-[#C6A96B] transition-all duration-300"
-      >
-        <h2 className="font-serif text-2xl md:text-3xl mb-4 group-hover:text-[#8C6A3B] transition-colors">
-          {formatCategory(cat)} dreams
-        </h2>
-
-        <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg max-w-2xl">
-          {categoryDescriptions[cat] ||
-            `Dreams connected to ${cat} experiences, emotional patterns, and symbolic meaning.`}
-        </p>
-
-        <div className="mt-6 text-xs tracking-wide uppercase text-[#8A8A8A]">
-          Explore category
-        </div>
-      </Link>
-    ))}
-  </div>
-</section> 
-<p className="text-sm text-[#8A8177] mt-4">
-  You can also explore deeper insights in guides like{" "}
-  <Link href="/guides/what-are-dreams" className="underline">what dreams are</Link>{" "}
-  or{" "}
-  <Link href="/guides/recurring-dreams" className="underline">why dreams repeat</Link>.
-</p>
-<LazyMobileQuickNav />
-<p className="text-sm text-[#8A8177] mt-4">
-  Many dream categories include common experiences like{" "}
-  <Link href="/dreams/falling" className="underline">falling</Link>,{" "}
-  <Link href="/dreams/chased" className="underline">being chased</Link>, and{" "}
-  <Link href="/dreams/losing-control" className="underline">losing control</Link>.
-</p>
-
-        {/* 🔥 Themes section (authority boost) */}
-      <section className="mt-14">
-  <h2 className="font-serif text-2xl md:text-3xl mb-6">
-    How dream categories connect through emotional patterns
-  </h2>
-
-  <div className="flex flex-wrap gap-3 mb-8">
-   {getCategoryThemes().map((theme) => (
-      <span
-        key={theme}
-        className="px-4 py-2 rounded-full border border-[#EAE6E1] text-sm text-[#6B6B6B] bg-[#FCFBF9]"
-      >
-        {theme}
-      </span>
-    ))}
-  </div>
-
-  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg mb-6">
-    Dream categories are not completely separate emotional experiences.
-    Many dreams overlap through shared emotional patterns like fear,
-    vulnerability, pressure, uncertainty, transformation, emotional conflict,
-    or periods of inner change.
-  </p>
-
-  <p className="text-[#6B6B6B] leading-relaxed text-base md:text-lg">
-    Exploring dreams through emotional themes instead of isolated symbols can
-    often reveal deeper patterns beneath the surface of recurring dreams,
-    emotional stress, relationships, identity shifts, or experiences your mind
-    is still trying to emotionally process.
-  </p>
-</section>
-
-
-        {/* 🔥 Category grid */}
-       <CategorySearchList categories={categories} />
-
-      
-<section className="mt-20 border-t border-[#EAE6E1] pt-10 text-center">
-  <h2 className="font-serif text-2xl md:text-3xl mb-4">
-    Explore your own dream
-  </h2>
-
-  <p className="text-[#6B6B6B] mb-6">
-    Search a symbol, person, or dream theme.
-  </p>
-
-  <SearchBar />
-</section>
-
-      <section className="mt-20 md:mt-32 pt-10 border-t border-[#EAE6E1]">
-  <h2 className="font-serif text-4xl md:text-5xl mb-6">
-    Related reading
-  </h2>
-
-  <div className="flex flex-col gap-8 text-[#6B6B6B]">
-    
-    <Link
-      href="/guides/why-we-dream"
-      className="hover:text-[#C6A96B] transition underline underline-offset-4"
-    >
-      Why do we dream?
-    </Link>
-
-    <Link
-      href="/guides/what-are-dreams"
-      className="hover:text-[#C6A96B] transition underline underline-offset-4"
-    >
-      What are dreams?
-    </Link>
-
-    <Link
-      href="/guides/spiritual-dreams-meaning"
-      className="hover:text-[#C6A96B] transition underline underline-offset-4"
-    >
-      Spiritual dreams meaning
-    </Link>
-
-    <Link
-      href="/guides/recurring-dreams"
-      className="hover:text-[#C6A96B] transition underline underline-offset-4"
-    >
-      Why do dreams repeat?
-    </Link>
-
-    <Link
-      href="/guides/lucid-dreaming"
-      className="hover:text-[#C6A96B] transition underline underline-offset-4"
-    >
-      What is lucid dreaming?
-    </Link>
-
-  </div>
-</section>
-<section className="mt-16">
-  <h2 className="font-serif text-2xl mb-4">
-    Popular dream meanings
-  </h2>
-
-  <div className="flex flex-wrap gap-3">
-    {dreams
-  .filter(
-    (dream) =>
-      dream.microSummary &&
-      dream.relatedDreams?.length > 0
-  )
-  .slice(0, 15)
-  .map((dream) => (
-    <Link
-      key={dream.slug}
-      href={getDreamHref(dream)}
-   className="text-sm px-4 py-2 border border-[#EAE6E1] rounded-full bg-white hover:border-[#C6A96B] transition"
-    >
-        {dream.title}
-      </Link>
-    ))}
-  </div>
-</section>
-      </section>
-
-      <SiteFooter />
-    </main>
-  );
+  return <main className="min-h-screen bg-[#f7f3ed] text-[#29251f]"><SiteHeader />
+    <section className="border-b border-[#ded7cd] bg-[#fbf9f5]"><div className="mx-auto max-w-6xl px-6 py-12 md:py-20"><Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Categories" }]} /><div className="grid items-end gap-10 md:grid-cols-[1.25fr_.75fr]"><div><p className="mb-4 text-xs uppercase tracking-[0.22em] text-[#8f743c]">Dream Meaning Atlas</p><h1 className="font-serif text-5xl leading-[1.05] md:text-7xl">Dream Categories</h1><p className="mt-6 max-w-2xl text-lg leading-8 text-[#686159]">Explore dreams through the themes, experiences, symbols, relationships, places, and situations that appear throughout our dream lives.</p></div><div className="rounded-3xl border border-[#ded7cd] bg-white/70 p-6"><p className="mb-4 text-sm text-[#686159]">Search for a symbol, person, place, or dream experience.</p><SearchBar /></div></div></div></section>
+    <div className="mx-auto max-w-6xl px-6">
+      <section className="py-16 md:py-24"><SectionHeading eyebrow="The atlas" title="Explore by Theme" intro="Each collection brings related dreams into conversation without reducing them to one fixed meaning." /><div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{categories.map((category) => { const data = categoriesData[category.key]; return <Link key={category.slug} href={`/categories/${category.slug}`} className="group rounded-[1.75rem] border border-[#ded7cd] bg-[#fcfaf6] p-6 transition hover:-translate-y-0.5 hover:border-[#b89b62] motion-reduce:transform-none"><p className="text-xs uppercase tracking-[0.16em] text-[#8f743c]">{category.count} dream{category.count === 1 ? "" : "s"}</p><h2 className="mt-3 font-serif text-2xl group-hover:text-[#806431]">{category.title} Dreams</h2><p className="mt-3 text-sm leading-6 text-[#70685f]">{data?.emotionalNature || `Dreams connected through ${category.title.toLowerCase()} imagery, experiences, and emotional context.`}</p></Link>; })}</div></section>
+      <section className="grid gap-10 border-y border-[#ded7cd] py-16 md:grid-cols-[.75fr_1.25fr] md:py-20"><SectionHeading eyebrow="A place to begin" title="Popular Dream Categories" intro="These broad collections offer several paths into the dream dictionary." /><div className="grid gap-3 sm:grid-cols-2">{popular.map((category, i) => <Link key={category.slug} href={`/categories/${category.slug}`} className="border-b border-[#ded7cd] py-4 font-serif text-xl hover:text-[#8f743c]"><span className="mr-4 text-sm text-[#a48a58]">0{i + 1}</span>{category.title}</Link>)}</div></section>
+      <section className="grid gap-12 py-16 md:grid-cols-2 md:py-24"><SectionHeading eyebrow="How the atlas works" title="What Do Dream Categories Mean?" /><div className="space-y-5 leading-7 text-[#686159]"><p>Dream categories are reading paths. They gather recurring symbols and situations so you can compare how a theme changes across different dreams.</p><p>A single dream may belong to several categories at once. A storm might be a water dream, an anxiety dream, and a transformation dream. None of those labels is a verdict; each offers a different angle for reflection.</p><p>Begin with the category that feels closest to what stayed with you, then pay attention to the dream&apos;s emotional tone and your own associations.</p></div></section>
+      <section className="border-t border-[#ded7cd] py-16"><SectionHeading eyebrow="Another way in" title="Explore Dreams by Emotion" intro="When the feeling is clearer than the symbol, follow an emotional pathway instead." /><div className="mt-8 grid gap-4 md:grid-cols-3">{emotions.map((emotion) => <Link key={emotion.slug} href={`/emotions/${emotion.slug}`} className="border-l border-[#b89b62] bg-white/55 p-5"><h3 className="font-serif text-xl">{emotion.title}</h3><p className="mt-2 text-sm leading-6 text-[#70685f]">{emotion.intro}</p></Link>)}</div><Link href="/emotions" className="mt-7 inline-block font-medium text-[#806431] underline underline-offset-4">Browse all dream emotions →</Link></section>
+      <section className="border-t border-[#ded7cd] py-16"><SectionHeading title="Explore Dream Guides" intro="Build a more grounded approach to symbols, patterns, and personal context." /><GuideLinks guides={guides} /></section>
+      <section className="border-t border-[#ded7cd] py-16"><SectionHeading title="Popular Dream Meanings" /><DreamPreviewGrid dreams={popularDreams} limit={8} /></section>
+      <FAQSection items={faqs} title="Questions About Dream Categories" />
+    </div><SiteFooter /></main>;
 }

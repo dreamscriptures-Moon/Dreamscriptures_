@@ -101,7 +101,7 @@ export default function DreamSubmissionForm() {
     return (
       <section className="rounded-3xl border border-[#D8C7A0] bg-white px-7 py-12 text-center shadow-[0_20px_55px_rgba(91,72,38,0.06)] md:px-12" aria-live="polite" tabIndex="-1">
         <div className="mx-auto mb-6 flex h-12 w-12 items-center justify-center rounded-full border border-[#D8C7A0] bg-[#FAF8F5] text-xl text-[#8F743C]" aria-hidden="true">✓</div>
-        <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-[#8A8175]">Community submission confirmed</p>
+        <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-[#8A8175]">Submission received</p>
         <h2 className="mb-4 font-serif text-3xl">Your dream has been received!</h2>
         <div className="mx-auto max-w-lg space-y-4 leading-relaxed text-[#5F574E]">
           <p>Thank you for trusting DreamScriptures.</p>
@@ -125,7 +125,11 @@ export default function DreamSubmissionForm() {
       <div className="space-y-8">
         <fieldset>
           <legend className="font-serif text-xl text-[#2A2A2A]">Interpretation type</legend>
-          <p className="mt-2 text-sm leading-relaxed text-[#756C61]">Both options include a meaningful interpretation. Choose based on the depth, personalization, and turnaround time you prefer.</p>
+          <p className="mt-2 text-sm leading-relaxed text-[#756C61]">✨ Every dream submitted to DreamScriptures receives a complete interpretation.
+
+Choose Community if you&apos;re happy to wait.
+
+Choose Premium if you&apos;d like our deepest interpretation, faster delivery, and a more personalized experience.</p>
           <div className="mt-5 grid items-start gap-4 sm:grid-cols-2">
             <InterpretationCard
               value="Community"
@@ -137,19 +141,34 @@ export default function DreamSubmissionForm() {
               detailsId="community-benefits"
               readMoreLabel="Read everything included →"
               defaultChecked
-              expandedBenefits={<div className="space-y-3 leading-relaxed"><p>✨ Complete dream interpretation</p><p>◆ Symbolic interpretation</p><p>♡ Emotional context and reflection</p><p>✝️ Biblical insights where appropriate</p><p>✉ Email notification when your interpretation is ready</p><p>○ Standard Community queue</p><p className="pt-2 font-medium text-[#3A3A3A]">Your first Community dream is always free.</p><p>Additional Community dream submissions are just $0.99 each to help reduce spam and keep the queue fair for everyone.</p><p className="rounded-2xl bg-white/70 p-4 text-[#3A3A3A]">Community interpretations are complete and meaningful—they&apos;re simply shorter and less personalized than Premium.</p></div>}
+              expandedBenefits={(
+                <div className="space-y-3 leading-relaxed">
+                  <p>✨ Complete dream interpretation</p>
+                  <p>🧠 Emotional reflection based on your dream</p>
+                  <p>🔍 Symbolic interpretation</p>
+                  <p>✝️ Biblical insights where appropriate</p>
+                  <p>📧 Email notification when your interpretation is ready</p>
+                  <p>🌍 Community interpretation queue</p>
+                  <p className="pt-2 font-medium text-[#3A3A3A]">💚 Your first Community dream is always free.</p>
+                  <p>Additional Community submissions are just <strong>$0.99</strong> to help reduce spam and keep response times fair.</p>
+                  <div className="rounded-2xl border border-[#E5DED1] bg-[#F8F6F2] p-4">
+                    <p className="font-medium text-[#2A2A2A]">✨ Every Community dream receives a genuine, thoughtfully written interpretation.</p>
+                    <p className="mt-2 text-sm">Premium isn&apos;t better because Community is incomplete. It simply provides deeper analysis, greater personalization, and faster delivery.</p>
+                  </div>
+                </div>
+              )}
             />
             <InterpretationCard
               value="Personal"
               title="Premium Dream Interpretation"
               price="$5.99"
-              description="Private. Personalized. Priority."
+              description="Private. Personalized. Deep interpretation."
               responseTime="2–8 hours"
               highlights={["VIP Priority Queue", "Downloadable PDF", "One follow-up question"]}
               detailsId="premium-benefits"
               readMoreLabel="See Premium benefits →"
               premium
-              expandedBenefits={<div className="space-y-3 leading-relaxed"><p>⭐ VIP Priority Queue</p><p>◆ Much deeper interpretation written specifically for your dream</p><p>✝️ Rich biblical references &amp; scripture connections</p><p>◇ Expanded symbolic and spiritual analysis</p><p>♡ Personalized emotional insights</p><p>✓ Practical life application and guidance</p><p>❓ One follow-up clarification question included</p><p>▣ Beautiful downloadable PDF</p><p>✉ Priority email delivery</p><p>⭐ VIP support</p><p className="pt-2 font-medium text-[#8F743C]">Up to 90% faster than Community</p></div>}
+              expandedBenefits={<div className="space-y-3 leading-relaxed"><p>⭐ Jump ahead of the queue</p><p>◆ Much deeper interpretation written specifically for your dream</p><p>✝️ Rich biblical references &amp; scripture connections</p><p>◇ Expanded symbolic and spiritual analysis</p><p>♡ Personalized emotional insights</p><p>✓ Practical life application and guidance</p><p>❓ One follow-up clarification question included</p><p>▣ Beautiful downloadable PDF</p><p>✉ Priority email delivery</p><p>⭐ VIP support</p><p className="pt-2 font-medium text-[#8F743C]">Up to 90% faster than Community</p></div>}
             />
           </div>
         </fieldset>
@@ -238,8 +257,10 @@ export default function DreamSubmissionForm() {
         <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/45 px-5" onMouseDown={(event) => { if (event.target === event.currentTarget) setDismissedPaymentUrl(state.authorizationUrl); }}>
           <section role="dialog" aria-modal="true" aria-labelledby="repeat-payment-title" className="w-full max-w-lg rounded-3xl border border-[#D8C7A0] bg-white p-7 shadow-2xl md:p-9">
             <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">Community queue</p>
-            <h2 id="repeat-payment-title" className="font-serif text-3xl">You&apos;ve already used your free Community submission.</h2>
-            <p className="mt-4 leading-relaxed text-[#5F574E]">To help prevent spam and keep response times fair, additional Community submissions cost $0.99.</p>
+            <h2 id="repeat-payment-title" className="font-serif text-3xl">🕊️ Your free Community dream has already been used.</h2>
+            <p className="mt-4 leading-relaxed text-[#5F574E]">To keep DreamScriptures fair for everyone and reduce spam, additional Community dream submissions are just $0.99.
+
+You&apos;ll still receive a complete dream interpretation with symbolic, emotional, spiritual and biblical insights.</p>
             <div className="mt-7 flex flex-wrap gap-3">
               <button type="button" autoFocus onClick={() => window.location.assign(state.authorizationUrl)} className="rounded-full bg-[#1A1A1A] px-6 py-3 text-sm font-medium text-white hover:bg-[#333] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]">Continue to Payment</button>
               <button type="button" onClick={() => setDismissedPaymentUrl(state.authorizationUrl)} className="rounded-full border border-[#D8C7A0] px-6 py-3 text-sm font-medium text-[#5F574E] hover:border-[#C6A96B] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]">Cancel</button>

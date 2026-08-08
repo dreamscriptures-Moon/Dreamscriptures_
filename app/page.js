@@ -1,711 +1,560 @@
 import Link from "next/link";
+
+import HomeSearchWrapper from "@/app/components/HomeSearchWrapper";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
+import QuoteBreakpoint from "@/app/components/QuoteBreakpoint";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-import HomeSearchWrapper from "./components/HomeSearchWrapper";
-import RandomQuote from "@/app/components/RandomQuote";
-import { DreamCard, DreamFeatureCard } from "@/components/DreamCards";
+import { DreamFeatureCard } from "@/components/DreamCards";
 import { dreams } from "@/data/dreams";
 import { emotionalHubs } from "@/data/emotionalHubs";
-import { featuredEmotions } from "@/data/featuredEmotions";
+import { getDreamOfTheDay } from "@/lib/dreamEngagement";
 import {
-  getDreamOfTheDay,
-  getRecentlyAddedDreams,
-} from "@/lib/dreamEngagement";
-import SearchSuggestions from "@/app/components/SearchSuggestions";
+  getCategoryEntries,
+  getEmotionEntries,
+  getDreamSummary,
+} from "@/lib/editorialDiscovery";
+import { getAllGuideEntries } from "@/lib/guideCatalog";
+import { getDreamBySlug } from "@/lib/dreams";
 import { getDreamHref } from "@/lib/routes";
 
+export const metadata = {
+  title: "Dream Meanings & Thoughtful Dream Interpretation",
+  description:
+    "Explore dream meanings through symbolism, emotions, spiritual reflection, and personal context with thoughtful, non-predictive dream interpretation.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Dream Meanings & Thoughtful Dream Interpretation | DreamScriptures",
+    description:
+      "Explore dream symbolism, emotional patterns, spiritual reflection, and personal context without fixed or fearful conclusions.",
+    url: "https://www.dreamscriptures.com",
+    siteName: "DreamScriptures",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dream Meanings & Thoughtful Dream Interpretation | DreamScriptures",
+    description:
+      "Explore dream symbolism, emotional patterns, spiritual reflection, and personal context without fixed or fearful conclusions.",
+  },
+};
 
-const featuredGuides = [
+const POPULAR_DREAM_SLUGS = [
+  "snake",
+  "falling",
+  "being-chased",
+  "teeth-falling-out",
+  "water",
+  "death",
+];
+
+const PREFERRED_CATEGORY_SLUGS = [
+  "anxiety",
+  "transformation",
+  "relationships",
+  "relationship",
+  "spiritual",
+  "water",
+  "animals",
+];
+
+const PREFERRED_EMOTION_SLUGS = [
+  "fear-of-losing-control",
+  "emotional-overwhelm",
+  "fear-of-abandonment",
+  "feeling-trapped",
+  "difficulty-letting-go",
+  "uncertainty",
+];
+
+const FEATURED_GUIDE_SLUGS = [
+  "interpretation",
+  "why-we-dream",
+  "dreams-and-emotions",
+  "spirituality",
+];
+
+const interpretationPrinciples = [
   {
-    slug: "why-we-dream",
-    title: "Why do we dream?",
-    desc: "Understanding what dreams are and why they happen.",
+    title: "Emotional patterns",
+    text: "The strongest feeling in a dream can change how its people, places, and symbols may be understood.",
   },
   {
-    slug: "recurring-dreams",
-    title: "Recurring dreams",
-    desc: "Why some dreams repeat and what they might mean.",
+    title: "Symbolism and the subconscious",
+    text: "Recurring images can be considered alongside memory, association, inner tension, and themes beneath the surface.",
   },
   {
-    slug: "nightmares",
-    title: "Nightmares",
-    desc: "What causes intense or disturbing dreams.",
+    title: "Spiritual reflection",
+    text: "Spiritual and biblical perspectives are included where the dream’s context and relevant source material make them appropriate.",
   },
   {
-    slug: "dreams-and-emotions",
-    title: "Dreams and emotions",
-    desc: "How your emotional state shapes your dreams.",
+    title: "Waking-life context",
+    text: "Your relationships, circumstances, beliefs, and personal associations remain essential to thoughtful interpretation.",
   },
 ];
 
-const emotions = [
-  { emoji:"😨", title:"Fear", slug:"fear" },
-  { emoji:"❤️", title:"Love", slug:"love" },
-  { emoji:"🌱", title:"Healing", slug:"healing" },
-  { emoji:"✨", title:"Hope", slug:"hope" },
-  { emoji:"😔", title:"Grief", slug:"grief" },
-  { emoji:"🌊", title:"Peace", slug:"peace" },
-];
+function selectPreferred(items, slugs, limit) {
+  const itemMap = new Map(items.map((item) => [item.slug, item]));
+  const preferred = slugs.map((slug) => itemMap.get(slug)).filter(Boolean);
+  const selectedSlugs = new Set(preferred.map((item) => item.slug));
+  const fallbacks = items.filter((item) => !selectedSlugs.has(item.slug));
 
-const trendingDreams = [
-  {
-    title: "Dream About Snakes",
-    slug: "snake",
-    subtitle: "Transformation • Fear • Wisdom",
-  },
-  {
-    title: "Dream About Death",
-    slug: "death",
-    subtitle: "Endings • Change • Renewal",
-  },
-  {
-    title: "Dream About Falling",
-    slug: "falling",
-    subtitle: "Loss of Control • Anxiety • Uncertainty",
-  },
-  {
-    title: "Dream About Being Chased",
-    slug: "chased",
-    subtitle: "Avoidance • Fear • Unresolved Conflict",
-  },
-  {
-    title: "Dream About Water",
-    slug: "water",
-    subtitle: "Emotions • Healing • The Subconscious",
-  },
-  {
-    title: "Dream About Pregnancy",
-    slug: "pregnant",
-    subtitle: "Growth • New Beginnings • Potential",
-  },
-];
+  return [...preferred, ...fallbacks].slice(0, limit);
+}
 
-const faqs=[
-
-"Can dreams predict the future?",
-
-"Why do I dream about the same person?",
-
-"Why do dreams repeat?",
-
-"Why can't I remember dreams?",
-
-"What causes nightmares?",
-
-"Do dreams have meaning?"
-
-]
-
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.dreamscriptures.com/#organization",
+      name: "DreamScriptures",
+      url: "https://www.dreamscriptures.com",
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.dreamscriptures.com/#website",
+      url: "https://www.dreamscriptures.com",
+      name: "DreamScriptures",
+      publisher: {
+        "@id": "https://www.dreamscriptures.com/#organization",
+      },
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.dreamscriptures.com/#webpage",
+      url: "https://www.dreamscriptures.com",
+      name: "Dream Meanings & Thoughtful Dream Interpretation",
+      description:
+        "Explore dream meanings through symbolism, emotions, spiritual reflection, and personal context.",
+      isPartOf: {
+        "@id": "https://www.dreamscriptures.com/#website",
+      },
+      about: {
+        "@id": "https://www.dreamscriptures.com/#organization",
+      },
+    },
+  ],
+};
 
 export default function Home() {
-  const recentlyAddedDreams = getRecentlyAddedDreams(dreams, 4);
+  const popularDreams = POPULAR_DREAM_SLUGS.map((slug) =>
+    getDreamBySlug(slug, dreams)
+  ).filter(Boolean);
+  const categoryEntries = getCategoryEntries();
+  const featuredCategories = selectPreferred(
+    categoryEntries,
+    PREFERRED_CATEGORY_SLUGS,
+    6
+  );
+  const supportedEmotions = getEmotionEntries().filter(
+    (emotion) => emotionalHubs[emotion.slug] && emotion.count > 0
+  );
+  const featuredEmotions = selectPreferred(
+    supportedEmotions,
+    PREFERRED_EMOTION_SLUGS,
+    6
+  );
+  const guideCatalog = getAllGuideEntries();
+  const featuredGuides = FEATURED_GUIDE_SLUGS.map((slug) =>
+    guideCatalog.find((guide) => guide.slug === slug)
+  ).filter(Boolean);
   const dreamOfTheDay = getDreamOfTheDay(dreams);
 
+  return (
+    <main className="min-h-screen bg-[#F7F5F2] text-[#1A1A1A]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
 
- 
- return (
-<main className="bg-[#F7F5F2] text-[#1A1A1A] min-h-screen">
-  <SiteHeader sticky />
-
-  {/* HERO */}
-  <section className="max-w-3xl mx-auto px-6 pt-12 md:pt-20 pb-10 text-center">
-
-    <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.15] font-serif tracking-tight mb-6">
-Discover What Your Dreams May Mean Through
-Emotion, Symbolism, Spirituality and Personal Context </h1>
-
-<p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
-Explore dream meanings through emotional patterns,
-symbolism, psychology, spirituality and personal
-reflection to better understand what your dreams
-may be communicating.
-</p>
-
-   <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-4">
-  Explore common dreams like 
-
-  <Link href="/dreams/falling" className="underline mx-1">falling</Link>, 
-  <Link href="/dreams/chased" className="underline mx-1">being chased</Link>, 
-  <Link href="/dreams/teeth-falling-out" className="underline mx-1">losing teeth</Link>, 
-  and 
-  <Link href="/dreams/snake" className="underline mx-1">snakes</Link>.
-</p>
-
-<p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
-  Understand your dreams through emotional patterns like 
-  <Link href="/emotions/fear-of-losing-control" className="underline mx-1">loss of control</Link>, 
-  <Link href="/emotions/emotional-overwhelm" className="underline mx-1">overwhelm</Link>, 
-  and 
-  <Link href="/emotions/uncertainty" className="underline mx-1">uncertainty</Link>.
-</p>
-  
-
-   <div className="w-26 h-[1px] bg-[#EAE6E1] mx-auto mt-6 mb-3" />
-  </section>
-
-<LazyMobileQuickNav />
-
-<section className="max-w-xl mx-auto px-6 pb-10 text-center">
-
-  <h2 className="text-xl md:text-2xl font-medium mb-4">
-    What does your dream mean?
-  </h2>
-
-  {/* Search */}
-  <div className="max-w-md mx-auto mb-6">
-    <HomeSearchWrapper />
-  </div>
-<SearchSuggestions />
-<div className="mt-8 grid gap-3 border-y border-[#EAE6E1] py-5 text-left sm:grid-cols-3" aria-label="Why trust DreamScriptures">
-  <p className="text-sm leading-relaxed text-[#5F574E]"><strong className="block text-[#1A1A1A]">Context-first</strong> Meanings are explored through emotion, symbolism, faith, and real life.</p>
-  <p className="text-sm leading-relaxed text-[#5F574E]"><strong className="block text-[#1A1A1A]">Reflective, not predictive</strong> We encourage discernment rather than fixed or fearful conclusions.</p>
-  <p className="text-sm leading-relaxed text-[#5F574E]"><strong className="block text-[#1A1A1A]">Transparent approach</strong> Our <Link href="/methodology" className="underline underline-offset-4">methodology</Link> and <Link href="/editorial-standards" className="underline underline-offset-4">editorial standards</Link> are public.</p>
-</div>
-{/* Divider */}
-<div className="flex items-center gap-4 my-6">
-  <div className="flex-1 h-[1px] bg-[#EAE6E1]" />
-  <span className="text-[10px] uppercase tracking-[0.2em] text-[#8A8175]"></span>
-  <div className="flex-1 h-[1px] bg-[#EAE6E1]" />
-</div>
-<div className="flex flex-wrap justify-center gap-3 mt-6 mb-8">
-  <span className="px-4 py-2 rounded-full bg-white border border-[#EAE6E1] text-sm">
-
-    🌙  {dreams.length}+ Dream Meanings
-
-  </span>
-
-  <span className="px-4 py-2 rounded-full bg-white border border-[#EAE6E1] text-sm">
-
-    ❤️ 74+ Emotional Themes
-
-  </span>
-
-  <span className="px-4 py-2 rounded-full bg-white border border-[#EAE6E1] text-sm">
-
-    📚 105+ Dream Guides
-
-  </span>
-
-</div>
-{/* DREAM OF THE DAY */}
-{/* DREAM OF THE DAY */}
-<section className="max-w-5xl mx-auto px-6 py-4 md:py-16">
-  <div className="mb-4 text-center">
-    <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
-      Daily reflection
-    </p>
-    <h2 className="font-serif text-4xl md:text-5xl">
-      Dream of the Day
-    </h2>
-  </div>
-
-  {/* Enhanced wrapper */}
-  <div className="relative bg-gradient-to-br from-white to-[#FAF8F5] border-l-4 border-[#C6A96B] rounded-2xl shadow-sm p-1">
-    <div className="bg-white rounded-xl p-6 md:p-8">
-      {/* Small moon icon + label */}
-      <div className="flex items-center gap-2 text-xs uppercase tracking-[0.15em] text-[#8A8175] mb-4">
-        <span className="text-lg">🌙</span>
-        <span>Today’s featured dream</span>
+      <SiteHeader sticky />
+      <div className="mx-auto max-w-6xl px-6">
+        <LazyMobileQuickNav />
       </div>
 
-      <DreamFeatureCard dream={dreamOfTheDay} />
-    </div>
-  </div>
-</section>
+      <section className="border-b border-[#E2DDD6] bg-[#FAF8F5]">
+        <div className="mx-auto max-w-4xl px-6 py-10 text-center md:py-16">
+          <p className="mb-4 text-[11px] uppercase tracking-[0.22em] text-[#8F743C]">
+            Thoughtful dream interpretation
+          </p>
+          <h1 className="mx-auto max-w-3xl font-serif text-4xl leading-[1.08] tracking-tight md:text-6xl">
+            Understand the dream beneath the symbols
+          </h1>
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-[#625C55] md:text-lg md:leading-8">
+            Explore what your dream may mean through emotion, symbolism,
+            spiritual reflection, and the personal context that makes every
+            dream different.
+          </p>
 
-<p className="text-sm text-[#6B6B6B] max-w-xl mx-auto mt-4">
-  Dreams often repeat the same emotional patterns beneath different symbols like fear, uncertainty, or loss of control.
-</p>
-</section>
+          <div className="mx-auto mt-8 max-w-2xl text-left md:mt-10">
+            <HomeSearchWrapper />
+          </div>
 
-
-{/* Trending Dreams */}
-<section className="max-w-6xl mx-auto px-6 py-16">
-  <div className="text-center mb-10">
-    <p className="uppercase tracking-[0.18em] text-xs text-[#8A8175]">
-      🔥 Trending This Week
-    </p>
-
-    <h2 className="font-serif text-4xl md:text-5xl mt-3">
-      Trending Dream Meanings
-    </h2>
-  </div>
-
-  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-    {trendingDreams.map((dream) => (
-      <Link
-        key={dream.slug}
-        href={getDreamHref(dream.slug)}
-        className="rounded-2xl border border-[#EAE6E1] bg-white p-6 transition hover:border-[#C6A96B]"
-      >
-     <h3 className="font-serif text-xl">
-  {dream.title}
-</h3>
-
-<p className="mt-2 text-sm text-[#6B6B6B]">
-  {dream.subtitle}
-</p>
-      </Link>
-    ))}
-  </div>
-</section>
-
- {/* Quote */}
-<section className="text-center py-24">
-  <RandomQuote />
-
-  <p className="uppercase text-xs mt-6 tracking-[0.2em]">
-    DreamScriptures
-  </p>
-</section>
-
-{/* Emotion Chips */}
-<section className="text-center py-16">
-
-<h2 className="font-serif text-4xl">
-Browse by Emotion
-</h2>
-
-<div className="flex flex-wrap justify-center gap-3 mt-8">
-
-{emotions.map((emotion) => (
-  <Link
-    key={emotion.slug}
-    href={`/emotions/${emotion.slug}`}
-    className="rounded-full border border-[#EAE6E1] px-5 py-3 bg-white hover:border-[#C6A96B]"
-  >
-    {emotion.emoji} {emotion.title}
-  </Link>
-))}
-
-</div>
-
-</section>
-
-{/* featuredGuides */}
-<section className="max-w-6xl mx-auto px-6 py-20">
-
-  <div className="text-center mb-10">
-
-    <h2 className="font-serif text-4xl">
-      Start Learning
-    </h2>
-
-  </div>
-
-  <div className="grid gap-6 md:grid-cols-2">
-
-    {featuredGuides.map((guide) => (
-
-      <Link
-        key={guide.slug}
-        href={`/guides/${guide.slug}`}
-        className="rounded-xl border border-[#EAE6E1] bg-white p-6 hover:border-[#C6A96B]"
-      >
-
-        <h3 className="font-serif text-2xl">
-          {guide.title}
-        </h3>
-
-        <p className="mt-3 text-[#6B6B6B]">
-          {guide.desc}
-        </p>
-
-      </Link>
-
-    ))}
-
-  </div>
-
-</section>
-
-
-{/* RECENTLY ADDED DREAMS */}
-<section className="max-w-6xl mx-auto px-6 py-12 md:py-20">
-  <div className="mx-auto mb-10 max-w-3xl text-center">
-    <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
-      Newly published
-    </p>
-
-    <h2 className="font-serif text-4xl md:text-5xl">
-      Recently Added Dreams
-    </h2>
-  </div>
-
-  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-    {recentlyAddedDreams.map((dream) => (
-      <DreamCard key={dream.slug || dream.title} dream={dream} />
-    ))}
-  </div>
-</section>
- 
-
-
-  {/* EXPLANATION */}
-  <section className="max-w-3xl mx-auto px-6 pb-12 text-left">
-    <h2 className="text-2xl md:text-3xl font-serif mb-4">
-      How can dreams be interpreted?
-    </h2>
-
-  <div className="space-y-4 mb-6">
-
-  <div className="flex gap-3">
-    <span className="text-[#C6A96B]">•</span>
-    <p className="text-[#6B6B6B]">
-      <strong className="text-[#1A1A1A]">Falling</strong> may reflect a loss of control.
-    </p>
-  </div>
-
-  <div className="flex gap-3">
-    <span className="text-[#C6A96B]">•</span>
-    <p className="text-[#6B6B6B]">
-      <strong className="text-[#1A1A1A]">Being chased</strong> may reflect avoidance,
-      pressure or unresolved stress.
-    </p>
-  </div>
-
-  <div className="flex gap-3">
-    <span className="text-[#C6A96B]">•</span>
-    <p className="text-[#6B6B6B]">
-      <strong className="text-[#1A1A1A]">Water</strong> may reflect emotional depth,
-      healing or personal change.
-    </p>
-  </div>
-
-</div>
-
-    <p className="text-[#6B6B6B] leading-relaxed">
-      Understanding your dreams involves looking at emotional patterns, symbolic meaning, 
-      spiritual interpretation, and real-life context. Explore our dream dictionary to 
-      discover what your dreams may be trying to tell you.
-    </p>
-    <p className="text-xs text-[#8A8177] mt-4">
-  Interpreted through emotional patterns, symbolic meaning, and real-life context not fixed definitions.
-</p>
-
-  </section>
-
-
-{/* OUR APPROACH */}
-
-<section className="bg-[#FAF9F7] px-6 py-20 md:py-28">
-  <div className="max-w-3xl mx-auto text-center">
-
-
-<p className="mb-4 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
-  Our approach
-</p>
-
-<h2 className="font-serif text-4xl md:text-5xl leading-tight text-[#1A1A1A]">
-The Meaning of a Dream Often Depends on the Emotion Behind It</h2>
-
-<div className="w-16 h-[1px] bg-[#C6A96B] mx-auto my-8 opacity-70" />
-
-<div className="space-y-6 text-base md:text-lg leading-relaxed text-[#6B6B6B]">
-  <p>
-    Many dream dictionaries assign fixed meanings to symbols.
-  </p>
-
-  <p>
-    DreamScriptures takes a different approach.
-  </p>
-
-  <p>
-    We explore dreams through emotional patterns, symbolic relationships,
-    subconscious themes, and personal context because the same dream can
-    mean something very different depending on how it feels and what is
-    happening in your life.
-  </p>
-</div>
-
-<div className="mt-10">
-  <Link
-    href="/methodology"
-    className="text-sm underline underline-offset-4 transition hover:text-[#8F743C]"
-  >
-    Learn How We Interpret Dreams →
-  </Link>
-</div>
-
-
-  </div>
-</section>
-
-
-{/* Explore Dreams Through Emotional Experiences */}
-      <section className="max-w-5xl mx-auto px-6 py-16 md:py-24">
-        <div className="max-w-3xl mx-auto text-center mb-10">
-          <h2 className="text-4xl md:text-5xl mb-5 font-serif">
-            Explore Dreams Through Emotional Experiences
-          </h2>
-
-          <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">
-  Dreams often repeat the same emotional patterns beneath different symbols.
-  A dream about falling, being chased, losing someone, or feeling trapped
-  may all connect to the same underlying emotional experience.
-</p>
-
-<p className="mt-5 text-[#6B6B6B] text-base md:text-lg leading-relaxed">
-  Explore the emotional states that dreams quietly return to during periods
-  of stress, uncertainty, transformation, grief, emotional pressure,
-  healing, or inner change.
-</p>
-        </div>
-
-        <div className="grid gap-5 md:grid-cols-2">
-          {featuredEmotions.map((item) => {
-            const emotion = emotionalHubs[item.slug];
-
-            if (!emotion) return null;
-
-            return (
-              <Link
-                key={item.slug}
-                href={`/emotions/${item.slug}`}
-                className="block border-l border-[#D8C7A0] bg-white/70 px-5 py-5 transition hover:border-[#C6A96B] hover:bg-white"
-              >
-                <h3 className="font-serif text-xl md:text-2xl text-[#1A1A1A]">
-                  {emotion.title}
-                </h3>
-
-                <p className="mt-3 text-sm md:text-base leading-relaxed text-[#6B6B6B]">
-  {item.intro || emotion.intro}
-</p>
-
-{emotion.subconsciousPatterns?.length > 0 && (
-  <p className="mt-4 text-[13px] leading-relaxed text-[#8A8177]">
-    Common patterns:{" "}
-    {emotion.subconsciousPatterns
-      .slice(0, 2)
-      .join(", ")}
-  </p>
-)}
-              </Link>
-            );
-          })}
+          <div className="mt-7 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm">
+            <Link
+              href="/dreams"
+              className="inline-flex min-h-11 items-center border-b border-[#9A7B43] text-[#4F4942] transition hover:text-[#8F743C]"
+            >
+              Explore dream meanings
+            </Link>
+            <Link
+              href="/submit-dream"
+              className="inline-flex min-h-11 items-center text-[#756C61] transition hover:text-[#8F743C] hover:underline hover:underline-offset-4"
+            >
+              Submit your dream
+            </Link>
+          </div>
         </div>
       </section>
 
-
-    <section className="max-w-5xl mx-auto px-6 py-20 md:py-28">
-
-  <div className="text-center max-w-3xl mx-auto mb-12">
-
-    <p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-4">
-      Dream Library
-    </p>
-
-    <h2 className="text-4xl md:text-5xl font-serif mb-6">
-      Dreams Knowledge Hub
-    </h2>
-
-    <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">
-      Explore dreams through science, psychology,
-      spirituality, symbolism, wellness, history and
-      modern research. Learn how dreams work before
-      exploring individual dream meanings.
-    </p>
-
-  </div>
-
-  <div className="grid gap-5 md:grid-cols-2">
-
-    <Link href="/guides/basics" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
-      <h3 className="font-serif text-2xl">📖 Basics</h3>
-      <p className="mt-3 text-[#6B6B6B]">
-        Learn what dreams are, why we dream and how dream interpretation works.
-      </p>
-    </Link>
-
-    <Link href="/guides/science" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
-      <h3 className="font-serif text-2xl">🧠 Science</h3>
-      <p className="mt-3 text-[#6B6B6B]">
-        REM sleep, memory, brain activity and neuroscience.
-      </p>
-    </Link>
-
-    <Link href="/guides/psychology" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
-      <h3 className="font-serif text-2xl">🧠 Psychology</h3>
-      <p className="mt-3 text-[#6B6B6B]">
-        Freud, Jung, subconscious patterns and emotion.
-      </p>
-    </Link>
-
-    <Link href="/guides/spirituality" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
-      <h3 className="font-serif text-2xl">✨ Spirituality</h3>
-      <p className="mt-3 text-[#6B6B6B]">
-        Christian, Islamic and African dream perspectives.
-      </p>
-    </Link>
-
-    <Link href="/guides/history-culture" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
-      <h3 className="font-serif text-2xl">🌍 History & Culture</h3>
-      <p className="mt-3 text-[#6B6B6B]">
-        Discover how civilizations have understood dreams.
-      </p>
-    </Link>
-
-    <Link href="/guides/wellness" className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition">
-      <h3 className="font-serif text-2xl">🌿 Wellness</h3>
-      <p className="mt-3 text-[#6B6B6B]">
-        Improve dream recall, sleep quality and reflection.
-      </p>
-    </Link>
-
-<Link
-  href="/guides/interpretation"
-  className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition"
->
-
-  <h3 className="font-serif text-2xl">
-    🧩 Interpretation
-  </h3>
-
-  <p className="mt-3 text-[#6B6B6B]">
-    Learn how DreamScriptures interprets dreams using emotion, symbolism and context.
-  </p>
-
-</Link>
-
-<Link
-  href="/guides/research"
-  className="block bg-white border border-[#EAE6E1] rounded-xl p-6 hover:border-[#C6A96B] transition"
->
-
-  <h3 className="font-serif text-2xl">
-    🔬 Research
-  </h3>
-
-  <p className="mt-3 text-[#6B6B6B]">
-    Explore modern dream studies, sleep research and scientific discoveries.
-  </p>
-
-</Link>
-
-  </div>
-
-<div className="text-center mt-12">
-
-  <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-3">
-    Continue Learning
-  </p>
-
-  <h3 className="font-serif text-3xl mb-4">
-    Explore the Dream Library
-  </h3>
-
-  <p className="text-[#6B6B6B] max-w-2xl mx-auto mb-8">
-    Learn about dreams through psychology, science, spirituality,
-    symbolism, history and practical dream interpretation.
-  </p>
-
-  <Link
-    href="/guides"
-    className="inline-flex items-center gap-2 bg-[#1A1A1A] text-white rounded-full px-6 py-3 hover:bg-[#333] transition"
-  >
-    Explore the Dream Library →
-  </Link>
-
-</div>
-
-</section>
-
-
-<Link
-  href="/about"
-  className="block max-w-5xl mx-auto px-6 pb-24"
->
-  <section className="bg-[#FAF8F5] border border-[#EAE6E1] rounded-2xl px-8 md:px-12 py-12 hover:border-[#C6A96B] transition duration-300">
-
-    <p className="text-[11px] uppercase tracking-[0.2em] text-[#5F574E] mb-4">
-      About DreamScriptures
-    </p>
-
-    <h2 className="text-3xl md:text-4xl font-serif leading-tight mb-5 text-[#1A1A1A]">
-      A more thoughtful way to understand dreams
-    </h2>
-
-    <p className="text-[#4A4A4A] max-w-2xl leading-relaxed text-base md:text-lg">
-    Most dream dictionaries focus on fixed meanings.
-
-DreamScriptures explores dreams through emotional patterns,
-symbolic relationships, subconscious themes,
-and personal context.
-</p>
-
-    <div className="mt-8 inline-flex items-center gap-2 text-sm text-[#6B6B6B] group">
-      <span className="group-hover:text-[#1A1A1A] transition">
-        Learn more about our approach
-      </span>
-      <span className="group-hover:translate-x-1 transition">
-        →
-      </span>
-    </div>
-
-  </section>
-</Link>
-
-<section className="text-center py-20 md:py-28 bg-[#FAF8F5]">
-  <div className="max-w-3xl mx-auto px-6">
-    <h2 className="font-serif text-3xl md:text-4xl mb-4">
-      Still wondering what your dream means?
-    </h2>
-    <p className="text-[#6B6B6B] text-base md:text-lg mb-8 max-w-xl mx-auto">
-      Search over 300 dream interpretations, emotional themes, and dream guides.
-    </p>
-
-    <div className="max-w-md mx-auto mb-6">
-      <HomeSearchWrapper />
-    </div>
-
-    {/* New prominent CTA row */}
-    <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-4">
-      <Link
-        href="/dreams"
-        className="inline-flex items-center gap-2 bg-[#1A1A1A] text-white rounded-full px-8 py-3 text-sm font-medium hover:bg-[#333] transition"
+      <section
+        aria-label="Why trust DreamScriptures"
+        className="mx-auto max-w-6xl px-6 py-10 md:py-12"
       >
-        Explore All Dreams →
-      </Link>
-      <Link
-        href="/guides"
-        className="inline-flex items-center gap-2 border border-[#EAE6E1] bg-white rounded-full px-8 py-3 text-sm font-medium text-[#1A1A1A] hover:border-[#C6A96B] transition"
-      >
-        Browse Guides
-      </Link>
-      <Link
-        href="/submit-dream"
-        className="inline-flex items-center gap-2 border border-[#D8C7A0] bg-[#F7F3EC] rounded-full px-8 py-3 text-sm font-medium text-[#1A1A1A] hover:border-[#C6A96B] transition"
-      >
-        Submit Your Dream
-      </Link>
-    </div>
-  </div>
-</section>
+        <div className="grid border-y border-[#DED7CD] md:grid-cols-3">
+          <div className="py-5 md:pr-7">
+            <p className="font-serif text-lg">Context-first</p>
+            <p className="mt-2 text-sm leading-6 text-[#686159]">
+              Meanings are considered through emotion, symbolism, faith, and
+              real life.
+            </p>
+          </div>
+          <div className="border-t border-[#DED7CD] py-5 md:border-l md:border-t-0 md:px-7">
+            <p className="font-serif text-lg">Reflective, not predictive</p>
+            <p className="mt-2 text-sm leading-6 text-[#686159]">
+              We encourage discernment rather than fixed, fearful, or absolute
+              conclusions.
+            </p>
+          </div>
+          <div className="border-t border-[#DED7CD] py-5 md:border-l md:border-t-0 md:pl-7">
+            <p className="font-serif text-lg">A transparent approach</p>
+            <p className="mt-2 text-sm leading-6 text-[#686159]">
+              Read our{" "}
+              <Link href="/methodology" className="underline underline-offset-4">
+                methodology
+              </Link>{" "}
+              and{" "}
+              <Link
+                href="/editorial-standards"
+                className="underline underline-offset-4"
+              >
+                editorial standards
+              </Link>
+              .
+            </p>
+          </div>
+        </div>
+        <p className="mx-auto mt-7 max-w-3xl text-center font-serif text-base italic leading-7 text-[#514B44] md:text-lg">
+          DreamScriptures explores emotional patterns, symbolism, subconscious
+          themes, spiritual reflection, and biblical perspectives where the
+          dream’s context and relevant source material make them appropriate.
+        </p>
+      </section>
 
-<section className="max-w-5xl mx-auto px-6 py-20">
-  <div className="text-center mb-10">
-    <p className="uppercase tracking-[0.18em] text-xs text-[#8A8175]">
-      Frequently Asked
-    </p>
+      <section className="mx-auto max-w-6xl px-6 py-12 md:py-16">
+        <div className="flex flex-col justify-between gap-5 border-b border-[#DED7CD] pb-7 sm:flex-row sm:items-end">
+          <div>
+            <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-[#8F743C]">
+              A place to begin
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl">
+              Popular Dream Meanings
+            </h2>
+          </div>
+          <Link
+            href="/dreams"
+            className="text-sm font-medium text-[#806431] underline underline-offset-4"
+          >
+            Browse all dream meanings →
+          </Link>
+        </div>
 
-    <h2 className="font-serif text-4xl">
-      Common Dream Questions
-    </h2>
-  </div>
+        <div className="grid gap-x-10 md:grid-cols-2">
+          {popularDreams.map((dream, index) => (
+            <Link
+              key={dream.slug || dream.title}
+              href={getDreamHref(dream)}
+              className="group grid min-h-24 grid-cols-[2rem_1fr] gap-4 border-b border-[#DED7CD] py-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#9A7B43]"
+            >
+              <span className="pt-1 text-xs text-[#A48A58]">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+              <span>
+                <span className="block font-serif text-xl transition group-hover:text-[#806431] md:text-2xl">
+                  {dream.title}
+                </span>
+                <span className="mt-2 block text-sm leading-6 text-[#70685F]">
+                  {getDreamSummary(dream, 118)}
+                </span>
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
 
-  <div className="grid gap-4 sm:grid-cols-2">
-    {faqs.map((faq) => (
-      <Link
-        key={faq}
-        href="/guides"
-        className="rounded-xl border border-[#EAE6E1] bg-white p-5 hover:border-[#C6A96B] transition"
-      >
-        {faq}
-      </Link>
-    ))}
-  </div>
-</section>
+      <QuoteBreakpoint
+        heading="A thought for your journey"
+        initialQuote={
+          "Sometimes a dream is not telling you what will happen.\nIt is showing you what your heart has been trying to say."
+        }
+      />
+
+      <section className="border-y border-[#DED7CD] bg-[#FBF9F5]">
+        <div className="mx-auto grid max-w-6xl gap-12 px-6 py-14 lg:grid-cols-2 lg:gap-16 md:py-20">
+          <div>
+            <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-[#8F743C]">
+              Follow the theme
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl">
+              Explore by Category
+            </h2>
+            <p className="mt-4 max-w-xl leading-7 text-[#686159]">
+              Browse connected symbols, situations, and experiences without
+              reducing every dream to one fixed definition.
+            </p>
+            <div className="mt-7 divide-y divide-[#DED7CD] border-y border-[#DED7CD]">
+              {featuredCategories.map((category) => (
+                <Link
+                  key={category.slug}
+                  href={`/categories/${category.slug}`}
+                  className="group flex min-h-16 items-center justify-between gap-5 py-3.5 md:py-4"
+                >
+                  <span>
+                    <span className="font-serif text-lg group-hover:text-[#806431]">
+                      {category.title} Dreams
+                    </span>
+                    <span className="mt-1 block text-xs uppercase tracking-[0.12em] text-[#8A8175]">
+                      {category.count} dream{category.count === 1 ? "" : "s"}
+                    </span>
+                  </span>
+                  <span aria-hidden="true" className="text-[#A48A58]">
+                    →
+                  </span>
+                </Link>
+              ))}
+            </div>
+            <Link
+              href="/categories"
+              className="mt-7 inline-flex min-h-11 items-center font-medium text-[#806431] underline underline-offset-4"
+            >
+              View all dream categories →
+            </Link>
+          </div>
+
+          <div className="lg:border-l lg:border-[#DED7CD] lg:pl-16">
+            <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-[#8F743C]">
+              Follow the feeling
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl">
+              Explore by Emotion
+            </h2>
+            <p className="mt-4 max-w-xl leading-7 text-[#686159]">
+              When the feeling is clearer than the symbol, begin with the
+              emotional pattern that stayed with you.
+            </p>
+            <div className="mt-7 divide-y divide-[#DED7CD] border-y border-[#DED7CD]">
+              {featuredEmotions.map((emotion) => (
+                <Link
+                  key={emotion.slug}
+                  href={`/emotions/${emotion.slug}`}
+                  className="group block min-h-16 py-3.5 md:py-4"
+                >
+                  <span className="font-serif text-lg group-hover:text-[#806431]">
+                    {emotion.title}
+                  </span>
+                  <span className="mt-1 line-clamp-3 text-sm leading-6 text-[#70685F] md:line-clamp-none">
+                    {emotion.intro}
+                  </span>
+                </Link>
+              ))}
+            </div>
+            <Link
+              href="/emotions"
+              className="mt-7 inline-flex min-h-11 items-center font-medium text-[#806431] underline underline-offset-4"
+            >
+              View all dream emotions →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-14 md:py-20">
+        <div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:gap-16">
+          <header>
+            <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-[#8F743C]">
+              Our approach
+            </p>
+            <h2 className="font-serif text-3xl leading-tight md:text-4xl">
+              How DreamScriptures interprets dreams
+            </h2>
+            <div className="mt-7 h-px w-14 bg-[#C6A96B]" aria-hidden="true" />
+            <p className="mt-7 leading-7 text-[#686159]">
+              A symbol can mean something different depending on how the dream
+              felt and what is happening in the dreamer’s life. Our
+              interpretations offer perspectives to consider, not verdicts.
+            </p>
+          </header>
+
+          <div className="space-y-7">
+            {interpretationPrinciples.map((principle) => (
+              <div
+                key={principle.title}
+                className="border-l border-[#D8C7A0] pl-5"
+              >
+                <h3 className="font-serif text-xl">{principle.title}</h3>
+                <p className="mt-2 leading-7 text-[#686159]">
+                  {principle.text}
+                </p>
+              </div>
+            ))}
+            <div className="flex flex-wrap gap-x-6 gap-y-2 pt-2 text-sm">
+              <Link
+                href="/methodology"
+                className="font-medium text-[#806431] underline underline-offset-4"
+              >
+                Read our methodology →
+              </Link>
+              <Link
+                href="/editorial-standards"
+                className="font-medium text-[#806431] underline underline-offset-4"
+              >
+                Editorial standards →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {featuredGuides.length > 0 && (
+        <section className="border-y border-[#DED7CD] bg-[#F2EDE5]">
+          <div className="mx-auto max-w-6xl px-6 py-14 md:py-20">
+            <div className="max-w-2xl">
+              <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-[#8F743C]">
+                Go deeper
+              </p>
+              <h2 className="font-serif text-3xl md:text-4xl">
+                Explore the Dream Knowledge Hub
+              </h2>
+              <p className="mt-4 leading-7 text-[#686159]">
+                Learn how dreams work and develop a more grounded way to
+                reflect on emotion, symbolism, spirituality, and context.
+              </p>
+            </div>
+            <div className="mt-9 grid gap-x-8 border-t border-[#D8D0C5] md:grid-cols-2">
+              {featuredGuides.map((guide) => (
+                <Link
+                  key={guide.slug}
+                  href={`/guides/${guide.slug}`}
+                  className="group border-b border-[#D8D0C5] py-6"
+                >
+                  <h3 className="font-serif text-xl group-hover:text-[#806431]">
+                    {guide.title}
+                  </h3>
+                  {guide.description && (
+                    <p className="mt-2 text-sm leading-6 text-[#70685F]">
+                      {guide.description}
+                    </p>
+                  )}
+                </Link>
+              ))}
+            </div>
+            <Link
+              href="/guides"
+              className="mt-7 inline-flex min-h-11 items-center font-medium text-[#806431] underline underline-offset-4"
+            >
+              Browse the full knowledge hub →
+            </Link>
+          </div>
+        </section>
+      )}
+
+      <section className="mx-auto max-w-5xl px-6 py-14 md:py-20">
+        <div className="grid gap-9 border-l-2 border-[#C6A96B] bg-white/60 px-6 py-9 md:grid-cols-[0.9fr_1.1fr] md:px-10 md:py-11">
+          <div>
+            <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-[#8F743C]">
+              When the library is not enough
+            </p>
+            <h2 className="font-serif text-3xl leading-tight md:text-4xl">
+              Share a dream that feels personal
+            </h2>
+            <p className="mt-5 leading-7 text-[#686159]">
+              If your dream feels too specific for a general meaning, you can
+              request a genuine interpretation. Share only what you feel
+              comfortable sharing.
+            </p>
+          </div>
+          <div>
+            <div className="border-b border-[#DED7CD] pb-5">
+              <h3 className="font-serif text-xl">
+                Community Dream Interpretation
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-[#686159]">
+                Your first Community dream is free. Additional Community
+                submissions are $0.99. Every submission receives a complete,
+                thoughtfully written interpretation.
+              </p>
+            </div>
+            <div className="py-5">
+              <h3 className="font-serif text-xl">
+                Personal Dream Interpretation · $5.99
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-[#686159]">
+                A deeper, more personalized interpretation with expanded
+                emotional, symbolic, spiritual, and biblical analysis, plus
+                faster delivery.
+              </p>
+            </div>
+            <Link
+              href="/submit-dream"
+              className="inline-flex min-h-12 items-center justify-center rounded-full bg-[#1A1A1A] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#333]"
+            >
+              Submit Your Dream →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {dreamOfTheDay && (
+        <section className="border-y border-[#DED7CD] bg-[#FBF9F5]">
+          <div className="mx-auto max-w-5xl px-6 py-14 md:py-20">
+            <header className="mb-8 max-w-2xl">
+              <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-[#8F743C]">
+                Daily reflection
+              </p>
+              <h2 className="font-serif text-3xl md:text-4xl">
+                Dream of the Day
+              </h2>
+            </header>
+            <DreamFeatureCard dream={dreamOfTheDay} />
+          </div>
+        </section>
+      )}
+
+      <QuoteBreakpoint
+        heading="Before you go…"
+        initialQuote={
+          "There are dreams we remember because they frightened us,\nand dreams we remember because they revealed us."
+        }
+      />
+
+      <section className="mx-auto max-w-3xl px-6 py-14 text-center md:py-20">
+        <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-[#8F743C]">
+          Continue exploring
+        </p>
+        <h2 className="font-serif text-3xl md:text-4xl">
+          Still thinking about a dream?
+        </h2>
+        <p className="mx-auto mt-4 max-w-xl leading-7 text-[#686159]">
+          Search the dream library for the symbol, person, place, or feeling
+          that stayed with you.
+        </p>
+        <div className="mx-auto mt-8 max-w-xl text-left">
+          <HomeSearchWrapper showSuggestions={false} />
+        </div>
+      </section>
 
       <SiteFooter />
     </main>

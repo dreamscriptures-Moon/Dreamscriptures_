@@ -136,10 +136,6 @@ export function DreamFeatureCard({ dream }) {
 
       <div className="flex flex-col justify-center p-8 md:p-8">
 
-        <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
-          🌙 Dream of the Day
-        </p>
-
         {(category || readingTime) && (
           <div className="mb-4 flex flex-wrap items-center gap-3 text-xs uppercase tracking-wide text-[#8A8175]">
 

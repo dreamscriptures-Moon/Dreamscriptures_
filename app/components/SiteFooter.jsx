@@ -15,24 +15,22 @@ export default function SiteFooter() {
               Exploring dream meaning through emotional patterns, symbolism,
               subconscious themes, and reflective interpretation.
             </p>
+
+            <div className="mt-6 text-sm text-[#6B6B6B]">
+              <p className="mb-3">
+                Help DreamScriptures grow, one dream at a time.
+              </p>
+
+              <a
+                href="https://buymeacoffee.com/dreamscriptures"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex min-h-11 items-center underline underline-offset-4 hover:text-[#C6A96B]"
+              >
+                ☕ Support Our Dream
+              </a>
+            </div>
           </div>
-
-<div className="mt-8 text-sm text-[#6B6B6B]">
-
-  <p className="mb-3">
-    Enjoying DreamScriptures?
-  </p>
-
-  <a
-    href="https://buymeacoffee.com/dreamscriptures"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="underline hover:text-[#C6A96B]"
-  >
-    ☕ Support the project
-  </a>
-
-</div>
 
           <div>
             <h3 className="text-xs font-medium uppercase tracking-[0.14em] text-[#8A8175]">Dreams</h3>

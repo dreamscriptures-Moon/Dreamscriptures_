@@ -70,9 +70,7 @@ export default function SubmitDreamPage() {
         <DreamSubmissionForm />
 
         <aside className="mt-10 border-l border-[#D8C7A0] pl-5 text-sm leading-relaxed text-[#756C61]">
-          Share only what feels comfortable. Submitting a dream does not
-          guarantee publication or a personal interpretation.
-        </aside>
+     Share only what feels comfortable. Dreams often carry deeply personal emotions and experiences. Every submission is handled with care, respect, and thoughtful attention, and we&apos;ll email you as soon as your interpretation is ready. </aside>
       </article>
 
       <SiteFooter />

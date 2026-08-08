@@ -20,29 +20,42 @@ export default function BuyMeCoffee() {
       href="https://buymeacoffee.com/dreamscriptures"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="Support Our Dream"
       className={`
         group
         fixed
-        bottom-6
-        right-6
+        bottom-5
+        right-4
         z-50
 
         flex
         items-center
+        justify-center
+
+        h-12
+        w-12
 
         rounded-full
         border
         border-[#C6A96B]
         bg-[#FAF8F5]
 
-        px-4
-        py-3
+        px-0
+        py-0
 
         shadow-lg
         transition-all
         duration-300
 
         hover:shadow-xl
+
+        md:bottom-6
+        md:right-6
+        md:h-auto
+        md:w-auto
+        md:justify-start
+        md:px-4
+        md:py-3
 
         ${showMobile ? "flex" : "hidden md:flex"}
       `}
@@ -67,7 +80,7 @@ export default function BuyMeCoffee() {
         </p>
 
         <p className="text-sm font-medium text-[#5F574E] mt-1">
-         Support the project
+         Support Our Dream
         </p>
       </div>
     </a>

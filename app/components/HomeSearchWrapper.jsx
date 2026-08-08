@@ -1,5 +1,5 @@
 import HomeSearch from "./HomeSearch";
 
-export default function HomeSearchWrapper() {
-  return <HomeSearch />;
+export default function HomeSearchWrapper({ showSuggestions = true }) {
+  return <HomeSearch showSuggestions={showSuggestions} />;
 }
