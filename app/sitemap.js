@@ -10,7 +10,7 @@ const CONTENT_DATE_FIELDS = ["updatedAt", "publishedAt", "createdAt"];
 
 // Keeping entry creation in one place makes it easy to add optional image data
 // and new content collections (such as blog posts or devotionals) later.
-function getContentDate(content, fallback) {
+function getContentDate(content) {
   for (const field of CONTENT_DATE_FIELDS) {
     if (!content?.[field]) continue;
 
@@ -18,15 +18,16 @@ function getContentDate(content, fallback) {
     if (!Number.isNaN(date.getTime())) return date;
   }
 
-  return fallback;
+  return undefined;
 }
 
-function createEntry(path, { content, lastModified, changeFrequency, priority }, fallback) {
+function createEntry(path, { content, lastModified, changeFrequency, priority }) {
   const normalizedPath = path === "/" ? "" : `/${String(path).replace(/^\/+|\/+$/g, "")}`;
+  const contentDate = lastModified || getContentDate(content);
 
   return {
     url: `${BASE_URL}${normalizedPath}`,
-    lastModified: lastModified || getContentDate(content, fallback),
+    ...(contentDate ? { lastModified: contentDate } : {}),
     changeFrequency,
     priority,
   };
@@ -112,11 +113,10 @@ const PILLAR_GUIDE_PRIORITIES = {
 };
 
 export default function sitemap() {
-  const fallbackDate = new Date();
   const indexedDreams = dreams.filter(isDreamIndexable);
 
   const staticPages = STATIC_PAGES.map(([path, changeFrequency, priority]) =>
-    createEntry(path, { changeFrequency, priority }, fallbackDate)
+    createEntry(path, { changeFrequency, priority })
   );
 
   const guidePages = getAllGuideEntries().map((guide) =>
@@ -126,8 +126,7 @@ export default function sitemap() {
         content: guide,
         changeFrequency: "monthly",
         priority: PILLAR_GUIDE_PRIORITIES[normalizeSlug(guide.slug)] || 0.75,
-      },
-      fallbackDate
+      }
     )
   );
 
@@ -138,8 +137,7 @@ export default function sitemap() {
         content: dream,
         changeFrequency: "weekly",
         priority: getDreamPriority(dream),
-      },
-      fallbackDate
+      }
     )
   );
 
@@ -149,8 +147,7 @@ export default function sitemap() {
   const categoryPages = categories.map((category) =>
     createEntry(
       `/categories/${normalizeSlug(category)}`,
-      { changeFrequency: "weekly", priority: 0.8 },
-      fallbackDate
+      { changeFrequency: "weekly", priority: 0.8 }
     )
   );
 
@@ -161,8 +158,7 @@ export default function sitemap() {
         content: emotion,
         changeFrequency: "weekly",
         priority: 0.85,
-      },
-      fallbackDate
+      }
     )
   );
 
