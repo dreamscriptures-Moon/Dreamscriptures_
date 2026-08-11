@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "audit:content": "node scripts/content-quality-audit.mjs",
+    "audit:related": "node scripts/content-quality-audit.mjs --related-json"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.4",

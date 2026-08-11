@@ -5,6 +5,14 @@ import SiteHeader from "@/app/components/SiteHeader";
 import Link from "next/link";
 import LazyMobileQuickNav from "../components/LazyMobileQuickNav";
 import { getDreamHref } from "@/lib/routes";
+
+export const metadata = {
+  title: "Dream Dictionary: Explore Dream Meanings",
+  description:
+    "Browse the DreamScriptures dream dictionary by symbol, theme, category, and emotional pattern.",
+  alternates: { canonical: "/dreams" },
+};
+
 function normalizeCategory(cat = "") {
   const c = cat.toLowerCase().trim();
 
@@ -29,7 +37,7 @@ const searchableDreams = dreams.map((dream) => ({
   slug: dream.slug,
   title: dream.title,
   normalizedTitle: dream.title.toLowerCase(),
-  description: `${(dream.description || "").slice(0, 90)}...`,
+  description: `${(dream.description || dream.uniqueDescription || "").slice(0, 90)}...`,
   categoryKeys: (dream.categories || []).map(normalizeCategory),
 }));
 

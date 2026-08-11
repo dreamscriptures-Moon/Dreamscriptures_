@@ -1,6 +1,10 @@
 import { dreams } from "@/data/dreams";
+import { notFound } from "next/navigation";
+
+export const metadata = { robots: { index: false, follow: false } };
 
 export default function DreamListPage() {
+  if (process.env.NODE_ENV === "production") notFound();
   const sortedDreams = [...dreams].sort((a, b) =>
     a.title.localeCompare(b.title)
   );

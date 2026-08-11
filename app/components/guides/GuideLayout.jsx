@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
+import ContentSources from "@/app/components/ContentSources";
 import SubmitYourDreamCTA from "@/components/SubmitYourDreamCTA";
 import { GuideCardGrid, GuideHero, GuideSchemas } from "@/app/components/guides/GuideChrome";
 import { dreams } from "@/data/dream";
@@ -27,6 +28,7 @@ export function normalizeGuide(input = {}) {
     relatedDreams: input.relatedDreams || [],
     faqs: input.faqs || input.FAQs || [],
     metadata: input.metadata || {},
+    sources: input.sources || [],
     updated: input.updated || input.lastUpdated,
   };
 }
@@ -60,6 +62,7 @@ export default function GuideLayout({ guide: rawGuide, children, contentStart = 
       {guide.actions.length > 0 && <section><h2 className="mb-6 font-serif text-3xl text-[#1A1A1A]">Action Steps</h2><ul className="space-y-4">{guide.actions.map((item) => <li key={item} className="flex gap-4 rounded-xl bg-white p-4 leading-7"><span aria-hidden="true" className="text-[#9A7B3F]">✓</span><span>{item}</span></li>)}</ul></section>}
       <GuideCardGrid title="Related Dream Meanings" items={relatedDreams} type="dream" />
       <GuideCardGrid title="Related Guides" items={relatedGuides} />
+      <ContentSources sources={guide.sources} />
       {continueReading && <section className="border-t border-[#E2DCD3] pt-12"><h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">Continue Reading</h2><div className="flex flex-wrap gap-3"><Link className="rounded-full border border-[#D9D1C6] bg-white px-5 py-3 hover:border-[#B79B5E]" href="/guides/types-of-dreams">Types of dreams</Link><Link className="rounded-full border border-[#D9D1C6] bg-white px-5 py-3 hover:border-[#B79B5E]" href="/emotions">Dream emotions</Link><Link className="rounded-full border border-[#D9D1C6] bg-white px-5 py-3 hover:border-[#B79B5E]" href="/categories">Dream categories</Link></div></section>}
     </article><SubmitYourDreamCTA /><SiteFooter />
   </main>;

@@ -1,3 +1,5 @@
+import { originalInterpretationGuides } from "./originalInterpretationGuides.js";
+
 function uniqueGuidesBySlug(items) {
   const seen = new Set();
 
@@ -9,6 +11,7 @@ function uniqueGuidesBySlug(items) {
 }
 
 export const guides = uniqueGuidesBySlug([
+...originalInterpretationGuides,
 {
   slug: "what-are-dreams",
 

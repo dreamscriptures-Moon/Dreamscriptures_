@@ -1,3 +1,5 @@
+import { applyEmotionEditorialDepth } from "./emotionEditorialDepth.js";
+
 const baseHubDefaults = {
   emotionalThemes: [],
   dreamSymbols: [],
@@ -68,15 +70,18 @@ const hubDefinitions = {
     "pressure to keep everything together",
     "emotional overload",
   ],
+  commonDreamPatterns: ["Falling or uncontrollable movement", "Vehicles that will not respond", "Structures collapsing", "Trying to manage several urgent events at once"],
+  contextualDifferences: [
+    { title: "Sudden loss of control", description: "A sudden fall or crash may emphasize shock and instability, while a slow drift off course may emphasize gradual disconnection from a plan." },
+    { title: "Responsibility versus exposure", description: "Trying to protect others can center responsibility; being watched while failing to regain control can center judgment or shame." },
+  ],
+  relatedEmotionalStates: ["emotional-overwhelm", "feeling-trapped", "uncertainty"],
+  examples: [{ title: "Illustrative example: a car without brakes", description: "The meaning changes depending on whether the road is empty, crowded, familiar, or leading toward a destination the dreamer chose." }],
   questionsToReflectOn: [
-
-"What currently feels outside your control?",
-
-"Where have you been carrying too much responsibility?",
-
-"What feels emotionally unstable right now?",
-
-],
+    "What in the dream stopped responding to my choices?",
+    "Was I responsible only for myself, or also for other people?",
+    "Did I try to force control, ask for help, adapt, or let events unfold?",
+  ],
 },
 "emotional-overwhelm": {
   title: "Emotional Overwhelm",
@@ -117,15 +122,18 @@ const hubDefinitions = {
     "constant responsibility accumulation",
     "difficulty emotionally slowing down",
   ],
+  commonDreamPatterns: ["Rising water or multiplying problems", "Crowds, noise, or competing demands", "Endless unfinished tasks", "No safe place to pause or recover"],
+  contextualDifferences: [
+    { title: "Volume and pace", description: "Many small demands may point to accumulation, while one enormous force can reflect a single situation that dominates emotional attention." },
+    { title: "Escape and support", description: "Finding shelter or accepting help changes the pattern from pure overload to the possibility of containment or shared responsibility." },
+  ],
+  relatedEmotionalStates: ["fear-of-losing-control", "feeling-trapped", "emotional-exhaustion"],
+  examples: [{ title: "Illustrative example: rooms filling with water", description: "Water entering one room may focus on a particular area of life; water moving through the whole house can suggest that pressure no longer feels contained." }],
   questionsToReflectOn: [
-
-"What currently feels outside your control?",
-
-"Where have you been carrying too much responsibility?",
-
-"What feels emotionally unstable right now?",
-
-],
+    "Which demand kept multiplying or returning in the dream?",
+    "Where, if anywhere, could I pause or receive help?",
+    "What would have made the situation feel containable rather than endless?",
+  ],
 },
  "fear-of-abandonment": {
   title: "Fear of Abandonment",
@@ -166,15 +174,18 @@ const hubDefinitions = {
     "sensitivity to separation",
     "emotional reassurance seeking",
   ],
+  commonDreamPatterns: ["A loved one disappearing", "Calls or messages that receive no answer", "Being left behind during travel", "Searching familiar places for someone"],
+  contextualDifferences: [
+    { title: "Separation versus rejection", description: "Accidental separation may center uncertainty and reconnection, while deliberate exclusion can place more weight on rejection, trust, or belonging." },
+    { title: "Known and unknown figures", description: "A specific person connects the dream to that relationship; an unknown figure may represent a broader expectation that closeness will not last." },
+  ],
+  relatedEmotionalStates: ["loneliness", "fear-of-rejection", "wanting-closure"],
+  examples: [{ title: "Illustrative example: a partner missing from a train", description: "Leaving without them may raise conflict between continuing forward and preserving connection; getting off to search changes the focus toward attachment and reassurance." }],
   questionsToReflectOn: [
-
-"What currently feels outside your control?",
-
-"Where have you been carrying too much responsibility?",
-
-"What feels emotionally unstable right now?",
-
-],
+    "Who was unavailable, and what reassurance was I seeking from them?",
+    "Did the dream show rejection, accidental separation, or uncertainty about where I stood?",
+    "How did I respond when connection could not be restored immediately?",
+  ],
 },
  uncertainty: {
   title: "Uncertainty About the Future",
@@ -716,15 +727,18 @@ questionsToReflectOn: [
     "lack-of-control",
     "emotional-overwhelm",
   ],
+  commonDreamPatterns: ["Locked doors or blocked exits", "Movement that becomes slow or impossible", "Rooms or passages becoming smaller", "Responsibilities that repeat without completion"],
+  contextualDifferences: [
+    { title: "External and internal restriction", description: "A visible captor or locked structure may emphasize an outside constraint, while being unable to move without a barrier can emphasize hesitation, exhaustion, or inner conflict." },
+    { title: "Escape and choice", description: "Discovering an overlooked exit suggests available options; repeatedly returning to the same room may emphasize a pattern that has not changed." },
+  ],
+  relatedEmotionalStates: ["fear-of-being-trapped", "lack-of-control", "emotional-overwhelm"],
+  examples: [{ title: "Illustrative example: a door that will not open", description: "A locked workplace door may connect restriction with responsibility, while a locked bedroom door may place more emphasis on privacy, safety, or a close relationship." }],
 questionsToReflectOn: [
-
-"What currently feels outside your control?",
-
-"Where have you been carrying too much responsibility?",
-
-"What feels emotionally unstable right now?",
-
-],
+    "What specifically limited my movement or choice?",
+    "Was the barrier imposed by a person, a place, a duty, or my own hesitation?",
+    "What changed when I stopped repeating the same escape attempt?",
+  ],
   emotionalPathways: [
     "fear-of-being-trapped",
     "lack-of-control",
@@ -1176,15 +1190,18 @@ questionsToReflectOn: [
     "fear of emotional change",
     "difficulty emotionally moving forward",
   ],
+  commonDreamPatterns: ["Returning to an old home or relationship", "Repeating an unfinished conversation", "Trying to recover something already gone", "Missing a departure because of something left behind"],
+  contextualDifferences: [
+    { title: "The person and the period", description: "Dreaming of someone from the past may concern that person, but it can also concern the role, need, or version of yourself associated with that period." },
+    { title: "Reconnection and completion", description: "Trying to restart the past differs from saying goodbye, returning an object, or finally leaving a familiar place." },
+  ],
+  relatedEmotionalStates: ["letting-go", "wanting-closure", "grief"],
+  examples: [{ title: "Illustrative example: packing an old room", description: "Taking every object may emphasize preserving identity or memory, while choosing one item and leaving can emphasize selective remembrance and movement." }],
 questionsToReflectOn: [
-
-"What currently feels outside your control?",
-
-"Where have you been carrying too much responsibility?",
-
-"What feels emotionally unstable right now?",
-
-],
+    "Was I trying to return, repair, retrieve, or finally leave?",
+    "What did the past setting or person represent during that period of my life?",
+    "Which feeling remains unfinished even if the situation itself has ended?",
+  ],
   connectedDreams: [
     "ex-partner",
     "being-in-the-past",
@@ -1812,3 +1829,5 @@ export const emotionalHubs = Object.fromEntries(
     },
   ])
 );
+
+applyEmotionEditorialDepth(emotionalHubs);

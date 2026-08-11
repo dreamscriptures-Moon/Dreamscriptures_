@@ -60,6 +60,7 @@ function getDreamPriority(dream) {
 
   const interpretationFields = [
     dream.description,
+    dream.uniqueDescription,
     dream.emotionalMeaning,
     dream.symbolicMeaning,
     dream.spiritualMeaning,

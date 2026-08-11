@@ -41,6 +41,10 @@ export const metadata = {
   },
 };
 
+// Refresh the statically generated homepage often enough for the UTC-based
+// Dream of the Day to advance without requiring a deployment.
+export const revalidate = 3600;
+
 const POPULAR_DREAM_SLUGS = [
   "snake",
   "falling",
@@ -298,7 +302,7 @@ export default function Home() {
       <QuoteBreakpoint
         heading="A thought for your journey"
         initialQuote={
-          "Sometimes a dream is not telling you what will happen.\nIt is showing you what your heart has been trying to say."
+          "Begin with the feeling that organized the dream, then ask what the symbol was doing inside that feeling."
         }
       />
 
@@ -536,7 +540,7 @@ export default function Home() {
       <QuoteBreakpoint
         heading="Before you go…"
         initialQuote={
-          "There are dreams we remember because they frightened us,\nand dreams we remember because they revealed us."
+          "A dream that lingers may be asking for attention, not certainty."
         }
       />
 

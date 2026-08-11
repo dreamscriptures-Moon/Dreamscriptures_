@@ -60,7 +60,7 @@ export default function DreamSemanticAuthority({ dream }) {
         {clusters.map((cluster) => (
           <a
             key={cluster.key}
-            href={`#${cluster.key}`}
+            href={`#authority-cluster-${cluster.key}`}
             className="border border-[#EAE6E1] bg-white/70 px-3 py-2 text-sm text-[#5F574E] transition hover:border-[#C6A96B]"
           >
             {cluster.title}
@@ -70,7 +70,7 @@ export default function DreamSemanticAuthority({ dream }) {
         {authorityTypes.map((type) => (
           <a
             key={type.anchorId}
-            href={`#${type.anchorId}`}
+            href={`#authority-${type.anchorId}`}
             className="border border-[#EAE6E1] bg-white/70 px-3 py-2 text-sm text-[#5F574E] transition hover:border-[#C6A96B]"
           >
             {type.label}
@@ -96,12 +96,12 @@ export default function DreamSemanticAuthority({ dream }) {
           return (
             <section
               key={cluster.key}
-              id={cluster.key}
-              aria-labelledby={`${cluster.key}-heading`}
+              id={`authority-cluster-${cluster.key}`}
+              aria-labelledby={`authority-cluster-${cluster.key}-heading`}
               className="scroll-mt-28"
             >
               <h3
-                id={`${cluster.key}-heading`}
+                id={`authority-cluster-${cluster.key}-heading`}
                 className="font-serif text-2xl md:text-3xl"
               >
                 {cluster.title}
@@ -170,12 +170,12 @@ export default function DreamSemanticAuthority({ dream }) {
               {authorityTypes.map((type) => (
                 <section
                   key={type.anchorId}
-                  id={type.anchorId}
-                  aria-labelledby={`${type.anchorId}-heading`}
+                  id={`authority-${type.anchorId}`}
+                  aria-labelledby={`authority-${type.anchorId}-heading`}
                   className="scroll-mt-28 border-l border-[#D8C7A0] bg-white/75 px-4 py-3"
                 >
                   <h4
-                    id={`${type.anchorId}-heading`}
+                    id={`authority-${type.anchorId}-heading`}
                     className="font-serif text-lg text-[#1A1A1A]"
                   >
                     {type.label}

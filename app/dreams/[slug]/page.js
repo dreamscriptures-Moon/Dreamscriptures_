@@ -8,10 +8,8 @@ import SearchBar from "@/app/components/SearchBar";
 import DreamInsightSection from "@/components/DreamInsightSection";
 import BiblicalPerspective from "@/components/BiblicalPerspective";
 import SubmitYourDreamCTA from "@/components/SubmitYourDreamCTA";
-import DreamMethodologyCallout from "@/components/DreamMethodologyCallout";
 import ArticleFeedback from "@/components/ArticleFeedback";
 import ContinueExploring from "@/components/ContinueExploring";
-import DreamCallout from "@/components/DreamCallout";
 import DreamEmotionalConnections from "@/components/emotions/DreamEmotionalConnections";
 import DreamEmotionalPathways from "@/components/emotions/DreamEmotionalPathways";
 import DreamSemanticAuthority from "@/components/emotions/DreamSemanticAuthority";
@@ -19,6 +17,7 @@ import ReadingProgressBar from "@/components/ReadingProgressBar";
 import RelatedDreams from "@/components/RelatedDreams";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
+import ContentSources from "@/app/components/ContentSources";
 import DreamPageClientNav from "./DreamPageClientNavDynamic";
 import DreamSubmissionPopup from "./DreamSubmissionPopup";
 import { dreams } from "@/data/dreams";
@@ -37,7 +36,6 @@ import {
   getDynamicDreamTitle,
   linkCategories,
   shorten,
-  uniqueDreams,
 } from "@/lib/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import ClusterPathway from "@/app/components/ClusterPathway";
@@ -85,11 +83,17 @@ export async function generateMetadata({ params } = {}) {
 
   const title = dream?.title || String(metadataSlug).replace(/-/g, " ");
   const description = shorten(
-    `Learn what dreaming about ${title} means, including emotional, spiritual, and real-life interpretations. Discover what your dream may be trying to tell you.`
+    dream?.seoDescription ||
+      dream?.microSummary ||
+      dream?.shortDescription ||
+      dream?.description ||
+      dream?.uniqueDescription ||
+      `Explore possible meanings and context for dreams about ${title}.`,
+    160
   );
   const canonicalSlug = normalizeSlug(getCanonicalDreamSlug(dream, metadataSlug));
 
-  const dynamicTitle = getDynamicDreamTitle(title);
+  const dynamicTitle = getDynamicDreamTitle(title, dream);
 
   return {
     title: dynamicTitle,
@@ -244,8 +248,10 @@ function DreamListSection({ id, eyebrow, title, items = [] }) {
   );
 }
 
-function BehavioralInsightsSection({ insights = [] }) {
-  if (insights.length === 0) {
+function BehavioralInsightsSection({ dream }) {
+  const { paragraphs, items } = getBehaviorInsights(dream);
+
+  if (paragraphs.length === 0 && items.length === 0) {
     return null;
   }
 
@@ -262,22 +268,13 @@ function BehavioralInsightsSection({ insights = [] }) {
         Why This Dream Can Feel So Specific
       </h2>
 
-      <div className="space-y-6">
-        {insights.map((insight) => (
-          <section
-            key={insight.title}
-            id={normalizeSlug(insight.title)}
-            className="scroll-mt-28"
-          >
-            <h3 className="font-serif text-xl text-[#1A1A1A]">
-              {insight.title}
-            </h3>
-            <p className="mt-2 text-base leading-relaxed text-[#6B6B6B]">
-              {insight.content}
-            </p>
-          </section>
-        ))}
-      </div>
+      {paragraphs.length > 0 && <TextBlocks text={paragraphs.join("\n\n")} />}
+      {items.length > 0 && <div className="space-y-6">
+        {items.map((insight) => <div key={insight.key}>
+          {insight.title && <h3 className="font-serif text-xl text-[#1A1A1A]">{insight.title}</h3>}
+          <p className={`${insight.title ? "mt-2 " : ""}text-base leading-relaxed text-[#6B6B6B]`}>{insight.content}</p>
+        </div>)}
+      </div>}
     </section>
   );
 }
@@ -285,7 +282,7 @@ function BehavioralInsightsSection({ insights = [] }) {
 function DreamEmotionalThemesSection({ dream }) {
   const themes = [
     ...new Set([
-      ...toTextItems(dream.emotionalStates),
+      ...toTextItems(dream.emotionalState || dream.emotionalStates),
       ...toTextItems(dream.emotionalTriggers),
       ...(dream.emotionalConnections || []),
     ]),
@@ -395,7 +392,7 @@ function buildTypePreview(item = {}, standaloneDream) {
 }
 
 function DreamTypesSection({ dream }) {
-  const types = (dream.types || [])
+  const normalizedTypes = (dream.types || [])
     .map((item) => {
       const type = String(item?.type || item?.title || "").trim();
       const previewSlug = getTypePreviewSlug(item);
@@ -422,6 +419,9 @@ function DreamTypesSection({ dream }) {
           item.emotionalMeaning ||
           item.symbolicMeaning)
     );
+  const types = [
+    ...new Map(normalizedTypes.map((item) => [item.id, item])).values(),
+  ];
 
   if (types.length === 0) {
     return null;
@@ -583,7 +583,7 @@ function MultipleMeaningsSection({ dream, dreamTitle }) {
     .map((thread) => formatCategory(thread))
     .slice(0, 6);
 
-  if (interpretiveThreads.length === 0 && contradictionItems.length === 0) {
+  if (contradictionItems.length === 0) {
     return null;
   }
 
@@ -600,27 +600,18 @@ function MultipleMeaningsSection({ dream, dreamTitle }) {
         Why {dreamTitle.toLowerCase()} dreams can mean more than one thing
       </h2>
 
-      {contradictionItems.length > 0 ? (
-        <div className="space-y-5">
-          {contradictionItems.map((item) => (
-            <div key={`${item.title}-${item.body.slice(0, 24)}`}>
-              <h3 className="font-serif text-xl text-[#1A1A1A]">
-                {item.title}
-              </h3>
-              <p className="mt-2 text-base leading-relaxed text-[#6B6B6B]">
-                {item.body}
-              </p>
-            </div>
-          ))}
-        </div>
-      ) : (
-        <p className="max-w-2xl text-base leading-relaxed text-[#6B6B6B]">
-          This dream may change meaning depending on what you felt inside it and
-          what is happening around you. It can move through several interpretive
-          threads at once, especially when emotion, symbolism, and waking life
-          are overlapping.
-        </p>
-      )}
+      <div className="space-y-5">
+        {contradictionItems.map((item) => (
+          <div key={`${item.title}-${item.body.slice(0, 24)}`}>
+            <h3 className="font-serif text-xl text-[#1A1A1A]">
+              {item.title}
+            </h3>
+            <p className="mt-2 text-base leading-relaxed text-[#6B6B6B]">
+              {item.body}
+            </p>
+          </div>
+        ))}
+      </div>
 
       {interpretiveThreads.length > 0 && (
         <div className="mt-6 flex flex-wrap gap-2">
@@ -637,6 +628,121 @@ function MultipleMeaningsSection({ dream, dreamTitle }) {
     </section>
   );
 }
+
+function DreamSymbolsSection({ symbols }) {
+  const items = [...new Set(toTextItems(symbols).map((item) => String(item).trim()).filter(Boolean))];
+  if (items.length === 0) return null;
+
+  return <section id="dream-symbols" className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10">
+    <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">Details in this dream</p>
+    <h2 className="mb-4 font-serif text-3xl md:text-4xl">Dream Symbols</h2>
+    <p className="mb-6 max-w-2xl text-base leading-relaxed text-[#6B6B6B]">These are the specific images and details developed in this interpretation. Their importance depends on what happened and how you felt in the dream.</p>
+    <div className="flex flex-wrap gap-2">{items.map((item) => <span key={item} className="border border-[#EAE6E1] bg-white/70 px-4 py-2 text-sm text-[#5F574E]">{formatCategory(item)}</span>)}</div>
+  </section>;
+}
+
+function DreamScenariosSection({ scenarios, context }) {
+  const items = getStructuredItems(scenarios);
+  const contextText = typeof context === "string" ? context.trim() : "";
+  if (items.length === 0 && !contextText) return null;
+
+  return <section id="dream-scenarios" className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10">
+    <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">Scenario and context</p>
+    <h2 className="mb-5 font-serif text-3xl md:text-4xl">How the Details Can Change the Meaning</h2>
+    {contextText && <TextBlocks text={contextText} className="mb-8" />}
+    {items.length > 0 && <div className="space-y-7">{items.map((item) => <div key={item.key} className="border-l border-[#D8C7A0] pl-5">
+      {item.title && <h3 className="font-serif text-xl text-[#1A1A1A]">{item.title}</h3>}
+      {item.body && <p className={`${item.title ? "mt-2 " : ""}text-base leading-relaxed text-[#6B6B6B]`}>{item.body}</p>}
+    </div>)}</div>}
+  </section>;
+}
+
+function ReflectionQuestionsSection({ questions }) {
+  const items = toTextItems(questions);
+  if (items.length === 0) return null;
+
+  return <section id="reflection-questions" className="mt-16 scroll-mt-28 border-y border-[#EAE6E1] bg-white/60 px-5 py-9 md:px-8">
+    <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">Personal reflection</p>
+    <h2 className="mb-4 font-serif text-3xl md:text-4xl">Questions for Reflecting on This Dream</h2>
+    <p className="mb-6 text-base leading-relaxed text-[#6B6B6B]">Use these editorial prompts to explore your own context. They are invitations to reflection, not a diagnostic test.</p>
+    <ul className="space-y-3">{items.map((question) => <li key={question} className="flex gap-3 text-base leading-relaxed text-[#5F574E]"><span aria-hidden="true" className="text-[#C6A96B]">—</span><span>{question}</span></li>)}</ul>
+  </section>;
+}
+
+function IllustrativeExamplesSection({ examples }) {
+  const items = getStructuredItems(examples, ["example", "description", "text", "meaning"]);
+  if (items.length === 0) return null;
+
+  return <section id="illustrative-examples" className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10">
+    <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">Illustrative examples · not user submissions</p>
+    <h2 className="mb-5 font-serif text-3xl md:text-4xl">How Context Can Shape the Interpretation</h2>
+    <div className="space-y-7">{items.map((item) => <div key={item.key} className="border border-[#EAE6E1] bg-white/70 p-5">
+      {item.title && <h3 className="font-serif text-xl text-[#1A1A1A]">{item.title}</h3>}
+      {item.body && <p className={`${item.title ? "mt-2 " : ""}text-base leading-relaxed text-[#6B6B6B]`}>{item.body}</p>}
+    </div>)}</div>
+  </section>;
+}
+
+function DreamTagsSection({ tags }) {
+  const items = [...new Set(toTextItems(tags).map((item) => String(item).trim()).filter(Boolean))];
+  if (items.length === 0) return null;
+
+  return <section aria-labelledby="dream-tags-heading" className="mt-16 border-t border-[#EAE6E1] pt-10">
+    <h2 id="dream-tags-heading" className="mb-5 font-serif text-2xl md:text-3xl">Topics in This Interpretation</h2>
+    <div className="flex flex-wrap gap-2">{items.map((item) => <span key={item} className="rounded-full border border-[#EAE6E1] bg-white/70 px-4 py-2 text-sm text-[#5F574E]">{item}</span>)}</div>
+  </section>;
+}
+
+function getDreamDescription(dream = {}) {
+  return dream.description || dream.uniqueDescription || "";
+}
+
+function getDreamCategories(dream = {}) {
+  const values = [
+    ...toTextItems(dream.category),
+    ...toTextItems(dream.categories),
+  ];
+
+  return [...new Set(values.map((value) => String(value).trim()).filter(Boolean))];
+}
+
+function getBehaviorInsights(dream = {}) {
+  const value = dream.behaviorInsights || dream.behavioralInsights;
+
+  if (!value) return { paragraphs: [], items: [] };
+  if (typeof value === "string") {
+    return { paragraphs: getParagraphs(value), items: [] };
+  }
+
+  const items = Array.isArray(value)
+    ? value.map((item, index) => {
+        if (typeof item === "string") {
+          return { title: "", content: item, key: `${index}-${item.slice(0, 30)}` };
+        }
+
+        const title = item?.title || item?.behavior || item?.label || "";
+        const content = item?.content || item?.meaning || item?.description || item?.text || "";
+        return { title, content, key: `${index}-${title || content.slice(0, 30)}` };
+      }).filter((item) => item.content)
+    : [];
+
+  return { paragraphs: [], items };
+}
+
+function getStructuredItems(value, bodyKeys = ["meaning", "description", "text", "example"]) {
+  if (!Array.isArray(value)) return [];
+
+  return value.map((item, index) => {
+    if (typeof item === "string") {
+      return { title: "", body: item, key: `${index}-${item.slice(0, 30)}` };
+    }
+
+    const title = item?.title || item?.label || "";
+    const body = bodyKeys.map((key) => item?.[key]).find(Boolean) || "";
+    return { title, body, key: `${index}-${title || body.slice(0, 30)}` };
+  }).filter((item) => item.title || item.body);
+}
+
 
 export default async function DreamPage({ params }) {
   const resolvedParams = await params;
@@ -672,16 +778,18 @@ function firstUsefulText(...values) {
     const items = toTextItems(value);
     if (items[0]) return shorten(items[0], 210);
   }
-  return "Consider this alongside the dream's emotional tone and your present circumstances.";
+  return "";
 }
 
-function renderQuickTakeaways(dream, dreamTitle) {
+function renderQuickTakeaways(dream) {
   const takeaways = [
-    { label: "Symbolic", text: firstUsefulText(dream.symbolicMeaning, dream.symbolic, dream.microSummary, dream.description) },
-    { label: "Emotional", text: firstUsefulText(dream.emotionalMeaning, dream.emotional, dream.emotionalStates, dream.microSummary) },
-    { label: "Spiritual", text: firstUsefulText(dream.spiritualMeaning, dream.spiritual, dream.summary, dream.microSummary) },
-    { label: "Biblical", text: firstUsefulText(dream.biblicalMeaning, dream.biblical, `Scripture can offer a reflective lens for a ${dreamTitle.toLowerCase()} dream, but context and discernment still matter.`) },
-  ];
+    { label: "Symbolic", text: firstUsefulText(dream.symbolicMeaning, dream.symbolic) },
+    { label: "Emotional", text: firstUsefulText(dream.emotionalMeaning, dream.emotional) },
+    { label: "Spiritual", text: firstUsefulText(dream.spiritualMeaning, dream.spiritual) },
+    { label: "Biblical", text: firstUsefulText(dream.biblicalMeaning, dream.biblical) },
+  ].filter((item) => item.text);
+
+  if (takeaways.length === 0) return null;
 
   return (
     <section id="quick-takeaways" aria-labelledby="quick-takeaways-heading" className="mb-12 scroll-mt-28 border-y border-[#EAE6E1] bg-white/60 px-5 py-7 md:px-7">
@@ -699,56 +807,13 @@ function renderQuickTakeaways(dream, dreamTitle) {
   );
 }
 
-function renderInterpretationContextSection() {
-  const factors = [
-    "The emotions you felt during and after the dream",
-    "Whether it was recurring or happened only once",
-    "The people involved and what they mean to you",
-    "The setting, atmosphere, and location",
-    "How the dream ended or changed direction",
-    "Your current relationships, pressures, and season of life",
-  ];
-  return (
-    <section id="meaning-context" className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10">
-      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">Context matters</p>
-      <h2 className="mb-4 font-serif text-3xl md:text-4xl">What Can Change the Meaning?</h2>
-      <p className="max-w-2xl text-base leading-relaxed text-[#6B6B6B]">A symbol does not carry one universal meaning. Consider the whole dream and your own associations before deciding which interpretation feels relevant.</p>
-      <ul className="mt-6 grid gap-3 md:grid-cols-2">
-        {factors.map((factor) => <li key={factor} className="border border-[#EAE6E1] bg-white/70 px-4 py-3 text-sm leading-relaxed text-[#5F574E]">{factor}</li>)}
-      </ul>
-      <p className="mt-5 text-sm leading-relaxed text-[#6B6B6B]">Read more about this context-first approach in our <Link href="/methodology" className="underline underline-offset-4 hover:text-[#8F743C]">dream interpretation methodology</Link>.</p>
-    </section>
-  );
-}
-
-function renderDreamReflectionSection() {
-  const questions = [
-    "What emotions stood out most during the dream—and after waking?",
-    "Has anything similar happened recently in your relationships or daily life?",
-    "Does this dream echo your current season of life, a decision, or a transition?",
-    "Which detail felt most personal or unusual to you?",
-    "Is there a Bible passage that speaks to this situation and invites prayer or wisdom?",
-  ];
-  return (
-    <section id="reflect-on-your-dream" className="mt-16 scroll-mt-28 border-y border-[#EAE6E1] bg-white/60 px-5 py-9 md:px-8">
-      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">Personal reflection</p>
-      <h2 className="mb-4 font-serif text-3xl md:text-4xl">Reflect on Your Dream</h2>
-      <p className="mb-6 text-base leading-relaxed text-[#6B6B6B]">Use these questions as prompts, not a test. Your own memories, faith, emotions, and circumstances are essential context.</p>
-      <ul className="space-y-3">
-        {questions.map((question) => <li key={question} className="flex gap-3 text-base leading-relaxed text-[#5F574E]"><span aria-hidden="true" className="text-[#C6A96B]">—</span><span>{question}</span></li>)}
-      </ul>
-    </section>
-  );
-}
-
-const relatedDreamItems = uniqueDreams([
-  ...getDreamsBySlugs(dream.relatedDreams, dreams),
-  ...getIntelligentRelatedDreams(dream, dreams, 6),
-]).slice(0, 6);
+const explicitRelatedDreams = getDreamsBySlugs(dream.relatedDreams, dreams);
+const relatedDreamItems = explicitRelatedDreams;
 const primaryRelatedDream = relatedDreamItems[0];
+const dreamCategories = getDreamCategories(dream);
 const primaryEmotionSlug = [
   ...(dream.emotionalConnections || []),
-  ...(dream.categories || []),
+  ...dreamCategories,
 ]
   .map((value) => normalizeSlug(value))
   .find((emotionSlug) => emotionalHubs[emotionSlug]);
@@ -759,49 +824,21 @@ const primaryEmotion = primaryEmotionSlug
   const exploreThemes = getExploreThemes(dreams);
   const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
   const insightSections = getDreamInsightSections(dream);
-  const summaryText = generateSummary(dream, dreamTitle);
-  const dynamicTitle = getDynamicDreamTitle(dreamTitle);
+  const summaryText = generateSummary(dream);
+  const dynamicTitle = getDynamicDreamTitle(dreamTitle, dream);
   const breadcrumbSchema = getBreadcrumbSchema({
     dreamTitle,
     canonicalDreamSlug,
     emotion: primaryEmotion?.title,
     emotionSlug: primaryEmotionSlug,
   });
-  const faqItems = getDreamFAQItems(dream, dreamTitle);
+  const faqItems = getDreamFAQItems(dream);
   const faqSchema = getFAQSchema(faqItems);
   const readingTime = getReadingTime(dream);
   const continueExploringDreams = getIntelligentRelatedDreams(dream, dreams, 6);
 
 function getDreamContext(dream) {
-  const categories = (dream.categories || []).map((category) =>
-    normalizeSlug(category)
-  );
-
-  if (categories.includes("fear") || categories.includes("anxiety")) {
-    return `
-    This dream often appears during periods of stress, avoidance, or emotional tension,
-    especially when something feels difficult to confront directly.
-    `;
-  }
-
-  if (categories.includes("transformation")) {
-    return `
-    This dream tends to appear during periods of change, growth, or transition,
-    when something in your life is shifting beneath the surface.
-    `;
-  }
-
-  if (categories.includes("loss")) {
-    return `
-    This dream may appear when processing loss, emotional change, or letting go,
-    especially when something meaningful is evolving or ending.
-    `;
-  }
-
-  return `
-  This dream often appears during moments of reflection, uncertainty, or emotional movement,
-  when something in your inner world is trying to surface.
-  `;
+  return dream.interpretationContext || dream.whenThisDreamAppears || "";
 }
 
   return (
@@ -867,32 +904,33 @@ function getDreamContext(dream) {
 <p className="mb-8 text-sm text-[#8A8177]" aria-label={`Estimated reading time ${readingTime} minutes`}>
   <span aria-hidden="true">⏱</span> {readingTime} min read
 </p>
-{dream.microSummary && (
+{(dream.microSummary || dream.shortSummary) && (
   <section id="dream-overview" className="mb-12 scroll-mt-28">
 
     <h2 className="text-2xl md:text-3xl font-serif text-[#1A1A1A] mb-5">
       What does it mean to dream about {dream.title.toLowerCase()}?
     </h2>
 
-    <TextBlocks text={dream.microSummary} />
+    <TextBlocks text={dream.microSummary || dream.shortSummary} />
 
   </section>
   
 )}
-{renderQuickTakeaways(dream, dreamTitle)}
-<section id="when-this-dream-happens" className="mb-14 scroll-mt-28 border-t border-[#EAE6E1] pt-8">
-  <h2 className="font-serif text-2xl md:text-3xl mb-4">
-    When this dream tends to appear
-  </h2>
+{renderQuickTakeaways(dream)}
+{getDreamContext(dream) && (
+  <section id="when-this-dream-happens" className="mb-14 scroll-mt-28 border-t border-[#EAE6E1] pt-8">
+    <h2 className="font-serif text-2xl md:text-3xl mb-4">
+      When this dream tends to appear
+    </h2>
+    <TextBlocks text={getDreamContext(dream)} />
+  </section>
+)}
 
-  <TextBlocks text={getDreamContext(dream)} />
-</section>
+<div id="navigation" aria-hidden="true" />
 
-<section id="navigation"></section>
-
- {dream.categories?.length > 0 && (
+ {dreamCategories.length > 0 && (
           <nav className="mb-8 flex flex-wrap gap-2">
-            {dream.categories.map((cat) => (
+            {dreamCategories.map((cat) => (
               <Link
                 key={cat}
                 href={`/categories/${normalizeSlug(cat)}`}
@@ -913,30 +951,12 @@ function getDreamContext(dream) {
         </p>
 
         
-<p className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">
-  Quick description
-</p>
-
-<DescriptionBlocks
-  text={dream.description}
-  className="mb-10"
-  relatedDream={primaryRelatedDream}
-/>
-
-<p className="text-[#7A7A7A] text-base md:text-lg mt-5 leading-relaxed font-serif italic">
-          This dream often carries something deeper beneath the surface,
-          something emotional, symbolic, or quietly unfolding in your waking
-          life.
-        </p>
+{getDreamDescription(dream) && <section aria-labelledby="quick-description-heading">
+  <p id="quick-description-heading" className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">Quick description</p>
+  <DescriptionBlocks text={getDreamDescription(dream)} className="mb-10" relatedDream={primaryRelatedDream} />
+</section>}
 
         <div className="w-56 h-[1px] bg-[#C6A96B] mt-8 mb-10 opacity-60" />
-        <DreamMethodologyCallout />
-        <DreamCallout variant="reflection">
-          <p>
-            Notice the strongest feeling in the dream before assigning meaning
-            to the symbol. The emotional tone often changes the interpretation.
-          </p>
-        </DreamCallout>
     
    
       <section className="space-y-16">
@@ -952,6 +972,8 @@ function getDreamContext(dream) {
 <BiblicalPerspective dream={dream} />
 <MultipleMeaningsSection dream={dream} dreamTitle={dreamTitle} />
 <DreamTypesSection dream={dream} />
+<DreamScenariosSection scenarios={dream.scenarios} context={dream.context} />
+<DreamSymbolsSection symbols={dream.dreamSymbols} />
 <DreamListSection
   id="subconscious-patterns"
   eyebrow="Subconscious patterns"
@@ -964,12 +986,14 @@ function getDreamContext(dream) {
   title="Life Situations Connected to This Dream"
   items={toTextItems(dream.lifeSituations)}
 />
-<BehavioralInsightsSection insights={dream.behavioralInsights || []} />
+<BehavioralInsightsSection dream={dream} />
 <DreamEmotionalPathways dream={dream} />
 <DreamEmotionalThemesSection dream={dream} />
 <DreamEmotionalConnections dream={dream} />
 <DreamSemanticAuthority dream={dream} />
-{renderInterpretationContextSection()}
+<IllustrativeExamplesSection examples={dream.illustrativeExamples} />
+<ReflectionQuestionsSection questions={dream.reflectionQuestions} />
+<DreamTagsSection tags={dream.tags} />
         {summaryText && (
           <section className="mt-20 scroll-mt-28 border-y border-[#EAE6E1] py-10 text-center md:mt-32">
             <p className="text-[11px] tracking-[0.2em] text-[#8A8175] uppercase mb-4">
@@ -985,7 +1009,7 @@ function getDreamContext(dream) {
 <ClusterPathway cluster={clusterGuide} />
 
        
-       <section id="faqs" className="mt-16 border-t border-[#EAE6E1] pt-10 scroll-mt-28">
+       {faqItems.length > 0 && <section id="faqs" className="mt-16 border-t border-[#EAE6E1] pt-10 scroll-mt-28">
          <h2 className="font-serif text-2xl md:text-3xl mb-8">
             Common questions
           </h2>
@@ -1000,11 +1024,9 @@ function getDreamContext(dream) {
               </div>
             ))}
           </div>
-        </section>
+        </section>}
  <RelatedDreams slugs={dream.relatedDreams} relatedDreams={relatedDreamItems} />
  <ContinueExploring dreams={continueExploringDreams} />
-
-        {renderDreamReflectionSection()}
 
         <aside className="mt-10 border-l border-[#D8C7A0] pl-5 text-sm leading-relaxed text-[#6B6B6B]" aria-label="Interpretation disclaimer">
           <p className="font-medium text-[#3A3A3A]">Dream interpretation is deeply personal.</p>
@@ -1083,14 +1105,15 @@ function getDreamContext(dream) {
 
   </div>
       </section>
+      <ContentSources sources={dream.sources} />
       <ArticleFeedback dreamSlug={canonicalDreamSlug} />
       </article>
 
-      <Script
+      {faqItems.length > 0 && <Script
         id="dream-faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
+      />}
 
       <JumpToNavigation
   target="#navigation"

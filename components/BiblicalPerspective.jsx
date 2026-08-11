@@ -15,12 +15,15 @@ const biblicalSymbols = [
 
 function getRelevantBiblicalSymbols(dream = {}) {
   const currentSlug = normalizeSlug(dream.slug || dream.title);
-  const context = [dream.slug, dream.title, dream.description, dream.symbolic, dream.symbolicMeaning, dream.spiritual, dream.spiritualMeaning, ...(dream.categories || [])].filter(Boolean).join(" ");
+  const context = [dream.slug, dream.title, dream.description || dream.uniqueDescription, dream.symbolic, dream.symbolicMeaning, dream.spiritual, dream.spiritualMeaning, ...(dream.categories || [])].filter(Boolean).join(" ");
   return biblicalSymbols.filter((symbol) => symbol.slug !== currentSlug && symbol.pattern.test(context)).slice(0, 3);
 }
 
 export default function BiblicalPerspective({ dream = {} }) {
   const customMeaning = typeof dream.biblicalMeaning === "string" ? dream.biblicalMeaning.trim() : "";
+
+  if (!customMeaning) return null;
+
   const paragraphs = getParagraphs(customMeaning);
   const relatedSymbols = getRelevantBiblicalSymbols(dream);
 
@@ -28,22 +31,13 @@ export default function BiblicalPerspective({ dream = {} }) {
     <section id="biblical-perspective" aria-labelledby="biblical-perspective-heading" className="border-t border-[#EAE6E1] pt-6 scroll-mt-28">
       <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">Faith and reflection</p>
       <h2 id="biblical-perspective-heading" className="font-serif text-4xl md:text-5xl mb-4">
-        {customMeaning ? "Biblical Meaning" : "Biblical Perspective"}
+        Biblical Meaning
       </h2>
 
       <div className="space-y-4">
-        {customMeaning ? paragraphs.map((paragraph, index) => (
+        {paragraphs.map((paragraph, index) => (
           <p key={`${index}-${paragraph.slice(0, 24)}`} className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">{paragraph}</p>
-        )) : (
-          <>
-            <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">
-              Not every dream symbol has a direct or universal interpretation in the Bible. Scripture records meaningful dreams, visions, and symbols, but that does not mean every modern dream should be treated as a prediction, warning, or divine message.
-            </p>
-            <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">
-              A thoughtful biblical perspective considers the dream&apos;s emotional context, the dreamer&apos;s circumstances, and the wider themes of wisdom, discernment, prayer, character, and faith. Reflect carefully rather than assigning certainty where Scripture does not provide it.
-            </p>
-          </>
-        )}
+        ))}
 
         <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">
           Continue with our <Link href="/guides/biblical-dreams" className="underline underline-offset-4 hover:text-[#C6A96B] transition-colors">biblical dreams guide</Link> and <Link href="/guides/spiritual-dreams-meaning" className="underline underline-offset-4 hover:text-[#C6A96B] transition-colors">spiritual dreams guide</Link> for a balanced approach to faith, symbolism, and personal reflection.

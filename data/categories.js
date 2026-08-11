@@ -1,3 +1,5 @@
+import { applyCategoryEditorialDepth } from "./categoryEditorialDepth.js";
+
 export const categoriesData = {
   anxiety: {
     title: "Anxiety Dreams",
@@ -207,4 +209,107 @@ Even when the dream symbols change, the emotional pattern underneath is often co
     emotionalNature:
       "Lucid dreams often involve awareness, agency, curiosity, control, or the emotional experience of realizing that the inner world can be observed and shaped while it is unfolding.",
   },
+
+  "self awareness": {
+    title: "Self-Awareness Dreams",
+    emotionalThemes: ["Self-observation", "Identity", "Recognition", "Inner honesty"],
+    emotionalNature:
+      "Self-awareness dreams bring attention to how you see yourself, what you conceal or overlook, and where your inner experience differs from the identity you present to others.",
+    intro:
+      "These dreams turn attention toward the dreamer. Mirrors, doubles, exposed bodies, changed appearances, old rooms, and moments of being watched can all make an attitude, habit, need, or self-image easier to notice.",
+    distinctions: [
+      { title: "Self-awareness and identity", description: "Identity dreams often ask who you are becoming; self-awareness dreams may simply reveal what you are feeling, doing, or avoiding right now." },
+      { title: "Observation and judgment", description: "Seeing yourself clearly is different from condemning yourself. Shame in the dream may indicate fear of evaluation, while curiosity can support honest recognition." },
+    ],
+    recurringScenarios: [
+      "Seeing an unfamiliar or altered reflection",
+      "Watching yourself from another point of view",
+      "Realizing that something private is visible",
+      "Returning to a place associated with an earlier version of yourself",
+    ],
+    interpretationQuestions: [
+      "What did the dream make visible that I normally overlook?",
+      "Did I respond to myself with curiosity, embarrassment, pride, or rejection?",
+      "Where does my private experience differ from how I appear to others?",
+    ],
+    examples: [
+      { title: "Illustrative example: an altered mirror", description: "A reflection that looks older, younger, or unfamiliar may focus the dream on changing self-perception rather than on the mirror as a fixed symbol." },
+    ],
+    reflectionPrompts: ["Name one detail you recognized immediately and one that felt unlike you."],
+    relatedConcepts: ["Identity", "Hidden emotions", "Personal growth"],
+  },
+
+  "personal growth": {
+    title: "Personal Growth Dreams",
+    emotionalThemes: ["Learning", "Practice", "Change", "Capability"],
+    emotionalNature:
+      "Personal-growth dreams often explore the uneven process of developing a skill, changing a pattern, accepting responsibility, or becoming more capable through experience.",
+    intro:
+      "Growth in dreams is not always shown as success. Climbing, repairing, learning, tending a garden, repeating a task, or meeting an obstacle can portray progress that is still unfinished.",
+    distinctions: [
+      { title: "Growth and transformation", description: "Transformation emphasizes a major change of form or identity. Personal growth may be quieter: practice, correction, patience, and small gains." },
+      { title: "Difficulty and failure", description: "An obstacle can reveal the part of a process that needs attention; it does not automatically mean that progress has stopped." },
+    ],
+    recurringScenarios: ["Climbing or moving upward", "Learning an unfamiliar task", "Repairing something damaged", "Caring for something that gradually develops"],
+    interpretationQuestions: ["What ability was the dream asking me to use?", "Was progress steady, forced, interrupted, or supported?", "What did I do after making a mistake?"],
+    examples: [{ title: "Illustrative example: a difficult climb", description: "A steep climb with secure footing may emphasize sustained effort, while crumbling steps may place more attention on preparation or support." }],
+    reflectionPrompts: ["Compare the stage you reached in the dream with the stage you are actually in now."],
+    relatedConcepts: ["Transformation", "Self awareness", "Life transitions"],
+  },
+
+  "life transitions": {
+    title: "Life Transition Dreams",
+    emotionalThemes: ["Departure", "Arrival", "Adjustment", "In-between states"],
+    emotionalNature:
+      "Life-transition dreams often give form to leaving one role, place, relationship, or routine before the next stage feels fully established.",
+    intro:
+      "Stations, airports, unfamiliar houses, moving vehicles, packed belongings, missed departures, and thresholds are common because they hold both an ending and a possible destination.",
+    distinctions: [
+      { title: "Transition and uncertainty", description: "Uncertainty centers on not knowing; transition includes an actual or anticipated movement from one state to another." },
+      { title: "Chosen and imposed change", description: "Driving or packing voluntarily can feel different from being carried away, evicted, delayed, or left behind." },
+    ],
+    recurringScenarios: ["Packing, moving, or leaving a familiar place", "Waiting for transport", "Missing an exit or departure", "Entering an unfamiliar home, school, or workplace"],
+    interpretationQuestions: ["What was I leaving, and had I finished with it?", "Did the destination feel chosen or imposed?", "What or whom was I trying to take with me?"],
+    examples: [{ title: "Illustrative example: waiting at a station", description: "Waiting calmly may reflect readiness that respects timing; frantic platform changes may emphasize conflicting plans or fear of missing the next stage." }],
+    reflectionPrompts: ["List what has already ended, what is still in-between, and what has genuinely begun."],
+    relatedConcepts: ["Uncertainty", "New beginnings", "Personal growth"],
+  },
+
+  "emotional awareness": {
+    title: "Emotional Awareness Dreams",
+    emotionalThemes: ["Recognition", "Naming feelings", "Emotional contrast", "Expression"],
+    emotionalNature:
+      "Emotional-awareness dreams make a feeling noticeable through intensity, contrast, bodily sensation, atmosphere, or a response that surprises the dreamer.",
+    intro:
+      "The useful question in this category is not only what a symbol represents, but what happened emotionally around it. Calm water and threatening water, for example, may belong to very different inner experiences.",
+    distinctions: [
+      { title: "Awareness and overwhelm", description: "Awareness allows a feeling to be noticed and described. Overwhelm occurs when its intensity becomes difficult to contain or organize." },
+      { title: "Dream emotion and waking opinion", description: "A dream response can differ from what you think you should feel, revealing ambivalence without proving a hidden truth." },
+    ],
+    recurringScenarios: ["Feeling unexpectedly calm during danger", "Crying or laughing without knowing why", "A setting changing with the mood", "Waking with one emotion stronger than the imagery"],
+    interpretationQuestions: ["Which feeling arrived first, and what changed it?", "Did my emotional response fit the event in the dream?", "Where do I experience a similar feeling without naming it?"],
+    examples: [{ title: "Illustrative example: calm during a storm", description: "Feeling peaceful in a violent storm may shift the focus from danger to confidence, acceptance, or emotional distance; the surrounding details help distinguish them." }],
+    reflectionPrompts: ["Describe the dream once using only feelings and changes in intensity, without interpreting the symbols."],
+    relatedConcepts: ["Hidden emotions", "Self awareness", "Anxiety"],
+  },
+
+  uncertainty: {
+    title: "Uncertainty Dreams",
+    emotionalThemes: ["Ambiguity", "Waiting", "Incomplete information", "Decision pressure"],
+    emotionalNature:
+      "Uncertainty dreams often hold the dreamer between possible directions, without enough information to feel settled about timing, safety, or the next decision.",
+    intro:
+      "Fog, darkness, unknown invitations, missing destinations, unreadable signs, and unfamiliar roads can all express the experience of acting before the full picture is available.",
+    distinctions: [
+      { title: "Uncertainty and fear", description: "Fear anticipates danger. Uncertainty means the outcome is unknown; it can include curiosity, hope, caution, or fear depending on the dream." },
+      { title: "Uncertainty and being lost", description: "Being lost emphasizes orientation. Other uncertainty dreams may involve knowing where you are but not what a message, person, or future event means." },
+    ],
+    recurringScenarios: ["Moving through fog or darkness", "Receiving incomplete directions", "Waiting for an answer or arrival", "Choosing between routes with no clear sign"],
+    interpretationQuestions: ["What information was missing?", "Did I need certainty before taking the next step?", "Which response—waiting, asking, testing, or choosing—was available in the dream?"],
+    examples: [{ title: "Illustrative example: two unmarked roads", description: "Two roads may focus on a decision, but the emotional difference between curiosity and panic shows whether possibility or pressure is more central." }],
+    reflectionPrompts: ["Separate what is known, what is assumed, and what can only be learned by taking a next step."],
+    relatedConcepts: ["Life transitions", "Anxiety", "Decision making"],
+  },
 };
+
+applyCategoryEditorialDepth(categoriesData);

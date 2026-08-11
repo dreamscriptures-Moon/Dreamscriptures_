@@ -1,8 +1,11 @@
 import { dreams } from "@/data/dreams";
+import { notFound } from "next/navigation";
 
+export const metadata = { robots: { index: false, follow: false } };
 
 
 export default function DreamAuditPage() {
+  if (process.env.NODE_ENV === "production") notFound();
 
   const audit = dreams
 

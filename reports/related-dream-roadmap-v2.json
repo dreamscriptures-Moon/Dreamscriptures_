@@ -1,0 +1,3137 @@
+{
+  "generatedAt": "2026-08-10",
+  "scope": "Planning-only audit of the 215 genuinely missing related-dream destinations in the current 335-dream dataset.",
+  "methodology": "Qualitative editorial prioritization—not measured Google search volume—using relationship frequency, topic breadth, context-first interpretation depth, overlap with all canonical dreams, cannibalization risk, and sourcing/sensitivity requirements.",
+  "summary": {
+    "totalUnresolvedReferencesReviewed": 215,
+    "uniqueRawReferences": 135,
+    "uniqueCandidateConceptsAfterClustering": 95,
+    "priorities": {
+      "HIGH": 10,
+      "MEDIUM": 15,
+      "LOW": 20,
+      "DO NOT CREATE": 50
+    },
+    "genuinelyDefensibleStandaloneOpportunities": 25
+  },
+  "topNewOpportunities": [
+    {
+      "title": "Swimming",
+      "slug": "swimming",
+      "priority": "HIGH",
+      "refs": [
+        "swimming"
+      ],
+      "closest": "falling-or-swimming-in-dirty-water",
+      "distinct": "Covers active movement through water—effort, direction, depth, current, confidence, and getting ashore—rather than the existing dirty-water scenario.",
+      "potential": "Calm, struggling, racing, underwater, open-water, pool, rescue, and destination-led scenarios.",
+      "rank": 1,
+      "occurrences": 4,
+      "sourceDreams": [
+        "being-in-the-ocean",
+        "being-underwater-but-calm",
+        "falling-or-swimming-in-dirty-water",
+        "water"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Elevator",
+      "slug": "elevator",
+      "priority": "HIGH",
+      "refs": [
+        "being-stuck-in-an-elevator",
+        "elevator"
+      ],
+      "closest": "being-trapped",
+      "distinct": "Vertical movement, floor selection, doors, controls, speed, and mechanical failure create a distinct transition-and-control framework beyond generic confinement.",
+      "potential": "Rising, falling, stuck, crowded, wrong-floor, broken-control, and open-shaft contexts.",
+      "rank": 2,
+      "occurrences": 5,
+      "sourceDreams": [
+        "being-in-a-small-crowded-room",
+        "being-lost-in-a-building",
+        "being-trapped-in-a-maze",
+        "running-slowly",
+        "climbing-stairs"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Seeing Your Younger Self",
+      "slug": "seeing-your-younger-self",
+      "priority": "HIGH",
+      "refs": [
+        "seeing-your-younger-self"
+      ],
+      "closest": "being-in-the-past",
+      "distinct": "A direct encounter with a former self centers identity continuity, memory, compassion, regret, and advice rather than simply revisiting an earlier period.",
+      "potential": "Observing, speaking to, protecting, judging, or being ignored by the younger self at different ages.",
+      "rank": 3,
+      "occurrences": 9,
+      "sourceDreams": [
+        "aging-suddenly",
+        "being-in-the-past",
+        "hair-growing-rapidly",
+        "looking-in-the-mirror",
+        "mirrors",
+        "seeing-someone-you-miss",
+        "talking-to-yourself",
+        "watching-yourself-like-a-movie"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "End of the World",
+      "slug": "end-of-the-world",
+      "priority": "HIGH",
+      "refs": [
+        "end-of-the-world"
+      ],
+      "closest": "death",
+      "distinct": "Collective collapse, survival, responsibility for others, unfinished priorities, and aftermath differ substantially from individual death imagery.",
+      "potential": "Disaster type, companions, escape, acceptance, rebuilding, warning imagery, and non-predictive spiritual framing.",
+      "rank": 4,
+      "occurrences": 2,
+      "sourceDreams": [
+        "lightning",
+        "sinkhole"
+      ],
+      "requiresSpecializedSourcing": true
+    },
+    {
+      "title": "Being in Another World",
+      "slug": "being-in-another-world",
+      "priority": "HIGH",
+      "refs": [
+        "being-in-another-world"
+      ],
+      "closest": "being-in-an-unknown-place",
+      "distinct": "An altered reality with unfamiliar rules, bodies, societies, or routes home is broader than being in an unfamiliar real-world location.",
+      "potential": "Belonging, exploration, threat, return, changed identity, alternate rules, and comparison with waking life.",
+      "rank": 5,
+      "occurrences": 6,
+      "sourceDreams": [
+        "1111",
+        "angel-numbers",
+        "darkness",
+        "getting-married-to-a-stranger",
+        "lost-in-the-forest",
+        "moving-to-a-new-house"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Being Someone Else",
+      "slug": "being-someone-else",
+      "priority": "HIGH",
+      "refs": [
+        "being-someone-else"
+      ],
+      "closest": "shapeshifter",
+      "distinct": "Inhabiting another identity, role, body, age, or viewpoint differs from seeing a figure change form.",
+      "potential": "Known versus unknown identity, voluntary versus forced change, retained memory, role reversal, and return to self.",
+      "rank": 6,
+      "occurrences": 1,
+      "sourceDreams": [
+        "different-reflection-in-the-mirror"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "River",
+      "slug": "river",
+      "priority": "HIGH",
+      "refs": [
+        "river",
+        "crossing-a-river"
+      ],
+      "closest": "looking-at-a-river",
+      "distinct": "A broader river page can address entering, following, crossing, resisting, or being carried by a current; the existing page is limited to observation.",
+      "potential": "Banks, current, depth, clarity, flooding, crossing method, destination, and companions.",
+      "rank": 7,
+      "occurrences": 2,
+      "sourceDreams": [
+        "looking-at-a-river",
+        "water"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Crossing a Bridge",
+      "slug": "crossing-a-bridge",
+      "priority": "HIGH",
+      "refs": [
+        "crossing-a-bridge",
+        "standing-on-a-bridge"
+      ],
+      "closest": "jumping-off-a-bridge",
+      "distinct": "Deliberate passage, hesitation, bridge condition, and destination form a different interpretive act from jumping off.",
+      "potential": "Safe, broken, narrow, moving, unfinished, crowded, high, and return-crossing scenarios.",
+      "rank": 8,
+      "occurrences": 2,
+      "sourceDreams": [
+        "reaching-the-end-after-an-endless-fall",
+        "looking-at-a-river"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Wearing a Mask",
+      "slug": "wearing-a-mask",
+      "priority": "HIGH",
+      "refs": [
+        "wearing-a-mask"
+      ],
+      "closest": "shapeshifter",
+      "distinct": "Concealment, performance, protection, recognition, and removing a chosen covering differ from bodily transformation.",
+      "potential": "Voluntary or forced masks, disguise, removal, damaged masks, social settings, and being recognized.",
+      "rank": 9,
+      "occurrences": 1,
+      "sourceDreams": [
+        "different-reflection-in-the-mirror"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Floating",
+      "slug": "floating",
+      "priority": "HIGH",
+      "refs": [
+        "floating"
+      ],
+      "closest": "floating-in-a-dark-void",
+      "distinct": "General weightlessness or drifting can occur over land, water, rooms, or crowds and need not involve flight or a dark void.",
+      "potential": "Control, tethering, height, direction, landing, drifting away, bodily sensation, and emotional tone.",
+      "rank": 10,
+      "occurrences": 1,
+      "sourceDreams": [
+        "being-underwater-but-calm"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Being Judged",
+      "slug": "being-judged",
+      "priority": "MEDIUM",
+      "refs": [
+        "being-judged"
+      ],
+      "closest": "court-room",
+      "distinct": "Informal social, family, work, religious, or self-judgment is broader than a formal courtroom scene.",
+      "potential": "Known versus unknown judges, public verdicts, silent scrutiny, fairness, evidence, and self-criticism.",
+      "rank": 11,
+      "occurrences": 2,
+      "sourceDreams": [
+        "being-arrested",
+        "going-to-hell"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Cow",
+      "slug": "cow",
+      "priority": "MEDIUM",
+      "refs": [
+        "cows"
+      ],
+      "closest": "horse",
+      "distinct": "Farm, herd, calf, feeding, milking, blocking, charging, and caregiving contexts create a distinct animal topic.",
+      "potential": "Herd behavior, temperament, condition, ownership, nourishment, labor, vulnerability, and sourced cultural meanings.",
+      "rank": 12,
+      "occurrences": 1,
+      "sourceDreams": [
+        "sheep"
+      ],
+      "requiresSpecializedSourcing": true
+    },
+    {
+      "title": "Being Admired",
+      "slug": "being-admired",
+      "priority": "MEDIUM",
+      "refs": [
+        "being-admired"
+      ],
+      "closest": "being-watched",
+      "distinct": "Positive attention, validation, attraction, discomfort with praise, and the identity of the admirer differ from scrutiny or surveillance.",
+      "potential": "Public praise, private admiration, unwanted attention, false praise, achievement, appearance, and recognition.",
+      "rank": 13,
+      "occurrences": 1,
+      "sourceDreams": [
+        "marrying-a-celebrity"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Big House",
+      "slug": "big-house",
+      "priority": "MEDIUM",
+      "refs": [
+        "big-house"
+      ],
+      "closest": "house",
+      "distinct": "Scale itself changes the experience through unused rooms, responsibility, status, possibility, awe, emptiness, or isolation.",
+      "potential": "Ownership, exploration, maintenance, hidden areas, guests, getting lost, inherited space, and unfinished rooms.",
+      "rank": 14,
+      "occurrences": 3,
+      "sourceDreams": [
+        "discovering-new-rooms-in-a-house",
+        "mud-house",
+        "unfinished-building"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Coming Back to Life",
+      "slug": "coming-back-to-life",
+      "priority": "MEDIUM",
+      "refs": [
+        "coming-back-to-life"
+      ],
+      "closest": "death",
+      "distinct": "Revival centers reversal, second chances, changed priorities, disbelief, and the relationship between an ending and renewed agency.",
+      "potential": "Self versus another person reviving, relief versus fear, incomplete return, changed identity, and aftermath.",
+      "rank": 15,
+      "occurrences": 2,
+      "sourceDreams": [
+        "burial",
+        "coffin"
+      ],
+      "requiresSpecializedSourcing": true
+    },
+    {
+      "title": "Shadow Figure",
+      "slug": "shadow-figure",
+      "priority": "MEDIUM",
+      "refs": [
+        "shadow-person",
+        "shadow-figure"
+      ],
+      "closest": "eyes-staring-in-the-dark",
+      "distinct": "A visually indistinct humanlike presence has unique questions of distance, motion, identity, recognition, and ambiguity.",
+      "potential": "Doorway, bedside, following, silent, familiar, protective, and threatening contexts without asserting a supernatural cause.",
+      "rank": 16,
+      "occurrences": 4,
+      "sourceDreams": [
+        "eyes-staring-at-you-in-the-dark",
+        "fighting-a-demon",
+        "evil-presence",
+        "sleep-paralysis"
+      ],
+      "requiresSpecializedSourcing": true
+    },
+    {
+      "title": "Starting a New Job",
+      "slug": "starting-a-new-job",
+      "priority": "MEDIUM",
+      "refs": [
+        "starting-a-new-job"
+      ],
+      "closest": "work-stress",
+      "distinct": "Entry into a new role focuses readiness, belonging, competence, first impressions, and unfamiliar expectations rather than ongoing work pressure.",
+      "potential": "First day, lateness, wrong role, missing tools, former workplace, welcoming or hostile colleagues, and sudden promotion.",
+      "rank": 17,
+      "occurrences": 1,
+      "sourceDreams": [
+        "opening-a-door"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Changing Clothes",
+      "slug": "changing-clothes",
+      "priority": "MEDIUM",
+      "refs": [
+        "new-clothes",
+        "changing-clothes"
+      ],
+      "closest": "burning-clothes",
+      "distinct": "Changing presentation or role—voluntarily or under pressure—is distinct from clothing being destroyed by fire.",
+      "potential": "Privacy, fit, occasion, repeated changes, uniforms, old versus new clothing, interruption, and identity presentation.",
+      "rank": 18,
+      "occurrences": 2,
+      "sourceDreams": [
+        "burning-clothes"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Hugging Someone",
+      "slug": "hugging-someone",
+      "priority": "MEDIUM",
+      "refs": [
+        "hugging-someone"
+      ],
+      "closest": "seeing-someone-you-miss",
+      "distinct": "The reciprocal physical action introduces acceptance, refusal, comfort, reconciliation, farewell, boundaries, and bodily response.",
+      "potential": "Familiar, estranged, deceased, unknown, reluctant, prolonged, interrupted, and goodbye embraces.",
+      "rank": 19,
+      "occurrences": 1,
+      "sourceDreams": [
+        "marrying-someone-you-know"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Drought",
+      "slug": "drought",
+      "priority": "MEDIUM",
+      "refs": [
+        "drought"
+      ],
+      "closest": "famine",
+      "distinct": "Absence of water, waiting for rain, failed growth, conservation, and environmental exposure differ from food scarcity.",
+      "potential": "Dry land, empty wells, threatened crops, searching for water, first rain, shared resources, and recovery.",
+      "rank": 20,
+      "occurrences": 2,
+      "sourceDreams": [
+        "harvesting",
+        "locusts"
+      ],
+      "requiresSpecializedSourcing": true
+    },
+    {
+      "title": "Sunrise",
+      "slug": "sunrise",
+      "priority": "MEDIUM",
+      "refs": [
+        "sunrise"
+      ],
+      "closest": "bright-light-in-sky",
+      "distinct": "A sunrise is a timed transition from night into day, carrying questions of beginning, waiting, visibility, and what follows darkness.",
+      "potential": "Watching alone or with others, missed sunrise, unusual colors, delayed dawn, travel toward it, and emotional response.",
+      "rank": 21,
+      "occurrences": 1,
+      "sourceDreams": [
+        "rainbow"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Watching a Sunset",
+      "slug": "watching-a-sunset",
+      "priority": "MEDIUM",
+      "refs": [
+        "watching-a-sunset"
+      ],
+      "closest": "bright-light-in-sky",
+      "distinct": "A sunset centers closure, time passing, beauty, reluctance, and transition into uncertainty rather than unexplained light.",
+      "potential": "Companions, location, colors, interrupted view, rapid sunset, journey ending, peace, and grief.",
+      "rank": 22,
+      "occurrences": 1,
+      "sourceDreams": [
+        "looking-at-a-river"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Smoke",
+      "slug": "smoke",
+      "priority": "MEDIUM",
+      "refs": [
+        "smoke"
+      ],
+      "closest": "fire",
+      "distinct": "Smoke can obscure a cause, limit visibility, signal danger, or linger after an event even when flames are absent.",
+      "potential": "Color, density, source, breathing difficulty, warning others, clearing smoke, smell, and aftermath.",
+      "rank": 23,
+      "occurrences": 1,
+      "sourceDreams": [
+        "house-on-fire"
+      ],
+      "requiresSpecializedSourcing": true
+    },
+    {
+      "title": "Breaking Chains",
+      "slug": "breaking-chains",
+      "priority": "MEDIUM",
+      "refs": [
+        "breaking-chains"
+      ],
+      "closest": "being-trapped",
+      "distinct": "The specific act of breaking restraint centers agency, effort, liberation, helping another, failure, and what remains afterward.",
+      "potential": "Self-release, freeing others, weak or unbreakable chains, repeated restraint, tools, injury, pursuit, and chosen bonds.",
+      "rank": 24,
+      "occurrences": 1,
+      "sourceDreams": [
+        "casting-out-demons"
+      ],
+      "requiresSpecializedSourcing": false
+    },
+    {
+      "title": "Meeting Someone Famous",
+      "slug": "meeting-someone-famous",
+      "priority": "MEDIUM",
+      "refs": [
+        "meeting-someone-famous"
+      ],
+      "closest": "marrying-a-celebrity",
+      "distinct": "An encounter can explore recognition, idealization, influence, access, status, disappointment, and comparison without a romance or marriage premise.",
+      "potential": "Admired versus disliked figures, being ignored or recognized, conversation, advice, embarrassment, and role reversal.",
+      "rank": 25,
+      "occurrences": 1,
+      "sourceDreams": [
+        "marrying-a-celebrity"
+      ],
+      "requiresSpecializedSourcing": false
+    }
+  ],
+  "auditedReferences": [
+    {
+      "sourceDreams": [
+        "arriving-just-in-time",
+        "being-in-a-room-with-many-people",
+        "being-rejected",
+        "being-unable-to-speak",
+        "confrontation-argument",
+        "failing-an-exam",
+        "hand-falling-off",
+        "running",
+        "running-but-cant-move-fast",
+        "saying-yes-when-you-dont-want-to",
+        "wedding-day-drama"
+      ],
+      "unresolvedReference": "failing-a-test",
+      "normalizedTopic": "Failing A Test",
+      "proposedSlug": "failing-a-test",
+      "occurrences": 11,
+      "standalone": false,
+      "closestExistingCanonical": "failing-an-exam",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by failing-an-exam, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "aging-suddenly",
+        "being-in-the-past",
+        "hair-growing-rapidly",
+        "looking-in-the-mirror",
+        "mirrors",
+        "seeing-someone-you-miss",
+        "talking-to-yourself",
+        "watching-yourself-like-a-movie"
+      ],
+      "unresolvedReference": "seeing-your-younger-self",
+      "normalizedTopic": "Seeing Your Younger Self",
+      "proposedSlug": "seeing-your-younger-self",
+      "occurrences": 9,
+      "standalone": true,
+      "closestExistingCanonical": "being-in-the-past",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "A direct encounter with a former self centers identity continuity, memory, compassion, regret, and advice rather than simply revisiting an earlier period."
+    },
+    {
+      "sourceDreams": [
+        "confessing-your-love-to-someone",
+        "forced-marriage",
+        "getting-married-to-a-stranger",
+        "marrying-an-ex",
+        "marrying-someone-you-know",
+        "saying-no",
+        "someone-confessing-their-love-to-you"
+      ],
+      "unresolvedReference": "wedding",
+      "normalizedTopic": "Wedding",
+      "proposedSlug": "wedding",
+      "occurrences": 7,
+      "standalone": false,
+      "closestExistingCanonical": "marriage",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by marriage, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "1111",
+        "angel-numbers",
+        "darkness",
+        "getting-married-to-a-stranger",
+        "lost-in-the-forest",
+        "moving-to-a-new-house"
+      ],
+      "unresolvedReference": "being-in-another-world",
+      "normalizedTopic": "Being In Another World",
+      "proposedSlug": "being-in-another-world",
+      "occurrences": 6,
+      "standalone": true,
+      "closestExistingCanonical": "being-in-an-unknown-place",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "An altered reality with unfamiliar rules, bodies, societies, or routes home is broader than being in an unfamiliar real-world location."
+    },
+    {
+      "sourceDreams": [
+        "falling",
+        "floating-in-a-dark-void",
+        "flying",
+        "full-moon",
+        "shooting-stars",
+        "stars"
+      ],
+      "unresolvedReference": "walking-in-the-sky",
+      "normalizedTopic": "Walking In The Sky",
+      "proposedSlug": "walking-in-the-sky",
+      "occurrences": 6,
+      "standalone": false,
+      "closestExistingCanonical": "flying",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by flying, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "being-in-a-small-crowded-room",
+        "being-lost-in-a-building",
+        "being-trapped-in-a-maze",
+        "running-slowly"
+      ],
+      "unresolvedReference": "being-stuck-in-an-elevator",
+      "normalizedTopic": "Being Stuck In An Elevator",
+      "proposedSlug": "being-stuck-in-an-elevator",
+      "occurrences": 4,
+      "standalone": true,
+      "closestExistingCanonical": "being-trapped",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "Vertical movement, floor selection, doors, controls, speed, and mechanical failure create a distinct transition-and-control framework beyond generic confinement."
+    },
+    {
+      "sourceDreams": [
+        "casting-out-demons",
+        "demonic-attack",
+        "evil-presence",
+        "witchcraft"
+      ],
+      "unresolvedReference": "light",
+      "normalizedTopic": "Light",
+      "proposedSlug": "light",
+      "occurrences": 4,
+      "standalone": false,
+      "closestExistingCanonical": "bright-light-in-sky",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by bright-light-in-sky, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "doors",
+        "evil-presence",
+        "opening-a-door",
+        "sleep-paralysis"
+      ],
+      "unresolvedReference": "locked-door",
+      "normalizedTopic": "Locked Door",
+      "proposedSlug": "locked-door",
+      "occurrences": 4,
+      "standalone": false,
+      "closestExistingCanonical": "doors",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by doors, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "being-in-the-ocean",
+        "being-underwater-but-calm",
+        "falling-or-swimming-in-dirty-water",
+        "water"
+      ],
+      "unresolvedReference": "swimming",
+      "normalizedTopic": "Swimming",
+      "proposedSlug": "swimming",
+      "occurrences": 4,
+      "standalone": true,
+      "closestExistingCanonical": "falling-or-swimming-in-dirty-water",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "Covers active movement through water—effort, direction, depth, current, confidence, and getting ashore—rather than the existing dirty-water scenario."
+    },
+    {
+      "sourceDreams": [
+        "discovering-new-rooms-in-a-house",
+        "mud-house",
+        "unfinished-building"
+      ],
+      "unresolvedReference": "big-house",
+      "normalizedTopic": "Big House",
+      "proposedSlug": "big-house",
+      "occurrences": 3,
+      "standalone": true,
+      "closestExistingCanonical": "house",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "Scale itself changes the experience through unused rooms, responsibility, status, possibility, awe, emptiness, or isolation."
+    },
+    {
+      "sourceDreams": [
+        "1111",
+        "angel-numbers",
+        "bright-light-in-the-sky"
+      ],
+      "unresolvedReference": "light-that-blinds-you",
+      "normalizedTopic": "Light That Blinds You",
+      "proposedSlug": "light-that-blinds-you",
+      "occurrences": 3,
+      "standalone": false,
+      "closestExistingCanonical": "bright-light-in-sky",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by bright-light-in-sky, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "seeing-jesus",
+        "speaking-to-god",
+        "speaking-to-jesus"
+      ],
+      "unresolvedReference": "seeing-an-angel",
+      "normalizedTopic": "Seeing An Angel",
+      "proposedSlug": "seeing-an-angel",
+      "occurrences": 3,
+      "standalone": false,
+      "closestExistingCanonical": "angels",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by angels, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "1111",
+        "angel-numbers"
+      ],
+      "unresolvedReference": "444",
+      "normalizedTopic": "444",
+      "proposedSlug": "444",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "angel-numbers",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by angel-numbers, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "casting-out-demons",
+        "demonic-attack"
+      ],
+      "unresolvedReference": "angel",
+      "normalizedTopic": "Angel",
+      "proposedSlug": "angel",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "angels",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by angels, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "baby-crying",
+        "having-sex"
+      ],
+      "unresolvedReference": "baby",
+      "normalizedTopic": "Baby",
+      "proposedSlug": "baby",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "holding-a-baby",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by holding-a-baby, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "being-arrested",
+        "going-to-hell"
+      ],
+      "unresolvedReference": "being-judged",
+      "normalizedTopic": "Being Judged",
+      "proposedSlug": "being-judged",
+      "occurrences": 2,
+      "standalone": true,
+      "closestExistingCanonical": "court-room",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "Informal social, family, work, religious, or self-judgment is broader than a formal courtroom scene."
+    },
+    {
+      "sourceDreams": [
+        "locusts",
+        "money"
+      ],
+      "unresolvedReference": "being-poor",
+      "normalizedTopic": "Being Poor",
+      "proposedSlug": "being-poor",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Broad waking-life condition with a high risk of generic financial-anxiety copy."
+    },
+    {
+      "sourceDreams": [
+        "crows",
+        "doors"
+      ],
+      "unresolvedReference": "black-door",
+      "normalizedTopic": "Black Door",
+      "proposedSlug": "black-door",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "doors",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Color-specific door variant; belongs under the doors topic."
+    },
+    {
+      "sourceDreams": [
+        "house",
+        "house-on-fire"
+      ],
+      "unresolvedReference": "building",
+      "normalizedTopic": "Building",
+      "proposedSlug": "building",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "unfinished-building",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by unfinished-building, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "burial",
+        "coffin"
+      ],
+      "unresolvedReference": "coming-back-to-life",
+      "normalizedTopic": "Coming Back To Life",
+      "proposedSlug": "coming-back-to-life",
+      "occurrences": 2,
+      "standalone": true,
+      "closestExistingCanonical": "death",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Potentially; verify factual, medical, cultural, or scriptural claims.",
+      "classification": "MEDIUM",
+      "reason": "Revival centers reversal, second chances, changed priorities, disbelief, and the relationship between an ending and renewed agency."
+    },
+    {
+      "sourceDreams": [
+        "cheating-on-your-partner",
+        "partner-cheating-on-you"
+      ],
+      "unresolvedReference": "confessing-your-love",
+      "normalizedTopic": "Confessing Your Love",
+      "proposedSlug": "confessing-your-love",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "arguing-with-your-ex",
+        "crying"
+      ],
+      "unresolvedReference": "crying-uncontrollably",
+      "normalizedTopic": "Crying Uncontrollably",
+      "proposedSlug": "crying-uncontrollably",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "crying",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by crying, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "house",
+        "lost-in-a-building"
+      ],
+      "unresolvedReference": "discovering-new-rooms-in-house",
+      "normalizedTopic": "Discovering New Rooms In House",
+      "proposedSlug": "discovering-new-rooms-in-house",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "discovering-new-rooms-in-a-house",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by discovering-new-rooms-in-a-house, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "harvesting",
+        "locusts"
+      ],
+      "unresolvedReference": "drought",
+      "normalizedTopic": "Drought",
+      "proposedSlug": "drought",
+      "occurrences": 2,
+      "standalone": true,
+      "closestExistingCanonical": "famine",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Potentially; verify factual, medical, cultural, or scriptural claims.",
+      "classification": "MEDIUM",
+      "reason": "Absence of water, waiting for rain, failed growth, conservation, and environmental exposure differ from food scarcity."
+    },
+    {
+      "sourceDreams": [
+        "falling",
+        "sleep-paralysis"
+      ],
+      "unresolvedReference": "endless-loop",
+      "normalizedTopic": "Endless Loop",
+      "proposedSlug": "endless-loop",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "stuck-in-a-loop",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by stuck-in-a-loop, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "lightning",
+        "sinkhole"
+      ],
+      "unresolvedReference": "end-of-the-world",
+      "normalizedTopic": "End Of The World",
+      "proposedSlug": "end-of-the-world",
+      "occurrences": 2,
+      "standalone": true,
+      "closestExistingCanonical": "death",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Potentially; verify factual, medical, cultural, or scriptural claims.",
+      "classification": "HIGH",
+      "reason": "Collective collapse, survival, responsibility for others, unfinished priorities, and aftermath differ substantially from individual death imagery."
+    },
+    {
+      "sourceDreams": [
+        "climbing-stairs",
+        "endless-stairs"
+      ],
+      "unresolvedReference": "falling-down-stairs",
+      "normalizedTopic": "Falling Down Stairs",
+      "proposedSlug": "falling-down-stairs",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "A narrow falling scenario already served by the falling page."
+    },
+    {
+      "sourceDreams": [
+        "being-in-the-ocean",
+        "swimming-at-a-beach-or-in-a-pool"
+      ],
+      "unresolvedReference": "falling-into-water",
+      "normalizedTopic": "Falling Into Water",
+      "proposedSlug": "falling-into-water",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Combines existing falling and water interpretation; context belongs in those pages."
+    },
+    {
+      "sourceDreams": [
+        "eyes",
+        "eyes-staring-at-you-in-the-dark"
+      ],
+      "unresolvedReference": "glowing-eyes",
+      "normalizedTopic": "Glowing Eyes",
+      "proposedSlug": "glowing-eyes",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "A visual detail better handled inside watched, animal, or presence scenarios."
+    },
+    {
+      "sourceDreams": [
+        "burial",
+        "coffin"
+      ],
+      "unresolvedReference": "graveyard",
+      "normalizedTopic": "Graveyard",
+      "proposedSlug": "graveyard",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "cemetery",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by cemetery, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "escaping-something",
+        "house-break-in-while-sleeping"
+      ],
+      "unresolvedReference": "hiding",
+      "normalizedTopic": "Hiding",
+      "proposedSlug": "hiding",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "hiding-from-someone",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by hiding-from-someone, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "burning-clothes",
+        "teeth-falling-out"
+      ],
+      "unresolvedReference": "mirror",
+      "normalizedTopic": "Mirror",
+      "proposedSlug": "mirror",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "mirrors",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by mirrors, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "full-moon",
+        "no-moon-or-sun-in-the-sky"
+      ],
+      "unresolvedReference": "moon",
+      "normalizedTopic": "Moon",
+      "proposedSlug": "moon",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "full-moon",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by full-moon, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "1111",
+        "angel-numbers"
+      ],
+      "unresolvedReference": "seeing-repeating-numbers",
+      "normalizedTopic": "Seeing Repeating Numbers",
+      "proposedSlug": "seeing-repeating-numbers",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "angel-numbers",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by angel-numbers, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "eyes-staring-at-you-in-the-dark",
+        "fighting-a-demon"
+      ],
+      "unresolvedReference": "shadow-figure",
+      "normalizedTopic": "Shadow Figure",
+      "proposedSlug": "shadow-figure",
+      "occurrences": 2,
+      "standalone": true,
+      "closestExistingCanonical": "eyes-staring-in-the-dark",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Potentially; verify factual, medical, cultural, or scriptural claims.",
+      "classification": "MEDIUM",
+      "reason": "A visually indistinct humanlike presence has unique questions of distance, motion, identity, recognition, and ambiguity."
+    },
+    {
+      "sourceDreams": [
+        "evil-presence",
+        "sleep-paralysis"
+      ],
+      "unresolvedReference": "shadow-person",
+      "normalizedTopic": "Shadow Person",
+      "proposedSlug": "shadow-person",
+      "occurrences": 2,
+      "standalone": true,
+      "closestExistingCanonical": "eyes-staring-in-the-dark",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Potentially; verify factual, medical, cultural, or scriptural claims.",
+      "classification": "MEDIUM",
+      "reason": "A visually indistinct humanlike presence has unique questions of distance, motion, identity, recognition, and ambiguity."
+    },
+    {
+      "sourceDreams": [
+        "cheating-on-your-partner",
+        "partner-cheating-on-you"
+      ],
+      "unresolvedReference": "someone-confessing-love",
+      "normalizedTopic": "Someone Confessing Love",
+      "proposedSlug": "someone-confessing-love",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "packing",
+        "running"
+      ],
+      "unresolvedReference": "traveling",
+      "normalizedTopic": "Traveling",
+      "proposedSlug": "traveling",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "travel",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by travel, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "climbing-stairs",
+        "endless-stairs"
+      ],
+      "unresolvedReference": "walking-uphill",
+      "normalizedTopic": "Walking Uphill",
+      "proposedSlug": "walking-uphill",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "A narrow effort/progress scenario without enough separation from climbing or journey themes."
+    },
+    {
+      "sourceDreams": [
+        "getting-married-to-a-stranger",
+        "marriage"
+      ],
+      "unresolvedReference": "wearing-a-wedding-dress",
+      "normalizedTopic": "Wearing A Wedding Dress",
+      "proposedSlug": "wearing-a-wedding-dress",
+      "occurrences": 2,
+      "standalone": false,
+      "closestExistingCanonical": "marriage",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Best handled as a marriage scenario unless the garment itself becomes a broader editorial topic."
+    },
+    {
+      "sourceDreams": [
+        "house-on-fire"
+      ],
+      "unresolvedReference": "ashes",
+      "normalizedTopic": "Ashes",
+      "proposedSlug": "ashes",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Usually aftermath detail within fire, death, or loss contexts."
+    },
+    {
+      "sourceDreams": [
+        "marrying-a-celebrity"
+      ],
+      "unresolvedReference": "being-admired",
+      "normalizedTopic": "Being Admired",
+      "proposedSlug": "being-admired",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "being-watched",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "Positive attention, validation, attraction, discomfort with praise, and the identity of the admirer differ from scrutiny or surveillance."
+    },
+    {
+      "sourceDreams": [
+        "death"
+      ],
+      "unresolvedReference": "being-born",
+      "normalizedTopic": "Being Born",
+      "proposedSlug": "being-born",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "person-changing-into-an-animal"
+      ],
+      "unresolvedReference": "being-chased-by-an-animal",
+      "normalizedTopic": "Being Chased By An Animal",
+      "proposedSlug": "being-chased-by-an-animal",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "being-chased",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by being-chased, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "sitting-on-a-roof"
+      ],
+      "unresolvedReference": "being-on-a-mountain",
+      "normalizedTopic": "Being On A Mountain",
+      "proposedSlug": "being-on-a-mountain",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "mountain",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by mountain, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "different-reflection-in-the-mirror"
+      ],
+      "unresolvedReference": "being-someone-else",
+      "normalizedTopic": "Being Someone Else",
+      "proposedSlug": "being-someone-else",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "shapeshifter",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "Inhabiting another identity, role, body, age, or viewpoint differs from seeing a figure change form."
+    },
+    {
+      "sourceDreams": [
+        "being-unable-to-open-your-eyes"
+      ],
+      "unresolvedReference": "being-stuck-in-a-maze",
+      "normalizedTopic": "Being Stuck In A Maze",
+      "proposedSlug": "being-stuck-in-a-maze",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "being-lost",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by being-lost, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "stranded-on-island-with-someone-you-know"
+      ],
+      "unresolvedReference": "being-trapped-with-someone",
+      "normalizedTopic": "Being Trapped With Someone",
+      "proposedSlug": "being-trapped-with-someone",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "A relational variation of being trapped; the companion should alter that parent interpretation."
+    },
+    {
+      "sourceDreams": [
+        "house-break-in-while-sleeping"
+      ],
+      "unresolvedReference": "being-unable-to-lock-a-door",
+      "normalizedTopic": "Being Unable To Lock A Door",
+      "proposedSlug": "being-unable-to-lock-a-door",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "falling-or-swimming-in-dirty-water"
+      ],
+      "unresolvedReference": "being-underwater",
+      "normalizedTopic": "Being Underwater",
+      "proposedSlug": "being-underwater",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "breathing-underwater",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by breathing-underwater, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "crows"
+      ],
+      "unresolvedReference": "black-bird",
+      "normalizedTopic": "Black Bird",
+      "proposedSlug": "black-bird",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Color/species-unspecified animal variant likely to rely on generic symbolism."
+    },
+    {
+      "sourceDreams": [
+        "blood"
+      ],
+      "unresolvedReference": "bleeding",
+      "normalizedTopic": "Bleeding",
+      "proposedSlug": "bleeding",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "eyes"
+      ],
+      "unresolvedReference": "blindness",
+      "normalizedTopic": "Blindness",
+      "proposedSlug": "blindness",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "teeth-falling-out"
+      ],
+      "unresolvedReference": "breaking",
+      "normalizedTopic": "Breaking",
+      "proposedSlug": "breaking",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "casting-out-demons"
+      ],
+      "unresolvedReference": "breaking-chains",
+      "normalizedTopic": "Breaking Chains",
+      "proposedSlug": "breaking-chains",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "being-trapped",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "The specific act of breaking restraint centers agency, effort, liberation, helping another, failure, and what remains afterward."
+    },
+    {
+      "sourceDreams": [
+        "bright-light-in-the-sky"
+      ],
+      "unresolvedReference": "bright-moon",
+      "normalizedTopic": "Bright Moon",
+      "proposedSlug": "bright-moon",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "full-moon",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by full-moon, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "burning-clothes"
+      ],
+      "unresolvedReference": "burning-paper",
+      "normalizedTopic": "Burning Paper",
+      "proposedSlug": "burning-paper",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "A narrow fire/object combination best handled as a fire scenario."
+    },
+    {
+      "sourceDreams": [
+        "flowers"
+      ],
+      "unresolvedReference": "butterflies",
+      "normalizedTopic": "Butterflies",
+      "proposedSlug": "butterflies",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "butterfly",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by butterfly, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "different-reflection-in-the-mirror"
+      ],
+      "unresolvedReference": "changing-appearance",
+      "normalizedTopic": "Changing Appearance",
+      "proposedSlug": "changing-appearance",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "burning-clothes"
+      ],
+      "unresolvedReference": "changing-clothes",
+      "normalizedTopic": "Changing Clothes",
+      "proposedSlug": "changing-clothes",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "burning-clothes",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "Changing presentation or role—voluntarily or under pressure—is distinct from clothing being destroyed by fire."
+    },
+    {
+      "sourceDreams": [
+        "rainbow"
+      ],
+      "unresolvedReference": "clear-sky",
+      "normalizedTopic": "Clear Sky",
+      "proposedSlug": "clear-sky",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Atmospheric detail with limited standalone scenario depth."
+    },
+    {
+      "sourceDreams": [
+        "stealing-money"
+      ],
+      "unresolvedReference": "counting-money",
+      "normalizedTopic": "Counting Money",
+      "proposedSlug": "counting-money",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "being-arrested"
+      ],
+      "unresolvedReference": "courtroom",
+      "normalizedTopic": "Courtroom",
+      "proposedSlug": "courtroom",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "court-room",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by court-room, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "sheep"
+      ],
+      "unresolvedReference": "cows",
+      "normalizedTopic": "Cows",
+      "proposedSlug": "cows",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "horse",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Potentially; verify factual, medical, cultural, or scriptural claims.",
+      "classification": "MEDIUM",
+      "reason": "Farm, herd, calf, feeding, milking, blocking, charging, and caregiving contexts create a distinct animal topic."
+    },
+    {
+      "sourceDreams": [
+        "reaching-the-end-after-an-endless-fall"
+      ],
+      "unresolvedReference": "crossing-a-bridge",
+      "normalizedTopic": "Crossing A Bridge",
+      "proposedSlug": "crossing-a-bridge",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "jumping-off-a-bridge",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "Deliberate passage, hesitation, bridge condition, and destination form a different interpretive act from jumping off."
+    },
+    {
+      "sourceDreams": [
+        "looking-at-a-river"
+      ],
+      "unresolvedReference": "crossing-a-river",
+      "normalizedTopic": "Crossing A River",
+      "proposedSlug": "crossing-a-river",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "looking-at-a-river",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "A broader river page can address entering, following, crossing, resisting, or being carried by a current; the existing page is limited to observation."
+    },
+    {
+      "sourceDreams": [
+        "evil-presence"
+      ],
+      "unresolvedReference": "demon",
+      "normalizedTopic": "Demon",
+      "proposedSlug": "demon",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "evil-presence",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by evil-presence, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "looking-in-the-mirror"
+      ],
+      "unresolvedReference": "different-reflection-mirror",
+      "normalizedTopic": "Different Reflection Mirror",
+      "proposedSlug": "different-reflection-mirror",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "different-reflection-in-the-mirror",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by different-reflection-in-the-mirror, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "house"
+      ],
+      "unresolvedReference": "door",
+      "normalizedTopic": "Door",
+      "proposedSlug": "door",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "doors",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by doors, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "climbing-stairs"
+      ],
+      "unresolvedReference": "elevator",
+      "normalizedTopic": "Elevator",
+      "proposedSlug": "elevator",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "being-trapped",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "Vertical movement, floor selection, doors, controls, speed, and mechanical failure create a distinct transition-and-control framework beyond generic confinement."
+    },
+    {
+      "sourceDreams": [
+        "house-on-fire"
+      ],
+      "unresolvedReference": "escaping",
+      "normalizedTopic": "Escaping",
+      "proposedSlug": "escaping",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "being-in-a-toilet"
+      ],
+      "unresolvedReference": "falling-into-dirty-water",
+      "normalizedTopic": "Falling Into Dirty Water",
+      "proposedSlug": "falling-into-dirty-water",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "falling-or-swimming-in-dirty-water",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by falling-or-swimming-in-dirty-water, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "falling"
+      ],
+      "unresolvedReference": "falling-then-flying",
+      "normalizedTopic": "Falling Then Flying",
+      "proposedSlug": "falling-then-flying",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "flying",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by flying, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "moving-back-to-an-old-house"
+      ],
+      "unresolvedReference": "finding-a-hidden-room",
+      "normalizedTopic": "Finding A Hidden Room",
+      "proposedSlug": "finding-a-hidden-room",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "car-accident"
+      ],
+      "unresolvedReference": "finding-your-way-after-being-lost",
+      "normalizedTopic": "Finding Your Way After Being Lost",
+      "proposedSlug": "finding-your-way-after-being-lost",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "being-lost",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by being-lost, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "being-underwater-but-calm"
+      ],
+      "unresolvedReference": "floating",
+      "normalizedTopic": "Floating",
+      "proposedSlug": "floating",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "floating-in-a-dark-void",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "General weightlessness or drifting can occur over land, water, rooms, or crowds and need not involve flight or a dark void."
+    },
+    {
+      "sourceDreams": [
+        "being-naked-in-public"
+      ],
+      "unresolvedReference": "forgetting-your-clothes",
+      "normalizedTopic": "Forgetting Your Clothes",
+      "proposedSlug": "forgetting-your-clothes",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "marrying-an-ex"
+      ],
+      "unresolvedReference": "getting-back-together-with-an-ex",
+      "normalizedTopic": "Getting Back Together With An Ex",
+      "proposedSlug": "getting-back-together-with-an-ex",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "ex-partner",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by ex-partner, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "having-sex"
+      ],
+      "unresolvedReference": "getting-married",
+      "normalizedTopic": "Getting Married",
+      "proposedSlug": "getting-married",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "marriage",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by marriage, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "being-arrested"
+      ],
+      "unresolvedReference": "going-to-prison",
+      "normalizedTopic": "Going To Prison",
+      "proposedSlug": "going-to-prison",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "prison",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by prison, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "harvesting"
+      ],
+      "unresolvedReference": "grass-drying-out",
+      "normalizedTopic": "Grass Drying Out",
+      "proposedSlug": "grass-drying-out",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "house-break-in-while-sleeping"
+      ],
+      "unresolvedReference": "hearing-footsteps",
+      "normalizedTopic": "Hearing Footsteps",
+      "proposedSlug": "hearing-footsteps",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "hearing-someone-walking-in-the-dark",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by hearing-someone-walking-in-the-dark, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "sleep-paralysis"
+      ],
+      "unresolvedReference": "hearing-your-name-being-called",
+      "normalizedTopic": "Hearing Your Name Being Called",
+      "proposedSlug": "hearing-your-name-being-called",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "hearing-a-voice",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by hearing-a-voice, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "bright-light-in-the-sky"
+      ],
+      "unresolvedReference": "heaven-opening",
+      "normalizedTopic": "Heaven Opening",
+      "proposedSlug": "heaven-opening",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "opening-a-door"
+      ],
+      "unresolvedReference": "hidden-door",
+      "normalizedTopic": "Hidden Door",
+      "proposedSlug": "hidden-door",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "doors",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "A discovery variant of doors/hidden-room material."
+    },
+    {
+      "sourceDreams": [
+        "marrying-someone-you-know"
+      ],
+      "unresolvedReference": "hugging-someone",
+      "normalizedTopic": "Hugging Someone",
+      "proposedSlug": "hugging-someone",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "seeing-someone-you-miss",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "The reciprocal physical action introduces acceptance, refusal, comfort, reconciliation, farewell, boundaries, and bodily response."
+    },
+    {
+      "sourceDreams": [
+        "blood"
+      ],
+      "unresolvedReference": "injury",
+      "normalizedTopic": "Injury",
+      "proposedSlug": "injury",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "sheep"
+      ],
+      "unresolvedReference": "lamb",
+      "normalizedTopic": "Lamb",
+      "proposedSlug": "lamb",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "different-reflection-in-the-mirror"
+      ],
+      "unresolvedReference": "looking-in-a-mirror",
+      "normalizedTopic": "Looking In A Mirror",
+      "proposedSlug": "looking-in-a-mirror",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "looking-in-the-mirror",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by looking-in-the-mirror, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "eyes"
+      ],
+      "unresolvedReference": "looking-through-a-window",
+      "normalizedTopic": "Looking Through A Window",
+      "proposedSlug": "looking-through-a-window",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "windows",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by windows, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "different-reflection-in-the-mirror"
+      ],
+      "unresolvedReference": "losing-your-face",
+      "normalizedTopic": "Losing Your Face",
+      "proposedSlug": "losing-your-face",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Potentially distinctive but overlaps identity/appearance material and needs careful non-diagnostic treatment."
+    },
+    {
+      "sourceDreams": [
+        "arguing-with-your-ex"
+      ],
+      "unresolvedReference": "marrying-your-ex",
+      "normalizedTopic": "Marrying Your Ex",
+      "proposedSlug": "marrying-your-ex",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "ex-partner",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by ex-partner, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "marrying-a-celebrity"
+      ],
+      "unresolvedReference": "meeting-someone-famous",
+      "normalizedTopic": "Meeting Someone Famous",
+      "proposedSlug": "meeting-someone-famous",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "marrying-a-celebrity",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "An encounter can explore recognition, idealization, influence, access, status, disappointment, and comparison without a romance or marriage premise."
+    },
+    {
+      "sourceDreams": [
+        "saying-no-at-a-wedding"
+      ],
+      "unresolvedReference": "missing-your-wedding",
+      "normalizedTopic": "Missing Your Wedding",
+      "proposedSlug": "missing-your-wedding",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "marriage",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "A narrow wedding/anxiety scenario."
+    },
+    {
+      "sourceDreams": [
+        "cave"
+      ],
+      "unresolvedReference": "mountain",
+      "normalizedTopic": "Mountain",
+      "proposedSlug": "mountain",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "teeth-falling-out"
+      ],
+      "unresolvedReference": "mouth",
+      "normalizedTopic": "Mouth",
+      "proposedSlug": "mouth",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Body-part topic is too broad without an action such as speaking, injury, or obstruction."
+    },
+    {
+      "sourceDreams": [
+        "house-on-fire"
+      ],
+      "unresolvedReference": "moving-house",
+      "normalizedTopic": "Moving House",
+      "proposedSlug": "moving-house",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "new-house",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by new-house, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "burning-clothes"
+      ],
+      "unresolvedReference": "naked-in-public",
+      "normalizedTopic": "Naked In Public",
+      "proposedSlug": "naked-in-public",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "being-naked-in-public",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by being-naked-in-public, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "burning-clothes"
+      ],
+      "unresolvedReference": "new-clothes",
+      "normalizedTopic": "New Clothes",
+      "proposedSlug": "new-clothes",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "burning-clothes",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "Changing presentation or role—voluntarily or under pressure—is distinct from clothing being destroyed by fire."
+    },
+    {
+      "sourceDreams": [
+        "full-moon"
+      ],
+      "unresolvedReference": "night-sky",
+      "normalizedTopic": "Night Sky",
+      "proposedSlug": "night-sky",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "death"
+      ],
+      "unresolvedReference": "phoenix",
+      "normalizedTopic": "Phoenix",
+      "proposedSlug": "phoenix",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Potentially rich symbol but depends heavily on sourced mythological claims and has only one narrow reference."
+    },
+    {
+      "sourceDreams": [
+        "being-kidnapped"
+      ],
+      "unresolvedReference": "prison",
+      "normalizedTopic": "Prison",
+      "proposedSlug": "prison",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "peeing-the-bed"
+      ],
+      "unresolvedReference": "public-nudity",
+      "normalizedTopic": "Public Nudity",
+      "proposedSlug": "public-nudity",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "being-naked-in-public",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by being-naked-in-public, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "climbing-stairs"
+      ],
+      "unresolvedReference": "reaching-the-top",
+      "normalizedTopic": "Reaching The Top",
+      "proposedSlug": "reaching-the-top",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "A generic achievement endpoint better handled inside climbing, ladder, mountain, or success scenarios."
+    },
+    {
+      "sourceDreams": [
+        "doors"
+      ],
+      "unresolvedReference": "red-door",
+      "normalizedTopic": "Red Door",
+      "proposedSlug": "red-door",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "doors",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by doors, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "water"
+      ],
+      "unresolvedReference": "river",
+      "normalizedTopic": "River",
+      "proposedSlug": "river",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "looking-at-a-river",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "A broader river page can address entering, following, crossing, resisting, or being carried by a current; the existing page is limited to observation."
+    },
+    {
+      "sourceDreams": [
+        "stuck-in-traffic"
+      ],
+      "unresolvedReference": "road-keeps-changing",
+      "normalizedTopic": "Road Keeps Changing",
+      "proposedSlug": "road-keeps-changing",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "house-break-in-while-sleeping"
+      ],
+      "unresolvedReference": "robbery",
+      "normalizedTopic": "Robbery",
+      "proposedSlug": "robbery",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "seeing-a-spirit-on-your-bed"
+      ],
+      "unresolvedReference": "seeing-a-deceased-loved-one",
+      "normalizedTopic": "Seeing A Deceased Loved One",
+      "proposedSlug": "seeing-a-deceased-loved-one",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "seeing-the-devil"
+      ],
+      "unresolvedReference": "seeing-a-demon",
+      "normalizedTopic": "Seeing A Demon",
+      "proposedSlug": "seeing-a-demon",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "evil-presence",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by evil-presence, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "marrying-an-ex"
+      ],
+      "unresolvedReference": "seeing-an-ex",
+      "normalizedTopic": "Seeing An Ex",
+      "proposedSlug": "seeing-an-ex",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "ex-partner",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by ex-partner, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "marrying-someone-you-know"
+      ],
+      "unresolvedReference": "seeing-an-old-friend",
+      "normalizedTopic": "Seeing An Old Friend",
+      "proposedSlug": "seeing-an-old-friend",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "bright-light-in-the-sky"
+      ],
+      "unresolvedReference": "seeing-a-star",
+      "normalizedTopic": "Seeing A Star",
+      "proposedSlug": "seeing-a-star",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "two-headed-snake"
+      ],
+      "unresolvedReference": "seeing-double",
+      "normalizedTopic": "Seeing Double",
+      "proposedSlug": "seeing-double",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "sitting-on-a-roof"
+      ],
+      "unresolvedReference": "seeing-the-ocean",
+      "normalizedTopic": "Seeing The Ocean",
+      "proposedSlug": "seeing-the-ocean",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "ocean",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by ocean, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "mermaid"
+      ],
+      "unresolvedReference": "seeing-water-in-a-dream",
+      "normalizedTopic": "Seeing Water In A Dream",
+      "proposedSlug": "seeing-water-in-a-dream",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "water",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by water, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "eyes"
+      ],
+      "unresolvedReference": "seeing-yourself",
+      "normalizedTopic": "Seeing Yourself",
+      "proposedSlug": "seeing-yourself",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "talking-to-yourself",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by talking-to-yourself, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "house-on-fire"
+      ],
+      "unresolvedReference": "smoke",
+      "normalizedTopic": "Smoke",
+      "proposedSlug": "smoke",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "fire",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Potentially; verify factual, medical, cultural, or scriptural claims.",
+      "classification": "MEDIUM",
+      "reason": "Smoke can obscure a cause, limit visibility, signal danger, or linger after an event even when flames are absent."
+    },
+    {
+      "sourceDreams": [
+        "snake"
+      ],
+      "unresolvedReference": "snake-bite",
+      "normalizedTopic": "Snake Bite",
+      "proposedSlug": "snake-bite",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "snake-bite-on",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by snake-bite-on, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "someone-confessing-their-love-to-you"
+      ],
+      "unresolvedReference": "someone-confessing-a-secret",
+      "normalizedTopic": "Someone Confessing A Secret",
+      "proposedSlug": "someone-confessing-a-secret",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "ex-partner"
+      ],
+      "unresolvedReference": "someone-you-miss",
+      "normalizedTopic": "Someone You Miss",
+      "proposedSlug": "someone-you-miss",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "teeth-falling-out"
+      ],
+      "unresolvedReference": "speaking",
+      "normalizedTopic": "Speaking",
+      "proposedSlug": "speaking",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "looking-at-a-river"
+      ],
+      "unresolvedReference": "standing-on-a-bridge",
+      "normalizedTopic": "Standing On A Bridge",
+      "proposedSlug": "standing-on-a-bridge",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "jumping-off-a-bridge",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "Deliberate passage, hesitation, bridge condition, and destination form a different interpretive act from jumping off."
+    },
+    {
+      "sourceDreams": [
+        "opening-a-door"
+      ],
+      "unresolvedReference": "starting-a-new-job",
+      "normalizedTopic": "Starting A New Job",
+      "proposedSlug": "starting-a-new-job",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "work-stress",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "Entry into a new role focuses readiness, belonging, competence, first impressions, and unfamiliar expectations rather than ongoing work pressure."
+    },
+    {
+      "sourceDreams": [
+        "no-moon-or-sun-in-the-sky"
+      ],
+      "unresolvedReference": "sun",
+      "normalizedTopic": "Sun",
+      "proposedSlug": "sun",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "rainbow"
+      ],
+      "unresolvedReference": "sunrise",
+      "normalizedTopic": "Sunrise",
+      "proposedSlug": "sunrise",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "bright-light-in-sky",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "A sunrise is a timed transition from night into day, carrying questions of beginning, waiting, visibility, and what follows darkness."
+    },
+    {
+      "sourceDreams": [
+        "broken-teeth"
+      ],
+      "unresolvedReference": "taking-an-exam",
+      "normalizedTopic": "Taking An Exam",
+      "proposedSlug": "taking-an-exam",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "failing-an-exam",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by failing-an-exam, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "sleep-paralysis"
+      ],
+      "unresolvedReference": "unable-to-speak",
+      "normalizedTopic": "Unable To Speak",
+      "proposedSlug": "unable-to-speak",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "losing-your-voice",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by losing-your-voice, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "peeing-the-bed"
+      ],
+      "unresolvedReference": "using-a-toilet",
+      "normalizedTopic": "Using A Toilet",
+      "proposedSlug": "using-a-toilet",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "toilet",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Already substantially covered by toilet, or best retained as its scenario."
+    },
+    {
+      "sourceDreams": [
+        "casting-out-demons"
+      ],
+      "unresolvedReference": "victory",
+      "normalizedTopic": "Victory",
+      "proposedSlug": "victory",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "Too abstract without a specific contest, goal, or aftermath."
+    },
+    {
+      "sourceDreams": [
+        "sleep-paralysis"
+      ],
+      "unresolvedReference": "waking-up-inside-a-dream",
+      "normalizedTopic": "Waking Up Inside A Dream",
+      "proposedSlug": "waking-up-inside-a-dream",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "house-in-the-middle-of-nowhere"
+      ],
+      "unresolvedReference": "walking-in-a-forest",
+      "normalizedTopic": "Walking In A Forest",
+      "proposedSlug": "walking-in-a-forest",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": null,
+      "overlap": "Unclear/high risk",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Low",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "Uncertain",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "DO NOT CREATE",
+      "reason": "Too narrow, ambiguous, generic, or context-dependent to justify a canonical page on present evidence."
+    },
+    {
+      "sourceDreams": [
+        "opening-a-door"
+      ],
+      "unresolvedReference": "walking-through-a-door",
+      "normalizedTopic": "Walking Through A Door",
+      "proposedSlug": "walking-through-a-door",
+      "occurrences": 1,
+      "standalone": false,
+      "closestExistingCanonical": "doors",
+      "overlap": "High",
+      "distinctEnough": false,
+      "editorialSearchUsefulness": "Limited",
+      "supportsSubstantialUniqueContent": false,
+      "likelyCannibalization": "High",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "LOW",
+      "reason": "A door-transition scenario rather than a separate durable topic."
+    },
+    {
+      "sourceDreams": [
+        "looking-at-a-river"
+      ],
+      "unresolvedReference": "watching-a-sunset",
+      "normalizedTopic": "Watching A Sunset",
+      "proposedSlug": "watching-a-sunset",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "bright-light-in-sky",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "MEDIUM",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "MEDIUM",
+      "reason": "A sunset centers closure, time passing, beauty, reluctance, and transition into uncertainty rather than unexplained light."
+    },
+    {
+      "sourceDreams": [
+        "different-reflection-in-the-mirror"
+      ],
+      "unresolvedReference": "wearing-a-mask",
+      "normalizedTopic": "Wearing A Mask",
+      "proposedSlug": "wearing-a-mask",
+      "occurrences": 1,
+      "standalone": true,
+      "closestExistingCanonical": "shapeshifter",
+      "overlap": "Limited to moderate; distinct scope boundary documented.",
+      "distinctEnough": true,
+      "editorialSearchUsefulness": "HIGH",
+      "supportsSubstantialUniqueContent": true,
+      "likelyCannibalization": "Manageable if scope boundary is preserved.",
+      "specializedSourcing": "Not inherent; verify any factual claims introduced.",
+      "classification": "HIGH",
+      "reason": "Concealment, performance, protection, recognition, and removing a chosen covering differ from bodily transformation."
+    }
+  ],
+  "notes": {
+    "preservedCandidates": [
+      "Swimming",
+      "Being Judged",
+      "Cow",
+      "Being Admired",
+      "Big House"
+    ],
+    "productionChanges": "None",
+    "selectionRule": "No LOW or DO NOT CREATE concept was promoted to reach 25."
+  }
+}
+
