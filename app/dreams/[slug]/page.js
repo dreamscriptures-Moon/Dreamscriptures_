@@ -18,6 +18,7 @@ import RelatedDreams from "@/components/RelatedDreams";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import ContentSources from "@/app/components/ContentSources";
+import EditorialAttribution from "@/app/components/EditorialAttribution";
 import DreamPageClientNav from "./DreamPageClientNavDynamic";
 import DreamSubmissionPopup from "./DreamSubmissionPopup";
 import { dreams } from "@/data/dreams";
@@ -832,6 +833,26 @@ const primaryEmotion = primaryEmotionSlug
     emotion: primaryEmotion?.title,
     emotionSlug: primaryEmotionSlug,
   });
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: dynamicTitle,
+    description: summaryText,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://www.dreamscriptures.com/dreams/${canonicalDreamSlug}`,
+    },
+    author: {
+      "@type": "Person",
+      name: "Amber Balentine",
+      url: "https://www.dreamscriptures.com/author",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "DreamScriptures",
+      url: "https://www.dreamscriptures.com",
+    },
+  };
   const faqItems = getDreamFAQItems(dream);
   const faqSchema = getFAQSchema(faqItems);
   const readingTime = getReadingTime(dream);
@@ -851,6 +872,10 @@ function getDreamContext(dream) {
     __html: JSON.stringify(breadcrumbSchema),
   }}
 />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <SiteHeader />
      <div className="max-w-3xl mx-auto px-6 pt-6">
      <nav aria-label="Breadcrumb" className="mb-6 text-sm text-[#5F574E]">
@@ -904,6 +929,7 @@ function getDreamContext(dream) {
 <p className="mb-8 text-sm text-[#8A8177]" aria-label={`Estimated reading time ${readingTime} minutes`}>
   <span aria-hidden="true">⏱</span> {readingTime} min read
 </p>
+<EditorialAttribution className="mb-10" />
 {(dream.microSummary || dream.shortSummary) && (
   <section id="dream-overview" className="mb-12 scroll-mt-28">
 

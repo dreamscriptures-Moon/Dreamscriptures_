@@ -8,7 +8,8 @@ export const OPEN_DREAM_SUBMISSION_POPUP = "dreamscriptures:open-submit-popup";
 
 const STORAGE_KEY = "dreamscriptures_submit_popup_seen";
 const SUPPRESSION_DURATION = 24 * 60 * 60 * 1000;
-const SHOW_DELAY = 10 * 1000;
+const SHOW_DELAY = 45 * 1000;
+const MIN_SCROLL_PROGRESS = 0.3;
 
 function wasRecentlySeen() {
   try {
@@ -52,13 +53,24 @@ export default function DreamSubmissionPopup() {
     window.addEventListener(OPEN_DREAM_SUBMISSION_POPUP, handleOpenRequest);
 
     let showTimer;
+    let readingDelayElapsed = false;
+    const maybeOpen = () => {
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = scrollable > 0 ? window.scrollY / scrollable : 0;
+      if (readingDelayElapsed && progress >= MIN_SCROLL_PROGRESS && !wasRecentlySeen()) open();
+    };
     if (!wasRecentlySeen()) {
-      showTimer = window.setTimeout(open, SHOW_DELAY);
+      showTimer = window.setTimeout(() => {
+        readingDelayElapsed = true;
+        maybeOpen();
+      }, SHOW_DELAY);
+      window.addEventListener("scroll", maybeOpen, { passive: true });
     }
 
     return () => {
       window.cancelAnimationFrame(mountFrame);
       window.removeEventListener(OPEN_DREAM_SUBMISSION_POPUP, handleOpenRequest);
+      window.removeEventListener("scroll", maybeOpen);
       window.clearTimeout(showTimer);
     };
   }, [open]);

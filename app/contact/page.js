@@ -616,13 +616,25 @@ export default function ContactPage() {
 
                 {/* Email */}
 
-        <section className="mt-24">
+        <section id="corrections" className="mt-24 scroll-mt-28">
 
           <h2 className="font-serif text-4xl">
             Email DreamScriptures
           </h2>
 
           <div className="mt-4 h-[2px] w-12 bg-[#8F743C]" />
+
+          <div className="mt-8 rounded-3xl border border-[#E7DDD2] bg-[#FFFDF9] p-7">
+            <h3 className="font-serif text-2xl text-[#1A1A1A]">Report an error or interpretation concern</h3>
+            <p className="mt-4 leading-8 text-[#5F574E]">
+              Include the page URL, the passage or claim you are concerned
+              about, and—when possible—the source or context you think should
+              be considered. Corrections, source questions, safety concerns,
+              and respectful disagreement about an interpretation are all
+              welcome. Each report is reviewed by Amber Balentine, founder and
+              editor; a change is made when the review supports it.
+            </p>
+          </div>
 
           <div className="mt-10 rounded-[32px] border border-[#E7DDD2] bg-white p-10 shadow-sm">
 

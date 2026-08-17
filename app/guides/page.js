@@ -29,10 +29,10 @@ export default function GuidesPage() {
 </h1>
 
 <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-6">
-  Explore dream psychology, sleep science, spirituality,
-  symbolism, wellness and modern research through eight carefully
-  organized learning libraries designed to help you understand
-  dreams from multiple perspectives.
+  Start with the question you actually have: why a dream repeated,
+  what strong emotion changed its meaning, how sleep shapes recall,
+  or how a faith tradition approaches dreams. Each library keeps
+  evidence, interpretation and personal reflection clearly separated.
 </p>
 
 <div className="flex flex-wrap gap-3 text-sm text-[#6B6B6B] mb-8">
@@ -58,10 +58,25 @@ export default function GuidesPage() {
 Popular Dream Guides</h2>
 
 <p className="text-[#6B6B6B] mb-8">
-Explore the dream topics readers search for most often.
+Four useful starting points, whether you want the science of dreaming or a practical way to reflect on last night.
 </p>
 
 <div className="grid gap-4 md:grid-cols-2">
+
+<Link
+href="/guides/most-common-dreams"
+className="bg-white border rounded-xl p-5 hover:shadow-sm"
+>
+
+<h3 className="font-serif text-xl mb-2">
+20 Most Common Dreams
+</h3>
+
+<p className="text-[#6B6B6B]">
+Why familiar themes repeat and what details change their meaning.
+</p>
+
+</Link>
 
 <Link
 href="/guides/what-are-dreams"
@@ -133,22 +148,15 @@ Why nightmares happen and what research suggests.
  Why DreamScriptures Takes a Multi-Perspective Approach </h2>
 
   <p className="text-[#6B6B6B] leading-relaxed mb-6">
-    DreamScriptures explores dreams through psychology,
-    neuroscience, spirituality, symbolism, history,
-    wellness and personal experience.
+    No single discipline answers every question about dreams. Sleep science can describe stages and brain activity; psychology can examine memory and emotion; history and faith traditions show how people have made meaning from dreams.
   </p>
 
   <p className="text-[#6B6B6B] leading-relaxed mb-6">
-    Rather than assigning one fixed meaning to every dream,
-    our guides encourage thoughtful interpretation by combining
-    emotion, context, memory and subconscious patterns.
+    These perspectives are placed beside one another without pretending they carry the same kind of evidence. A research finding, a personal association and a spiritual belief can all matter while still being identified honestly.
   </p>
 
   <p className="text-[#6B6B6B] leading-relaxed">
-    Whether you&apos;re reading about nightmares,
-    lucid dreaming, recurring dreams or spiritual symbolism,
-    every guide is designed to help you build a deeper
-    understanding of dreams.
+    The aim is practical: help you notice what happened, ask better questions and avoid turning an emotionally vivid dream into a diagnosis or prediction.
   </p>
 
 </section>

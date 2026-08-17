@@ -2,13 +2,12 @@ import Link from "next/link";
 import SearchBar from "@/app/components/SearchBar";
 import GuideCopyLink from "@/app/components/guides/GuideCopyLink";
 import GuideTableOfContents from "@/app/components/guides/GuideTableOfContents";
-import { GUIDE_UPDATED_LABEL } from "@/lib/guideExperience";
 
 export function GuideSchemas({ schemas = [] }) {
   return schemas.map((schema) => <script key={schema["@type"]} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
 
-export function GuideHero({ category = "Dream Guide", title, description, readingTime, updated = GUIDE_UPDATED_LABEL, toc = [] }) {
+export function GuideHero({ category = "Dream Guide", title, description, readingTime, updated, toc = [] }) {
   return <>
     <header className="border-b border-[#E5DED4] bg-gradient-to-b from-white to-[#F7F5F2]">
       <div className="mx-auto max-w-4xl px-6 pb-14 pt-10 md:pb-20 md:pt-16">
@@ -16,7 +15,7 @@ export function GuideHero({ category = "Dream Guide", title, description, readin
         <p className="mb-4 text-xs font-medium uppercase tracking-[0.22em] text-[#8F743C]">{category}</p>
         <h1 className="max-w-4xl font-serif text-4xl leading-[1.08] text-[#1A1A1A] md:text-6xl">{title}</h1>
         <p className="mt-7 max-w-3xl text-lg leading-8 text-[#5F574E] md:text-xl">{description}</p>
-        <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-[#766E64]"><span>{readingTime} min read</span><span>Updated {updated}</span><GuideCopyLink /></div>
+        <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-[#766E64]"><span>{readingTime} min read</span>{updated && <span>Updated {updated}</span>}<GuideCopyLink /></div>
         <div className="mt-10"><SearchBar /></div>
       </div>
     </header>

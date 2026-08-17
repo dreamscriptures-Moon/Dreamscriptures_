@@ -34,6 +34,18 @@ export default function BiblicalPerspective({ dream = {} }) {
         Biblical Meaning
       </h2>
 
+      <aside className="mb-6 rounded-2xl border border-[#E7DDD2] bg-[#FFFDF9] p-5 text-sm leading-6 text-[#6B655D]">
+        <p className="font-medium text-[#4E402C]">How to read this section</p>
+        <p className="mt-2">
+          The interpretation below is a DreamScriptures reflection informed by
+          biblical passages or broader Christian themes; it is not a claim that
+          Scripture gives this dream symbol one fixed meaning. Any passages
+          listed under Sources show the direct biblical text. Their application
+          to this particular dream remains interpretive, not prophecy or proof
+          that the dream is a message from God.
+        </p>
+      </aside>
+
       <div className="space-y-4">
         {paragraphs.map((paragraph, index) => (
           <p key={`${index}-${paragraph.slice(0, 24)}`} className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">{paragraph}</p>

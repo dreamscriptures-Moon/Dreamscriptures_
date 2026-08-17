@@ -128,7 +128,7 @@ export default function EditorialStandardsPage() {
     Quality Standards
   </h2>
 
-  <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B']">
+  <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
 
     <p>DreamScriptures content is developed according to the following standards:</p>
 
@@ -182,8 +182,9 @@ export default function EditorialStandardsPage() {
             </p>
 
             <p>
-             Content is researched, written, reviewed, and maintained by
-Amber Balentine, founder and editor of DreamScriptures.
+              Content is researched, written, reviewed, and maintained by{" "}
+              <Link href="/author" rel="author" className="underline">Amber Balentine</Link>,
+              founder and editor of DreamScriptures.
             </p>
 
             <p>
@@ -216,6 +217,29 @@ Amber Balentine, founder and editor of DreamScriptures.
               frameworks, and introduce multiple perspectives rather than
               enforce a single meaning.
             </p>
+
+            <p>
+              Factual psychological, medical, historical, cultural, scientific,
+              and scriptural claims are sourced where verification is needed.
+              Interpretive applications are kept distinct from what a source
+              explicitly states.
+            </p>
+
+            <div className="rounded-2xl border border-[#E7DDD2] bg-[#FFFDF9] p-6">
+              <p className="font-medium text-[#4E402C]">How source labels work</p>
+              <ul className="mt-4 space-y-3">
+                <li><strong>Direct biblical passage or theme:</strong> the cited text itself contains the narrative, image, or teaching discussed.</li>
+                <li><strong>Broader Christian association:</strong> a connection found in Christian reflection or tradition, not a fixed biblical dream definition.</li>
+                <li><strong>DreamScriptures interpretive reflection:</strong> our context-aware application to possible dream meanings; this is analysis, not a factual claim from the source.</li>
+              </ul>
+            </div>
+
+            <p>
+              A citation is added only when it supports a real factual or
+              textual relationship. Sources are not added simply to make an
+              interpretation appear authoritative, and a citation does not
+              validate one personal interpretation as the correct answer.
+            </p>
           </div>
         </section>
 
@@ -235,6 +259,12 @@ Amber Balentine, founder and editor of DreamScriptures.
             <p>
               Pages may display a (Last updated) date when significant revisions
               have been made.
+            </p>
+
+            <p>
+              Content may also be revised as the methodology and source base
+              develop. A revision date is shown only when a supported date is
+              available.
             </p>
           </div>
         </section>
@@ -265,12 +295,6 @@ Amber Balentine, founder and editor of DreamScriptures.
           </h2>
 
           <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
-            <section className="mt-14 border-t border-[#EAE6E1] pt-10">
-  <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
-    Editorial independence
-  </h2>
-
-  <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
     <p>
       DreamScriptures is independently owned and operated by Amber Balentine.
     </p>
@@ -292,11 +316,6 @@ Amber Balentine, founder and editor of DreamScriptures.
   dream interpretation content that encourages reflection rather than
   certainty.
 </p>
-
-
-  </div>
-</section>
-
           </div>
         </section>
 <section className="mt-14 border-t border-[#EAE6E1] pt-10">

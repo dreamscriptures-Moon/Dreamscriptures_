@@ -4,7 +4,7 @@ import SiteFooter from "@/app/components/SiteFooter";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 
 export const metadata = {
-  title: "Amber Balentine | Founder, Editor & Dream Researcher | DreamScriptures",
+  title: "Amber Balentine | Founder & Editor | DreamScriptures",
   description:
     "Learn about Amber Balentine, founder and editor of DreamScriptures, and the emotional interpretation framework behind the site's dream meanings and symbolism.",
   alternates: {
@@ -13,8 +13,22 @@ export const metadata = {
 };
 
 export default function AuthorPage() {
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Amber Balentine",
+    url: "https://www.dreamscriptures.com/author",
+    jobTitle: "Founder and Editor",
+    worksFor: {
+      "@type": "Organization",
+      name: "DreamScriptures",
+      url: "https://www.dreamscriptures.com",
+    },
+  };
+
   return (
     <main className="bg-[#FAF8F5] min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       <SiteHeader />
 
       <article className="max-w-3xl mx-auto px-6 py-16 md:py-28">
@@ -31,7 +45,7 @@ export default function AuthorPage() {
         </nav>
 
         <p className="mb-4 text-[11px] uppercase tracking-[0.2em] text-[#8A8175]">
-          Founder • Editor • Independent Dream Researcher
+          Founder · Editor · Independent Dream-Interpretation Writer
         </p>
 
         <h1 className="text-4xl md:text-5xl font-serif mb-6">
@@ -75,9 +89,9 @@ spiritual traditions, history and modern research.
             </p>
 
             <p className="mt-6">
-              Through years of independent study and research, she became
-              particularly interested in how emotional patterns influence the
-              way dreams are experienced and interpreted.
+              Her editorial interest centers on how emotion, personal context,
+              memory, and a symbol&apos;s behavior can change the way a dream is
+              experienced and interpreted.
             </p>
 
             <p className="mt-6">
@@ -186,13 +200,13 @@ than certainty. </p>
           {/* Research */}
           <section>
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
-              Research &  Interest
+              Editorial interests
             </h2>
 
             <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
 
             <p>
-              Research and interpretation work frequently explores:
+              Her writing and interpretation work frequently explores:
             </p>
 
             <ul className="mt-6 space-y-3 text-[#4A4A4A]">
@@ -211,21 +225,35 @@ than certainty. </p>
           {/* Role */}
           <section>
             <h2 className="font-serif text-2xl md:text-3xl mb-4">
-              Editorial & Research Role
+              Editorial role
             </h2>
 
             <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
 
             <p>
-              As founder and editor, Amber oversees the development,
-              research, review, and maintenance of DreamScriptures content.
+              As founder and editor, Amber researches, writes, reviews, and
+              maintains DreamScriptures content and develops the site&apos;s
+              interpretation framework.
             </p>
 
             <p className="mt-6">
-              Responsibilities include researching dream meanings,
+              This work includes researching dream meanings,
               maintaining editorial standards, refining interpretation
               methodology, reviewing content quality, and expanding educational
               resources throughout the website.
+            </p>
+          </section>
+
+          {/* Editorial */}
+          <section>
+            <h2 className="font-serif text-2xl md:text-3xl mb-4">Scope and qualifications</h2>
+            <div className="w-10 h-[1px] bg-[#EAE6E1] mb-6" />
+            <p>
+              Amber writes as an independent dream-interpretation writer and
+              editor. DreamScriptures does not present her as a psychologist,
+              therapist, sleep physician, licensed counselor, theologian, or
+              academic researcher. The site is educational and reflective; it
+              does not replace medical or mental-health care.
             </p>
           </section>
 
@@ -239,7 +267,7 @@ than certainty. </p>
 
             <p>
               All content published on DreamScriptures is created and reviewed
-              according to the site is interpretation framework, editorial
+              according to the site&apos;s interpretation framework, editorial
               standards, and content guidelines.
             </p>
 

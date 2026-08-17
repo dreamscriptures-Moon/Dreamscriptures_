@@ -283,6 +283,14 @@ export default function PrivacyPage() {
 
             </p>
 
+            <p className="mt-6 text-lg leading-9 text-[#5F574E]">
+
+              Submission records are stored using Supabase, our database
+              service provider. Access is limited to operating, reviewing,
+              and responding to the submission service.
+
+            </p>
+
           </div>
 
         </section>
@@ -302,8 +310,8 @@ export default function PrivacyPage() {
             <p className="text-lg leading-9 text-[#5F574E]">
 
               Premium dream interpretations and repeat Community
-              submissions are processed securely through trusted
-              third-party payment providers.
+              submissions are processed by Paystack, our third-party
+              payment processor.
 
             </p>
 
@@ -316,9 +324,9 @@ export default function PrivacyPage() {
 
             <p className="mt-6 text-lg leading-9 text-[#5F574E]">
 
-              Payment information is securely handled by our payment
-              processor in accordance with their own privacy and
-              security policies.
+              Paystack handles payment information under its own privacy and
+              security terms. DreamScriptures receives transaction details
+              needed to confirm payment and connect it with a submission.
 
             </p>
 
@@ -360,6 +368,14 @@ export default function PrivacyPage() {
 
             </p>
 
+            <p className="mt-6 text-lg leading-9 text-[#5F574E]">
+
+              Transactional submission and interpretation emails are delivered
+              through Resend, which processes the recipient address and message
+              information needed to send them.
+
+            </p>
+
           </div>
 
         </section>
@@ -378,19 +394,21 @@ export default function PrivacyPage() {
 
             <p className="text-lg leading-9 text-[#5F574E]">
 
-              DreamScriptures may use cookies and similar technologies
-              to improve website functionality, remember preferences,
-              understand visitor behaviour, and enhance your browsing
-              experience.
+              DreamScriptures uses Google Tag Manager to manage measurement
+              tags, Google Analytics 4 to understand site use, and Vercel
+              Analytics and Speed Insights to monitor traffic and technical
+              performance. These services may process device, browser,
+              approximate-location, page-view, interaction, and performance
+              information.
 
             </p>
 
             <p className="mt-6 text-lg leading-9 text-[#5F574E]">
 
-              Analytics tools may collect anonymous information such as
-              pages visited, browser type, device information,
-              approximate location, and how visitors interact with the
-              website.
+              Google Analytics may use cookies or similar identifiers. Vercel
+              provides its analytics services under its own privacy terms.
+              DreamScriptures does not use analytics reports to identify a
+              visitor by name.
 
             </p>
 
@@ -429,14 +447,22 @@ export default function PrivacyPage() {
 
               These providers may use cookies or similar technologies to
               display relevant advertisements, measure advertising
-              performance, and improve user experience.
+              performance, limit repeated ads, and help prevent fraud. Depending
+              on your location and choices, Google may serve personalized or
+              non-personalized advertising.
 
             </p>
 
             <p className="mt-6 text-lg leading-9 text-[#5F574E]">
 
-              You can learn more about how Google uses information by
-              visiting Google&apos;s Privacy Policy and Ads Settings.
+              Learn more on Google&apos;s{" "}
+              <a className="underline" href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer">
+                partner-sites information page
+              </a>{" "}
+              and manage advertising choices in{" "}
+              <a className="underline" href="https://myadcenter.google.com/" target="_blank" rel="noreferrer">
+                My Ad Center
+              </a>.
 
             </p>
 

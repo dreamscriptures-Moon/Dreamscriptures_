@@ -123,6 +123,8 @@ export default function MethodologyPage() {
 
       <li><Link href="#influences" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">What Influences Interpretation</Link></li>
 
+      <li><Link href="#faith-and-safety" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">Faith, Sources &amp; Safety</Link></li>
+
       <li><Link href="#what-we-are-not" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">What DreamScriptures Is Not</Link></li>
 
       <li><Link href="#editorial" className="block border-l-2 border-transparent py-1 pl-3 -ml-[17px] hover:border-[#C6A96B] hover:text-[#8F743C]">Editorial Standards</Link></li>
@@ -418,6 +420,49 @@ className="mt-14 border-t border-[#EAE6E1] pt-10">
           </div>
         </section>
 
+        <section id="faith-and-safety" className="mt-14 border-t border-[#EAE6E1] pt-10">
+          <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
+            Faith, sources, and safety boundaries
+          </h2>
+
+          <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
+            <p>
+              Biblical and spiritual material is handled in three distinct
+              ways. A <strong>direct biblical passage or theme</strong> is tied
+              to what the text itself says. A <strong>broader Christian
+              association</strong> reflects a familiar faith tradition without
+              claiming a universal scriptural definition. A
+              <strong> DreamScriptures reflection</strong> applies those ideas
+              cautiously to the dreamer&apos;s possible context. These categories
+              should not be treated as interchangeable.
+            </p>
+
+            <p>
+              A dream is not presented as guaranteed prophecy, proof of
+              supernatural activity, or definitely a message from God. Not
+              every dream has a biblical meaning, and Scripture references are
+              not used to manufacture certainty about a reader&apos;s future.
+            </p>
+
+            <p>
+              When an article discusses health, pregnancy, death, trauma, or
+              mental wellbeing, the dream is not used to diagnose a condition
+              or predict an outcome. Persistent symptoms, severe distress, or
+              safety concerns belong with an appropriate qualified health or
+              mental-health professional, not a dream interpretation.
+            </p>
+
+            <p>
+              Sources support the limited factual or textual claim identified
+              beside them. They do not prove the personal meaning of a dream.
+              Where useful, interpretations offer alternatives and reflection
+              questions so readers can compare the possibilities with their own
+              emotions, setting, relationships, actions, culture, beliefs, and
+              waking-life circumstances.
+            </p>
+          </div>
+        </section>
+
 <section id="what-we-are-not"
  className="mt-14 border-t border-[#EAE6E1] pt-10">
 
@@ -465,6 +510,13 @@ className="mt-14 border-t border-[#EAE6E1] pt-10">
             <p>
               DreamScriptures follows structured editorial standards to ensure
               clarity, consistency, and quality across all content.
+            </p>
+
+            <p>
+              The framework is developed and maintained by{" "}
+              <Link href="/author" className="underline">Amber Balentine</Link>,
+              founder and editor. It is an independent interpretive framework,
+              not a clinical diagnostic method or a claim of licensed expertise.
             </p>
 
             <p>

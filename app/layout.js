@@ -17,26 +17,26 @@ export const metadata = {
   template: "%s | DreamScriptures",
 },
   description:
-    "Decode dreams, discover symbols, emotional patterns,dream symbolism, subconscious themes and spiritual insights.",
+    "Explore dream meanings through symbols, emotional patterns, subconscious themes, and thoughtful spiritual reflection.",
   openGraph: {
-    title: "Dreamscriptures",
-    description: "Decode dreams, discover symbols and spiritual meanings.",
+    title: "DreamScriptures",
+    description: "Explore dream meanings, emotional patterns, symbolism, and thoughtful spiritual reflection.",
     url: "https://www.dreamscriptures.com",
-    siteName: "Dreamscriptures",
+    siteName: "DreamScriptures",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Dreamscriptures",
+        alt: "DreamScriptures",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dreamscriptures",
-    description: "Decode dreams, discover symbols and spiritual meanings.",
+    title: "DreamScriptures",
+    description: "Explore dream meanings, emotional patterns, symbolism, and thoughtful spiritual reflection.",
     images: ["/og-image.jpg"],
   },
   icons: {
@@ -111,20 +111,6 @@ export default function RootLayout({ children }) {
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-P4CX4JJB');
-          `}
-        </Script>
-
-        {/* 🚀 Google Analytics (can stay or also lazy) */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-C8E9Y4L832"
-          strategy="lazyOnload"
-        />
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-C8E9Y4L832');
           `}
         </Script>
 

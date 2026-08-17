@@ -108,6 +108,7 @@ const STATIC_PAGES = [
 
 const PILLAR_GUIDE_PRIORITIES = {
   interpretation: 0.9,
+  "most-common-dreams": 0.9,
   "common-dream-symbols": 0.9,
   "how-to-interpret-dream-symbols": 0.85,
   "types-of-dreams": 0.85,

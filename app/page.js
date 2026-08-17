@@ -74,6 +74,7 @@ const PREFERRED_EMOTION_SLUGS = [
 ];
 
 const FEATURED_GUIDE_SLUGS = [
+  "most-common-dreams",
   "interpretation",
   "why-we-dream",
   "dreams-and-emotions",
@@ -255,6 +256,12 @@ export default function Home() {
           DreamScriptures explores emotional patterns, symbolism, subconscious
           themes, spiritual reflection, and biblical perspectives where the
           dream’s context and relevant source material make them appropriate.
+        </p>
+        <p className="mt-4 text-center text-sm text-[#686159]">
+          Founded, written, and edited by{" "}
+          <Link href="/author" rel="author" className="font-medium underline underline-offset-4">
+            Amber Balentine
+          </Link>.
         </p>
       </section>
 

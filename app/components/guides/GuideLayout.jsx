@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import ContentSources from "@/app/components/ContentSources";
+import EditorialAttribution from "@/app/components/EditorialAttribution";
 import SubmitYourDreamCTA from "@/components/SubmitYourDreamCTA";
 import { GuideCardGrid, GuideHero, GuideSchemas } from "@/app/components/guides/GuideChrome";
 import { dreams } from "@/data/dream";
@@ -52,6 +53,7 @@ export default function GuideLayout({ guide: rawGuide, children, contentStart = 
     <GuideSchemas schemas={schemas} /><SiteHeader />
     <GuideHero category={guide.category} title={guide.title} description={guide.description} readingTime={readingTime} updated={guide.updated} toc={toc} />
     <article className="mx-auto max-w-3xl space-y-16 px-6 py-14 text-[#3A3A3A] md:py-20">
+      <EditorialAttribution />
       {registeredContent || <>
         {guide.intro && <section aria-label="Introduction"><RichText text={guide.intro} /></section>}
         {guide.content.length > 0 && <section className="space-y-7">{guide.content.map((paragraph, index) => <RichText key={index} text={paragraph} />)}</section>}

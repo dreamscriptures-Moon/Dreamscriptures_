@@ -69,8 +69,8 @@ export default function SiteFooter() {
               <Link href="/about" prefetch={false} className="hover:text-[#8F743C]">
                 About
               </Link>
-<Link href="/faq" prefetch={false} className="hover:text-[#8F743C]">
-                FAQ
+              <Link href="/author" prefetch={false} className="hover:text-[#8F743C]">
+                Founder &amp; Editor
               </Link>
 
               <Link href="/contact" prefetch={false} className="hover:text-[#8F743C]">

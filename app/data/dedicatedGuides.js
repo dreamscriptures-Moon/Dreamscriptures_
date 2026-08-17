@@ -1,5 +1,9 @@
 const registrations = [
   {
+    slug: "most-common-dreams", title: "20 Most Common Dreams and What They May Mean", category: "Dream Interpretation Pillar Guide", description: "Explore 20 common dream themes, why they may occur, what details matter, and links to complete interpretations.", readingTime: 18,
+    toc: [["what-common-means", "What Common Means"], ["top-20", "20 Common Dreams"], ["why-themes-repeat", "Why Themes Repeat"], ["how-to-interpret", "How to Interpret Yours"], ["frequently-asked-questions", "Frequently Asked Questions"]],
+  },
+  {
     slug: "basics", title: "Dream Basics: What Dreams Are, Why We Dream & How Dream Interpretation Works", category: "Dream Library", description: "Learn the fundamentals of dreaming, dream symbols, dream interpretation, emotions, memory, and the science behind why we dream.", readingTime: 18,
     toc: [["what-are-dreams", "What Are Dreams?"], ["why-we-dream", "Why Do We Dream?"], ["dream-symbols", "How Dream Symbols Work"], ["what-happens-when-we-sleep", "What Happens When We Sleep?"], ["why-dreams-feel-real", "Why Dreams Feel Real"], ["why-we-forget-dreams", "Why We Forget Dreams"], ["why-dreams-are-weird", "Why Dreams Are Weird"], ["can-you-control-dreams", "Can You Control Dreams?"], ["who-dreams", "Who Dreams?"]],
   },
@@ -8,7 +12,7 @@ const registrations = [
     toc: [["history-of-dreams", "Why Humans Have Always Interpreted Dreams"], ["timeline", "Historical Timeline"], ["why-every-civilization-dreamed", "Why Every Civilization Dreamed"], ["mesopotamia", "Ancient Mesopotamia"], ["egypt", "Ancient Egypt"], ["greece", "Ancient Greece"], ["rome", "Ancient Rome"], ["china", "Ancient China"], ["africa", "African Dream Traditions"], ["comparison", "How Civilizations Compared"], ["faq", "Frequently Asked Questions"]],
   },
   {
-    slug: "interpretation", title: "Dream Interpretation Guide: How To Interpret Dreams Correctly", category: "Dream Interpretation Library", description: "Learn how to interpret dreams using emotions, context, symbols, colors, actions and recurring patterns instead of fixed meanings.", readingTime: 20,
+    slug: "interpretation", title: "Dream Interpretation Guide: How To Interpret Dreams Thoughtfully", category: "Dream Interpretation Library", description: "Use a practical sequence—record the dream, identify its emotional turning point, compare personal associations, and test possible meanings against waking life.", readingTime: 20,
     toc: [["what-is-dream-interpretation", "What Is Dream Interpretation?"], ["dreamscriptures-method", "The DreamScriptures Method"], ["how-to-interpret", "How To Interpret Dreams"], ["literal-vs-symbolic", "Literal vs Symbolic Dreams"], ["personal-symbols", "Personal vs Universal Symbols"], ["context-matters", "Why Context Matters"], ["looking-beyond-symbols", "Looking at the Whole Dream"], ["common-mistakes", "Common Mistakes"], ["practice", "Practice Together"], ["faq", "Frequently Asked Questions"]],
   },
   {
@@ -24,8 +28,8 @@ const registrations = [
     toc: [["what-is-dream-science", "What Is Dream Science?"], ["sleep-cycles", "How Sleep Cycles Work"], ["rem-sleep", "REM Sleep Explained"], ["brain-during-dreams", "The Brain During Dreams"], ["brain-research", "How Scientists Observe the Dreaming Brain"], ["brain-activity", "Current Scientific Understanding"], ["memory-emotion", "Memory & Emotion"], ["lucid-dreaming", "States of Dream Consciousness"], ["myth-vs-science", "Myth vs Science"], ["faq", "Frequently Asked Questions"]],
   },
   {
-    slug: "spirituality", title: "Dream Spirituality: Biblical, Islamic & Spiritual Perspectives on Dreams", category: "Dream Spirituality Library", description: "Explore spiritual dreams through biblical references, Quranic narratives, prophetic traditions, symbolism and personal reflection across different traditions.", readingTime: 30,
-    toc: [["what-are-spiritual-dreams", "What Are Spiritual Dreams?"], ["christian-perspectives", "Christian Perspectives"], ["islamic-perspectives", "Islamic Perspectives"], ["hindu-perspectives", "Hindu Perspectives"], ["african-perspectives", "African Perspectives"], ["comparison", "Compare Traditions"], ["bible-references", "Bible References"], ["quran-references", "Quranic References"], ["prophetic-figures", "Key Figures"], ["reflection", "Reflection Corner"], ["faq", "Frequently Asked Questions"]],
+    slug: "spirituality", title: "Dream Spirituality: Biblical, Islamic, Hindu & African Perspectives", category: "Dream Spirituality Library", description: "Compare how biblical texts, Islamic sources, Hindu philosophy, and specific African traditions approach dreams, with primary examples and careful limits.", readingTime: 24,
+    toc: [["read-this-first", "Read This First"], ["biblical", "Biblical and Christian Perspectives"], ["islamic", "Islamic Perspectives"], ["hindu", "Hindu Perspectives"], ["african", "Specific African Perspectives"], ["compare", "Compare the Traditions"], ["discernment", "A Discernment Method"], ["faq", "Frequently Asked Questions"]],
   },
   {
     slug: "wellness", title: "Dream Wellness: Sleep, Stress, Dream Recall & Healthy Dream Habits", category: "Dream Wellness Library", description: "Explore the connection between sleep, stress, emotional well-being, dream recall and healthy dreaming habits through practical science-based guidance.", readingTime: 18,

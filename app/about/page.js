@@ -709,8 +709,8 @@ export default function AboutPage() {
 
             <p className="leading-9 text-[#5F574E]">
 
-              DreamScriptures was founded by Amber Balentine after years
-              of exploring dream symbolism, emotional interpretation,
+              DreamScriptures was founded by Amber Balentine from her interest
+              in dream symbolism, emotional interpretation,
               recurring dream patterns, and the many ways different
               cultures have understood dreams throughout history.
 
@@ -732,6 +732,16 @@ export default function AboutPage() {
               </p>
 
             </blockquote>
+
+            <p className="mt-7 leading-9 text-[#5F574E]">
+              As founder and editor, Amber researches, writes, reviews, and
+              maintains the interpretations and the framework behind them. She
+              writes as an independent dream-interpretation writer—not as a
+              clinician, theologian, or religious authority. The work is meant
+              to help readers notice possibilities in their own context, not
+              dictate what a dream must mean or turn a spiritual reflection
+              into a factual claim.
+            </p>
 
             <Link
               href="/author"
@@ -796,6 +806,10 @@ export default function AboutPage() {
 
           <div className="mt-10 flex flex-wrap gap-4">
 
+            <Link href="/author" className="rounded-full border border-[#D8CCBD] px-6 py-3 hover:bg-white">
+              Founder &amp; Editor
+            </Link>
+
             <Link href="/methodology" className="rounded-full border border-[#D8CCBD] px-6 py-3 hover:bg-white">
               Methodology
             </Link>
@@ -857,4 +871,4 @@ export default function AboutPage() {
 
     </main>
   );
-} 
+}

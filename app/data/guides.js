@@ -139,10 +139,10 @@ export const guides = uniqueGuidesBySlug([
   title: "Why Do We Dream? The Real Reason the Mind Creates Dreams",
 
   description:
-    "Explore why humans dream through emotion, memory, subconscious processing, REM sleep, and the deeper psychological patterns the mind continues working through during sleep.",
+    "Why the brain dreams is still an open question. This guide compares the strongest ideas—from memory and emotion to threat simulation—without pretending that one theory explains every dream.",
 
   intro:
-    "At some point, almost everyone asks the same question:\n\nWhy do we dream?\n\nNot only what dreams are, but why the mind continues creating entire experiences while the body sleeps.\n\nWhy some dreams disappear within minutes.\nWhy others stay for years.\nNot always as clear memories, but as something emotionally unfinished.\n\nA strange sense of urgency.\nA conversation that still feels unresolved.\nA place that somehow seemed familiar.\n\nDreams often leave emotional residue long after the details themselves disappear.\n\nAnd despite centuries of study, there is still no single explanation for why dreaming happens.\n\nBut there are patterns.\n\nThe more closely dreams are examined, the less random they begin to feel.\n\nNot necessarily messages.\nNot necessarily predictions.\n\nBut reflections of the mind continuing to process memory, emotion, fear, attachment, conflict, and experience beneath conscious awareness.",
+    "Why do we dream at all? Researchers can observe sleeping brains, wake people during different sleep stages, and compare dream reports with memory and emotion. What they cannot yet offer is one settled purpose for every dream.\n\nSeveral explanations have useful evidence behind them. Dreaming may participate in memory consolidation, emotional processing, threat rehearsal, creative association, or the brain's effort to build an experience from activity during sleep. These ideas overlap, and none requires every dream to contain a hidden message.\n\nA useful guide should therefore separate what researchers can measure from what remains interpretation. This one examines the leading theories, shows where they agree, and explains why an ordinary dream may have more than one source.",
 
   content: [
     "Dreaming is not a passive state.\n\nWhile the body rests, the brain remains active — sometimes intensely active. During REM (Rapid Eye Movement) sleep especially, systems connected to memory, emotion, imagery, and subconscious association continue functioning while structured reasoning becomes less dominant.",
@@ -814,10 +814,10 @@ export const guides = uniqueGuidesBySlug([
   title: "Dreams and Emotions: Why Feelings Shape Dreams So Strongly",
 
   description:
-    "Explore how emotions shape dreams, why feelings often outlast dream details, and how the mind processes emotional experiences during sleep.",
+    "Learn how fear, relief, shame, grief, and calm can change the meaning of the same dream—and why the feeling may remain after its plot disappears.",
 
   intro:
-    "Dreams are often remembered less for what happened and more for how they felt.\n\nA conversation fades.\nThe setting disappears.\nThe sequence becomes difficult to explain.\n\nBut the emotional atmosphere remains.\n\nFear.\nRelief.\nGrief.\nPressure.\nComfort.\nRecognition.\n\nSometimes the feeling stays long after the dream itself has dissolved.\n\nThis emotional intensity is not accidental.\n\nDreams are deeply connected to emotional processing.\n\nDuring sleep, the mind continues working through experiences, tensions, memories, and emotional patterns beneath conscious awareness.\n\nAnd because dreams organize more through emotion than strict logic, feelings often become the structure holding the experience together.",
+    "You may forget who was in a dream or how one scene became another and still carry its fear into breakfast. That mismatch offers a practical clue: the plot can be unstable while the feeling remains coherent.\n\nEmotion does not work like a symbol dictionary. Fear in a familiar house, relief at missing a train, and shame while standing before a crowd each organize the dream differently. The useful questions are when the feeling began, what intensified it, and whether it matches—or contradicts—your waking response.\n\nThis guide treats emotion as evidence about your experience, not proof of a single hidden meaning. It also distinguishes related feelings, such as fear and anxiety or guilt and shame, because those differences can change an interpretation completely.",
 
   content: [
     "Emotions play a central role in dreaming.\n\nEven when dreams appear chaotic on the surface, they often remain emotionally consistent underneath.\n\nDifferent scenes may appear.\nDifferent people may emerge.\n\nBut the emotional atmosphere continues moving through the experience.",
