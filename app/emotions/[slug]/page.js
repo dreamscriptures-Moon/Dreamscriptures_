@@ -9,6 +9,7 @@ import { getDreamBySlug, shorten, uniqueDreams } from "@/lib/dreams";
 import { getCategoriesForDreams, getRelevantGuides } from "@/lib/editorialDiscovery";
 import { Breadcrumbs, DreamPreviewGrid, FAQSection, GuideLinks, LinkPills, SectionHeading } from "@/app/components/EditorialDiscovery";
 import ContentSources from "@/app/components/ContentSources";
+import EditorialAdUnit from "@/components/EditorialAdUnit";
 
 function getEmotion(slug) { return emotionalHubs[normalizeSlug(slug)]; }
 export function generateStaticParams() { return Object.keys(emotionalHubs).map((slug) => ({ slug })); }
@@ -47,6 +48,7 @@ export default async function EmotionPage({ params }) {
       {contextualDifferences.length > 0 && <section className="border-b border-[#ded7cd] py-16"><SectionHeading title="Details That Can Change the Interpretation" /><div className="mt-8 space-y-5">{contextualDifferences.map((item) => <div key={item.title || item} className="border-l border-[#b89b62] pl-5"><h3 className="font-serif text-xl">{item.title || item}</h3>{item.description && <p className="mt-2 leading-7 text-[#686159]">{item.description}</p>}</div>)}</div></section>}
       {examples.length > 0 && <section className="border-b border-[#ded7cd] py-16"><SectionHeading eyebrow="Illustrative, not a user submission" title="Context Example" /><div className="mt-8 space-y-5">{examples.map((item) => <div key={item.title || item} className="border-l border-[#b89b62] pl-5"><h3 className="font-serif text-xl">{item.title || item}</h3>{item.description && <p className="mt-2 leading-7 text-[#686159]">{item.description}</p>}</div>)}</div></section>}
       {connectedDreams.length > 0 && <section className="py-16"><SectionHeading title={`${emotion.title} and Dream Symbols`} intro="The symbols below are connected through the site's existing emotional relationships. Their meanings still depend on the full dream and the dreamer's own context." /><DreamPreviewGrid dreams={connectedDreams} limit={6} /></section>}
+      <EditorialAdUnit />
       {wakingParagraphs.length > 0 && <section className="grid gap-12 border-t border-[#ded7cd] py-16 md:grid-cols-2"><SectionHeading title={`${emotion.title} and Waking Life`} /><div className="space-y-5 leading-7 text-[#686159]">{wakingParagraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div></section>}
       {emotion.lifeSituations?.length > 0 && <section className="border-t border-[#ded7cd] py-16"><SectionHeading title={`Waking-Life Situations Connected to ${emotion.title}`} /><ul className="mt-8 grid gap-3 sm:grid-cols-2">{emotion.lifeSituations.map((situation) => <li key={situation} className="border-l border-[#b89b62] px-5 py-3 text-[#686159]">{situation}</li>)}</ul></section>}
       {emotion.questionsToReflectOn?.length > 0 && <section className="border-t border-[#ded7cd] py-16"><SectionHeading title={`Questions for Reflecting on ${emotion.title} Dreams`} /><ul className="mt-8 space-y-3 border-l border-[#b89b62] pl-5">{emotion.questionsToReflectOn.map((question) => <li key={question}>{question}</li>)}</ul></section>}

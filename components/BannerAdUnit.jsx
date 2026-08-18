@@ -3,9 +3,9 @@
 import Script from "next/script";
 import { useConsent } from "@/components/consent/ConsentProvider";
 
-const AD_CONTAINER_ID = "container-4059fc426893d8ff10a058d225bba1a6";
+const BANNER_KEY = "9bdf9e0d4cf7a4aa3e10d684c319e078";
 
-export default function EditorialAdUnit() {
+export default function BannerAdUnit() {
   const { preferences } = useConsent();
 
   return (
@@ -16,15 +16,23 @@ export default function EditorialAdUnit() {
       <p className="mb-3 text-center text-[9px] uppercase tracking-[0.2em] text-[#A89F91]">
         Advertisement
       </p>
-      <div className="mx-auto flex min-h-[100px] w-full max-w-2xl items-center justify-center overflow-hidden">
+      <div className="mx-auto min-h-[50px] w-full max-w-[320px] overflow-hidden text-center">
         {preferences?.advertising && (
           <>
+            <Script id={`${BANNER_KEY}-options`} strategy="afterInteractive">
+              {`window.atOptions = {
+            key: '${BANNER_KEY}',
+            format: 'iframe',
+            height: 50,
+            width: 320,
+            params: {}
+          };`}
+            </Script>
             <Script
-              src="https://pl30893785.effectivecpmnetwork.com/4059fc426893d8ff10a058d225bba1a6/invoke.js"
+              id={`${BANNER_KEY}-invoke`}
+              src={`https://www.highperformanceformat.com/${BANNER_KEY}/invoke.js`}
               strategy="afterInteractive"
-              data-cfasync="false"
             />
-            <div id={AD_CONTAINER_ID} className="max-w-full" />
           </>
         )}
       </div>

@@ -10,6 +10,7 @@ import BiblicalPerspective from "@/components/BiblicalPerspective";
 import SubmitYourDreamCTA from "@/components/SubmitYourDreamCTA";
 import ArticleFeedback from "@/components/ArticleFeedback";
 import EditorialAdUnit from "@/components/EditorialAdUnit";
+import BannerAdUnit from "@/components/BannerAdUnit";
 import ContinueExploring from "@/components/ContinueExploring";
 import DreamEmotionalConnections from "@/components/emotions/DreamEmotionalConnections";
 import DreamEmotionalPathways from "@/components/emotions/DreamEmotionalPathways";
@@ -1053,6 +1054,7 @@ function getDreamContext(dream) {
             ))}
           </div>
         </section>}
+ <BannerAdUnit />
  <RelatedDreams slugs={dream.relatedDreams} relatedDreams={relatedDreamItems} />
  <ContinueExploring dreams={continueExploringDreams} />
 

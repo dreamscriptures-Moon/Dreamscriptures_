@@ -1,6 +1,11 @@
+"use client";
+
 import Link from "next/link";
+import { useConsent } from "@/components/consent/ConsentProvider";
 
 export default function SiteFooter() {
+  const { openPreferences } = useConsent();
+
   return (
     <footer className="mt-24 border-t border-[#EAE6E1] bg-[#FAF8F5]">
       <div className="mx-auto max-w-6xl px-6 py-12">
@@ -82,6 +87,9 @@ export default function SiteFooter() {
             <h3 className="text-xs font-medium uppercase tracking-[0.14em] text-[#8A8175]">Legal</h3>
             <nav className="mt-3 flex flex-col gap-2 text-sm text-[#5F574E]">
               <Link href="/privacy">Privacy Policy</Link>
+              <button className="text-left hover:text-[#8F743C]" onClick={openPreferences} type="button">
+                Cookie Preferences
+              </button>
               <Link href="/terms">Terms</Link>
               <Link href="/disclaimer">Disclaimer</Link>
             </nav>
