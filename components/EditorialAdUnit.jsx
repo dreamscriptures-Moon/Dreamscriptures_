@@ -16,7 +16,7 @@ export default function EditorialAdUnit() {
       <p className="mb-3 text-center text-[9px] uppercase tracking-[0.2em] text-[#A89F91]">
         Advertisement
       </p>
-      <div className="mx-auto flex min-h-[100px] w-full max-w-2xl items-center justify-center overflow-hidden">
+      <div className="native-recommendations mx-auto flex min-h-[100px] w-full max-w-2xl items-center justify-center overflow-hidden">
         {preferences?.advertising && (
           <>
             <Script
@@ -24,7 +24,7 @@ export default function EditorialAdUnit() {
               strategy="afterInteractive"
               data-cfasync="false"
             />
-            <div id={AD_CONTAINER_ID} className="max-w-full" />
+            <div id={AD_CONTAINER_ID} className="w-full max-w-full" />
           </>
         )}
       </div>

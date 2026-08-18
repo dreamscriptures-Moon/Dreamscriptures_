@@ -92,6 +92,26 @@ h1, h2, h3, p {
   line-height: 1.75;
 }
 
+/* Keep the native recommendation unit editorial-sized on small screens. */
+@media (max-width: 767px) {
+  .native-recommendations {
+    min-height: 0;
+    max-height: 16rem;
+    align-items: flex-start;
+  }
+
+  .native-recommendations > div {
+    max-height: 16rem;
+    overflow: hidden;
+  }
+
+  /* The ad provider injects its card row one wrapper below the container. */
+  .native-recommendations > div > :nth-child(n + 2),
+  .native-recommendations > div > div > :nth-child(n + 2) {
+    display: none !important;
+  }
+}
+
 @media (min-width: 768px) {
   .microSummary {
     font-size: 1.25rem;
