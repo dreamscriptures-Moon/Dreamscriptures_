@@ -2,11 +2,14 @@
 
 import Script from "next/script";
 import { useConsent } from "@/components/consent/ConsentProvider";
+import { ADSTERRA_ENABLED } from "@/lib/adConfig";
 
 const AD_CONTAINER_ID = "container-4059fc426893d8ff10a058d225bba1a6";
 
 export default function EditorialAdUnit() {
   const { preferences } = useConsent();
+
+  if (!ADSTERRA_ENABLED) return null;
 
   return (
     <aside
@@ -16,7 +19,7 @@ export default function EditorialAdUnit() {
       <p className="mb-3 text-center text-[9px] uppercase tracking-[0.2em] text-[#A89F91]">
         Advertisement
       </p>
-      <div className="native-recommendations mx-auto flex min-h-[100px] w-full max-w-2xl items-center justify-center overflow-hidden">
+      <div className="mx-auto min-h-[100px] w-full min-w-0 max-w-2xl overflow-hidden">
         {preferences?.advertising && (
           <>
             <Script

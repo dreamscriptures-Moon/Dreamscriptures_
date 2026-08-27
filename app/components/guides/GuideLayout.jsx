@@ -7,7 +7,6 @@ import ContentSources from "@/app/components/ContentSources";
 import EditorialAttribution from "@/app/components/EditorialAttribution";
 import SubmitYourDreamCTA from "@/components/SubmitYourDreamCTA";
 import EditorialAdUnit from "@/components/EditorialAdUnit";
-import BannerAdUnit from "@/components/BannerAdUnit";
 import { GuideCardGrid, GuideHero, GuideSchemas } from "@/app/components/guides/GuideChrome";
 import { dreams } from "@/data/dream";
 import { getAllGuideEntries } from "@/lib/guideCatalog";
@@ -57,7 +56,6 @@ export default function GuideLayout({ guide: rawGuide, children, contentStart = 
   ].filter(Boolean);
   const guideContent = registeredContent || generatedContent;
   const adInsertionIndex = Math.max(1, Math.ceil(guideContent.length / 2));
-  const isLongGuide = Number.parseInt(readingTime, 10) >= 12;
 
   return <main className="min-h-screen bg-[#F7F5F2]">
     <GuideSchemas schemas={schemas} /><SiteHeader />
@@ -73,7 +71,6 @@ export default function GuideLayout({ guide: rawGuide, children, contentStart = 
       <GuideCardGrid title="Related Dream Meanings" items={relatedDreams} type="dream" />
       <GuideCardGrid title="Related Guides" items={relatedGuides} />
       <ContentSources sources={guide.sources} />
-      {isLongGuide && <BannerAdUnit />}
       {continueReading && <section className="border-t border-[#E2DCD3] pt-12"><h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">Continue Reading</h2><div className="flex flex-wrap gap-3"><Link className="rounded-full border border-[#D9D1C6] bg-white px-5 py-3 hover:border-[#B79B5E]" href="/guides/types-of-dreams">Types of dreams</Link><Link className="rounded-full border border-[#D9D1C6] bg-white px-5 py-3 hover:border-[#B79B5E]" href="/emotions">Dream emotions</Link><Link className="rounded-full border border-[#D9D1C6] bg-white px-5 py-3 hover:border-[#B79B5E]" href="/categories">Dream categories</Link></div></section>}
     </article><SubmitYourDreamCTA /><SiteFooter />
   </main>;

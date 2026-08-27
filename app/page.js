@@ -49,6 +49,7 @@ const POPULAR_DREAM_SLUGS = [
   "snake",
   "falling",
   "being-chased",
+  "being-chased-by-a-lion",
   "teeth-falling-out",
   "water",
   "death",
@@ -74,11 +75,11 @@ const PREFERRED_EMOTION_SLUGS = [
 ];
 
 const FEATURED_GUIDE_SLUGS = [
+  "nightmares-meaning",
+  "lucid-dreaming",
+  "why-do-some-dreams-come-true",
   "most-common-dreams",
-  "interpretation",
-  "why-we-dream",
   "dreams-and-emotions",
-  "spirituality",
 ];
 
 const interpretationPrinciples = [

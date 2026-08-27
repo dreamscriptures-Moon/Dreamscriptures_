@@ -49,7 +49,7 @@ export default function CookieConsent() {
             <div className="min-w-0 flex-1">
               <p className="font-serif text-lg text-[#29251F]">Your privacy choices</p>
               <p className="mt-2 text-sm leading-6 text-[#625B52]">
-                We use optional analytics to understand site performance and optional advertising technologies to support DreamScriptures. Necessary features remain available. Read our{" "}
+                We use privacy-friendly, cookie-free measurement to understand site performance. Optional analytics and advertising technologies load only with your permission. Necessary features remain available. Read our{" "}
                 <Link className="underline underline-offset-4 hover:text-[#8F743C]" href="/privacy">
                   Privacy Policy
                 </Link>.
@@ -85,7 +85,7 @@ export default function CookieConsent() {
 
             <div className="mt-6 divide-y divide-[#EAE6E1] border-y border-[#EAE6E1]">
               <PreferenceRow checked description="Required for consent choices, security, sessions, and core site features." disabled label="Strictly necessary" />
-              <PreferenceRow checked={draft.analytics} description="Helps measure visits, searches, performance, and site usage." label="Analytics" onChange={(checked) => setDraft((current) => ({ ...current, analytics: checked }))} />
+              <PreferenceRow checked={draft.analytics} description="Allows additional analytics that may use cookies or similar identifiers. Basic cookie-free traffic measurement remains active." label="Additional analytics" onChange={(checked) => setDraft((current) => ({ ...current, analytics: checked }))} />
               <PreferenceRow checked={draft.advertising} description="Allows Google AdSense and the two page-level Adsterra formats to load." label="Advertising" onChange={(checked) => setDraft((current) => ({ ...current, advertising: checked }))} />
             </div>
 

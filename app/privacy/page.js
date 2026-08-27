@@ -394,10 +394,11 @@ export default function PrivacyPage() {
 
             <p className="text-lg leading-9 text-[#5F574E]">
 
-              DreamScriptures uses Google Tag Manager to manage measurement
-              tags, Google Analytics 4 to understand site use, and Vercel
-              Analytics and Speed Insights to monitor traffic and technical
-              performance. These services may process device, browser,
+              DreamScriptures uses Vercel Analytics and Speed Insights for
+              cookie-free, aggregate traffic and technical-performance
+              measurement. With your permission, we also use Google Tag
+              Manager to manage additional measurement tags, including Google
+              Analytics 4. These services may process device, browser,
               approximate-location, page-view, interaction, and performance
               information.
 
@@ -405,8 +406,9 @@ export default function PrivacyPage() {
 
             <p className="mt-6 text-lg leading-9 text-[#5F574E]">
 
-              Google Analytics may use cookies or similar identifiers. Vercel
-              provides its analytics services under its own privacy terms.
+              Google Analytics may use cookies or similar identifiers and
+              loads only after you consent to additional analytics. Vercel
+              provides its cookie-free analytics services under its own privacy terms.
               DreamScriptures does not use analytics reports to identify a
               visitor by name.
 

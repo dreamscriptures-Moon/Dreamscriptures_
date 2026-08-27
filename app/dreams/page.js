@@ -1,6 +1,6 @@
 import { dreams } from "@/data/dream";
 import DreamDictionaryControls from "@/app/components/DreamDictionaryControls";
-import BannerAdUnit from "@/components/BannerAdUnit";
+import EditorialAdUnit from "@/components/EditorialAdUnit";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import Link from "next/link";
@@ -205,7 +205,7 @@ Search for a dream symbol, browse by category, or explore related themes to disc
           categories={categories}
         />
 
-        <BannerAdUnit />
+        <EditorialAdUnit />
         
 <section className="mt-20 text-center">
 

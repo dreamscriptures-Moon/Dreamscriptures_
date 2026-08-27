@@ -10,7 +10,7 @@ export default function SiteHeader({ sticky = false }) {
           : "bg-[#FAF8F5]"
       }`}
     >
-      <nav className="max-w-6xl mx-auto px-6 h-full flex items-center justify-between">
+      <nav className="relative max-w-6xl mx-auto px-6 h-full flex items-center justify-between">
         {/* Logo */}
         <Link
           href="/"
@@ -30,10 +30,6 @@ export default function SiteHeader({ sticky = false }) {
         {/* Desktop Nav */}
         <SiteHeaderNav />
 
-        {/* Mobile Menu Placeholder (optional future use) */}
-        <div className="md:hidden">
-          {/* You can plug a hamburger menu here later */}
-        </div>
       </nav>
     </header>
   );

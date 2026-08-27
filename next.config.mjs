@@ -57,6 +57,11 @@ const nextConfig = {
         
       },
       {
+        source: "/dreams/lucid-dreaming",
+        destination: "/guides/lucid-dreaming",
+        permanent: true,
+      },
+      {
         source: "/blog/stages-of-sleep-&-dreaming",
         destination: "/guides/stages-of-sleep-and-dreaming",
         permanent: true,
