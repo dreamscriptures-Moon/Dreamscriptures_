@@ -89,6 +89,13 @@ export default function MethodologyPage() {
     symbolically, and personally beneath the surface.
   </p>
 
+  <p>
+    This is an interpretive framework, not a diagnostic or predictive
+    method. When a page makes a factual, medical, historical, or scriptural
+    claim, that claim is treated separately from the DreamScriptures
+    reflection that follows it.
+  </p>
+
 </div>
 
 <section className="mt-16">
@@ -202,6 +209,13 @@ className="mt-14 border-t border-[#EAE6E1] pt-10">
       Instead of treating one source as definitive, DreamScriptures focuses
       on identifying consistent emotional and symbolic patterns that appear
       across different contexts, individuals, and life situations.
+    </p>
+
+    <p>
+      A source can establish what a study, tradition, or biblical passage
+      says; it cannot establish what one reader&apos;s dream means. Personal
+      interpretations are therefore presented as possibilities, with the
+      reader&apos;s memory, emotion, setting, and beliefs left central.
     </p>
 
     <p>

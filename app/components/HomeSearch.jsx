@@ -61,7 +61,15 @@ const SearchResults = memo(function SearchResults({
       ) : (
         <div className="px-4 py-4 text-sm text-[#6B6B6B]">
           <p>No interpretation found for &quot;{displayQuery}&quot; yet.</p>
-          <Link href="/submit-dream" className="mt-2 inline-block font-medium text-[#8F743C] underline underline-offset-4">Submit your dream for a personal interpretation</Link>
+          <p className="mt-2 leading-relaxed">
+            Try a broader word, browse the library, or describe the dream in
+            Dream Compass.
+          </p>
+          <div className="mt-3 flex flex-wrap gap-3">
+            <Link href="/dreams" className="font-medium text-[#8F743C] underline underline-offset-4">Browse the library</Link>
+            <Link href="/dream-compass" className="font-medium text-[#8F743C] underline underline-offset-4">Try Dream Compass</Link>
+            <Link href="/submit-dream" className="font-medium text-[#8F743C] underline underline-offset-4">Submit your dream</Link>
+          </div>
         </div>
       )}
     </div>
@@ -132,14 +140,12 @@ export default function HomeSearch({ showSuggestions = true }) {
     [ensureSearchRouting]
   );
 
-  const handleResultClick = useCallback((dreamTitle) => {
+  const handleResultClick = useCallback(() => {
     setSearch("");
 
     window.setTimeout(() => {
       if (typeof window !== "undefined" && window.gtag) {
-        window.gtag("event", "search_result_click", {
-          dream_title: dreamTitle,
-        });
+        window.gtag("event", "search_result_click");
       }
     }, 0);
   }, []);
@@ -165,14 +171,16 @@ export default function HomeSearch({ showSuggestions = true }) {
 
     const timeout = window.setTimeout(() => {
       if (typeof window !== "undefined" && window.gtag) {
+        const resultCount = searchRouting?.getSearchResults(debouncedSearch)?.length || 0;
         window.gtag("event", "search", {
-          search_term: debouncedSearch,
+          result_count: resultCount,
+          result_bucket: resultCount === 0 ? "none" : resultCount < 4 ? "few" : "many",
         });
       }
     }, 400);
 
     return () => window.clearTimeout(timeout);
-  }, [debouncedSearch, query.length]);
+  }, [debouncedSearch, query.length, searchRouting]);
 
   const filteredDreams = useMemo(() => {
     if (!query) {

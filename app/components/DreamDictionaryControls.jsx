@@ -37,7 +37,7 @@ export default function DreamDictionaryControls({
   const filteredDreams = useMemo(() => {
     return dreams.filter((dream) => {
       const matchesSearch = query
-        ? (dream.normalizedTitle || dream.title.toLowerCase()).includes(query)
+              ? (dream.searchText || dream.normalizedTitle || dream.title.toLowerCase()).includes(query)
         : true;
 
       const matchesCategory = activeCategory
@@ -202,8 +202,20 @@ export default function DreamDictionaryControls({
           </h2>
 
           <p className="text-[#6B6B6B] max-w-xl mx-auto">
-            Try searching for a different dream, symbol, emotion or category.
+            Try a nearby symbol, feeling, action, or situation. You can also
+            explore the broader library or describe the dream in Dream Compass.
           </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <Link href="/dream-compass" className="rounded-full bg-[#1A1A1A] px-5 py-2.5 text-sm text-white hover:bg-[#333]">
+              Try Dream Compass
+            </Link>
+            <Link href="/emotions" className="rounded-full border border-[#EAE6E1] px-5 py-2.5 text-sm text-[#6B6B6B] hover:border-[#C6A96B]">
+              Browse emotions
+            </Link>
+            <Link href="/guides" className="rounded-full border border-[#EAE6E1] px-5 py-2.5 text-sm text-[#6B6B6B] hover:border-[#C6A96B]">
+              Read a guide
+            </Link>
+          </div>
 
         </div>
       )}

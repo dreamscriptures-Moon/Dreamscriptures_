@@ -3,7 +3,7 @@ import { emotionalHubs } from "@/data/emotionalHubs";
 import { getAllGuideEntries } from "@/lib/guideCatalog";
 import { getAuthorityPriority } from "@/lib/emotions/authority";
 import { normalizeSlug } from "@/lib/normalizeSlug";
-import { isDreamIndexable } from "@/lib/seo";
+import { getCanonicalDreamSlug, isDreamIndexable } from "@/lib/seo";
 
 const BASE_URL = "https://www.dreamscriptures.com";
 const CONTENT_DATE_FIELDS = ["updatedAt", "publishedAt", "createdAt"];
@@ -91,6 +91,7 @@ function getDreamPriority(dream) {
 const STATIC_PAGES = [
   ["/", "daily", 1.0],
   ["/dreams", "weekly", 0.95],
+  ["/dream-compass", "monthly", 0.9],
   ["/categories", "weekly", 0.9],
   ["/emotions", "weekly", 0.9],
   ["/guides", "monthly", 0.85],
@@ -115,7 +116,14 @@ const PILLAR_GUIDE_PRIORITIES = {
 };
 
 export default function sitemap() {
-  const indexedDreams = dreams.filter(isDreamIndexable);
+  const indexedDreams = dreams.filter((dream) => {
+    if (!isDreamIndexable(dream)) return false;
+
+    const ownSlug = normalizeSlug(dream.slug || dream.title);
+    const canonicalSlug = normalizeSlug(getCanonicalDreamSlug(dream, ownSlug));
+
+    return Boolean(ownSlug) && ownSlug === canonicalSlug;
+  });
 
   const staticPages = STATIC_PAGES.map(([path, changeFrequency, priority]) =>
     createEntry(path, { changeFrequency, priority })

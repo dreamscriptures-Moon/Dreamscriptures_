@@ -1,4 +1,12 @@
 import { applyEditorialEnrichments } from "./editorialEnrichments.js";
+import { applyDreamPagePriorityEnrichments } from "./dreamPagePriorityEnrichments.js";
+import { applyPhase6ImproveBatch1 } from "./phase6ImproveBatch1.js";
+import { applyStep4ClusterDependencies } from "./step4ClusterDependencies.js";
+import { applyStep4bDeathDependencies } from "./step4bDeathDependencies.js";
+import { applyStep4cHouseDependencies } from "./step4cHouseDependencies.js";
+import { applyStep4dFallingDependencies } from "./step4dFallingDependencies.js";
+import { applyStep4eBeingChasedDependencies } from "./step4eBeingChasedDependencies.js";
+import { applyStep4fSensitiveDependencies } from "./step4fSensitiveDependencies.js";
 
 export const dreams = [
 
@@ -6984,7 +6992,7 @@ The dream highlights your relationship with uncertainty, patience, awareness, an
         "These dreams represent opposite experiences, one focused on uncertainty and the other on clarity."
     },
     {
-      slug: "lost-in-a-building",
+      slug: "being-lost-in-a-building",
       reason:
         "Both dreams commonly reflect confusion, searching, and difficulty finding direction."
     },
@@ -91315,7 +91323,7 @@ What foundation am I building today that will carry me safely into tomorrow?`,
   ]
 },
 {
-  slug: "lost-in-a-building",
+      slug: "lost-in-a-building",
 
   title: "Lost in a building",
 
@@ -127067,6 +127075,306 @@ editorialNote: "This page distinguishes the rat from generic animal or attack dr
   editorialNote: "This page prioritizes dancing as an embodied form of self-expression, coordination, freedom, and emotional movement. It focuses on the dreamer's role, partner, setting, rhythm, and emotional response rather than treating dancing as a fixed prediction or universal symbol."
 },
 {
+  slug: "missing-a-bathroom",
+  title: "Missing a Bathroom",
+  seoTitle: "Missing a Bathroom in a Dream: Meaning",
+  seoDescription: "Dreaming that you cannot find a bathroom may reflect urgent needs, withheld emotions, embarrassment, privacy, or difficulty finding a safe place to release pressure.",
+  microSummary: "Searching for a bathroom and never reaching one often brings urgency, exposure, and frustration together. It may point to a need you keep postponing or cannot express safely.",
+  description: `You know what you need, yet every door is locked, occupied, exposed, filthy, or impossible to reach. A dream about missing a bathroom often turns an ordinary bodily need into a tense search for privacy and relief.
+
+Sometimes the explanation is physical: a full bladder can enter a dream and shape its story. When the theme feels emotionally charged or repeats without that physical trigger, it may reflect a personal need that has been delayed. You may be carrying stress without space to decompress, hiding feelings to avoid embarrassment, or taking care of everyone else before yourself.
+
+The condition of the bathroom matters. No doors can suggest exposure. A long queue may mirror competing demands. Toilets that do not work can express frustration when the available form of relief does not actually help.`,
+  emotionalMeaning: `Urgency is central here. The dream can capture what it feels like to remain composed while an unmet need becomes harder to ignore. Shame may appear when privacy is missing; anger may surface when other people or obligations keep blocking access. Relief on finally finding a bathroom can reflect permission to stop, speak honestly, or attend to yourself without apology.`,
+  symbolicMeaning: `Bathrooms are private places of release, cleansing, and basic care. Searching for one may symbolize the search for a safe emotional outlet. A locked bathroom can represent blocked access to rest or expression. A public toilet without walls may point to fear of being vulnerable in front of others. An overflowing or unusable toilet can suggest that a coping method or environment feels overwhelmed rather than restorative.`,
+  spiritualMeaning: `Spiritually, the dream may invite honest release rather than polished appearances. Prayer can become a place to name exhaustion, resentment, grief, or need without pretending. It is not a prediction and does not mean that feeling uncomfortable is spiritually significant by itself.`,
+  biblicalMeaning: `Psalm 62:8 encourages people to pour out their hearts before God. That image offers a useful reflection on honest expression and refuge, while the dream's bathroom imagery remains personal rather than a fixed biblical symbol.`,
+  wakingLifeMeaning: `Consider whether you have had enough privacy, rest, and room to process recent events. The dream may accompany caregiving, crowded living arrangements, demanding work, embarrassment about asking for help, or a habit of postponing basic needs until they become urgent.`,
+  scenarios: [
+    { title: "Every bathroom is occupied", meaning: "Competing demands may be leaving little room for your own needs." },
+    { title: "The bathroom has no door", meaning: "Relief is available, but vulnerability or lack of privacy makes it difficult to use." },
+    { title: "You wake before finding one", meaning: "The unresolved search can mirror pressure that still needs a practical outlet." }
+  ],
+  reflectionQuestions: ["What need have you kept postponing?", "Where do you feel unable to be vulnerable?", "What would genuine relief look like this week?"],
+  faqs: [
+    { question: "Why do I dream that I cannot find a bathroom?", answer: "A physical need may shape the dream, but recurring versions can also reflect delayed self-care, privacy concerns, embarrassment, or difficulty releasing emotional pressure." },
+    { question: "Is this dream a warning?", answer: "It is not a reliable prediction. Treat it as a prompt to check both practical bodily needs and any stress that has had no safe outlet." }
+  ],
+  relatedDreams: [{ slug: "being-in-a-toilet", reason: "Both involve privacy and release, while this page focuses on the frustrating search for access." }, { slug: "being-unable-to-speak", reason: "Both can reflect a need that cannot be expressed freely." }],
+  categories: ["Anxiety", "Boundaries", "Hidden Emotions", "Self Care"],
+  tags: ["cannot find bathroom", "toilet search", "privacy", "urgency", "emotional release"]
+},
+{
+  slug: "being-stuck-in-an-elevator",
+  title: "Being Stuck in an Elevator",
+  seoTitle: "Being Stuck in an Elevator Dream Meaning",
+  seoDescription: "Explore dreams about a stuck elevator, including stalled progress, confinement, uncertainty, work pressure, panic, escape, and asking for help.",
+  microSummary: "A stalled elevator can turn quick upward or downward movement into confinement. The dream often explores progress that depends on forces you cannot fully control.",
+  description: `An elevator promises movement with little effort. When it stops between floors, drops, or refuses to open, that convenience becomes a trap. The dream may echo a situation in which you expected progress but now feel suspended between where you started and where you hoped to arrive.
+
+Unlike climbing stairs, riding an elevator places much of the movement outside your control. That distinction can connect the dream with a promotion, institutional process, relationship transition, financial decision, or other change dependent on timing and other people.
+
+Panic may emphasize confinement; impatience may point to delay. If you remain calm and use the emergency phone, the dream can instead highlight practical problem-solving under pressure.`,
+  emotionalMeaning: `Claustrophobia, helplessness, and uncertainty often dominate this dream. You may know that movement should be possible while having no clear way to restart it. Calmness changes the tone: it can show confidence that a temporary pause is survivable.`,
+  symbolicMeaning: `The elevator may represent rapid advancement, decline, status, or transition. Floors can mark stages or goals. Closed doors emphasize limited options, while an emergency button symbolizes reaching beyond self-reliance. A sudden drop can capture fear of losing progress; being trapped between floors may reflect an identity or decision that feels unfinished.`,
+  spiritualMeaning: `The pause may encourage patience, discernment, and willingness to seek help. It should not be treated as proof that God is blocking a plan. A delay can be examined honestly without assigning it supernatural certainty.`,
+  biblicalMeaning: `Psalm 40:1-3 describes waiting and being lifted from a difficult place. The passage can support reflection on patient trust, but elevators have no standard biblical dream meaning.`,
+  wakingLifeMeaning: `This imagery may accompany stalled applications, workplace hierarchy, delayed plans, dependence on an institution, or anxiety about success arriving too quickly. Ask what currently controls your movement and which part of the situation is still yours to address.`,
+  scenarios: [
+    { title: "Stuck between floors", meaning: "You may feel caught between stages, roles, or decisions without a secure place to step out." },
+    { title: "The elevator suddenly falls", meaning: "The drop can express fear that status, security, or hard-won progress could disappear." },
+    { title: "You call for help", meaning: "Using the alarm or phone may reflect readiness to involve support instead of managing pressure alone." }
+  ],
+  reflectionQuestions: ["Where has expected progress stalled?", "Who or what controls the next step?", "Would patience, action, or outside help serve you best?"],
+  faqs: [
+    { question: "What does being trapped in an elevator mean in a dream?", answer: "It can reflect stalled progress, confinement, dependence on outside systems, or uncertainty during a transition. Your response inside the elevator helps refine the meaning." },
+    { question: "What does a falling elevator mean?", answer: "A falling elevator may express fear of rapid loss, failure, or losing control. It does not predict a real accident." }
+  ],
+  relatedDreams: [{ slug: "being-trapped", reason: "Both explore restricted movement and the search for a way out." }, { slug: "climbing-stairs", reason: "Stairs emphasize effort under your control, while an elevator depends on a system carrying you." }],
+  categories: ["Anxiety", "Work", "Transitions", "Control"],
+  tags: ["stuck elevator", "falling elevator", "claustrophobia", "stalled progress", "trapped"]
+},
+{
+  slug: "being-in-outer-space",
+  title: "Being in Outer Space",
+  seoTitle: "Being in Outer Space Dream Meaning",
+  seoDescription: "Dreaming of outer space may involve wonder, isolation, freedom, uncertainty, spiritual reflection, exploration, or feeling far removed from ordinary life.",
+  microSummary: "Outer space removes familiar ground, boundaries, and scale. It can feel liberating, lonely, sacred, or frightening depending on whether you are exploring or drifting without direction.",
+  description: `Earth falls away, sound disappears, and the familiar world becomes a distant point. Dreams set in outer space often magnify perspective. Everyday concerns may suddenly seem small, yet the absence of solid ground can also make you feel profoundly alone.
+
+Wonder suggests openness to discovery or a larger view of life. Fear may center on uncertainty, isolation, or having no reliable point of return. Floating peacefully differs from tumbling through darkness; traveling with a crew differs from watching Earth alone.
+
+Personal associations with science, faith, films, astronomy, and exploration should guide the interpretation more than any universal definition.`,
+  emotionalMeaning: `Awe can reflect renewed curiosity and humility. Loneliness may reveal emotional distance from familiar people or routines. Weightlessness can feel like freedom from pressure, but it may also resemble disconnection when nothing anchors you.`,
+  symbolicMeaning: `Space can symbolize the unknown, vast possibility, distance, and perspective. Earth may represent home and belonging. A spacecraft suggests a protected means of exploring change, while an empty suit or broken tether highlights vulnerability. Stars can function as distant hopes, guidance, or reminders of scale.`,
+  spiritualMeaning: `The vastness may awaken reverence, questions about purpose, or awareness that life extends beyond immediate concerns. Such a dream can support reflection without being treated as a vision of heaven or proof of supernatural travel.`,
+  biblicalMeaning: `Psalm 8 reflects on the heavens and asks what humanity is within such vast creation. Its movement from wonder to human dignity offers relevant context without assigning outer space one prophetic meaning.`,
+  wakingLifeMeaning: `This dream may appear while entering unfamiliar territory, craving freedom, studying something expansive, relocating, or feeling socially detached. It can also arise after space-related media; recent influences deserve ordinary consideration.`,
+  scenarios: [
+    { title: "Looking back at Earth", meaning: "Distance may offer perspective on home, relationships, or problems that have felt all-consuming." },
+    { title: "Drifting without a tether", meaning: "Freedom has become uncertainty, suggesting a need for connection, direction, or reliable support." },
+    { title: "Exploring another planet", meaning: "Curiosity about an unfamiliar world may reflect readiness to learn, experiment, or enter a new environment." }
+  ],
+  reflectionQuestions: ["Did vastness feel peaceful or frightening?", "What served as your connection to home?", "Where are you exploring beyond familiar limits?"],
+  faqs: [
+    { question: "What does it mean to dream of being in space?", answer: "It may explore wonder, possibility, isolation, freedom, uncertainty, or a wider perspective. Whether you were grounded, protected, or drifting is especially important." },
+    { question: "Is outer space in a dream spiritual?", answer: "It can prompt spiritual reflection, but the setting alone does not prove a divine encounter. Personal emotion and waking context remain essential." }
+  ],
+  relatedDreams: [{ slug: "stars", reason: "Stars share themes of wonder, distance, guidance, and possibility." }, { slug: "flying", reason: "Both involve freedom from the ground, although outer space adds isolation and immense scale." }],
+  categories: ["Wonder", "Spiritual", "Uncertainty", "Freedom"],
+  tags: ["outer space", "floating in space", "astronaut", "Earth from space", "exploration"]
+},
+{
+  slug: "seeing-your-future-self",
+  title: "Seeing Your Future Self",
+  seoTitle: "Seeing Your Future Self in a Dream: Meaning",
+  seoDescription: "Meeting your future self in a dream may reflect hopes, fears, identity, aging, choices, regret, encouragement, or the person you are becoming.",
+  microSummary: "A future version of you can give a face to expectation. Their appearance, character, words, and way of living may reveal what you hope for—or worry current choices could produce.",
+  description: `Meeting yourself years from now can feel intimate in a way that ordinary future imagery does not. The figure may look older, carry a different confidence, live somewhere unexpected, or offer a message you remember after waking.
+
+This is not dependable knowledge of what will happen. Dreams build scenes from memory, imagination, desire, and concern. A peaceful future self may embody qualities you are growing toward. A tired or regretful version can dramatize anxiety about continuing along the same path.
+
+Pay attention to recognition. Did this person still feel like you? What had changed, and what remained unmistakably yours?`,
+  emotionalMeaning: `Hope may surface when the meeting feels reassuring. Grief can accompany awareness of time passing or paths not taken. Fear may reveal concern about health, relationships, purpose, or identity. Compassion toward your older self can indicate a gentler relationship with your own limitations.`,
+  symbolicMeaning: `The future self often symbolizes direction rather than destiny. Their home, clothing, work, companions, and physical condition can represent the outcomes you associate with present decisions. A conversation creates dialogue between current priorities and long-term values.`,
+  spiritualMeaning: `The dream may invite stewardship of the life you have now: choices, character, relationships, and time. Discernment is healthier than treating the encounter as prophecy. Ask what wise action the scene encourages today.`,
+  biblicalMeaning: `James 4:13-15 cautions against speaking of tomorrow with certainty and encourages humble dependence on God. That perspective allows serious reflection on the future without claiming the dream guarantees it.`,
+  wakingLifeMeaning: `Milestones, birthdays, career choices, parenthood, health concerns, reunions, or seeing an older relative can activate this imagery. It may help reveal whether your present direction feels aligned with the person you want to become.`,
+  scenarios: [
+    { title: "Your future self gives advice", meaning: "The advice may express wisdom or concern you already possess but have not fully acknowledged." },
+    { title: "Your future self seems unhappy", meaning: "The scene may dramatize worry about consequences rather than predict a fixed outcome." },
+    { title: "You feel proud of who you became", meaning: "Pride may affirm values, habits, or hopes that currently feel worth protecting." }
+  ],
+  reflectionQuestions: ["Which qualities stood out in your future self?", "What present choice seemed connected to that future?", "Did the dream create fear, motivation, or peace?"],
+  faqs: [
+    { question: "Does seeing my future self predict my future?", answer: "No. Dreams can explore expectations and possible consequences, but they are not reliable forecasts. Use the experience for reflection rather than certainty." },
+    { question: "Why did my future self speak to me?", answer: "Their words may represent long-term values, current intuition, fear, or advice you are already considering. Evaluate the message with waking evidence and wisdom." }
+  ],
+  relatedDreams: [{ slug: "the-future", reason: "The broader future page covers events and uncertainty, while this interpretation centers specifically on identity over time." }, { slug: "aging-suddenly", reason: "Both engage time, change, maturity, and concern about who you are becoming." }],
+  categories: ["Identity", "Future", "Growth", "Self Discovery"],
+  tags: ["future self", "older self", "meeting yourself", "future identity", "aging"]
+},
+{
+  slug: "watching-a-natural-disaster",
+  title: "Watching a Natural Disaster",
+  seoTitle: "Watching a Natural Disaster Dream Meaning",
+  seoDescription: "Watching a natural disaster in a dream may reflect overwhelming change, helplessness, emotional distance, collective anxiety, preparation, or survival.",
+  microSummary: "Observing a disaster rather than being caught inside it creates a meaningful distance: you can see powerful change unfolding, but may be unsure whether to intervene, prepare, or escape.",
+  description: `A tornado crosses the horizon, water overtakes a town, the earth opens, or a volcano erupts while you stand at a distance. The scale is enormous, yet your role is that of witness.
+
+That position matters. Watching from safety can represent awareness of disruption without being consumed by it. Watching loved ones below may introduce responsibility or helplessness. Filming the event, ignoring warnings, or trying to alert others each gives the dream a different emotional center.
+
+Disaster dreams are not reliable predictions of earthquakes, storms, or public tragedy. They often borrow dramatic imagery to express change that feels larger than one person's control. News and recent media can also supply the scene.`,
+  emotionalMeaning: `Awe and terror may exist together when events exceed your ability to respond. Numbness can suggest emotional distance from turmoil. Guilt may arise if you are safe while others struggle. Urgency often points toward preparation or the need to act before pressure escalates.`,
+  symbolicMeaning: `The type of disaster refines the image. Floods can suggest emotional overflow; fires, rapid destruction or consuming intensity; earthquakes, shaken foundations; tornadoes, volatile forces; drought, prolonged depletion. Your viewing place symbolizes the degree of distance, protection, and perspective you currently feel.`,
+  spiritualMeaning: `The dream may encourage humility, compassion, prayer, and wise preparation without feeding fear. It should not be announced as a divine warning simply because the imagery is dramatic.`,
+  biblicalMeaning: `Jesus' teaching in Matthew 24:6-8 warns against panic when hearing of wars and natural upheaval. The passage supports sober faith rather than date-setting or treating an individual nightmare as prophecy.`,
+  wakingLifeMeaning: `Large organizational changes, family crisis, frightening headlines, climate anxiety, or watching someone else's life unravel can inspire this dream. Consider whether you are merely observing a problem that requires a measured response—or carrying responsibility for events you cannot control.`,
+  scenarios: [
+    { title: "Watching from a safe building", meaning: "Protection and perspective may coexist with concern about what is changing outside your immediate life." },
+    { title: "Trying to warn other people", meaning: "The dream may focus on responsibility, frustration, or fear that your concerns are not being heard." },
+    { title: "Recording the disaster", meaning: "Filming may represent emotional distance, a need to document what is happening, or difficulty moving from observation to action." }
+  ],
+  reflectionQuestions: ["Were you safe, detached, or unable to help?", "What currently feels larger than your control?", "Is there one grounded action available to you?"],
+  faqs: [
+    { question: "Does a natural-disaster dream predict a real disaster?", answer: "No reliable evidence makes such dreams forecasts. They more often reflect fear, upheaval, media exposure, or circumstances that feel overwhelming." },
+    { question: "Why was I only watching the disaster?", answer: "The observer role may express distance, perspective, helplessness, or uncertainty about whether you should become involved." }
+  ],
+  relatedDreams: [{ slug: "flood", reason: "Flood dreams focus specifically on water, overwhelm, and emotional overflow." }, { slug: "volcano", reason: "Volcano imagery adds themes of pressure building beneath the surface and sudden release." }],
+  categories: ["Fear", "Change", "Uncertainty", "Collective Anxiety"],
+  tags: ["natural disaster", "watching disaster", "storm", "earthquake", "tornado", "survival"]
+},
+{
+  slug: "being-lost-in-your-own-house",
+  title: "Being Lost in Your Own House",
+  seoTitle: "Being Lost in Your Own House Dream Meaning",
+  seoDescription: "Being lost inside your own house in a dream may explore identity, unfamiliar emotions, family change, memory, hidden rooms, or no longer feeling at home in your life.",
+  microSummary: "A familiar home becoming impossible to navigate can express a quiet disorientation: the place that should orient you no longer works the way you remember.",
+  description: `You turn a corner expecting the kitchen and find another hallway. Bedrooms have moved, doors lead nowhere, and a home you know intimately becomes a maze. This dream combines familiarity with estrangement.
+
+Because a house often carries associations with private life, family, memory, and identity, losing your way inside it may reflect change close to home—or within yourself. The dream does not necessarily say that something is wrong. A changing inner world can feel confusing before it feels expansive.
+
+Whether the house is your present home, childhood home, or an invented place helps locate the emotional history involved.`,
+  emotionalMeaning: `Confusion may accompany a period when familiar routines no longer fit. Fear can arise if the house feels hostile; sadness may reflect lost belonging. Curiosity, however, can turn the experience into discovery rather than crisis.`,
+  symbolicMeaning: `Rooms may represent areas of life, memory, or self-understanding. Repeating corridors suggest circular thinking. A missing exit can express difficulty moving beyond a private situation. Newly discovered areas may symbolize capacities or feelings that have not yet found a place in your conscious identity.`,
+  spiritualMeaning: `The dream may invite inward honesty and renewed grounding. Prayer, trusted counsel, and patient reflection can help when inner life feels unfamiliar. No room or floor should be assigned an automatic spiritual code.`,
+  biblicalMeaning: `Proverbs 24:3-4 describes a house established through wisdom, understanding, and knowledge. It offers a constructive image for examining the foundations of one's life without turning a dream house into prophecy.`,
+  wakingLifeMeaning: `Family changes, moving, returning home, grief, shifting roles, therapy, or rapid personal growth can make your own life feel strangely unfamiliar. Ask which part of home or identity has recently changed shape.`,
+  scenarios: [
+    { title: "Your childhood home becomes a maze", meaning: "Old memories or family roles may be harder to understand from your present perspective." },
+    { title: "You cannot find the front door", meaning: "Leaving a private pattern, responsibility, or stage of life may feel more complicated than expected." },
+    { title: "You discover unfamiliar rooms", meaning: "Disorientation may be opening into curiosity about neglected interests, memories, or abilities." }
+  ],
+  reflectionQuestions: ["Which home appeared in the dream?", "What familiar part of life now feels different?", "Were you searching for a person, room, or exit?"],
+  faqs: [
+    { question: "What does it mean to be lost in your own house in a dream?", answer: "It may reflect changes in identity, family life, memory, or belonging. The house is familiar, but your way through it no longer feels certain." },
+    { question: "Is finding new rooms a bad sign?", answer: "Not necessarily. New rooms can feel unsettling, but they may also reflect discovery, growth, or parts of life you are beginning to understand." }
+  ],
+  relatedDreams: [{ slug: "house", reason: "The house page explores the broader connection between home, identity, relationships, and security." }, { slug: "discovering-new-rooms-in-a-house", reason: "That page focuses on discovery, while this one centers on losing orientation in a familiar place." }],
+  categories: ["Identity", "Family", "Uncertainty", "Hidden Emotions"],
+  tags: ["lost in house", "house maze", "cannot find room", "childhood home", "identity"]
+},
+{
+  slug: "crawling-through-a-tight-space",
+  title: "Crawling Through a Tight Space",
+  seoTitle: "Crawling Through a Tight Space Dream Meaning",
+  seoDescription: "Crawling through a narrow space in a dream may reflect pressure, vulnerability, persistence, limited options, transition, claustrophobia, or a difficult path forward.",
+  microSummary: "Moving through a narrow passage reduces speed, comfort, and freedom. The dream may show determination to continue when the available path feels restrictive.",
+  description: `The ceiling presses down, there is barely room to breathe, and turning back may be as difficult as continuing. Crawling through a tight space makes progress physical and uncomfortable.
+
+The dream can reflect a period with little flexibility: a deadline, financial constraint, difficult negotiation, crowded environment, or transition that offers no easy route. Yet crawling is still movement. If you reach open space, the story may be about endurance and emergence rather than entrapment.
+
+Notice whether you entered voluntarily, were forced inside, or followed someone. Choice changes the meaning considerably.`,
+  emotionalMeaning: `Panic highlights confinement and loss of control. Determination suggests willingness to tolerate temporary discomfort for a meaningful outcome. Vulnerability can arise because crawling limits speed and makes defense difficult. Relief at the exit may mirror the end of a demanding season.`,
+  symbolicMeaning: `A tunnel or narrow opening can symbolize transition under constraint. Darkness adds uncertainty; debris may represent accumulated obstacles. Crawling rather than walking can point to humility, reduced power, or adaptation. The opening ahead represents possibility that can be seen before it can be reached.`,
+  spiritualMeaning: `The passage may prompt patience and courage during a restrictive season. Endurance is not the same as remaining in harm; wisdom includes recognizing when a path is unsafe and help is needed.`,
+  biblicalMeaning: `Matthew 7:13-14 uses a narrow way as an image of committed discipleship. Its context concerns how one lives, not a universal interpretation for confined spaces in dreams.`,
+  wakingLifeMeaning: `This dream may fit situations where options feel limited but progress remains possible. It can also follow real experiences of claustrophobia, medical scans, cramped travel, construction spaces, or intense media.`,
+  scenarios: [
+    { title: "You see light at the end", meaning: "A difficult process may have a visible purpose or ending even though the present stage remains uncomfortable." },
+    { title: "The passage gets narrower", meaning: "Pressure may be increasing, or a chosen approach may no longer leave enough room to continue safely." },
+    { title: "You emerge into an open place", meaning: "The contrast can represent relief, completed transition, or regained choice after restriction." }
+  ],
+  reflectionQuestions: ["What currently leaves you little room to move?", "Did the passage lead somewhere worth reaching?", "Are you adapting wisely or ignoring a genuine limit?"],
+  faqs: [
+    { question: "What does crawling through a narrow space mean in a dream?", answer: "It can reflect restricted choices, vulnerability, pressure, persistence, or movement through a difficult transition. Reaching the exit usually changes the emotional emphasis." },
+    { question: "Why did the dream feel claustrophobic?", answer: "The confined setting may mirror stress or limited control, though real sensations, sleep position, and recent experiences can also shape the dream." }
+  ],
+  relatedDreams: [{ slug: "being-trapped", reason: "Both involve restriction, but crawling preserves a difficult form of forward movement." }, { slug: "cave", reason: "Caves share enclosed darkness and can add themes of refuge, fear, or inward exploration." }],
+  categories: ["Pressure", "Transitions", "Fear", "Perseverance"],
+  tags: ["tight space", "narrow tunnel", "crawling", "claustrophobia", "escape"]
+},
+{
+  slug: "failure-to-call-or-communicate",
+  title: "Unable to Call or Communicate",
+  seoTitle: "Unable to Call or Communicate in a Dream: Meaning",
+  seoDescription: "Dreaming that you cannot call, text, or communicate may reflect disconnection, urgency, misunderstood needs, technological frustration, silence, or fear of not being heard.",
+  microSummary: "The message feels important, but the number will not dial, your voice fails, or every attempt reaches the wrong person. The dream often centers on connection blocked at the moment it matters.",
+  description: `You press the right numbers and the screen changes them. The signal disappears. Your message will not send, or the person answers but cannot hear you. These dreams turn communication into repeated failure.
+
+The emotional weight usually comes from urgency. You may need help, want to warn someone, hope to repair a relationship, or simply need to be understood. The malfunction makes distance feel larger.
+
+Technology is only one possible layer. If the phone works for everyone else, the scene may capture isolation or self-doubt. If you cannot remember the number, access to the relationship itself may feel uncertain.`,
+  emotionalMeaning: `Frustration points to effort without connection. Panic may reveal fear that support will not arrive in time. Sadness can accompany emotional distance, while anger may reflect conversations in which you feel ignored, interrupted, or misunderstood.`,
+  symbolicMeaning: `A phone represents access across distance. No signal suggests a broken channel; a dead battery can symbolize depleted capacity; wrong numbers may reflect misdirected attempts; an unsent text can stand for words repeatedly revised but never shared. Losing your voice shifts the focus from the device to confidence or safety in speaking.`,
+  spiritualMeaning: `The dream may encourage honest communication, listening, and prayer without implying that temporary silence means spiritual abandonment. Sometimes clarity begins by naming what you are actually trying to say.`,
+  biblicalMeaning: `James 1:19 counsels people to be quick to listen and slow to speak or anger. That balance is relevant when communication has become strained, although a broken phone has no biblical symbolic rule.`,
+  wakingLifeMeaning: `Unanswered messages, conflict, long-distance relationships, emergency concerns, social anxiety, or dependence on unreliable technology can all contribute. Consider whether the real difficulty is access, timing, trust, or finding words that feel safe enough to send.`,
+  scenarios: [
+    { title: "The emergency number will not work", meaning: "The dream may express fear of being unsupported when a situation feels urgent." },
+    { title: "Your text repeatedly fails", meaning: "You may be struggling to deliver a message, obtain acknowledgment, or risk another person's response." },
+    { title: "The person cannot hear your voice", meaning: "Speaking is happening, but understanding is not; the waking issue may involve listening as much as expression." }
+  ],
+  reflectionQuestions: ["Who were you trying to reach?", "What needed to be communicated?", "Is the obstacle access, fear, timing, or misunderstanding?"],
+  faqs: [
+    { question: "Why can I never dial correctly in dreams?", answer: "Dreams often distort reading and fine motor tasks. Emotionally, repeated dialing failure may also represent urgency, disconnection, or difficulty reaching support." },
+    { question: "Does an unsent message mean I should contact someone?", answer: "Not automatically. Consider the relationship, boundaries, safety, and waking evidence before acting. The dream may be about expression rather than that specific person." }
+  ],
+  relatedDreams: [{ slug: "phone-not-working", reason: "Both involve failed technology, while this page centers on the relationship and message blocked by it." }, { slug: "being-unable-to-speak", reason: "Both explore the distress of having something important that cannot be expressed or heard." }],
+  categories: ["Communication", "Relationships", "Anxiety", "Isolation"],
+  tags: ["cannot make phone call", "message not sending", "no signal", "cannot communicate", "not heard"]
+},
+{
+  slug: "familiar-place-turned-eerie",
+  title: "A Familiar Place Turning Eerie",
+  seoTitle: "Familiar Place Turning Eerie in a Dream: Meaning",
+  seoDescription: "When a familiar place becomes eerie in a dream, it may reflect changed relationships, unsettling memories, mistrust, transition, nostalgia, or noticing what no longer feels safe.",
+  microSummary: "A school, street, workplace, or home looks almost right, yet its atmosphere has changed. The dream may explore how familiarity can remain after comfort and trust have shifted.",
+  description: `Everything is where it belongs, but the light is wrong. A well-known hallway is empty, familiar rooms feel staged, or a childhood street carries a silence you cannot explain. Nothing obvious has attacked you; the discomfort comes from recognition without reassurance.
+
+This dream often appears when your relationship to a place, period, or group has changed. You may revisit an old environment with new awareness, sense tension beneath a normal routine, or realize that something once comforting no longer fits.
+
+Recent horror films and games can plainly influence the atmosphere. Even then, the particular place chosen by the dream may still be personally meaningful.`,
+  emotionalMeaning: `Uneasiness can signal ambiguity: there is not enough evidence for panic, but not enough safety to relax. Nostalgia mixed with grief may arise when the past cannot be recovered. Alertness may show that you are noticing details previously overlooked.`,
+  symbolicMeaning: `The familiar setting represents established memory, identity, or routine. Strange lighting can alter perception; silence removes expected signs of life; rearranged objects suggest that the old pattern has shifted. An unseen presence can embody uncertainty rather than a literal being.`,
+  spiritualMeaning: `The dream may invite discernment without superstition. Pay attention to real boundaries and facts, pray for wisdom, and avoid assuming that an eerie atmosphere proves a spiritual presence.`,
+  biblicalMeaning: `Proverbs 22:3 praises prudent awareness of danger. Applied carefully, it supports attention and wise boundaries—not fear-driven claims about a location based on a dream.`,
+  wakingLifeMeaning: `Returning home, reconnecting with old friends, workplace change, family tension, grief, or learning difficult history can make a known place feel psychologically different. The dream may be registering that you have changed even if the setting has not.`,
+  scenarios: [
+    { title: "Your childhood home feels sinister", meaning: "Present understanding may be changing how you relate to family memories or an earlier version of yourself." },
+    { title: "A familiar school or workplace is empty", meaning: "The absence of people can emphasize endings, isolation, or a role that no longer carries its former meaning." },
+    { title: "Everyone acts as though nothing is wrong", meaning: "You may feel alone in noticing tension, inconsistency, or change within a familiar group." }
+  ],
+  reflectionQuestions: ["What normally makes this place feel safe?", "What had changed in the dream?", "Has your relationship with this setting or period recently shifted?"],
+  faqs: [
+    { question: "Why did a familiar place feel scary in my dream?", answer: "The contrast may reflect changed memories, uncertainty, mistrust, grief, or awareness that an old environment no longer feels the same to you." },
+    { question: "Does an eerie place mean it is haunted?", answer: "A dream is not reliable evidence that a location is haunted. Recent media, stress, memory, and emotional associations are more grounded starting points." }
+  ],
+  relatedDreams: [{ slug: "being-in-an-unknown-place", reason: "Both involve disorientation, but this dream derives its tension from a place you should already know." }, { slug: "empty-house", reason: "An empty familiar home can intensify silence, absence, memory, and changed belonging." }],
+  categories: ["Uncertainty", "Memory", "Fear", "Transitions"],
+  tags: ["familiar place scary", "eerie house", "uncanny place", "strange atmosphere", "nostalgia"]
+},
+{
+  slug: "music-playing-from-nowhere",
+  title: "Music Playing From Nowhere",
+  seoTitle: "Music Playing From Nowhere Dream Meaning",
+  seoDescription: "Hearing unexplained music in a dream may reflect memory, emotion, intuition, comfort, suspense, creativity, grief, or a feeling that is difficult to put into words.",
+  microSummary: "Music without a visible source can give emotion a presence of its own. The melody, lyrics, volume, and atmosphere matter more than the fact that no musician can be found.",
+  description: `A melody fills the room, yet there are no speakers and nobody is playing. Sometimes it is beautiful enough to stop everything; sometimes a distant tune makes the whole dream unsettling.
+
+Music communicates mood before explanation. In dreams, it can hold grief, longing, worship, celebration, suspense, or memory that ordinary dialogue cannot carry. An unseen source makes the experience feel less controllable and more mysterious.
+
+If you recognize the song, begin with its personal history rather than searching for a universal code. A tune heard recently may simply continue through sleep. Original music may reflect creative combination rather than a message from outside yourself.`,
+  emotionalMeaning: `Comforting music can accompany reassurance, belonging, or remembered love. Sad music may allow grief to surface indirectly. A threatening rhythm can build anticipation when you sense change but cannot identify its source. Joyful sound may express freedom or renewed energy.`,
+  symbolicMeaning: `Music represents rhythm, harmony, memory, and emotional communication. Lyrics can function like dream dialogue, though they still require context. Increasing volume may signal an emotion demanding attention. Music that stops when you search for it can symbolize inspiration or comfort that disappears under forced analysis.`,
+  spiritualMeaning: `Sacred music may naturally invite worship, gratitude, or reflection. It is wise to receive what is good while testing any claimed message rather than assuming unexplained sound is automatically divine.`,
+  biblicalMeaning: `The Psalms repeatedly join music with prayer, lament, remembrance, and praise. Colossians 3:16 also connects songs with gratitude and spiritual formation. These passages give context to music's role without making a dream melody revelation.`,
+  wakingLifeMeaning: `A song tied to a person, church, journey, celebration, or loss can reappear when related emotions are active. Musicians and highly auditory people may also process creative material during sleep.`,
+  scenarios: [
+    { title: "A familiar song plays", meaning: "The song's history, lyrics, and associated person or period may be more important than its genre." },
+    { title: "Beautiful music has no source", meaning: "Wonder may reflect creativity, comfort, or openness to an emotion that cannot yet be explained." },
+    { title: "The music becomes frightening", meaning: "Changes in tempo, volume, or harmony may give form to suspense and uncertainty." }
+  ],
+  reflectionQuestions: ["Did you recognize the song?", "Which emotion arrived before you searched for the source?", "What memory or relationship is connected with that sound?"],
+  faqs: [
+    { question: "What does unexplained music mean in a dream?", answer: "It may carry memory, creativity, comfort, grief, anticipation, or another emotion that the dream expresses through sound rather than events." },
+    { question: "Is hearing worship music in a dream a message from God?", answer: "It may encourage meaningful reflection or worship, but the experience alone does not establish divine authorship. Consider Scripture, wisdom, context, and the fruit of any interpretation." }
+  ],
+  relatedDreams: [{ slug: "hearing-a-voice", reason: "Both involve unexplained sound, though music communicates primarily through mood, rhythm, and association." }, { slug: "dancing", reason: "Music and dancing connect emotional rhythm with bodily expression and freedom." }],
+  categories: ["Creativity", "Memory", "Spiritual", "Hidden Emotions"],
+  tags: ["hearing music", "mysterious song", "unexplained music", "dream melody", "worship music"]
+},
+{
   slug: "being-chased-by-a-lion",
   title: "Being Chased by a Lion",
   microSummary: "Dreaming about being chased by a lion can reflect intense pressure, fear of confrontation, authority, powerful emotions, or courage that feels difficult to claim.",
@@ -127257,3 +127565,34 @@ for (const dream of dreams) {
 }
 
 applyEditorialEnrichments(dreams);
+applyDreamPagePriorityEnrichments(dreams);
+applyPhase6ImproveBatch1(dreams);
+applyStep4ClusterDependencies(dreams);
+applyStep4bDeathDependencies(dreams);
+applyStep4cHouseDependencies(dreams);
+applyStep4dFallingDependencies(dreams);
+applyStep4eBeingChasedDependencies(dreams);
+applyStep4fSensitiveDependencies(dreams);
+
+const publishedDreamSlugs = new Set(dreams.map((dream) => dream.slug));
+
+for (const dream of dreams) {
+  const seenRelatedSlugs = new Set();
+
+  dream.relatedDreams = (dream.relatedDreams || []).filter((reference) => {
+    const relatedSlug = typeof reference === "string"
+      ? reference
+      : reference?.slug || reference?.title;
+
+    if (
+      !publishedDreamSlugs.has(relatedSlug) ||
+      relatedSlug === dream.slug ||
+      seenRelatedSlugs.has(relatedSlug)
+    ) {
+      return false;
+    }
+
+    seenRelatedSlugs.add(relatedSlug);
+    return true;
+  });
+}

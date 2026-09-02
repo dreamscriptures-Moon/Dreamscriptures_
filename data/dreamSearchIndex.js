@@ -1,5 +1,55 @@
 export const dreamSearchIndex = [
   {
+    slug: "missing-a-bathroom",
+    title: "Missing a Bathroom",
+    description: "Searching for a bathroom without finding privacy or relief can reflect urgency, delayed needs, embarrassment, or emotional pressure.",
+  },
+  {
+    slug: "being-stuck-in-an-elevator",
+    title: "Being Stuck in an Elevator",
+    description: "A stalled elevator can explore confinement, delayed progress, uncertainty, dependence on outside systems, and asking for help.",
+  },
+  {
+    slug: "being-in-outer-space",
+    title: "Being in Outer Space",
+    description: "Outer space dreams can hold wonder, freedom, isolation, exploration, spiritual reflection, or fear of drifting without direction.",
+  },
+  {
+    slug: "seeing-your-future-self",
+    title: "Seeing Your Future Self",
+    description: "Meeting a future version of yourself may bring hopes, fears, long-term values, identity, aging, and present choices into focus.",
+  },
+  {
+    slug: "watching-a-natural-disaster",
+    title: "Watching a Natural Disaster",
+    description: "Witnessing a disaster from a distance may reflect overwhelming change, helplessness, emotional perspective, preparation, or collective anxiety.",
+  },
+  {
+    slug: "being-lost-in-your-own-house",
+    title: "Being Lost in Your Own House",
+    description: "A familiar home becoming impossible to navigate can explore identity, family changes, memory, belonging, and unfamiliar parts of yourself.",
+  },
+  {
+    slug: "crawling-through-a-tight-space",
+    title: "Crawling Through a Tight Space",
+    description: "A narrow passage may reflect limited options, vulnerability, persistence, claustrophobia, or difficult movement through a transition.",
+  },
+  {
+    slug: "failure-to-call-or-communicate",
+    title: "Unable to Call or Communicate",
+    description: "Failed calls and unsent messages may reflect urgency, disconnection, misunderstood needs, silence, or fear that support will not answer.",
+  },
+  {
+    slug: "familiar-place-turned-eerie",
+    title: "A Familiar Place Turning Eerie",
+    description: "When a known place suddenly feels wrong, the dream may explore changed memories, mistrust, transition, grief, or lost familiarity.",
+  },
+  {
+    slug: "music-playing-from-nowhere",
+    title: "Music Playing From Nowhere",
+    description: "Unexplained music in a dream can carry memory, comfort, grief, creativity, worship, suspense, or emotion beyond ordinary words.",
+  },
+  {
     slug: "1111",
     title: "1111",
     description:
@@ -12,13 +62,13 @@ export const dreamSearchIndex = [
       "Snakes in dreams often carry a strong emotional presence they can feel unsettling, intense, or strangely powerful. They are usually connected to...",
   },
   {
-    slug: "being-chased",
+    slug: "chased",
     title: "Being Chased",
     description:
       "Being chased in a dream often carries a strong sense of urgency - like something is coming after you and you can't fully escape it. It usually...",
   },
   {
-    slug: "being-pregnant",
+    slug: "pregnant",
     title: "Being Pregnant",
     description:
       "A sense of holding something within you - not yet visible, but already real. This dream often carries a quiet awareness that something is...",
@@ -28,12 +78,6 @@ export const dreamSearchIndex = [
     title: "Ex-Partner",
     description:
       "A presence from your past showing up again - familiar, but not fully settled. This dream often carries a mix of memory, emotion, and something...",
-  },
-  {
-    slug: "failing-a-test",
-    title: "Failing a Test",
-    description:
-      "A moment where you're unprepared, unsure, or being measured in a way that feels uncomfortable. This dream often carries a sense of pressure - like...",
   },
   {
     slug: "house-burning",
@@ -70,12 +114,6 @@ export const dreamSearchIndex = [
     title: "hearing / seeing bells",
     description:
       "A sound that cuts through everything else. Not constant, but clear enough that you notice it - like something is trying to get your attention.",
-  },
-  {
-    slug: "walking-in-the-sky",
-    title: "Walking in the Sky",
-    description:
-      "Moving through a space you're not supposed to stand in - but somehow, you can. It often feels light, quiet, and slightly unreal, like you're...",
   },
   {
     slug: "seeing-a-dead-person",
@@ -132,7 +170,7 @@ export const dreamSearchIndex = [
       "Being pulled under, struggling to stay above something that keeps taking over. It often feels overwhelming, like you can't catch a proper breath.",
   },
   {
-    slug: "underwater-but-calm",
+    slug: "being-underwater-but-calm",
     title: "Underwater but calm",
     description:
       "Being fully beneath the surface, but not fighting it. Everything feels slower, quieter - like you're surrounded by something deep, but it isn't...",
@@ -156,7 +194,7 @@ export const dreamSearchIndex = [
       "A sense of committing to someone familiar. It can feel natural, unexpected, or slightly confusing - depending on how you see them in real life.",
   },
   {
-    slug: "marrying-your-ex",
+    slug: "marrying-an-ex",
     title: "Marrying your ex",
     description:
       "Being tied again to someone from your past. It can feel familiar, emotional, or slightly unsettling - like something you thought was over showing...",
@@ -210,16 +248,10 @@ export const dreamSearchIndex = [
       "Facing someone or something directly. No avoiding, no going around it - just being in the moment where something has to be said or acknowledged.",
   },
   {
-    slug: "unable-to-speak",
+    slug: "being-unable-to-speak",
     title: "Unable to speak",
     description:
       "Trying to speak, but you can't at all. No words, no sound - just the feeling of wanting to say something and not being able to.",
-  },
-  {
-    slug: "seeing-a-demon-or-spirit-in-front-of-you",
-    title: "Seeing a demon / spirit in front of you",
-    description:
-      "Coming face to face with something that feels powerful, unfamiliar, or unsettling. It's not distant - it's right there, aware of you.",
   },
   {
     slug: "feeling-someone-watching-you-while-you-sleep",
@@ -318,7 +350,7 @@ export const dreamSearchIndex = [
       "Losing something small, vulnerable, and deeply meaningful. It can feel heavy, quiet, or overwhelming - like something important slipped away...",
   },
   {
-    slug: "seeing-a-different-reflection",
+    slug: "different-reflection-in-the-mirror",
     title: "Seeing a different reflection in the mirror",
     description:
       "Looking into a mirror and seeing a version of yourself that doesn't match who you expect. It can feel subtle, unsettling, or strangely familiar -...",
@@ -342,7 +374,7 @@ export const dreamSearchIndex = [
       "Reaching a place or moment at the last possible second. It can feel tense at first, then shift - like everything almost slipped, but didn't.",
   },
   {
-    slug: "someone-confessing-love",
+    slug: "someone-confessing-their-love-to-you",
     title: "Someone confessing their love to you",
     description:
       "Someone expressing their feelings for you openly. It can feel surprising, comforting, or slightly overwhelming - depending on who it is and how...",
@@ -354,15 +386,9 @@ export const dreamSearchIndex = [
       "Being turned away, dismissed, or not chosen. It can feel sharp, uncomfortable, or quietly heavy - like something didn't open for you the way you...",
   },
   {
-    slug: "confessing-your-love",
+    slug: "confessing-your-love-to-someone",
     title: "Confessing your love to someone",
     description:
       "Expressing your feelings openly to someone. It can feel intense, vulnerable, or unexpectedly calm - like something that's been inside you is...",
-  },
-  {
-    slug: "losing-important-items",
-    title: "Losing something important",
-    description:
-      "Realizing something important is missing - something you rely on or carry with you. It often starts small, then builds into a feeling that...",
   },
 ];

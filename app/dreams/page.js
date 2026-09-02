@@ -6,6 +6,7 @@ import SiteHeader from "@/app/components/SiteHeader";
 import Link from "next/link";
 import LazyMobileQuickNav from "../components/LazyMobileQuickNav";
 import { getDreamHref } from "@/lib/routes";
+import SavedDreamsPanel from "@/components/SavedDreamsPanel";
 
 export const metadata = {
   title: "Dream Dictionary: Explore Dream Meanings",
@@ -40,6 +41,19 @@ const searchableDreams = dreams.map((dream) => ({
   normalizedTitle: dream.title.toLowerCase(),
   description: `${(dream.description || dream.uniqueDescription || "").slice(0, 90)}...`,
   categoryKeys: (dream.categories || []).map(normalizeCategory),
+  searchText: [
+    dream.title,
+    dream.description,
+    dream.uniqueDescription,
+    dream.microSummary,
+    ...(dream.categories || []),
+    ...(dream.emotionalStates || []),
+    ...(dream.lifeSituations || []),
+    ...(dream.dreamSymbols || []),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase(),
 }));
 
 export default function DreamDictionaryPage() {
@@ -86,7 +100,7 @@ export default function DreamDictionaryPage() {
 
 <section className="grid md:grid-cols-3 gap-4 mb-12">
 
-  <div className="bg-white border border-[#EAE6E1] rounded-2xl p-5">
+  <Link href="/dreams" className="bg-white border border-[#EAE6E1] rounded-2xl p-5 transition hover:border-[#C6A96B]">
 
     <div className="text-2xl mb-3">📖</div>
 
@@ -102,9 +116,9 @@ export default function DreamDictionaryPage() {
 
     </p>
 
-  </div>
+  </Link>
 
-  <div className="bg-white border border-[#EAE6E1] rounded-2xl p-5">
+  <Link href="/emotions" className="bg-white border border-[#EAE6E1] rounded-2xl p-5 transition hover:border-[#C6A96B]">
 
     <div className="text-2xl mb-3">❤️</div>
 
@@ -120,9 +134,9 @@ export default function DreamDictionaryPage() {
 
     </p>
 
-  </div>
+  </Link>
 
-  <div className="bg-white border border-[#EAE6E1] rounded-2xl p-5">
+  <Link href="/categories" className="bg-white border border-[#EAE6E1] rounded-2xl p-5 transition hover:border-[#C6A96B]">
 
     <div className="text-2xl mb-3">🗂</div>
 
@@ -138,11 +152,13 @@ export default function DreamDictionaryPage() {
 
     </p>
 
-  </div>
+  </Link>
 
 </section>
 
 <LazyMobileQuickNav />
+
+<SavedDreamsPanel />
 
 <section className="mb-10">
 

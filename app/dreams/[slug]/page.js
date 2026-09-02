@@ -1,7 +1,7 @@
 export const revalidate = 86400;
 
 import Link from "next/link";
-import { permanentRedirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Script from "next/script";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
@@ -48,6 +48,8 @@ import {
 } from "@/lib/dreamEngagement";
 import { getCanonicalDreamSlug, getDreamRobots } from "@/lib/seo";
 import JumpToNavigation from "@/app/components/JumpToNavigation";
+import DreamCompassPageCTA from "@/components/DreamCompassPageCTA";
+import DreamReaderTools from "@/components/DreamReaderTools";
 
 export function generateStaticParams() {
   return dreams.map((dream) => ({
@@ -699,6 +701,20 @@ function getDreamDescription(dream = {}) {
   return dream.description || dream.uniqueDescription || "";
 }
 
+function getDreamOpening(dream = {}) {
+  const directOpening = dream.microSummary || dream.shortSummary;
+  if (directOpening) return directOpening;
+
+  return dream.shortDescription || getParagraphs(getDreamDescription(dream))[0] || "";
+}
+
+function getSupportingDescription(dream = {}) {
+  const description = getDreamDescription(dream);
+  if (dream.microSummary || dream.shortSummary || dream.shortDescription) return description;
+
+  return getParagraphs(description).slice(1).join("\n\n");
+}
+
 function getDreamCategories(dream = {}) {
   const values = [
     ...toTextItems(dream.category),
@@ -751,16 +767,11 @@ export default async function DreamPage({ params }) {
   const slug = String(resolvedParams?.slug || "").toLowerCase().trim();
   const dream = getDreamBySlug(slug);
  
- if (!dream) {
-  return (
-    <main className="bg-[#FAF8F5] min-h-screen pt-16 md:pt-20">
-      <SiteHeader />
-      <p className="max-w-3xl mx-auto px-6 py-20">
-        Dream not found
-      </p>
-    </main>
-  );
+if (!dream) {
+  notFound();
 }
+
+const compactEnding = Boolean(dream.editorialControls?.compactEnding);
 
 const clusterGuide = getClusterGuides().find(
   (cluster) =>
@@ -919,31 +930,32 @@ function getDreamContext(dream) {
 </nav>
 </div>    
 
-     <div className="max-w-3xl mx-auto px-6 mt-4 mb-6 space-y-3">
-  <SearchBar />
-  <LazyMobileQuickNav />
-</div>
-      <article className="max-w-3xl lg:max-w-3xl mx-auto px-6 pt-1 pb-10 md:pt-14 md:pb-24">
-     <h1 className="text-4xl md:text-5xl leading-[1.15] font-serif mb-4">
+      <article id="dream-meaning" className="max-w-3xl scroll-mt-28 lg:max-w-3xl mx-auto px-6 pt-1 pb-10 md:pt-14 md:pb-24">
+<h1 className="text-4xl md:text-5xl leading-[1.15] font-serif mb-4">
   {dynamicTitle}
 </h1>
+<DreamReaderTools slug={dream.slug} title={dreamTitle} />
 <p className="mb-8 text-sm text-[#8A8177]" aria-label={`Estimated reading time ${readingTime} minutes`}>
   <span aria-hidden="true">⏱</span> {readingTime} min read
 </p>
 <EditorialAttribution className="mb-10" />
-{(dream.microSummary || dream.shortSummary) && (
+{getDreamOpening(dream) && (
   <section id="dream-overview" className="mb-12 scroll-mt-28">
 
     <h2 className="text-2xl md:text-3xl font-serif text-[#1A1A1A] mb-5">
       What does it mean to dream about {dream.title.toLowerCase()}?
     </h2>
 
-    <TextBlocks text={dream.microSummary || dream.shortSummary} />
+    <TextBlocks text={getDreamOpening(dream)} />
 
   </section>
   
 )}
 {renderQuickTakeaways(dream)}
+<div className="mb-12 space-y-3 border-y border-[#EAE6E1] py-6">
+  <SearchBar />
+  <LazyMobileQuickNav />
+</div>
 {getDreamContext(dream) && (
   <section id="when-this-dream-happens" className="mb-14 scroll-mt-28 border-t border-[#EAE6E1] pt-8">
     <h2 className="font-serif text-2xl md:text-3xl mb-4">
@@ -978,9 +990,9 @@ function getDreamContext(dream) {
         </p>
 
         
-{getDreamDescription(dream) && <section aria-labelledby="quick-description-heading">
-  <p id="quick-description-heading" className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">Quick description</p>
-  <DescriptionBlocks text={getDreamDescription(dream)} className="mb-10" relatedDream={primaryRelatedDream} />
+{getSupportingDescription(dream) && <section aria-labelledby="quick-description-heading">
+  <p id="quick-description-heading" className="text-[11px] uppercase tracking-[0.18em] text-[#8A8175] mb-3">A closer look</p>
+  <DescriptionBlocks text={getSupportingDescription(dream)} className="mb-10" relatedDream={primaryRelatedDream} />
 </section>}
 
         <div className="w-56 h-[1px] bg-[#C6A96B] mt-8 mb-10 opacity-60" />
@@ -1015,13 +1027,13 @@ function getDreamContext(dream) {
   items={toTextItems(dream.lifeSituations)}
 />
 <BehavioralInsightsSection dream={dream} />
-<DreamEmotionalPathways dream={dream} />
-<DreamEmotionalThemesSection dream={dream} />
-<DreamEmotionalConnections dream={dream} />
-<DreamSemanticAuthority dream={dream} />
+{!compactEnding && <DreamEmotionalPathways dream={dream} />}
+{!compactEnding && <DreamEmotionalThemesSection dream={dream} />}
+{!compactEnding && <DreamEmotionalConnections dream={dream} />}
+{!compactEnding && <DreamSemanticAuthority dream={dream} />}
 <IllustrativeExamplesSection examples={dream.illustrativeExamples} />
 <ReflectionQuestionsSection questions={dream.reflectionQuestions} />
-<DreamTagsSection tags={dream.tags} />
+{!compactEnding && <DreamTagsSection tags={dream.tags} />}
         {summaryText && (
           <section className="mt-20 scroll-mt-28 border-y border-[#EAE6E1] py-10 text-center md:mt-32">
             <p className="text-[11px] tracking-[0.2em] text-[#8A8175] uppercase mb-4">
@@ -1034,7 +1046,7 @@ function getDreamContext(dream) {
             />
           </section>
         )}
-<ClusterPathway cluster={clusterGuide} />
+<ClusterPathway cluster={clusterGuide} currentSlug={dream.slug} />
 
        
        {faqItems.length > 0 && <section id="faqs" className="mt-16 border-t border-[#EAE6E1] pt-10 scroll-mt-28">
@@ -1054,7 +1066,8 @@ function getDreamContext(dream) {
           </div>
         </section>}
  <RelatedDreams slugs={dream.relatedDreams} relatedDreams={relatedDreamItems} />
- <ContinueExploring dreams={continueExploringDreams} />
+ <DreamCompassPageCTA dreamTitle={dreamTitle} />
+ {!compactEnding && <ContinueExploring dreams={continueExploringDreams} />}
 
         <aside className="mt-10 border-l border-[#D8C7A0] pl-5 text-sm leading-relaxed text-[#6B6B6B]" aria-label="Interpretation disclaimer">
           <p className="font-medium text-[#3A3A3A]">Dream interpretation is deeply personal.</p>
@@ -1069,7 +1082,7 @@ function getDreamContext(dream) {
           </p>
         </section>
 
-        {exploreThemes.length > 0 && (
+        {!compactEnding && exploreThemes.length > 0 && (
           <section className="mt-16 scroll-mt-28">
             <h2 className="font-serif text-4xl md:text-5xl mb-4">
               You might also explore
@@ -1089,7 +1102,7 @@ function getDreamContext(dream) {
           </section>
         )}
 
-      <section className="mt-20 scroll-mt-28 border-t border-[#EAE6E1] pt-10 md:mt-32">
+      {!compactEnding && <section className="mt-20 scroll-mt-28 border-t border-[#EAE6E1] pt-10 md:mt-32">
   <h2 className="font-serif text-4xl md:text-5xl mb-6">
     Related reading
   </h2>
@@ -1132,7 +1145,7 @@ function getDreamContext(dream) {
     </Link>
 
   </div>
-      </section>
+      </section>}
       <ContentSources sources={dream.sources} />
       <ArticleFeedback dreamSlug={canonicalDreamSlug} />
       </article>

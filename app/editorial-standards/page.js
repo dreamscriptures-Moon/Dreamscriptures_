@@ -5,7 +5,7 @@ import SiteFooter from "@/app/components/SiteFooter";
 export const metadata = {
   title: "Editorial Standards | DreamScriptures",
   description:
-    "Learn how DreamScriptures researches, reviews, updates, and maintains dream interpretation content through clear editorial standards and structured methodology.",
+    "Learn how DreamScriptures develops, reviews, sources, and updates reflective dream interpretation content with clear limits.",
   alternates: {
     canonical: "https://www.dreamscriptures.com/editorial-standards",
   },
@@ -177,8 +177,8 @@ export default function EditorialStandardsPage() {
 
           <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
             <p>
-              All content is reviewed before publication for clarity,
-              consistency, readability, and overall quality.
+              Published content is checked for clarity, consistency,
+              readability, and alignment with these standards before release.
             </p>
 
             <p>
@@ -219,6 +219,12 @@ export default function EditorialStandardsPage() {
             </p>
 
             <p>
+              This editorial review is a publication-quality process, not a
+              claim that every interpretation has been independently validated
+              by clinical, academic, or religious experts.
+            </p>
+
+            <p>
               Factual psychological, medical, historical, cultural, scientific,
               and scriptural claims are sourced where verification is needed.
               Interpretive applications are kept distinct from what a source
@@ -239,6 +245,36 @@ export default function EditorialStandardsPage() {
               textual relationship. Sources are not added simply to make an
               interpretation appear authoritative, and a citation does not
               validate one personal interpretation as the correct answer.
+            </p>
+          </div>
+        </section>
+
+        {/* Evidence and interpretation */}
+        <section className="mt-14 border-t border-[#EAE6E1] pt-10">
+          <h2 className="mb-5 font-serif text-3xl text-[#1A1A1A]">
+            Evidence, interpretation, and limits
+          </h2>
+
+          <div className="space-y-5 text-base leading-relaxed text-[#6B6B6B]">
+            <p>
+              DreamScriptures separates four layers: established facts from a
+              source; traditional or cultural associations; a possible
+              personal interpretation; and what the dream cannot prove.
+            </p>
+
+            <p>
+              Psychology and sleep research can describe dreaming, memory,
+              emotion, or sleep experiences. Biblical and cultural sources can
+              describe their own traditions. Neither layer supplies a universal
+              dictionary for an individual dream.
+            </p>
+
+            <p>
+              Accordingly, the site does not use dreams to diagnose illness,
+              predict pregnancy, death, finances, relationships, or disasters,
+              or establish supernatural communication. Readers should use
+              qualified professional support for medical, mental-health,
+              financial, legal, or safety decisions.
             </p>
           </div>
         </section>

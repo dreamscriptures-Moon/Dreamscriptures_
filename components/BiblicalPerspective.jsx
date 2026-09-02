@@ -52,7 +52,7 @@ export default function BiblicalPerspective({ dream = {} }) {
         ))}
 
         <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed">
-          Continue with our <Link href="/guides/biblical-dreams" className="underline underline-offset-4 hover:text-[#C6A96B] transition-colors">biblical dreams guide</Link> and <Link href="/guides/spiritual-dreams-meaning" className="underline underline-offset-4 hover:text-[#C6A96B] transition-colors">spiritual dreams guide</Link> for a balanced approach to faith, symbolism, and personal reflection.
+          Continue with our <Link href="/guides/spirituality" className="underline underline-offset-4 hover:text-[#C6A96B] transition-colors">biblical dreams guide</Link> and <Link href="/guides/spiritual-dreams-meaning" className="underline underline-offset-4 hover:text-[#C6A96B] transition-colors">spiritual dreams guide</Link> for a balanced approach to faith, symbolism, and personal reflection.
         </p>
       </div>
 

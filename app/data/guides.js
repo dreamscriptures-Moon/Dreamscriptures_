@@ -464,6 +464,11 @@ export const guides = uniqueGuidesBySlug([
 
       body:
         "It is usually more helpful to reflect on spiritual dreams slowly rather than rushing to decode them.\n\nPay attention to the emotional atmosphere.\n\nNotice what remained clear after waking.\n\nLook for connections between the dream and ongoing experiences in your waking life.\n\nThe goal is not certainty.\n\nIt is awareness and understanding."
+    },
+    {
+      title: "Tradition, personal meaning, and limits",
+      body:
+        "A biblical or religious tradition may associate a dream image with guidance, warning, comfort, judgment, or renewal. That association is a starting point, not a verdict about your dream. Ask what the image meant inside your own experience, what emotion remained, and what ordinary memories, worship, media, grief, stress, or sleep-boundary sensations may have contributed.\n\nA spiritual-feeling dream cannot by itself prove divine communication, prophecy, demonic activity, another person's intentions, or a future event. Hold a possible interpretation with humility, and do not use a dream as the sole reason to take dangerous action or make a medical, legal, or relationship decision."
     }
   ],
 
@@ -611,6 +616,10 @@ export const guides = uniqueGuidesBySlug([
     "dream-myths",
     "how-to-interpret-dream-symbols",
     "subconscious-mind-dreams"
+  ],
+
+  relatedDreams: [
+    "repeating-the-same-dream"
   ]
 },
 

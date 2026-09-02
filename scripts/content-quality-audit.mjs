@@ -55,6 +55,33 @@ function getDescription(dream = {}) {
   return clean(dream.description || dream.uniqueDescription);
 }
 
+function getOpening(dream = {}) {
+  return clean(
+    dream.microSummary ||
+    dream.shortSummary ||
+    dream.shortDescription ||
+    getDescription(dream).split(/\n+/)[0]
+  );
+}
+
+function hasDirectOpening(dream = {}) {
+  const opening = normalize(getOpening(dream));
+  if (wordCount(opening) < 18) return false;
+
+  return ![
+    "dreams have fascinated",
+    "dreams are mysterious",
+    "have you ever wondered",
+    "dreams can have many",
+  ].some((phrase) => opening.startsWith(phrase));
+}
+
+function relatedReasonCount(dream = {}) {
+  return (dream.relatedDreams || []).filter(
+    (item) => typeof item === "object" && clean(item?.reason)
+  ).length;
+}
+
 function getCategoryCount(dream = {}) {
   return itemCount(dream.category) + itemCount(dream.categories);
 }
@@ -176,6 +203,7 @@ const rows = dreams.map((dream) => {
     richSections,
     faqCount: manualFaqs.length,
     relatedDreamCount: itemCount(dream.relatedDreams),
+    relatedDreamReasonCount: relatedReasonCount(dream),
     biblicalReferenceCount: itemCount(
       dream.biblicalReferences || dream.scriptures || dream.bibleReferences
     ),
@@ -197,6 +225,14 @@ const rows = dreams.map((dream) => {
     sourceCount: itemCount(dream.sources),
     repeatedFields,
     technicalProblems,
+    qualityChecks: {
+      directOpening: hasDirectOpening(dream),
+      distinctCoreSections: repeatedFields.length === 0,
+      specificReflectionQuestions: itemCount(dream.reflectionQuestions) >= 3,
+      contextualRelatedDreams:
+        itemCount(dream.relatedDreams) > 0 && relatedReasonCount(dream) > 0,
+      standaloneDepth: meaningfulWords >= 350 && coreSections > 1,
+    },
   };
 });
 
@@ -303,6 +339,10 @@ const report = {
     classificationCounts,
     manualFaqDreamCount: rows.filter((row) => row.faqCount > 0).length,
     dreamsWithRepeatedFields: rows.filter((row) => row.repeatedFields.length > 0).length,
+    dreamsWithoutDirectOpening: rows.filter((row) => !row.qualityChecks.directOpening).length,
+    dreamsWithoutSpecificReflectionQuestions: rows.filter((row) => !row.qualityChecks.specificReflectionQuestions).length,
+    dreamsWithoutExplainedRelatedLinks: rows.filter((row) => !row.qualityChecks.contextualRelatedDreams).length,
+    dreamsNeedingStandaloneReview: rows.filter((row) => !row.qualityChecks.standaloneDepth).length,
   },
   worstExactParagraphReuse: repeatedBlocks("paragraph").slice(0, 25),
   worstExactSentenceReuse: repeatedBlocks("sentence").slice(0, 25),
@@ -312,6 +352,21 @@ const report = {
 
 if (process.argv.includes("--related-json")) {
   console.log(JSON.stringify(report.relatedReferences, null, 2));
+} else if (process.argv.includes("--needs-enrichment-json")) {
+  console.log(JSON.stringify(report.dreams.filter((dream) => dream.classification === "needs-enrichment"), null, 2));
+} else if (process.argv.includes("--needs-enrichment-tsv")) {
+  for (const dream of report.dreams.filter((item) => item.classification === "needs-enrichment")) {
+    console.log([
+      dream.slug,
+      dream.title,
+      dream.meaningfulWords,
+      dream.coreSections,
+      dream.richSections,
+      dream.relatedDreamCount,
+      dream.reflectionQuestionCount,
+      dream.hasBiblicalMeaning ? "biblical" : "general",
+    ].join("\t"));
+  }
 } else if (process.argv.includes("--summary")) {
   const reviewedSlugs = new Set(["peeing-the-bed", "not-finding-your-car", "hearing-someone-walking-in-the-dark"]);
   console.log(JSON.stringify({ ...report.summary, relatedReferences: report.relatedReferences.counts, rawUnresolvedRelatedReferences: report.relatedReferences.rawUnresolvedCount, reviewedDreams: report.dreams.filter((dream) => reviewedSlugs.has(dream.slug)) }, null, 2));

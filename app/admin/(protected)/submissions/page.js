@@ -24,9 +24,14 @@ export default async function SubmissionListPage({ searchParams }) {
     page: Math.max(1, Number(raw.page) || 1),
     pageSize: 20,
   };
-  const result = filters.search
-    ? await searchDreamSubmissions(filters.search, filters)
-    : await listDreamSubmissions(filters);
+  let result = { submissions: [], total: 0 };
+  let dataError = false;
+  try {
+    result = filters.search ? await searchDreamSubmissions(filters.search, filters) : await listDreamSubmissions(filters);
+  } catch (error) {
+    dataError = true;
+    console.error("Admin submissions data unavailable:", error);
+  }
   const pages = Math.max(1, Math.ceil(result.total / filters.pageSize));
   const preserved = new URLSearchParams();
   if (filters.search) preserved.set("q", filters.search);
@@ -37,6 +42,7 @@ export default async function SubmissionListPage({ searchParams }) {
   return (
     <>
       <div><p className="text-sm font-medium text-amber-700">Manage</p><h1 className="mt-1 text-3xl font-semibold">Submissions</h1><p className="mt-2 text-sm text-slate-500">{result.total} matching submissions</p></div>
+      {dataError && <div role="alert" className="mt-5 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">Submissions are temporarily unavailable. Check the server connection and try again.</div>}
       <form className="mt-6 grid gap-3 rounded-xl border border-slate-200 bg-white p-4 md:grid-cols-[minmax(220px,1fr)_180px_180px_130px_auto]">
         <input name="q" defaultValue={filters.search} placeholder="Search reference, name, email, title" className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
         <select name="status" defaultValue={filters.status} className="rounded-lg border border-slate-300 px-3 py-2 text-sm">{statuses.map((status) => <option key={status} value={status}>{status || "All statuses"}</option>)}</select>

@@ -1,10 +1,8 @@
 export const clusters = {
   loss_of_control: {
     title: "Loss of control dreams",
-
     description:
       "Dreams about losing control, feeling powerless, overwhelmed, trapped, or unable to stop something from happening.",
-
     keywords: [
       "loss of control dreams",
       "powerless dreams",
@@ -14,7 +12,6 @@ export const clusters = {
       "stress dreams",
       "anxiety dreams",
     ],
-
     dreams: [
       "falling",
       "being-chased",
@@ -43,7 +40,6 @@ export const clusters = {
       "unable-to-move",
       "paralysis",
     ],
-
     emotions: [
       "fear",
       "panic",
@@ -53,7 +49,6 @@ export const clusters = {
       "anxiety",
       "pressure",
     ],
-
     symbols: [
       "water",
       "falling",
@@ -64,23 +59,18 @@ export const clusters = {
       "fire",
       "chaos",
     ],
-
     relatedClusters: [
       "fear_and_anxiety",
       "survival_dreams",
       "stress_dreams",
       "transformation",
     ],
-
     intro:
       "Loss of control dreams often happen during stressful periods of life. They can reflect emotional overwhelm, fear of failure, uncertainty, burnout, or situations where you feel powerless.",
-
     spiritualMeaning:
       "Spiritually, these dreams may symbolize surrender, inner imbalance, fear of the unknown, or a need to reconnect with stability and trust within yourself.",
-
     psychologicalMeaning:
       "Psychologically, they are commonly linked to anxiety, stress, performance pressure, unresolved fears, or major life transitions.",
-
     commonThemes: [
       "losing stability",
       "fear of failure",
@@ -89,149 +79,298 @@ export const clusters = {
       "survival instincts",
       "uncertainty about the future",
     ],
-
     guide: "/guides/loss-of-control-dreams",
-
     seo: {
       title: "Loss of Control Dreams Meaning",
       description:
         "Discover the meaning behind loss of control dreams including falling, drowning, being chased, paralysis, and panic dreams.",
     },
   },
-
   snake_dreams: {
     title: "Snake dreams",
-
-    description:
-      "Dreams involving snakes, serpents, cobras, or being surrounded by snakes.",
-
-    keywords: [
-      "snake dream meaning",
-      "cobra dream",
-      "black snake dream",
-      "white snake dream",
-      "spiritual snake dreams",
-    ],
-
-    dreams: [
-      "snake",
-      "black-snake",
-      "white-snake",
-      "giant-snake",
-      "friendly-snake",
-      "cobra",
-      "snake-in-house",
-      "snake-in-bed",
-      "snake-wrapping-around-you",
-      "snake-bite",
-      "multiple-snakes",
-    ],
-
-    emotions: [
-      "fear",
-      "curiosity",
-      "transformation",
-      "temptation",
-      "healing",
-    ],
-
-    symbols: [
-      "venom",
-      "skin shedding",
-      "darkness",
-      "rebirth",
-      "hidden danger",
-    ],
-
-    relatedClusters: [
-      "transformation",
-      "fear_and_anxiety",
-      "spiritual_dreams",
-    ],
-
-    intro:
-      "Snake dreams are among the most powerful and symbolic dreams. Depending on the context, they can represent fear, hidden enemies, healing, wisdom, temptation, or transformation.",
-
-    spiritualMeaning:
-      "Spiritually, snakes are often linked to awakening, rebirth, protection, hidden energy, or spiritual warfare.",
-
-    psychologicalMeaning:
-      "Psychologically, snake dreams may reflect fear, distrust, suppressed emotions, personal growth, or deep subconscious instincts.",
-
+    description: "Understand snake dreams through behavior, contact, setting, emotional response, personal associations, and clearly separated symbolic or spiritual traditions.",
     guide: "/guides/snake-dreams",
-
-    seo: {
-      title: "Snake Dream Meaning",
-      description:
-        "Explore the spiritual and psychological meanings behind snake dreams including black snakes, cobras, giant snakes, and friendly snakes.",
-    },
+    editorialAnchor: "This hub helps readers identify which part of a snake encounter changes the interpretation instead of assigning one fixed meaning to every snake.",
+    intro: "A snake that stays still, follows you, bites your leg, enters your home, or allows you to approach does not create the same dream. Start with the encounter: what the snake did, how close it came, where it appeared, and what you did in response. Personal history matters too. Someone who keeps snakes, fears them, recently saw one, or knows a particular religious tradition brings different associations to the image.",
+    principles: [
+      { title: "Begin with behavior", body: "Watching, hiding, chasing, biting, constricting, shedding, and dying change the relationship between the dreamer and the snake." },
+      { title: "Your response is evidence", body: "Fear can indicate perceived danger; calm may allow curiosity or respect; fighting and escaping raise different questions about agency and safety." },
+      { title: "Setting changes the boundary", body: "A snake in a home or bed enters private space. A snake outdoors may leave more distance and choice." },
+      { title: "Tradition is not certainty", body: "Snakes carry psychological, cultural, biblical, and spiritual associations, but a dream cannot prove betrayal, spiritual attack, divine warning, or future harm." },
+    ],
+    groups: [
+      { title: "Seeing and identifying the snake", description: "Use these when appearance, species, color, size, or condition mattered more than direct contact.", dreams: ["snake","black-snake","white-snake","cobra","giant-snake","friendly-snake"] },
+      { title: "Pursuit, contact, and injury", description: "These pages distinguish being followed from being bitten and explain why the body location changes the consequence.", dreams: ["being-chased-by-a-snake","getting-bitten-by-a-snake","snake-bite-on-the-hand","snake-bite-on-the-leg","snake-wrapping-around-you"] },
+      { title: "Private space and relationship", description: "A snake inside the home or beside the dreamer changes questions of trust, boundaries, and available distance.", dreams: ["snake-in-the-house","sleeping-with-a-snake"] },
+      { title: "Number, condition, and response", description: "Use these when the dream centers several snakes, an unusual form, death, or the dreamer's decision to kill the snake.", dreams: ["seeing-many-snakes","two-headed-snake","seeing-a-dead-snake","killing-a-snake"] },
+    ],
+    dreams: ["snake","black-snake","white-snake","cobra","giant-snake","friendly-snake","being-chased-by-a-snake","getting-bitten-by-a-snake","snake-bite-on-the-hand","snake-bite-on-the-leg","snake-wrapping-around-you","snake-in-the-house","sleeping-with-a-snake","seeing-many-snakes","two-headed-snake","seeing-a-dead-snake","killing-a-snake"],
+    emotionalPatterns: ["Fear and vigilance","Curiosity and respect","Trust and boundaries","Protection","Change without certainty"],
+    frameworkNote: "Psychological readings may focus on threat, instinct, memory, or avoidance. Cultural and spiritual traditions may add healing, wisdom, temptation, or conflict. Treat these as frameworks to compare with the actual dream—not as verdicts.",
+    compassPrompt: "If the broad pathways do not capture your dream, Dream Compass can use the snake's behavior, location, contact, and your emotional response to narrow the interpretation.",
+    relatedPathways: [{title:"Fear and threat dreams",href:"/emotions/fear",description:"Explore how fear, vigilance, and available safety change a dream."},{title:"How symbols depend on context",href:"/guides/how-to-interpret-dream-symbols",description:"Use a broader method when personal associations matter more than a conventional meaning."}],
   },
-
   water_dreams: {
     title: "Water dreams",
-
-    description:
-      "Dreams involving oceans, floods, waves, rain, drowning, or rising water.",
-
-    keywords: [
-      "water dream meaning",
-      "ocean dream",
-      "flood dream",
-      "tsunami dream",
-      "drowning dream",
-    ],
-
-    dreams: [
-      "waves",
-      "tsunami",
-      "calm-water",
-      "clear-water",
-      "dirty-water",
-      "water-rising",
-      "boat-sinking",
-      "drowning",
-      "lost-at-sea",
-      "rain",
-      "flood",
-    ],
-
-    emotions: [
-      "overwhelm",
-      "peace",
-      "fear",
-      "cleansing",
-      "uncertainty",
-    ],
-
-    symbols: [
-      "ocean",
-      "rain",
-      "floods",
-      "waves",
-      "boats",
-    ],
-
-    relatedClusters: [
-      "loss_of_control",
-      "emotional_dreams",
-      "transformation",
-    ],
-
-    intro:
-      "Water dreams are deeply connected to emotions and the subconscious mind. The condition of the water often reflects your emotional state.",
-
-    spiritualMeaning:
-      "Spiritually, water can symbolize cleansing, renewal, emotional healing, intuition, or emotional chaos.",
-
-    psychologicalMeaning:
-      "Psychologically, water dreams often reflect emotional overwhelm, hidden feelings, stress, healing, or inner peace.",
-
+    description: "Interpret water dreams through condition, movement, scale, containment, bodily position, agency, and emotional response.",
     guide: "/guides/water-dreams",
-
-    seo: {
-      title: "Water Dream Meaning",
-      description:
-        "Learn the meaning of water dreams including floods, tsunamis, oceans, drowning, calm water, and rising water.",
-    },
+    editorialAnchor: "This hub helps readers find the water experience that matches their dream instead of reducing every form of water to emotion.",
+    intro: "Water can be an object, a boundary, an environment, a resource, or a force. Calm water watched from shore is different from a flooded room, rising water, a wave, or being able to breathe below the surface. The most useful clues are how the water moved, what condition it was in, where you were in relation to it, and what choices remained available.",
+    principles: [
+      { title: "Condition affects what can be known", body: "Clarity, dirt, ice, temperature, and depth can change visibility, safety, contact, and trust." },
+      { title: "Movement changes urgency", body: "Still, flowing, rising, falling, and surging water create different relationships to timing and control." },
+      { title: "Position changes agency", body: "Watching, entering, swimming, drinking, breathing, drowning, and travelling by boat are different actions—not interchangeable water symbols." },
+      { title: "Ordinary causes belong here", body: "Thirst, a full bladder, temperature, weather, travel, news, and recent media may shape water dreams directly." },
+    ],
+    groups: [
+      { title:"What was the water like?",description:"Start here when condition or visibility was the memorable detail.",dreams:["water","calm-water","clear-water","dirty-water","frozen-lake"] },
+      { title:"Did it cross a boundary?",description:"Rising level, scale, warning time, and the place affected distinguish these experiences.",dreams:["water-rising","flood","flooded-house","tsunami","waves"] },
+      { title:"Were you inside it?",description:"Ability to move, breathe, remain calm, or reach safety changes the interpretation.",dreams:["ocean","being-in-the-ocean","being-underwater-but-calm","breathing-underwater","drowning","falling-or-swimming-in-dirty-water"] },
+      { title:"Were you watching, receiving, or crossing it?",description:"These dreams place more emphasis on distance, nourishment, passage, or observation.",dreams:["looking-at-a-river","drinking-water","waterfall","rain","walking-on-water"] },
+      { title:"Were you travelling on it?",description:"A working boat concerns navigation; a sinking boat concerns failure of the structure carrying the journey.",dreams:["boat","boat-sinking"] },
+    ],
+    dreams:["water","calm-water","clear-water","dirty-water","frozen-lake","water-rising","flood","flooded-house","tsunami","waves","ocean","being-in-the-ocean","being-underwater-but-calm","breathing-underwater","drowning","falling-or-swimming-in-dirty-water","looking-at-a-river","drinking-water","waterfall","rain","walking-on-water","boat","boat-sinking"],
+    emotionalPatterns:["Overwhelm and containment","Calm and recovery","Fear and survival","Clarity and uncertainty","Movement and choice"],
+    frameworkNote:"Water has traditions of cleansing, renewal, life, and judgment, while psychological interpretations often emphasize emotion, memory, and control. Neither framework replaces the dreamer's position, response, or ordinary physical context.",
+    compassPrompt:"Dream Compass can narrow a water dream through condition, movement, depth, location, and what you were able to do.",
+    relatedPathways:[{title:"Emotional overwhelm",href:"/emotions/emotional-overwhelm",description:"Use this pathway when containment and pressure mattered more than water itself."},{title:"Dreams about losing control",href:"/guides/loss-of-control-dreams",description:"Explore related experiences of instability, helplessness, and restricted choice."}],
+  },
+  relationship_dreams: {
+    title:"Relationship dreams",
+    description:"Understand relationship dreams through attachment, trust, communication, commitment, separation, intimacy, memory, and changing roles.",
+    guide:"/guides/relationship-dreams",
+    editorialAnchor:"This hub helps readers identify which relationship dynamic the dream is exploring while keeping the interpretation grounded in the dreamer's own experience.",
+    intro:"A relationship dream can involve a real conflict, an old attachment, a fear of loss, a wish to be understood, or a role that is changing. It cannot reveal another person's private thoughts or guarantee contact, cheating, marriage, breakup, pregnancy, or reconciliation. Begin with the direction of the action: who approached, withdrew, confessed, betrayed, refused, or asked for commitment—and how you responded.",
+    principles:[
+      {title:"Direction matters",body:"Confessing love is different from receiving a confession; cheating is different from being betrayed; leaving is different from being left."},
+      {title:"A person can carry memory",body:"An ex, friend, partner, or family member may represent the actual relationship, a period of life, or qualities associated with them."},
+      {title:"Consent and evidence remain central",body:"Dream intensity does not establish another person's feelings, compatibility, or future behavior."},
+      {title:"Look at the relationship event",body:"Communication, conflict, intimacy, commitment, separation, and changing roles lead to different next questions."},
+    ],
+    groups:[
+      {title:"Distance, rejection, and separation",description:"Use these when the dream centers loss of connection, leaving, or fear that support will disappear.",dreams:["breakup","being-rejected","abandonment","being-left-behind","seeing-someone-you-miss"]},
+      {title:"Ex-partners and the past",description:"These pages distinguish memory, contact, conflict, reunion imagery, and the self connected with an earlier relationship.",dreams:["ex-partner","ex-texting-you","arguing-with-your-ex","marrying-an-ex","meeting-someone-from-your-past","old-friend"]},
+      {title:"Trust, conflict, and communication",description:"Who acts and who receives the action is essential in these dreams.",dreams:["partner-cheating-on-you","cheating-on-your-partner","failure-to-call-or-communicate","confrontation-argument"]},
+      {title:"Commitment and consent",description:"A proposal, ceremony, refusal, disruption, or forced commitment creates different questions about readiness and agency.",dreams:["marriage","engagement","forced-marriage","saying-no-at-a-wedding","wedding-day-drama","marrying-a-crush","marrying-a-celebrity","marrying-someone-you-know","getting-married-to-a-stranger"]},
+      {title:"Closeness and disclosure",description:"These experiences focus on expression, reciprocity, vulnerability, and boundaries rather than predicting a relationship.",dreams:["confessing-your-love-to-someone","someone-confessing-their-love-to-you","kissing-someone","having-sex"]},
+    ],
+    dreams:["breakup","being-rejected","abandonment","being-left-behind","seeing-someone-you-miss","ex-partner","ex-texting-you","arguing-with-your-ex","marrying-an-ex","meeting-someone-from-your-past","old-friend","partner-cheating-on-you","cheating-on-your-partner","failure-to-call-or-communicate","confrontation-argument","marriage","engagement","forced-marriage","saying-no-at-a-wedding","wedding-day-drama","marrying-a-crush","marrying-a-celebrity","marrying-someone-you-know","getting-married-to-a-stranger","confessing-your-love-to-someone","someone-confessing-their-love-to-you","kissing-someone","having-sex"],
+    emotionalPatterns:["Attachment and distance","Trust and betrayal","Communication and recognition","Commitment and consent","Memory and changing roles"],
+    frameworkNote:"Relationship dreams are built through the dreamer's memory and perception. Spiritual or cultural ideas about covenant and connection may be meaningful, but they cannot establish another person's thoughts, intentions, or future actions.",
+    compassPrompt:"Dream Compass can narrow the interpretation through who appeared, what happened between you, who initiated it, and what feeling remained afterward.",
+    relatedPathways:[{title:"Why a particular person appears",href:"/guides/dreaming-about-someone",description:"Explore memory, association, attachment, and why the dream person may not be a literal message."},{title:"Relationship confusion",href:"/emotions/relationship-confusion",description:"Follow the emotional pathway when mixed signals or uncertainty mattered most."},{title:"Family dreams",href:"/dreams/family",description:"Use the family interpretation when roles, belonging, or family history outweigh romantic meaning."}],
+  },
+  death_dreams: {
+    title: "Death dreams",
+    description: "Understand death dreams through who died, whether the person is alive or deceased, what happened, the relationship involved, and the emotions that followed.",
+    guide: "/guides/death-dreams",
+    editorialAnchor: "This hub helps readers separate mortality fear, grief, memory, changing relationships, ritual, and symbolic endings without treating death imagery as a prediction.",
+    intro: "A dream about your own death is not the same experience as watching a parent die, seeing someone who has already died, talking with them, attending a funeral, or walking through a cemetery. Death imagery can arise through grief, fear, memory, illness, change, media, identity, or spiritual belief. Begin with the event and relationship before assigning a symbolic meaning—and remember that a vivid death dream does not predict an actual death.",
+    principles: [
+      { title: "Identify who died—and when", body: "A living person dying, someone already deceased appearing, and the dreamer's own death create different questions about attachment, memory, mortality, and identity." },
+      { title: "Follow your role in the event", body: "Witnessing, trying to save, causing, hearing about, mourning, burying, or observing afterward changes agency, responsibility, and emotional meaning." },
+      { title: "Let mixed emotions stay mixed", body: "Fear, grief, peace, guilt, relief, numbness, and acceptance can coexist. Relief may concern the end of strain, not a wish for someone to die." },
+      { title: "Separate meaning from prediction", body: "Grief, memory, illness, recent conversations, bodily sensations, anniversaries, and media can all shape death dreams. No dream establishes that a death, funeral, message, or violent event will occur." },
+    ],
+    groups: [
+      { title: "Death and your own mortality", description: "Use these when the dream centers death broadly, your own death or aftermath, or self-inflicted death. The safety-focused page is distinct and should not be reduced to transformation symbolism.", dreams: ["death", "seeing-your-own-death", "killing-yourself"] },
+      { title: "Someone living dies in the dream", description: "Relationship and responsibility lead the interpretation. The broad page or a family-role page may be more useful depending on who died.", dreams: ["someone-dying", "parent-dying", "child-dying", "baby-dying", "husband-dying", "wife-dying"] },
+      { title: "Someone already deceased appears", description: "These dreams center grief, memory, recognition, continuing influence, or unfinished words rather than an event that predicts another death.", dreams: ["seeing-a-dead-person", "talking-to-a-dead-person", "seeing-your-dead-child"] },
+      { title: "Funeral, containment, and places of memory", description: "A funeral concerns communal acknowledgment and ritual; a coffin concerns containment or finality; a cemetery concerns how the dreamer approaches memory, burial, and the past.", dreams: ["burial", "coffin", "cemetery"] },
+    ],
+    dreams: ["death", "seeing-your-own-death", "killing-yourself", "someone-dying", "parent-dying", "child-dying", "baby-dying", "husband-dying", "wife-dying", "seeing-a-dead-person", "talking-to-a-dead-person", "seeing-your-dead-child", "burial", "coffin", "cemetery"],
+    emotionalPatterns: ["Grief and longing", "Fear of loss", "Memory and attachment", "Guilt and responsibility", "Acceptance and relief"],
+    reflectionQuestions: [
+      "Who died, and were they alive or already deceased in waking life?",
+      "Were you witnessing, trying to prevent, causing, mourning, or learning about the death?",
+      "What happened immediately afterward, and whose response mattered?",
+      "Did the dream leave fear, grief, guilt, relief, peace, or an unexpected mixture?",
+      "What recent loss, illness, anniversary, conversation, media, or life ending may have supplied the context?",
+    ],
+    frameworkNote: "Psychological readings may focus on grief, mortality anxiety, attachment, identity, memory, and emotional processing. Religious and cultural traditions may discuss death, mourning, afterlife, visitation, or renewal differently. These frameworks can be meaningful without proving prophecy, communication from the dead, spiritual warning, or future harm.",
+    compassPrompt: "Dream Compass can narrow a death dream through who died, your relationship, whether the person is alive or deceased, your role in the event, the aftermath, and the feeling that remained.",
+    relatedPathways: [
+      { title: "Grief and longing", href: "/emotions/grief", description: "Use this pathway when bereavement, memory, and the emotional return of loss matter more than symbolic death." },
+      { title: "Why a deceased person may appear", href: "/guides/dreaming-about-someone", description: "Explore how attachment, memory, and personal association shape the people who appear in dreams." },
+      { title: "Spiritual dream perspectives", href: "/guides/spiritual-dreams-meaning", description: "Compare spiritual interpretation with uncertainty and ordinary emotional explanations without treating the dream as proof." },
+      { title: "Recurring dreams", href: "/guides/recurring-dreams", description: "If death imagery repeats, compare what stays constant and what changes; the dedicated recurring cluster remains future work." },
+    ],
+  },
+  house_dreams: {
+    title: "House dreams",
+    description: "Understand house and home dreams through familiarity, condition, rooms, access, privacy, ownership, movement, and the people present.",
+    guide: "/guides/house-dreams",
+    editorialAnchor: "This hub helps readers identify whether the meaningful detail is the space itself, its condition, the access it allows, the history it carries, or what happened inside it.",
+    intro: "A house in a dream can be a place of belonging, a memory, a private boundary, an institution, or simply a setting assembled from recent experience. A childhood home, an empty house, a locked room, a collapsing structure, and a building where you cannot find your way do not ask the same question. Start with the space, your relationship to it, what you could access, who was present, and how you felt—not with a fixed rule that every house represents the self.",
+    principles: [
+      { title: "Familiarity comes before symbolism", body: "A current home, childhood home, inherited property, unfamiliar house, and public building carry different memories, roles, and expectations." },
+      { title: "Condition shows what the structure can hold", body: "New, old, empty, flooded, burning, unfinished, haunted, or collapsing spaces change questions of safety, care, history, and stability." },
+      { title: "Rooms and access localize the experience", body: "A hidden room, basement, bathroom, stairs, locked door, or narrowing space can focus the dream on privacy, discovery, release, movement, or restricted choice." },
+      { title: "The people and your response matter", body: "Strangers, family, absence, intrusion, searching, leaving, repairing, hiding, and protecting all change whether the dream concerns belonging, boundaries, responsibility, or agency." },
+    ],
+    groups: [
+      { title: "Familiarity, belonging, and change", description: "Use these when the house's identity, history, ownership, or move between places is central.", dreams: ["house", "new-house", "big-house", "old-house", "moving-back-to-an-old-house", "moving-to-a-new-house", "childhood-home", "house-in-the-middle-of-nowhere", "empty-house", "haunted-house"] },
+      { title: "Condition and what the structure can hold", description: "These experiences make repair, damage, instability, neglect, or an unusual material part of the interpretation.", dreams: ["house-collapsing", "house-burning", "house-on-fire", "mud-house", "flooded-house", "unfinished-building"] },
+      { title: "Rooms, privacy, and discovery", description: "A specific room narrows the question to function, memory, concealment, exposure, or what was unexpectedly found inside.", dreams: ["discovering-new-rooms-in-a-house", "secret-room", "basement", "being-in-a-small-crowded-room"] },
+      { title: "Access, movement, and boundaries", description: "Use these when finding a route, leaving, entering, being watched, or protecting a private space mattered most.", dreams: ["many-doors", "climbing-stairs", "going-down-stairs", "room-closing-in-on-you", "house-break-in-while-sleeping", "being-lost-in-a-building", "being-lost-in-your-own-house"] },
+    ],
+    dreams: ["house", "new-house", "big-house", "old-house", "moving-back-to-an-old-house", "moving-to-a-new-house", "childhood-home", "house-in-the-middle-of-nowhere", "empty-house", "haunted-house", "house-collapsing", "house-burning", "house-on-fire", "mud-house", "flooded-house", "unfinished-building", "discovering-new-rooms-in-a-house", "secret-room", "basement", "being-in-a-small-crowded-room", "many-doors", "climbing-stairs", "going-down-stairs", "room-closing-in-on-you", "house-break-in-while-sleeping", "being-lost-in-a-building", "being-lost-in-your-own-house"],
+    emotionalPatterns: ["Belonging and memory", "Privacy and exposure", "Instability and repair", "Discovery and curiosity", "Restricted movement"],
+    reflectionQuestions: [
+      "Was the space familiar, owned, inherited, current, childhood, or unknown?",
+      "What condition was it in, and what could the structure safely hold?",
+      "Which room, door, floor, or boundary drew your attention?",
+      "Who was present or absent, and did you feel protected, watched, intruded upon, or alone?",
+      "Were you entering, leaving, searching, repairing, hiding, or trying to find a route?",
+    ],
+    frameworkNote: "Some psychological and cultural traditions use houses as images of identity, memory, family, or inner life. That can be a useful lens when the dream supports it, but it is not a universal definition or diagnosis. Recent moves, buildings, family conversations, safety concerns, and ordinary spatial memory can shape a house dream directly.",
+    compassPrompt: "Dream Compass can narrow a house dream through familiarity, condition, ownership, room, access, people present, movement, and the emotional response to the space.",
+    relatedPathways: [
+      { title: "Feeling trapped or restricted", href: "/emotions/feeling-trapped", description: "Use this when blocked exits, narrowing walls, or limited choices mattered more than the house's identity." },
+      { title: "Nostalgia and memory", href: "/emotions/nostalgia", description: "Follow this pathway when a childhood or old home brought a particular emotional period back into focus." },
+      { title: "Loss of control dreams", href: "/guides/loss-of-control-dreams", description: "Explore the broader pattern when collapse, flooding, fire, or blocked movement created the central pressure." },
+      { title: "Dream symbols in context", href: "/guides/how-to-interpret-dream-symbols", description: "Use this method when personal history and the whole setting matter more than a fixed house association." },
+    ],
+  },
+  falling_dreams: {
+    title: "Falling dreams",
+    description: "Understand falling dreams through agency, the setting, the turning point, the landing, and the emotion that stayed with you.",
+    guide: "/guides/falling-dreams",
+    editorialAnchor: "This hub helps readers distinguish the relationship to agency and recovery in a fall instead of assigning every descent the same meaning.",
+    intro: "A falling dream can begin with a missed step, an intentional jump, a push, a disappearing floor, or a loss of power after flying. Those are not interchangeable experiences. Start with what caused the descent, what you were trying to do, whether anyone else was involved, and what happened at the end. Falling dreams can reflect instability or surrender, but they do not predict an accident, injury, or failure.",
+    principles: [
+      { title: "Agency changes the question", body: "An accidental fall, a deliberate jump, being pushed, and trying to stop yourself describe different relationships to choice, trust, and pressure." },
+      { title: "The setting supplies the stakes", body: "A stair, building, cliff, road, bed, water, or unknown space can connect the fall to a different kind of responsibility, boundary, or vulnerability." },
+      { title: "The turning point matters", body: "Notice what gave way: footing, a support, the ability to fly, a route, or your confidence. The change often carries more meaning than the height." },
+      { title: "The ending is evidence", body: "Waking before impact, surviving, being caught, landing safely, or continuing to fall leaves different emotional questions." },
+      { title: "Physical sensations belong in the reading", body: "A sleep-onset startle, muscle movement, recent height, media, or an actual fear of falling can supply the image without making it prophetic." },
+    ],
+    groups: [
+      { title: "The fall itself", description: "Use this when the central experience is sudden loss of steadiness, helpless descent, or the feeling that the ground has disappeared.", dreams: ["falling"] },
+      { title: "What you chose—or what was done to you", description: "Agency, outside pressure, and the decision to leave a safe route matter more than the shared word falling.", dreams: ["jumping-off-a-bridge", "flying-then-falling"] },
+      { title: "How the fall ends", description: "This page focuses on survival, resolution, and the response after a descent rather than treating impact as a prediction.", dreams: ["reaching-the-end-after-an-endless-fall"] },
+      { title: "Falling into another environment", description: "When water, darkness, or a different sensory world receives you, the new setting can change the interpretation.", dreams: ["falling-or-swimming-in-dirty-water", "floating-in-a-dark-void"] },
+    ],
+    dreams: ["falling", "jumping-off-a-bridge", "flying-then-falling", "reaching-the-end-after-an-endless-fall", "falling-or-swimming-in-dirty-water", "floating-in-a-dark-void"],
+    emotionalPatterns: ["Loss of steadiness", "Surrender and agency", "Exposure and judgment", "Suspense and uncertainty", "Recovery and relief"],
+    reflectionQuestions: [
+      "What happened immediately before the fall, and were you choosing, resisting, or simply surprised?",
+      "Where did the fall occur, and what does that setting make possible or unsafe?",
+      "Did the descent feel frightening, exciting, embarrassing, calm, or physically familiar?",
+      "What stopped the fall—or what did you discover after it ended?",
+      "Could a recent height, startle while falling asleep, physical sensation, or media image have supplied the scene?",
+    ],
+    frameworkNote: "Psychological readings may connect falling with instability, pressure, confidence, or uncertainty. Cultural and spiritual traditions may discuss surrender, grounding, humility, or change. These are interpretive frameworks, not proof of an accident, punishment, divine warning, diagnosis, or future event.",
+    compassPrompt: "Dream Compass can narrow a falling dream through the cause of the descent, the setting, your agency, the emotion, and what happened after the fall.",
+    relatedPathways: [
+      { title: "Loss of control dreams", href: "/guides/loss-of-control-dreams", description: "Use this broader pathway when the falling image is one expression of helplessness, instability, or restricted choice." },
+      { title: "Water dreams", href: "/guides/water-dreams", description: "Follow this route when landing in, moving through, or being surrounded by water became the main experience." },
+      { title: "Fear and uncertainty", href: "/emotions/fear", description: "Explore the emotional pathway when the body's alarm and anticipation mattered more than the setting." },
+    ],
+  },
+  pregnancy_dreams: {
+    title: "Pregnancy dreams",
+    description: "Understand pregnancy dreams through who was pregnant, whether the pregnancy was wanted, how it progressed, and what the dream left you feeling.",
+    guide: "/guides/pregnancy-dreams",
+    editorialAnchor: "This hub helps readers distinguish carrying, expecting, losing, and delivering from the broader idea of new beginnings, while keeping pregnancy symbolism separate from medical evidence.",
+    intro: "A pregnancy dream can be about wanting a child, fearing a responsibility, carrying a creative or relational possibility, remembering a past experience, or simply processing a recent conversation. Being pregnant, giving birth, losing a pregnancy, and finding a baby are different experiences. Start with who was pregnant, what you wanted or feared, how the pregnancy changed, and what happened afterward. A dream cannot prove pregnancy, fertility, twins, miscarriage, or a baby's future.",
+    principles: [
+      { title: "Who is pregnant matters", body: "Being pregnant yourself, seeing someone else pregnant, and encountering a baby place the dreamer in different relationships to responsibility, attachment, and choice." },
+      { title: "Wanted and unwanted are not the same", body: "Joy, ambivalence, fear, grief, relief, and pressure can each change what the pregnancy is doing in the dream." },
+      { title: "Progress and outcome matter", body: "Carrying, testing, giving birth, losing, or never reaching birth each creates a different question about anticipation, arrival, uncertainty, and loss." },
+      { title: "New beginnings are one lens, not a rule", body: "A project or identity may be developing, but fertility concerns, memories, bodily sensations, family roles, and recent media can be more direct explanations." },
+      { title: "Dreams are not reproductive evidence", body: "Pregnancy imagery cannot diagnose, predict, or guarantee conception, miscarriage, twins, sex, fertility, or childbirth. Seek medical information from qualified professionals." },
+    ],
+    groups: [
+      { title: "Carrying a possibility", description: "Use these when the central experience is being pregnant and what that role feels like to inhabit.", dreams: ["pregnant", "pregnant-with-twins"] },
+      { title: "Arrival and delivery", description: "These pages focus on the pressure, timing, and aftermath of something becoming real rather than simply developing.", dreams: ["giving-birth"] },
+      { title: "Loss, fear, and what cannot continue", description: "Use these when the dream centers an ending, disappearance, or fear attached to pregnancy or a hoped-for future.", dreams: ["having-a-miscarriage", "losing-a-baby"] },
+      { title: "Baby encounters and care", description: "These adjacent pages concern meeting, holding, feeding, or finding a baby; they are not automatically pregnancy predictions.", dreams: ["finding-a-baby", "holding-a-baby", "breastfeeding-a-baby"] },
+    ],
+    dreams: ["pregnant", "pregnant-with-twins", "giving-birth", "having-a-miscarriage", "losing-a-baby", "finding-a-baby", "holding-a-baby", "breastfeeding-a-baby"],
+    emotionalPatterns: ["Hope and anticipation", "Responsibility and capacity", "Ambivalence and pressure", "Loss and grief", "Care and attachment"],
+    reflectionQuestions: [
+      "Who was pregnant, and what did that role mean to you in the dream?",
+      "Did the pregnancy feel wanted, unexpected, burdensome, joyful, or uncertain?",
+      "What stage or outcome stood out—testing, carrying, giving birth, losing, or caring afterward?",
+      "Could family planning, fertility concerns, memories, bodily sensations, or recent conversation have supplied the imagery?",
+      "What possibility or responsibility currently feels as though it is developing, arriving, or asking for care?",
+    ],
+    frameworkNote: "Traditional symbolism may connect pregnancy with creation, potential, fertility, or renewal. Those associations can support personal reflection, but a dream is not medical evidence or a prediction. Emotional processing, memory, bodily sensation, and current reproductive concerns deserve equal consideration.",
+    compassPrompt: "Dream Compass can narrow a pregnancy dream through who was pregnant, your response, the stage or outcome, the relationship involved, and what remained afterward.",
+    relatedPathways: [
+      { title: "Family and changing roles", href: "/guides/relationship-dreams", description: "Use this when the dream centers family expectations, partnership, care, or changing relationship roles more than pregnancy itself." },
+      { title: "Grief and loss", href: "/emotions/grief", description: "Follow this pathway when miscarriage, losing a baby, or an absent future left grief as the strongest experience." },
+      { title: "Dream symbols in context", href: "/guides/how-to-interpret-dream-symbols", description: "Use this method when personal history and the whole dream matter more than a fixed new-beginnings definition." },
+    ],
+  },
+  spiritual_dreams: {
+    title: "Spiritual dreams",
+    description: "Explore spiritual and biblical dream experiences through tradition, personal symbolism, emotional clarity, and careful discernment.",
+    guide: "/guides/spiritual-dreams-meaning",
+    editorialAnchor: "This hub separates what a spiritual or biblical tradition associates with an image from what the dream may mean personally and what the experience cannot prove.",
+    intro: "A dream can feel spiritual because of a sacred figure, a prayer, unusual clarity, a sense of presence, or the emotional weight that remains after waking. That feeling deserves respect without turning every religious image into a supernatural message. Begin by separating the tradition you are drawing from, the personal experience inside the dream, and the ordinary explanations that may also fit.",
+    principles: [
+      { title: "Name the framework", body: "Biblical text, Christian tradition, another faith, cultural belief, personal symbolism, and psychological interpretation do not make the same claims." },
+      { title: "Presence is not proof", body: "A vivid God, Jesus, angel, demon, or message dream may feel certain, but the dream alone cannot establish divine communication, spiritual warfare, or prophecy." },
+      { title: "Emotion and action matter", body: "Peace, fear, awe, guilt, prayer, resistance, conversation, and what changed afterward help distinguish the dreamer's experience from a dictionary symbol." },
+      { title: "Ordinary processing remains possible", body: "Memory, grief, recent worship, media, stress, sleep-boundary sensations, and long-held questions can produce spiritually meaningful imagery without making it meaningless." },
+      { title: "Discernment protects agency", body: "A possible interpretation should not become a command, diagnosis, accusation, or reason to take dangerous action. Ground meaning in reflection, values, and trusted support." },
+    ],
+    groups: [
+      { title: "Sacred figures and presence", description: "Use these when a divine or angelic figure, presence, or conversation carried the emotional center.", dreams: ["seeing-god", "seeing-jesus", "speaking-to-jesus", "speaking-to-god", "angels"] },
+      { title: "Prayer, worship, and sacred places", description: "These experiences focus on practice, belonging, guidance, and the setting—not automatic proof of a message.", dreams: ["praying", "church", "going-to-heaven", "cross"] },
+      { title: "Conflict and spiritual threat", description: "Fear, resistance, and protection matter here; spiritual language remains a tradition or possibility, not a verified event.", dreams: ["fighting-a-demon", "demonic-attack", "casting-out-demons", "fighting-an-angel"] },
+      { title: "Signs and meaning-making", description: "Numbers and symbolic signs can feel significant while still requiring personal context and uncertainty.", dreams: ["angel-numbers"] },
+    ],
+    dreams: ["seeing-god", "seeing-jesus", "speaking-to-jesus", "speaking-to-god", "angels", "praying", "church", "going-to-heaven", "cross", "fighting-a-demon", "demonic-attack", "casting-out-demons", "fighting-an-angel", "angel-numbers"],
+    emotionalPatterns: ["Awe and recognition", "Peace and reassurance", "Fear and discernment", "Guilt and accountability", "Longing and connection"],
+    reflectionQuestions: [
+      "Which tradition or personal belief gives the dream its spiritual context?",
+      "What did the figure, presence, prayer, or sign actually do, and how did you respond?",
+      "What feeling remained after waking—peace, fear, awe, guilt, clarity, or uncertainty?",
+      "Could recent worship, scripture, media, grief, stress, or a sleep-boundary sensation have shaped the imagery?",
+      "What meaning can you hold as a possibility without treating the dream as proof or instruction?",
+    ],
+    frameworkNote: "Biblical and religious traditions may describe dreams as guidance, warning, comfort, or ordinary human experience. Personal symbolism and psychological processing offer other lenses. Respecting faith does not require claiming that a dream proves God, demons, prophecy, another person's intentions, or future events.",
+    compassPrompt: "Dream Compass can narrow a spiritual dream through the figure or practice, your tradition, the emotional atmosphere, what happened, and what remained clear after waking.",
+    relatedPathways: [
+      { title: "Spiritual dreams: tradition and discernment", href: "/guides/spiritual-dreams-meaning", description: "Read the existing long-form guide for a slower comparison of spiritual, biblical, symbolic, and ordinary explanations." },
+      { title: "Dreams about emotions", href: "/guides/how-dream-emotions-change-meaning", description: "Use this when the emotional atmosphere carries more information than the sacred image itself." },
+      { title: "Dreams and ordinary processing", href: "/guides/psychology", description: "Explore memory, stress, sleep, and subconscious explanations without dismissing the dream's personal significance." },
+    ],
+  },
+  recurring_dreams: {
+    title: "Recurring dreams",
+    description: "Understand recurring dreams by comparing what stays the same, what changes, how your emotions shift, and how each version ends.",
+    guide: "/guides/recurring-dreams",
+    editorialAnchor: "This hub treats recurrence as a sequence to compare rather than a fixed message: the pattern, the changes between versions, and the dreamer’s changing agency all matter.",
+    intro: "A recurring dream is not only a symbol that appears more than once. It is a series. The same setting, person, threat, or ending may return while your response, emotions, access, or sense of agency changes. Compare the versions before deciding what the dream may be doing in your life. Repetition does not automatically mean prophecy, trauma, supernatural communication, or a diagnosis.",
+    principles: [
+      { title: "Record the pattern", body: "Write down the setting, people, sequence, sensory details, and ending before memory smooths the differences away." },
+      { title: "Separate constants from changes", body: "What never changes may identify the emotional structure; a new door, helper, escape route, or ending may show a changing relationship to it." },
+      { title: "Track emotional movement", body: "Fear becoming curiosity, panic becoming calm, or grief becoming acceptance can be more informative than the repeated image itself." },
+      { title: "Notice agency and outcome", body: "Being trapped in every version is different from finding a route, confronting the pursuer, changing the setting, or waking with a new response." },
+      { title: "Keep ordinary explanations available", body: "Stress, memory, recent experiences, bodily sensations, repeated media, and sleep patterns can all contribute to a recurring dream." },
+    ],
+    groups: [
+      { title: "The repeating experience", description: "Start with the existing interpretation when the full dream cycle keeps returning and the repetition itself is the concern.", dreams: ["repeating-the-same-dream"] },
+    ],
+    dreams: ["repeating-the-same-dream"],
+    emotionalPatterns: ["Familiarity and recognition", "Frustration and suspension", "Escalation and urgency", "Growing agency", "Quieting and acceptance"],
+    reflectionQuestions: [
+      "Which setting, person, action, or ending has stayed the same across versions?",
+      "What is different in the most recent dream—your emotion, behavior, route, helper, or outcome?",
+      "When did the pattern begin, and what was happening around that time?",
+      "Are you gaining agency, losing it, or responding differently even when the scene repeats?",
+      "Could stress, memory, bodily sensation, recent media, or a sleep pattern be helping the dream return?",
+    ],
+    frameworkNote: "Recurring dreams can be explored through emotional processing, memory, personal symbolism, cultural or spiritual belief, and ordinary sleep mechanisms. Repetition alone does not prove an unresolved trauma, a supernatural message, or a prediction. If recurrence is seriously disrupting sleep or daily life, waking support is more useful than decoding the dream as a command.",
+    compassPrompt: "Dream Compass is especially useful for recurring dreams because you can compare the recurring scene, your response, the emotion, and the ending across versions.",
+    relatedPathways: [
+      { title: "The existing recurring-dream guide", href: "/guides/recurring-dreams", description: "Read the longer guide for why repetition happens and how to reflect without treating it as prophecy." },
+      { title: "Dreams and emotional change", href: "/guides/how-dream-emotions-change-meaning", description: "Use this when the important difference between versions is how the feeling shifts." },
+      { title: "Dream Compass", href: "/dream-compass", description: "Compare the details and emotional responses of a particular recurring dream rather than relying on a generic symbol definition." },
+    ],
   },
 };

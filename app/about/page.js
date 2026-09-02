@@ -8,7 +8,7 @@ export const metadata = {
     "About DreamScriptures | Dream Meanings, Symbolism & Interpretation",
 
   description:
-    "Learn about DreamScriptures, our mission, editorial philosophy, dream interpretation methodology, and the research behind our growing dream knowledge hub.",
+    "Learn about DreamScriptures, its independent editorial approach, interpretation methodology, sources, and limits.",
 
   alternates: {
     canonical: "https://www.dreamscriptures.com/about",
@@ -428,18 +428,17 @@ export default function AboutPage() {
 
             <p className="text-lg leading-9 text-[#5F574E]">
 
-              Our mission is to build one of the world&apos;s most trusted,
-              helpful, and thoughtfully researched dream education
-              platforms.
+              Our mission is to build a helpful, transparent, and thoughtful
+              dream education resource that readers can use with discernment.
 
             </p>
 
             <p className="mt-7 text-lg leading-9 text-[#5F574E]">
 
-              We aim to combine symbolism, emotional understanding,
-              spiritual reflection, biblical themes, psychology,
-              historical traditions, and modern dream research into one
-              growing knowledge hub that is accessible to everyone.
+              We bring together symbolism, emotional understanding, spiritual
+              reflection, biblical themes, psychology, historical traditions,
+              and sleep research while keeping evidence and interpretation
+              visibly separate.
 
             </p>
 

@@ -201,8 +201,14 @@ export default function Home() {
 
           <div className="mt-7 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm">
             <Link
-              href="/dreams"
+              href="/dream-compass"
               className="inline-flex min-h-11 items-center border-b border-[#9A7B43] text-[#4F4942] transition hover:text-[#8F743C]"
+            >
+              Try the Dream Compass
+            </Link>
+            <Link
+              href="/dreams"
+              className="inline-flex min-h-11 items-center text-[#756C61] transition hover:text-[#8F743C] hover:underline hover:underline-offset-4"
             >
               Explore dream meanings
             </Link>

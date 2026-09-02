@@ -125,8 +125,9 @@ export default function RelatedDreams({ slugs = [], relatedDreams = [] }) {
               {group.dreams.map(({ dream, relationship }) => {
                 const href = getDreamHref(dream);
                 const image = getDreamImage(dream);
+                const connection = relationship.reason || "";
                 const preview = shorten(
-                  relationship.reason || dream.microSummary || dream.summary,
+                  connection || dream.microSummary || dream.summary,
                   190
                 );
 
@@ -153,6 +154,7 @@ export default function RelatedDreams({ slugs = [], relatedDreams = [] }) {
 
                     {preview && (
                       <p className="mt-2 text-sm leading-relaxed text-[#6B6B6B]">
+                        {connection && <span className="font-medium text-[#514A43]">Why it connects: </span>}
                         {preview}
                       </p>
                     )}

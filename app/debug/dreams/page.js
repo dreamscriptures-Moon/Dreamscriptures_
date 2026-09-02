@@ -1,11 +1,11 @@
 import { dreams } from "@/data/dreams";
-import { notFound } from "next/navigation";
+import { requireAdmin } from "@/lib/adminAuth";
 
 export const metadata = { robots: { index: false, follow: false } };
 
 
-export default function DreamAuditPage() {
-  if (process.env.NODE_ENV === "production") notFound();
+export default async function DreamAuditPage() {
+  await requireAdmin();
 
   const audit = dreams
 

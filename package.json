@@ -8,11 +8,12 @@
     "start": "next start",
     "lint": "eslint",
     "audit:content": "node scripts/content-quality-audit.mjs",
-    "audit:related": "node scripts/content-quality-audit.mjs --related-json"
+    "audit:related": "node scripts/content-quality-audit.mjs --related-json",
+    "audit:dream-quality": "node scripts/full-library-quality-audit.mjs"
   },
   "dependencies": {
-    "@supabase/ssr": "^0.12.4",
-    "@supabase/supabase-js": "^2.111.0",
+    "@supabase/ssr": "^0.12.5",
+    "@supabase/supabase-js": "^2.112.4",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
     "lucide-react": "^1.28.0",

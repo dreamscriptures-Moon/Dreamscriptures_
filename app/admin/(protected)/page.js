@@ -2,10 +2,15 @@ import Link from "next/link";
 import { getDreamSubmissionStats, listDreamSubmissions } from "@/lib/repositories/dreamSubmissions";
 
 export default async function AdminDashboard() {
-  const [stats, recent] = await Promise.all([
-    getDreamSubmissionStats(),
-    listDreamSubmissions({ pageSize: 5, sort: "priority", direction: "desc" }),
-  ]);
+  let stats = { pending: 0, reviewed: 0, published: 0, rejected: 0, premium: 0, community: 0, today: 0, week: 0, total: 0 };
+  let recent = { submissions: [] };
+  let dataError = false;
+  try {
+    [stats, recent] = await Promise.all([getDreamSubmissionStats(), listDreamSubmissions({ pageSize: 5, sort: "priority", direction: "desc" })]);
+  } catch (error) {
+    dataError = true;
+    console.error("Admin dashboard data unavailable:", error);
+  }
   const cards = [
     ["Pending", stats.pending], ["Reviewed", stats.reviewed], ["Published", stats.published],
     ["Rejected", stats.rejected], ["Premium", stats.premium], ["Community", stats.community],
@@ -17,6 +22,7 @@ export default async function AdminDashboard() {
         <div><p className="text-sm font-medium text-amber-700">Overview</p><h1 className="mt-1 text-3xl font-semibold">Dream submissions</h1></div>
         <Link href="/admin/submissions" className="rounded-lg bg-slate-900 px-4 py-2 text-sm font-medium text-white">View all</Link>
       </div>
+      {dataError && <div role="alert" className="mt-5 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">Submission data is temporarily unavailable. Check the server connection and try again.</div>}
       <section className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {cards.map(([label, value]) => <div key={label} className="rounded-xl border border-slate-200 bg-white p-5"><p className="text-sm text-slate-500">{label}</p><p className="mt-2 text-3xl font-semibold">{value}</p></div>)}
       </section>

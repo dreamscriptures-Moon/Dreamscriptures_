@@ -1,10 +1,11 @@
 import { dreams } from "@/data/dreams";
-import { notFound } from "next/navigation";
+import { requireAdmin } from "@/lib/adminAuth";
 
 export const metadata = { robots: { index: false, follow: false } };
+export const dynamic = "force-dynamic";
 
-export default function DreamListPage() {
-  if (process.env.NODE_ENV === "production") notFound();
+export default async function DreamListPage() {
+  await requireAdmin();
   const sortedDreams = [...dreams].sort((a, b) =>
     a.title.localeCompare(b.title)
   );

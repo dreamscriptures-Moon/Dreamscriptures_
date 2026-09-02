@@ -8,7 +8,7 @@ import {
   requireAdmin,
   verifyAdminPassword,
 } from "@/lib/adminAuth";
-import { sendCommunityInterpretationEmail } from "@/lib/interpretationEmails";
+import { sendAdminReplyEmail, sendCommunityInterpretationEmail } from "@/lib/interpretationEmails";
 import { getDreamSubmission, updateDreamSubmission } from "@/lib/repositories/dreamSubmissions";
 
 export async function loginAdmin(_state, formData) {
@@ -35,13 +35,14 @@ export async function saveDreamSubmission(formData) {
   const status = String(formData.get("status") || "");
   const notes = String(formData.get("notes") || "").trim().slice(0, 10000);
   const interpretationUrl = String(formData.get("interpretationUrl") || "").trim().slice(0, 2048);
+  const adminResponse = String(formData.get("adminResponse") || "").trim().slice(0, 30000);
   const paymentStatus = String(formData.get("paymentStatus") || "");
 
   if (interpretationUrl && !/^https?:\/\//i.test(interpretationUrl)) {
     redirect(`/admin/submissions/${encodeURIComponent(id)}?error=invalid-url`);
   }
 
-  await updateDreamSubmission(id, { status, notes, interpretationUrl, paymentStatus });
+  await updateDreamSubmission(id, { status, notes, interpretationUrl, paymentStatus, adminResponse });
   revalidatePath("/admin");
   revalidatePath("/admin/submissions");
   revalidatePath(`/admin/submissions/${id}`);
@@ -57,6 +58,41 @@ export async function setDreamSubmissionStatus(formData) {
   revalidatePath("/admin/submissions");
   revalidatePath(`/admin/submissions/${id}`);
   redirect(`/admin/submissions/${encodeURIComponent(id)}?saved=1`);
+}
+
+export async function sendDreamSubmissionReply(formData) {
+  await requireAdmin();
+  const id = String(formData.get("id") || "");
+  const adminResponse = String(formData.get("adminResponse") || "").trim().slice(0, 30000);
+
+  if (!adminResponse) {
+    redirect(`/admin/submissions/${encodeURIComponent(id)}?error=missing-response`);
+  }
+
+  let submission = await getDreamSubmission(id);
+  if (!submission) redirect("/admin/submissions");
+  if (submission.reply_sent_at) {
+    redirect(`/admin/submissions/${encodeURIComponent(id)}?error=reply-already-sent`);
+  }
+
+  submission = await updateDreamSubmission(id, { adminResponse });
+
+  try {
+    const email = await sendAdminReplyEmail(submission);
+    await updateDreamSubmission(id, {
+      replySentAt: new Date().toISOString(),
+      replyEmailId: email?.id || null,
+    });
+  } catch (error) {
+    console.error("Admin reply delivery failed:", error);
+    revalidatePath(`/admin/submissions/${id}`);
+    redirect(`/admin/submissions/${encodeURIComponent(id)}?error=reply-failed`);
+  }
+
+  revalidatePath("/admin");
+  revalidatePath("/admin/submissions");
+  revalidatePath(`/admin/submissions/${id}`);
+  redirect(`/admin/submissions/${encodeURIComponent(id)}?reply-sent=1`);
 }
 
 export async function publishDreamInterpretation(formData) {

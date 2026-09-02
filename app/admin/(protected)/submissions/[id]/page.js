@@ -4,8 +4,10 @@ import { getDreamSubmission } from "@/lib/repositories/dreamSubmissions";
 import {
   publishDreamInterpretation,
   saveDreamSubmission,
+  sendDreamSubmissionReply,
   setDreamSubmissionStatus,
 } from "../../../actions";
+import SendReplyButton from "./SendReplyButton";
 
 const statuses = ["Pending", "Reviewed", "Published", "Rejected"];
 const paymentStatuses = ["Free", "Pending", "Paid", "Refunded"];
@@ -28,7 +30,17 @@ function StatusAction({ id, status, children, tone = "default" }) {
 export default async function SubmissionDetailPage({ params, searchParams }) {
   const { id } = await params;
   const flags = await searchParams;
-  const submission = await getDreamSubmission(id);
+  let submission;
+  let dataError = false;
+  try {
+    submission = await getDreamSubmission(id);
+  } catch (error) {
+    dataError = true;
+    console.error("Admin submission detail unavailable:", error);
+  }
+  if (dataError) {
+    return <section className="rounded-2xl border border-amber-200 bg-amber-50 p-8"><p className="text-xs font-semibold uppercase tracking-[0.18em] text-amber-800">Submission workspace</p><h1 className="mt-2 text-2xl font-semibold text-slate-950">Submission data is temporarily unavailable</h1><p className="mt-3 max-w-xl text-sm leading-6 text-amber-950">The private submission service could not be reached. No submission content was loaded. Check the server connection and try again.</p><Link href="/admin/submissions" className="mt-6 inline-flex rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-medium text-white">Back to submissions</Link></section>;
+  }
   if (!submission) notFound();
 
   const isPremium = submission.priority === "Premium";
@@ -44,10 +56,14 @@ export default async function SubmissionDetailPage({ params, searchParams }) {
 
       {flags.saved === "1" && <p className="mt-5 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800">Submission updated.</p>}
       {flags.published === "1" && <p className="mt-5 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800">Interpretation published and notification processed.</p>}
+      {flags["reply-sent"] === "1" && <p role="status" className="mt-5 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800">Reply sent successfully to {submission.email}. The response remains saved with this submission.</p>}
       {flags.error === "invalid-url" && <p className="mt-5 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">Interpretation URL must begin with http:// or https://.</p>}
-      {flags.error === "missing-url" && <p className="mt-5 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">Save an interpretation URL before publishing.</p>}
+      {flags.error === "missing-url" && <p role="alert" className="mt-5 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800"><strong className="font-semibold">Publishing needs a destination.</strong> Save the public interpretation URL below before using the publish action. Your private response draft is still safe.</p>}
       {flags.error === "premium-private" && <p className="mt-5 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">Personal interpretations are private and cannot be published publicly.</p>}
       {flags.error === "email-failed" && <p className="mt-5 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">The interpretation was published, but its email could not be sent. Use Publish Interpretation again to retry.</p>}
+      {flags.error === "missing-response" && <p role="alert" className="mt-5 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">Write a response before sending. Nothing was emailed.</p>}
+      {flags.error === "reply-already-sent" && <p role="alert" className="mt-5 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">This reply has already been sent. It was not sent again.</p>}
+      {flags.error === "reply-failed" && <p role="alert" className="mt-5 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">The response was saved, but the email could not be sent. Check the server email configuration and retry.</p>}
 
       <div className="mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
@@ -61,11 +77,13 @@ export default async function SubmissionDetailPage({ params, searchParams }) {
               <div className="grid gap-5 sm:grid-cols-2">
                 <label className="block text-sm font-medium">Status<select name="status" defaultValue={submission.status} className="mt-2 w-full rounded-lg border border-slate-300 px-3 py-2">{statuses.map((status) => <option key={status}>{status}</option>)}</select></label>
                 <label className="block text-sm font-medium">Payment Status<select name="paymentStatus" defaultValue={submission.payment_status} className="mt-2 w-full rounded-lg border border-slate-300 px-3 py-2">{paymentStatuses.map((status) => <option key={status}>{status}</option>)}</select></label>
-                <label className="block text-sm font-medium sm:col-span-2">Internal Notes<textarea name="notes" rows="6" maxLength="10000" defaultValue={submission.notes || ""} className="mt-2 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
+                <label className="block text-sm font-medium sm:col-span-2">Response / interpretation draft<textarea name="adminResponse" rows="10" maxLength="30000" defaultValue={submission.admin_response || ""} placeholder="Write the thoughtful response you want to review or publish." className="mt-2 w-full rounded-lg border border-slate-300 px-3 py-2 leading-7" /><span className="mt-1 block text-xs font-normal text-slate-500">Saved privately with this submission. It is not public until you deliberately publish through the existing workflow.</span></label>
+                <label className="block text-sm font-medium sm:col-span-2">Internal Notes<textarea name="notes" rows="5" maxLength="10000" defaultValue={submission.notes || ""} className="mt-2 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
                 <label className="block text-sm font-medium sm:col-span-2">Interpretation URL<input name="interpretationUrl" type="url" defaultValue={submission.interpretation_url || ""} placeholder="https://…" className="mt-2 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
               </div>
-              <dl className="mt-6 grid gap-5 border-t border-slate-200 pt-5 sm:grid-cols-2"><Field label="Published At">{dateTime(submission.published_at)}</Field><Field label="Email Sent">{dateTime(submission.email_sent_at)}</Field></dl>
-              <button className="mt-6 rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-slate-700">Save Changes</button>
+              <dl className="mt-6 grid gap-5 border-t border-slate-200 pt-5 sm:grid-cols-2"><Field label="Published At">{dateTime(submission.published_at)}</Field><Field label="Publication Email Sent">{dateTime(submission.email_sent_at)}</Field><Field label="Direct Reply Sent">{dateTime(submission.reply_sent_at)}</Field><Field label="Reply Email ID">{submission.reply_email_id || "—"}</Field></dl>
+              <div className="mt-6 flex flex-wrap items-center gap-3"><button className="rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-slate-700">Save Changes</button><SendReplyButton action={sendDreamSubmissionReply} recipient={submission.email} sent={Boolean(submission.reply_sent_at)} /></div>
+              <p className="mt-3 text-xs leading-5 text-slate-500">Send Reply saves this response first, then emails it only to the stored recipient address. You will be asked to confirm the address before sending.</p>
             </Section>
           </form>
         </div>

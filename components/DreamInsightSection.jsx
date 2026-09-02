@@ -1,5 +1,12 @@
 import { getParagraphs } from "@/lib/dreams";
 
+const sectionLabels = {
+  "emotional-meaning": "The feelings beneath the dream",
+  "symbolic-meaning": "The symbol or image",
+  "spiritual-meaning": "A spiritual reflection",
+  "real-life-meaning": "Where this may meet everyday life",
+};
+
 export default function DreamInsightSection({ id, title, body }) {
   const paragraphs = getParagraphs(body);
 
@@ -8,8 +15,13 @@ export default function DreamInsightSection({ id, title, body }) {
   }
 
   return (
-    <section id={id} className="border-t border-[#EAE6E1] pt-6 scroll-mt-28">
-      <h2 className="font-serif text-4xl md:text-5xl mb-4">{title}</h2>
+    <section id={id} className="scroll-mt-28 border-t border-[#EAE6E1] pt-8">
+      {sectionLabels[id] && (
+        <p className="mb-3 text-[10px] uppercase tracking-[0.18em] text-[#8F743C]">
+          {sectionLabels[id]}
+        </p>
+      )}
+      <h2 className="mb-5 font-serif text-3xl leading-tight md:text-4xl">{title}</h2>
 
       <div className="space-y-4">
         {paragraphs.map((paragraph, index) => (

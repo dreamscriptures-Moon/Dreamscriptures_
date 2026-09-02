@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-09-01T21:04:28.579Z",
+  "indexedPages": 370,
+  "tierCounts": {
+    "P0": 0,
+    "P1": 44,
+    "P2": 211,
+    "P3": 99,
+    "P4": 16
+  },
+  "readerTestFailures": 0,
+  "genericDictionaryCounts": {
+    "Clearly no": 55,
+    "Partially": 282,
+    "Mostly yes": 33
+  },
+  "collisionCount": 84,
+  "weakestCategories": [
+    {
+      "category": "Water",
+      "pages": 17,
+      "averageScore": 24.53,
+      "p0": 0,
+      "p1": 5,
+      "p4": 0,
+      "modelSlug": "frozen-lake",
+      "modelReason": "Strongest evidence combines: A frozen lake beginning to melt Often brings hope, relief, and the feeling that emotional healing is finally beginning after a long period of stillness. / Symbolically, a frozen lake represents emotions placed on pause rather than emotions that have disappeared."
+    },
+    {
+      "category": "Biblical dreams",
+      "pages": 9,
+      "averageScore": 25.11,
+      "p0": 0,
+      "p1": 4,
+      "p4": 0,
+      "modelSlug": "seeing-god",
+      "modelReason": "Strongest evidence combines: Seeing God surrounded by light Often creates overwhelming peace, awe, hope, and emotional clarity. / Seeing God from afar symbolizes spiritual seeking, personal growth, and recognizing that some journeys unfold gradually rather than all at once."
+    },
+    {
+      "category": "Body-related dreams",
+      "pages": 10,
+      "averageScore": 25.3,
+      "p0": 0,
+      "p1": 3,
+      "p4": 0,
+      "modelSlug": "peeing-the-bed",
+      "modelReason": "Strongest evidence combines: Emotionally, peeing the bed can reflect vulnerability, embarrassment, or anxiety about losing control in a place where you expected to feel safe. / peeing the bed in front of others May reflect fears of humiliation, exposure, criticism, or losing control in a public setting."
+    },
+    {
+      "category": "Houses and places",
+      "pages": 34,
+      "averageScore": 25.76,
+      "p0": 0,
+      "p1": 6,
+      "p4": 1,
+      "modelSlug": "court-room",
+      "modelReason": "Strongest evidence combines: If you stood before the court feeling calm because you knew your position was sound, the dream may reflect growing confidence in your ability to defend your choices or face consequences honestly. / If you are currently waiting for an important outcome, the courtroom may symbolize the discomfort of having to wait for a decision you cannot completely control."
+    },
+    {
+      "category": "Spiritual dreams",
+      "pages": 34,
+      "averageScore": 25.76,
+      "p0": 0,
+      "p1": 2,
+      "p4": 0,
+      "modelSlug": "casting-out-demons",
+      "modelReason": "Strongest evidence combines: Why you are often calm instead of afraid Unlike dreams where you are fleeing from danger, dreams about casting out demons often place you in a position of confidence. / Casting demons out of yourself Often reflects emotional healing, freedom from guilt, breaking unhealthy patterns, or overcoming fears that once controlled you."
+    }
+  ],
+  "strongestCategories": [
+    {
+      "category": "Food",
+      "pages": 2,
+      "averageScore": 32,
+      "p0": 0,
+      "p1": 0,
+      "p4": 0,
+      "modelSlug": "bread",
+      "modelReason": "Strongest evidence combines: If the experience felt peaceful, the dream may reflect comfort, security, or relief rather than deprivation. / The bread may represent care, assistance, generosity, or an exchange of support, but the emotional reaction determines whether receiving felt welcome or uncomfortable."
+    },
+    {
+      "category": "Natural disasters",
+      "pages": 7,
+      "averageScore": 29.14,
+      "p0": 0,
+      "p1": 0,
+      "p4": 2,
+      "modelSlug": "earthquake",
+      "modelReason": "Strongest evidence combines: If the earthquake felt powerful but strangely fascinating rather than frightening, it may correspond with a major change that feels disruptive while also opening the possibility of something new. / **Returning after the earthquake** can suggest a desire to understand what happened, assess the damage, or begin rebuilding rather than simply escaping the situation."
+    },
+    {
+      "category": "Animals and creatures",
+      "pages": 37,
+      "averageScore": 27.68,
+      "p0": 0,
+      "p1": 2,
+      "p4": 4,
+      "modelSlug": "spider",
+      "modelReason": "Strongest evidence combines: If you felt calm while watching the spider, the dream may reflect patience, observation, or an ability to tolerate uncertainty. / If you have been carefully building something over time, the spider's web can also reflect persistence and deliberate effort rather than danger."
+    },
+    {
+      "category": "Travel and transportation",
+      "pages": 15,
+      "averageScore": 27,
+      "p0": 0,
+      "p1": 0,
+      "p4": 0,
+      "modelSlug": "boarding-the-wrong-bus",
+      "modelReason": "Strongest evidence combines: What psychologists might see in this dream From a psychological perspective, boarding the wrong bus often symbolizes decision anxiety, identity development, fear of making irreversible choices, social conformity, or recognizing that your current life path no longer reflects your authentic goals. / Ultimately, boarding the wrong bus symbolizes self-discovery, course correction, personal responsibility, life direction, and recognizing that changing your path is often an act of wisdom rather than failure."
+    },
+    {
+      "category": "Family",
+      "pages": 18,
+      "averageScore": 26.89,
+      "p0": 0,
+      "p1": 1,
+      "p4": 1,
+      "modelSlug": "family",
+      "modelReason": "Strongest evidence combines: Leaving the family gathering can distinguish a need for healthy independence from fear of rejection, depending on whether you felt relieved or distressed. / If the dream produced relief rather than sadness, separation from family may symbolize growing independence rather than rejection."
+    }
+  ],
+  "caveat": "Scores are evidence-backed editorial triage. Final approval still requires a human reviewer to confirm the quoted evidence and complete the 2 a.m. reader test."
+}

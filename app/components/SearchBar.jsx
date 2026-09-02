@@ -151,13 +151,14 @@ export default function SearchBar() {
     const timeout = window.setTimeout(() => {
       if (typeof window !== "undefined" && window.gtag) {
         window.gtag("event", "search", {
-          search_term: debouncedQuery,
+          result_count: results.length,
+          result_bucket: results.length === 0 ? "none" : results.length < 4 ? "few" : "many",
         });
       }
     }, 400);
 
     return () => window.clearTimeout(timeout);
-  }, [debouncedQuery, normalizedQuery.length]);
+  }, [debouncedQuery, normalizedQuery.length, results.length]);
 
   return (
     <form
