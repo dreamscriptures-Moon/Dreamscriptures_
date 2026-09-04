@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Search, BookOpen, MoonStar, Sparkles, Brain, BookMarked, ArrowRight } from "lucide-react";
+import EditorialAdUnit from "@/components/EditorialAdUnit";
 
 export const metadata = {
   title: "Dream Interpretation FAQ | DreamScriptures",
@@ -920,6 +921,9 @@ export default function FAQPage() {
 
       </section>
 
+      <div className="mx-auto w-full max-w-6xl min-w-0 overflow-hidden px-6">
+        <EditorialAdUnit />
+      </div>
     </main>
   );
 }

@@ -4,8 +4,9 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { getDreamHref } from "@/lib/routes";
 
-const INITIAL_COUNT = 15;
-const LOAD_MORE_COUNT = 15;
+const alphabet = Array.from({ length: 26 }, (_, index) =>
+  String.fromCharCode(65 + index)
+);
 
 function useDebouncedValue(value, delay = 300) {
   const [debouncedValue, setDebouncedValue] = useState(value);
@@ -26,7 +27,6 @@ export default function DreamDictionaryControls({
   categories = [],
 }) {
   const [search, setSearch] = useState("");
-  const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
   const [activeCategory, setActiveCategory] = useState(null);
 
   const debouncedSearch = useDebouncedValue(search, 300);
@@ -48,16 +48,23 @@ export default function DreamDictionaryControls({
     });
   }, [activeCategory, dreams, query]);
 
-  const visibleDreams = useMemo(
-    () => filteredDreams.slice(0, visibleCount),
-    [filteredDreams, visibleCount]
+  const dreamGroups = useMemo(
+    () =>
+      alphabet
+        .map((letter) => ({
+          letter,
+          dreams: filteredDreams.filter(
+            (dream) => dream.title.trim().charAt(0).toUpperCase() === letter
+          ),
+        }))
+        .filter((group) => group.dreams.length > 0),
+    [filteredDreams]
   );
 
-  const resetVisibleCount = () => {
-    window.setTimeout(() => {
-      setVisibleCount(INITIAL_COUNT);
-    }, 0);
-  };
+  const availableLetters = useMemo(
+    () => new Set(dreamGroups.map((group) => group.letter)),
+    [dreamGroups]
+  );
 
   return (
     <>
@@ -69,14 +76,35 @@ export default function DreamDictionaryControls({
             type="text"
             placeholder="Search dreams like falling, snakes, teeth, pregnancy..."
             value={search}
-            onChange={(e) => {
-              setSearch(e.target.value);
-              resetVisibleCount();
-            }}
+            onChange={(e) => setSearch(e.target.value)}
             className="w-full bg-transparent outline-none text-lg placeholder:text-[#A89F91]"
           />
         </div>
       </div>
+
+      <nav aria-label="Browse dreams by first letter" className="mb-10 border-y border-[#E3DDD4] py-4">
+        <div className="flex flex-wrap justify-center gap-x-1 gap-y-2 sm:gap-x-1.5">
+          {alphabet.map((letter) =>
+            availableLetters.has(letter) ? (
+              <a
+                key={letter}
+                href={`#dreams-${letter.toLowerCase()}`}
+                className="flex h-10 min-w-9 items-center justify-center rounded-full px-2 font-serif text-sm text-[#5F574E] transition hover:bg-white hover:text-[#8F743C] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]"
+              >
+                {letter}
+              </a>
+            ) : (
+              <span
+                key={letter}
+                aria-disabled="true"
+                className="flex h-10 min-w-9 cursor-not-allowed items-center justify-center px-2 font-serif text-sm text-[#B8B0A6]"
+              >
+                {letter}
+              </span>
+            )
+          )}
+        </div>
+      </nav>
 
       {/* Categories */}
 
@@ -112,7 +140,6 @@ export default function DreamDictionaryControls({
               type="button"
               onClick={() => {
                 setActiveCategory(null);
-                resetVisibleCount();
               }}
               className={`px-4 py-2 rounded-full text-sm border transition ${
                 !activeCategory
@@ -129,7 +156,6 @@ export default function DreamDictionaryControls({
                 type="button"
                 onClick={() => {
                   setActiveCategory(cat.slug);
-                  resetVisibleCount();
                 }}
                 className={`px-4 py-2 rounded-full text-sm border capitalize transition ${
                   activeCategory === cat.slug
@@ -155,9 +181,24 @@ export default function DreamDictionaryControls({
 
       {/* Results */}
 
-      <div className="space-y-8 md:space-y-10">
-
-        {visibleDreams.map((dream) => (
+      <div className="space-y-12 md:space-y-16">
+        {dreamGroups.map((group) => (
+          <section
+            key={group.letter}
+            id={`dreams-${group.letter.toLowerCase()}`}
+            aria-labelledby={`dreams-${group.letter.toLowerCase()}-heading`}
+            className="scroll-mt-24"
+          >
+            <div className="mb-6 flex items-center gap-4 border-b border-[#DED7CD] pb-3">
+              <h2 id={`dreams-${group.letter.toLowerCase()}-heading`} className="font-serif text-3xl text-[#29251F]">
+                {group.letter}
+              </h2>
+              <span className="text-xs text-[#8A8175]">
+                {group.dreams.length} dream {group.dreams.length === 1 ? "meaning" : "meanings"}
+              </span>
+            </div>
+            <div className="space-y-8 md:space-y-10">
+              {group.dreams.map((dream) => (
           <Link
             key={dream.slug}
             href={getDreamHref(dream)}
@@ -188,8 +229,10 @@ export default function DreamDictionaryControls({
               </div>
             )}
           </Link>
+              ))}
+            </div>
+          </section>
         ))}
-
       </div>
 
       {/* Empty State */}
@@ -220,21 +263,6 @@ export default function DreamDictionaryControls({
         </div>
       )}
 
-      {/* Load More */}
-
-      {visibleCount < filteredDreams.length && (
-        <div className="text-center mt-12">
-          <button
-            type="button"
-            onClick={() =>
-              setVisibleCount((prev) => prev + LOAD_MORE_COUNT)
-            }
-            className="px-6 py-3 border border-[#EAE6E1] rounded-xl hover:border-[#C6A96B] transition text-sm"
-          >
-            Load More Dream Meanings
-          </button>
-        </div>
-      )}
     </>
   );
 }

@@ -6,6 +6,7 @@ import QuoteBreakpoint from "@/app/components/QuoteBreakpoint";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import { DreamFeatureCard } from "@/components/DreamCards";
+import DreamCompassIntro from "@/components/DreamCompassIntro";
 import { dreams } from "@/data/dreams";
 import { emotionalHubs } from "@/data/emotionalHubs";
 import { getDreamOfTheDay } from "@/lib/dreamEngagement";
@@ -182,30 +183,29 @@ export default function Home() {
       </div>
 
       <section className="border-b border-[#E2DDD6] bg-[#FAF8F5]">
-        <div className="mx-auto max-w-4xl px-6 py-10 text-center md:py-16">
-          <p className="mb-4 text-[11px] uppercase tracking-[0.22em] text-[#8F743C]">
-            Thoughtful dream interpretation
-          </p>
-          <h1 className="mx-auto max-w-3xl font-serif text-4xl leading-[1.08] tracking-tight md:text-6xl">
-            Understand the dream beneath the symbols
+        <div className="mx-auto max-w-4xl px-6 py-10 text-center md:py-14">
+          <h1 className="mx-auto max-w-2xl font-serif text-3xl leading-tight tracking-tight md:text-4xl">
+            {"You woke up with a dream that won't let go."}
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-[#625C55] md:text-lg md:leading-8">
-            Explore what your dream may mean through emotion, symbolism,
-            spiritual reflection, and the personal context that makes every
-            dream different.
+          <p className="mx-auto mt-4 max-w-xl text-base leading-7 text-[#625C55] md:text-lg">
+            {"Maybe it was strange. Maybe it was beautiful. Maybe it left you with a feeling you can't name."}
+          </p>
+          <p className="mx-auto mt-4 max-w-xl font-serif text-lg italic leading-7 text-[#3A342E] md:text-xl">
+            Here you can find something that helps you make sense of it.
           </p>
 
-          <div className="mx-auto mt-8 max-w-2xl text-left md:mt-10">
+          <div className="mx-auto mt-8 max-w-2xl text-left md:mt-9">
             <HomeSearchWrapper />
           </div>
 
-          <div className="mt-7 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm">
-            <Link
-              href="/dream-compass"
-              className="inline-flex min-h-11 items-center border-b border-[#9A7B43] text-[#4F4942] transition hover:text-[#8F743C]"
-            >
-              Try the Dream Compass
-            </Link>
+          <Link href="/dream-compass" className="mx-auto mt-7 block max-w-xl rounded-2xl border border-[#DED7CD] bg-white/70 px-6 py-5 text-left transition hover:border-[#C6A96B] hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]">
+            <span className="block text-[10px] font-semibold uppercase tracking-[0.2em] text-[#8F743C]">DREAM COMPASS</span>
+            <span className="mt-2 block font-serif text-xl italic text-[#3A342E]">Not sure where to start? Here is a slight nudge</span>
+            <span className="mt-3 block text-sm leading-6 text-[#625B52]">{"We walk you through a series of thoughtful questions—designed to help you recall the details, sit with the feelings, and uncover what's been hiding beneath the surface. You get to choose how you'd like to explore it: through the lens of your emotions, your subconscious patterns, your spiritual beliefs, or all three. No pressure. No wrong answers."}</span>
+            <span className="mt-4 block text-sm font-medium text-[#6F572D]">Let&apos;s begin →</span>
+          </Link>
+
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm">
             <Link
               href="/dreams"
               className="inline-flex min-h-11 items-center text-[#756C61] transition hover:text-[#8F743C] hover:underline hover:underline-offset-4"
@@ -222,29 +222,51 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="border-b border-[#E2DDD6] bg-white/45">
+        <div className="mx-auto max-w-3xl px-6 py-10 md:py-14">
+          <h2 className="font-serif text-2xl leading-tight text-[#29251F] md:text-3xl">
+            Dream interpretation that starts with you.
+          </h2>
+          <div className="mt-5 space-y-4 text-base leading-7 text-[#625C55]">
+            <p>Dreams can be confusing, emotional, vivid, or strangely specific. DreamScriptures helps you explore what your dream may mean through dream symbolism, emotional patterns, psychological themes, personal experiences, and spiritual or biblical perspectives.</p>
+            <p>
+              Browse the{" "}
+              <Link href="/dreams" className="underline underline-offset-4 hover:text-[#8F743C]">
+                dream dictionary
+              </Link>{" "}
+              to explore individual symbols and common dreams, or use{" "}
+              <Link href="/dream-compass" className="underline underline-offset-4 hover:text-[#8F743C]">
+                Dream Compass
+              </Link>{" "}
+              when you want to look at a dream from several different angles.
+            </p>
+            <p>No single dream meaning can tell you exactly what your dream means. Your own life, feelings, experiences, and beliefs matter too.</p>
+          </div>
+        </div>
+      </section>
+
       <section
         aria-label="Why trust DreamScriptures"
         className="mx-auto max-w-6xl px-6 py-10 md:py-12"
       >
         <div className="grid border-y border-[#DED7CD] md:grid-cols-3">
           <div className="py-5 md:pr-7">
-            <p className="font-serif text-lg">Context-first</p>
+            <p className="font-serif text-lg">Context first</p>
             <p className="mt-2 text-sm leading-6 text-[#686159]">
-              Meanings are considered through emotion, symbolism, faith, and
-              real life.
+              Your life matters. We look at the dream alongside your emotions,
+              experiences, beliefs, and the things happening around you.
             </p>
           </div>
           <div className="border-t border-[#DED7CD] py-5 md:border-l md:border-t-0 md:px-7">
             <p className="font-serif text-lg">Reflective, not predictive</p>
             <p className="mt-2 text-sm leading-6 text-[#686159]">
-              We encourage discernment rather than fixed, fearful, or absolute
-              conclusions.
+              {"We don't tell you that a dream "}<em>will</em>{" happen or that one interpretation is the only answer. We help you explore what it might mean."}
             </p>
           </div>
           <div className="border-t border-[#DED7CD] py-5 md:border-l md:border-t-0 md:pl-7">
-            <p className="font-serif text-lg">A transparent approach</p>
+            <p className="font-serif text-lg">Want to look behind the curtain?</p>
             <p className="mt-2 text-sm leading-6 text-[#686159]">
-              Read our{" "}
+              See how we approach dream interpretation in our{" "}
               <Link href="/methodology" className="underline underline-offset-4">
                 methodology
               </Link>{" "}
@@ -254,18 +276,15 @@ export default function Home() {
                 className="underline underline-offset-4"
               >
                 editorial standards
-              </Link>
-              .
+              </Link>.
             </p>
           </div>
         </div>
         <p className="mx-auto mt-7 max-w-3xl text-center font-serif text-base italic leading-7 text-[#514B44] md:text-lg">
-          DreamScriptures explores emotional patterns, symbolism, subconscious
-          themes, spiritual reflection, and biblical perspectives where the
-          dream’s context and relevant source material make them appropriate.
+          {"Sometimes a dream is about what you're feeling. Sometimes it's about something your mind is working through. Sometimes faith gives you another way to look at it. We make room for all of those possibilities."}
         </p>
-        <p className="mt-4 text-center text-sm text-[#686159]">
-          Founded, written, and edited by{" "}
+        <p className="mt-4 text-center text-sm font-semibold text-[#514B44]">
+          DreamScriptures is founded, written, and edited by{" "}
           <Link href="/author" rel="author" className="font-medium underline underline-offset-4">
             Amber Balentine
           </Link>.
@@ -575,6 +594,7 @@ export default function Home() {
       </section>
 
       <SiteFooter />
+      <DreamCompassIntro />
     </main>
   );
 }

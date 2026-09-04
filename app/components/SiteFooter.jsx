@@ -1,13 +1,26 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useConsent } from "@/components/consent/ConsentProvider";
+import EditorialAdUnit from "@/components/EditorialAdUnit";
+import { ADSTERRA_ENABLED } from "@/lib/adConfig";
+import { supportsFooterAdvertising } from "@/lib/publicAdRoutes";
 
 export default function SiteFooter() {
   const { openPreferences } = useConsent();
+  const pathname = usePathname();
+  const showFooterAd =
+    ADSTERRA_ENABLED && supportsFooterAdvertising(pathname);
 
   return (
-    <footer className="mt-24 border-t border-[#EAE6E1] bg-[#FAF8F5]">
+    <>
+      {showFooterAd && (
+        <div className="mx-auto w-full max-w-6xl min-w-0 overflow-hidden px-6">
+          <EditorialAdUnit />
+        </div>
+      )}
+      <footer className={`${showFooterAd ? "mt-12" : "mt-24"} border-t border-[#EAE6E1] bg-[#FAF8F5]`}>
       <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1fr_1fr]">
           {/* Brand */}
@@ -112,6 +125,7 @@ export default function SiteFooter() {
           </div>
         </div>
       </div>
-    </footer>
+      </footer>
+    </>
   );
 }
