@@ -440,8 +440,10 @@ export default function PrivacyPage() {
             <p className="text-lg leading-9 text-[#5F574E]">
 
               DreamScriptures may display advertisements provided by
-              third-party advertising partners, including Google
-              AdSense.
+              third-party advertising partners, including Adsterra. Adsterra
+              ads load automatically without waiting for cookie consent.
+              Cookie Preferences controls additional analytics and does not
+              disable Adsterra ads.
 
             </p>
 

@@ -15,13 +15,13 @@ export default function CookieConsent() {
     rejectNonEssential,
     savePreferences,
   } = useConsent();
-  const [draft, setDraft] = useState({ analytics: false, advertising: false });
+  const [draft, setDraft] = useState({ analytics: false });
   const closeButtonRef = useRef(null);
 
   useEffect(() => {
     if (!isPreferencesOpen) return;
     const focusTimer = window.setTimeout(() => {
-      setDraft(preferences || { analytics: false, advertising: false });
+      setDraft(preferences || { analytics: false });
       closeButtonRef.current?.focus();
     }, 0);
     return () => window.clearTimeout(focusTimer);
@@ -49,7 +49,7 @@ export default function CookieConsent() {
             <div className="min-w-0 flex-1">
               <p className="font-serif text-lg text-[#29251F]">Your privacy choices</p>
               <p className="mt-2 text-sm leading-6 text-[#625B52]">
-                We use privacy-friendly, cookie-free measurement to understand site performance. Optional analytics and advertising technologies load only with your permission. Necessary features remain available. Read our{" "}
+                We use privacy-friendly, cookie-free measurement to understand site performance. Additional analytics load only with your permission. Adsterra ads load automatically and are not controlled by these preferences. Read our{" "}
                 <Link className="underline underline-offset-4 hover:text-[#8F743C]" href="/privacy">
                   Privacy Policy
                 </Link>.
@@ -57,13 +57,13 @@ export default function CookieConsent() {
             </div>
             <div className="mt-5 flex flex-wrap gap-2 md:mt-0 md:max-w-[350px] md:justify-end">
               <button className="min-h-11 rounded-full border border-[#CFC5B8] px-4 text-sm text-[#49423A] hover:border-[#8F743C] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]" onClick={rejectNonEssential} type="button">
-                Reject non-essential
+                Reject additional analytics
               </button>
               <button className="min-h-11 rounded-full border border-[#CFC5B8] px-4 text-sm text-[#49423A] hover:border-[#8F743C] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]" onClick={openPreferences} type="button">
                 Manage preferences
               </button>
               <button className="min-h-11 rounded-full bg-[#29251F] px-5 text-sm text-white hover:bg-[#51483E] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]" onClick={acceptAll} type="button">
-                Accept all
+                Accept additional analytics
               </button>
             </div>
           </div>
@@ -86,11 +86,11 @@ export default function CookieConsent() {
             <div className="mt-6 divide-y divide-[#EAE6E1] border-y border-[#EAE6E1]">
               <PreferenceRow checked description="Required for consent choices, security, sessions, and core site features." disabled label="Strictly necessary" />
               <PreferenceRow checked={draft.analytics} description="Allows additional analytics that may use cookies or similar identifiers. Basic cookie-free traffic measurement remains active." label="Additional analytics" onChange={(checked) => setDraft((current) => ({ ...current, analytics: checked }))} />
-              <PreferenceRow checked={draft.advertising} description="Allows Google AdSense and the two page-level Adsterra formats to load." label="Advertising" onChange={(checked) => setDraft((current) => ({ ...current, advertising: checked }))} />
+              <p className="py-5 text-xs leading-5 text-[#746C62]">Adsterra advertisements load automatically. These preferences do not disable them.</p>
             </div>
 
             <div className="mt-7 flex flex-wrap justify-end gap-2">
-              <button className="min-h-11 rounded-full border border-[#CFC5B8] px-5 text-sm hover:border-[#8F743C] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]" onClick={rejectNonEssential} type="button">Reject non-essential</button>
+              <button className="min-h-11 rounded-full border border-[#CFC5B8] px-5 text-sm hover:border-[#8F743C] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]" onClick={rejectNonEssential} type="button">Reject additional analytics</button>
               <button className="min-h-11 rounded-full bg-[#29251F] px-5 text-sm text-white hover:bg-[#51483E] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]" onClick={() => savePreferences(draft)} type="button">Save preferences</button>
             </div>
           </section>

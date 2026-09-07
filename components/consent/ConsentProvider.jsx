@@ -12,7 +12,6 @@ function readStoredConsent() {
     if (stored?.version !== CONSENT_VERSION) return null;
     return {
       analytics: stored.analytics === true,
-      advertising: stored.advertising === true,
     };
   } catch {
     return null;
@@ -35,7 +34,6 @@ export default function ConsentProvider({ children }) {
   const savePreferences = useCallback((nextPreferences) => {
     const normalized = {
       analytics: nextPreferences.analytics === true,
-      advertising: nextPreferences.advertising === true,
     };
     window.localStorage.setItem(
       STORAGE_KEY,
@@ -43,8 +41,7 @@ export default function ConsentProvider({ children }) {
     );
     const withdrawsConsent =
       preferences !== null &&
-      ((preferences.analytics && !normalized.analytics) ||
-        (preferences.advertising && !normalized.advertising));
+      preferences.analytics && !normalized.analytics;
     setPreferences(normalized);
     setIsPreferencesOpen(false);
     if (withdrawsConsent) window.location.reload();
@@ -57,9 +54,9 @@ export default function ConsentProvider({ children }) {
       isPreferencesOpen,
       openPreferences: () => setIsPreferencesOpen(true),
       closePreferences: () => setIsPreferencesOpen(false),
-      acceptAll: () => savePreferences({ analytics: true, advertising: true }),
+      acceptAll: () => savePreferences({ analytics: true }),
       rejectNonEssential: () =>
-        savePreferences({ analytics: false, advertising: false }),
+        savePreferences({ analytics: false }),
       savePreferences,
     }),
     [isPreferencesOpen, isReady, preferences, savePreferences],

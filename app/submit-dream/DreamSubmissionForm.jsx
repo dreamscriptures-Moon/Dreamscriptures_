@@ -120,8 +120,10 @@ export default function DreamSubmissionForm() {
 
   const inputClass = "mt-2 w-full rounded-2xl border border-[#E1DCD5] bg-[#FCFBF9] px-4 py-3 text-[#2A2A2A] outline-none transition placeholder:text-[#A39B91] focus:border-[#B79B5E] focus:ring-2 focus:ring-[#C6A96B]/20";
 
+  // React resets uncontrolled fields after resolved actions, including validation errors.
+  // Keep the draft until success replaces the form with the confirmation screen.
   return (
-    <form action={formAction} className="rounded-3xl border border-[#EAE6E1] bg-white p-6 shadow-[0_20px_55px_rgba(91,72,38,0.05)] md:p-10" noValidate>
+    <form action={formAction} onReset={(event) => event.preventDefault()} className="rounded-3xl border border-[#EAE6E1] bg-white p-6 shadow-[0_20px_55px_rgba(91,72,38,0.05)] md:p-10" noValidate>
       <div className="space-y-8">
         <fieldset>
           <legend className="font-serif text-xl text-[#2A2A2A]">Interpretation type</legend>
@@ -177,7 +179,7 @@ Choose Premium if you&apos;d like our deepest interpretation, faster delivery, a
           <label htmlFor="dreamDescription" className="font-serif text-xl text-[#2A2A2A]">Dream description <span className="text-[#9A4F45]" aria-hidden="true">*</span></label>
           <textarea id="dreamDescription" name="dreamDescription" required rows="9" minLength="100" maxLength="3000" aria-required="true" aria-invalid={Boolean(state.errors?.dreamDescription)} aria-describedby={`dream-description-hint dream-description-counter${state.errors?.dreamDescription ? " dream-description-error" : ""}`} className={inputClass} onChange={(event) => setDreamLength(event.target.value.length)} />
           <p id="dream-description-hint" className="mt-2 text-sm text-[#756C61]">Include as much detail as you remember—people, places, emotions, colors, symbols, conversations, and how the dream ended.</p>
-          <p id="dream-description-counter" className={`mt-1 text-xs transition-colors ${dreamLength >= 2700 ? "text-[#9A4F45]" : "text-[#756C61]"}`} aria-live="polite">{dreamLength} / 3000 characters</p>
+          <p id="dream-description-counter" className={`mt-1 text-xs transition-colors ${dreamLength >= 2700 ? "text-[#9A4F45]" : "text-[#756C61]"}`} aria-live="polite">{dreamLength} / 3000 characters. Minimum: 100 characters (roughly 20 words).</p>
           <FieldError id="dream-description-error" message={state.errors?.dreamDescription} />
         </div>
 
@@ -207,13 +209,11 @@ Choose Premium if you&apos;d like our deepest interpretation, faster delivery, a
           <button type="button" aria-expanded={showCustomSymbols} aria-controls="custom-symbols" onClick={() => setShowCustomSymbols((visible) => !visible)} className="mt-4 text-sm font-medium text-[#8F743C] underline decoration-[#C6A96B] underline-offset-4">
             {showCustomSymbols ? "Hide custom symbols" : "+ Add custom symbols"}
           </button>
-          {showCustomSymbols && (
-            <div id="custom-symbols" className="mt-4">
-              <label htmlFor="customSymbols" className="text-sm font-medium text-[#3A3A3A]">Custom symbols</label>
-              <input id="customSymbols" name="customSymbols" type="text" maxLength="500" placeholder="Forest, keys, clock" aria-describedby="custom-symbols-hint" className={inputClass} />
-              <p id="custom-symbols-hint" className="mt-2 text-xs text-[#756C61]">Separate multiple symbols with commas.</p>
-            </div>
-          )}
+          <div id="custom-symbols" className="mt-4" hidden={!showCustomSymbols}>
+            <label htmlFor="customSymbols" className="text-sm font-medium text-[#3A3A3A]">Custom symbols</label>
+            <input id="customSymbols" name="customSymbols" type="text" maxLength="500" placeholder="Forest, keys, clock" aria-describedby="custom-symbols-hint" className={inputClass} onKeyDown={(event) => { if (event.key === "Enter") event.preventDefault(); }} />
+            <p id="custom-symbols-hint" className="mt-2 text-xs text-[#756C61]">Separate multiple symbols with commas.</p>
+          </div>
         </div>
 
         <fieldset className="border-t border-[#EAE6E1] pt-8">
