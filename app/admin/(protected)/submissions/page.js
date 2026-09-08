@@ -41,8 +41,8 @@ export default async function SubmissionListPage({ searchParams }) {
 
   return (
     <>
-      <div><p className="text-sm font-medium text-amber-700">Manage</p><h1 className="mt-1 text-3xl font-semibold">Submissions</h1><p className="mt-2 text-sm text-slate-500">{result.total} matching submissions</p></div>
-      {dataError && <div role="alert" className="mt-5 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">Submissions are temporarily unavailable. Check the server connection and try again.</div>}
+      <div><p className="text-sm font-medium text-amber-700">Manage</p><h1 className="mt-1 text-3xl font-semibold">Submissions</h1><p className="mt-2 text-sm text-slate-500">{dataError ? "Submission count unavailable" : `${result.total} matching submissions`}</p></div>
+      {dataError && <div role="alert" className="mt-5 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">Submissions are temporarily unavailable. <a href={queryHref(preserved, { page: String(filters.page) })} className="ml-2 font-semibold underline">Retry loading</a></div>}
       <form className="mt-6 grid gap-3 rounded-xl border border-slate-200 bg-white p-4 md:grid-cols-[minmax(220px,1fr)_180px_180px_130px_auto]">
         <input name="q" defaultValue={filters.search} placeholder="Search reference, name, email, title" className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
         <select name="status" defaultValue={filters.status} className="rounded-lg border border-slate-300 px-3 py-2 text-sm">{statuses.map((status) => <option key={status} value={status}>{status || "All statuses"}</option>)}</select>
@@ -65,7 +65,7 @@ export default async function SubmissionListPage({ searchParams }) {
                 <td className="whitespace-nowrap px-4 py-4 text-slate-500">{new Intl.DateTimeFormat("en", { dateStyle: "medium", timeStyle: "short" }).format(new Date(item.created_at))}</td>
               </tr>
             ))}
-            {!result.submissions.length && <tr><td colSpan="7" className="px-4 py-12 text-center text-slate-500">No submissions match these filters.</td></tr>}
+            {!dataError && !result.submissions.length && <tr><td colSpan="7" className="px-4 py-12 text-center text-slate-500">No submissions match these filters.</td></tr>}
           </tbody>
         </table>
       </div>

@@ -1,6 +1,6 @@
 import { dreams } from "@/data/dream";
 import DreamDictionaryControls from "@/app/components/DreamDictionaryControls";
-import EditorialAdUnit from "@/components/EditorialAdUnit";
+import BannerAdUnit from "@/components/BannerAdUnit";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import Link from "next/link";
@@ -91,10 +91,7 @@ export default function DreamDictionaryPage() {
 
   <br /><br />
 
-  Explore dream meanings through emotional themes, symbolic patterns,
-  psychological experiences, and recurring situations that connect
-  dreams together in deeper ways than the symbols alone.
-
+ Figure out what your dreams truly meant by exploring the dream dictionary below.
 </p>
 
 
@@ -221,8 +218,8 @@ Search for a dream symbol, browse by category, or explore related themes to disc
           categories={categories}
         />
 
-        <EditorialAdUnit />
-        
+        <BannerAdUnit />
+
 <section className="mt-20 text-center">
 
   <p className="uppercase tracking-[0.2em] text-[#B79B5E] text-xs mb-3">

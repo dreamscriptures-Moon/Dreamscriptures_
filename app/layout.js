@@ -5,6 +5,7 @@ import BuyMeCoffee from "@/app/components/BuyMeCoffee";
 import ConsentProvider from "@/components/consent/ConsentProvider";
 import CookieConsent from "@/components/consent/CookieConsent";
 import ConsentManagedServices from "@/components/consent/ConsentManagedServices";
+import NativeBannerSlot from "@/components/NativeBannerSlot";
 
 export const metadata = {
   metadataBase: new URL("https://www.dreamscriptures.com"),
@@ -63,6 +64,7 @@ export default function RootLayout({ children }) {
       <body className={`${playfair.variable} ${inter.variable}`}>
         <ConsentProvider>
           {children}
+          <NativeBannerSlot />
           <BackToTop />
           <BuyMeCoffee />
           <ConsentManagedServices />

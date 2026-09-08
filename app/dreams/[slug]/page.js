@@ -9,7 +9,7 @@ import DreamInsightSection from "@/components/DreamInsightSection";
 import BiblicalPerspective from "@/components/BiblicalPerspective";
 import SubmitYourDreamCTA from "@/components/SubmitYourDreamCTA";
 import ArticleFeedback from "@/components/ArticleFeedback";
-import EditorialAdUnit from "@/components/EditorialAdUnit";
+import BannerAdUnit from "@/components/BannerAdUnit";
 import ContinueExploring from "@/components/ContinueExploring";
 import DreamEmotionalConnections from "@/components/emotions/DreamEmotionalConnections";
 import DreamEmotionalPathways from "@/components/emotions/DreamEmotionalPathways";
@@ -1009,7 +1009,6 @@ function getDreamContext(dream) {
   ))}
 </section>
 <BiblicalPerspective dream={dream} />
-<EditorialAdUnit />
 <MultipleMeaningsSection dream={dream} dreamTitle={dreamTitle} />
 <DreamTypesSection dream={dream} />
 <DreamScenariosSection scenarios={dream.scenarios} context={dream.context} />
@@ -1065,6 +1064,7 @@ function getDreamContext(dream) {
             ))}
           </div>
         </section>}
+ <BannerAdUnit />
  <RelatedDreams slugs={dream.relatedDreams} relatedDreams={relatedDreamItems} />
  <DreamCompassPageCTA dreamTitle={dreamTitle} />
  {!compactEnding && <ContinueExploring dreams={continueExploringDreams} />}

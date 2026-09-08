@@ -64,6 +64,31 @@ h1, h2, h3, p {
   line-height: 1.4;
 }
 
+/* Keep the floating native recommendation unit compact on tablets and phones. */
+@media (max-width: 1023px) {
+  .native-recommendations {
+    min-height: 0;
+    max-height: 11rem;
+  }
+
+  .native-recommendations > div {
+    max-height: 11rem;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  .native-recommendations,
+  .native-recommendations > div {
+    max-height: 9rem;
+  }
+
+  .native-recommendations > div > :nth-child(n + 2),
+  .native-recommendations > div > div > :nth-child(n + 2) {
+    display: none !important;
+  }
+}
+
 /*  Scrollbar */
 .no-scrollbar::-webkit-scrollbar {
   display: none;

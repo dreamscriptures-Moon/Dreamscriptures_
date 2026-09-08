@@ -10,6 +10,7 @@ import {
   dreamCompassGeneralQuestions,
   dreamCompassPerspectives,
 } from "@/data/dreamCompass";
+import { submitDreamCompassFeedback } from "./actions";
 
 const steps = [
   { eyebrow: "Symbols and images", title: "What stood out to you in the dream?" },
@@ -17,6 +18,14 @@ const steps = [
   { eyebrow: "The emotional clue", title: "How did the dream feel?" },
   { eyebrow: "Life right now", title: "What feels closest to your waking life?" },
   { eyebrow: "Choose a lens", title: "How would you like to explore it?" },
+];
+
+const feedbackRatings = [
+  { value: 1, emoji: "😞", label: "Not helpful" },
+  { value: 2, emoji: "😕", label: "A little helpful" },
+  { value: 3, emoji: "🙂", label: "Helpful" },
+  { value: 4, emoji: "😊", label: "Very helpful" },
+  { value: 5, emoji: "😍", label: "Loved it" },
 ];
 
 function normalize(value = "") {
@@ -110,6 +119,11 @@ export default function DreamCompass({ profiles }) {
   const [step, setStep] = useState(0);
   const [query, setQuery] = useState("");
   const [returnToResults, setReturnToResults] = useState(false);
+  const [feedbackToken, setFeedbackToken] = useState(() => crypto.randomUUID());
+  const [feedbackRating, setFeedbackRating] = useState(null);
+  const [feedbackComment, setFeedbackComment] = useState("");
+  const [feedbackStatus, setFeedbackStatus] = useState("idle");
+  const [feedbackMessage, setFeedbackMessage] = useState("");
   const headingRef = useRef(null);
   const hasMounted = useRef(false);
   const [answers, setAnswers] = useState({
@@ -292,27 +306,52 @@ export default function DreamCompass({ profiles }) {
     setAnswers({ subject: "", relatedSubjects: [], action: "", emotions: [], context: "", perspectives: ["balanced"] });
     setQuery("");
     setReturnToResults(false);
+    setFeedbackToken(crypto.randomUUID());
+    setFeedbackRating(null);
+    setFeedbackComment("");
+    setFeedbackStatus("idle");
+    setFeedbackMessage("");
     setStep(0);
+  }
+
+  async function handleFeedbackSubmit(event) {
+    event.preventDefault();
+    if (!feedbackRating || feedbackStatus === "submitting" || feedbackStatus === "success") return;
+
+    setFeedbackStatus("submitting");
+    setFeedbackMessage("");
+
+    const result = await submitDreamCompassFeedback({
+      feedbackToken,
+      rating: feedbackRating,
+      comment: feedbackComment,
+      resultSlug: rankedProfiles[0]?.slug || "",
+    });
+
+    setFeedbackStatus(result.status);
+    setFeedbackMessage(result.message || "");
   }
 
   return (
     <>
       <header className="border-b border-[#DED7CD] bg-[#FAF8F5]">
-        <div className="mx-auto max-w-4xl px-6 py-12 text-center md:py-20">
-          <p className="text-[11px] uppercase tracking-[0.22em] text-[#8F743C]">Dream Compass</p>
-          <h1 className="mx-auto mt-4 max-w-3xl font-serif text-4xl leading-tight md:text-6xl">
-            What might your dream be showing you?
-          </h1>
-          <p className="mx-auto mt-5 max-w-2xl leading-7 text-[#625C55] md:text-lg md:leading-8">
-            Start with the symbol or image you remember most. Then follow the feelings, details, and life connections that made this dream feel personal to you.
+        <div className="mx-auto max-w-4xl px-6 py-9 text-center md:py-12">
+          <h1 className="font-serif text-3xl tracking-wide md:text-5xl">DREAM COMPASS</h1>
+          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-[#625C55] md:text-xl">
+            Helping you remember and understand your dreams.
           </p>
-          <p className="mx-auto mt-5 max-w-xl text-sm leading-6 text-[#756D64]">
-            Your feelings and life context remain in this browser tab. If you accepted site analytics, we only note completed steps and the article you choose to open.
+          <p className="mx-auto mt-5 max-w-xl leading-7 text-[#625C55]">
+            Not sure what to make of a dream that stayed with you? Dream Compass helps you explore what you remember, how it felt, and what may be happening in your waking life. It&rsquo;s free to use.
+          </p>
+          <p className="mx-auto mt-5 max-w-xl font-medium leading-7 text-[#695326]">
+            Start with what you remember. Dream Compass will help you work through the rest.
           </p>
         </div>
       </header>
 
-      <section className="mx-auto max-w-4xl px-6 py-12 md:py-20">
+      <section id="dream-compass-questions" className="mx-auto max-w-4xl scroll-mt-6 px-4 py-8 sm:px-6 md:py-10">
+        <div className="border border-[#DED7CD] border-t-2 border-t-[#9A7B43] bg-[#FFFDF8] p-5 sm:p-8 md:p-10">
+        <p className="mb-8 font-serif text-2xl text-[#312C27] md:text-3xl">Your dream, your way.</p>
         <p className="sr-only" role="status" aria-live="polite" aria-atomic="true">
           {announcement}
         </p>
@@ -520,8 +559,97 @@ export default function DreamCompass({ profiles }) {
               <button type="button" onClick={() => editAnswer(steps.length - 1)} className="min-h-11 underline underline-offset-4">Try a different lens</button>
               <button type="button" onClick={restart} className="min-h-11 border border-[#B89B62] bg-white px-6 text-sm font-medium">Explore another dream</button>
             </div>
+
+            <section className="mt-10 border-t border-[#DED7CD] pt-8" aria-labelledby="dream-compass-feedback-heading">
+              {feedbackStatus === "success" ? (
+                <div aria-live="polite" className="border border-[#D8C7A0] bg-white/70 px-6 py-7 text-center">
+                  <h3 id="dream-compass-feedback-heading" className="font-serif text-2xl text-[#312C27]">Thank you for your feedback.</h3>
+                </div>
+              ) : (
+                <form onSubmit={handleFeedbackSubmit} className="max-w-2xl">
+                  <h3 id="dream-compass-feedback-heading" className="font-serif text-2xl text-[#312C27] md:text-3xl">How was your Dream Compass experience?</h3>
+                  <fieldset className="mt-6">
+                    <legend className="text-sm font-medium text-[#514A43]">How helpful was your reading?</legend>
+                    <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-5" role="radiogroup">
+                      {feedbackRatings.map((option) => {
+                        const selected = feedbackRating === option.value;
+                        return (
+                          <button
+                            key={option.value}
+                            type="button"
+                            role="radio"
+                            aria-checked={selected}
+                            onClick={() => setFeedbackRating(option.value)}
+                            disabled={feedbackStatus === "submitting"}
+                            className={`min-h-24 border px-2 py-3 text-center transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C] disabled:cursor-wait disabled:opacity-65 ${selected ? "border-[#9A7B43] bg-[#FFF8E9] shadow-sm" : "border-[#DDD5CA] bg-white/65 hover:border-[#B89B62] hover:bg-white"}`}
+                          >
+                            <span className="block text-2xl" aria-hidden="true">{option.emoji}</span>
+                            <span className="mt-2 block text-xs leading-4 text-[#514A43]">{option.label}</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </fieldset>
+
+                  <label htmlFor="dream-compass-feedback-comment" className="mt-7 block text-sm font-medium text-[#514A43]">Want to tell us why?</label>
+                  <textarea
+                    id="dream-compass-feedback-comment"
+                    value={feedbackComment}
+                    onChange={(event) => setFeedbackComment(event.target.value)}
+                    maxLength={1000}
+                    rows={3}
+                    disabled={feedbackStatus === "submitting"}
+                    placeholder="What did you like, or what could we do better?"
+                    className="mt-2 w-full resize-y border border-[#D8CFC2] bg-white px-4 py-3 text-[#312C27] outline-none transition placeholder:text-[#9A9289] focus:border-[#9A7B43] disabled:cursor-wait disabled:opacity-65"
+                  />
+
+                  {feedbackMessage && <p role="alert" className="mt-3 text-sm text-[#8A3E32]">{feedbackMessage}</p>}
+
+                  <button
+                    type="submit"
+                    disabled={!feedbackRating || feedbackStatus === "submitting" || !feedbackToken}
+                    className="mt-5 min-h-11 bg-[#1A1A1A] px-6 text-sm font-medium text-white transition hover:bg-[#333] disabled:cursor-not-allowed disabled:bg-[#B8B1A8]"
+                  >
+                    {feedbackStatus === "submitting" ? "Submitting…" : "Submit feedback"}
+                  </button>
+                </form>
+              )}
+            </section>
           </div>
         )}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-4xl px-4 pb-10 sm:px-6 md:pb-12">
+        <div className="border-t border-[#DED7CD] pt-7">
+          <h2 className="mb-6 font-serif text-2xl text-[#312C27]">How Dream Compass works</h2>
+          <div className="max-w-2xl space-y-7 pb-8 leading-7 text-[#625C55]">
+            <section>
+              <h3 className="font-serif text-xl text-[#312C27]">What is it?</h3>
+              <p className="mt-3">Dream Compass helps you understand and explore a dream from a few different angles instead of giving you one fixed meaning. It looks at what happened, what stood out, how the dream felt, and what may be happening in your waking life.</p>
+            </section>
+            <section>
+              <h3 className="font-serif text-xl text-[#312C27]">How do I use it?</h3>
+              <p className="mt-3">Tell us what you remember. You don&apos;t need to remember every detail. Just answer the questions that feel relevant, and Dream Compass will help you connect the pieces. The important bit is what you remember.</p>
+            </section>
+            <section>
+              <h3 className="font-serif text-xl text-[#312C27]">Why use Dream Compass?</h3>
+              <div className="mt-3 space-y-4">
+                <p>Because a snake, a house, a baby, or even water doesn&apos;t mean exactly the same thing to everyone.</p>
+                <p>Dream Compass starts with your dream and your life, rather than forcing your experience into a list of predefined meanings.</p>
+                <p>It&apos;s also completely free to use.</p>
+                <p>Instead of searching through pages of dream meanings and wondering which one actually fits, Dream Compass gives you a place to start with the dream you actually had. And if you already have something specific in mind, you can use it to move toward the exact kind of meaning you&apos;re looking for.</p>
+              </div>
+            </section>
+            <section>
+              <h3 className="font-serif text-xl text-[#312C27]">What might it ask me?</h3>
+              <div className="mt-3 space-y-4">
+                <p>Dream Compass uses a series of simple questions to help you figure out where to begin. You don&apos;t have to know exactly how to describe your dream before you start.</p>
+                <p>The questions help make the reading process easier by bringing your own experience into the interpretation and letting you jump toward the perspective or meaning that feels most relevant to you.</p>
+              </div>
+            </section>
+          </div>
+        </div>
       </section>
     </>
   );

@@ -1,6 +1,5 @@
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
-import EditorialAdUnit from "@/components/EditorialAdUnit";
 import {
   dreamCompassContextRoutes,
   dreamCompassEmotionRoutes,
@@ -129,9 +128,6 @@ export default function DreamCompassPage() {
     <main className="min-h-screen bg-[#F7F5F2] text-[#1A1A1A]">
       <SiteHeader />
       <DreamCompass profiles={profiles} />
-      <div className="mx-auto max-w-4xl px-6 pb-12 md:pb-20">
-        <EditorialAdUnit />
-      </div>
       <SiteFooter />
     </main>
   );
