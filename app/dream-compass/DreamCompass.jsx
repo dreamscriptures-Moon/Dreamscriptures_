@@ -10,6 +10,7 @@ import {
   dreamCompassGeneralQuestions,
   dreamCompassPerspectives,
 } from "@/data/dreamCompass";
+import AdsterraNativeBanner from "@/components/AdsterraNativeBanner";
 import { submitDreamCompassFeedback } from "./actions";
 
 const steps = [
@@ -336,7 +337,7 @@ export default function DreamCompass({ profiles }) {
     <>
       <header className="border-b border-[#DED7CD] bg-[#FAF8F5]">
         <div className="mx-auto max-w-4xl px-6 py-9 text-center md:py-12">
-          <h1 className="font-serif text-3xl tracking-wide md:text-5xl">DREAM COMPASS</h1>
+          <h1 className="font-serif text-3xl font-normal leading-tight tracking-tight text-[#8F743C] md:text-4xl">Dream Compass</h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-[#625C55] md:text-xl">
             Helping you remember and understand your dreams.
           </p>
@@ -351,7 +352,7 @@ export default function DreamCompass({ profiles }) {
 
       <section id="dream-compass-questions" className="mx-auto max-w-4xl scroll-mt-6 px-4 py-8 sm:px-6 md:py-10">
         <div className="border border-[#DED7CD] border-t-2 border-t-[#9A7B43] bg-[#FFFDF8] p-5 sm:p-8 md:p-10">
-        <p className="mb-8 font-serif text-2xl text-[#312C27] md:text-3xl">Your dream, your way.</p>
+        <p className="mb-8 font-serif text-2xl text-[#312C27] md:text-3xl">Your dream. Your direction. Your clarity.</p>
         <p className="sr-only" role="status" aria-live="polite" aria-atomic="true">
           {announcement}
         </p>
@@ -619,6 +620,10 @@ export default function DreamCompass({ profiles }) {
         )}
         </div>
       </section>
+
+      <div className="mx-auto max-w-4xl px-4 sm:px-6">
+        <AdsterraNativeBanner />
+      </div>
 
       <section className="mx-auto max-w-4xl px-4 pb-10 sm:px-6 md:pb-12">
         <div className="border-t border-[#DED7CD] pt-7">

@@ -3,19 +3,20 @@ export const revalidate = 86400;
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import Script from "next/script";
+import { Fragment } from "react";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
 import SearchBar from "@/app/components/SearchBar";
 import DreamInsightSection from "@/components/DreamInsightSection";
 import BiblicalPerspective from "@/components/BiblicalPerspective";
 import SubmitYourDreamCTA from "@/components/SubmitYourDreamCTA";
 import ArticleFeedback from "@/components/ArticleFeedback";
-import BannerAdUnit from "@/components/BannerAdUnit";
 import ContinueExploring from "@/components/ContinueExploring";
 import DreamEmotionalConnections from "@/components/emotions/DreamEmotionalConnections";
 import DreamEmotionalPathways from "@/components/emotions/DreamEmotionalPathways";
 import DreamSemanticAuthority from "@/components/emotions/DreamSemanticAuthority";
 import ReadingProgressBar from "@/components/ReadingProgressBar";
 import RelatedDreams from "@/components/RelatedDreams";
+import AdsterraNativeBanner from "@/components/AdsterraNativeBanner";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import ContentSources from "@/app/components/ContentSources";
@@ -260,26 +261,29 @@ function BehavioralInsightsSection({ dream }) {
   }
 
   return (
-    <section
-      id="behavioral-insights"
-      className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
-    >
-      <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
-        Behavioral insights
-      </p>
+    <Fragment>
+      <AdsterraNativeBanner />
+      <section
+        id="behavioral-insights"
+        className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
+      >
+        <p className="mb-3 text-[11px] uppercase tracking-[0.18em] text-[#8A8175]">
+          Behavioral insights
+        </p>
 
-      <h2 className="mb-5 font-serif text-3xl md:text-4xl">
-        Why This Dream Can Feel So Specific
-      </h2>
+        <h2 className="mb-5 font-serif text-3xl md:text-4xl">
+          Why This Dream Can Feel So Specific
+        </h2>
 
-      {paragraphs.length > 0 && <TextBlocks text={paragraphs.join("\n\n")} />}
-      {items.length > 0 && <div className="space-y-6">
-        {items.map((insight) => <div key={insight.key}>
-          {insight.title && <h3 className="font-serif text-xl text-[#1A1A1A]">{insight.title}</h3>}
-          <p className={`${insight.title ? "mt-2 " : ""}text-base leading-relaxed text-[#6B6B6B]`}>{insight.content}</p>
-        </div>)}
-      </div>}
-    </section>
+        {paragraphs.length > 0 && <TextBlocks text={paragraphs.join("\n\n")} />}
+        {items.length > 0 && <div className="space-y-6">
+          {items.map((insight) => <div key={insight.key}>
+            {insight.title && <h3 className="font-serif text-xl text-[#1A1A1A]">{insight.title}</h3>}
+            <p className={`${insight.title ? "mt-2 " : ""}text-base leading-relaxed text-[#6B6B6B]`}>{insight.content}</p>
+          </div>)}
+        </div>}
+      </section>
+    </Fragment>
   );
 }
 
@@ -1000,12 +1004,14 @@ function getDreamContext(dream) {
    
       <section className="space-y-16">
   {insightSections.map((section) => (
-    <DreamInsightSection
-      key={section.id}
-      id={section.id}
-      title={section.title}
-      body={section.body}
-    />
+    <Fragment key={section.id}>
+      <DreamInsightSection
+        id={section.id}
+        title={section.title}
+        body={section.body}
+      />
+      {section.id === "spiritual-meaning" && <AdsterraNativeBanner />}
+    </Fragment>
   ))}
 </section>
 <BiblicalPerspective dream={dream} />
@@ -1064,7 +1070,6 @@ function getDreamContext(dream) {
             ))}
           </div>
         </section>}
- <BannerAdUnit />
  <RelatedDreams slugs={dream.relatedDreams} relatedDreams={relatedDreamItems} />
  <DreamCompassPageCTA dreamTitle={dreamTitle} />
  {!compactEnding && <ContinueExploring dreams={continueExploringDreams} />}

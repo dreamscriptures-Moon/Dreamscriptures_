@@ -64,30 +64,6 @@ h1, h2, h3, p {
   line-height: 1.4;
 }
 
-/* Preserve Adsterra's native card layout, then scale the complete unit as one
-   compact floating recommendation banner. */
-.native-recommendations-viewport {
-  height: 6.5rem;
-  overflow: hidden;
-}
-
-.native-recommendations {
-  width: 40rem;
-  min-height: 12rem;
-  transform: scale(0.35);
-  transform-origin: top left;
-}
-
-@media (min-width: 1024px) {
-  .native-recommendations-viewport {
-    height: 9rem;
-  }
-
-  .native-recommendations {
-    transform: scale(0.5);
-  }
-}
-
 /*  Scrollbar */
 .no-scrollbar::-webkit-scrollbar {
   display: none;

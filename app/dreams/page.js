@@ -1,6 +1,5 @@
 import { dreams } from "@/data/dream";
 import DreamDictionaryControls from "@/app/components/DreamDictionaryControls";
-import BannerAdUnit from "@/components/BannerAdUnit";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import Link from "next/link";
@@ -91,7 +90,7 @@ export default function DreamDictionaryPage() {
 
   <br /><br />
 
- Figure out what your dreams truly meant by exploring the dream dictionary below.
+ ↓ Figure out what your dreams truly meant by exploring the dream dictionary below. ↓
 </p>
 
 
@@ -217,8 +216,6 @@ Search for a dream symbol, browse by category, or explore related themes to disc
           dreams={searchableDreams}
           categories={categories}
         />
-
-        <BannerAdUnit />
 
 <section className="mt-20 text-center">
 
