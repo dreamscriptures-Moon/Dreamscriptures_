@@ -5,6 +5,8 @@ import SiteFooter from "@/app/components/SiteFooter";
 import { categoriesData } from "@/data/categories";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import { getCategoryDescription, getCategoryEntries, getCategoryEntry, getRelevantGuides, getRelatedCategories, getRepresentedEmotionsForDreams } from "@/lib/editorialDiscovery";
+import { createPageMetadata } from "@/lib/seo";
+import { getDreamHref } from "@/lib/routes";
 import { Breadcrumbs, DreamPreviewGrid, FAQSection, GuideLinks, LinkPills, SectionHeading } from "@/app/components/EditorialDiscovery";
 import ContentSources from "@/app/components/ContentSources";
 
@@ -13,7 +15,11 @@ export function generateStaticParams() { return getCategoryEntries().map(({ slug
 export async function generateMetadata({ params }) {
   const category = getCategoryEntry((await params)?.category);
   if (!category) return {};
-  return { title: `${category.title} Dream Meaning & Interpretation`, description: `Explore ${category.title.toLowerCase()} dream meanings, recurring themes, emotional patterns, and related interpretations from the DreamScriptures dream atlas.`, alternates: { canonical: `/categories/${category.slug}` } };
+  const fullTitle = `${category.title} Dream Meaning & Interpretation`;
+  const title = `${fullTitle} | DreamScriptures`.length > 70
+    ? `${category.title} Dream Meanings`
+    : fullTitle;
+  return createPageMetadata({ title, description: `Explore ${category.title.toLowerCase()} dream meanings, recurring themes, emotional patterns, and related interpretations from the DreamScriptures dream atlas.`, path: `/categories/${category.slug}` });
 }
 
 export default async function CategoryPage({ params }) {
@@ -53,6 +59,6 @@ export default async function CategoryPage({ params }) {
         {guides.length > 0 && <section className="border-t border-[#ded7cd] py-16"><SectionHeading title="Related Dream Guides" /><GuideLinks guides={guides} /></section>}
         {faqs.length > 0 && <FAQSection items={faqs} />}
         <ContentSources sources={data?.sources} />
-        {category.dreams.length > 8 && <section className="pb-20"><SectionHeading title="Explore More Dream Meanings" /><div className="mt-7 columns-1 gap-8 sm:columns-2 md:columns-3">{category.dreams.slice(8).map((dream) => <Link key={dream.slug} href={`/dreams/${normalizeSlug(dream.slug)}`} className="mb-3 block break-inside-avoid border-b border-[#ded7cd] py-3 hover:text-[#8f743c]">{dream.title}</Link>)}</div></section>}
+        {category.dreams.length > 8 && <section className="pb-20"><SectionHeading title="Explore More Dream Meanings" /><div className="mt-7 columns-1 gap-8 sm:columns-2 md:columns-3">{category.dreams.slice(8).map((dream) => <Link key={dream.slug} href={getDreamHref(dream)} className="mb-3 block break-inside-avoid border-b border-[#ded7cd] py-3 hover:text-[#8f743c]">{dream.title}</Link>)}</div></section>}
       </div></article><SiteFooter /></main>;
 }

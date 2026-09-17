@@ -51,6 +51,16 @@ const nextConfig = {
 
       // 🔁 Legacy URL redirects
       {
+        source: "/categories/relationships",
+        destination: "/categories/relationship",
+        permanent: true,
+      },
+      {
+        source: "/categories/emotions",
+        destination: "/categories/emotion",
+        permanent: true,
+      },
+      {
         source: "/dream-dictionary",
         destination: "/dreams",
         permanent: true,

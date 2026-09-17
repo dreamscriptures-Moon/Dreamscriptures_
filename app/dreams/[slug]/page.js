@@ -32,6 +32,7 @@ import {
   getDreamBySlug,
   getDreamFAQItems,
   getDreamInsightSections,
+  hasCategoryRoute,
   getDreamsBySlugs,
   getExploreThemes,
   getFAQSchema,
@@ -41,13 +42,14 @@ import {
   shorten,
 } from "@/lib/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
+import { getCategoryHref, getDreamHref } from "@/lib/routes";
 import ClusterPathway from "@/app/components/ClusterPathway";
 import { getClusterGuides } from "@/lib/clusterGuides";
 import {
   getIntelligentRelatedDreams,
   getReadingTime,
 } from "@/lib/dreamEngagement";
-import { getCanonicalDreamSlug, getDreamRobots } from "@/lib/seo";
+import { createPageMetadata, getCanonicalDreamPath, getCanonicalDreamSlug, getDreamRobots } from "@/lib/seo";
 import JumpToNavigation from "@/app/components/JumpToNavigation";
 import DreamCompassPageCTA from "@/components/DreamCompassPageCTA";
 import DreamReaderTools from "@/components/DreamReaderTools";
@@ -99,18 +101,19 @@ export async function generateMetadata({ params } = {}) {
   const canonicalSlug = normalizeSlug(getCanonicalDreamSlug(dream, metadataSlug));
 
   const dynamicTitle = getDynamicDreamTitle(title, dream);
+  const metadataTitle = `${dynamicTitle} | DreamScriptures`.length > 70
+    ? { absolute: dynamicTitle }
+    : dynamicTitle;
 
   return {
-    title: dynamicTitle,
-    description,
+    ...createPageMetadata({
+      title: metadataTitle,
+      ogTitle: dynamicTitle,
+      description,
+      path: getCanonicalDreamPath(dream, canonicalSlug),
+      type: "article",
+    }),
     robots: getDreamRobots(dream),
-    alternates: {
-      canonical: `https://www.dreamscriptures.com/dreams/${canonicalSlug}`,
-    },
-
-     openGraph: {
-      url: `https://www.dreamscriptures.com/dreams/${canonicalSlug}`,
-    },
   };
 }
 
@@ -144,9 +147,7 @@ function DescriptionBlocks({
               {" "}
               Similar themes can appear in{" "}
               <Link
-                href={`/dreams/${normalizeSlug(
-                  relatedDream.slug || relatedDream.title
-                )}`}
+                href={getDreamHref(relatedDream)}
                 className="underline underline-offset-4 hover:text-[#C6A96B] transition-colors"
               >
                 {relatedDream.title.toLowerCase()}
@@ -262,7 +263,6 @@ function BehavioralInsightsSection({ dream }) {
 
   return (
     <Fragment>
-      <AdsterraNativeBanner />
       <section
         id="behavioral-insights"
         className="mt-16 scroll-mt-28 border-t border-[#EAE6E1] pt-10"
@@ -973,14 +973,10 @@ function getDreamContext(dream) {
 
  {dreamCategories.length > 0 && (
           <nav className="mb-8 flex flex-wrap gap-2">
-            {dreamCategories.map((cat) => (
-              <Link
-                key={cat}
-                href={`/categories/${normalizeSlug(cat)}`}
-                className="inline-block text-xs tracking-wide px-4 py-1.5 border border-[#EAE6E1] rounded-full text-[#6B6B6B] hover:border-[#C6A96B] transition capitalize"
-              >
-                {cat}
-              </Link>
+            {dreamCategories.map((cat) => hasCategoryRoute(cat) ? (
+              <Link key={cat} href={getCategoryHref(cat)} className="inline-block text-xs tracking-wide px-4 py-1.5 border border-[#EAE6E1] rounded-full text-[#6B6B6B] hover:border-[#C6A96B] transition capitalize">{cat}</Link>
+            ) : (
+              <span key={cat} className="inline-block text-xs tracking-wide px-4 py-1.5 border border-[#EAE6E1] rounded-full text-[#6B6B6B] capitalize">{cat}</span>
             ))}
           </nav>
         )}
@@ -1097,7 +1093,7 @@ function getDreamContext(dream) {
               {exploreThemes.map((cat) => (
                 <Link
                   key={cat}
-                  href={`/categories/${normalizeSlug(cat)}`}
+                  href={getCategoryHref(cat)}
                   className="text-sm px-4 py-2 border border-[#EAE6E1] rounded-full text-[#6B6B6B] hover:border-[#C6A96B] transition capitalize"
                 >
                   {formatCategory(cat)}

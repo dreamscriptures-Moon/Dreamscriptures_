@@ -157,6 +157,32 @@ export const dreamCompassContexts = [
   "Prefer not to say",
 ];
 
+export const dreamCompassLingeringOptions = [
+  "A vivid image or scene",
+  "A particular person",
+  "A feeling",
+  "A thought or question",
+  "A word or conversation",
+  "An object or symbol",
+  "The overall atmosphere",
+  "Something felt unresolved",
+  "Something felt meaningful",
+  "I'm not sure",
+];
+
+export const dreamCompassIntentions = [
+  "Something I need to understand",
+  "Something I need to let go of",
+  "Something I'm afraid of",
+  "Something I'm hoping for",
+  "Something I need to pay attention to",
+  "Something from my past",
+  "A change I'm moving through",
+  "A relationship or connection",
+  "I have no idea yet",
+  "I'm just curious",
+];
+
 export const dreamCompassPerspectives = [
   { value: "balanced", label: "All perspectives", description: "Begin with the emotional, symbolic, everyday, and spiritual threads together." },
   { value: "emotional", label: "The emotional side", description: "Stay close to the mood of the dream and the pressure it may be carrying." },
@@ -184,6 +210,80 @@ export const dreamCompassEmotionRoutes = {
   "Not sure": [],
   "Something else": [],
   "I don't remember": [],
+};
+
+// These routes point only to entries in the existing emotionalHubs registry.
+// They connect Compass signals to the established /emotions experience rather
+// than introducing a second emotion taxonomy.
+export const dreamCompassEmotionHubRoutes = {
+  Afraid: ["fear", "fear-of-losing-control"],
+  Calm: ["peace"],
+  Confused: ["panic-and-confusion", "uncertainty"],
+  Trapped: ["feeling-trapped"],
+  Relieved: ["emotional-healing", "moving-forward"],
+  Curious: ["self-discovery"],
+  Ashamed: ["fear-of-judgment", "self-worth"],
+  Angry: ["inner-conflict", "protecting-yourself"],
+  Grieving: ["grief"],
+  Hopeful: ["new-beginnings", "moving-forward"],
+  "Spiritually unsettled": ["uncertainty"],
+  "Emotionally numb": ["emotional-disconnection", "detachment"],
+  "Mixed feelings": ["inner-conflict"],
+  "Not sure": ["uncertainty"],
+  "Something else": ["self-discovery"],
+  "I don't remember": ["uncertainty"],
+};
+
+export const dreamCompassLingeringEmotionRoutes = {
+  "A vivid image or scene": [],
+  "A particular person": ["relationship-confusion"],
+  "A feeling": [],
+  "A thought or question": ["uncertainty"],
+  "A word or conversation": ["unspoken-feelings"],
+  "An object or symbol": [],
+  "The overall atmosphere": [],
+  "Something felt unresolved": ["unresolved-problems"],
+  "Something felt meaningful": ["self-discovery"],
+  "I'm not sure": ["uncertainty"],
+};
+
+export const dreamCompassIntentionEmotionRoutes = {
+  "Something I need to understand": ["self-discovery"],
+  "Something I need to let go of": ["letting-go"],
+  "Something I'm afraid of": ["fear"],
+  "Something I'm hoping for": ["new-beginnings"],
+  "Something I need to pay attention to": ["uncertainty"],
+  "Something from my past": ["nostalgia"],
+  "A change I'm moving through": ["life-transition"],
+  "A relationship or connection": ["relationship-confusion"],
+  "I have no idea yet": ["uncertainty"],
+  "I'm just curious": ["self-discovery"],
+};
+
+export const dreamCompassLingeringDreamRoutes = {
+  "A vivid image or scene": [],
+  "A particular person": ["ex-partner", "seeing-someone-you-miss", "someone-dying"],
+  "A feeling": [],
+  "A thought or question": ["being-lost", "being-in-an-unknown-place"],
+  "A word or conversation": ["confrontation-argument", "arguing-with-your-ex", "being-unable-to-scream"],
+  "An object or symbol": [],
+  "The overall atmosphere": ["darkness", "calm-water", "evil-presence"],
+  "Something felt unresolved": ["being-trapped", "being-lost", "ex-partner"],
+  "Something felt meaningful": ["bright-light-in-the-sky", "seeing-god", "rainbow"],
+  "I'm not sure": [],
+};
+
+export const dreamCompassIntentionDreamRoutes = {
+  "Something I need to understand": ["different-reflection-in-the-mirror", "secret-room", "being-lost"],
+  "Something I need to let go of": ["ex-partner", "death", "watching-a-train-or-plane-leave"],
+  "Something I'm afraid of": ["chased", "being-trapped", "being-attacked"],
+  "Something I'm hoping for": ["the-future", "rainbow", "pregnant"],
+  "Something I need to pay attention to": ["being-watched", "reading-an-ancient-scroll", "being-lost"],
+  "Something from my past": ["ex-partner", "meeting-someone-from-your-past", "seeing-someone-you-miss"],
+  "A change I'm moving through": ["the-future", "moving-to-a-new-house", "butterfly"],
+  "A relationship or connection": ["ex-partner", "marriage", "being-rejected"],
+  "I have no idea yet": [],
+  "I'm just curious": ["secret-room", "discovering-new-rooms-in-a-house", "being-in-outer-space"],
 };
 
 export const dreamCompassContextRoutes = {

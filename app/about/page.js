@@ -2,18 +2,14 @@ import Link from "next/link";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title:
-    "About DreamScriptures | Dream Meanings, Symbolism & Interpretation",
-
+export const metadata = createPageMetadata({
+  title: "About DreamScriptures",
   description:
     "Learn about DreamScriptures, its independent editorial approach, interpretation methodology, sources, and limits.",
-
-  alternates: {
-    canonical: "https://www.dreamscriptures.com/about",
-  },
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

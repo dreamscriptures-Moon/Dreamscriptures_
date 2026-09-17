@@ -9,12 +9,13 @@ import { emotionalHubs } from "@/data/emotionalHubs";
 import { getDreamHref } from "@/lib/routes";
 import { getCategoryEntries, getRelevantGuides } from "@/lib/editorialDiscovery";
 import { Breadcrumbs, DreamPreviewGrid, FAQSection, GuideLinks, SectionHeading } from "@/app/components/EditorialDiscovery";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Dream Categories: Explore Dream Meanings by Theme",
   description: "Browse the DreamScriptures dream meaning atlas by theme, including emotions, relationships, transformation, animals, water, identity, and more.",
-  alternates: { canonical: "/categories" },
-};
+  path: "/categories",
+});
 
 export default function CategoriesPage() {
   const categories = getCategoryEntries();

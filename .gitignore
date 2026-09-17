@@ -15,3 +15,28 @@ next-env.d.ts
 .env.local
 .env
 .vercel
+
+# Generated audit/crawl outputs (keep reusable scripts and curated archives)
+/.seo-*
+/reports/
+/coverage/
+/test-results/
+/playwright-report/
+
+# Local caches and logs
+.cache/
+.eslintcache
+*.tsbuildinfo
+*.log
+
+# Local environment variants; retain the documented template
+.env.*
+!.env.example
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~

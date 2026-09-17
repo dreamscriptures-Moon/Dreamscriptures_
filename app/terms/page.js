@@ -2,15 +2,14 @@ import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Terms of Use | DreamScriptures",
+export const metadata = createPageMetadata({
+  title: "Terms of Use",
   description:
     "Read the Terms of Use governing your access to DreamScriptures, including dream interpretations, community submissions, premium services, and user responsibilities.",
-  alternates: {
-    canonical: "https://www.dreamscriptures.com/terms",
-  },
-};
+  path: "/terms",
+});
 
 export default function TermsPage() {
   return (

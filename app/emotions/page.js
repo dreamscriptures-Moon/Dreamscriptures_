@@ -5,8 +5,9 @@ import { featuredEmotions } from "@/data/featuredEmotions";
 import { dreams } from "@/data/dreams";
 import { getEmotionEntries, getRelevantGuides } from "@/lib/editorialDiscovery";
 import { Breadcrumbs, DreamPreviewGrid, FAQSection, GuideLinks, SectionHeading } from "@/app/components/EditorialDiscovery";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = { title: "Dream Emotions: Explore Dreams by Feeling", description: "Explore dream meanings through fear, love, overwhelm, peace, grief, growth, and the emotional patterns represented in DreamScriptures data.", alternates: { canonical: "/emotions" } };
+export const metadata = createPageMetadata({ title: "Dream Emotions: Explore Dreams by Feeling", description: "Explore dream meanings through fear, love, overwhelm, peace, grief, growth, and the emotional patterns represented in DreamScriptures data.", path: "/emotions" });
 
 export default function EmotionsPage() {
   const emotions = getEmotionEntries();

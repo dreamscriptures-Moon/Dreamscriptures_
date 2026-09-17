@@ -6,22 +6,15 @@ import Link from "next/link";
 import LazyMobileQuickNav from "../components/LazyMobileQuickNav";
 import { getDreamHref } from "@/lib/routes";
 import SavedDreamsPanel from "@/components/SavedDreamsPanel";
+import { createPageMetadata } from "@/lib/seo";
+import { normalizeCategory } from "@/lib/dreams";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Dream Dictionary: Explore Dream Meanings",
   description:
     "Browse the DreamScriptures dream dictionary by symbol, theme, category, and emotional pattern.",
-  alternates: { canonical: "/dreams" },
-};
-
-function normalizeCategory(cat = "") {
-  const c = cat.toLowerCase().trim();
-
-  if (c === "relationships") return "relationship";
-  if (c === "emotions") return "emotion";
-
-  return c;
-}
+  path: "/dreams",
+});
 
 function formatCategory(cat) {
   return cat.charAt(0).toUpperCase() + cat.slice(1);
@@ -185,10 +178,10 @@ Search for a dream symbol, browse by category, or explore related themes to disc
     </h2>
 
     <Link
-      href="/dreams"
+      href="/guides/discover"
       className="text-sm text-[#8F743C] hover:underline"
     >
-      View All →
+      Explore Curated Dreams →
     </Link>
 
   </div>

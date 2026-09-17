@@ -3,22 +3,17 @@ import Link from "next/link";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import DreamSubmissionForm from "./DreamSubmissionForm";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Submit Your Dream",
   description:
     "Share your dream with DreamScriptures, including the emotions, symbols, and details you remember.",
-  alternates: {
-    canonical: "/submit-dream",
-  },
-  openGraph: {
-    title: "Share Your Dream | DreamScriptures",
-    description:
-      "Describe your dream and share the emotions, symbols, and details you remember.",
-    url: "/submit-dream",
-    type: "website",
-  },
-};
+  path: "/submit-dream",
+  ogTitle: "Share Your Dream | DreamScriptures",
+  ogDescription:
+    "Describe your dream and share the emotions, symbols, and details you remember.",
+});
 
 const structuredData = {
   "@context": "https://schema.org",

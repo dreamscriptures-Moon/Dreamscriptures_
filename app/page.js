@@ -18,29 +18,17 @@ import {
 import { getAllGuideEntries } from "@/lib/guideCatalog";
 import { getDreamBySlug } from "@/lib/dreams";
 import { getDreamHref } from "@/lib/routes";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Dream Meanings & Thoughtful Dream Interpretation",
   description:
     "Explore dream meanings through symbolism, emotions, spiritual reflection, and personal context with thoughtful, non-predictive dream interpretation.",
-  alternates: {
-    canonical: "/",
-  },
-  openGraph: {
-    title: "Dream Meanings & Thoughtful Dream Interpretation | DreamScriptures",
-    description:
-      "Explore dream symbolism, emotional patterns, spiritual reflection, and personal context without fixed or fearful conclusions.",
-    url: "https://www.dreamscriptures.com",
-    siteName: "DreamScriptures",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Dream Meanings & Thoughtful Dream Interpretation | DreamScriptures",
-    description:
-      "Explore dream symbolism, emotional patterns, spiritual reflection, and personal context without fixed or fearful conclusions.",
-  },
-};
+  path: "/",
+  ogTitle: "Dream Meanings & Thoughtful Dream Interpretation | DreamScriptures",
+  ogDescription:
+    "Explore dream symbolism, emotional patterns, spiritual reflection, and personal context without fixed or fearful conclusions.",
+});
 
 // Refresh the statically generated homepage often enough for the UTC-based
 // Dream of the Day to advance without requiring a deployment.

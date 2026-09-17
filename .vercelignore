@@ -1,0 +1,32 @@
+# Development/reference material stays in Git, outside deployment uploads.
+/archive/
+/docs/
+/reports/
+/scripts/
+/.history/
+/.agents/
+/.vscode/
+/skills-lock.json
+/README.md
+/.editorconfig
+
+# Local audit output, test artifacts, caches, and logs.
+/.seo-*
+/coverage/
+/test-results/
+/playwright-report/
+.cache/
+.eslintcache
+*.tsbuildinfo
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Environment values belong in the Vercel project configuration.
+.env
+.env.*
+!.env.example

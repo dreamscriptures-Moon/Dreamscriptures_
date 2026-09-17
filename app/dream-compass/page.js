@@ -3,17 +3,24 @@ import SiteHeader from "@/app/components/SiteHeader";
 import {
   dreamCompassContextRoutes,
   dreamCompassEmotionRoutes,
+  dreamCompassEmotionHubRoutes,
+  dreamCompassIntentionDreamRoutes,
+  dreamCompassIntentionEmotionRoutes,
+  dreamCompassLingeringDreamRoutes,
+  dreamCompassLingeringEmotionRoutes,
   dreamCompassSubjects,
 } from "@/data/dreamCompass";
 import { dreams } from "@/data/dreams";
+import { emotionalHubs } from "@/data/emotionalHubs";
 import DreamCompass from "./DreamCompass";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Dream Compass | Find Meaning in Your Dream",
   description:
     "Use what you remember about the dream and how it felt to find a DreamScriptures reading that fits your experience.",
-  alternates: { canonical: "/dream-compass" },
-};
+  path: "/dream-compass",
+});
 
 function firstText(...values) {
   return values.find((value) => typeof value === "string" && value.trim()) || "";
@@ -119,15 +126,33 @@ export default function DreamCompassPage() {
   Object.values(dreamCompassContextRoutes).forEach((slugs) =>
     slugs.forEach((slug) => candidateSlugs.add(slug))
   );
+  Object.values(dreamCompassLingeringDreamRoutes).forEach((slugs) =>
+    slugs.forEach((slug) => candidateSlugs.add(slug))
+  );
+  Object.values(dreamCompassIntentionDreamRoutes).forEach((slugs) =>
+    slugs.forEach((slug) => candidateSlugs.add(slug))
+  );
 
   const profiles = [...candidateSlugs]
     .map((slug) => createProfile(slug, subjectBySlug))
     .filter(Boolean);
 
+  const emotionSlugs = new Set([
+    ...Object.values(dreamCompassEmotionHubRoutes).flat(),
+    ...Object.values(dreamCompassLingeringEmotionRoutes).flat(),
+    ...Object.values(dreamCompassIntentionEmotionRoutes).flat(),
+  ]);
+  const emotionProfiles = [...emotionSlugs]
+    .map((slug) => {
+      const emotion = emotionalHubs[slug];
+      return emotion ? { slug, title: emotion.title, intro: emotion.intro } : null;
+    })
+    .filter(Boolean);
+
   return (
     <main className="min-h-screen bg-[#F7F5F2] text-[#1A1A1A]">
       <SiteHeader />
-      <DreamCompass profiles={profiles} />
+      <DreamCompass profiles={profiles} emotionProfiles={emotionProfiles} />
       <SiteFooter />
     </main>
   );

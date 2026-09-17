@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { Search, BookOpen, MoonStar, Sparkles, Brain, BookMarked, ArrowRight } from "lucide-react";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Dream Interpretation FAQ | DreamScriptures",
+export const metadata = createPageMetadata({
+  title: "Dream Interpretation FAQ",
   description:
     "Find answers to the most common questions about dreams, dream interpretation, symbolism, biblical meaning, recurring dreams, nightmares, and more.",
-};
+  path: "/faq",
+});
 
 const popularDreams = [
   { title: "Snake Dream", href: "/dreams/snake" },
@@ -13,7 +15,7 @@ const popularDreams = [
   { title: "Teeth Falling Out", href: "/dreams/teeth-falling-out" },
   { title: "Flying Dream", href: "/dreams/flying" },
   { title: "Money Dream", href: "/dreams/money" },
-  { title: "Pregnancy Dream", href: "/dreams/pregnancy" },
+  { title: "Pregnancy Dream", href: "/dreams/pregnant" },
 ];
 
 const quickLinks = [

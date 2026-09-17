@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
+import { isAdFreeRoute } from "@/lib/advertising";
 
 const DESKTOP_MEDIA_QUERY = "(min-width: 800px)";
 
@@ -95,6 +97,7 @@ function MobileDisplayBanner() {
 }
 
 export default function DisplayBanner() {
+  const pathname = usePathname();
   const [format, setFormat] = useState(null);
 
   useEffect(() => {
@@ -111,6 +114,7 @@ export default function DisplayBanner() {
     };
   }, []);
 
+  if (isAdFreeRoute(pathname)) return null;
   if (format === "desktop") return <DesktopDisplayBanner />;
   if (format === "mobile") return <MobileDisplayBanner />;
   return null;

@@ -6,13 +6,15 @@ import { emotionalHubs } from "@/data/emotionalHubs";
 import { dreams } from "@/data/dreams";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import { getDreamBySlug, shorten, uniqueDreams } from "@/lib/dreams";
+import { createPageMetadata, isDreamIndexable } from "@/lib/seo";
+import { getDreamHref } from "@/lib/routes";
 import { getCategoriesForDreams, getRelevantGuides } from "@/lib/editorialDiscovery";
 import { Breadcrumbs, DreamPreviewGrid, FAQSection, GuideLinks, LinkPills, SectionHeading } from "@/app/components/EditorialDiscovery";
 import ContentSources from "@/app/components/ContentSources";
 
 function getEmotion(slug) { return emotionalHubs[normalizeSlug(slug)]; }
 export function generateStaticParams() { return Object.keys(emotionalHubs).map((slug) => ({ slug })); }
-export async function generateMetadata({ params }) { const slug = normalizeSlug((await params)?.slug); const emotion = getEmotion(slug); if (!emotion) return {}; return { title: `Dreams About ${emotion.title} | Dream Meaning & Interpretation`, description: shorten(emotion.intro, 160), alternates: { canonical: `/emotions/${slug}` } }; }
+export async function generateMetadata({ params }) { const slug = normalizeSlug((await params)?.slug); const emotion = getEmotion(slug); if (!emotion) return {}; return createPageMetadata({ title: `Dreams About ${emotion.title}`, description: shorten(emotion.intro, 160), path: `/emotions/${slug}` }); }
 
 function toParagraphs(items = []) { return items.filter(Boolean).slice(0, 4); }
 
@@ -22,7 +24,7 @@ export default async function EmotionPage({ params }) {
   if (!emotion) notFound();
   const explicitDreams = (emotion.connectedDreams || []).map((dreamSlug) => getDreamBySlug(dreamSlug, dreams)).filter(Boolean);
   const relatedDreams = dreams.filter((dream) => dream.emotionalConnections?.includes(slug));
-  const connectedDreams = uniqueDreams([...explicitDreams, ...relatedDreams]);
+  const connectedDreams = uniqueDreams([...explicitDreams, ...relatedDreams].filter(isDreamIndexable));
   const categories = getCategoriesForDreams(connectedDreams);
   const relatedEmotions = (emotion.relatedHubs || []).map((relatedSlug) => ({ slug: relatedSlug, ...emotionalHubs[relatedSlug] })).filter((item) => item.title);
   const guides = getRelevantGuides([emotion.title, emotion.domain, ...(emotion.emotionalThemes || []), "interpret"], 3);
@@ -59,6 +61,6 @@ export default async function EmotionPage({ params }) {
       {guides.length > 0 && <section className="border-t border-[#ded7cd] py-16"><SectionHeading title="Related Dream Guides" /><GuideLinks guides={guides} /></section>}
       {faqs.length > 0 && <FAQSection items={faqs} />}
       <ContentSources sources={emotion.sources} />
-      {connectedDreams.length > 8 && <section className="pb-20"><SectionHeading title="Explore More Dream Meanings" /><div className="mt-7 flex flex-wrap gap-3">{connectedDreams.slice(8).map((dream) => <Link key={dream.slug} href={`/dreams/${normalizeSlug(dream.slug)}`} className="rounded-full border border-[#d9d0c4] bg-white/60 px-4 py-2 text-sm hover:border-[#b89b62]">{dream.title}</Link>)}</div></section>}
+      {connectedDreams.length > 8 && <section className="pb-20"><SectionHeading title="Explore More Dream Meanings" /><div className="mt-7 flex flex-wrap gap-3">{connectedDreams.slice(8).map((dream) => <Link key={dream.slug} href={getDreamHref(dream)} className="rounded-full border border-[#d9d0c4] bg-white/60 px-4 py-2 text-sm hover:border-[#b89b62]">{dream.title}</Link>)}</div></section>}
     </div></article><SiteFooter /></main>;
 }

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getDreamHref } from "@/lib/routes";
 import SearchBar from "@/app/components/SearchBar";
 import GuideCopyLink from "@/app/components/guides/GuideCopyLink";
 import GuideTableOfContents from "@/app/components/guides/GuideTableOfContents";
@@ -27,7 +28,7 @@ export function GuideCardGrid({ title, items = [], type = "guide" }) {
   if (!items.length) return null;
   return <section className="border-t border-[#E2DCD3] pt-12"><h2 className="mb-6 font-serif text-3xl text-[#1A1A1A]">{title}</h2><div className="grid gap-4 sm:grid-cols-2">{items.map((item) => {
     const slug = item.slug || item.href?.split("/").filter(Boolean).at(-1);
-    const href = item.href || `/${type === "dream" ? "dreams" : "guides"}/${slug}`;
+    const href = type === "dream" ? getDreamHref(item) : item.href || `/guides/${slug}`;
     return <Link key={href} href={href} className="rounded-2xl border border-[#E2DCD3] bg-white p-5 transition hover:-translate-y-0.5 hover:border-[#B79B5E] hover:shadow-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]"><h3 className="font-serif text-xl text-[#1A1A1A]">{item.title}</h3>{(item.description || item.summary) && <p className="mt-2 line-clamp-3 text-sm leading-6 text-[#6B6B6B]">{item.description || item.summary}</p>}</Link>;
   })}</div></section>;
 }

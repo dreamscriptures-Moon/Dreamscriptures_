@@ -1,15 +1,14 @@
 import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Editorial Standards | DreamScriptures",
+export const metadata = createPageMetadata({
+  title: "Editorial Standards",
   description:
     "Learn how DreamScriptures develops, reviews, sources, and updates reflective dream interpretation content with clear limits.",
-  alternates: {
-    canonical: "https://www.dreamscriptures.com/editorial-standards",
-  },
-};
+  path: "/editorial-standards",
+});
 
 export default function EditorialStandardsPage() {
   return (

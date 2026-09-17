@@ -2,15 +2,14 @@ import Link from "next/link";
 
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "DreamScriptures Methodology | How Dream Meanings Are Interpreted",
+export const metadata = createPageMetadata({
+  title: "How DreamScriptures Interprets Dreams",
   description:
     "Learn how DreamScriptures interprets dreams through emotional context, symbolic relationships, behavioral insight, recurring patterns, and structured analysis.",
-  alternates: {
-    canonical: "https://www.dreamscriptures.com/methodology",
-  },
-};
+  path: "/methodology",
+});
 
 const principles = [
   {

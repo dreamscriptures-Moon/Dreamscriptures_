@@ -2,15 +2,15 @@ import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
+import { createPageMetadata } from "@/lib/seo";
+import ContactEmail from "@/components/ContactEmail";
 
-export const metadata = {
-  title: "Amber Balentine | Founder & Editor | DreamScriptures",
+export const metadata = createPageMetadata({
+  title: "Amber Balentine, Founder and Editor",
   description:
     "Learn about Amber Balentine, founder and editor of DreamScriptures, and the emotional interpretation framework behind the site's dream meanings and symbolism.",
-  alternates: {
-    canonical: "https://www.dreamscriptures.com/author",
-  },
-};
+  path: "/author",
+});
 
 export default function AuthorPage() {
   const personSchema = {
@@ -319,7 +319,7 @@ DreamScriptures continues to grow through ongoing research,
 careful writing and community feedback.</p>
 
             <p className="mt-6">
-              Email: dreamscriptures@gmail.com
+              Email: <ContactEmail />
             </p>
 
             <p className="mt-6">

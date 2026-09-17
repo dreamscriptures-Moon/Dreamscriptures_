@@ -1,6 +1,7 @@
 import { dreams } from "@/data/dreams";
 import { emotionalHubs } from "@/data/emotionalHubs";
 import { getAllGuideEntries } from "@/lib/guideCatalog";
+import { getCategoryEntries } from "@/lib/editorialDiscovery";
 import { getAuthorityPriority } from "@/lib/emotions/authority";
 import { normalizeSlug } from "@/lib/normalizeSlug";
 import { getCanonicalDreamSlug, isDreamIndexable } from "@/lib/seo";
@@ -91,6 +92,7 @@ function getDreamPriority(dream) {
 const STATIC_PAGES = [
   ["/", "daily", 1.0],
   ["/dreams", "weekly", 0.95],
+  ["/guides/discover", "monthly", 0.85],
   ["/dream-compass", "monthly", 0.9],
   ["/categories", "weekly", 0.9],
   ["/emotions", "weekly", 0.9],
@@ -151,12 +153,9 @@ export default function sitemap() {
     )
   );
 
-  const categories = [
-    ...new Set(indexedDreams.flatMap((dream) => dream.categories || [])),
-  ];
-  const categoryPages = categories.map((category) =>
+  const categoryPages = getCategoryEntries().map((category) =>
     createEntry(
-      `/categories/${normalizeSlug(category)}`,
+      `/categories/${category.slug}`,
       { changeFrequency: "weekly", priority: 0.8 }
     )
   );

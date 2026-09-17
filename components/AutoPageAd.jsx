@@ -4,12 +4,17 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { usePathname } from "next/navigation";
 import AdsterraNativeBanner from "@/components/AdsterraNativeBanner";
+import { isAdFreeRoute } from "@/lib/advertising";
 
 const DREAM_DETAIL_ROUTE = /^\/dreams\/[^/]+\/?$/;
 const TARGET_PAGE_RATIO = 0.3;
 
 function hasManualNativeBannerPlacement(pathname) {
   return DREAM_DETAIL_ROUTE.test(pathname) || pathname === "/dream-compass";
+}
+
+function shouldSuppressAutoAd(pathname) {
+  return hasManualNativeBannerPlacement(pathname) || isAdFreeRoute(pathname);
 }
 
 function isSafeBoundary(element, main) {
@@ -54,7 +59,7 @@ export default function AutoPageAd() {
   const [portalHost, setPortalHost] = useState(null);
 
   useEffect(() => {
-    if (hasManualNativeBannerPlacement(pathname)) return undefined;
+    if (shouldSuppressAutoAd(pathname)) return undefined;
 
     let host;
     const frame = window.requestAnimationFrame(() => {
@@ -63,6 +68,7 @@ export default function AutoPageAd() {
 
       host = document.createElement("div");
       host.dataset.autoPageAd = "true";
+      host.dataset.autoPageAdPath = pathname;
 
       const boundary = findPlacementBoundary(main);
       if (boundary?.parentNode) {
@@ -80,7 +86,11 @@ export default function AutoPageAd() {
     };
   }, [pathname]);
 
-  if (!portalHost || hasManualNativeBannerPlacement(pathname)) return null;
+  if (
+    !portalHost?.isConnected ||
+    portalHost.dataset.autoPageAdPath !== pathname ||
+    shouldSuppressAutoAd(pathname)
+  ) return null;
 
   const isMainChild = portalHost.parentElement?.tagName === "MAIN";
   return createPortal(

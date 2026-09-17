@@ -2,6 +2,7 @@ import Link from "next/link";
 import GuideLayout from "@/app/components/guides/GuideLayout";
 import SearchBar from "@/app/components/SearchBar";
 import { createMetadataFromGuide } from "@/lib/guideExperience";
+import { getDreamHref } from "@/lib/routes";
 
 const guideInfo = { slug: "types-of-dreams", title: "12 Types of Dreams: Meanings, Causes & Common Signs", category: "Dream Basics Pillar Guide", description: "Explore 12 common types of dreams, including recurring dreams, nightmares, lucid dreams, false awakenings, prophetic dreams, and anxiety dreams.", quickInsight: "Dream types overlap. Interpret the pattern, emotional atmosphere, and personal context together.", actions: ["Record the strongest emotion before interpreting symbols.", "Notice repeated settings, conflicts, or waking concerns.", "Compare the dream with current stress, relationships, memory, and beliefs."], readingTime: 16 };
 export const metadata = createMetadataFromGuide(guideInfo);
@@ -12,7 +13,7 @@ const dreamTypes = [
     explanation: "Ordinary dreams are the shifting stories most people experience during sleep. They may blend recent events, familiar people, old memories, imagined places, and emotions without forming an obvious message or repeating pattern.",
     why: "They may emerge as the sleeping brain organizes memory, emotion, and new information. Everyday concerns can be recombined through association rather than waking logic.",
     characteristics: ["Familiar people or places", "Loose or rapidly changing plots", "Fragments of recent experiences", "Details that fade soon after waking"],
-    dreams: [["Flying", "/dreams/flying"], ["Falling", "/dreams/falling"], ["Snakes", "/dreams/snakes"]],
+    dreams: [["Flying", "/dreams/flying"], ["Falling", "/dreams/falling"], ["Snakes", "/dreams/snake"]],
     guides: [["What are dreams?", "/guides/what-are-dreams"], ["Why we dream", "/guides/why-we-dream"]],
   },
   {
@@ -20,7 +21,7 @@ const dreamTypes = [
     explanation: "Recurring dreams repeat the same story, setting, symbol, or emotional conflict across different nights. The details may change while the central tension remains recognizable.",
     why: "They are often associated with continuing stress, unresolved emotion, persistent concerns, or a pattern the dreamer has not fully processed. Repetition does not prove a fixed meaning, but it makes context especially important.",
     characteristics: ["A repeated place, person, or problem", "A familiar ending or emotional tone", "Return during stressful periods", "Strong recognition while dreaming or waking"],
-    dreams: [["Being chased", "/dreams/being-chased"], ["Teeth falling out", "/dreams/teeth-falling-out"], ["Falling", "/dreams/falling"]],
+    dreams: [["Being chased", "/dreams/chased"], ["Teeth falling out", "/dreams/teeth-falling-out"], ["Falling", "/dreams/falling"]],
     guides: [["Recurring dreams", "/guides/recurring-dreams"], ["Interpreting dream symbols", "/guides/how-to-interpret-dream-symbols"]],
   },
   {
@@ -28,7 +29,7 @@ const dreamTypes = [
     explanation: "Nightmares are distressing dreams that produce fear, grief, disgust, helplessness, or danger and may wake the dreamer. Their emotional force can remain after the storyline fades.",
     why: "Stress, trauma, illness, medication, disrupted sleep, and frightening waking experiences can influence nightmares. Frequent nightmares that impair sleep deserve support from a qualified health professional.",
     characteristics: ["Threat or loss of control", "Vivid fear and physical arousal", "Sudden awakening", "Clearer recall than many ordinary dreams"],
-    dreams: [["Death", "/dreams/death"], ["Drowning", "/dreams/drowning"], ["Being chased", "/dreams/being-chased"]],
+    dreams: [["Death", "/dreams/death"], ["Drowning", "/dreams/drowning"], ["Being chased", "/dreams/chased"]],
     guides: [["Nightmares meaning", "/guides/nightmares-meaning"], ["Dreams and emotions", "/guides/dreams-and-emotions"]],
   },
   {
@@ -92,7 +93,7 @@ const dreamTypes = [
     explanation: "Wish fulfillment dreams portray a wanted reunion, achievement, relationship, escape, or opportunity. The idea is associated with Freud, though modern dream theories do not treat all dreams as disguised wishes.",
     why: "Longing, anticipation, imagination, and unmet emotional needs can supply dream material. Sometimes the dream explores the emotional consequences of a wish rather than simply granting it.",
     characteristics: ["Receiving something deeply wanted", "Reuniting with a significant person", "Success without waking obstacles", "Pleasure mixed with loss after waking"],
-    dreams: [["Ex-partner", "/dreams/ex-partner"], ["Flying", "/dreams/flying"], ["Pregnancy", "/dreams/pregnancy"]],
+    dreams: [["Ex-partner", "/dreams/ex-partner"], ["Flying", "/dreams/flying"], ["Pregnancy", "/dreams/pregnant"]],
     guides: [["Psychological dreams", "/guides/psychological-dreams"], ["The subconscious mind", "/guides/subconscious-mind-dreams"]],
   },
   {
@@ -100,7 +101,7 @@ const dreamTypes = [
     explanation: "Anxiety dreams center on pressure, embarrassment, unreadiness, danger, or loss of control. Common scenarios include being late, unprepared, chased, exposed, or unable to complete an urgent task.",
     why: "Waking stress and anticipatory worry can remain active during sleep. The dream may simulate a feared outcome or translate diffuse tension into a concrete situation.",
     characteristics: ["Urgency without progress", "Being late, lost, or unprepared", "Repeated obstacles", "Relief followed by lingering tension"],
-    dreams: [["Being chased", "/dreams/being-chased"], ["Teeth falling out", "/dreams/teeth-falling-out"], ["Falling", "/dreams/falling"]],
+    dreams: [["Being chased", "/dreams/chased"], ["Teeth falling out", "/dreams/teeth-falling-out"], ["Falling", "/dreams/falling"]],
     guides: [["Psychological dreams", "/guides/psychological-dreams"], ["Nightmares meaning", "/guides/nightmares-meaning"]],
   },
 ];
@@ -127,7 +128,7 @@ export default function TypesOfDreamsPage() {
         <p className="mb-2 text-xs uppercase tracking-[0.18em] text-[#9A7B3F]">Type {index + 1}</p><h2 className="mb-6 font-serif text-3xl text-[#1A1A1A] md:text-4xl">{type.title}</h2>
         <h3 className="mb-2 font-serif text-xl">What it is</h3><p className="mb-6 leading-relaxed">{type.explanation}</p><h3 className="mb-2 font-serif text-xl">Why it may happen</h3><p className="mb-6 leading-relaxed">{type.why}</p>
         <h3 className="mb-3 font-serif text-xl">Common characteristics</h3><ul className="mb-7 list-disc space-y-2 pl-6">{type.characteristics.map((item) => <li key={item}>{item}</li>)}</ul>
-        <div className="grid gap-4 md:grid-cols-2"><div className="rounded-xl bg-white p-5"><h3 className="mb-3 font-serif text-lg">Related dream meanings</h3>{type.dreams.map(([label, href]) => <Link className="block py-1 underline" href={href} key={href}>{label}</Link>)}</div><div className="rounded-xl bg-white p-5"><h3 className="mb-3 font-serif text-lg">Continue learning</h3>{type.guides.map(([label, href]) => <Link className="block py-1 underline" href={href} key={href}>{label}</Link>)}</div></div>
+        <div className="grid gap-4 md:grid-cols-2"><div className="rounded-xl bg-white p-5"><h3 className="mb-3 font-serif text-lg">Related dream meanings</h3>{type.dreams.map(([label, href]) => <Link className="block py-1 underline" href={getDreamHref(href.split("/").at(-1))} key={href}>{label}</Link>)}</div><div className="rounded-xl bg-white p-5"><h3 className="mb-3 font-serif text-lg">Continue learning</h3>{type.guides.map(([label, href]) => <Link className="block py-1 underline" href={href} key={href}>{label}</Link>)}</div></div>
       </section>)}</div>
       <section className="mt-20 border-t border-[#DDD6CC] pt-12"><h2 className="mb-7 font-serif text-3xl text-[#1A1A1A]">Frequently asked questions</h2><div className="space-y-4">{faqs.map((faq) => <details className="rounded-xl border border-[#E2DCD3] bg-white p-5" key={faq.question}><summary className="cursor-pointer font-serif text-lg">{faq.question}</summary><p className="mt-4 leading-relaxed">{faq.answer}</p></details>)}</div></section>
       <section className="mt-16 rounded-2xl bg-white p-8 text-center"><h2 className="mb-3 font-serif text-2xl">Explore your own dream</h2><p className="mb-6 text-[#6B6B6B]">Browse the <Link className="underline" href="/dreams">dream dictionary</Link>, explore <Link className="underline" href="/emotions">dream emotions</Link>, or search below.</p><SearchBar /></section>

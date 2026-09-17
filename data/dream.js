@@ -30314,6 +30314,8 @@ You are stronger than you thought.`,
 {
   slug: "lucid-dreaming",
   title: "Lucid Dreaming",
+  seoStatus: "merged",
+  canonicalPath: "/guides/lucid-dreaming",
 
   microSummary:
     "Lucid dreaming often reflects heightened self-awareness, consciousness, personal control, self-discovery, curiosity, emotional processing, or becoming aware of patterns that normally operate beneath conscious attention.",
@@ -91326,6 +91328,8 @@ What foundation am I building today that will carry me safely into tomorrow?`,
       slug: "lost-in-a-building",
 
   title: "Lost in a building",
+  seoStatus: "merged",
+  canonicalSlug: "being-lost-in-a-building",
 
   microSummary:
     "Dreams about being lost in a building often reflect uncertainty, confusion, life transitions, searching for direction, feeling overwhelmed, identity, emotional complexity, or trying to navigate unfamiliar situations in your waking life.",
@@ -127137,6 +127141,7 @@ Panic may emphasize confinement; impatience may point to delay. If you remain ca
 {
   slug: "being-in-outer-space",
   title: "Being in Outer Space",
+  shortDescription: "Dreaming of being in outer space can place you somewhere vast, unfamiliar, and far removed from ordinary life. The dream may reflect feelings of freedom, isolation, wonder, possibility, or simply the experience of seeing yourself from a completely different perspective.",
   seoTitle: "Being in Outer Space Dream Meaning",
   seoDescription: "Dreaming of outer space may involve wonder, isolation, freedom, uncertainty, spiritual reflection, exploration, or feeling far removed from ordinary life.",
   microSummary: "Outer space removes familiar ground, boundaries, and scale. It can feel liberating, lonely, sacred, or frightening depending on whether you are exploring or drifting without direction.",
@@ -127167,6 +127172,7 @@ Personal associations with science, faith, films, astronomy, and exploration sho
 {
   slug: "seeing-your-future-self",
   title: "Seeing Your Future Self",
+  shortDescription: "Meeting a future version of yourself can make a dream feel strangely vivid and significant. The details of who you saw, what they were doing, and how you felt around them may offer clues about hopes, fears, identity, or the direction you're imagining for your life.",
   seoTitle: "Seeing Your Future Self in a Dream: Meaning",
   seoDescription: "Meeting your future self in a dream may reflect hopes, fears, identity, aging, choices, regret, encouragement, or the person you are becoming.",
   microSummary: "A future version of you can give a face to expectation. Their appearance, character, words, and way of living may reveal what you hope for—or worry current choices could produce.",
@@ -127317,6 +127323,7 @@ Technology is only one possible layer. If the phone works for everyone else, the
 {
   slug: "familiar-place-turned-eerie",
   title: "A Familiar Place Turning Eerie",
+  shortDescription: "A familiar place can feel completely different in a dream, especially when something about it suddenly becomes unsettling. This dream may bring attention to how safety, familiarity, or perspective is changing in your waking life.",
   seoTitle: "Familiar Place Turning Eerie in a Dream: Meaning",
   seoDescription: "When a familiar place becomes eerie in a dream, it may reflect changed relationships, unsettling memories, mistrust, transition, nostalgia, or noticing what no longer feels safe.",
   microSummary: "A school, street, workplace, or home looks almost right, yet its atmosphere has changed. The dream may explore how familiarity can remain after comfort and trust have shifted.",
@@ -127347,6 +127354,7 @@ Recent horror films and games can plainly influence the atmosphere. Even then, t
 {
   slug: "music-playing-from-nowhere",
   title: "Music Playing From Nowhere",
+  shortDescription: "Music playing in a dream without knowing where it is coming from can create an eerie or strangely comforting atmosphere. The meaning may depend on the feeling the music carried and what was happening around it.",
   seoTitle: "Music Playing From Nowhere Dream Meaning",
   seoDescription: "Hearing unexplained music in a dream may reflect memory, emotion, intuition, comfort, suspense, creativity, grief, or a feeling that is difficult to put into words.",
   microSummary: "Music without a visible source can give emotion a presence of its own. The melody, lyrics, volume, and atmosphere matter more than the fact that no musician can be found.",

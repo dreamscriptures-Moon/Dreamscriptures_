@@ -2,15 +2,15 @@ import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
+import { createPageMetadata } from "@/lib/seo";
+import ContactEmail from "@/components/ContactEmail";
 
-export const metadata = {
-  title: "Privacy Policy | DreamScriptures",
+export const metadata = createPageMetadata({
+  title: "Privacy Policy",
   description:
     "Learn how DreamScriptures collects, uses, stores, and protects your information while you explore dream interpretations, submit dreams, and use our services.",
-  alternates: {
-    canonical: "https://www.dreamscriptures.com/privacy",
-  },
-};
+  path: "/privacy",
+});
 
 export default function PrivacyPage() {
   return (
@@ -634,7 +634,7 @@ export default function PrivacyPage() {
 
             <p className="mt-6 text-xl font-medium text-[#1A1A1A]">
 
-              dreamscriptures@gmail.com
+              <ContactEmail />
 
             </p>
 

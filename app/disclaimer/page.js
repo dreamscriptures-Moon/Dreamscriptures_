@@ -1,17 +1,14 @@
 import Link from "next/link";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Disclaimer | DreamScriptures",
-
+export const metadata = createPageMetadata({
+  title: "Dream Interpretation Disclaimer",
   description:
     "Learn about DreamScriptures' educational approach to dream interpretation, our editorial philosophy, and the limitations of dream meanings and personalized interpretations.",
-
-  alternates: {
-    canonical: "https://www.dreamscriptures.com/disclaimer",
-  },
-};
+  path: "/disclaimer",
+});
 
 export default function DisclaimerPage() {
   return (

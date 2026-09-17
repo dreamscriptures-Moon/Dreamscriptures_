@@ -2348,6 +2348,7 @@ related: [
   ],
 
   related: [
+    "dream-rituals",
     "why-we-dream",
     "lucid-dreaming",
     "subconscious-mind-dreams",

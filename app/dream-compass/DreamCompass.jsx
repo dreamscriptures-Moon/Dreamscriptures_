@@ -6,8 +6,15 @@ import {
   dreamCompassContexts,
   dreamCompassContextQuestions,
   dreamCompassEmotions,
+  dreamCompassEmotionHubRoutes,
   dreamCompassEmotionQuestions,
   dreamCompassGeneralQuestions,
+  dreamCompassIntentions,
+  dreamCompassIntentionDreamRoutes,
+  dreamCompassIntentionEmotionRoutes,
+  dreamCompassLingeringDreamRoutes,
+  dreamCompassLingeringEmotionRoutes,
+  dreamCompassLingeringOptions,
   dreamCompassPerspectives,
 } from "@/data/dreamCompass";
 import AdsterraNativeBanner from "@/components/AdsterraNativeBanner";
@@ -15,10 +22,12 @@ import { submitDreamCompassFeedback } from "./actions";
 
 const steps = [
   { eyebrow: "Symbols and images", title: "What stood out to you in the dream?" },
-  { eyebrow: "What unfolded", title: "What was happening?" },
-  { eyebrow: "The emotional clue", title: "How did the dream feel?" },
-  { eyebrow: "Life right now", title: "What feels closest to your waking life?" },
-  { eyebrow: "Choose a lens", title: "How would you like to explore it?" },
+  { title: "What unfolded?", prompt: "What was happening?" },
+  { title: "The emotional clue", prompt: "How did the dream feel?" },
+  { title: "Life right now", prompt: "What feels closest to your waking life?" },
+  { title: "What lingered?", prompt: "What stayed with you after you woke up?" },
+  { title: "What do you hope to understand?", prompt: "Is there something you're hoping this dream might reveal?" },
+  { title: "Choose a lens", prompt: "How would you like to explore it?" },
 ];
 
 const feedbackRatings = [
@@ -50,9 +59,36 @@ function scoreProfile(profile, answers, selectedAction) {
     if (profile.signals.emotions.includes(emotion)) score += Math.max(12, 30 - index * 6);
   });
   if (profile.signals.contexts.includes(answers.context)) score += 22;
+  answers.lingered.forEach((signal) => {
+    if (dreamCompassLingeringDreamRoutes[signal]?.includes(profile.slug)) score += 16;
+  });
+  if (dreamCompassIntentionDreamRoutes[answers.intention]?.includes(profile.slug)) score += 18;
   if (profile.excerpts[answers.perspectives[0]]) score += 6;
 
   return score;
+}
+
+function getEmotionPathways(answers, emotionProfiles) {
+  const scores = new Map();
+
+  function add(slugs = [], weight) {
+    slugs.forEach((slug, index) => {
+      scores.set(slug, (scores.get(slug) || 0) + Math.max(1, weight - index));
+    });
+  }
+
+  answers.emotions.forEach((emotion, index) =>
+    add(dreamCompassEmotionHubRoutes[emotion], Math.max(24, 40 - index * 4))
+  );
+  answers.lingered.forEach((signal) =>
+    add(dreamCompassLingeringEmotionRoutes[signal], 14)
+  );
+  add(dreamCompassIntentionEmotionRoutes[answers.intention], 16);
+
+  return emotionProfiles
+    .map((emotion) => ({ ...emotion, score: scores.get(emotion.slug) || 0 }))
+    .filter((emotion) => emotion.score > 0)
+    .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title));
 }
 
 function SelectionButton({ selected, children, description, onClick }) {
@@ -116,7 +152,7 @@ function ResultCard({ profile, perspectives, primary = false, reasons = [], onOp
   );
 }
 
-export default function DreamCompass({ profiles }) {
+export default function DreamCompass({ profiles, emotionProfiles }) {
   const [step, setStep] = useState(0);
   const [query, setQuery] = useState("");
   const [returnToResults, setReturnToResults] = useState(false);
@@ -133,6 +169,8 @@ export default function DreamCompass({ profiles }) {
     action: "",
     emotions: [],
     context: "",
+    lingered: [],
+    intention: "",
     perspectives: ["balanced"],
   });
 
@@ -169,6 +207,8 @@ export default function DreamCompass({ profiles }) {
   const rankedProfiles = rankedScoredProfiles
     .map(({ profile }) => profile);
   const topMatchScore = rankedScoredProfiles[0]?.score || 0;
+  const emotionPathways = getEmotionPathways(answers, emotionProfiles);
+  const primaryEmotionPathway = emotionPathways[0];
 
   const reflectionQuestions = [
     ...(rankedProfiles[0]?.reflectionQuestions || []),
@@ -190,6 +230,8 @@ export default function DreamCompass({ profiles }) {
     if (matchingEmotions.length > 1) reasons.push(`Connects with ${matchingEmotions.map((emotion) => emotion.toLowerCase()).join(" and ")}`);
     if (answers.relatedSubjects.includes(profile.slug)) reasons.push("Brings in another symbol/image that stood out");
     if (profile.signals.contexts.includes(answers.context)) reasons.push(`May speak to ${answers.context.toLowerCase()}`);
+    if (answers.lingered.some((signal) => dreamCompassLingeringDreamRoutes[signal]?.includes(profile.slug))) reasons.push("Echoes what stayed with you after waking");
+    if (dreamCompassIntentionDreamRoutes[answers.intention]?.includes(profile.slug)) reasons.push("Supports what you hope to understand");
     return reasons;
   }
 
@@ -207,6 +249,8 @@ export default function DreamCompass({ profiles }) {
     answers.action,
     answers.emotions.length,
     answers.context,
+    answers.lingered.length,
+    answers.intention,
     answers.perspectives.length,
   ][step];
 
@@ -277,6 +321,7 @@ export default function DreamCompass({ profiles }) {
         match_quality: topMatchScore < 60 ? "low" : topMatchScore < 120 ? "medium" : "high",
         perspective_count: answers.perspectives.length,
         symbol_count: answers.relatedSubjects.length + 1,
+        lingering_signal_count: answers.lingered.length,
       });
     }
 
@@ -304,7 +349,7 @@ export default function DreamCompass({ profiles }) {
   }
 
   function restart() {
-    setAnswers({ subject: "", relatedSubjects: [], action: "", emotions: [], context: "", perspectives: ["balanced"] });
+    setAnswers({ subject: "", relatedSubjects: [], action: "", emotions: [], context: "", lingered: [], intention: "", perspectives: ["balanced"] });
     setQuery("");
     setReturnToResults(false);
     setFeedbackToken(crypto.randomUUID());
@@ -368,8 +413,9 @@ export default function DreamCompass({ profiles }) {
               </div>
             </div>
 
-            <p className="text-[11px] uppercase tracking-[0.18em] text-[#8F743C]">{steps[step].eyebrow}</p>
-            <h2 ref={headingRef} tabIndex={-1} className="mt-3 scroll-mt-6 font-serif text-3xl leading-tight outline-none md:text-5xl">{steps[step].title}</h2>
+            {steps[step].eyebrow && <p className="text-[11px] uppercase tracking-[0.18em] text-[#8F743C]">{steps[step].eyebrow}</p>}
+            <h2 ref={headingRef} tabIndex={-1} className={`${steps[step].eyebrow ? "mt-3" : ""} scroll-mt-6 font-serif text-3xl leading-tight outline-none md:text-5xl`}>{steps[step].title}</h2>
+            {steps[step].prompt && <p className="mt-3 text-lg italic leading-7 text-[#625C55]">{steps[step].prompt}</p>}
 
             <div className="mt-8">
               {step === 0 && (
@@ -461,6 +507,25 @@ export default function DreamCompass({ profiles }) {
 
               {step === 4 && (
                 <fieldset>
+                  <legend className="mb-5 text-sm font-medium text-[#514A43]">Choose every answer that fits.</legend>
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    {dreamCompassLingeringOptions.map((option) => (
+                      <SelectionButton key={option} selected={answers.lingered.includes(option)} onClick={() => toggleList("lingered", option)}>{option}</SelectionButton>
+                    ))}
+                  </div>
+                </fieldset>
+              )}
+
+              {step === 5 && (
+                <div className="grid gap-3 sm:grid-cols-2">
+                  {dreamCompassIntentions.map((intention) => (
+                    <SelectionButton key={intention} selected={answers.intention === intention} onClick={() => choose("intention", intention)}>{intention}</SelectionButton>
+                  ))}
+                </div>
+              )}
+
+              {step === 6 && (
+                <fieldset>
                   <legend className="mb-5 text-sm leading-6 text-[#625C55]">Choose one or more. We&apos;ll take you straight to each part of the dream page.</legend>
                   <p className="mb-5 border-l border-[#B89B62] pl-4 text-sm leading-6 text-[#625C55]">Dream meanings are possibilities, not predictions or fixed facts. Keep what feels useful and leave what does not fit your experience.</p>
                   <div className="grid gap-3">
@@ -497,7 +562,9 @@ export default function DreamCompass({ profiles }) {
                 ["What happened", answers.action, 1],
                 ["Feelings", answers.emotions.join(", "), 2],
                 ["Life right now", answers.context, 3],
-                ["Ways to explore", selectedPerspectives.map((item) => item.label).join(", "), 4],
+                ["What lingered", answers.lingered.join(", "), 4],
+                ["What you hope to understand", answers.intention, 5],
+                ["Ways to explore", selectedPerspectives.map((item) => item.label).join(", "), 6],
               ].map(([label, value, targetStep]) => (
                 <div key={label} className="bg-[#FFFDF9] p-4">
                   <dt className="text-[10px] uppercase tracking-[0.16em] text-[#8A8175]">{label}</dt>
@@ -545,6 +612,22 @@ export default function DreamCompass({ profiles }) {
                 </section>
               )}
             </div>
+
+            <section className="mt-10 border-l border-[#B89B62] bg-[#FFFDF8] px-6 py-7" aria-labelledby="dream-compass-resonance-heading">
+              <h3 id="dream-compass-resonance-heading" className="font-serif text-2xl">Does any of this resonate?</h3>
+              <p className="mt-3 italic leading-7 text-[#625C55]">Take a moment. What lands? What doesn&apos;t? Your gut knows.</p>
+            </section>
+
+            {primaryEmotionPathway && (
+              <section className="mt-10 border border-[#DED7CD] bg-white/70 px-6 py-7" aria-labelledby="dream-compass-emotion-heading">
+                <p className="text-[10px] uppercase tracking-[0.18em] text-[#8F743C]">An emotional pathway</p>
+                <h3 id="dream-compass-emotion-heading" className="mt-3 font-serif text-2xl">Follow the feeling a little further</h3>
+                <p className="mt-3 max-w-2xl leading-7 text-[#625C55]">{primaryEmotionPathway.intro}</p>
+                <Link href={`/emotions/${primaryEmotionPathway.slug}`} className="mt-5 inline-flex min-h-11 items-center border border-[#B89B62] bg-white px-5 text-sm font-medium text-[#695326] transition hover:bg-[#FFF8E9]">
+                  Explore this emotion → {primaryEmotionPathway.title}
+                </Link>
+              </section>
+            )}
 
             {reflectionQuestions.length > 0 && (
               <section className="mt-10 border-l border-[#B89B62] bg-[#FFFDF8] px-6 py-7">
