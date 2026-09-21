@@ -2,118 +2,68 @@ import Link from "next/link";
 
 const libraries = [
   {
-    
-    icon: "📖",
-    title: " Basics",
+    title: "Dream Basics",
     href: "/guides/basics",
     description:
-      "Learn what dreams are, why we dream and how dream interpretation works.",
+      "Dreaming, recall, familiar experiences, and ways to think about dreams.",
   },
   {
-    
-    icon: "🧠",
     title: "Science",
     href: "/guides/science",
     description:
-      "Explore REM sleep, brain activity, memory and neuroscience.",
+      "Learn what research says about sleep, memory, and dreaming.",
   },
   {
-   
-    icon: "🧠",
     title: "Psychology",
     href: "/guides/psychology",
     description:
-      "Discover Freud, Jung and subconscious dream theories.",
+      "Read about emotions, experiences, and psychological approaches to dreams.",
   },
   {
-    
-    icon: "✨",
     title: "Spirituality",
     href: "/guides/spirituality",
     description:
       "Learn how dreams are understood through spiritual traditions.",
   },
   {
-    
-    icon: "🔍",
     title: "Interpretation",
     href: "/guides/interpretation",
     description:
       "Understand symbols, context, emotions and thoughtful interpretation.",
   },
   {
-    
-    icon: "🌍",
     title: "History & Culture",
     href: "/guides/history-culture",
     description:
       "Explore how civilizations have understood dreams throughout history.",
   },
   {
-   
-    icon: "🌿",
     title: "Wellness",
     href: "/guides/wellness",
     description:
-      "Improve dream recall, sleep quality and personal reflection.",
+      "Sleep habits, stress, nightmares, dream recall, and well-being.",
   },
   {
-    
-    icon: "📊",
     title: "Research",
     href: "/guides/research",
     description:
-      "Discover dream statistics, scientific studies and modern research.",
+      "Studies of dreaming, lucid dreams, REM sleep, and what researchers are still asking.",
   },
 ];
 
 export default function DreamSchoolGrid() {
   return (
-    <section className="my-16">
-
-      <h2 className="font-serif text-3xl md:text-4xl mb-4">
-        🌙 Dreams Knowledge Hub
-      </h2>
-
-      <p className="text-[#6B6B6B] leading-relaxed mb-10">
-        Learn dreams step by step through eight carefully organized
-        learning libraries. Whether you&apos;re curious about symbolism,
-        psychology, spirituality or neuroscience, every guide builds on
-        the last to create a deeper understanding of dreams.
-      </p>
-
-      <div className="grid gap-6 md:grid-cols-2">
-
+    <section aria-labelledby="topics-heading" className="mt-8 border-t border-[#DED7CD] py-8 md:mt-10 md:py-10">
+      <h2 id="topics-heading" className="font-serif text-2xl text-[#29251f]">Explore by topic</h2>
+      <p className="mt-3 text-sm leading-6 text-[#6B6258]">Prefer to browse? These collections bring together guides on a shared subject.</p>
+      <div className="mt-4 grid gap-x-8 sm:grid-cols-2">
         {libraries.map((library) => (
-
-          <Link
-            key={library.href}
-            href={library.href}
-            className="bg-white border border-[#EAE6E1] rounded-2xl p-6 transition hover:shadow-md hover:-translate-y-1"
-          >
-
-            <p className="text-sm text-[#6B6B6B] mb-2">
-               {library.step}
-            </p>
-
-            <h3 className="font-serif text-2xl mb-3">
-              {library.icon} {library.title}
-            </h3>
-
-            <p className="text-[#6B6B6B] leading-relaxed mb-5">
-              {library.description}
-            </p>
-
-            <span className="text-sm font-medium">
-              Dream`s library →
-            </span>
-
+          <Link key={library.href} href={library.href} className="border-b border-[#E2DCD3] py-4 hover:text-[#806431] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8F743C]">
+            <h3 className="font-medium">{library.title}</h3>
+            <p className="mt-1 text-sm leading-6 text-[#6B6258]">{library.description}</p>
           </Link>
-
         ))}
-
       </div>
-
     </section>
   );
 }

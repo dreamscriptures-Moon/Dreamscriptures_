@@ -16,8 +16,9 @@ export function GuideHero({ category = "Dream Guide", title, description, readin
         <p className="mb-4 text-xs font-medium uppercase tracking-[0.22em] text-[#8F743C]">{category}</p>
         <h1 className="max-w-4xl font-serif text-4xl leading-[1.08] text-[#1A1A1A] md:text-6xl">{title}</h1>
         <p className="mt-7 max-w-3xl text-lg leading-8 text-[#5F574E] md:text-xl">{description}</p>
+        <p className="mt-5 max-w-3xl text-sm leading-7 text-[#766E64]">{toc.length >= 3 ? "Read from the beginning, or use the contents below to find the question you came with. Take your time; you do not need to read everything at once." : "Start with the explanation below and read at your own pace. If you are thinking about a particular dream, keep what happened and how you felt in mind as you read."}</p>
         <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-[#766E64]"><span>{readingTime} min read</span>{updated && <span>Updated {updated}</span>}<GuideCopyLink /></div>
-        <div className="mt-10"><SearchBar /></div>
+        <div className="mt-10"><p className="mb-3 text-sm leading-6 text-[#766E64]">Looking for a particular dream instead? Search for something you remember.</p><SearchBar /></div>
       </div>
     </header>
     {toc.length >= 3 && <div className="mx-auto max-w-4xl px-6 pt-10"><GuideTableOfContents items={toc} /></div>}

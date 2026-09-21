@@ -1,222 +1,72 @@
 import Link from "next/link";
 import GuidesSearchList from "@/app/components/GuidesSearchList";
-import LazyMobileQuickNav from "@/app/components/LazyMobileQuickNav";
-import SearchBar from "@/app/components/SearchBar";
 import SiteFooter from "@/app/components/SiteFooter";
 import SiteHeader from "@/app/components/SiteHeader";
 import DreamSchoolGrid from "@/app/components/DreamSchoolGrid";
 import { getAllGuideEntries } from "@/lib/guideCatalog";
 import { createGuideMetadata } from "@/lib/guideExperience";
 
-
-export const metadata = createGuideMetadata({ slug: "", title: "Dream Guides & Knowledge Hub", description: "Explore dream psychology, sleep science, spirituality, symbolism, wellness, interpretation, and modern research." });
+export const metadata = createGuideMetadata({ slug: "", title: "Dream Guides & Knowledge Hub", description: "Find guides to dreams, lucid dreaming, nightmares, sleep experiences, science, psychology, and spiritual perspectives." });
 
 const guideSearchItems = getAllGuideEntries();
+const questions = [
+  { slug: "recurring-dreams", question: "Why do I keep having the same dream?" },
+  { slug: "why-dreams-feel-so-real", question: "Why did my dream feel so real?" },
+  { slug: "how-to-remember-dreams", question: "Why do I forget my dreams so quickly?" },
+  { slug: "lucid-dreaming", question: "How do lucid dreams work?" },
+  { slug: "lucid-dreaming-techniques", question: "How can I have a lucid dream?" },
+  { slug: "nightmares-meaning", question: "Why do I keep having nightmares?" },
+  { slug: "false-awakening-dreams", question: "Why did I dream that I woke up?" },
+  { slug: "stages-of-sleep-and-dreaming", question: "What happens while we sleep and dream?" },
+  { slug: "why-dreams-feel-emotional-after-waking", question: "Why does a dream affect how I feel after waking?" },
+  { slug: "spiritual-dreams-meaning", question: "Could my dream have a spiritual meaning?" },
+].filter(({ slug }) => guideSearchItems.some((guide) => guide.slug === slug));
 
 export default function GuidesPage() {
   return (
-    <main className="bg-[#F7F5F2] min-h-screen">
-      <SiteHeader  />
+    <main className="min-h-screen bg-[#F7F5F2] text-[#29251f]">
+      <SiteHeader />
+      <div className="mx-auto max-w-5xl px-6 pb-14 pt-8 md:pb-20 md:pt-12">
+        <header className="max-w-3xl">
+          <nav aria-label="Breadcrumb" className="mb-7 text-sm text-[#756C61]">
+            <Link href="/" className="hover:text-[#8F743C] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8F743C]">Home</Link>
+            <span aria-hidden="true" className="mx-2">/</span><span aria-current="page">Guides</span>
+          </nav>
+          <h1 className="font-serif text-4xl leading-tight md:text-5xl">Dream Guides</h1>
+          <p className="mt-5 text-lg leading-8 text-[#5F574E]">Have a question about dreams, sleep, or something that happened while you were sleeping?</p>
+          <p className="mt-3 text-base leading-7 text-[#6B6B6B]">These guides explore dreaming, lucid dreaming, sleep, nightmares, and the ideas and experiences surrounding them — from science and psychology to spiritual perspectives. You don&apos;t need any background knowledge. Start with whatever you&apos;re curious about.</p>
+        </header>
 
-      <section className="max-w-3xl mx-auto px-6 py-2 md:py-32">
-        
-        <nav className="text-sm text-[#6B6B6B] mb-6">
-          <Link href="/">Home</Link> / <span>Guides</span>
-        </nav>
-        
-  <h1 className="text-4xl md:text-5xl font-serif mb-6">
-  Dreams Guide & Knowledge Hub
-</h1>
+        <GuidesSearchList guides={guideSearchItems}>
+          <section aria-labelledby="question-heading" className="mt-10 md:mt-12">
+            <div className="mb-5 flex flex-wrap items-baseline justify-between gap-3">
+              <h2 id="question-heading" className="font-serif text-3xl">Start with a question</h2>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2 md:gap-4">
+              {questions.map(({ slug, question }) => (
+                <Link key={slug} href={"/guides/" + slug} className="rounded-2xl border border-[#D8C7A0] bg-[#FFFDF9] p-5 transition-colors hover:border-[#8F743C] hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8F743C]">
+                  <h3 className="flex items-start justify-between gap-4 font-serif text-xl leading-7"><span>{question}</span><span aria-hidden="true" className="shrink-0 text-[#8F743C]">→</span></h3>
+                </Link>
+              ))}
+            </div>
+          </section>
 
-<p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed mb-6">
-  Start with the question you actually have: why a dream repeated,
-  what strong emotion changed its meaning, how sleep shapes recall,
-  or how a faith tradition approaches dreams. Each library keeps
-  evidence, interpretation and personal reflection clearly separated.
-</p>
+          <DreamSchoolGrid />
 
-<div className="flex flex-wrap gap-3 text-sm text-[#6B6B6B] mb-8">
-  <span>📚 8 Learning Libraries</span>
-  <span>🧠 100+ Guides</span>
-  <span>🌍 Psychology • Science • Spirituality</span>
-</div>
+          <aside aria-labelledby="begin-heading" className="my-10 border-l-2 border-[#B79B5E] py-1 pl-5 md:my-12 md:pl-6">
+            <h2 id="begin-heading" className="font-serif text-2xl">Not sure where to begin?</h2>
+            <Link href="/guides/basics" className="mt-3 inline-flex min-h-11 items-center font-medium text-[#806431] underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8F743C]">Dream Basics <span aria-hidden="true" className="ml-2">→</span></Link>
+            <p className="mt-1 max-w-2xl text-sm leading-6 text-[#6B6258]">An introduction to what dreams are, why we dream, what happens during sleep, and why some dreams are easier to remember than others.</p>
+          </aside>
 
-<LazyMobileQuickNav />
-<section className="mb-9 text-center">
-  <p className="text-sm text-[#6B6B6B] mb-3">
-    Search a dream or topic
-  </p>
+        </GuidesSearchList>
 
-  <SearchBar />
-</section>    
-
-<DreamSchoolGrid />
-
-<section className="my-16">
-
-<h2 className="font-serif text-3xl mb-3">
-Popular Dream Guides</h2>
-
-<p className="text-[#6B6B6B] mb-8">
-Four useful starting points, whether you want the science of dreaming or a practical way to reflect on last night.
-</p>
-
-<div className="grid gap-4 md:grid-cols-2">
-
-<Link
-href="/guides/most-common-dreams"
-className="bg-white border rounded-xl p-5 hover:shadow-sm"
->
-
-<h3 className="font-serif text-xl mb-2">
-20 Most Common Dreams
-</h3>
-
-<p className="text-[#6B6B6B]">
-Why familiar themes repeat and what details change their meaning.
-</p>
-
-</Link>
-
-<Link
-href="/guides/what-are-dreams"
-className="bg-white border rounded-xl p-5 hover:shadow-sm"
->
-
-<h3 className="font-serif text-xl mb-2">
-What Are Dreams?
-</h3>
-
-<p className="text-[#6B6B6B]">
-Learn what dreams are and why humans dream every night.
-</p>
-
-</Link>
-
-<Link
-href="/guides/why-we-dream"
-className="bg-white border rounded-xl p-5 hover:shadow-sm"
->
-
-<h3 className="font-serif text-xl mb-2">
-Why Do We Dream?
-</h3>
-
-<p className="text-[#6B6B6B]">
-Explore scientific, psychological and spiritual perspectives.
-</p>
-
-</Link>
-
-<Link
-href="/guides/lucid-dreaming"
-className="bg-white border rounded-xl p-5 hover:shadow-sm"
->
-
-<h3 className="font-serif text-xl mb-2">
- Lucid Dreaming
-</h3>
-
-<p className="text-[#6B6B6B]">
-Understand conscious dreaming and current research.
-</p>
-
-</Link>
-
-<Link
-href="/guides/nightmares-meaning"
-className="bg-white border rounded-xl p-5 hover:shadow-sm"
->
-
-<h3 className="font-serif text-xl mb-2">
-Nightmares
-</h3>
-
-<p className="text-[#6B6B6B]">
-Why nightmares happen and what research suggests.
-</p>
-
-</Link>
-
-</div>
-
-</section>
-
-<section className="mb-16">
-
-  <h2 className="font-serif text-3xl mb-6">
- Why DreamScriptures Takes a Multi-Perspective Approach </h2>
-
-  <p className="text-[#6B6B6B] leading-relaxed mb-6">
-    No single discipline answers every question about dreams. Sleep science can describe stages and brain activity; psychology can examine memory and emotion; history and faith traditions show how people have made meaning from dreams.
-  </p>
-
-  <p className="text-[#6B6B6B] leading-relaxed mb-6">
-    These perspectives are placed beside one another without pretending they carry the same kind of evidence. A research finding, a personal association and a spiritual belief can all matter while still being identified honestly.
-  </p>
-
-  <p className="text-[#6B6B6B] leading-relaxed">
-    The aim is practical: help you notice what happened, ask better questions and avoid turning an emotionally vivid dream into a diagnosis or prediction.
-  </p>
-
-</section>
-
-<h2 className="font-serif text-3xl mb-6">
-Browse Every Dream Guide
-</h2>
-
-<p className="text-[#6B6B6B] mb-8">
-Explore every guide in the DreamScriptures Knowledge Hub,
-organized to help you understand dreams through science,
-psychology, spirituality, symbolism and personal reflection.
-</p>
-
-<GuidesSearchList guides={guideSearchItems} />
-
-
-     </section>
-
-  <section className="mt-16 text-center">
-
-<h2 className="font-serif text-2xl mb-4">
-Continue Exploring
-</h2>
-
-<p className="text-[#6B6B6B]">
-
-<Link href="/dreams">
-Dream Dictionary
-</Link>
-
-{" • "}
-
-<Link href="/categories">
-Dream Categories
-</Link>
-
-{" • "}
-
-<Link href="/dreams">
-Popular Dreams
-</Link>
-
-</p>
-
-</section>
-
-
-      <section className="mt-20 border-t border-[#EAE6E1] pt-10 text-center">
-        <h2 className="font-serif text-2xl md:text-3xl mb-4">
-          Explore your own dream
-        </h2>
-
-        <p className="text-[#6B6B6B] mb-6">
-          Search a symbol, person, or dream theme.
-        </p>
-
-        <SearchBar />
-      </section>
-
+        <section aria-labelledby="dictionary-heading" className="border-t border-[#DED7CD] pt-8 md:pt-10">
+          <h2 id="dictionary-heading" className="font-serif text-2xl md:text-3xl">Looking for something from your own dream?</h2>
+          <p className="mt-3 max-w-2xl text-base leading-7 text-[#6B6258]">You may not need a guide — you might just be looking for a dream you&apos;ve experienced.</p>
+          <Link href="/dreams" className="mt-4 inline-flex min-h-11 items-center font-medium text-[#806431] underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8F743C]">Explore the Dream Dictionary <span aria-hidden="true" className="ml-2">→</span></Link>
+        </section>
+      </div>
       <SiteFooter />
     </main>
   );

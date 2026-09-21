@@ -34,8 +34,15 @@ export function normalizeGuide(input = {}) {
   };
 }
 
-function RichText({ text = "" }) {
-  return <div className="space-y-6">{String(text).split(/\n{2,}/).map((paragraph) => paragraph.trim()).filter(Boolean).map((paragraph, index) => <p key={`${paragraph.slice(0, 40)}-${index}`} className="text-base leading-8 text-[#4F4A44] md:text-lg md:leading-9">{paragraph}</p>)}</div>;
+function RichText({ text = "", links = [] }) {
+  const renderLinks = (paragraph) => links.reduce((parts, link, linkIndex) => {
+    if (!link.text || !/^(https:\/\/|\/(?!\/))/.test(link.url)) return parts;
+    return parts.flatMap((part, partIndex) => typeof part !== "string" ? [part] : part.split(link.text).flatMap((piece, index) => index === 0 ? [piece] : [
+      <a key={`${linkIndex}-${partIndex}-${index}`} href={link.url} className="text-[#735f35] underline underline-offset-4">{link.text}</a>,
+      piece,
+    ]));
+  }, [paragraph]);
+  return <div className="space-y-6">{String(text).split(/\n{2,}/).map((paragraph) => paragraph.trim()).filter(Boolean).map((paragraph, index) => <p key={`${paragraph.slice(0, 40)}-${index}`} className="text-base leading-8 text-[#4F4A44] md:text-lg md:leading-9">{renderLinks(paragraph)}</p>)}</div>;
 }
 
 export default function GuideLayout({ guide: rawGuide, children, contentStart = 0, toc: customToc, readingTime: customReadingTime, relatedDreams: customDreams, relatedGuides: customGuides, continueReading = true }) {
@@ -51,7 +58,7 @@ export default function GuideLayout({ guide: rawGuide, children, contentStart = 
   const generatedContent = [
     guide.intro && <section key="introduction" aria-label="Introduction"><RichText text={guide.intro} /></section>,
     guide.content.length > 0 && <section key="content" className="space-y-7">{guide.content.map((paragraph, index) => <RichText key={index} text={paragraph} />)}</section>,
-    ...guide.sections.map((section, index) => <section key={section.title} id={toc[index]?.id} className="scroll-mt-24 border-t border-[#E2DCD3] pt-12"><h2 className="mb-6 font-serif text-3xl leading-tight text-[#1A1A1A] md:text-4xl">{section.title}</h2><RichText text={section.body} /></section>),
+    ...guide.sections.map((section, index) => <section key={section.title} id={toc[index]?.id} className="scroll-mt-24 border-t border-[#E2DCD3] pt-12"><h2 className="mb-6 font-serif text-3xl leading-tight text-[#1A1A1A] md:text-4xl">{section.title}</h2><RichText text={section.body} links={section.links} />{section.table && <div className="mt-6 overflow-x-auto rounded-xl border border-[#E2DCD3]" role="region" aria-label={section.table.caption} tabIndex={0}><table className="w-full min-w-[32rem] text-left text-sm leading-6"><caption className="bg-[#F3ECDD] px-4 py-3 text-left font-medium">{section.table.caption}</caption><thead><tr>{section.table.headers.map((header) => <th key={header} scope="col" className="border-b border-[#E2DCD3] p-4">{header}</th>)}</tr></thead><tbody>{section.table.rows.map((row) => <tr key={row[0]} className="border-b border-[#E2DCD3] last:border-0">{row.map((cell, cellIndex) => cellIndex === 0 ? <th key={cellIndex} scope="row" className="p-4 align-top font-medium">{cell}</th> : <td key={cellIndex} className="p-4 align-top">{cell}</td>)}</tr>)}</tbody></table></div>}</section>),
   ].filter(Boolean);
   const guideContent = registeredContent || generatedContent;
 

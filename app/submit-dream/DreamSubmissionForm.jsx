@@ -241,7 +241,7 @@ Choose Premium if you&apos;d like our deepest interpretation, faster delivery, a
         <div className="border-t border-[#EAE6E1] pt-8">
           <label className="flex cursor-pointer items-start gap-3 text-sm leading-relaxed text-[#5F574E]">
             <input type="checkbox" name="consent" required aria-required="true" aria-invalid={Boolean(state.errors?.consent)} aria-describedby={state.errors?.consent ? "consent-error" : undefined} className="mt-1 h-4 w-4 shrink-0 accent-[#8F743C]" />
-            <span>I understand my dream may be used anonymously to inspire a future DreamScriptures interpretation. My personal information will never be published. <span className="text-[#9A4F45]" aria-hidden="true">*</span></span>
+            <span>I understand that a symbol or theme from my dream may be used anonymously in a future DreamScriptures interpretation. Personal information will never be published. <span className="text-[#9A4F45]" aria-hidden="true">*</span></span>
           </label>
           <FieldError id="consent-error" message={state.errors?.consent} />
         </div>

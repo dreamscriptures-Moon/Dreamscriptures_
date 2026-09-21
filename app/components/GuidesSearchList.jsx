@@ -1,19 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
-
-const featuredSlugs = [
-  "what-are-dreams",          
-  "why-we-dream",            
-  "dreams-and-emotions",  
-  "spiritual-dreams-meaning", 
-  "how-to-interpret-dream-symbols", 
-  "how-to-remember-dreams",   
-  "lucid-dreaming",           
-  "recurring-dreams", 
-  "prophetic-dreams-meaning",
-  ];    
+import { useEffect, useMemo, useRef, useState } from "react";
 
 const INITIAL_COUNT = 12;
 const LOAD_MORE_COUNT = 8;
@@ -32,7 +20,8 @@ function useDebouncedValue(value, delay = 300) {
   return debouncedValue;
 }
 
-export default function GuidesSearchList({ guides = [] }) {
+export default function GuidesSearchList({ guides = [], children }) {
+  const searchInput = useRef(null);
   const [search, setSearch] = useState("");
   const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
   const debouncedSearch = useDebouncedValue(search, 300);
@@ -52,12 +41,6 @@ export default function GuidesSearchList({ guides = [] }) {
     });
   }, [guides, query]);
 
-  const featuredGuides = useMemo(() => {
-    return featuredSlugs
-      .map((slug) => filteredGuides.find((guide) => guide.slug === slug))
-      .filter(Boolean);
-  }, [filteredGuides]);
-
   const visibleGuides = useMemo(
     () => filteredGuides.slice(0, visibleCount),
     [filteredGuides, visibleCount]
@@ -65,11 +48,14 @@ export default function GuidesSearchList({ guides = [] }) {
 
   return (
     <>
-      <div className="mb-16">
+      <div className="mb-6 mt-8 max-w-3xl">
+        <label htmlFor="guide-search" className="mb-3 block font-medium text-[#3A3A3A]">What are you curious about?</label>
         <div className="border border-[#EAE6E1] rounded-2xl px-5 py-4 bg-white/90 backdrop-blur-sm focus-within:border-[#C6A96B] transition shadow-[0_10px_30px_rgba(26,26,26,0.04)]">
           <input
-            type="text"
-            placeholder="Search dream guides..."
+            ref={searchInput}
+            id="guide-search"
+            type="search"
+            placeholder="Try lucid dreaming or sleep"
             value={search}
             onChange={(e) => {
               setSearch(e.target.value);
@@ -77,112 +63,54 @@ export default function GuidesSearchList({ guides = [] }) {
                 setVisibleCount(INITIAL_COUNT);
               }, 0);
             }}
-            aria-label="Search dream guides"
-            className="w-full bg-transparent outline-none text-base md:text-lg placeholder:text-[#A89F91] text-[#1A1A1A]"
+            aria-describedby="guide-search-hint" aria-controls="guide-results"
+            className="scroll-mt-28 w-full bg-transparent outline-none text-base md:text-lg placeholder:text-[#A89F91] text-[#1A1A1A]"
           />
         </div>
+        <p id="guide-search-hint" className="mt-3 text-sm leading-6 text-[#756C61]">Search articles in the guide library. For a specific dream or symbol, use the <Link href="/dreams" className="underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8F743C]">Dream Dictionary</Link>.</p>
+        {search && <button type="button" onClick={() => { setSearch(""); setVisibleCount(INITIAL_COUNT); searchInput.current?.focus(); }} className="mt-2 inline-flex min-h-11 items-center text-sm text-[#806431] underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8F743C]">Clear search and browse</button>}
       </div>
 
-      <section className="mb-16">
-        <div className="flex items-end justify-between gap-6 mb-6">
-          <div>
-          <p className="text-[11px] tracking-[0.25em] text-[#A89F91] uppercase mb-2">
-  Editor&apos;s Picks
-</p>
+      {!query && children}
 
-<h2 className="font-serif text-2xl md:text-3xl text-[#1A1A1A]">
-  Featured Learning
-</h2>
-
-<p className="text-[#6B6B6B] mt-3 max-w-2xl leading-relaxed">
-  Explore some of the most popular and foundational guides in the
-  DreamScriptures Knowledge Hub.
-</p>
-          </div>
-        </div>
-
-       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-        {featuredGuides.map((guide, index) => (
-            <Link
-              key={guide.slug}
-              href={`/guides/${guide.slug}`}
-              className="group relative overflow-hidden rounded-2xl border border-[#EAE6E1] bg-white p-6 md:p-7 transition duration-300 hover:-translate-y-0.5 hover:border-[#C6A96B] focus:border-[#C6A96B] active:bg-[#F7F5F2] hover:shadow-[0_18px_50px_rgba(26,26,26,0.08)]"
-            >
-              <div className="absolute inset-0 bg-gradient-to-br from-[#FBF8F2] via-white to-[#F3EEE6] opacity-90" />
-              <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-[#C6A96B]/10 blur-2xl" />
-              <div className="relative">
-               <p className="text-[11px] tracking-[0.25em] text-[#A89F91] uppercase mb-4">
-  Recommended Guide
-</p>
-                <h3 className="font-serif text-xl md:text-2xl text-[#1A1A1A] leading-tight mb-3 group-hover:text-[#C6A96B] transition-colors">
+      <section id="guide-results" aria-labelledby="collection-heading" className="border-t border-[#DED7CD] py-8 md:py-10">
+        <h2 id="collection-heading" className="mb-4 font-serif text-2xl">{query ? "Search results" : "All guides"}</h2>
+        <p className="mb-4 text-sm text-[#756C61]" role="status">{filteredGuides.length} {filteredGuides.length === 1 ? "guide" : "guides"}{query ? " found" : " to browse"}</p>
+        <div className="divide-y divide-[#E2DCD3]">
+          {filteredGuides.length > 0 ? (
+            visibleGuides.map((guide) => (
+              <Link
+                key={guide.slug}
+                href={`/guides/${guide.slug}`}
+                className="block py-4 hover:text-[#806431] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8F743C]"
+              >
+                <span className="block font-medium text-base md:text-lg">
                   {guide.title}
-                </h3>
-                <p className="text-sm md:text-base text-[#6B6B6B] leading-relaxed">
-                  {guide.description}
-                </p>
-                <span className="inline-flex items-center mt-6 text-sm text-[#1A1A1A]">
-                  Read guide
-                  <span className="ml-2 text-[#C6A96B] transition-transform group-hover:translate-x-1">
-                    -&gt;
-                  </span>
                 </span>
-              </div>
-            </Link>
-          ))}
+                <span className="block text-sm leading-6 text-[#6B6B6B] mt-2">
+                  {guide.description}
+                </span>
+              </Link>
+            ))
+          ) : (
+            <div className="rounded-xl border border-[#EAE6E1] bg-white px-6 py-8 text-[#6B6B6B]">
+              No guides match your search.
+            </div>
+          )}
         </div>
-      </section>
 
-    <div className="mb-8">
-
-  <h2 className="font-serif text-3xl md:text-4xl text-[#1A1A1A]">
-    Browse All Dream Guides
-  </h2>
-
-  <p className="text-[#6B6B6B] mt-3 max-w-2xl leading-relaxed">
-    Search or browse every guide in the DreamScriptures Knowledge Hub,
-    covering dream psychology, sleep science, spirituality,
-    symbolism, wellness and modern dream research.
-  </p>
-
-</div> 
-
-      <div className="space-y-6">
-        {filteredGuides.length > 0 ? (
-          visibleGuides.map((guide) => (
-            <Link
-              key={guide.slug}
-              href={`/guides/${guide.slug}`}
-              className="block border border-[#EAE6E1] p-6 rounded-xl bg-white hover:border-[#C6A96B] focus:border-[#C6A96B] active:bg-[#F7F5F2] transition"
+        {visibleCount < filteredGuides.length && (
+          <div className="text-center mt-10">
+            <button
+              type="button"
+              onClick={() => setVisibleCount((prev) => prev + LOAD_MORE_COUNT)}
+              className="px-6 py-3 border border-[#EAE6E1] rounded-xl hover:border-[#C6A96B] focus:border-[#C6A96B] active:bg-white transition text-sm"
             >
-              <span className="block text-[11px] tracking-wide text-[#A89F91] mb-1">
-                GUIDE
-              </span>
-              <span className="block font-medium text-base md:text-lg">
-                {guide.title}
-              </span>
-              <span className="block text-sm text-[#6B6B6B] mt-2">
-                {guide.description}
-              </span>
-            </Link>
-          ))
-        ) : (
-          <div className="rounded-xl border border-[#EAE6E1] bg-white px-6 py-8 text-[#6B6B6B]">
-            No guides match your search.
+              Load more
+            </button>
           </div>
         )}
-      </div>
-
-      {visibleCount < filteredGuides.length && (
-        <div className="text-center mt-10">
-          <button
-            type="button"
-            onClick={() => setVisibleCount((prev) => prev + LOAD_MORE_COUNT)}
-            className="px-6 py-3 border border-[#EAE6E1] rounded-xl hover:border-[#C6A96B] focus:border-[#C6A96B] active:bg-white transition text-sm"
-          >
-            Load more
-          </button>
-        </div>
-      )}
+      </section>
     </>
   );
 }
