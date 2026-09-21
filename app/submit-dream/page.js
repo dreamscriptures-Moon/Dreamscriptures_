@@ -53,20 +53,38 @@ export default function SubmitDreamPage() {
             Dream submission
           </p>
           <h1 className="mb-6 font-serif text-4xl leading-tight md:text-5xl">
-            Have you had a dream that stayed with you?
+            Submit Your Dream for Interpretation
           </h1>
           <div className="mb-7 h-px w-12 bg-[#C6A96B]" />
           <p className="text-base leading-relaxed text-[#5F574E] md:text-lg">
-            Maybe it keeps coming back, felt unusually real, or left you with a
-            feeling you can&apos;t quite shake. Tell us what you remember and what
-            you&apos;re curious about.
+            Have you had a dream that stayed with you? Maybe it keeps coming back,
+            felt unusually real, or left you with a feeling you can&apos;t quite shake.
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-[#5F574E]">
+            Share your dream using the form below. Tell us what happened, how you
+            felt, and what you&apos;d like to understand.
           </p>
           <p className="mt-4 text-base leading-relaxed text-[#5F574E]">
             DreamScriptures offers possible emotional, symbolic, and spiritual
-            perspectives to help you reflect on your dream. An interpretation
-            is one way of exploring what your dream might mean to you.
+            perspectives to help you reflect on your dream and explore what it
+            might mean to you.
           </p>
         </header>
+
+        <section className="mb-8 max-w-2xl" aria-labelledby="dream-story-heading">
+          <h2 id="dream-story-heading" className="font-serif text-2xl text-[#2A2A2A]">
+            Every dream tells a story.
+          </h2>
+          <p className="mt-4 text-base leading-relaxed text-[#5F574E]">
+            Describe your dream below and share as much detail as you remember.
+            Include the people, places, feelings, moments, or little details that
+            stood out to you.
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-[#5F574E]">
+            Not sure where to start? Just tell us what happened in your own words.
+            There&apos;s no right or wrong way to describe a dream.
+          </p>
+        </section>
 
         <DreamSubmissionForm />
 
