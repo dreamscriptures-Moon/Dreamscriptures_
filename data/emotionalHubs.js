@@ -1,4 +1,5 @@
 import { applyEmotionEditorialDepth } from "./emotionEditorialDepth.js";
+import { applyCoreEmotionDiscovery } from "./coreEmotions.js";
 
 const baseHubDefaults = {
   emotionalThemes: [],
@@ -1831,3 +1832,4 @@ export const emotionalHubs = Object.fromEntries(
 );
 
 applyEmotionEditorialDepth(emotionalHubs);
+applyCoreEmotionDiscovery(emotionalHubs, baseHubDefaults);

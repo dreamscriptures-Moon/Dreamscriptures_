@@ -30,7 +30,43 @@ Missing a stair may fit anxiety about a small error with large consequences. Fal
 
 The landing matters too. Waking before impact leaves the feared outcome unresolved. Landing safely may show that you expect disruption but also believe you can survive it. Continuing to fall without reaching the ground often resembles prolonged uncertainty: waiting for news, living with unstable plans, or carrying responsibility without knowing what comes next.
 
-Falling dreams are not reliable predictions of accidents. They are better read as snapshots of where life currently feels unsupported, unpredictable, or beyond your control.`
+Falling dreams are not reliable predictions of accidents. These readings are possibilities for reflection, not established explanations of what caused your dream. A brief falling sensation with a body jerk as you drift off may instead be a sleep start; the distinction is explained below.`,
+    emotionalMeaning: `Start with the feeling rather than assigning a meaning to the fall. Terror, embarrassment, relief, and calmness can lead to different questions.
+
+If you felt embarrassed because others watched, consider whether being judged matters more than physical danger. If you reached for someone who did not help, the useful question may concern support or trust. Calmness during a deliberate leap could fit willingness to accept a change, but it could also be simply how this dream unfolded.
+
+These are prompts to compare with your own experience. Feeling frightened in a dream does not by itself show that you have an emotional problem, and no connection needs to be forced.`,
+    symbolicMeaning: `Look at the relationship between the place, the movement, and the outcome. A staircase can suggest a sequence of steps; a collapsing floor can suggest something you had expected to hold. Those associations are interpretive choices, not a universal code.
+
+Your personal history may change the reading entirely. A building might bring to mind work, a childhood home, or a film you recently watched. Being pushed raises different questions from slipping or choosing to jump. Use the details that distinguish your dream rather than treating every fall as the same message.`,
+    spiritualMeaning: `Within a spiritual practice, a falling dream can become an invitation to reflect on humility, trust, or the help you are willing to receive. You might ask what being supported means in your faith, or whether a recent change has challenged your sense of direction.
+
+This is a faith-based way of reflecting on the experience, not proof of a spiritual cause. The dream alone does not establish that you are being punished, warned, or instructed to make a particular decision.`,
+    biblicalMeaning: `Psalm 37:23–24 describes a person stumbling without being abandoned, with God sustaining them. A Christian reader may find that passage helpful when reflecting on vulnerability and support after a frightening dream.
+
+The passage does not interpret falling dreams or provide a rule for decoding them. Its relevance here is devotional: it offers a theme of support during difficulty, rather than evidence that the dream predicts a setback or communicates a divine verdict.`,
+    wakingLifeMeaning: `Research on dreaming describes connections between waking experiences and dream content. The review “What about dreams? State of the art and open questions” discusses how events, concerns, and emotions can appear in dreams. That broad connection does not establish a specific meaning for falling.
+
+Note what happened recently and compare it with the details you remember. A new responsibility might fit the feeling of having no handhold; an awkward public moment might fit being watched as you fall. Recent experiences with heights or falling imagery are also worth considering before choosing a metaphor.
+
+Write down one possible connection and one alternative. If neither fits, leave the meaning open. The useful outcome may be a practical step, such as asking for help with a responsibility, rather than finding a hidden message.`,
+    behavioralInsights: [
+      { title: "Falling dream or falling sensation while drifting off?", content: "A remembered scene of falling is dream content. A brief drop sensation with a sudden muscle jerk just as you drift off may be a sleep start, also called a hypnic jerk. Royal Papworth Hospital describes these as common, normal events at sleep onset, sometimes accompanied by a falling sensation. They can be more noticeable with sleep deprivation, stress, or caffeine. The timing and body movement are useful clues; a falling image alone cannot identify the cause." },
+      { title: "Why did I wake before hitting the ground?", content: "An unfinished dream does not tell us why you woke or prove that your mind deliberately avoided the landing. If the experience happened as you were drifting off and included a body jerk, a sleep start is one possibility. You can explore how the unresolved ending felt without treating that interpretation as a physiological explanation." },
+      { title: "What if the falling dream keeps returning?", content: "Compare the repeated details: the place, who is present, whether you choose to jump, and what happens next. Also note when the experience occurs and whether there is a physical jolt. This helps you distinguish a recurring story from a repeated sleep-onset sensation; recurrence alone does not prove a warning or a single hidden meaning." },
+      { title: "What can a safe landing add to the interpretation?", content: "If you landed safely, consider whether relief, surprise, embarrassment, or the ability to continue was most memorable. A resilience reading may fit, but it is only one option. The ending gives you another detail to reflect on, not a forecast of how a real-life problem will turn out." }
+    ],
+    contradictions: [
+      { type: "chosen_leap_vs_unwanted_fall", meaning: "Choosing to jump and being pushed involve different kinds of agency. Consider that difference before applying a general loss-of-control interpretation." },
+      { type: "fear_vs_calm", meaning: "The same falling scene may feel frightening or peaceful. Neither reaction has a fixed meaning; your associations help determine whether a reading fits." },
+      { type: "the_fall_vs_the_landing", meaning: "A safe landing, continued descent, and waking before impact leave different remembered endings. They can guide reflection without revealing why the dream occurred." }
+    ],
+    summary: "To explore a falling dream, consider how the fall began, who was there, what you felt, and how it ended. Emotional, symbolic, and spiritual readings are possibilities to compare with your experience. A brief falling sensation with a body jerk as you drift off may be a sleep start instead. Neither experience gives you a reliable prediction of an accident or future failure.",
+    sources: [
+      { title: "Odd behaviour at night (Parasomnia): Sleep starts (hypnic jerks)", publication: "Royal Papworth Hospital NHS Foundation Trust", url: "https://www.royalpapworth.nhs.uk/our-services/respiratory-services/rssc/patient-information/symptoms/odd-behaviour-night", sourceType: "Clinical patient information", context: "Supports the explanation of sleep-onset jerks, associated falling sensations, and factors that may worsen them. It does not establish symbolic dream meanings." },
+      { title: "What about dreams? State of the art and open questions", publication: "Journal of Sleep Research (2022)", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9539486/", sourceType: "Peer-reviewed research review", context: "Discusses connections between waking experiences and dream content. This is general dream research, not evidence for a fixed interpretation of falling." },
+      { title: "Psalm 37:23–24", author: "Biblical text", publication: "Bible", url: "https://www.biblegateway.com/passage/?search=Psalm%2037%3A23-24&version=NIV", sourceType: "Primary religious text", context: "Provides the devotional theme of being sustained after stumbling; the passage does not interpret dreams or explain sleep physiology." }
+    ]
   },
   "teeth-falling-out": {
     microSummary: "A teeth-falling-out dream often centers on exposure: losing composure, struggling to say something, worrying about appearance, or facing a change you cannot hide. The condition of the teeth and who sees what happens provide useful context.",
@@ -673,6 +709,49 @@ Use the dream as a prompt to name the question you want answered and the evidenc
     reflectionQuestions: ["Did you disappear deliberately?", "Who failed to notice?", "Did anonymity feel safe or lonely?", "Were you losing identity or escaping scrutiny?", "Where do you want recognition or privacy?"],
     illustrativeExamples: [{title:"Feeling overlooked",example:"Someone whose contributions go unrecognized might dream of fading while colleagues continue talking."},{title:"Relief from scrutiny",example:"Someone exhausted by public attention might dream of blending anonymously into a busy station."}],
     coreField: "wakingLifeMeaning", coreAddition: "Invisibility and anonymity are not the same. Invisibility involves unwanted lack of recognition; anonymity can offer chosen relief from scrutiny. The dream may identify which need is unmet: acknowledgment, belonging, privacy, or freedom from a role."
+  },
+  "being-chased-by-a-lion": {
+    emotionalMeaning: `Notice when your feelings changed. Were you frightened as soon as you saw the lion, or only when it approached? Did reaching shelter bring relief, or did you remain afraid even behind a closed door?
+
+Fear, anger, awe, and protectiveness suggest different questions. Anger while running might fit resentment about pressure; trying to protect someone else might make responsibility the central issue. These are possible connections to explore, not conclusions about your emotional health.
+
+You do not need to discover a hidden conflict for the dream to make sense. A frightening encounter within a dream can simply feel frightening.`,
+    symbolicMeaning: `Separate the lion from the chase. What do lions mean to you personally: a dangerous animal, a family emblem, a religious image, a favourite story, or something you recently watched? Your association may be more useful than a general equation between lions and authority.
+
+Then consider what the animal actually did. Roaring, following at a distance, breaking through a barrier, and retreating describe different encounters. Running could fit avoidance, but it could equally fit protection, resourcefulness, or the immediate response to danger within the dream. None of these details has a fixed symbolic meaning.`,
+    spiritualMeaning: `If faith is part of how you reflect on dreams, consider what courage, discernment, and protection mean within your own tradition. The lion might prompt a question about how you respond to power or where you seek support.
+
+That is a spiritual reading you bring to the experience, not evidence of its source. A chase dream alone does not establish a spiritual attack, divine warning, or instruction to confront someone. Religious associations can offer a reflective perspective without becoming a prediction.`,
+    wakingLifeMeaning: `The research review “What about dreams? State of the art and open questions” discusses connections between waking events, concerns, emotions, and dream content. This supports considering recent experiences; it does not establish that a lion represents a boss or that running proves avoidance.
+
+Compare one specific dream detail with something recent. A lion blocking the only exit might remind you of a restricted choice. Finding help might bring a supportive relationship to mind. Also consider straightforward sources for the imagery, such as wildlife footage, a story, or a memorable encounter with an animal.
+
+If a connection fits, choose a practical response based on the waking situation: ask for clarification, share a workload, or seek support. If none fits, it is reasonable to leave the dream unexplained.`,
+    behavioralInsights: [
+      { title: "Does running mean I am avoiding something?", content: "Avoidance is one possible metaphor, not a finding about your behaviour. Running from an animal in a dream can also be an attempt to reach safety or protect someone. Look at what you were trying to achieve before interpreting escape as a failure to face a problem." },
+      { title: "Why might a lion-chase nightmare recur?", content: "The NHS lists stress, worry, frightening experiences or media, and being very tired among possible contributors to nightmares. These are general possibilities, not an explanation specific to lions. Recurrence does not establish an unresolved conflict or prove that a message is being repeated." },
+      { title: "Is this a nightmare or a night terror?", content: "The NHS distinguishes a nightmare you wake from and remember from a night terror, during which a person remains asleep and usually does not remember the event. A vividly remembered lion chase may fit a nightmare if it wakes you, but the animal itself does not identify a sleep condition." },
+      { title: "What can help if the dream keeps disturbing my sleep?", content: "A relaxing bedtime routine and a sleep diary may help you notice patterns. Record sleep timing, recent stress or frightening media, and how you feel the next day. NHS guidance recommends seeing a GP when regular nightmares affect sleep and everyday life. You do not need to solve the dream's symbolism before seeking help." },
+      { title: "What if I turn around and face the lion?", content: "Facing it might feel like confidence, curiosity, desperation, or having no other option. Use the emotion and outcome to guide reflection. It does not mean that confronting a person or real danger is the right next step; that decision depends on waking circumstances." }
+    ],
+    reflectionQuestions: [
+      "What personal memory or association does a lion bring to mind?",
+      "When did your feelings change during the chase?",
+      "Were you seeking shelter, protecting someone, or trying to get somewhere?",
+      "What happened when you escaped, hid, got caught, or turned around?",
+      "Could recent events, stories, or wildlife imagery have supplied the scene?",
+      "If the dream repeats, what changes in your sleep or daily circumstances occur alongside it?"
+    ],
+    faqs: [
+      { question: "What does dreaming about being chased by a lion mean?", answer: "It may offer a way to reflect on intimidation, power, protection, or pressure, depending on your associations and the chase itself. These are possible interpretations, not a fixed meaning established by dream research. Recent experiences and media may also supply the imagery." },
+      { question: "Is being chased by a lion in a dream a warning?", answer: "The dream is not reliable evidence that an attack or disaster will occur. It does not by itself establish a spiritual warning. Assess any real concern using waking evidence and appropriate support." },
+      { question: "What does escaping a lion in a dream mean?", answer: "Escape could fit relief, resourcefulness, protection, or avoidance. Consider what you were trying to reach and how you felt afterward. Escaping does not prove that you are neglecting a responsibility or that the dream will return." },
+      { question: "Why do I keep dreaming about a lion chasing me?", answer: "There is no single established cause of recurring lion-chase dreams. General nightmare contributors can include stress, frightening experiences or media, and tiredness. A sleep diary may reveal patterns; seek medical advice if regular nightmares affect your sleep and daily life." }
+    ],
+    sources: [
+      { title: "What about dreams? State of the art and open questions", publication: "Journal of Sleep Research (2022)", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9539486/", sourceType: "Peer-reviewed research review", context: "Discusses relationships between waking experiences and dream content. It does not establish a meaning for lions or prove that chase dreams indicate avoidance." },
+      { title: "Night terrors and nightmares", publication: "NHS", url: "https://www.nhs.uk/conditions/night-terrors/", sourceType: "Clinical patient information", context: "Supports the nightmare/night-terror distinction, general nightmare contributors, sleep-diary advice, and when to seek help. It does not interpret lion imagery." }
+    ]
   },
   "lion-chasing-you": {
     tags: ["lion chasing dream", "pursuit", "authority", "power", "fear"],
