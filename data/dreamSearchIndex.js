@@ -391,4 +391,204 @@ export const dreamSearchIndex = [
     description:
       "Expressing your feelings openly to someone. It can feel intense, vulnerable, or unexpectedly calm - like something that's been inside you is...",
   },
+  {
+    "slug": "engagement",
+    "title": "Getting Engaged",
+    "description": "A getting engaged dream may reflect commitment, security, anticipation, or uncertainty about a relationship or major decision in your waking life."
+  },
+  {
+    "slug": "ring",
+    "title": "Ring",
+    "description": "Dreaming about a ring? Explore how receiving, wearing, losing, or removing it may relate to promises, relationships, and personal commitments."
+  },
+  {
+    "slug": "desert",
+    "title": "Desert",
+    "description": "Dreaming of a desert may reflect uncertainty, isolation, endurance, or renewal. Learn how being lost, finding water, or feeling peaceful changes the meaning."
+  },
+  {
+    "slug": "dolphin",
+    "title": "Dolphin",
+    "description": "Dreaming of a dolphin may reflect connection, support, emotional openness, or distance. Explore what swimming with or watching a dolphin may mean."
+  },
+  {
+    "slug": "graduation",
+    "title": "Graduation",
+    "description": "Dreaming of graduation may reflect completion, recognition, readiness, or uncertainty about what comes next. Explore what your graduation dream may mean."
+  },
+  {
+    "slug": "teacher",
+    "title": "Teacher",
+    "description": "Dreaming of a teacher may reflect guidance, correction, approval, or learning. Explore what supportive, critical, or former teachers may represent in dreams."
+  },
+  {
+    "slug": "elevator",
+    "title": "Elevator",
+    "description": "Dreaming of an elevator may reflect direction, progress, change, or control. Explore what going up, down, or reaching the wrong floor may mean."
+  },
+  {
+    "slug": "library",
+    "title": "Library",
+    "description": "Dreaming of a library may reflect learning, memory, unanswered questions, or searching for information. Explore books, restricted areas, and unreadable texts."
+  },
+  {
+    "slug": "hotel",
+    "title": "Hotel",
+    "description": "Dreaming of a hotel may reflect temporary change, unfamiliar circumstances, or uncertainty about belonging. Explore rooms, check-ins, and getting lost."
+  },
+  {
+    "slug": "bridge",
+    "title": "Bridge",
+    "description": "Dreaming of a bridge? Explore how crossing, turning back, an unstable bridge, or reaching the other side may connect with decisions and change."
+  },
+  {
+    "slug": "running-out-of-time",
+    "title": "Running Out of Time",
+    "description": "Dreaming of running out of time may reflect deadlines, unfinished tasks, pressure, or competing priorities. Explore what your time dream may mean."
+  },
+  {
+    "slug": "solar-eclipse",
+    "title": "Solar Eclipse",
+    "description": "Dreaming of a solar eclipse may reflect uncertainty, changing visibility, anticipation, or temporary confusion. Explore what your reaction may reveal."
+  },
+  {
+    "slug": "castle",
+    "title": "Castle",
+    "description": "Dreaming of a castle may reflect protection, ownership, boundaries, or exclusion. Explore what entering, defending, or being locked out may mean."
+  },
+  {
+    "slug": "no-reflection",
+    "title": "No Reflection",
+    "description": "Dreaming of having no reflection in a mirror may reflect identity, self-image, change, or feeling unseen. Explore what your reaction to the mirror may mean."
+  },
+  {
+    "slug": "time-travel",
+    "title": "Time Travel",
+    "description": "Dreaming of time travel may reflect choices, change, regret, or curiosity about the future. Explore what moving between different times may mean."
+  },
+  {
+    "slug": "red-moon",
+    "title": "Red Moon",
+    "description": "Dreaming of a red moon may reflect heightened emotion, change, or uncertainty. Explore what watching, fearing, or feeling calm around it may mean."
+  },
+  {
+    "slug": "giant-moon",
+    "title": "Giant Moon",
+    "description": "Dreaming of a giant moon may reflect something unusually important, emotionally powerful, or difficult to ignore. Explore what its size may represent."
+  },
+  {
+    "slug": "shadow-person",
+    "title": "Shadow Person",
+    "description": "Dreaming of a shadow person may reflect fear, uncertainty, or feeling watched. Learn how dream context differs from experiences while partly awake."
+  },
+  {
+    "slug": "endless-hallway",
+    "title": "Endless Hallway",
+    "description": "Dreaming of an endless hallway may reflect repetition, uncertainty, or feeling stuck. Explore repeated doors, locked rooms, and searching for an exit."
+  },
+  {
+    "slug": "endless-road",
+    "title": "Endless Road",
+    "description": "Dreaming of an endless road may reflect prolonged effort, repetition, uncertainty, or a situation that feels difficult to bring to an end."
+  },
+  {
+    "slug": "walking-backwards",
+    "title": "Walking Backwards",
+    "description": "Dreaming of walking backwards may reflect revisiting the past, reversing a decision, or feeling unable to move forward in waking life."
+  },
+  {
+    "slug": "wildfire",
+    "title": "Wildfire",
+    "description": "A wildfire dream may reflect spreading stress, rapid change, evacuation, protection, or a situation that feels increasingly difficult to contain."
+  },
+  {
+    "slug": "escaping-fire",
+    "title": "Escaping Fire",
+    "description": "An escaping fire dream may reflect finding safety, facing blocked options, protecting others, or trying to leave a stressful situation."
+  },
+  {
+    "slug": "holding-hands",
+    "title": "Holding Hands",
+    "description": "A holding hands dream may reflect connection, affection, trust, support, or boundaries depending on who holds your hand and how it feels."
+  },
+  {
+    "slug": "doctor",
+    "title": "Doctor",
+    "description": "A doctor dream may reflect guidance, examination, advice, uncertainty, or trust in an authority figure depending on what happens during the visit."
+  },
+  {
+    "slug": "medicine",
+    "title": "Medicine",
+    "description": "A medicine dream may reflect healing, relief, accepting help, refusing advice, or searching for a solution to an unresolved situation."
+  },
+  {
+    "slug": "wheelchair",
+    "title": "Wheelchair",
+    "description": "A wheelchair dream may reflect mobility, accessibility, assistance, adaptation, or independence depending on how the wheelchair is used."
+  },
+  {
+    "slug": "surgery",
+    "title": "Surgery",
+    "description": "A surgery dream may reflect vulnerability, major change, consent, anticipation, or recovery depending on what happens before, during, and after surgery."
+  },
+  {
+    "slug": "divorce",
+    "title": "Divorce",
+    "description": "A divorce dream may reflect separation, changing commitments, relationship uncertainty, relief, or resistance to major change."
+  },
+  {
+    "slug": "evil-eye",
+    "title": "Evil Eye",
+    "description": "An evil eye dream may reflect feeling watched, judged, threatened, or protected depending on whether the dream features eyes or the cultural symbol."
+  },
+  {
+    "slug": "fire-in-church",
+    "title": "Fire in Church",
+    "description": "A fire in church dream may reflect changing beliefs, disrupted belonging, conflict, or emotional upheaval connected to faith or community."
+  },
+  {
+    "slug": "fire-falling-from-the-sky",
+    "title": "Fire Falling from the Sky",
+    "description": "A fire falling from the sky dream may reflect sudden disruption, lack of control, spiritual imagery, or fears about a powerful unexpected event."
+  },
+  {
+    "slug": "cancer",
+    "title": "Cancer",
+    "description": "A cancer dream may reflect fear, vulnerability, uncertainty, or concern about a serious problem, but it does not diagnose or predict cancer."
+  },
+  {
+    "slug": "being-unable-to-see",
+    "title": "Being Unable to See",
+    "description": "A dream about being unable to see may reflect uncertainty, confusion, missing information, or difficulty understanding what is happening around you."
+  },
+  {
+    "slug": "recovering-from-an-illness",
+    "title": "Recovering from an Illness",
+    "description": "A recovering from an illness dream may reflect relief, resilience, gradual improvement, hope, or moving beyond a difficult period."
+  },
+  {
+    "slug": "proposal",
+    "title": "Proposal",
+    "description": "A proposal dream may reflect commitment, anticipation, relationship choices, or uncertainty depending on whether you ask, accept, refuse, or hesitate."
+  },
+  {
+    "slug": "meeting-your-soulmate-in-a-dream",
+    "title": "Meeting Your Soulmate in a Dream",
+    "description": "Meeting your soulmate in a dream may reflect longing for connection, emotional compatibility, intimacy, or a meaningful relationship."
+  },
+  {
+    "slug": "northern-lights",
+    "title": "Northern Lights",
+    "description": "A northern lights dream may reflect hope, transformation, wonder, or emotional change depending on the colors, setting, and your reaction."
+  },
+  {
+    "slug": "crossing-a-river",
+    "title": "Crossing a River",
+    "description": "A crossing a river dream may reflect transition, choices, obstacles, and progress depending on the water and what happens during the crossing."
+  },
+  {
+    "slug": "winning-the-lottery",
+    "title": "Winning the Lottery",
+    "description": "A lottery win dream may reflect hope, sudden opportunity, financial wishes, or fear of losing a chance at something important."
+  },
 ];
