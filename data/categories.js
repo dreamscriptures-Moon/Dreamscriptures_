@@ -1,4 +1,5 @@
 import { applyCategoryEditorialDepth } from "./categoryEditorialDepth.js";
+import { categoryDescriptions } from "./categoryDescriptions.js";
 
 export const categoriesData = {
   anxiety: {
@@ -207,7 +208,7 @@ Even when the dream symbols change, the emotional pattern underneath is often co
     title: "Lucid Dreams",
     emotionalThemes: ["Awareness", "Agency", "Curiosity", "Control"],
     emotionalNature:
-      "Lucid dreams often involve awareness, agency, curiosity, control, or the emotional experience of realizing that the inner world can be observed and shaped while it is unfolding.",
+      "Lucid dreams are dreams in which you realize you are dreaming while still asleep. You may be able to influence what happens, though awareness does not always bring control.",
   },
 
   "self awareness": {
@@ -313,3 +314,7 @@ Even when the dream symbols change, the emotional pattern underneath is often co
 };
 
 applyCategoryEditorialDepth(categoriesData);
+
+for (const [key, emotionalNature] of Object.entries(categoryDescriptions)) {
+  categoriesData[key] = { emotionalNature, ...categoriesData[key] };
+}
