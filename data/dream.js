@@ -71848,7 +71848,7 @@ What truth, reality, feeling, or situation am I struggling to face clearly?`,
   title: "Phone not working",
 
   microSummary:
-    "Dreams about a phone not working often reflect communication problems, missed opportunities, feeling unheard, disconnection, frustration, uncertainty, relationship issues, lack of support, or difficulty reaching someone emotionally or mentally.",
+    "A phone that fails when you need it can bring frustration, urgency, or fear of losing access. What were you trying to do: reach someone, read a message, find your way, or save something important?",
 
   shortDescription:
     "A dream that can feel frustrating, stressful, urgent, or helpless. Whether your phone won't turn on, the battery dies, calls won't connect, messages won't send, the screen is broken, or the phone simply stops working when you need it most, these dreams often symbolize communication barriers, emotional distance, and difficulty accessing support, information, or connection.",
@@ -71898,9 +71898,9 @@ Someone feeling unsupported may experience it because reaching others emotionall
 
 The dream often appears when connection is needed but unavailable.
 
-The dream often asks:
+One question to consider is:
 
-Who or what am I struggling to connect with right now?`,
+What did I need the phone to do, and what happened when it could not?`,
 
   emotionalMeaning:
     `Emotionally, this dream often revolves around frustration.
@@ -72000,11 +72000,9 @@ When important conversations remain unfinished.
 
 Many dreamers focus on the phone itself.
 
-The deeper meaning often involves the connection the phone was supposed to create.
+The connection you wanted may matter, but so can the device itself, its cost, and the information stored on it.
 
-The dream is usually asking:
-
-What communication or connection feels blocked in my life right now?`,
+Consider whether an unfinished conversation, a real device problem, or the demands of constant contact feel closest to your experience.`,
 
   contradictions: [
     {
@@ -72084,9 +72082,9 @@ What communication or connection feels blocked in my life right now?`,
         "Many phone dreams occur when the dreamer feels that something important needs attention, communication, or resolution."
     },
     {
-      title: "Why relationship issues trigger these dreams",
+      title: "When a failed call resembles a conversation",
       content:
-        "Communication problems are among the most common reasons phones malfunction in dream symbolism."
+        "A failed call can be a useful comparison for a conversation that keeps getting interrupted. It need not mean there is a problem with the relationship."
     },
     {
       title: "Why feeling unheard matters",
@@ -127521,24 +127519,20 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   context: "Consider what was happening immediately before and after the desert appeared. A recent transition, demanding responsibility, period of isolation, or search for direction may provide a more direct explanation than the desert symbol alone.",
   relatedDreams: [
     {
-      slug: "being-lost",
-      reason: "Both dreams can involve uncertainty about direction, but being lost focuses more directly on not knowing where to go."
+      "slug": "being-lost",
+      "reason": "Both dreams can involve uncertainty about direction, but being lost focuses more directly on not knowing where to go."
     },
     {
-      slug: "water",
-      reason: "Water can provide a useful contrast when the desert dream involves searching for relief, nourishment, or emotional renewal."
+      "slug": "water",
+      "reason": "Water can provide a useful contrast when the desert dream involves searching for relief, nourishment, or emotional renewal."
     },
     {
-      slug: "stranded-on-the-road",
-      reason: "Both can reflect feeling temporarily without an easy route forward, especially when the dreamer is trying to reach somewhere."
+      "slug": "stranded-on-the-road",
+      "reason": "Both can reflect feeling temporarily without an easy route forward, especially when the dreamer is trying to reach somewhere."
     },
     {
-      slug: "being-in-an-unknown-place",
-      reason: "An unfamiliar desert can overlap with dreams about navigating an environment whose rules or destination are unclear."
-    },
-    {
-      slug: "walking-on-water",
-      reason: "Both dreams place the dreamer in an unusual environment and can emphasize how they respond to an unfamiliar situation."
+      "slug": "being-in-an-unknown-place",
+      "reason": "An unfamiliar desert can overlap with dreams about navigating an environment whose rules or destination are unclear."
     }
   ],
   reflectionQuestions: [
@@ -127629,24 +127623,20 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   context: "Consider what the dolphin was doing and how you responded to it. A recent relationship, supportive interaction, emotional boundary, or situation where someone needed help may explain the dream without requiring a deeper symbolic interpretation.",
   relatedDreams: [
     {
-      slug: "ocean",
-      reason: "The ocean provides the broader emotional setting for many dolphin dreams and can change how the interaction is experienced."
+      "slug": "ocean",
+      "reason": "The ocean provides the broader emotional setting for many dolphin dreams and can change how the interaction is experienced."
     },
     {
-      slug: "swimming-at-a-beach-or-in-a-pool",
-      reason: "Swimming alongside a dolphin connects naturally with dreams where the dreamer's movement through water is central."
+      "slug": "swimming-at-a-beach-or-in-a-pool",
+      "reason": "Swimming alongside a dolphin connects naturally with dreams where the dreamer's movement through water is central."
     },
     {
-      slug: "friendly-snake",
-      reason: "Both dreams involve an animal that may feel unusually safe or helpful, making the dreamer's emotional response particularly important."
+      "slug": "talking-animal",
+      "reason": "An unusually interactive dolphin can overlap with dreams where an animal takes on a more communicative or human-like role."
     },
     {
-      slug: "talking-animal",
-      reason: "An unusually interactive dolphin can overlap with dreams where an animal takes on a more communicative or human-like role."
-    },
-    {
-      slug: "being-protected",
-      reason: "A dolphin that protects or helps you can connect with dreams centered on receiving safety or support."
+      "slug": "being-protected",
+      "reason": "A dolphin that protects or helps you can connect with dreams centered on receiving safety or support."
     }
   ],
   reflectionQuestions: [
@@ -127947,7 +127937,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
     },
     {
       title: "Elevator Going Down",
-      meaning: "Going down can represent stepping back, returning to something familiar, or worrying about losing progress. If the descent felt peaceful, it may simply reflect reflection or a desire to slow down. If it felt frightening or uncontrollable, concern about a setback may be more relevant."
+      meaning: "Going down can represent stepping back, returning to something familiar, or worrying about losing progress. If the descent felt peaceful, it may offer a moment to pause or return to familiar ground. If it felt frightening or uncontrollable, concern about a setback may be more relevant."
     },
     {
       title: "Arriving at the Wrong Floor",
@@ -127973,24 +127963,24 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   context: "Think about where the elevator was taking you, who was inside, who controlled it, and what happened when the doors opened. A promotion, move, relationship change, major decision, or rapidly changing situation can provide a direct waking-life context for the dream.",
   relatedDreams: [
     {
-      slug: "being-stuck-in-an-elevator",
-      reason: "This is the closest related dream, but it focuses specifically on being unable to move or leave rather than elevator movement in general."
+      "slug": "being-stuck-in-an-elevator",
+      "reason": "This is the closest related dream, but it focuses specifically on being unable to move or leave rather than elevator movement in general."
     },
     {
-      slug: "climbing-stairs",
-      reason: "Both dreams involve moving between levels, but climbing stairs requires sustained personal effort while an elevator emphasizes speed, access, and control."
+      "slug": "climbing-stairs",
+      "reason": "Both dreams involve moving between levels, but climbing stairs requires sustained personal effort while an elevator emphasizes speed, access, and control."
     },
     {
-      slug: "going-down-the-stairs",
-      reason: "Descending stairs provides a useful contrast when an elevator dream involves going downward or returning to a lower level."
+      "slug": "going-down-the-stairs",
+      "reason": "Descending stairs provides a useful contrast when an elevator dream involves going downward or returning to a lower level."
     },
     {
-      slug: "going-back-to-school",
-      reason: "An elevator arriving at a familiar or former place can connect with dreams about returning to an earlier stage or environment."
+      "slug": "getting-promoted-at-work",
+      "reason": "A rapid ascent can raise questions about advancement and the responsibilities waiting at the next level."
     },
     {
-      slug: "the-future",
-      reason: "An elevator moving toward an unknown destination can naturally connect with uncertainty about what lies ahead."
+      "slug": "the-future",
+      "reason": "An elevator moving toward an unknown destination can naturally connect with uncertainty about what lies ahead."
     }
   ],
   reflectionQuestions: [
@@ -128066,7 +128056,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
       meaning: "Finding the right book may reflect progress toward clarity or discovering information that feels useful. Your reaction matters: relief may suggest that uncertainty is easing, while disappointment could mean the answer was not what you expected."
     },
     {
-      title: "Reading an Unreadable Book",
+      title: "Trying to Read an Unreadable Book",
       meaning: "Trying to read words that make no sense can reflect having information without being able to interpret it. This may fit a confusing decision, mixed signals from someone, or a situation where you feel that an important answer is just out of reach."
     },
     {
@@ -128321,24 +128311,20 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   context: "Consider what was on each side of the bridge and what you were trying to reach. A recent move, relationship decision, career change, reconciliation, or personal transition may provide the clearest waking-life context for the dream.",
   relatedDreams: [
     {
-      slug: "jumping-off-a-bridge",
-      reason: "This existing dream focuses specifically on jumping from a bridge, while the broader bridge dream centers on crossing, hesitation, stability, and transition."
+      "slug": "crossing-a-river",
+      "reason": "Explore the choice of route and the effort of reaching the opposite bank when water is central to the crossing."
     },
     {
-      slug: "walking-on-water",
-      reason: "Crossing a bridge over water can overlap with dreams about navigating an emotionally significant environment while trying to reach a destination."
+      "slug": "stranded-on-the-road",
+      "reason": "Both dreams can involve a journey interrupted by uncertainty or difficulty moving toward a destination."
     },
     {
-      slug: "stranded-on-the-road",
-      reason: "Both dreams can involve a journey interrupted by uncertainty or difficulty moving toward a destination."
+      "slug": "climbing-stairs",
+      "reason": "Both involve movement toward another level or stage, but a bridge emphasizes crossing from one side or situation to another."
     },
     {
-      slug: "climbing-stairs",
-      reason: "Both involve movement toward another level or stage, but a bridge emphasizes crossing from one side or situation to another."
-    },
-    {
-      slug: "doors",
-      reason: "A bridge and a door can both represent points of transition, although a bridge emphasizes the journey between two places rather than the threshold itself."
+      "slug": "doors",
+      "reason": "A bridge and a door can both represent points of transition, although a bridge emphasizes the journey between two places rather than the threshold itself."
     }
   ],
   reflectionQuestions: [
@@ -128781,24 +128767,20 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   context: "Think about why you looked in the mirror and what you expected to see. A recent change in appearance, identity, relationship, social role, confidence, or the way others respond to you may provide a more direct explanation than the missing reflection itself.",
   relatedDreams: [
     {
-      slug: "mirrors",
-      reason: "This is the broader mirror topic, while no reflection focuses specifically on the absence of the expected image."
+      "slug": "mirrors",
+      "reason": "This is the broader mirror topic, while no reflection focuses specifically on the absence of the expected image."
     },
     {
-      slug: "different-reflection-in-the-mirror",
-      reason: "Both dreams involve an unexpected mirror image, but a different reflection presents another version of the dreamer while no reflection centers on complete absence."
+      "slug": "different-reflection-in-the-mirror",
+      "reason": "Both dreams involve an unexpected mirror image, but a different reflection presents another version of the dreamer while no reflection centers on complete absence."
     },
     {
-      slug: "looking-in-the-mirror",
-      reason: "Looking in a mirror provides the broader context for dreams involving self-image, appearance, and how the dreamer sees themselves."
+      "slug": "looking-in-the-mirror",
+      "reason": "Looking in a mirror provides the broader context for dreams involving self-image, appearance, and how the dreamer sees themselves."
     },
     {
-      slug: "seeing-your-double",
-      reason: "A double creates another visible version of the dreamer, providing a useful contrast with a mirror that shows no version at all."
-    },
-    {
-      slug: "being-in-an-unknown-place",
-      reason: "Feeling unfamiliar with your own reflection can overlap with the broader experience of being in an environment that does not feel recognizable."
+      "slug": "seeing-your-double",
+      "reason": "A double creates another visible version of the dreamer, providing a useful contrast with a mirror that shows no version at all."
     }
   ],
   reflectionQuestions: [
@@ -128983,7 +128965,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   scenarios: [
     {
       title: "Watching a Red Moon Calmly",
-      meaning: "Observing the moon without fear may suggest that you are noticing a change without feeling compelled to act immediately. If the scene felt peaceful, the dream may reflect reflection, curiosity, or acceptance of something unfamiliar."
+      meaning: "Observing the moon without fear may suggest that you are noticing a change without feeling compelled to act immediately. If the scene felt peaceful, the scene may offer room for curiosity without a sense of danger."
     },
     {
       title: "Feeling Afraid of the Red Moon",
@@ -129487,7 +129469,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   slug: "walking-backwards",
   description: "Dreaming of walking backwards may reflect deliberately returning to something from the past, reconsidering a decision, or moving through a situation in an unusual direction. The meaning changes depending on whether you choose to walk backwards or feel unable to move forward.",
   emotionalMeaning: "Your reaction to walking backwards is important. If you feel calm or purposeful, the dream may reflect a conscious decision to revisit something, retrace your steps, or reconsider a previous choice. If you feel frustrated because you are trying to move forward but cannot, the dream may instead reflect feeling blocked or held back.",
-  symbolicMeaning: "Walking backwards can represent looking toward the past while continuing to move. It may fit situations involving memories, old relationships, previous decisions, or a desire to understand what happened before moving on. If you deliberately turn around and walk backwards, the action may symbolize reversal or reconsideration. If your body simply will not move forward, the stronger theme may be difficulty progressing.",
+  symbolicMeaning: "Walking backwards can represent looking toward the past while continuing to move. It may fit situations involving memories, old relationships, previous decisions, or a desire to understand what happened before moving on. Choosing to step backwards may suggest reconsideration or retreat. If your body simply will not move forward, the stronger theme may be difficulty progressing.",
   wakingLifeMeaning: "This dream may appear when you are reconsidering a decision or revisiting something you thought you had left behind. It can also reflect a period where progress feels less direct than expected. The distinction is useful: choosing to walk backwards suggests agency, while being forced or unable to walk forward may point toward frustration with an obstacle.",
   seoTitle: "Walking Backwards Dream Meaning: What It May Symbolize",
   seoDescription: "Dreaming of walking backwards may reflect revisiting the past, reversing a decision, or feeling unable to move forward in waking life.",
@@ -129523,7 +129505,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   ],
   scenarios: [
     {
-      situation: "You deliberately turn around and walk backwards.",
+      situation: "You deliberately take a few steps backwards.",
       possibleMeaning: "This may suggest that you are consciously reconsidering a decision, returning to something familiar, or wanting to examine what you have already left behind."
     },
     {
@@ -129536,7 +129518,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
     },
     {
       situation: "You keep looking behind you while walking backwards.",
-      possibleMeaning: "This may point toward unresolved attention to a past event, relationship, decision, or memory."
+      possibleMeaning: "Looking over your shoulder might simply help you check where you are going. Notice whether you were avoiding an obstacle, watching for someone, or trying to find a familiar place."
     },
     {
       situation: "You walk backwards because something ahead feels dangerous.",
@@ -129742,7 +129724,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   slug: "holding-hands",
   description: "Dreaming of holding hands may reflect connection, trust, affection, reassurance, or a desire for closeness. The meaning can change significantly depending on who is holding your hand, who reaches out first, and whether the contact feels welcome.",
   emotionalMeaning: "If holding hands feels comforting, the dream may reflect emotional security, affection, or a wish to feel supported. If the contact feels uncomfortable or forced, it may instead point toward concerns about boundaries, unwanted closeness, or pressure from another person. A sense of sadness may suggest missing someone or wanting a connection that currently feels distant.",
-  symbolicMeaning: "Hands can represent interaction and connection because holding hands requires both people to participate in the contact. The person beside you, who initiates the gesture, and whether you willingly hold on can therefore matter more than the hand itself. Holding hands with someone you know may reflect the existing relationship, while holding hands with a stranger can represent an unfamiliar connection or an aspect of yourself that feels less familiar.",
+  symbolicMeaning: "Holding hands brings closeness into physical contact, but that contact is not always mutual or welcome. The person beside you, who initiates the gesture, and whether you willingly hold on can therefore matter more than the hand itself. Holding hands with someone you know may reflect the existing relationship, while holding hands with a stranger can represent an unfamiliar connection or an aspect of yourself that feels less familiar.",
   wakingLifeMeaning: "This dream may connect with a current relationship, friendship, family connection, or desire for emotional support. If someone else takes your hand, consider how you feel about receiving their attention or influence. If you reach for their hand first, the dream may reflect your own desire to reconnect, reassure, or become closer to them.",
   seoTitle: "Holding Hands Dream Meaning: What It May Symbolize",
   seoDescription: "A holding hands dream may reflect connection, affection, trust, support, or boundaries depending on who holds your hand and how it feels.",
@@ -129809,10 +129791,9 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   ],
   context: "The person and the emotional quality of the contact should guide the interpretation. Holding hands with a romantic partner is different from holding hands with an old friend, stranger, family member, or someone you do not trust. Pay particular attention to who initiated the contact and whether you wanted it. A recent affectionate interaction, conversation about a relationship, or physical memory of holding someone's hand can also explain the dream without requiring a deeper symbolic meaning.",
   relatedDreams: [
-    "confessing-your-love-to-someone",
-    "someone-confessing-their-love-to-you",
     "kissing-someone",
-    "having-sex",
+    "family",
+    "seeing-someone-you-miss",
     "being-protected"
   ],
   reflectionQuestions: [
@@ -129902,8 +129883,8 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   relatedDreams: [
     "being-sick",
     "hospital",
-    "eyes",
-    "blood",
+    "medicine",
+    "surgery",
     "being-judged"
   ],
   reflectionQuestions: [
@@ -129994,7 +129975,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
     "doctor",
     "hospital",
     "being-sick",
-    "blood",
+    "recovering-from-an-illness",
     "being-protected"
   ],
   reflectionQuestions: [
@@ -130082,11 +130063,10 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   ],
   context: "The wheelchair itself should not automatically be interpreted as weakness, helplessness, or dependence. The important details are mobility, access, control, assistance, and independence. A dream about using a wheelchair can have very different meanings depending on whether the dreamer feels capable and comfortable or frustrated and restricted. If you use a wheelchair or regularly interact with wheelchair users, the dream may also reflect ordinary experiences, concerns, or memories rather than a symbolic message.",
   relatedDreams: [
-    "being-trapped",
-    "running-slowly",
-    "running-but-cant-move-fast",
-    "being-unable-to-scream",
-    "being-protected"
+    "elevator",
+    "doctor",
+    "being-protected",
+    "losing-control"
   ],
   reflectionQuestions: [
     "Were you using the wheelchair yourself or helping someone else?",
@@ -130181,7 +130161,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
     "hospital",
     "being-sick",
     "being-protected",
-    "being-trapped"
+    "recovering-from-an-illness"
   ],
   reflectionQuestions: [
     "Did you agree to the surgery, question it, or feel forced into it?",
@@ -130271,7 +130251,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   relatedDreams: [
     "marriage-or-wedding",
     "breakup",
-    "your-partner-cheating-on-you",
+    "abandonment",
     "confrontation-or-argument",
     "being-rejected"
   ],
@@ -130446,7 +130426,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
       possibleMeaning: "A damaged but standing church may reflect a belief system, community, or sense of identity that has been challenged without disappearing completely."
     }
   ],
-  context: "The church should not be treated as a generic symbol of spirituality. Ask what that particular church means to the dreamer: faith, family tradition, community, childhood, belonging, authority, comfort, or something else. The fire then shows what is happening to that meaning in the dream. This makes the entry distinct from a general Fire dream or Church dream. A recent experience with religion, a disagreement within a community, or exposure to an actual church-fire story can also provide a straightforward explanation.",
+  context: "What does this particular church mean to you: faith, family tradition, childhood, belonging, authority, or comfort? Notice what you wanted to protect when the fire started, and whether that was the building, the people, or something the place stood for. A disagreement within a community or a recent church-fire story may also explain the scene.",
   relatedDreams: [
     "fire",
     "church",
@@ -130533,7 +130513,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
       possibleMeaning: "Peacefulness may suggest that the imagery represents awe, acceptance, or spiritual reflection rather than fear of immediate danger."
     }
   ],
-  context: "The clearer image for this topic is fire falling from the sky rather than simply 'fire from heaven.' That distinction keeps the interpretation focused on the unusual direction and uncontrollable nature of the fire. If the dreamer understands the imagery through a religious tradition, that context can be explored without assuming the dream is a prophecy. Fire falling from the sky does not establish that divine judgment, punishment, or a future event is taking place.",
+  context: "Notice where the fire landed, whether shelter was available, and what you believed was happening. If you understood it as fire from heaven, your religious associations may help explain the fear or awe you felt. The dream does not establish divine judgment, punishment, or a future event.",
   relatedDreams: [
     "fire",
     "bright-light-in-the-sky",
@@ -130711,7 +130691,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
       possibleMeaning: "Your calmness may suggest that uncertainty does not necessarily feel threatening and that you are becoming more comfortable proceeding without having every answer."
     }
   ],
-  context: "The main distinction from Being Unable to Open Your Eyes is whether your eyes are physically unable to open or whether you can open them but still cannot see. In the first case, the dream may focus on being unable to look or wake into awareness; in this entry, the central experience is having vision but being unable to perceive what is in front of you. The reason for the lack of sight and your emotional response should guide the interpretation.",
+  context: "Could you open your eyes but still not see, or were your eyelids unable to open? Being Unable to Open Your Eyes explores the second experience. Here, notice whether the scene was dark, blurred, covered, or absent, and how you found your way. The cause within the dream and your response matter more than assigning one meaning to lost sight.",
   relatedDreams: [
     "being-unable-to-open-your-eyes",
     "eyes",
@@ -130969,8 +130949,8 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
       possibleMeaning: "The person may represent qualities, circumstances, or a type of commitment that you associate with them rather than a literal desire to marry them."
     },
     {
-      situation: "You receive an engagement ring and immediately accept it.",
-      possibleMeaning: "Accepting the ring may reflect openness to commitment, stability, or a willingness to move toward a significant future decision."
+      situation: "You keep looking at the ring after becoming engaged.",
+      possibleMeaning: "Notice whether looking at it brought pleasure, disbelief, or a sense of obligation. The scene may concern settling into a commitment after the decision has already been made."
     },
     {
       situation: "You become engaged but want to take the ring off.",
@@ -131090,7 +131070,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
     "proposal",
     "marriage-or-wedding",
     "holding-hands",
-    "someone-confessing-their-love-to-you"
+    "inheritance"
   ],
   reflectionQuestions: [
     "What kind of ring appeared in the dream?",
@@ -131101,7 +131081,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
     "What commitment, promise, or relationship currently feels especially important to you?"
   ],
   illustrativeExamples: [
-    "Someone whose relationship is becoming more serious might dream of receiving an engagement ring and feeling excited. The dream may reflect anticipation about commitment and the future of the relationship.",
+    "A person sorting through family belongings might dream of wearing a relative's ring. Its significance could lie in the memories or responsibilities attached to it, rather than a romantic promise.",
     "Someone reconsidering an obligation might dream of taking off a ring that feels too tight. The uncomfortable fit may reflect a commitment that currently feels restrictive rather than a literal prediction about the relationship."
   ],
   editorialNote: "Use Ring as the broad object page and cover engagement and wedding rings through context-specific scenarios rather than splitting them into separate pages prematurely. The action involving the ring—giving, receiving, wearing, losing, finding, removing, or breaking it—should provide the main variation."
@@ -131295,7 +131275,6 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   context: "Consider the entire scene rather than the lights alone. Where were you, who was with you, what colors appeared, how quickly did they move, and did you feel peaceful, excited, frightened, or overwhelmed? The location can also matter: seeing the lights while traveling may emphasize exploration, while seeing them from home may connect the unusual experience with something familiar. Recent exposure to photographs, videos, travel plans, or conversations about the northern lights can also explain the dream without requiring a deeper symbolic interpretation.",
   relatedDreams: [
     "stars",
-    "shooting-star",
     "shooting-stars",
     "bright-light-in-the-sky",
     "rainbow"
@@ -131317,7 +131296,7 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
 {
   title: "Crossing a River",
   slug: "crossing-a-river",
-  description: "Dreaming about crossing a river may reflect moving through a transition, making an important choice, or trying to reach a new stage of life. The river's condition, the route you choose, and whether you reach the other side can change the meaning.",
+  description: "A river crossing puts the route itself at the center of the dream. Wading through shallow water, swimming against a current, and accepting a hand from someone on the bank involve different kinds of effort and support. These details may connect with a change you are trying to make and the options available to you.",
   emotionalMeaning: "Feeling confident while crossing may reflect readiness to face change, while fear can suggest uncertainty about what lies ahead. Relief after reaching the other side may represent completing a difficult phase, while frustration or panic can point to obstacles that feel unresolved.",
   symbolicMeaning: "The river can represent a boundary between one situation and another, while crossing it emphasizes movement and decision-making. Calm water may suggest a manageable transition, whereas strong currents, deep water, or obstacles can reflect difficulties that make progress feel less predictable.",
   wakingLifeMeaning: "This dream may connect with a decision, transition, relationship change, move, career shift, or personal goal that requires you to leave one situation and move toward another. Choosing how to cross can be especially meaningful if you are currently deciding between different approaches to a problem.",
@@ -131524,15 +131503,2233 @@ Ask what currently feels powerful enough to make you run. Is there a real threat
   ],
   editorialNote: "Keep this page distinct from Finding Money by emphasizing chance, anticipation, the lottery ticket, disbelief, sharing winnings, and the possibility of losing the ticket. Never frame a lottery dream as a promise or prediction of financial gain."
 },
-
-
-
-
-
-
-
-
-
+{
+  title: "Hidden Treasure",
+  slug: "hidden-treasure",
+  description: "Hidden treasure dreams bring discovery and ownership together: you find something precious, then have to decide what to do with it. The treasure might connect with an overlooked ability, a promising opportunity, or something you value privately. A long search, an accidental find, and a discovery you must keep secret each give that possibility a different shape.",
+  emotionalMeaning: "The excitement of finding treasure can turn to worry as soon as someone else notices it. Ask what changed: were you afraid of losing the find, unsure it was yours, or reluctant to share? Those feelings help separate the pleasure of discovery from the pressure of keeping something valuable.",
+  symbolicMeaning: "Hidden treasure can represent something valuable that is not immediately visible, such as an opportunity, ability, insight, relationship, or personal quality. The fact that it is hidden emphasizes discovery, while possessing the treasure introduces questions about ownership, responsibility, and what you intend to do with what you have found.",
+  wakingLifeMeaning: "This dream may connect with an opportunity you are beginning to notice, a skill you are developing, information you have recently uncovered, or something in your life that you have started to appreciate more deeply. Searching for treasure may reflect actively looking for possibilities, while finding it may represent a moment of recognition rather than literal financial gain.",
+  seoTitle: "Hidden Treasure Dream Meaning: Discovery, Value & Opportunity",
+  seoDescription: "A hidden treasure dream may reflect discovery, opportunity, personal value, or something important waiting to be recognized.",
+  category: "Money & Discovery Dreams",
+  tags: [
+    "hidden treasure dream meaning",
+    "dream about hidden treasure",
+    "finding hidden treasure dream",
+    "treasure dream meaning",
+    "discovering treasure in a dream"
+  ],
+  dreamSymbols: [
+    "Hidden treasure",
+    "Treasure chest",
+    "Gold",
+    "Discovery",
+    "Hidden object",
+    "Valuable possessions"
+  ],
+  emotionalState: [
+    "Excitement",
+    "Curiosity",
+    "Awe",
+    "Hope",
+    "Fear",
+    "Suspicion"
+  ],
+  behaviorInsights: [
+    "Searching for something valuable",
+    "Investigating what is not immediately visible",
+    "Recognizing an overlooked opportunity",
+    "Protecting something personally important",
+    "Deciding how to use a new resource",
+    "Questioning who has a right to something valuable"
+  ],
+  scenarios: [
+    {
+      "title": "You search for hidden treasure.",
+      "meaning": "Was the search absorbing or exhausting? Enjoying the hunt might fit curiosity about a new direction; searching without any clue can be closer to pressure to find something that will improve your circumstances."
+    },
+    {
+      "title": "You suddenly discover hidden treasure.",
+      "meaning": "An unexpected discovery may reflect recognizing value in something you previously overlooked or encountering an opportunity you did not anticipate."
+    },
+    {
+      "title": "You find a treasure chest.",
+      "meaning": "Notice whether you opened the chest. An unopened one leaves the value imagined; finding ordinary objects inside can raise the question of why they mattered to you."
+    },
+    {
+      "title": "You discover gold as hidden treasure.",
+      "meaning": "Gold may emphasize value, achievement, security, or something you consider especially precious, depending on your personal associations with it."
+    },
+    {
+      "title": "You know where the treasure is hidden but cannot reach it.",
+      "meaning": "Knowing the location without being able to access it may reflect awareness of an opportunity or goal that still feels out of reach."
+    },
+    {
+      "title": "Someone else finds the treasure first.",
+      "meaning": "Watching another person discover it may reflect comparison, competition, or concern that someone else will benefit from an opportunity you wanted."
+    },
+    {
+      "title": "You believe the treasure belongs to you.",
+      "meaning": "What made it feel like yours: a name, a memory, or the effort of finding it? Confidence and guilt suggest different questions about entitlement and responsibility."
+    },
+    {
+      "title": "You hide the treasure after finding it.",
+      "meaning": "Hiding the treasure may reflect protecting a valuable opportunity, keeping personal plans private, or feeling uncertain about whether others can be trusted with what you have discovered."
+    },
+    {
+      "title": "You share the treasure with someone.",
+      "meaning": "Sharing what you found may reflect generosity, partnership, or a desire for someone important to benefit from your success or discovery."
+    },
+    {
+      "title": "You find the treasure but do not know what to do with it.",
+      "meaning": "Uncertainty about what to do next may reflect having a new opportunity or resource without yet knowing how it should fit into your life."
+    }
+  ],
+  context: "The most important details are what you were searching for, how you discovered the treasure, whether you believed it belonged to you, and what you did afterward. Treasure found accidentally can suggest unexpected discovery, while a long search can emphasize persistence and effort. Consider whether the treasure was money, jewelry, gold, an object, or something unfamiliar, and whether you kept it, shared it, hid it, or left it behind. Recent experiences involving opportunities, possessions, money, or discovering something about yourself can also shape the dream.",
+  relatedDreams: [
+    "finding-money",
+    "gold",
+    "money",
+    "discovering-new-rooms-in-a-house",
+    "secret-room"
+  ],
+  reflectionQuestions: [
+    "What kind of treasure did you discover?",
+    "Were you actively searching for it or did you find it unexpectedly?",
+    "Did you believe the treasure belonged to you?",
+    "Who else knew about the treasure?",
+    "What did you decide to do with it after finding it?",
+    "What valuable opportunity, ability, relationship, or resource have you recently discovered?"
+  ],
+  illustrativeExamples: [
+    "Someone exploring a new career direction might dream of searching through an old building and discovering a hidden chest. The treasure may represent an opportunity or ability they are only beginning to recognize.",
+    "Someone who has recently received an unexpected opportunity might dream of finding treasure and immediately hiding it from everyone else. The dream may reflect excitement about the opportunity alongside a desire to protect it until they know what to do with it."
+  ],
+  editorialNote: "Build the page around the full treasure sequence: searching, discovering, establishing ownership, protecting or sharing the find, and deciding what happens next. Keep it distinct from Finding Money by allowing treasure to represent objects, abilities, opportunities, knowledge, or other forms of value rather than focusing only on financial gain.",
+  categories: [
+    "money",
+    "self-discovery"
+  ],
+  emotionalStates: [
+    "Excitement",
+    "Curiosity",
+    "Awe",
+    "Hope",
+    "Fear",
+    "Suspicion"
+  ]
+},
+{
+  title: "Inheritance",
+  slug: "inheritance",
+  description: "An inheritance dream is about what comes to you through another person: money, a home, a treasured object, or a responsibility you did not choose. Family history and your relationship with that person matter as much as the value of the gift. Receiving it can feel comforting and burdensome at the same time.",
+  emotionalMeaning: "Feeling grateful or happy about an inheritance may reflect appreciation for family, security, or something meaningful you have received. Feeling pressured or uncomfortable may suggest that an obligation, expectation, or family responsibility feels burdensome. Grief may also be present when the inheritance is connected to someone who has died.",
+  symbolicMeaning: "An inheritance can represent more than money or property. It may symbolize values, traditions, responsibilities, memories, skills, possessions, or unresolved family expectations that feel as though they have been passed to you. The specific item inherited can reveal what kind of value or responsibility the dream is emphasizing.",
+  wakingLifeMeaning: "This dream may connect with family responsibilities, changes in your role within the family, memories of someone important, financial concerns, or something you feel you have been entrusted with. It can also appear when you are thinking about what you want to preserve from your family and what you would rather leave behind.",
+  seoTitle: "Inheritance Dream Meaning: Family, Responsibility & Legacy",
+  seoDescription: "An inheritance dream may reflect family, responsibility, memory, expectations, or something meaningful being passed on to you.",
+  category: "Family & Money Dreams",
+  tags: [
+    "inheritance dream meaning",
+    "dream about inheritance",
+    "receiving an inheritance dream",
+    "family inheritance dream",
+    "inheritance in a dream"
+  ],
+  dreamSymbols: [
+    "Inheritance",
+    "Family",
+    "Money",
+    "Property",
+    "Legacy",
+    "Family heirloom"
+  ],
+  emotionalState: [
+    "Gratitude",
+    "Relief",
+    "Grief",
+    "Pressure",
+    "Confusion",
+    "Responsibility"
+  ],
+  behaviorInsights: [
+    "Taking responsibility for something passed down",
+    "Protecting family possessions or traditions",
+    "Deciding what to preserve",
+    "Managing expectations from others",
+    "Processing memories connected to family",
+    "Adjusting to a new responsibility"
+  ],
+  scenarios: [
+    {
+      "title": "You receive a large inheritance.",
+      "meaning": "A large inheritance may reflect thoughts about security, responsibility, or a major change in circumstances, particularly if the amount feels significant in the dream."
+    },
+    {
+      "title": "You inherit a family house.",
+      "meaning": "Did the house feel like a home you wanted or a property you now had to maintain? The difference can help you explore belonging alongside the demands of carrying on a family role."
+    },
+    {
+      "title": "You inherit money.",
+      "meaning": "Inherited money may emphasize financial security or the responsibilities associated with receiving resources from someone else."
+    },
+    {
+      "title": "You inherit jewelry or a family heirloom.",
+      "meaning": "A personal object may symbolize memory, family identity, tradition, or an emotional connection to the person or family history associated with it."
+    },
+    {
+      "title": "You inherit something from someone who has died.",
+      "meaning": "A familiar possession can bring grief and affection into the same scene. Consider what you remember about its owner; the dream does not establish a message from them or an actual inheritance."
+    },
+    {
+      "title": "You do not want the inheritance.",
+      "meaning": "Rejecting an inheritance may reflect discomfort with a family expectation, responsibility, identity, or role that you do not want to take on."
+    },
+    {
+      "title": "Someone argues with you about the inheritance.",
+      "meaning": "An argument invites reflection on fairness and recognition within the family. Notice whether you wanted the item itself or wanted someone to acknowledge your place in the family."
+    },
+    {
+      "title": "You discover that you have inherited something unexpectedly.",
+      "meaning": "An unexpected inheritance may represent a responsibility, opportunity, or part of your family identity that you did not anticipate receiving."
+    },
+    {
+      "title": "You give your inheritance to someone else.",
+      "meaning": "Passing the inheritance on may reflect generosity, relinquishing responsibility, or deciding that something you received should belong to another person."
+    },
+    {
+      "title": "You lose the inheritance.",
+      "meaning": "Losing an inheritance may reflect fear of losing security, family connection, an important memory, or something you feel responsible for protecting."
+    }
+  ],
+  context: "Pay attention to who the inheritance came from, what you received, and how you felt about accepting it. Money and property can emphasize security and responsibility, while a family object may place more weight on memory, identity, and tradition. If the inheritance came from someone who has died, consider whether the dream is connected to grief or memories of that person. If there is conflict around the inheritance, the dream may be processing family expectations or concerns about fairness.",
+  relatedDreams: [
+    "receiving-money",
+    "childhood-home",
+    "family",
+    "seeing-a-dead-person",
+    "ring"
+  ],
+  reflectionQuestions: [
+    "Who did the inheritance come from?",
+    "What exactly did you inherit?",
+    "Did you feel happy, relieved, pressured, or uncomfortable receiving it?",
+    "Did anyone else want or challenge your inheritance?",
+    "Did the inheritance feel like a gift, a responsibility, or both?",
+    "What family value, memory, responsibility, or expectation do you currently feel you are carrying?"
+  ],
+  illustrativeExamples: [
+    "Someone who has recently taken on more responsibility within their family might dream of inheriting a family house. The house may represent not only property but the memories, expectations, and responsibilities attached to their changing family role.",
+    "Someone processing the death of a relative might dream of receiving one of that person's personal belongings as an inheritance. The dream may reflect the emotional significance of the person's memory and the parts of their influence the dreamer continues to carry."
+  ],
+  editorialNote: "Keep Inheritance distinct from Receiving Money by making family relationships, legacy, responsibility, memory, and expectations central. The inherited item should determine the specific interpretation, while an inheritance from someone who has died should allow space for grief without assuming the dream has a supernatural message.",
+  categories: [
+    "family",
+    "money"
+  ],
+  emotionalStates: [
+    "Gratitude",
+    "Relief",
+    "Grief",
+    "Pressure",
+    "Confusion",
+    "Responsibility"
+  ]
+},
+{
+  title: "Paying Bills",
+  slug: "paying-bills",
+  description: "Paying bills in a dream can be as practical as worrying about the next payment or wanting the relief of having everything covered. Start with the actual obligation: was it yours, overdue, unexpected, or already settled? When money is not a current concern, the same scene may fit another demand you feel responsible for meeting.",
+  emotionalMeaning: "Relief after paying the last bill is different from panic when another one arrives. Shame about asking for help, anger at an unfair charge, and satisfaction at being organized deserve attention too. The dream may concern how you carry responsibility as much as whether you have enough money.",
+  symbolicMeaning: "Bills can symbolize obligations that demand attention, whether financial, emotional, practical, or relational. Paying a bill can represent meeting a responsibility, while an overdue bill may emphasize something you have postponed or feel increasingly pressured to address.",
+  wakingLifeMeaning: "This dream may connect directly with financial concerns, upcoming expenses, debt, household responsibilities, or the general pressure of keeping up with everyday obligations. It can also appear when you feel that several demands are competing for your attention, even when money is not the central issue.",
+  seoTitle: "Paying Bills Dream Meaning: Money, Responsibility & Stress",
+  seoDescription: "A paying bills dream may reflect financial pressure, obligations, responsibility, overdue tasks, or relief after handling an important burden.",
+  category: "Money & Responsibility Dreams",
+  tags: [
+    "paying bills dream meaning",
+    "dream about paying bills",
+    "bills dream meaning",
+    "dream about unpaid bills",
+    "financial stress dream"
+  ],
+  dreamSymbols: [
+    "Bills",
+    "Money",
+    "Payment",
+    "Debt",
+    "Due date",
+    "Receipt"
+  ],
+  emotionalState: [
+    "Stress",
+    "Relief",
+    "Anxiety",
+    "Responsibility",
+    "Frustration",
+    "Security"
+  ],
+  behaviorInsights: [
+    "Taking responsibility for obligations",
+    "Trying to stay financially organized",
+    "Addressing something that has been postponed",
+    "Prioritizing competing demands",
+    "Seeking relief from accumulated pressure",
+    "Worrying about having enough resources"
+  ],
+  scenarios: [
+    {
+      "title": "You have enough money to pay all your bills.",
+      "meaning": "Having enough money may reflect a desire for financial stability, preparedness, or confidence that you can handle your current responsibilities."
+    },
+    {
+      "title": "You do not have enough money to pay the bills.",
+      "meaning": "Insufficient money may reflect financial anxiety, insecurity, or concern that your current resources will not be enough to meet your obligations."
+    },
+    {
+      "title": "You are paying overdue bills.",
+      "meaning": "An overdue payment can resemble a task you keep putting off. If real bills are overdue, begin with that immediate worry instead of searching for a hidden obligation."
+    },
+    {
+      "title": "You receive a bill you were not expecting.",
+      "meaning": "An unexpected bill may reflect concern about an obligation, expense, or problem appearing without enough time to prepare for it."
+    },
+    {
+      "title": "You cannot find the money to pay a bill.",
+      "meaning": "Searching for money may emphasize feeling unprepared, uncertain about your resources, or unsure how to solve a practical problem."
+    },
+    {
+      "title": "You pay your bills and feel relieved.",
+      "meaning": "The relief may reflect a strong desire for closure and the feeling of finally removing something from your list of responsibilities."
+    },
+    {
+      "title": "Someone else pays your bills.",
+      "meaning": "Did the help feel welcome, embarrassing, or controlling? Receiving support and feeling that someone now has a claim on you are different experiences."
+    },
+    {
+      "title": "You are overwhelmed by a pile of bills.",
+      "meaning": "A large number of bills may represent several responsibilities accumulating at once and creating a sense of being overwhelmed."
+    },
+    {
+      "title": "You discover that a bill has already been paid.",
+      "meaning": "You may be carrying a worry after the task is finished. Notice whether discovering the payment let you relax or left you searching for another problem."
+    },
+    {
+      "title": "You pay the wrong bill or send the payment to the wrong place.",
+      "meaning": "A payment mistake may reflect anxiety about making an important error or directing your time, money, or energy toward the wrong priority."
+    }
+  ],
+  context: "The practical details are especially important in this dream. Notice what kind of bill appeared, whether it was overdue, how much money you had available, who was responsible for paying it, and how you felt afterward. If you are currently dealing with real bills, budgeting, debt, rent, utilities, or other expenses, the dream may simply be processing those concerns. When no financial issue is present, the bill can instead represent another obligation that feels like it needs to be dealt with.",
+  relatedDreams: [
+    "receiving-a-paycheck",
+    "losing-money",
+    "receiving-money",
+    "money",
+    "work-stress"
+  ],
+  reflectionQuestions: [
+    "What kind of bill were you trying to pay?",
+    "Did you have enough money to cover it?",
+    "Was the bill overdue or unexpected?",
+    "Who was responsible for making the payment?",
+    "How did you feel after the bill was paid?",
+    "What responsibility in your waking life currently feels urgent or difficult to keep up with?"
+  ],
+  illustrativeExamples: [
+    "Someone dealing with several upcoming expenses might dream of sitting at a table surrounded by overdue bills and realizing they do not have enough money. The dream may reflect real financial pressure and concern about keeping up with obligations.",
+    "Someone who has recently resolved a stressful financial problem might dream of paying the final bill and feeling enormous relief. The dream may mirror the emotional release that comes with finally closing an important obligation."
+  ],
+  editorialNote: "Keep this page grounded in concrete financial situations: having enough or not enough money, overdue payments, unexpected bills, payment mistakes, and the relief of settling an obligation. Allow non-financial interpretations only when the dream context supports them, rather than making every bill automatically symbolic.",
+  categories: [
+    "money",
+    "anxiety"
+  ],
+  emotionalStates: [
+    "Stress",
+    "Relief",
+    "Anxiety",
+    "Responsibility",
+    "Frustration",
+    "Security"
+  ]
+},
+{
+  title: "Baby Walking",
+  slug: "baby-walking",
+  description: "A baby taking its first steps brings progress into view while the need for care remains. The dream might connect with a real child, a new undertaking, or mixed feelings about someone becoming more independent. Helping the baby balance feels different from watching it walk away before you are ready.",
+  emotionalMeaning: "Feeling proud or joyful while watching the baby walk may reflect excitement about progress and development. Surprise may suggest that a situation is changing faster than expected, while worry about the baby's steps can reflect concern about whether something new is developing safely or successfully.",
+  symbolicMeaning: "A baby's first steps can represent the beginning of independent movement after a period of dependence. The dream may emphasize a new ability, milestone, or stage that is still developing rather than something that is already fully established.",
+  wakingLifeMeaning: "This dream may connect with a new project, relationship, personal goal, or life stage that is beginning to move forward. If you are helping the baby walk, the dream may emphasize your supportive role, while a baby walking independently may focus more on unexpected progress or growing independence.",
+  seoTitle: "Baby Walking Dream Meaning: Growth, Progress & Independence",
+  seoDescription: "A baby walking dream may reflect growth, progress, independence, or an unexpected milestone depending on how the baby moves.",
+  category: "Baby & Family Dreams",
+  tags: [
+    "baby walking dream meaning",
+    "dream about a baby walking",
+    "baby taking first steps dream",
+    "baby walking in a dream",
+    "first steps dream meaning"
+  ],
+  dreamSymbols: [
+    "Baby",
+    "First steps",
+    "Walking",
+    "Milestone",
+    "Growth",
+    "Independence"
+  ],
+  emotionalState: [
+    "Joy",
+    "Pride",
+    "Surprise",
+    "Hope",
+    "Worry",
+    "Excitement"
+  ],
+  behaviorInsights: [
+    "Supporting someone's development",
+    "Recognizing progress",
+    "Adjusting to unexpected independence",
+    "Encouraging a new beginning",
+    "Watching a situation develop",
+    "Learning to trust gradual progress"
+  ],
+  scenarios: [
+    {
+      "title": "You watch a baby take its first steps.",
+      "meaning": "First steps may reflect the beginning of a new stage or the first visible signs that something you have been waiting for is progressing."
+    },
+    {
+      "title": "The baby walks toward you.",
+      "meaning": "Notice whether the baby reached you and how you responded. Welcoming those steps might fit growing closeness; feeling unready to catch the baby brings responsibility into the scene."
+    },
+    {
+      "title": "You help the baby learn to walk.",
+      "meaning": "Helping the baby may reflect a supportive role you are taking while someone or something in your life develops."
+    },
+    {
+      "title": "The baby suddenly walks without help.",
+      "meaning": "Unexpected independence may reflect surprise at how quickly a person, project, relationship, or situation has developed."
+    },
+    {
+      "title": "The baby struggles to walk.",
+      "meaning": "Difficulty walking may reflect slow progress, setbacks, or concern that something new needs more time and support before it can become stable."
+    },
+    {
+      "title": "The baby falls while learning to walk.",
+      "meaning": "A fall may represent the normal setbacks that can occur while developing a new ability, especially if the baby gets back up and continues."
+    },
+    {
+      "title": "The baby walks confidently.",
+      "meaning": "Confident walking may reflect growing independence, momentum, or your sense that something is becoming more capable and established."
+    },
+    {
+      "title": "The baby starts walking much earlier than expected.",
+      "meaning": "An impossibly young baby walking can express surprise or pressure for progress to happen quickly. It is not a forecast of a real child's development."
+    },
+    {
+      "title": "You are unable to help the baby walk.",
+      "meaning": "Wanting to help without knowing how can feel frustrating. Was the baby actually struggling, or were they managing without you? That distinction leaves room for both support and letting go."
+    },
+    {
+      "title": "You feel worried as the baby walks away from you.",
+      "meaning": "The baby's increasing independence may bring up mixed feelings about letting go, losing control, or watching someone or something become less dependent on you."
+    }
+  ],
+  context: "The milestone itself is important, but the circumstances around it provide the clearest interpretation. Notice whether the baby was walking independently, being helped, struggling, falling, or moving toward or away from you. Consider whether you felt proud, surprised, protective, or worried. If you recently saw a baby take its first steps, cared for a child, or thought about growth and development, the dream may simply be processing that experience.",
+  relatedDreams: [
+    "holding-a-baby",
+    "baby-smiling",
+    "baby-crying",
+    "finding-a-baby"
+  ],
+  reflectionQuestions: [
+    "Was this the baby's first time walking?",
+    "Did the baby walk independently or need your help?",
+    "How did you react when the baby took its steps?",
+    "Did the baby walk toward you or away from you?",
+    "Did the baby fall, struggle, or walk confidently?",
+    "What new development in your waking life currently feels like it is taking its first steps?"
+  ],
+  illustrativeExamples: [
+    "Someone starting a new business might dream of watching a baby take its first steps and feeling proud. The baby may represent a new project that is beginning to show signs of progress but still needs support.",
+    "A parent who feels their child is becoming more independent might dream of helping a baby walk and then watching the baby suddenly move away alone. The dream may reflect the mixture of pride and uncertainty that can come with increasing independence."
+  ],
+  editorialNote: "Keep Baby Walking focused on the milestone of movement and emerging independence rather than repeating the broader meanings of Baby or Holding a Baby. Give particular attention to first steps, assistance, unexpected early walking, falls, confidence, and whether the baby moves toward or away from the dreamer.",
+  categories: [
+    "family",
+    "growth"
+  ],
+  emotionalStates: [
+    "Joy",
+    "Pride",
+    "Surprise",
+    "Hope",
+    "Worry",
+    "Excitement"
+  ]
+},
+{
+  title: "Hailstorm",
+  slug: "hailstorm",
+  description: "A hailstorm dream adds impact to the wider experience of a storm: something hits, damages, or forces you to find cover. It may fit feeling exposed to a sudden setback or harsh criticism, but recent weather is an equally relevant starting point. What the hail struck gives the dream its particular concern.",
+  emotionalMeaning: "Being struck by hail may bring out vulnerability, frustration, or the feeling of being caught off guard. Finding shelter can bring a sense of relief, while watching the storm safely may create curiosity or distance from a problem that affects others more directly.",
+  symbolicMeaning: "Hail brings impact into the scene: it strikes surfaces and can force you to find cover. In a dream, it can represent something unexpected that arrives forcefully and interrupts normal life. Damage to windows, cars, roofs, or plants can shift the focus toward what the disruption has affected.",
+  wakingLifeMeaning: "This dream may connect with a sudden conflict, unexpected setback, harsh criticism, or situation that disrupted your plans. It can also come from a recent experience with severe weather or concern about protecting your home and belongings.",
+  seoTitle: "Hailstorm Dream Meaning: Disruption, Protection & Change",
+  seoDescription: "A hailstorm dream may reflect sudden disruption, vulnerability, protection, or the aftermath of a difficult situation.",
+  category: "Weather & Nature Dreams",
+  tags: [
+    "hailstorm dream meaning",
+    "dream about a hailstorm",
+    "hail dream meaning",
+    "dreaming of hail",
+    "hailstorm in a dream"
+  ],
+  dreamSymbols: [
+    "Hail",
+    "Hailstorm",
+    "Storm",
+    "Ice",
+    "Shelter",
+    "Damage"
+  ],
+  emotionalState: [
+    "Fear",
+    "Surprise",
+    "Vulnerability",
+    "Relief",
+    "Frustration",
+    "Calm"
+  ],
+  behaviorInsights: [
+    "Seeking protection from a sudden problem",
+    "Waiting for difficult conditions to pass",
+    "Assessing damage after an unexpected event",
+    "Keeping a safe distance from conflict",
+    "Protecting people or possessions",
+    "Deciding when it is safe to move forward"
+  ],
+  scenarios: [
+    {
+      "title": "You are caught outside in a hailstorm.",
+      "meaning": "Being exposed to the hail may reflect feeling unprotected when something unexpected or unpleasant happens."
+    },
+    {
+      "title": "You run inside to escape the hail.",
+      "meaning": "Finding shelter can point to your instinct to create distance from a difficult situation rather than confronting it while conditions are chaotic."
+    },
+    {
+      "title": "You watch the hailstorm safely from inside.",
+      "meaning": "Watching from shelter may suggest that you are aware of a difficult situation without feeling directly threatened by it."
+    },
+    {
+      "title": "Hail breaks the windows.",
+      "meaning": "Shelter no longer feels fully protective when hail breaks a window. Consider whether a problem you had kept at a distance has begun interrupting your home life."
+    },
+    {
+      "title": "The hail damages your car.",
+      "meaning": "Damage to a car may bring the dream toward plans, independence, movement, or something you rely on to get where you need to go."
+    },
+    {
+      "title": "The hail destroys plants or crops.",
+      "meaning": "Damage to growing plants can emphasize concern about something you have invested time and effort into being disrupted by circumstances outside your control."
+    },
+    {
+      "title": "You are protecting someone from the hail.",
+      "meaning": "Protecting another person may reflect a real-life situation in which you feel responsible for helping someone through difficult circumstances."
+    },
+    {
+      "title": "The hail suddenly stops.",
+      "meaning": "The sudden calm afterward may emphasize the contrast between an intense disruption and the return of normal conditions."
+    },
+    {
+      "title": "You discover damage after the hailstorm.",
+      "meaning": "The immediate danger is over and attention turns to what needs care or repair. This can fit the practical aftermath of a setback, especially if you were deciding where to begin."
+    },
+    {
+      "title": "You see hail falling but are not afraid.",
+      "meaning": "Remaining calm may suggest that you recognize a difficult situation without feeling that you need to panic or immediately react to it."
+    }
+  ],
+  context: "Look at what the hail actually does in the dream. Being hit by it creates a very different experience from watching it through a window, and damage to a house, vehicle, garden, or another person gives the storm a more specific focus. Also notice whether you found shelter, stayed exposed, helped someone else, or inspected the damage afterward. If severe weather has recently been part of your surroundings, the dream may simply be drawing from that experience.",
+  relatedDreams: [
+    "storm",
+    "lightning",
+    "rain",
+    "watching-a-natural-disaster"
+  ],
+  reflectionQuestions: [
+    "Were you caught in the hail or watching it from somewhere safe?",
+    "Did you have somewhere to take shelter?",
+    "What, if anything, was damaged by the hail?",
+    "Were you worried about yourself, another person, or your property?",
+    "How did you feel once the storm stopped?",
+    "What sudden disruption or difficult situation have you recently had to deal with?"
+  ],
+  illustrativeExamples: [
+    "Someone dealing with unexpected criticism at work might dream of being caught outside in a hailstorm with nowhere to hide. The physical impact of the hail can mirror how exposed and unprepared the criticism made them feel.",
+    "Someone whose home recently experienced a stressful problem might dream of watching hail break the windows. The storm may represent an outside disruption that has started affecting their sense of security."
+  ],
+  editorialNote: "Keep Hailstorm distinct from the broader Storm page by using the physical impact of hail as the anchor. Exposure, shelter, property damage, protecting someone, and inspecting the aftermath should provide the main variations rather than repeating generic storm symbolism.",
+  categories: [
+    "nature",
+    "fear"
+  ],
+  emotionalStates: [
+    "Fear",
+    "Surprise",
+    "Vulnerability",
+    "Relief",
+    "Frustration",
+    "Calm"
+  ]
+},
+{
+  title: "Snow",
+  slug: "snow",
+  description: "Snow changes the familiar landscape. It can make a dream quiet and beautiful, turn a road impassable, or invite play. Begin with that experience before connecting it with stillness, isolation, or change in your life; a welcome snowfall and an exhausting journey through deep snow ask different questions.",
+  emotionalMeaning: "Quiet snowfall may leave you feeling peaceful or comforted, while being trapped in deep snow can bring frustration or helplessness. Playing in the snow may carry a sense of freedom and fun, whereas watching it melt can bring relief, sadness, or the feeling that something is passing.",
+  symbolicMeaning: "Snow can create a temporary landscape that changes how everything around it looks and functions. Fresh snow may suggest a clean or unfamiliar setting, deep snow can emphasize difficulty moving forward, and melting snow can point toward something thawing, changing, or returning to its previous state.",
+  wakingLifeMeaning: "This dream may connect with a period when life feels unusually quiet, distant, slowed down, or unfamiliar. It can also reflect a situation that has temporarily interrupted your normal plans. If you have recently seen snow, watched snowy scenes, traveled somewhere cold, or talked about snow, the imagery may simply come from that experience.",
+  seoTitle: "Snow Dream Meaning: Change, Stillness & New Beginnings",
+  seoDescription: "A snow dream may reflect stillness, emotional distance, obstacles, playfulness, or change depending on the snow and what happens in the dream.",
+  category: "Nature & Weather Dreams",
+  tags: [
+    "snow dream meaning",
+    "dream about snow",
+    "snow in a dream",
+    "dreaming of snow",
+    "snowfall dream meaning"
+  ],
+  dreamSymbols: [
+    "Snow",
+    "Snowfall",
+    "Ice",
+    "Winter",
+    "Cold",
+    "Melting snow"
+  ],
+  emotionalState: [
+    "Peace",
+    "Wonder",
+    "Loneliness",
+    "Frustration",
+    "Joy",
+    "Relief"
+  ],
+  behaviorInsights: [
+    "Adapting to unfamiliar conditions",
+    "Moving carefully through obstacles",
+    "Enjoying a temporary sense of freedom",
+    "Waiting for circumstances to change",
+    "Accepting that something is passing",
+    "Looking for warmth or connection"
+  ],
+  scenarios: [
+    {
+      "title": "Gentle snow is falling around you.",
+      "meaning": "Soft snowfall may create a peaceful atmosphere and can reflect a quieter period in your life or a desire to slow down and observe what is happening around you."
+    },
+    {
+      "title": "You are surrounded by deep snow.",
+      "meaning": "Deep snow may make the dream about movement and difficulty, especially if you are struggling to walk or reach somewhere."
+    },
+    {
+      "title": "Snow blocks the road or prevents you from traveling.",
+      "meaning": "Blocked travel may reflect plans that have been delayed or circumstances that are preventing you from reaching a particular goal."
+    },
+    {
+      "title": "You are walking through snow without difficulty.",
+      "meaning": "Moving easily through the snow may suggest that you are adapting to conditions that initially seemed unfamiliar or challenging."
+    },
+    {
+      "title": "The snow begins to melt.",
+      "meaning": "Melting snow can suggest that a period of distance, difficulty, or stillness is beginning to change."
+    },
+    {
+      "title": "You play in the snow.",
+      "meaning": "Playing in the snow may bring the dream toward enjoyment, spontaneity, childhood memories, or allowing yourself to have fun without focusing on practical concerns."
+    },
+    {
+      "title": "You are cold and cannot get warm.",
+      "meaning": "Start with the discomfort itself and whether you could find warmth or company. If the scene reminds you of feeling unsupported, that is one possible connection; cold does not automatically stand for emotional distance."
+    },
+    {
+      "title": "You watch snow falling from inside a warm house.",
+      "meaning": "Watching from indoors can create a sense of safety and separation, suggesting that you are observing change without being directly affected by it."
+    },
+    {
+      "title": "You become lost in the snow.",
+      "meaning": "Were landmarks covered or was the falling snow blocking your view? Losing familiar clues can fit uncertainty after circumstances change, while finding footprints or shelter adds a question about available help."
+    },
+    {
+      "title": "The snow suddenly disappears.",
+      "meaning": "A sudden disappearance may emphasize how quickly a temporary situation, mood, obstacle, or period of stillness can change."
+    }
+  ],
+  context: "The condition of the snow matters more than simply seeing it. Fresh snowfall creates a different atmosphere from dirty or melting snow, while deep snow can turn the dream into one about movement and obstacles. Notice whether you were traveling, playing, staying indoors, trying to get warm, or simply watching the snowfall. Your reaction is important too: snow can feel peaceful and beautiful to one dreamer and isolating or inconvenient to another.",
+  relatedDreams: [
+    "frozen-lake",
+    "calm-water",
+    "rain",
+    "storm",
+    "ice"
+  ],
+  reflectionQuestions: [
+    "Was the snow falling, melting, or already covering the ground?",
+    "Was it easy or difficult to move through the snow?",
+    "Did the snow prevent you from reaching somewhere?",
+    "Were you playing in the snow or trying to avoid it?",
+    "Did the snow make you feel peaceful, happy, lonely, or trapped?",
+    "What in your life currently feels slowed down, unfamiliar, or temporary?"
+  ],
+  illustrativeExamples: [
+    "Someone waiting for an important decision might dream of a road completely covered in deep snow, making it impossible to continue driving. The blocked road may reflect the frustration of having plans temporarily put on hold.",
+    "Someone going through a quieter period after a stressful experience might dream of gentle snow falling while they watch from a warm house. The separation from the cold may reflect a growing sense of safety and distance from the earlier turmoil."
+  ],
+  editorialNote: "Use Snow as the broad page and let the physical experience carry the interpretation. Gentle snowfall, deep snow, blocked travel, melting snow, warmth versus cold, and playful snow should create distinct sections without reducing snow to a single meaning such as purity or new beginnings.",
+  categories: [
+    "nature",
+    "emotion"
+  ],
+  emotionalStates: [
+    "Peace",
+    "Wonder",
+    "Loneliness",
+    "Frustration",
+    "Joy",
+    "Relief"
+  ]
+},
+{
+  title: "Ice",
+  slug: "ice",
+  description: "Ice dreams can center on uncertain footing, something frozen in place, or the relief of a thaw. Notice what the ice made possible or prevented: skating freely, slipping on a pavement, and being unable to break out of ice are different experiences. If the scene centers on a lake and the water beneath it, the Frozen Lake entry explores that setting in more detail.",
+  emotionalMeaning: "Feeling nervous while walking on ice may reflect caution around a situation where one wrong move feels costly. Slipping can bring embarrassment or loss of control, while standing safely on solid ice may feel calm. Watching ice melt can bring relief when you have been waiting for something to change, or sadness when you want something to remain as it is.",
+  symbolicMeaning: "The physical qualities of ice offer several possible comparisons: a slippery surface for uncertain footing, a frozen object for something temporarily unusable, or melting for a change you cannot stop. These are starting points, not fixed meanings. An ice cube in a drink need not carry the same weight as ice cracking beneath you.",
+  wakingLifeMeaning: "This dream may connect with a relationship that feels distant, a situation you are approaching carefully, or circumstances where you are unsure how much stability you really have. If you are currently waiting for someone to open up, trying not to make a mistake, or dealing with a situation that seems unpredictable, the physical qualities of ice can mirror that experience.",
+  seoTitle: "Ice Dream Meaning: Instability, Distance & Change",
+  seoDescription: "An ice dream may reflect caution, emotional distance, instability, or change depending on how you interact with the ice.",
+  category: "Nature & Emotional Dreams",
+  tags: [
+    "ice dream meaning",
+    "dream about ice",
+    "ice in a dream",
+    "walking on ice dream",
+    "melting ice dream meaning"
+  ],
+  dreamSymbols: [
+    "Ice",
+    "Thin ice",
+    "Frozen water",
+    "Slipping",
+    "Melting ice",
+    "Ice trap"
+  ],
+  emotionalState: [
+    "Caution",
+    "Fear",
+    "Instability",
+    "Relief",
+    "Frustration",
+    "Calm"
+  ],
+  behaviorInsights: [
+    "Proceeding carefully",
+    "Testing whether something is safe",
+    "Reacting to unexpected instability",
+    "Trying to escape a restrictive situation",
+    "Waiting for circumstances to change",
+    "Adjusting when something previously stable begins to shift"
+  ],
+  scenarios: [
+    {
+      "title": "You slip and fall on ice.",
+      "meaning": "Falling may reflect an unexpected loss of control, a mistake, or a situation that turned out to be less stable than you expected."
+    },
+    {
+      "title": "You are walking across thin ice.",
+      "meaning": "Thin ice can capture the feeling of taking a risk when you are unsure whether the situation will hold up under pressure."
+    },
+    {
+      "title": "The ice cracks beneath your feet.",
+      "meaning": "Cracking ice may suggest that something you have been relying on is beginning to feel less secure or predictable."
+    },
+    {
+      "title": "You cross the ice safely.",
+      "meaning": "Relief on reaching solid ground may fit getting through a delicate situation. Remember how you crossed: careful steps, help from someone else, or simply finding that the surface held."
+    },
+    {
+      "title": "You are trapped inside ice.",
+      "meaning": "Being frozen in place may reflect feeling stuck, restricted, or unable to act in a situation where you want movement."
+    },
+    {
+      "title": "You are trying to break through the ice.",
+      "meaning": "Breaking the ice may represent an effort to escape a restrictive situation, reach something that has been inaccessible, or create movement where there has been stagnation."
+    },
+    {
+      "title": "The ice melts while you are watching.",
+      "meaning": "Melting can represent a situation beginning to loosen or change after a period of stillness or emotional distance."
+    },
+    {
+      "title": "You fall through the ice into water.",
+      "meaning": "Breaking through the surface can turn the dream from controlled movement into sudden exposure, especially if the water feels cold, deep, or dangerous."
+    },
+    {
+      "title": "You are safely standing on thick ice.",
+      "meaning": "Secure footing might bring confidence or relief. If you still felt afraid despite the thick ice, the uncertainty in your response may matter more than the apparent strength of the surface."
+    },
+    {
+      "title": "You watch someone else walking across dangerous ice.",
+      "meaning": "Watching another person take the risk may reflect concern about their choices or a situation where you feel unable to control what someone else does."
+    },
+    {
+      "title": "Ice in a drink or container melts.",
+      "meaning": "Small, ordinary ice may belong to a memory of heat, refreshment, or waiting. If the melting mattered, ask what you were trying to preserve or finish before it changed."
+    }
+  ],
+  context: "The action is more revealing than the ice itself. Ask whether you were walking on it, falling through it, trapped inside it, breaking it, or watching it melt. The thickness and condition also matter: solid ice creates a different situation from cracking or melting ice. If you recently encountered icy weather, watched winter scenes, or thought about a fragile situation in waking life, that experience may have supplied the imagery.",
+  relatedDreams: [
+    "frozen-lake",
+    "snow",
+    "water",
+    "falling",
+    "being-trapped"
+  ],
+  reflectionQuestions: [
+    "Was the ice solid, thin, cracked, or melting?",
+    "Were you walking on it, trapped in it, or watching it?",
+    "Did you slip or fall through the ice?",
+    "Were you alone or watching someone else take the risk?",
+    "How did you feel when the ice began to melt or crack?",
+    "What situation in your life currently requires you to move carefully?"
+  ],
+  illustrativeExamples: [
+    "Someone who is unsure how a new relationship is developing might dream of walking carefully across thin ice, constantly checking whether it will hold. The dream can mirror the feeling of moving forward while still lacking certainty.",
+    "Someone who has felt stuck in a difficult situation might dream of being trapped inside ice that slowly begins to melt. The changing ice may reflect a sense that the situation is finally beginning to loosen."
+  ],
+  editorialNote: "Keep Ice centered on physical interaction with a fragile or frozen surface. Slipping, thin ice, cracking, falling through, being trapped, breaking the ice, and melting should carry the interpretation. Avoid turning every ice dream into a generic statement about emotional coldness.",
+  categories: [
+    "nature",
+    "uncertainty"
+  ],
+  emotionalStates: [
+    "Caution",
+    "Fear",
+    "Instability",
+    "Relief",
+    "Frustration",
+    "Calm"
+  ]
+},
+{
+  title: "Losing Your Phone",
+  slug: "losing-your-phone",
+  description: "Losing your phone in a dream can leave you searching for more than a device: a person's number, directions home, private messages, or photos you cannot replace. What you needed it for helps distinguish fear of disconnection from concern about privacy or practical dependence. Finding it again changes the story from loss to recovery.",
+  emotionalMeaning: "Panic while searching for the phone may reflect how important a particular connection or source of information feels to you. Frustration can point to feeling cut off or unable to reach someone, while relief after finding it may reflect the comfort of restoring access and control.",
+  symbolicMeaning: "A phone connects you to people, information, accounts, memories, and parts of your everyday life. Losing it can therefore center on temporary disconnection or loss of access rather than the device itself. Concerns about someone finding the phone may shift the dream toward privacy, boundaries, or information you would rather keep to yourself.",
+  wakingLifeMeaning: "This dream may connect with a strained relationship, difficulty reaching someone, fear of missing an important message, concerns about personal information, or simply feeling overwhelmed by constant communication. If you recently misplaced your phone or worried about losing important data, the dream may be a straightforward reflection of that experience.",
+  seoTitle: "Losing Your Phone Dream Meaning: Connection & Privacy",
+  seoDescription: "A losing your phone dream may reflect disconnection, privacy concerns, searching for access, or relief after recovering something important.",
+  category: "Technology & Communication Dreams",
+  tags: [
+    "losing your phone dream meaning",
+    "dream about losing your phone",
+    "lost phone dream",
+    "phone dream meaning",
+    "dream of losing a mobile phone"
+  ],
+  dreamSymbols: [
+    "Phone",
+    "Lost phone",
+    "Searching",
+    "Messages",
+    "Privacy",
+    "Communication"
+  ],
+  emotionalState: [
+    "Panic",
+    "Frustration",
+    "Disconnection",
+    "Anxiety",
+    "Relief",
+    "Vulnerability"
+  ],
+  behaviorInsights: [
+    "Searching for something important",
+    "Trying to restore communication",
+    "Protecting private information",
+    "Checking what has been lost",
+    "Seeking help to recover access",
+    "Reconnecting after a period of distance"
+  ],
+  scenarios: [
+    {
+      "title": "You cannot remember where you left your phone.",
+      "meaning": "Searching through familiar places may reflect frustration about temporarily losing access to something or someone important."
+    },
+    {
+      "title": "You search everywhere for your phone.",
+      "meaning": "Retracing your steps without finding it can capture the frustration of trying harder without getting closer. Was someone helping you search, or did you feel alone with an urgent problem?"
+    },
+    {
+      "title": "Someone has your lost phone.",
+      "meaning": "Knowing another person has your phone may bring privacy and trust concerns into the dream, especially if you worry about what they could see."
+    },
+    {
+      "title": "You lose your phone in a crowded place.",
+      "meaning": "Losing it among many people may emphasize difficulty maintaining a personal connection or keeping track of something important amid distractions."
+    },
+    {
+      "title": "You find the phone but cannot remember its password.",
+      "meaning": "The phone is back, but access is still blocked. Notice whether you were frustrated by forgetting the code or relieved that someone else could not read your information."
+    },
+    {
+      "title": "You find your phone after searching for it.",
+      "meaning": "Recovering the phone can bring the dream toward restored communication, reassurance, or regaining control after a period of uncertainty."
+    },
+    {
+      "title": "You find the phone but it has been damaged.",
+      "meaning": "Recovering a damaged phone may suggest that access has been restored but something about the connection, information, or situation has changed."
+    },
+    {
+      "title": "You lose your phone and cannot contact anyone.",
+      "meaning": "Being unable to call or message anyone can emphasize isolation or the fear of being unable to reach someone when you need them."
+    },
+    {
+      "title": "You are worried someone will look through your lost phone.",
+      "meaning": "The dream may focus more on privacy, boundaries, or fear that personal information could be exposed."
+    },
+    {
+      "title": "You decide not to look for the phone.",
+      "meaning": "Stopping the search could feel freeing, resigned, or exhausted. It need not mean you want to lose a relationship; you may simply have wanted the demands attached to the phone to stop."
+    }
+  ],
+  context: "Focus on what losing the phone prevented you from doing. Were you trying to call someone, check a message, access an account, find an address, take a photo, or protect private information? Also notice whether the phone was stolen, misplaced, left somewhere, or simply disappeared. Finding it again changes the dream considerably because the story becomes one of recovery rather than permanent loss.",
+  relatedDreams: [
+    "phone-not-working",
+    "losing-something-important",
+    "lost-luggage",
+    "lost-passport",
+    "being-lost"
+  ],
+  reflectionQuestions: [
+    "Where did you lose your phone?",
+    "What were you trying to do with it when you realized it was missing?",
+    "Were you more worried about communication, information, or privacy?",
+    "Did someone else have your phone?",
+    "Did you eventually find it?",
+    "What important connection or access are you currently worried about losing?"
+  ],
+  illustrativeExamples: [
+    "Someone waiting for an important message might dream of losing their phone and frantically searching through a crowded place. The dream may capture the anxiety of being unable to receive information they are waiting for.",
+    "Someone who has recently become concerned about privacy might dream that a stranger finds their lost phone and begins looking through it. In this case, the fear of exposure may be more important than the loss of communication itself."
+  ],
+  editorialNote: "Keep this clearly separate from Phone Not Working. Losing Your Phone is about absence and recovery: searching, being unable to access people or information, privacy concerns, discovering who has the device, and finding it again. Avoid defaulting to generic communication problems when the dream is really about possession and access.",
+  categories: [
+    "communication",
+    "anxiety"
+  ],
+  emotionalStates: [
+    "Panic",
+    "Frustration",
+    "Disconnection",
+    "Anxiety",
+    "Relief",
+    "Vulnerability"
+  ]
+},
+{
+  title: "Job Interview",
+  slug: "job-interview",
+  description: "A job interview dream puts you in front of someone who can accept or reject what you have to offer. It may rehearse a real application or bring a wider feeling of being evaluated into a familiar setting. Notice whether you wanted the role, understood the questions, and had a fair chance to answer; confidence and discomfort both have a place here.",
+  emotionalMeaning: "Nerves do not necessarily mean you feel unqualified. You might want the role badly, dislike being judged, or feel uneasy about the interviewer. Relief after leaving may concern having finished, while relief after a rejection might suggest that the job was not one you wanted.",
+  symbolicMeaning: "An interview places you in a situation where your abilities and choices are being examined. In a dream, it can represent an upcoming opportunity, a situation where you feel evaluated, or a part of life where you are trying to demonstrate that you are ready for something.",
+  wakingLifeMeaning: "This dream may connect directly with a real job search, an upcoming interview, career uncertainty, or concerns about whether you are qualified for an opportunity. It can also appear when you are being evaluated in another area of life, such as school, relationships, or a personal project.",
+  seoTitle: "Job Interview Dream Meaning: Preparation, Pressure & Success",
+  seoDescription: "A job interview dream may reflect preparation, evaluation, confidence, pressure, or uncertainty about an opportunity or important decision.",
+  category: "Work & Career Dreams",
+  tags: [
+    "job interview dream meaning",
+    "dream about a job interview",
+    "interview dream meaning",
+    "dream about job interview",
+    "job interview in a dream"
+  ],
+  dreamSymbols: [
+    "Job interview",
+    "Interviewer",
+    "Questions",
+    "Resume",
+    "Job offer",
+    "Workplace"
+  ],
+  emotionalState: [
+    "Nervousness",
+    "Confidence",
+    "Pressure",
+    "Excitement",
+    "Embarrassment",
+    "Relief"
+  ],
+  behaviorInsights: [
+    "Preparing for an important opportunity",
+    "Trying to demonstrate your abilities",
+    "Managing pressure while being evaluated",
+    "Responding to unexpected challenges",
+    "Questioning whether you are ready",
+    "Waiting for someone else's decision"
+  ],
+  scenarios: [
+    {
+      "title": "You feel completely prepared for the interview.",
+      "meaning": "Being ready can give the scene a sense of steadiness even when the result remains uncertain. Notice whether you trusted your preparation or still needed the interviewer to reassure you."
+    },
+    {
+      "title": "You arrive late for the interview.",
+      "meaning": "Being late may reflect anxiety about missing an opportunity, not being ready in time, or feeling that you are falling behind your own expectations."
+    },
+    {
+      "title": "You cannot find the interview location.",
+      "meaning": "Difficulty finding the location may reflect uncertainty about how to reach a particular goal or concern that you are not sure what path to take."
+    },
+    {
+      "title": "The interviewer asks questions you did not expect.",
+      "meaning": "Unexpected questions may represent situations in waking life where you feel you need to respond without having complete control over what will be asked of you."
+    },
+    {
+      "title": "You cannot answer the interviewer's questions.",
+      "meaning": "Struggling to answer may reflect self-doubt or fear of being exposed as unprepared, especially when you care strongly about the outcome."
+    },
+    {
+      "title": "You answer every question confidently.",
+      "meaning": "Did your answers feel honest, rehearsed, or unlike you? Speaking easily might fit confidence; saying only what the interviewer wanted to hear raises a different question about fitting in."
+    },
+    {
+      "title": "The interviewer seems impressed with you.",
+      "meaning": "Being positively received may reflect a desire for recognition or reassurance that your abilities are being noticed."
+    },
+    {
+      "title": "You are rejected after the interview.",
+      "meaning": "Rejection may bring fears about failure or not being chosen to the surface, particularly if you are currently waiting for a real decision."
+    },
+    {
+      "title": "You are offered the job.",
+      "meaning": "An offer can express hope or the pleasure of being chosen. Your response matters too: wanting to accept differs from feeling trapped by an opportunity you thought you wanted. It does not predict an employer's decision."
+    },
+    {
+      "title": "You attend the interview but do not know what job you are applying for.",
+      "meaning": "An unclear role may reflect uncertainty about what you want next or feeling as though you are being asked to prove yourself without knowing exactly where you are headed."
+    }
+  ],
+  context: "Notice who interviewed you, what they asked, and whether you had a fair chance to answer. Being late adds time pressure; being rejected introduces the experience of not being chosen. A current job search or a decision you are waiting for may explain the scene directly.",
+  relatedDreams: [
+    "work-stress",
+    "failing-an-exam",
+    "being-unprepared",
+    "being-late",
+    "missing-an-opportunity"
+  ],
+  reflectionQuestions: [
+    "Were you prepared for the interview?",
+    "What kinds of questions were you asked?",
+    "Did you feel confident or judged?",
+    "Were you late or unable to find the interview?",
+    "Did you receive an offer, rejection, or no clear outcome?",
+    "Where in your waking life do you currently feel evaluated or expected to prove yourself?"
+  ],
+  illustrativeExamples: [
+    "Someone actively applying for jobs might dream of arriving late to an interview and realizing they forgot their resume. The dream may capture the pressure and uncertainty of trying to secure a real opportunity.",
+    "Someone preparing to take on a larger role at work might dream of confidently answering difficult interview questions and receiving an offer. The dream may reflect growing confidence about being ready for greater responsibility."
+  ],
+  editorialNote: "Keep Job Interview specific to evaluation and performance. Preparation, lateness, unexpected questions, confidence, rejection, and receiving an offer should create genuinely different readings. Avoid turning every interview dream into generic work stress, especially when the dream clearly centers on one particular event.",
+  categories: [
+    "work",
+    "anxiety"
+  ],
+  emotionalStates: [
+    "Nervousness",
+    "Confidence",
+    "Pressure",
+    "Excitement",
+    "Embarrassment",
+    "Relief"
+  ]
+},
+{
+  title: "Getting Promoted at Work",
+  slug: "getting-promoted-at-work",
+  description: "A promotion dream pairs recognition with whatever comes next: more pay, authority, work, or attention from colleagues. It may express ambition or the wish to be valued, but feeling reluctant is just as relevant. Look at what the new position asked of you, not only the pleasure of being chosen.",
+  emotionalMeaning: "Feeling proud when you receive a promotion may reflect satisfaction with your progress or a desire to have your work recognized. Feeling overwhelmed can point to concern about handling greater responsibility, while disappointment after being passed over may reflect frustration about not being acknowledged.",
+  symbolicMeaning: "A promotion changes your position within a workplace, so the dream can center on recognition, status, responsibility, or expectations. The important detail is not simply moving upward but what the new role requires from you and how you feel about taking it on.",
+  wakingLifeMeaning: "This dream may connect with your career goals, a recent achievement, workplace competition, or a situation where you want your efforts to be noticed. It can also appear when you are taking on more responsibility without receiving a formal title change, or when you are questioning whether you are ready for the next step.",
+  seoTitle: "Getting Promoted at Work Dream Meaning: Recognition & Responsibility",
+  seoDescription: "A getting promoted at work dream may reflect recognition, ambition, responsibility, workplace expectations, or concerns about being ready for a bigger role.",
+  category: "Work & Career Dreams",
+  tags: [
+    "getting promoted at work dream meaning",
+    "promotion dream meaning",
+    "dream about getting promoted",
+    "dream about promotion at work",
+    "getting a promotion in a dream"
+  ],
+  dreamSymbols: [
+    "Promotion",
+    "Workplace",
+    "New position",
+    "Recognition",
+    "Boss",
+    "Responsibility"
+  ],
+  emotionalState: [
+    "Pride",
+    "Excitement",
+    "Pressure",
+    "Disappointment",
+    "Confidence",
+    "Uncertainty"
+  ],
+  behaviorInsights: [
+    "Seeking recognition for your efforts",
+    "Preparing for greater responsibility",
+    "Comparing your progress with others",
+    "Adjusting to a change in status",
+    "Questioning your readiness",
+    "Responding to workplace expectations"
+  ],
+  scenarios: [
+    {
+      "title": "You are told that you have been promoted.",
+      "meaning": "Being promoted may reflect a desire for recognition or a sense that your recent efforts deserve a greater level of responsibility."
+    },
+    {
+      "title": "You feel excited about your new position.",
+      "meaning": "Excitement may point to genuine ambition or enthusiasm about taking on a larger role and having more influence over your work."
+    },
+    {
+      "title": "You feel unprepared after receiving the promotion.",
+      "meaning": "Feeling unprepared may reflect concern about whether you have the skills, experience, or confidence needed for a new level of responsibility."
+    },
+    {
+      "title": "Your boss praises you before giving you the promotion.",
+      "meaning": "If the praise stayed with you more than the new title, acknowledgment may be what you wanted. Consider whose recognition felt important and whether it sounded sincere in the dream."
+    },
+    {
+      "title": "Someone else gets promoted instead of you.",
+      "meaning": "Being passed over may bring feelings about comparison, competition, fairness, or frustration over recognition that you hoped to receive."
+    },
+    {
+      "title": "You are promoted but receive much more work.",
+      "meaning": "The heavier workload may reveal mixed feelings about advancement, particularly if greater status also means greater pressure."
+    },
+    {
+      "title": "You are promoted to manage people you used to work alongside.",
+      "meaning": "You may be wondering whether authority would change belonging. Notice whether former peers supported you, resisted your decisions, or expected you to carry their work too."
+    },
+    {
+      "title": "You receive a promotion you did not ask for.",
+      "meaning": "An unexpected promotion may represent a responsibility or opportunity that has arrived before you feel completely ready to choose it."
+    },
+    {
+      "title": "You refuse the promotion.",
+      "meaning": "Refusing the role may suggest that advancement is not automatically what you want, particularly if the responsibilities attached to it feel more important than the title."
+    },
+    {
+      "title": "You get promoted but the promotion is taken away.",
+      "meaning": "Losing the promotion may reflect fear that recognition or progress could be temporary or that an achievement could be reversed."
+    }
+  ],
+  context: "Look beyond the title and notice what actually changed after the promotion. Did you receive more money, authority, responsibility, pressure, or attention from other people? If someone else was promoted, focus on how you reacted rather than assuming the dream is predicting a workplace outcome. A real promotion, performance review, job search, or recent achievement can also provide a straightforward reason for the dream.",
+  relatedDreams: [
+    "job-interview",
+    "receiving-a-paycheck",
+    "work-stress",
+    "being-admired",
+    "being-unprepared"
+  ],
+  reflectionQuestions: [
+    "How did you find out that you were promoted?",
+    "Were you excited, nervous, or disappointed?",
+    "What new responsibilities came with the promotion?",
+    "Did someone else receive the position instead of you?",
+    "Did you feel ready for the new role?",
+    "Where in your waking life are you currently seeking recognition or taking on more responsibility?"
+  ],
+  illustrativeExamples: [
+    "Someone who has been working hard without much recognition might dream of being called into their manager's office and receiving a promotion. The dream may express a wish for their effort to finally be acknowledged.",
+    "Someone who has recently been given more responsibility might dream of being promoted and then discovering they have no idea how to handle the new role. The dream may reflect the gap between being trusted with more and feeling fully prepared for it."
+  ],
+  editorialNote: "Use the title 'Getting Promoted at Work' to distinguish this page from the broader idea of Promotion. Keep recognition and the reality of the new role at the center: increased responsibility, being passed over, unexpected advancement, and feeling prepared or unprepared should drive the variations.",
+  categories: [
+    "work",
+    "identity"
+  ],
+  emotionalStates: [
+    "Pride",
+    "Excitement",
+    "Pressure",
+    "Disappointment",
+    "Confidence",
+    "Uncertainty"
+  ]
+},
+{
+  title: "Comet",
+  slug: "comet",
+  description: "In a comet dream, something distant can become impossible to ignore. Watching its tail, returning to look for it, or fearing its approach may fit curiosity or anticipation about a developing event. If all you saw was a brief streak and a wish, the Shooting Stars entry covers that experience; here the comet's presence and path are the focus.",
+  emotionalMeaning: "Feeling amazed while watching a comet may reflect curiosity or excitement about something rare or unexpected. Fear can shift the dream toward concern about an approaching change, while calm observation may suggest that you are noticing something significant without feeling personally threatened by it.",
+  symbolicMeaning: "Work with the comet as it appeared in your dream. A distant object that stays visible allows time for observation; one that grows larger can make waiting feel threatening. Its trail may be the detail you remember most. None of these features gives the dream a fixed message about an approaching event.",
+  wakingLifeMeaning: "This dream may connect with a new opportunity, unexpected news, a person who has recently entered your life, or an event that has captured your attention. If you have recently watched footage of a comet, read about astronomy, or seen one in the night sky, the dream may simply be drawing from that experience.",
+  seoTitle: "Comet Dream Meaning: Change, Opportunity & Wonder",
+  seoDescription: "A comet dream may reflect an unusual event, brief opportunity, change, or something suddenly capturing your attention.",
+  category: "Sky & Space Dreams",
+  tags: [
+    "comet dream meaning",
+    "dream about a comet",
+    "seeing a comet in a dream",
+    "comet in dream meaning",
+    "dreaming of a comet"
+  ],
+  dreamSymbols: [
+    "Comet",
+    "Tail",
+    "Night sky",
+    "Stars",
+    "Space",
+    "Light"
+  ],
+  emotionalState: [
+    "Wonder",
+    "Curiosity",
+    "Excitement",
+    "Fear",
+    "Anticipation",
+    "Calm"
+  ],
+  behaviorInsights: [
+    "Noticing something unusual",
+    "Watching an opportunity develop from a distance",
+    "Deciding whether to act before something passes",
+    "Preparing for an unexpected event",
+    "Observing change without immediately intervening",
+    "Trying to understand where something is headed"
+  ],
+  scenarios: [
+    {
+      "title": "You watch a comet moving across the night sky.",
+      "meaning": "Watching the comet may reflect noticing an unusual development or possibility without yet knowing how directly it will affect you."
+    },
+    {
+      "title": "The comet is extremely bright.",
+      "meaning": "An exceptionally bright comet may emphasize something that has recently become impossible for you to ignore."
+    },
+    {
+      "title": "The comet has a very long tail.",
+      "meaning": "A long visible trail may draw attention to the lasting impression an event, person, or decision is leaving behind."
+    },
+    {
+      "title": "You return to watch the comet over several nights.",
+      "meaning": "Repeatedly looking up might fit waiting for news or monitoring a change. Were you enjoying the sight, checking for danger, or worried you would miss it?"
+    },
+    {
+      "title": "You photograph or record the comet.",
+      "meaning": "What did you want the image for: to remember the sight, share it, or prove you had seen it? That intention can be more useful than treating the comet as an opportunity you must seize."
+    },
+    {
+      "title": "The comet passes safely overhead.",
+      "meaning": "Watching it pass without danger may suggest that you can observe a major development without needing to become directly involved."
+    },
+    {
+      "title": "The comet appears during the daytime.",
+      "meaning": "Seeing a comet when it should be difficult to see may emphasize something unusual becoming unexpectedly obvious in your waking life."
+    },
+    {
+      "title": "You are trying to follow the comet's path.",
+      "meaning": "Following its movement may reflect trying to understand where a developing situation is heading or what it could lead to."
+    },
+    {
+      "title": "The comet appears to be heading toward Earth.",
+      "meaning": "A threatening trajectory can shift the dream toward anticipation, fear, or concern about an approaching event. It does not predict an actual catastrophe."
+    },
+    {
+      "title": "The comet strikes Earth.",
+      "meaning": "If the comet actually impacts Earth, the dream becomes more about sudden disruption or a major event than simply observing a comet in the sky."
+    }
+  ],
+  context: "The key distinction is what the comet does. Simply seeing a comet is different from watching it approach, following its path, photographing it, or seeing it strike something. Pay attention to your distance from it and whether you felt fascinated, hopeful, anxious, or threatened. A real-life astronomy experience or recent exposure to comet imagery can also be enough to explain the dream.",
+  relatedDreams: [
+    "shooting-stars",
+    "bright-light-in-the-sky",
+    "stars",
+    "fire-falling-from-the-sky"
+  ],
+  reflectionQuestions: [
+    "Were you simply watching the comet or did it seem to be approaching you?",
+    "How bright and large did it appear?",
+    "Did you notice its tail or the path it followed?",
+    "Did you feel fascinated, peaceful, excited, or afraid?",
+    "Did the comet pass safely or strike something?",
+    "What unusual event or opportunity has recently captured your attention?"
+  ],
+  illustrativeExamples: [
+    "While waiting for a decision, a person might dream of returning to a window each night to check a comet's position. The repeated watching could resemble their anticipation and wish to know what will happen next.",
+    "Someone anticipating difficult news might dream of seeing a comet growing larger as it approaches Earth. The dream may express anxiety about an event that feels increasingly close rather than predicting an actual disaster."
+  ],
+  editorialNote: "Keep Comet separate from Shooting Star by emphasizing the comet's visible tail, sustained movement, distance, and trajectory. Do not turn ordinary comet sightings into impact scenarios. If the comet actually strikes Earth, treat that as a specific variation involving sudden disruption rather than the default meaning of seeing a comet.",
+  categories: [
+    "nature",
+    "change"
+  ],
+  emotionalStates: [
+    "Wonder",
+    "Curiosity",
+    "Excitement",
+    "Fear",
+    "Anticipation",
+    "Calm"
+  ]
+},
+{
+  title: "Constellations",
+  slug: "constellations",
+  description: "Constellation dreams focus on recognizing a pattern rather than simply seeing stars. Finding a familiar shape might feel reassuring; watching it rearrange can leave you uncertain about a guide you trusted. Consider whether you were enjoying the sky, learning from someone, or trying to use the pattern to find your way.",
+  emotionalMeaning: "Feeling fascinated by a constellation may reflect curiosity or the satisfaction of seeing how separate pieces fit together. Feeling lost while searching the sky can suggest uncertainty about how different parts of your life connect, while recognizing a familiar pattern may bring reassurance or a sense of direction.",
+  symbolicMeaning: "A constellation turns individual stars into a recognizable pattern. In a dream, that can represent connecting separate experiences, noticing relationships between events, or finding meaning in something that previously seemed random. A constellation you recognize may carry additional personal associations.",
+  wakingLifeMeaning: "This dream may connect with a situation where you are trying to make sense of several pieces at once. You may be reviewing past events, looking for a pattern in someone's behavior, organizing scattered ideas, or trying to decide which direction to take. If you recently spent time looking at the night sky or learning about astronomy, the imagery may simply come from that experience.",
+  seoTitle: "Constellations Dream Meaning: Patterns, Connection & Direction",
+  seoDescription: "A constellation dream may reflect finding patterns, connecting separate experiences, or searching for direction and meaning in your life.",
+  category: "Sky & Symbolic Dreams",
+  tags: [
+    "constellation dream meaning",
+    "dream about constellations",
+    "seeing constellations in a dream",
+    "stars and constellations dream",
+    "constellation in a dream"
+  ],
+  dreamSymbols: [
+    "Constellation",
+    "Stars",
+    "Night sky",
+    "Pattern",
+    "Astronomy",
+    "Direction"
+  ],
+  emotionalState: [
+    "Wonder",
+    "Curiosity",
+    "Peace",
+    "Confusion",
+    "Hope",
+    "Awe"
+  ],
+  behaviorInsights: [
+    "Looking for connections between separate events",
+    "Searching for direction",
+    "Organizing scattered information",
+    "Recognizing a familiar pattern",
+    "Trying to understand a larger situation",
+    "Paying attention to details that previously seemed unrelated"
+  ],
+  scenarios: [
+    {
+      "title": "You recognize a constellation immediately.",
+      "meaning": "Recognizing the pattern may suggest familiarity, reassurance, or an existing understanding of how different parts of a situation fit together."
+    },
+    {
+      "title": "You try to identify an unfamiliar constellation.",
+      "meaning": "Searching for its identity may reflect trying to understand something new or make sense of a situation that does not yet have a clear explanation."
+    },
+    {
+      "title": "You connect stars together to form a constellation.",
+      "meaning": "Joining the stars yourself invites a question about how you are making sense of events. A satisfying pattern in a dream does not establish that unrelated events in waking life share a hidden cause."
+    },
+    {
+      "title": "You follow a constellation across the sky.",
+      "meaning": "Following the pattern may represent using clues, familiar signs, or an emerging understanding to guide a decision or direction."
+    },
+    {
+      "title": "The constellation helps you find your way.",
+      "meaning": "Using the stars for direction may emphasize a search for guidance when you are unsure which path to take."
+    },
+    {
+      "title": "The stars in the constellation move out of place.",
+      "meaning": "A familiar pattern changing can suggest that something you once understood clearly is becoming harder to predict."
+    },
+    {
+      "title": "A constellation forms in front of you.",
+      "meaning": "Watching scattered stars suddenly form a pattern may reflect a realization or a moment when separate pieces of information begin to make sense together."
+    },
+    {
+      "title": "You cannot find a constellation you know should be there.",
+      "meaning": "Not finding a familiar pattern may reflect uncertainty, disappointment, or difficulty recognizing something that once gave you a sense of direction."
+    },
+    {
+      "title": "Someone teaches you how to recognize a constellation.",
+      "meaning": "The teacher and the way they helped matter. Patient guidance might fit welcome support; pressure to see a shape you could not recognize could resemble being asked to accept someone else's explanation."
+    },
+    {
+      "title": "You see many constellations at once.",
+      "meaning": "A sky filled with recognizable patterns may suggest that you are noticing connections across several areas of your life rather than focusing on one isolated issue."
+    }
+  ],
+  context: "The important detail is whether the constellation was simply part of the sky or whether you were actively recognizing, following, creating, or searching for a pattern. If you knew its name, consider what that constellation means to you personally. If you were using it for navigation, the dream may be more about direction than symbolism. Recent interest in astronomy or stargazing can also explain the imagery without requiring a deeper interpretation.",
+  relatedDreams: [
+    "stars",
+    "being-lost",
+    "teacher",
+    "being-in-outer-space"
+  ],
+  reflectionQuestions: [
+    "Did you recognize the constellation or was it unfamiliar?",
+    "Were you trying to identify or follow its pattern?",
+    "Did the constellation help you find your way?",
+    "What did you feel when the stars formed the pattern?",
+    "Did the pattern remain stable or change?",
+    "What separate events or pieces of information in your life are you currently trying to connect?"
+  ],
+  illustrativeExamples: [
+    "A person sorting through several decisions might dream of drawing lines between stars until a shape appears. That could reflect the wish for a coherent picture, without proving that their real decisions are connected in the same way.",
+    "Someone facing an unfamiliar decision might dream of following a constellation across the night sky because it seems to show the way. The dream may reflect a desire for clearer direction rather than a literal message from the stars."
+  ],
+  editorialNote: "Keep Constellations within the broader Stars topic unless the dream specifically revolves around recognizing, creating, identifying, or following a pattern. The defining idea is not simply seeing stars, but turning separate points into something recognizable or useful.",
+  categories: [
+    "nature",
+    "self-discovery"
+  ],
+  emotionalStates: [
+    "Wonder",
+    "Curiosity",
+    "Peace",
+    "Confusion",
+    "Hope",
+    "Awe"
+  ]
+},
+{
+  title: "River Drying Up",
+  slug: "river-drying-up",
+  description: "A river drying up changes what you can rely on: a source of water, a route, a familiar view, or a place where things grow. That loss may resemble dwindling support or momentum, but the exposed riverbed can also open a path or reveal something hidden. Ask what the disappearing water actually changed for you.",
+  emotionalMeaning: "Watching a familiar river disappear may bring sadness, concern, or a sense that something important is changing. Feeling curious about what appears beneath the water can suggest discovery, while relief may point to being ready for a situation that has been gradually coming to an end.",
+  symbolicMeaning: "A river is defined by movement, so a drying river changes the image from flow to absence. It can represent something that once felt active or available becoming limited, whether that involves emotional connection, motivation, opportunity, or a resource you have relied on. What the empty riverbed reveals can add another layer to the dream.",
+  wakingLifeMeaning: "This dream may connect with a relationship becoming distant, a project losing momentum, a source of support changing, or a period when something that once felt abundant no longer feels available. It can also represent a transition in which an old source of movement is disappearing and you are having to figure out what comes next.",
+  seoTitle: "River Drying Up Dream Meaning: Loss, Change & Transition",
+  seoDescription: "A river drying up dream may reflect fading momentum, changing resources, emotional distance, or a transition from one stage to another.",
+  category: "Water & Life Transition Dreams",
+  tags: [
+    "river drying up dream meaning",
+    "dream about a river drying up",
+    "dry river dream",
+    "river disappearing dream meaning",
+    "dream of dry river"
+  ],
+  dreamSymbols: [
+    "Drying river",
+    "Riverbed",
+    "Water",
+    "Drought",
+    "Empty river",
+    "Flow"
+  ],
+  emotionalState: [
+    "Sadness",
+    "Concern",
+    "Curiosity",
+    "Relief",
+    "Emptiness",
+    "Acceptance"
+  ],
+  behaviorInsights: [
+    "Adjusting when circumstances change",
+    "Looking for alternatives when a resource disappears",
+    "Examining what remains after a change",
+    "Accepting the end of a familiar pattern",
+    "Trying to restore something that has been lost",
+    "Finding a new route forward"
+  ],
+  scenarios: [
+    {
+      "title": "You watch the river slowly dry up.",
+      "meaning": "A gradual change may reflect something in waking life that has been losing strength or availability over time rather than disappearing all at once."
+    },
+    {
+      "title": "The river suddenly dries up.",
+      "meaning": "A sudden loss of water can emphasize an unexpected interruption, especially if something you depended on changed without warning."
+    },
+    {
+      "title": "You discover objects or land beneath the dried river.",
+      "meaning": "The exposed riverbed may bring attention to things that were previously hidden or overlooked and are becoming visible because circumstances have changed."
+    },
+    {
+      "title": "You try to find the missing water.",
+      "meaning": "Searching for the water may reflect an effort to restore something that once felt available or to understand why a familiar situation has changed."
+    },
+    {
+      "title": "Your boat is stranded as the river dries up.",
+      "meaning": "A grounded boat turns missing water into a practical barrier. This may fit losing a route or resource you had counted on and needing another way forward."
+    },
+    {
+      "title": "Plants or animals are affected by the drying river.",
+      "meaning": "Seeing the consequences may shift the dream toward concern about how one major change is affecting other people, responsibilities, or parts of your life."
+    },
+    {
+      "title": "You walk along or across the dry riverbed.",
+      "meaning": "Walking along the bed differs from crossing it. Following the old course might fit examining what remains; reaching the opposite bank could feel like an obstacle has finally lifted."
+    },
+    {
+      "title": "You find a small amount of water remaining.",
+      "meaning": "Remaining water may suggest that something has diminished without disappearing completely, leaving room for continuation or recovery."
+    },
+    {
+      "title": "The river begins flowing again.",
+      "meaning": "The return of the water may reflect renewed movement, restored connection, or the possibility that a temporary period of stagnation is changing."
+    },
+    {
+      "title": "You feel peaceful after the river dries up.",
+      "meaning": "Peace rather than fear may suggest that you are becoming comfortable with an ending or with leaving behind something that once played an important role in your life."
+    }
+  ],
+  context: "Look at what changes as the river loses its water. A slowly drying river creates a different story from one that disappears overnight, and the consequences matter just as much: perhaps a route becomes unusable, hidden objects appear, animals are affected, or new ground becomes accessible. Your reaction is also important. If you recently experienced a relationship becoming distant, a project losing momentum, or a resource becoming harder to access, the dream may be processing that change. Recent drought reports, a local river's seasonal changes, or a visit to a dry riverbed can also supply the scene without a personal symbolic meaning.",
+  relatedDreams: [
+    "looking-at-a-river",
+    "crossing-a-river",
+    "water",
+    "desert",
+    "famine"
+  ],
+  reflectionQuestions: [
+    "Did the river dry up slowly or all at once?",
+    "What appeared when the water disappeared?",
+    "How did the drying river affect you or your ability to move forward?",
+    "Did you try to restore the water or simply observe what happened?",
+    "Was any water left in the river?",
+    "What in your life currently feels as though it is losing momentum, availability, or connection?"
+  ],
+  illustrativeExamples: [
+    "Someone whose close friendship has gradually become distant might dream of watching a familiar river slowly shrink until only an empty riverbed remains. The changing water may mirror the gradual loss of closeness rather than a sudden break.",
+    "Someone whose usual career path is no longer available might dream of a river drying up and discover a completely different path across the exposed riverbed. The dream may reflect having to find another route after something familiar stops working."
+  ],
+  editorialNote: "Treat River Drying Up as a focused variation of Looking at a River rather than relying on generic water symbolism. The changing river, what becomes exposed, the consequences of losing the flow, and whether water eventually returns should provide the distinct material. Avoid making the dream automatically about loss; a drying river can also reveal, redirect, or make something previously hidden accessible.",
+  categories: [
+    "nature",
+    "change"
+  ],
+  emotionalStates: [
+    "Sadness",
+    "Concern",
+    "Curiosity",
+    "Relief",
+    "Emptiness",
+    "Acceptance"
+  ]
+},
+{
+  title: "Being Unable to Open a Safe",
+  slug: "being-unable-to-open-a-safe",
+  description: "A locked safe keeps something valuable close but inaccessible. The frustration may fit a resource you cannot use, information you are waiting for, or a boundary you are unsure you should cross. Start with whose safe it was and what you thought was inside; protecting your own privacy is different from trying to enter someone else's.",
+  emotionalMeaning: "Frustration may come from knowing something is within reach but still being unable to access it. Curiosity can suggest a strong desire to discover what has been hidden, while anxiety may point to concerns about secrets, privacy, or losing access to something important.",
+  symbolicMeaning: "A safe is designed to protect valuables and information, so a locked safe can represent something deliberately kept out of reach. The lock may emphasize boundaries, protection, secrecy, or the feeling that you have not yet found the right way to access something.",
+  wakingLifeMeaning: "This dream may connect with information you cannot access, a personal matter someone refuses to discuss, an opportunity that has not opened up yet, or something you are keeping protected yourself. It can also reflect frustration when you feel you have the right key, code, permission, or knowledge but still cannot get through.",
+  seoTitle: "Unable to Open a Safe Dream Meaning: Secrets & Access",
+  seoDescription: "Being unable to open a safe in a dream may reflect hidden information, protected valuables, blocked access, secrecy, or frustration.",
+  category: "Objects & Discovery Dreams",
+  tags: [
+    "being unable to open a safe dream meaning",
+    "locked safe dream meaning",
+    "dream about a locked safe",
+    "cannot open a safe dream",
+    "safe in a dream"
+  ],
+  dreamSymbols: [
+    "Safe",
+    "Lock",
+    "Combination",
+    "Key",
+    "Secret",
+    "Valuables"
+  ],
+  emotionalState: [
+    "Frustration",
+    "Curiosity",
+    "Anxiety",
+    "Suspicion",
+    "Determination",
+    "Relief"
+  ],
+  behaviorInsights: [
+    "Trying to gain access to something protected",
+    "Searching for missing information",
+    "Respecting or challenging a boundary",
+    "Protecting something valuable",
+    "Persisting when an answer is not immediately available",
+    "Questioning whether something should be opened"
+  ],
+  scenarios: [
+    {
+      "title": "You know there is something valuable inside the safe.",
+      "meaning": "Knowing something important is inside can emphasize awareness of an opportunity, resource, answer, or possibility that you cannot currently access."
+    },
+    {
+      "title": "You have the key but it does not work.",
+      "meaning": "A useless key may reflect frustration about having what seems like the right solution but discovering that it does not solve the problem."
+    },
+    {
+      "title": "You know the combination but the safe will not open.",
+      "meaning": "Having the correct information without gaining access may reflect a situation where knowledge alone does not seem sufficient to move forward."
+    },
+    {
+      "title": "You cannot remember the safe's combination.",
+      "meaning": "Forgetting the code can fit an ordinary worry about losing access. The dream does not demonstrate that you have a buried memory or secret you must recover."
+    },
+    {
+      "title": "You try several combinations.",
+      "meaning": "Repeated attempts may reflect persistence, trial and error, or frustration with a problem that has not responded to your usual approach."
+    },
+    {
+      "title": "Someone else knows how to open the safe.",
+      "meaning": "Were you allowed to ask them for help, or did they refuse? Depending on someone for access differs from being denied it, and neither tells you that a real person is hiding something."
+    },
+    {
+      "title": "You hear something moving inside the safe.",
+      "meaning": "Knowing there is something inside without seeing it can heighten themes of curiosity, anticipation, or uncertainty about what has been kept hidden."
+    },
+    {
+      "title": "You eventually open the safe.",
+      "meaning": "Successfully opening it can shift the dream toward discovery, resolution, or finally gaining access to something that previously felt unavailable."
+    },
+    {
+      "title": "You decide to leave the locked safe alone.",
+      "meaning": "Walking away may suggest accepting a boundary, deciding that something is not worth pursuing, or respecting the fact that you do not currently have access."
+    },
+    {
+      "title": "You find a locked safe but do not know who it belongs to.",
+      "meaning": "An unfamiliar safe may represent something intriguing but uncertain, particularly if you are unsure whether you are meant to investigate it."
+    }
+  ],
+  context: "The safe itself is less important than the relationship between you and what it protects. Consider whether you knew what was inside, whether you had a key or combination, whether someone else controlled access, and whether you eventually opened it. A safe you deliberately keep locked can carry a different meaning from one you desperately want to open. If you recently dealt with passwords, private information, valuables, or something you were not allowed to access, that experience may have supplied the imagery.",
+  relatedDreams: [
+    "hidden-treasure",
+    "secret-room",
+    "opening-a-door",
+    "losing-your-phone"
+  ],
+  reflectionQuestions: [
+    "Did you know what was inside the safe?",
+    "Did you have a key or combination?",
+    "Who controlled access to the safe?",
+    "How many times did you try to open it?",
+    "Did you eventually get it open or walk away?",
+    "What information, opportunity, possession, or personal matter currently feels inaccessible to you?"
+  ],
+  illustrativeExamples: [
+    "Someone waiting for an important decision might dream of having the correct combination to a safe but being unable to open it. The dream may capture the frustration of feeling that they have done everything required but are still waiting for access.",
+    "Someone protecting a personal secret might dream of finding a locked safe and feeling relieved that nobody can open it. In that case, the locked safe may represent privacy and a boundary the dreamer wants to maintain."
+  ],
+  editorialNote: "Use the precise title 'Being Unable to Open a Safe' and focus on access rather than simply treating the safe as a symbol of wealth. Keys, combinations, ownership, attempts to open it, what may be inside, and the decision to persist or walk away should drive the interpretation.",
+  categories: [
+    "privacy",
+    "uncertainty"
+  ],
+  emotionalStates: [
+    "Frustration",
+    "Curiosity",
+    "Anxiety",
+    "Suspicion",
+    "Determination",
+    "Relief"
+  ]
+},
+{
+  title: "Receiving a Paycheck",
+  slug: "receiving-a-paycheck",
+  description: "A paycheck connects money with work already done. Receiving one in a dream may bring relief about meeting expenses, satisfaction in being paid fairly, or disappointment that your effort seems undervalued. The amount matters less than whether it felt right and whether you could actually use the payment.",
+  emotionalMeaning: "Feeling relieved when you receive the paycheck may reflect a desire for financial stability or the satisfaction of having an obligation met. Pride can connect with feeling that your work has been recognized, while disappointment about the amount may point to concerns about whether your effort is being fairly rewarded.",
+  symbolicMeaning: "Unlike receiving money as an unexpected gift, a paycheck represents compensation connected to work or effort. The dream can therefore focus on earning, recognition, fairness, and the relationship between what you contribute and what you receive in return.",
+  wakingLifeMeaning: "This dream may connect with your job, a recent payment, salary expectations, financial planning, or waiting to be compensated for work you have completed. It can also appear when you are questioning whether the effort you are putting into something is producing enough in return.",
+  seoTitle: "Receiving a Paycheck Dream Meaning: Work, Money & Recognition",
+  seoDescription: "A receiving a paycheck dream may reflect earned rewards, financial security, recognition, or concerns about being fairly compensated for your effort.",
+  category: "Money & Career Dreams",
+  tags: [
+    "receiving a paycheck dream meaning",
+    "paycheck dream meaning",
+    "dream about receiving a paycheck",
+    "getting paid in a dream",
+    "receiving salary dream"
+  ],
+  dreamSymbols: [
+    "Paycheck",
+    "Salary",
+    "Money",
+    "Work",
+    "Payment",
+    "Receipt"
+  ],
+  emotionalState: [
+    "Relief",
+    "Pride",
+    "Excitement",
+    "Disappointment",
+    "Security",
+    "Frustration"
+  ],
+  behaviorInsights: [
+    "Expecting compensation for effort",
+    "Assessing whether work is being rewarded fairly",
+    "Planning around financial resources",
+    "Waiting for an expected result",
+    "Valuing recognition for contributions",
+    "Deciding how to use newly received resources"
+  ],
+  scenarios: [
+    {
+      "title": "You receive your paycheck and feel relieved.",
+      "meaning": "The relief may reflect the importance of financial security or the desire to have an expected obligation finally taken care of."
+    },
+    {
+      "title": "Your paycheck is larger than expected.",
+      "meaning": "An unexpectedly large payment may reflect hopes that your effort will produce a better result than you anticipated."
+    },
+    {
+      "title": "Your paycheck is smaller than expected.",
+      "meaning": "A disappointing amount may reflect concerns about being undervalued or whether the reward you receive matches the effort you put in."
+    },
+    {
+      "title": "You are waiting for your paycheck to arrive.",
+      "meaning": "Waiting may mirror anticipation about receiving the result of work you have already completed or uncertainty about when a financial outcome will arrive."
+    },
+    {
+      "title": "Your paycheck is missing or lost.",
+      "meaning": "A missing paycheck may reflect anxiety about losing an expected reward or not receiving something you believe you have earned."
+    },
+    {
+      "title": "You receive a paycheck from a job you no longer have.",
+      "meaning": "An old employer's name may draw you back to the security, pressure, or recognition you associated with that job. It is not evidence that money is owed to you."
+    },
+    {
+      "title": "Someone hands you your paycheck directly.",
+      "meaning": "Receiving it from a specific person may emphasize recognition from an employer, manager, or another person whose approval matters to you."
+    },
+    {
+      "title": "You receive a paycheck but cannot cash it.",
+      "meaning": "The payment exists on paper but cannot meet your needs yet. This can fit frustration with delayed access or recognition that has not brought practical support."
+    },
+    {
+      "title": "You receive several paychecks at once.",
+      "meaning": "Multiple payments may emphasize accumulated effort, delayed rewards, or the feeling that several areas of work are finally producing results."
+    },
+    {
+      "title": "You receive a paycheck for work you did not expect to be paid for.",
+      "meaning": "Unexpected compensation may highlight a desire for overlooked effort to be recognized or rewarded."
+    }
+  ],
+  context: "Consider what work the payment was connected to, whether the amount seemed fair, who gave it to you, and whether you could actually use the money. If you are currently waiting for a salary, invoice payment, freelance payment, or job offer, the dream may simply reflect that financial situation. If there is no real payment involved, the dream may be more about recognition and whether your effort is producing something tangible.",
+  relatedDreams: [
+    "receiving-money",
+    "paying-bills",
+    "getting-promoted-at-work",
+    "work-stress",
+    "money"
+  ],
+  reflectionQuestions: [
+    "What work was the paycheck supposed to compensate you for?",
+    "Was the amount more or less than you expected?",
+    "Who gave you the paycheck?",
+    "Could you actually use the money?",
+    "How did you feel when you saw the amount?",
+    "Where in your life are you waiting to be rewarded or recognized for your effort?"
+  ],
+  illustrativeExamples: [
+    "Someone waiting for a delayed salary might dream of finally receiving a paycheck and immediately paying their bills. The dream may be processing the practical relief they expect once the payment arrives.",
+    "Someone who feels overlooked at work might dream of receiving a surprisingly large paycheck. The amount may represent the recognition they wish their effort would receive, rather than a prediction about their actual salary."
+  ],
+  editorialNote: "Keep Receiving a Paycheck distinct from Receiving Money by emphasizing earned compensation. Work performed, expected payment, fairness of the amount, delayed payment, and access to the paycheck should drive the interpretation. If the money is simply given as a gift or unexpected windfall, that belongs more naturally under Receiving Money.",
+  categories: [
+    "work",
+    "money"
+  ],
+  emotionalStates: [
+    "Relief",
+    "Pride",
+    "Excitement",
+    "Disappointment",
+    "Security",
+    "Frustration"
+  ]
+},
+{
+  title: "Rapture",
+  slug: "rapture",
+  description: "A Rapture dream can feel comforting, frightening, or both, especially when loved ones are taken or left behind. Begin with what this event means within your own beliefs and what you felt during the scene. The dream is not a verdict on your salvation or anyone else's, and it does not establish that an end-times event is imminent.",
+  emotionalMeaning: "Feeling peaceful during the Rapture may reflect trust, faith, or comfort in beliefs about the future. Fear can point to anxiety about judgment or being left behind, while grief may center on separation from people you love. Feeling confused or skeptical can suggest that the dream is processing questions rather than expressing certainty.",
+  symbolicMeaning: "The Rapture can symbolize dramatic separation, spiritual change, or an event that feels completely outside ordinary life. For a person who holds Christian beliefs about the Rapture, the dream may draw directly from those beliefs and emotions. For someone who does not hold those beliefs, the imagery may instead represent sudden change, separation, or a powerful religious idea encountered through culture or other people.",
+  wakingLifeMeaning: "This dream may connect with your faith, religious conversations, fears about the future, questions about salvation, or concerns about losing people you care about. It can also appear after hearing sermons, reading Scripture, watching religious content, or discussing end-times beliefs. A dream about the Rapture should not be treated as proof that the event is about to happen or as a prediction of the future.",
+  seoTitle: "Rapture Dream Meaning: Faith, Fear & Spiritual Questions",
+  seoDescription: "A Rapture dream may reflect faith, fear, separation, spiritual questions, or beliefs about the future without necessarily predicting an event.",
+  category: "Spiritual & Religious Dreams",
+  tags: [
+    "rapture dream meaning",
+    "dream about the rapture",
+    "rapture in a dream",
+    "christian dream meaning",
+    "dream of being raptured"
+  ],
+  dreamSymbols: [
+    "Rapture",
+    "Heaven",
+    "Jesus",
+    "Church",
+    "Sky",
+    "Separation"
+  ],
+  emotionalState: [
+    "Peace",
+    "Fear",
+    "Hope",
+    "Grief",
+    "Confusion",
+    "Awe"
+  ],
+  behaviorInsights: [
+    "Reflecting on personal beliefs",
+    "Questioning spiritual expectations",
+    "Thinking about separation from loved ones",
+    "Seeking reassurance about the future",
+    "Examining feelings about judgment or salvation",
+    "Processing religious teachings or conversations"
+  ],
+  scenarios: [
+    {
+      "title": "You are taken into heaven during the Rapture.",
+      "meaning": "If the experience feels peaceful, it may reflect feelings of faith, hope, belonging, or trust in your religious beliefs."
+    },
+    {
+      "title": "You are left behind during the Rapture.",
+      "meaning": "This can be a frightening picture of exclusion or separation. Ask what being left behind meant to you in the scene; it is not proof of rejection by God or a measure of your faith."
+    },
+    {
+      "title": "You see family members being taken during the Rapture.",
+      "meaning": "Watching loved ones leave may focus the dream on separation, concern for their spiritual lives, or fear of being separated from people who matter to you."
+    },
+    {
+      "title": "You are trying to find someone after the Rapture.",
+      "meaning": "Searching for someone afterward may reflect fear of loss, uncertainty, or the emotional impact of imagining a world in which familiar relationships have suddenly changed."
+    },
+    {
+      "title": "You are terrified during the Rapture.",
+      "meaning": "Fear may point to anxiety about judgment, uncertainty about your beliefs, or the frightening scale of imagining an event that changes everything at once."
+    },
+    {
+      "title": "You are praying during the Rapture.",
+      "meaning": "Praying may reflect turning toward a familiar source of comfort, guidance, or reassurance when faced with something overwhelming."
+    },
+    {
+      "title": "You watch the Rapture happening from the ground.",
+      "meaning": "Watching from the ground does not tell you whether your faith is strong or weak. Notice whether you felt excluded, curious, relieved, or worried for someone who disappeared."
+    },
+    {
+      "title": "You do not believe the Rapture is really happening in the dream.",
+      "meaning": "Skepticism within the dream may reflect questions, tension, or a difference between what you have been taught and what you personally believe."
+    }
+  ],
+  context: "Your own beliefs are especially important with this dream. If the Rapture is central to your faith, consider what you personally associate with it—salvation, reunion, judgment, separation, hope, or fear. If you do not hold that belief, the imagery may have a different source altogether. Recent sermons, religious conversations, Scripture, videos, or discussions about the end times can strongly influence this kind of dream. The dream itself cannot establish that a religious event is going to occur.",
+  relatedDreams: [
+    "going-to-heaven",
+    "being-left-behind",
+    "being-judged",
+    "praying",
+    "seeing-jesus"
+  ],
+  reflectionQuestions: [
+    "What does the Rapture mean to you personally?",
+    "Were you taken, left behind, or watching what happened?",
+    "How did you feel during and after the event?",
+    "Were people you love present in the dream?",
+    "Have you recently heard or discussed teachings about the Rapture or the end times?",
+    "Did the dream strengthen, challenge, or simply reflect your existing beliefs?"
+  ],
+  illustrativeExamples: [
+    "A person who finds comfort in their Christian faith might dream of being taken into heaven during the Rapture and feeling peaceful. The dream may reflect their existing beliefs about salvation and hope rather than predict a future event.",
+    "Someone who has recently heard intense discussions about the end times might dream of being left behind while searching for their family. The dream may express anxiety about separation and uncertainty created by those conversations."
+  ],
+  editorialNote: "Keep this faith-focused without presenting the dream as prophecy or evidence that the Rapture is imminent. Respect Christian interpretations while making room for readers whose beliefs differ. The dreamer's own understanding of the Rapture, emotional response, and recent religious experiences should carry more weight than a universal symbolic meaning.",
+  biblicalMeaning: "In 1 Thessalonians 4:13-18, Paul addresses grief about believers who have died and describes the living and the dead meeting the Lord together. The passage ends with an instruction to comfort one another.\n\nFor a Christian reader, that context offers a way to reflect on hope, reunion, and care after an unsettling dream. It is not a method for interpreting who was taken or left behind in your dream. You do not need to treat the scene as a spiritual test or a timetable for future events.",
+  sources: [
+    {
+      "title": "1 Thessalonians 4:13-18",
+      "author": "Biblical text",
+      "publication": "Bible (King James Version)",
+      "url": "https://www.biblegateway.com/passage/?search=1%20Thessalonians%204%3A13-18&version=KJV",
+      "sourceType": "Primary religious text",
+      "context": "Paul addresses grief and hope for believers who have died. The devotional application here concerns comfort, not decoding a dream or predicting the timing of an event."
+    }
+  ],
+  categories: [
+    "spiritual",
+    "faith"
+  ],
+  emotionalStates: [
+    "Peace",
+    "Fear",
+    "Hope",
+    "Grief",
+    "Confusion",
+    "Awe"
+  ]
+},
+{
+  title: "Dreaming About Your First Love",
+  slug: "dreaming-about-your-first-love",
+  description: "Dreaming about your first love may bring back feelings, memories, or a version of yourself associated with an important early relationship. The dream does not necessarily mean you still want the person back.",
+  emotionalMeaning: "Happiness might bring back the excitement of that period, but a first love need not have been simple or safe. Sadness, embarrassment, anger, affection, and relief can coexist. Give your actual experience more weight than an idealized picture of young love.",
+  symbolicMeaning: "The person may bring an earlier version of you into the dream: what you hoped for, what you accepted, or how you first learned to be vulnerable with someone. A first love can also have been unreturned, so the dream need not involve a former partner or a relationship that ever took place.",
+  wakingLifeMeaning: "This dream may appear when something in your present life reminds you of that period, even if you have no desire to reconnect with the person. A current relationship, a familiar place, a song, an old photograph, or a similar emotional experience can bring older memories back into your dreams.",
+  seoTitle: "Dreaming About Your First Love: What It May Mean",
+  seoDescription: "Dreaming about your first love may reflect nostalgia, old memories, emotional growth, or qualities associated with an important early relationship.",
+  category: "Relationships & Memory Dreams",
+  tags: [
+    "dreaming about your first love",
+    "first love dream meaning",
+    "dream about first love",
+    "seeing your first love in a dream",
+    "dreaming of your first love"
+  ],
+  dreamSymbols: [
+    "First love",
+    "Past relationship",
+    "Nostalgia",
+    "Youth",
+    "Romance",
+    "Memory"
+  ],
+  emotionalState: [
+    "Nostalgia",
+    "Happiness",
+    "Longing",
+    "Sadness",
+    "Embarrassment",
+    "Acceptance"
+  ],
+  behaviorInsights: [
+    "Revisiting an important memory",
+    "Comparing past and present experiences",
+    "Recognizing how your approach to love has changed",
+    "Processing unfinished feelings",
+    "Remembering an earlier version of yourself",
+    "Letting go of an old chapter"
+  ],
+  scenarios: [
+    {
+      "title": "You see your first love after many years.",
+      "meaning": "Seeing them after a long period may reflect memories resurfacing or a present experience reminding you of that earlier period of your life."
+    },
+    {
+      "title": "You and your first love are together again.",
+      "meaning": "Being reunited may reflect nostalgia for the emotions or circumstances associated with that time rather than a literal wish to restart the relationship."
+    },
+    {
+      "title": "You talk to your first love.",
+      "meaning": "Listen to what mattered in the exchange without treating the words as that person's present thoughts. The conversation might express something you wish you could say, hear, or understand about that time."
+    },
+    {
+      "title": "You and your first love fall in love again.",
+      "meaning": "Falling in love again may represent a desire to experience excitement, vulnerability, or emotional freshness in your current life."
+    },
+    {
+      "title": "Your first love is happy with someone else.",
+      "meaning": "Seeing them with another person may bring up acceptance, comparison, unresolved feelings, or simply recognition that both of your lives have moved forward."
+    },
+    {
+      "title": "You argue with your first love.",
+      "meaning": "An argument may bring attention to unresolved memories or to an aspect of the relationship that you still associate with hurt, frustration, or disappointment."
+    },
+    {
+      "title": "You apologize to your first love or they apologize to you.",
+      "meaning": "An apology may reflect a desire for closure around something that happened during that period, even if you have not consciously thought about it recently."
+    },
+    {
+      "title": "You are back in a place connected to your first love.",
+      "meaning": "The setting may be more important than the person, especially if the location brings back memories of who you were at that stage of your life."
+    },
+    {
+      "title": "You are happy to see your first love but do not want to be with them.",
+      "meaning": "This combination can suggest that you can value what the relationship meant to you without wanting to return to it."
+    },
+    {
+      "title": "Your first love never knew how you felt.",
+      "meaning": "The dream might revisit longing, uncertainty, or the wish to have been noticed. Compare those feelings with your present experience without assuming that the person now feels the same way."
+    }
+  ],
+  context: "The distinction from dreaming about an ex is important: a first love can represent the period when you first experienced romantic attachment, not simply a former partner you once dated. Ask what that relationship meant at the time and what it represents to you now. If something in your present life resembles that earlier experience, the dream may be connecting the two. Sometimes the person is simply the face attached to a particular chapter of your life. A vivid reunion does not tell you what the other person feels now or oblige you to contact them.",
+  relatedDreams: [
+    "ex-partner",
+    "meeting-someone-from-your-past",
+    "feeling-nostalgic",
+    "reliving-a-specific-memory",
+    "seeing-someone-you-miss"
+  ],
+  reflectionQuestions: [
+    "What do you remember most strongly about your first love?",
+    "How did you feel when you saw them in the dream?",
+    "Did you want closeness, distance, a conversation, or simply time with the memory?",
+    "What was happening around you when you first fell in love with them?",
+    "Does anything in your present life remind you of that period?",
+    "What part of yourself from that time do you associate with your first love?"
+  ],
+  illustrativeExamples: [
+    "Someone happily settled in a current relationship might dream about their first love and wake up feeling nostalgic. The dream may be revisiting the excitement of experiencing love for the first time rather than expressing dissatisfaction with their current partner.",
+    "Someone starting a new relationship might dream about their first love appearing in a place from their teenage years. The dream may connect the vulnerability of a new relationship with memories of an earlier time when romantic feelings were unfamiliar."
+  ],
+  editorialNote: "Keep this distinct from Ex-Partner by making the 'first love' experience the focus rather than simply treating the person as a former romantic partner. Explore what the first relationship represents—early vulnerability, discovery, youth, innocence, or formative memories—and avoid assuming the dream means the dreamer wants to reunite with that person.",
+  categories: [
+    "relationships",
+    "memory"
+  ],
+  emotionalStates: [
+    "Nostalgia",
+    "Happiness",
+    "Longing",
+    "Sadness",
+    "Embarrassment",
+    "Acceptance"
+  ]
+},
+{
+  title: "Dead Birds",
+  slug: "dead-birds",
+  description: "Finding a dead bird can bring sadness, alarm, or the urge to care for something vulnerable. A possible connection is an ending or a hope that has lost momentum, but your relationship with birds and any recent encounter matter first. The dream is not an omen of someone's death or bad luck.",
+  emotionalMeaning: "Feeling sad when you find a dead bird may connect with grief or the end of something meaningful. Feeling disturbed can point to vulnerability or discomfort with change, while feeling strangely calm may suggest acceptance of something that has already run its course.",
+  symbolicMeaning: "Birds are often associated with movement, freedom, and flight, so a dead bird can create a strong contrast between possibility and limitation. Depending on the dream, it may represent a plan that stopped progressing, a sense of freedom that has changed, or the end of a particular phase. It is not automatically a sign of bad luck or an approaching death.",
+  wakingLifeMeaning: "This dream may connect with a relationship that has ended, a goal you have abandoned, a change in circumstances, or something that once gave you excitement but no longer does. It can also reflect an ordinary encounter with a dead bird, recent news about animals, or imagery you have seen during the day.",
+  seoTitle: "Dead Birds Dream Meaning: Loss, Endings & Change",
+  seoDescription: "A dead birds dream may reflect endings, loss, changed freedom, or something that has stopped progressing, depending on the dream's context.",
+  category: "Animals & Symbolic Dreams",
+  tags: [
+    "dead birds dream meaning",
+    "dream about dead birds",
+    "dead bird dream",
+    "seeing dead birds in a dream",
+    "dead bird symbolism in dreams"
+  ],
+  dreamSymbols: [
+    "Dead bird",
+    "Birds",
+    "Feathers",
+    "Wings",
+    "Nest",
+    "Flight"
+  ],
+  emotionalState: [
+    "Sadness",
+    "Grief",
+    "Disturbance",
+    "Shock",
+    "Acceptance",
+    "Calm"
+  ],
+  behaviorInsights: [
+    "Processing an ending",
+    "Recognizing that something has changed",
+    "Letting go of an old plan",
+    "Investigating what went wrong",
+    "Protecting something vulnerable",
+    "Adjusting to a loss of freedom or momentum"
+  ],
+  scenarios: [
+    {
+      "title": "You find a single dead bird.",
+      "meaning": "A single bird can make the loss feel intimate, especially if it was a pet or a familiar visitor. Notice whether your concern was for the bird itself or for what might have harmed it."
+    },
+    {
+      "title": "You see many dead birds.",
+      "meaning": "A large number of dead birds may make the dream feel more overwhelming and can reflect the sense that several things have changed or ended at once."
+    },
+    {
+      "title": "You find a dead bird outside your home.",
+      "meaning": "The location may bring the dream closer to your personal life, particularly if the bird appears somewhere that normally feels safe or familiar."
+    },
+    {
+      "title": "You find a dead bird after a storm.",
+      "meaning": "The storm provides an immediate context for the bird's condition and may shift the dream toward the aftermath of a difficult or disruptive period."
+    },
+    {
+      "title": "You try to help a dying bird.",
+      "meaning": "Wanting to help and being unable to change the outcome can stir helplessness or responsibility. The scene does not mean you failed someone; consider what was actually within your control."
+    },
+    {
+      "title": "A bird dies while you are watching.",
+      "meaning": "Witnessing the death can emphasize the experience of seeing something change or end in real time rather than discovering the outcome afterward."
+    },
+    {
+      "title": "You bury a dead bird.",
+      "meaning": "Burying the bird may represent acknowledging an ending and giving yourself a way to put something painful or finished to rest."
+    },
+    {
+      "title": "You hold a dead bird in your hands.",
+      "meaning": "Holding the bird can make the dream more personal, emphasizing direct contact with loss, responsibility, or something delicate that could not be preserved."
+    },
+    {
+      "title": "A dead bird is lying beside an empty nest.",
+      "meaning": "The empty nest can add themes of absence, departure, or a change in a place that once contained activity and life."
+    },
+    {
+      "title": "The dead bird suddenly comes back to life.",
+      "meaning": "The reversal might bring hope, disbelief, or unease. It can be explored as a wish for another chance, without promising that a loss in waking life will be reversed."
+    }
+  ],
+  context: "Do not treat the dead bird as an automatic omen. Look at what happened before and after you saw it. A bird found after a storm tells a different story from one that dies in your hands, and a single bird creates a different atmosphere from dozens covering the ground. The species, location, cause of death if known, and your reaction can all matter. If you recently encountered a dead bird in waking life, that ordinary experience may be the simplest explanation for the imagery.",
+  relatedDreams: [
+    "death",
+    "burial",
+    "crows",
+    "storm"
+  ],
+  reflectionQuestions: [
+    "How many birds did you see?",
+    "Where did you find them?",
+    "Did you know what had happened to the birds?",
+    "Did you try to help, bury, or move one of them?",
+    "How did you feel when you saw the birds?",
+    "What has recently ended, changed, or stopped progressing in your life?"
+  ],
+  illustrativeExamples: [
+    "Someone who has recently abandoned a long-term project might dream of finding a dead bird beneath an empty tree. The bird may represent the loss of momentum or possibility attached to something they once hoped would grow.",
+    "Someone who has just gone through a difficult breakup might dream of carefully burying a dead bird. The burial may reflect acknowledging that a chapter has ended and beginning to process the loss."
+  ],
+  editorialNote: "Ground Dead Birds in the actual scene rather than presenting dead birds as a universal bad omen. Use the number of birds, location, cause, what the dreamer does, and what happens afterward to create specific interpretations. Keep the contrast between the bird's usual freedom and its lifeless state, but avoid claims that the dream predicts death or misfortune.",
+  categories: [
+    "animals",
+    "death"
+  ],
+  emotionalStates: [
+    "Sadness",
+    "Grief",
+    "Disturbance",
+    "Shock",
+    "Acceptance",
+    "Calm"
+  ]
+},
+{
+  title: "Phone Breaking",
+  slug: "phone-breaking",
+  description: "Dreaming about your phone breaking may reflect disrupted communication, frustration, loss of access, or worry about something you rely on suddenly becoming unreliable. How the phone breaks and what you do afterward can change the meaning.",
+  emotionalMeaning: "Feeling frustrated when your phone breaks may reflect the irritation of losing an important tool or connection. Panic can suggest that you depend heavily on what the phone gives you access to, while feeling strangely relieved may point to a desire for distance from constant communication.",
+  symbolicMeaning: "A broken phone can represent interrupted access rather than simply a broken object. A cracked screen, damaged camera, dead battery, or completely destroyed device each creates a different problem. The specific damage can show what function feels disrupted in the dream.",
+  wakingLifeMeaning: "This dream may connect with difficulty reaching someone, missed information, social pressure, privacy concerns, or frustration with something that is no longer working as expected. It may also simply reflect real concerns about damaging an expensive or important device.",
+  seoTitle: "Phone Breaking Dream Meaning: Communication & Disruption",
+  seoDescription: "A phone breaking dream may reflect disrupted communication, lost access, frustration, or concerns about something important becoming unreliable.",
+  category: "Technology & Communication Dreams",
+  tags: [
+    "phone breaking dream meaning",
+    "dream about phone breaking",
+    "broken phone dream",
+    "phone damage dream meaning",
+    "dream of a broken phone"
+  ],
+  dreamSymbols: [
+    "Broken phone",
+    "Cracked screen",
+    "Damaged phone",
+    "Communication",
+    "Technology",
+    "Phone"
+  ],
+  emotionalState: [
+    "Frustration",
+    "Panic",
+    "Annoyance",
+    "Vulnerability",
+    "Relief",
+    "Helplessness"
+  ],
+  behaviorInsights: [
+    "Trying to restore access",
+    "Finding another way to communicate",
+    "Protecting important information",
+    "Adapting when a familiar tool fails",
+    "Seeking a replacement or repair",
+    "Creating distance from communication"
+  ],
+  scenarios: [
+    {
+      "title": "You drop your phone and the screen shatters.",
+      "meaning": "A shattered screen may reflect sudden disruption or concern that something you rely on has become difficult to use or see clearly."
+    },
+    {
+      "title": "Your phone breaks while you are trying to call someone.",
+      "meaning": "The timing can emphasize interrupted communication, especially if reaching that person felt urgent."
+    },
+    {
+      "title": "Your phone's camera stops working.",
+      "meaning": "Damage to the camera may shift the dream toward concerns about recording, remembering, seeing, or being able to capture an important moment."
+    },
+    {
+      "title": "Your phone breaks but still turns on.",
+      "meaning": "A partially functioning phone may reflect a connection or resource that still exists but is no longer working the way you need it to."
+    },
+    {
+      "title": "Your phone is completely destroyed.",
+      "meaning": "Complete destruction can emphasize a stronger sense of losing access, especially if the phone is essential to what you are trying to accomplish in the dream."
+    },
+    {
+      "title": "You try to repair the broken phone.",
+      "meaning": "Repairing it may reflect an effort to restore communication, fix a strained situation, or make something useful again rather than immediately replacing it."
+    },
+    {
+      "title": "You cannot afford to replace the broken phone.",
+      "meaning": "The cost of replacement may bring financial pressure or concern about not having the resources to quickly solve a problem."
+    },
+    {
+      "title": "Someone else breaks your phone.",
+      "meaning": "If another person causes the damage, the dream may focus on trust, boundaries, interference, or feeling that someone else has disrupted something important to you."
+    },
+    {
+      "title": "You break your phone accidentally.",
+      "meaning": "Accidentally causing the damage may reflect worry about making a mistake that creates an avoidable problem or loss of access."
+    },
+    {
+      "title": "You replace the broken phone with a new one.",
+      "meaning": "Replacing it may shift the dream toward adapting to change and finding a different way to stay connected or access what you need."
+    }
+  ],
+  context: "The type of damage matters. A cracked screen, broken camera, damaged charging port, or completely destroyed phone creates a different problem, so pay attention to what stopped working. Also notice what you were trying to do when the phone broke and whether you repaired, replaced, or simply abandoned it. If you recently damaged a device or worried about your phone breaking, the dream may be directly connected to that experience.",
+  relatedDreams: [
+    "phone-not-working",
+    "losing-your-phone",
+    "losing-something-important",
+    "being-unable-to-speak",
+    "losing-your-language"
+  ],
+  reflectionQuestions: [
+    "What part of the phone broke?",
+    "How did the damage happen?",
+    "What were you trying to do when it broke?",
+    "Did you try to repair or replace it?",
+    "Did someone else cause the damage?",
+    "What important connection, tool, or source of information currently feels unreliable?"
+  ],
+  illustrativeExamples: [
+    "Someone waiting for an important phone call might dream of dropping their phone and shattering the screen just before answering it. The broken screen may mirror anxiety about losing access to information they are eagerly waiting for.",
+    "Someone who feels overwhelmed by constant messages might dream that their phone breaks and feel unexpectedly relieved. In that case, the broken device may represent a temporary escape from communication rather than a fear of losing it."
+  ],
+  editorialNote: "Consolidated into Phone Not Working. Retain this record for the submitted URL; distinct damage, repair, replacement, and cost scenarios are carried into the established article by applyNewDreamEditorialCompletion.",
+  categories: [
+    "communication",
+    "anxiety"
+  ],
+  emotionalStates: [
+    "Frustration",
+    "Panic",
+    "Annoyance",
+    "Vulnerability",
+    "Relief",
+    "Helplessness"
+  ],
+  status: "merged",
+  noindex: true,
+  canonicalSlug: "phone-not-working"
+},
 
 ];
 

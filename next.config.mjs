@@ -51,6 +51,11 @@ const nextConfig = {
 
       // 🔁 Legacy URL redirects
       {
+        source: "/dreams/phone-breaking",
+        destination: "/dreams/phone-not-working",
+        permanent: true,
+      },
+      {
         source: "/categories/relationships",
         destination: "/categories/relationship",
         permanent: true,

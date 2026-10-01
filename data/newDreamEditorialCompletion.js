@@ -112,4 +112,52 @@ export function applyNewDreamEditorialCompletion(dreams) {
   shadow.sources.push({ title: "Sleep paralysis", publication: "NHS", url: "https://www.nhs.uk/conditions/sleep-paralysis/", sourceType: "Clinical patient information", context: "Explains temporary inability to move around waking or falling asleep, sometimes accompanied by a sensed presence. It does not establish the cause of every shadow-person dream." });
   const cancer = dreams.find((dream) => dream.slug === "cancer");
   cancer.sources.push({ title: "Tests and Procedures Used to Diagnose Cancer", publication: "National Cancer Institute", url: "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis", sourceType: "Clinical patient information", context: "Explains medical evaluation and testing for cancer. A dream is not a diagnostic test." });
+
+  // Physical damage belongs within the established phone-failure article.
+  // Keep useful new details without repeating its existing broken-screen and repair types.
+  const phone = dreams.find((dream) => dream.slug === "phone-not-working");
+  const brokenPhone = dreams.find((dream) => dream.slug === "phone-breaking");
+  if (phone && brokenPhone) {
+    const damageContext = "If your phone breaks physically, notice how the damage happened and what still works. Dropping it, having someone else destroy it, and choosing to replace it introduce different questions about accidents, boundaries, and repair. A broken device in a dream does not establish that a relationship is broken; the cost, lost photos, or inconvenience may be the whole concern.";
+    phone.description = phone.description.replace("\n\nOne question to consider is:", `\n\n${damageContext}\n\nOne question to consider is:`);
+    phone.context = "Start with the task that failed: calling for help, reading a message, recording a moment, or finding your way. Then notice the cause. No signal, an empty battery, a forgotten password, and physical damage create different obstacles. Recent device trouble or worries about repair costs can supply the scene directly. If the phone was missing and the search mattered most, Losing Your Phone explores that variation.";
+    phone.scenarios = [...(phone.scenarios || []),
+      { title: "You drop the phone and shatter the screen", meaning: "An ordinary accident becomes costly or interrupts something urgent. Notice whether you were worried about what you could no longer do, the price of repair, or being blamed for the damage." },
+      { title: "The camera breaks but calls still work", meaning: "Here the loss concerns recording or sharing a moment, rather than being unable to reach anyone. Ask what you wanted to keep a picture of and why it mattered." },
+      { title: "The damaged phone still partly works", meaning: "You may be trying to manage with an imperfect tool or arrangement. Frustration differs from relief that the most important function survived." },
+      { title: "The phone is destroyed and you cannot afford a replacement", meaning: "Practical dependence and cost may be the main concerns. Consider whether someone offered another way to call, travel, work, or recover what you needed." },
+      { title: "Someone else breaks your phone", meaning: "An accident, a deliberate act, and damage during an argument create different questions about trust and boundaries. The dream is not evidence of that person's waking intentions." },
+      { title: "You repair, replace, or leave the broken phone behind", meaning: "Your next action matters: wanting the old device back may concern familiar contacts or memories, while welcoming a replacement might fit adaptation. Relief at leaving it behind can invite reflection on demands you would like a break from." },
+    ];
+    phone.reflectionQuestions = [...(phone.reflectionQuestions || []), "If the phone broke, what mattered most: the damage, repair cost, lost information, or the interruption?", "Did you want to repair it, replace it, or stop using it?"];
+    phone.tags = [...new Set([...(phone.tags || []), ...brokenPhone.tags])];
+    phone.relatedDreams = [
+      { slug: "losing-your-phone", reason: "Explore searching, recovery, and privacy when the device is missing rather than malfunctioning." },
+      { slug: "failure-to-call-or-communicate", reason: "Follow the wider experience of trying to reach someone when the device itself is not the central concern." },
+      { slug: "being-unable-to-speak", reason: "Consider the different experience of having words to express but being unable to voice them." },
+      { slug: "losing-something-important", reason: "Explore loss when photos, information, or another valued possession matter more than communication." },
+    ];
+  }
+
+  // Give the new, distinct variations a route from their established parent topics.
+  const newTopicLinks = {
+    "finding-money": [["hidden-treasure", "Follow the search, discovery, ownership, and protection of a find beyond cash."]],
+    "receiving-money": [["inheritance", "Explore what is passed down through family, including memory and responsibility."], ["receiving-a-paycheck", "Focus on earned compensation, fair payment, and access to wages."]],
+    money: [["paying-bills", "Explore obligations, due dates, and the relief or difficulty of settling payments."]],
+    "holding-a-baby": [["baby-walking", "Consider how care changes when a baby begins moving independently."]],
+    storm: [["hailstorm", "Focus on physical impact, shelter, and damage from hail."], ["snow", "Explore snowfall, changed surroundings, play, or blocked travel."]],
+    "frozen-lake": [["ice", "Explore ice beyond a lake, including slippery ground, frozen objects, and thawing."]],
+    "work-stress": [["job-interview", "Focus on evaluation before an offer."], ["getting-promoted-at-work", "Explore recognition and the responsibilities that come with advancement."]],
+    stars: [["constellations", "Explore recognizing, following, or losing a familiar pattern in the sky."], ["comet", "Follow a distinct object and its path, from fascination to fear of its approach."]],
+    "looking-at-a-river": [["river-drying-up", "Explore what changes when water recedes, from lost resources to newly exposed ground."]],
+    "secret-room": [["being-unable-to-open-a-safe", "Focus on protected contents, permission, and attempts to gain access."]],
+    "going-to-heaven": [["rapture", "Explore a dream centered on being taken or left behind within end-times imagery."]],
+    "ex-partner": [["dreaming-about-your-first-love", "Focus on the formative experience of first love, including love that was never returned."]],
+    crows: [["dead-birds", "Explore finding, caring for, or burying a dead bird without treating it as an omen."]],
+  };
+  for (const [slug, links] of Object.entries(newTopicLinks)) {
+    const parent = dreams.find((dream) => dream.slug === slug);
+    if (!parent) continue;
+    parent.relatedDreams = [...(parent.relatedDreams || []), ...links.map(([slug, reason]) => ({ slug, reason }))];
+  }
 }

@@ -541,7 +541,7 @@ Use the dream as a prompt to name the question you want answered and the evidenc
   "phone-not-working": {
     tags: ["phone not working dream", "communication breakdown", "disconnection", "unavailable support", "technology anxiety"],
     context: "No signal can represent isolation, a dead battery depleted capacity, a wrong number uncertain communication, and a broken screen distorted information. Recent device problems may also be incorporated literally.",
-    reflectionQuestions: ["Who were you trying to contact?", "Why was it urgent?", "How did the phone fail?", "Where is communication one-sided?", "Do you need new wording, another channel, or acceptance of unavailability?"],
+    reflectionQuestions: ["Were you trying to reach someone or use another function?", "What made the phone important at that moment?", "How did the phone fail?", "Did you find another way to do what you needed?"],
     illustrativeExamples: [{title:"Unavailable support",example:"Someone managing an emergency might dream that every call drops before anyone answers."},{title:"Avoided conversation",example:"Someone postponing a discussion might dream of repeatedly entering the wrong number."}],
     coreField: "wakingLifeMeaning", coreAddition: "It may expose a mismatch between urgency and access: knowing whom you need while lacking the conditions, language, permission, or capacity for meaningful contact."
   },
