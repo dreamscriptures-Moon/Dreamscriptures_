@@ -591,4 +591,144 @@ export const dreamSearchIndex = [
     "title": "Winning the Lottery",
     "description": "A lottery win dream may reflect hope, sudden opportunity, financial wishes, or fear of losing a chance at something important."
   },
+  {
+    "slug": "frogs",
+    "title": "Frogs",
+    "description": "A frog dream may reflect change, adaptability, curiosity, or discomfort depending on the frogs' behavior, location, and your emotional reaction."
+  },
+  {
+    "slug": "eagles",
+    "title": "Eagles",
+    "description": "An eagle dream may reflect freedom, strength, ambition, perspective, or vulnerability depending on how the eagle behaves and how you feel."
+  },
+  {
+    "slug": "lizards",
+    "title": "Lizards",
+    "description": "A lizard dream may reflect alertness, discomfort, adaptability, or uncertainty depending on where the lizard appears and what it does."
+  },
+  {
+    "slug": "turtles",
+    "title": "Turtles",
+    "description": "A turtle dream may reflect patience, protection, resilience, or slow progress depending on the turtle's behavior and your feelings."
+  },
+  {
+    "slug": "rabbits",
+    "title": "Rabbits",
+    "description": "A rabbit dream may reflect affection, vulnerability, care, or pursuit depending on whether you hold, chase, or protect the rabbit."
+  },
+  {
+    "slug": "pigeons",
+    "title": "Pigeons",
+    "description": "A pigeon dream may reflect communication, community, connection, or an important message depending on what the pigeons are doing."
+  },
+  {
+    "slug": "losing-your-keys",
+    "title": "Losing Your Keys",
+    "description": "A lost keys dream may reflect feeling blocked, locked out, or out of control, with different meanings depending on whether the keys are found or taken."
+  },
+  {
+    "slug": "cutting-your-hair",
+    "title": "Cutting Your Hair",
+    "description": "A haircut dream may reflect change, self-image, personal choice, or loss of control depending on who cuts the hair and how you feel."
+  },
+  {
+    "slug": "ants",
+    "title": "Ants",
+    "description": "An ant dream may reflect teamwork, persistence, many small demands, or feelings of being overwhelmed depending on where the ants appear."
+  },
+  {
+    "slug": "cockroaches",
+    "title": "Cockroaches",
+    "description": "A cockroach dream may reflect disgust, persistence, recurring problems, or feeling overwhelmed by something you are trying to remove."
+  },
+  {
+    "slug": "bees",
+    "title": "Bees",
+    "description": "A bee dream may reflect cooperation, busy activity, productivity, or pressure depending on whether you see a hive, swarm, honey, or a sting."
+  },
+  {
+    "slug": "bats",
+    "title": "Bats",
+    "description": "A bat dream may reflect uncertainty, unfamiliar surroundings, or discomfort with what you cannot clearly see, especially when bats fly indoors."
+  },
+  {
+    "slug": "monkeys",
+    "title": "Monkeys",
+    "description": "A monkey dream may reflect playfulness, curiosity, imitation, disruption, or interference depending on what the monkey does."
+  },
+  {
+    "slug": "deer",
+    "title": "Deer",
+    "description": "A deer dream may reflect gentleness, sensitivity, alertness, or caution depending on how the deer behaves and how you react."
+  },
+  {
+    "slug": "losing-your-wallet",
+    "title": "Losing Your Wallet",
+    "description": "A lost wallet dream may reflect financial access, identity, vulnerability, or security depending on what happened to the wallet."
+  },
+  {
+    "slug": "broken-bridge",
+    "title": "A Broken Bridge",
+    "description": "A broken bridge dream may reflect interrupted plans, separation, blocked progress, or finding another way forward when an expected route fails."
+  },
+  {
+    "slug": "leaking-roof",
+    "title": "A Leaking Roof",
+    "description": "A leaking roof dream may reflect recurring worries, weakened protection, or a problem entering your personal space despite efforts to contain it."
+  },
+  {
+    "slug": "overflowing-toilet",
+    "title": "An Overflowing Toilet",
+    "description": "An overflowing toilet dream may reflect privacy concerns, embarrassment, emotional buildup, or a problem becoming difficult to contain."
+  },
+  {
+    "slug": "missing-shoes",
+    "title": "Missing Shoes",
+    "description": "A missing shoes dream may reflect feeling unprepared, vulnerable, or uncertain about your direction depending on what happens to the shoes."
+  },
+  {
+    "slug": "stolen-bag",
+    "title": "A Stolen Bag",
+    "description": "A stolen bag dream may reflect concerns about privacy, personal belongings, security, or control, especially when the bag is eventually recovered."
+  },
+  {
+    "slug": "forgetting-your-password",
+    "title": "Forgetting Your Password",
+    "description": "A forgotten password dream may reflect feeling locked out, frustrated, or unable to regain access to something important or private."
+  },
+  {
+    "slug": "phone-ringing-unanswered",
+    "title": "A Phone Ringing Unanswered",
+    "description": "A phone ringing unanswered in a dream may reflect waiting for contact, hesitation, uncertainty, or an unresolved conversation."
+  },
+  {
+    "slug": "fence",
+    "title": "A Fence",
+    "description": "A fence in a dream may reflect boundaries, protection, separation, restriction, or the effort to find a way through."
+  },
+  {
+    "slug": "broken-staircase",
+    "title": "A Broken Staircase",
+    "description": "A broken staircase dream may reflect interrupted progress, unstable circumstances, or the need to find another way toward a goal."
+  },
+  {
+    "slug": "picking-fruit",
+    "title": "Picking Fruit",
+    "description": "A picking fruit dream may reflect timing, choosing opportunities, enjoying results, or reaching for something that is not yet easily accessible."
+  },
+  {
+    "slug": "cooking-food",
+    "title": "Cooking Food",
+    "description": "A cooking food dream may reflect preparation, responsibility, caring for others, creativity, or pressure when something does not go as planned."
+  },
+  {
+    "slug": "washing-clothes",
+    "title": "Washing Clothes",
+    "description": "A washing clothes dream may reflect cleaning up a problem, restoring order, dealing with stains, or facing an issue that keeps returning."
+  },
+  {
+    "slug": "lost-pet",
+    "title": "A Lost Pet",
+    "description": "A lost pet dream may reflect fear of separation, responsibility, emotional attachment, searching for something important, or relief after reunion."
+  },
 ];
