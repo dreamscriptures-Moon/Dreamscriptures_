@@ -1061,8 +1061,8 @@ related: [
 },
 {
   slug: "lucid-dreaming",
-  title: "Lucid Dreaming: What It Feels Like, Science and Safety",
-  description: "A practical reference to lucid dreaming: recognizing it, senses and control, waking up, false awakenings, research, personal meaning, and sleep safety.",
+  title: "Lucid Dreaming: What It Means and How It Works",
+  description: "Lucid dreaming is knowing you are dreaming while the dream continues. Learn what it feels like, whether you can control it, and what research says.",
   intro: "Lucid dreaming means knowing that you are dreaming while the dream is happening. Some people can also influence what happens in the dream. Awareness is what makes a dream lucid; control is not required. It may feel lifelike, hazy, exciting, calm, or unsettling. You might make choices within the scene, or simply notice what is happening without being able to change it.\n\nA spontaneous lucid dream happens without trying. Deliberate induction means using practices intended to bring one on; some involve disrupting sleep. An occasional spontaneous experience is different from repeatedly interrupting rest to pursue one. Neither having a lucid dream nor learning to induce it is something you need to achieve.\n\nDreamScriptures approaches these experiences with curiosity and care. Understanding what happened can be useful without treating it as supernatural proof or a reason to sacrifice restorative sleep.",
   content: [
     "Use the section links above to find the experience closest to yours. Start with recognition if you are unsure what happened, the comparison table if several sleep experiences seem to overlap, or the safety section if sleep or daytime wellbeing is being affected."

@@ -15,11 +15,12 @@ export function generateStaticParams() { return getCategoryEntries().map(({ slug
 export async function generateMetadata({ params }) {
   const category = getCategoryEntry((await params)?.category);
   if (!category) return {};
+  const data = categoriesData[category.key];
   const fullTitle = `${category.title} Dream Meaning & Interpretation`;
   const title = `${fullTitle} | DreamScriptures`.length > 70
     ? `${category.title} Dream Meanings`
     : fullTitle;
-  return createPageMetadata({ title, description: `Explore ${category.title.toLowerCase()} dream meanings, recurring themes, emotional patterns, and related interpretations from the DreamScriptures dream atlas.`, path: `/categories/${category.slug}` });
+  return createPageMetadata({ title, description: data?.searchDescription || `Explore ${category.title.toLowerCase()} dream meanings, recurring themes, emotional patterns, and related interpretations from the DreamScriptures dream atlas.`, path: `/categories/${category.slug}` });
 }
 
 export default async function CategoryPage({ params }) {

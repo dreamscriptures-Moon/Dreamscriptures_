@@ -841,6 +841,9 @@ const primaryEmotion = primaryEmotionSlug
   const exploreThemes = getExploreThemes(dreams);
   const dreamTitle = dream.title || dream.slug.replace(/-/g, " ");
   const insightSections = getDreamInsightSections(dream);
+  const hasSpiritualInsight = insightSections.some(
+    (section) => section.id === "spiritual-meaning"
+  );
   const summaryText = generateSummary(dream);
   const dynamicTitle = getDynamicDreamTitle(dreamTitle, dream);
   const breadcrumbSchema = getBreadcrumbSchema({
@@ -1010,6 +1013,7 @@ function getDreamContext(dream) {
     </Fragment>
   ))}
 </section>
+{!hasSpiritualInsight && <AdsterraNativeBanner />}
 <BiblicalPerspective dream={dream} />
 <MultipleMeaningsSection dream={dream} dreamTitle={dreamTitle} />
 <DreamTypesSection dream={dream} />

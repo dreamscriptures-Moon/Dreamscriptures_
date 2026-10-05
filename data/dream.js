@@ -23918,75 +23918,23 @@ The marriage represents your growing connection to it.`,
 {
   slug: "person-changing-into-an-animal",
   title: "Person Changing into an Animal",
+  seoTitle: "Person Changing Into an Animal Dream Meaning",
+  seoDescription: "Dreaming of yourself or someone else turning into an animal? Explore how who changes, the animal, and your reaction shape the possible meaning.",
 
   microSummary:
-    "Dreams about a person changing into an animal often reflect hidden instincts, personality changes, emotional transformation, shifting behavior, suppressed desires, fears, or qualities that are becoming more visible in yourself or someone else.",
+    "Seeing another person change into an animal in a dream may reflect a shift in how you see them or feelings you associate with that animal. If you become the animal, the dream may instead explore your own identity, freedom, or sense of control. Neither experience establishes anyone's hidden nature or intentions.",
 
   shortDescription:
-    "A strange and memorable dream where someone gradually or suddenly transforms into an animal. These dreams often appear when you are noticing changes in behavior, uncovering hidden aspects of personality, confronting instinctive emotions, or seeing someone in a completely different way than before.",
+    "Who transforms is the starting point: watching someone else change differs from experiencing an animal body yourself. The species, behavior, and feeling of choice help distinguish the two experiences.",
 
   description:
-    `There is something deeply unsettling about watching a person become an animal.
+    `Start with who changes. Watching a friend, partner, or stranger become an animal may express how familiar or unfamiliar that person feels to you within the dream. It can draw on your associations and expectations without revealing what they actually think or intend.
 
-At first, they seem familiar.
+Becoming an animal yourself puts the emphasis on your own experience. Flying, running, hiding, or losing the ability to speak may feel freeing, frightening, or frustrating. Notice what the new body lets you do, what it prevents, and whether you chose the change.
 
-You know who they are.
+This page focuses on a human becoming an animal. Simply encountering an animal is a different dream; its species page may be more useful. Repeated switches between identities or uncertainty about which form is real are explored more broadly on the Shapeshifter page.
 
-You recognize them.
-
-Then something changes.
-
-Their face.
-
-Their eyes.
-
-Their voice.
-
-Their body.
-
-The person slowly begins becoming something else.
-
-Or perhaps the transformation happens instantly.
-
-What makes these dreams so powerful is not the animal itself.
-
-It is the loss of familiarity.
-
-The feeling that someone you thought you understood is revealing a different side of themselves.
-
-That emotional experience often sits at the center of the dream.
-
-Dreams about people transforming into animals commonly appear during periods involving personality changes, relationship shifts, emotional awakening, hidden instincts, trust issues, personal growth, identity changes, emotional conflict, fear, attraction, or situations where someone's true nature feels increasingly difficult to ignore.
-
-The identity of the animal matters greatly.
-
-A snake may symbolize deception, healing, fear, instinct, or transformation.
-
-A wolf may symbolize independence, aggression, loyalty, leadership, or hidden strength.
-
-A lion may symbolize power, confidence, authority, or dominance.
-
-A dog may symbolize loyalty, protection, companionship, or trust.
-
-A bird may symbolize freedom, perspective, spiritual growth, or escape.
-
-A cat may symbolize independence, mystery, intuition, or emotional distance.
-
-Sometimes the dream is about another person.
-
-Sometimes the dream is actually about you.
-
-The person may simply be carrying qualities that your subconscious is trying to understand within yourself.
-
-The transformation often reflects a realization.
-
-Something hidden is becoming visible.
-
-Something beneath the surface is revealing itself.
-
-The dream frequently asks:
-
-What qualities are emerging that can no longer remain hidden?`,
+The animal is a clue to your associations, not a fixed code. A dog may recall companionship for one person and a frightening encounter for another. Recent stories, films, conversations, or animal encounters can also supply the transformation imagery.`,
 
   emotionalMeaning:
     `Emotionally, these dreams often revolve around surprise.
@@ -24037,7 +23985,7 @@ The dream often appears when emotions are becoming harder to ignore.
 
 The question becomes:
 
-What part of this person am I finally seeing clearly?`,
+What changed in how I felt about this person within the dream, and what do I actually know about them while awake?`,
 
   symbolicMeaning:
     `Symbolically, a person transforming into an animal often represents the emergence of instinct.
@@ -24078,7 +24026,7 @@ The dream is rarely concerned with physical transformation.
 
 It is concerned with psychological transformation.
 
-The animal often reveals what words have not yet explained.`,
+The animal may give a feeling a visible form, but it does not establish hidden motives or facts about another person.`,
 
   spiritualMeaning:
     `Spiritually, animals have long been associated with instincts, symbolism, archetypes, lessons, and deeper aspects of human nature.
@@ -24095,7 +24043,7 @@ The dream may encourage discernment.
 
 Noticing what is beneath appearances.
 
-Recognizing the true nature of a situation rather than relying solely on first impressions.
+Reflecting on your impressions while checking them against real interactions. A dream alone does not establish a spiritual message about another person.
 
 The transformation may symbolize revelation.
 
@@ -24148,12 +24096,12 @@ The deeper nature is changing.`,
     {
       type: "fear_vs_understanding",
       meaning:
-        "The transformation may feel frightening, yet it often reveals important truths rather than actual danger."
+        "The transformation may feel frightening or fascinating; the feeling can invite reflection without establishing danger or a hidden truth."
     },
     {
       type: "change_vs_revelation",
       meaning:
-        "The dream may seem to show someone becoming different when it may actually reveal qualities that were always there."
+        "A changed form may express a new impression of someone, an imagined possibility, or your own associations rather than a quality they actually possess."
     }
   ],
 
@@ -24182,16 +24130,30 @@ The deeper nature is changing.`,
       type: "someone changing into a lion",
       meaning:
         "Often reflects confidence, authority, power, courage, leadership, or dominance."
+    }
+  ],
+
+  context: "Read the scenarios by who changes and how the change feels, then use the animal-specific variations as possible associations. These are reflective interpretations, not a way to determine another person's character.",
+  scenarios: [
+    {
+      "title": "You turn into an animal",
+      "meaning": "Your own transformation may explore identity, bodily freedom, or control. Notice whether you chose the form and what you could do afterward. Enjoying flight differs from being unable to speak or return to your human body."
     },
     {
-      type: "a loved one changing into an animal",
-      meaning:
-        "May reflect changing perceptions, relationship shifts, hidden qualities, or emotional discoveries."
+      "title": "You watch another person turn into an animal",
+      "meaning": "The focus may be your changing impression of the person or your reaction to unfamiliar behavior. With someone you know, consider actual interactions separately from the dream; with a stranger, your associations with the animal may matter more. This is not evidence of deception or concealed intentions."
     },
     {
-      type: "yourself changing into an animal",
-      meaning:
-        "Often symbolizes personal transformation, emerging instincts, identity changes, or hidden aspects of yourself becoming visible."
+      "title": "The transformation feels peaceful or welcome",
+      "meaning": "A calm change may express curiosity, acceptance, or enjoyment of a different way of being. If you changed, notice which ability felt welcome. If someone else changed, notice whether you still recognized and trusted them within the dream."
+    },
+    {
+      "title": "The change is unwanted or the animal threatens you",
+      "meaning": "An involuntary transformation can focus on lost control; watching another person become threatening can focus on fear or uncertainty. The animal's actions matter more than treating its species as dangerous by definition. A frightening dream does not establish a waking threat."
+    },
+    {
+      "title": "The person changes back or keeps switching forms",
+      "meaning": "Returning to human form may bring relief, disappointment, or a sense that the change was temporary. Repeated switches can make uncertain identity the main theme; the Shapeshifter page explores that broader pattern."
     }
   ],
 
@@ -24281,13 +24243,13 @@ The deeper nature is changing.`,
   ],
 
   summary:
-    "Dreams about a person changing into an animal often symbolize hidden instincts, emerging personality traits, shifting perceptions, emotional transformation, and qualities that are becoming increasingly visible. These dreams commonly appear during periods of personal growth, relationship changes, identity development, or situations where someone's true nature feels more apparent than before. The transformation is often less about becoming something new and more about revealing what was already there beneath the surface.",
+    "A person becoming an animal may express changing perceptions, while becoming one yourself may explore identity and control. Who changes, what the animal does, and how you feel guide reflection; the dream does not reveal another person's hidden nature.",
 
   relatedDreams: [
     {
       slug: "snake",
       reason:
-        "Both dreams often involve hidden instincts, transformation, emotional tension, and deeper truths emerging."
+        "Explore the snake encounter itself when its movement or behavior matters more than the human transformation."
     },
     {
       slug: "wolf",
@@ -24312,7 +24274,7 @@ The deeper nature is changing.`,
     {
       slug: "shapeshifter",
       reason:
-        "Both dreams revolve around transformation, hidden identities, changing perceptions, and uncertainty about appearances."
+        "Explore repeated changes of form or uncertainty about identity beyond a human becoming one animal."
     }
   ],
 
@@ -52989,56 +52951,18 @@ If the dream repeats frequently, it may reflect an ongoing challenge, long-term 
   slug: "marrying-a-crush",
 
   title: "Marrying a Crush",
+  seoTitle: "Dreaming of Marrying Your Crush: What It Really Means",
+  seoDescription: "Explore what marrying your crush in a dream may reflect, from attraction and hope to hesitation. Your feelings and the wedding details can help you make sense of it.",
 
   microSummary:
-    "Dreams of marrying a crush often feel emotionally intense and personal — like something you want but haven’t fully reached suddenly becoming real.",
+    "Dreaming about marrying your crush may reflect attraction, a wish for mutual affection, or curiosity about a committed relationship. It does not show that your crush feels the same or predict a wedding. Feeling happy, hesitant, or uncomfortable can change what the dream means to you.",
 
   shortDescription:
     "Committing to someone you’re emotionally drawn to. These dreams often reflect desire, vulnerability, hope, and the tension between fantasy and reality.",
 
-  description: `
-  It feels close.
+  description: `A wedding brings an imagined relationship into a scene of commitment. If you felt happy, the dream may give shape to a wish to be close to your crush or feel chosen. If you hesitated or felt uncomfortable, it may explore the difference between attraction and wanting a relationship.
 
-  Not distant like a stranger. Not symbolic like something abstract.
-
-  It’s them.
-
-  Someone you already feel something for.
-
-  And in the dream, that feeling moves further than it usually does.
-
-  Into something real.
-
-  Something committed.
-
-  That shift carries weight.
-
-  Because this isn’t just about being near them anymore.
-
-  It’s about being chosen.
-
-  In some dreams, it feels natural. Easy. Like everything lines up without effort.
-
-  The connection feels mutual. Clear. Undeniable.
-
-  In others, there’s tension underneath it.
-
-  A quiet question.
-
-  Does this actually exist — or is it only here?
-
-  That’s where the emotion changes.
-
-  Excitement mixes with uncertainty.
-
-  Desire meets reality.
-
-  The dream doesn’t always clarify what’s real.
-
-  It lets you experience what it would feel like if it were.
-
-  And that feeling lingers longer than the dream itself.
-  `,
+Consider what you know about this person and what you have imagined about them. Recent conversations, seeing their posts, or thinking about a wedding can supply the scene without making it a message about the future. An old crush or a celebrity may bring different associations from someone you currently know and like.`,
 
   emotionalMeaning: `
   Emotionally, these dreams often carry desire, vulnerability, and hope.
@@ -53127,59 +53051,38 @@ If the dream repeats frequently, it may reflect an ongoing challenge, long-term 
   contradictions: [
     "In some cases, marrying a crush feels exciting and fulfilling, reflecting emotional desire and hope.",
     "In other cases, it feels uncertain or unrealistic, reflecting doubt or unreturned feelings.",
-    "Sometimes the dream reflects genuine emotional connection.",
+    "Sometimes the dream draws on interactions you value, without establishing that your feelings are returned.",
     "Other times, it reflects projection or imagined possibility."
   ],
 
-  types: [
+  scenarios: [
     {
-      type: "feeling mutual connection",
-
-      emotionalMeaning:
-      "Feels warm, natural, and fulfilling.",
-
-      symbolicMeaning:
-      "Represents desire for reciprocated feelings."
+      "title": "You happily marry your current crush",
+      "meaning": "A joyful wedding may express attraction and a wish for closeness or mutual affection. Notice whether the happiness came from being with this person, feeling chosen, or celebrating with others. The warmth belongs to your dream experience; it does not establish their feelings."
     },
-
     {
-      type: "feeling unsure during the marriage",
-
-      emotionalMeaning:
-      "Carries hesitation or doubt.",
-
-      symbolicMeaning:
-      "Represents uncertainty about the connection."
+      "title": "You marry a celebrity crush",
+      "meaning": "A celebrity may bring admired qualities such as confidence, creativity, or recognition into the wedding. Ask which quality mattered to you, especially if you do not know the person privately. The Marrying a Celebrity page explores that distinction in more detail."
     },
-
     {
-      type: "the crush acting differently",
-
-      emotionalMeaning:
-      "Feels confusing or unexpected.",
-
-      symbolicMeaning:
-      "Represents projection versus reality."
+      "title": "You marry someone you used to have a crush on",
+      "meaning": "An old crush can bring back a period of your life, an earlier hope, or a remembered feeling of possibility. The dream does not necessarily mean you want them now. Someone you admired without dating also differs from an ex-partner with whom you shared a relationship."
     },
-
     {
-      type: "feeling happy but questioning it",
-
-      emotionalMeaning:
-      "Feels emotionally mixed.",
-
-      symbolicMeaning:
-      "Represents tension between desire and belief."
+      "title": "Your crush proposes and you say yes or no",
+      "meaning": "A proposal puts the decision before the commitment. Saying yes may express hope or imagined readiness; saying no may reflect a boundary, hesitation, or wanting more time. Notice whether your answer felt freely chosen or shaped by pressure. The dream does not forecast a real proposal."
     },
-
     {
-      type: "the dream feeling very real",
-
-      emotionalMeaning:
-      "Feels intense and lingering.",
-
-      symbolicMeaning:
-      "Represents strong emotional attachment."
+      "title": "You feel uncomfortable during the wedding",
+      "meaning": "Attraction and comfort with commitment are different questions. Feeling rushed, watched, or unable to speak may make the dream more about expectations and choice than romance. Ask what felt wrong within the scene without assuming your crush is unsafe or incompatible in waking life."
+    },
+    {
+      "title": "The wedding falls apart or the marriage fails",
+      "meaning": "A cancelled ceremony, disagreement, or separation may explore disappointment or uncertainty about an imagined relationship. Notice what failed and how you responded: relief differs from grief. This is not a prediction that a future relationship will fail."
+    },
+    {
+      "title": "You prepare for the wedding but never reach the ceremony",
+      "meaning": "Choosing clothes, arranging guests, or struggling to finish preparations may shift attention toward anticipation and readiness. Enjoying the planning differs from feeling overwhelmed by expectations. If the preparation dominates, consider what you are trying to make ready in waking life."
     }
   ],
 
@@ -53229,48 +53132,20 @@ If the dream repeats frequently, it may reflect an ongoing challenge, long-term 
 
   relatedDreams: [
     {
-      slug: "marrying-someone-you-know",
-
-      relationshipType: "real-connection",
-
-      emotionalOverlap: [
-        "connection",
-        "uncertainty",
-        "emotion"
-      ],
-
-      reason:
-      "Both involve real people and explore emotional commitment."
+      "slug": "marrying-someone-you-know",
+      "reason": "Explore commitment to a familiar person when an active crush is not the central detail."
     },
-
     {
-      slug: "marrying-a-stranger",
-
-      relationshipType: "contrast",
-
-      emotionalOverlap: [
-        "uncertainty",
-        "curiosity",
-        "connection"
-      ],
-
-      reason:
-      "Both involve commitment, but one is familiar and the other is unknown."
+      "slug": "marrying-a-celebrity",
+      "reason": "Explore public image and admiration when your crush is a celebrity."
     },
-
     {
-      slug: "ex-texting-you",
-
-      relationshipType: "emotional-focus",
-
-      emotionalOverlap: [
-        "longing",
-        "confusion",
-        "attachment"
-      ],
-
-      reason:
-      "Both reflect emotional focus on a specific person and unresolved feelings."
+      "slug": "proposal",
+      "reason": "Focus on the question and your answer when the dream ends before a wedding."
+    },
+    {
+      "slug": "wedding-day-drama",
+      "reason": "Explore disrupted preparations or a ceremony that does not go as planned."
     }
   ],
 
